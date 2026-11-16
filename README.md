@@ -5,6 +5,8 @@ Sollu (சொல்லு, "say it") reads government schemes, notices and local
 - **Version 1:** Tamil Nadu. 38 districts. Tamil and English.
 - **Version 2:** All of India. 22 languages.
 
+**Live site:** https://sollu-ai.vercel.app
+
 This repo is the landing page. The product flow, word rules and copy for every page are in [FLOW.md](FLOW.md).
 
 ## Run it
