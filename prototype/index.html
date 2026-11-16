@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sollu — Know what's yours</title>
+<meta name="description" content="Sollu reads government schemes, notices and local laws, then explains them in plain Tamil or English. Ask by voice. Check what you can get. Know your rights.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,400&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FFFFFF; --surface:#F6F6F7; --surface-2:#EFEFF1; --card:#FFFFFF;
+  --ink:#111111; --ink-85:rgba(17,17,17,.85); --ink-72:rgba(17,17,17,.72); --ink-64:rgba(17,17,17,.64); --ink-50:#808080;
+  --btn-dark:#1A1A1A; --btn-dark-text:#FCFCFC;
+  --accent:#1E88F0; --accent-tint:#E3F0FE;
+  --coral:#FF4B3A; --pink:#F2479B; --yellow:#FFC226; --green:#22B45A; --purple:#8A4FFF; --sky:#2BA4F5;
+  --ring:rgba(17,17,17,.06); --ring-strong:rgba(17,17,17,.08);
+  --shadow-card:0 0 0 1px rgba(17,17,17,.06),0 1px 2px 0 rgba(17,17,17,.03),0 30px 60px -40px rgba(17,24,39,.25);
+  --shadow-pill:0 0 0 1px rgba(17,17,17,.07),0 1px 2px 0 rgba(17,17,17,.04);
+  --ease-out:cubic-bezier(.23,1,.32,1); --ease-rise:cubic-bezier(.16,1,.3,1);
+  --sans:"Instrument Sans","Noto Sans Tamil",ui-sans-serif,system-ui,sans-serif;
+  --serif:"Source Serif 4","Noto Sans Tamil",Georgia,serif;
+  --mono:"Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --gutter:20px;
+}
+@media (min-width:768px){:root{--gutter:32px}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}
+img,svg{display:block}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+h1,h2,h3{font-weight:400;letter-spacing:-.03em;text-wrap:balance}
+p{text-wrap:pretty}
+.wrap{max-width:1180px;margin:0 auto;padding:0 var(--gutter)}
+.tnum{font-variant-numeric:tabular-nums}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 20px;border-radius:12px;font-size:15.5px;font-weight:500;white-space:nowrap;transition:transform 160ms var(--ease-out),background-color 180ms ease,box-shadow 180ms ease}
+.btn:active{transform:scale(.96)}
+.btn-dark{background:var(--btn-dark);color:var(--btn-dark-text);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 8px 20px -10px rgba(0,0,0,.5)}
+.btn-ghost{background:var(--card);box-shadow:var(--shadow-pill)}
+.btn-lg{height:52px;padding:0 24px;font-size:16px}
+@media (hover:hover) and (pointer:fine){
+  .btn-dark:hover{background:#000}
+  .btn-ghost:hover{background:var(--surface)}
+}
+.pill{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 12px 0 6px;border-radius:999px;background:var(--card);box-shadow:var(--shadow-pill);font-size:13px;font-weight:500;color:var(--ink-72)}
+.pill i{display:grid;place-items:center;width:18px;height:18px;border-radius:999px;background:var(--accent-tint);color:var(--accent)}
+.label{display:inline-flex;align-items:center;gap:6px;height:26px;padding:0 10px;border-radius:999px;background:var(--card);box-shadow:var(--shadow-pill);font-size:12px;font-weight:500;color:var(--ink-64)}
+
+/* ---------- nav ---------- */
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.82);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);box-shadow:0 1px 0 var(--ring)}
+.nav .wrap{display:flex;align-items:center;height:68px;gap:16px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:600;font-size:19px;letter-spacing:-.02em}
+.logo-mark{width:28px;height:28px;border-radius:9px;background:var(--accent);display:grid;place-items:center;color:#fff}
+.logo b{color:var(--accent);font-weight:600}
+.nav-links{display:none;gap:2px;margin:0 auto}
+.nav-links a{padding:8px 12px;border-radius:8px;font-size:15px;font-weight:500;color:var(--ink-85);transition:background-color 160ms ease}
+@media (hover:hover){.nav-links a:hover{background:rgba(17,17,17,.05)}}
+.nav-right{display:flex;align-items:center;gap:8px;margin-left:auto}
+.lang{position:relative;display:flex;height:36px;padding:3px;border-radius:999px;background:var(--surface-2);font-size:13px;font-weight:500}
+.lang button{position:relative;z-index:1;padding:0 12px;border-radius:999px;color:var(--ink-64);transition:color 180ms ease}
+.lang button[aria-pressed="true"]{color:var(--ink)}
+.lang .thumb{position:absolute;top:3px;bottom:3px;left:3px;border-radius:999px;background:#fff;box-shadow:var(--shadow-pill);transition:transform 240ms var(--ease-out),width 240ms var(--ease-out)}
+.nav .btn{height:40px;padding:0 16px;font-size:15px;border-radius:10px}
+.nav .btn-dark{display:none}
+@media (min-width:960px){.nav-links{display:flex}.nav-right{margin-left:0}.nav .btn-dark{display:inline-flex}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:56px 0 40px}
+@media (min-width:768px){.hero{padding:88px 0 64px}}
+.stats{display:flex;gap:32px;margin-bottom:28px}
+.stat b{display:block;font-size:clamp(34px,4.6vw,52px);font-weight:400;letter-spacing:-.04em;line-height:1}
+.stat span{display:block;margin-top:6px;font-size:13px;color:var(--ink-50);font-weight:500}
+.hero h1{font-size:clamp(44px,7.2vw,104px);line-height:.98;letter-spacing:-.045em}
+.nw{white-space:nowrap}
+.hero h1 .ta{font-size:.62em;line-height:1.15;letter-spacing:-.01em;max-width:none}
+.blob{display:inline-grid;place-items:center;width:.74em;height:.74em;border-radius:999px;vertical-align:-.04em;color:#fff;position:relative}
+.blob svg{width:.32em;height:.32em}
+.blob.pink{background:radial-gradient(circle at 35% 30%,#ff8cc6,var(--pink) 60%,#c91f74)}
+.blob.blue{background:radial-gradient(circle at 35% 30%,#7cc6ff,var(--sky) 60%,#0d6fc9)}
+.blob + .blob{margin-left:-.12em}
+.chip-ico{display:inline-grid;place-items:center;width:.42em;height:.42em;border-radius:.1em;background:var(--coral);color:#fff;vertical-align:.08em;margin:0 .08em;transform:rotate(-8deg)}
+.chip-ico svg{width:.26em;height:.26em}
+.hero h1 em{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.02em;letter-spacing:-.035em;color:var(--ink-72)}
+.joined{display:inline-flex;align-items:center;gap:8px;margin-bottom:20px;padding:4px 12px 4px 4px;border-radius:999px;background:var(--surface);font-size:13px;font-weight:500;color:var(--ink-72)}
+.joined .dots{display:flex}
+.joined .dots i{width:20px;height:20px;border-radius:999px;border:2px solid var(--surface);display:grid;place-items:center;font-style:normal;font-size:10px;color:#fff;font-weight:600}
+.joined .dots i+i{margin-left:-6px}
+.hero-sub{margin-top:28px;max-width:720px;padding:18px 20px;border-radius:16px;background:var(--surface);font-family:var(--serif);font-size:19px;line-height:1.5;letter-spacing:-.015em;color:var(--ink-72)}
+.hero-sub[lang="ta"]{font-family:"Noto Sans Tamil",var(--sans);font-size:17px;line-height:1.7}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;align-items:center}
+.micro{font-size:13px;color:var(--ink-50);font-weight:500;margin-top:14px}
+
+/* sticker */
+.sticker{position:absolute;right:max(var(--gutter),calc((100vw - 1180px)/2 + 32px));top:72px;width:clamp(150px,22vw,300px);aspect-ratio:1;display:grid;place-items:center}
+.sticker .rings{position:absolute;inset:0;border-radius:999px;background:repeating-radial-gradient(circle,rgba(255,75,58,.0) 0 10px,rgba(255,75,58,.16) 10px 12px);mask:radial-gradient(circle,#000 40%,transparent 72%);-webkit-mask:radial-gradient(circle,#000 40%,transparent 72%)}
+.sticker button{position:relative;display:flex;align-items:center;gap:.3em;padding:.22em .5em .26em .55em;border-radius:.28em;background:var(--coral);color:#fff;font-size:clamp(30px,4.4vw,60px);font-weight:500;letter-spacing:-.03em;transform:rotate(-14deg);box-shadow:inset 0 -6px 12px rgba(150,20,10,.25),inset 0 2px 0 rgba(255,255,255,.35),0 20px 40px -16px rgba(255,75,58,.7);transition:transform 200ms var(--ease-out)}
+.sticker button:active{transform:rotate(-14deg) scale(.96)}
+.sticker .play{display:grid;place-items:center;width:.62em;height:.62em;border-radius:999px;background:#fff;color:var(--coral);position:absolute;right:-.24em;bottom:-.2em;box-shadow:0 4px 10px rgba(0,0,0,.18)}
+.sticker .play svg{width:.28em;height:.28em;margin-left:.04em}
+.sticker.speaking .rings{animation:pulse 1.4s var(--ease-out) infinite}
+@keyframes pulse{from{transform:scale(.85);opacity:1}to{transform:scale(1.1);opacity:.3}}
+@media (max-width:767px){.hero{padding-bottom:150px}.sticker{top:auto;bottom:4px;right:16px;width:140px}.sticker button{font-size:26px}}
+
+/* ---------- sections ---------- */
+section{padding:80px 0}
+@media (min-width:768px){section{padding:120px 0}}
+.intro{text-align:center;max-width:760px;margin:0 auto 48px}
+.intro h2{font-size:clamp(32px,4.6vw,54px);line-height:1.02;margin-top:16px}
+.intro p{margin:20px auto 0;max-width:600px;font-family:var(--serif);font-size:18px;line-height:1.5;color:var(--ink-64);letter-spacing:-.01em}
+.h2-left{font-size:clamp(36px,5.4vw,68px);line-height:1;letter-spacing:-.04em}
+.h2-left .muted{color:rgba(17,17,17,.32)}
+.inline-chip{display:inline-flex;align-items:center;padding:0 .18em;height:.92em;border-radius:.16em;background:linear-gradient(#3BAEFF,#1478E6);color:#fff;font-size:.86em;vertical-align:.04em;letter-spacing:-.04em;transform:rotate(-3deg);box-shadow:inset 0 1px 0 rgba(255,255,255,.4)}
+.reveal{opacity:0;transform:translate3d(0,18px,0);filter:blur(8px);transition:opacity .8s var(--ease-rise),transform .8s var(--ease-rise),filter .8s var(--ease-rise);transition-delay:var(--d,0s)}
+.reveal.in{opacity:1;transform:none;filter:none}
+.rise{animation:rise .8s var(--ease-rise) var(--d,0s) both}
+@keyframes rise{from{opacity:0;transform:translate3d(0,16px,0);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+@media (prefers-reduced-motion:reduce){.rise{animation:none}.reveal{opacity:1;transform:none;filter:none;transition:none}.sticker.speaking .rings{animation:none}}
+
+/* ---------- bento ---------- */
+.bento{display:grid;gap:16px}
+@media (min-width:900px){.bento{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}.bento .b1{grid-row:span 2}}
+.card{background:var(--surface);border-radius:24px;padding:24px;position:relative;overflow:hidden}
+.card h3{font-size:17px;font-weight:500;letter-spacing:-.01em}
+.card p{margin-top:6px;font-size:15px;line-height:1.5;color:var(--ink-64);max-width:34ch}
+.ico{display:grid;place-items:center;width:28px;height:28px;border-radius:8px;color:#fff;margin-bottom:16px}
+.ico svg{width:16px;height:16px}
+.ico.coral{background:var(--coral)}.ico.sky{background:var(--sky)}.ico.green{background:var(--green)}.ico.pink{background:var(--pink)}.ico.yellow{background:var(--yellow)}.ico.purple{background:var(--purple)}
+.circles{display:grid;grid-template-columns:repeat(3,72px);gap:14px;margin-top:28px;justify-content:end}
+.circles span{width:72px;height:72px;border-radius:999px;background:#fff;box-shadow:var(--shadow-card);display:grid;place-items:center;transition:transform 200ms var(--ease-out)}
+.circles span svg{width:28px;height:28px}
+.circles span:nth-child(2n){transform:translateY(18px)}
+.b1 .btn{height:34px;padding:0 14px;font-size:13px;border-radius:9px;margin-top:18px}
+.b1-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:22px}
+.b1-tags button{height:32px;padding:0 12px;border-radius:999px;background:#fff;box-shadow:var(--shadow-pill);font-size:13px;font-weight:500;color:var(--ink-72);transition:background-color 160ms ease,color 160ms ease}
+.b1-tags button[aria-pressed="true"]{background:var(--ink);color:#fff;box-shadow:none}
+.fit{margin-top:14px;font-size:13px;color:var(--ink-64);min-height:20px}
+.fit b{color:var(--ink);font-weight:500}
+.notice{margin-top:20px;background:#fff;border-radius:16px;box-shadow:var(--shadow-card);padding:16px;display:grid;gap:10px}
+.notice .doc{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--ink-50);font-weight:500}
+.notice .doc i{width:26px;height:32px;border-radius:4px;background:var(--surface-2);display:block;position:relative}
+.skel{height:6px;border-radius:3px;background:var(--surface-2)}
+.line{display:flex;gap:8px;align-items:flex-start;font-size:13px;line-height:1.45}
+.tag{flex:none;height:20px;padding:0 8px;border-radius:999px;font-size:11px;font-weight:600;display:inline-flex;align-items:center}
+.tag.g{background:#E2F6E9;color:#138A42}.tag.o{background:#FFF1D6;color:#A86A00}.tag.r{background:#FFE4E1;color:#C42A1B}
+.voice{display:flex;align-items:center;gap:14px;margin-top:22px}
+.mic{flex:none;width:52px;height:52px;border-radius:999px;background:var(--green);color:#fff;display:grid;place-items:center;box-shadow:0 10px 24px -10px rgba(34,180,90,.8);transition:transform 160ms var(--ease-out)}
+.mic:active{transform:scale(.96)}
+.mic svg{width:22px;height:22px}
+.wave{display:flex;align-items:center;gap:3px;height:36px}
+.wave i{width:3px;border-radius:2px;background:var(--ink);opacity:.75;height:30%;transform-origin:center}
+.playing .wave i{animation:wv 900ms ease-in-out infinite alternate}
+@keyframes wv{from{transform:scaleY(.4)}to{transform:scaleY(1.6)}}
+@media (prefers-reduced-motion:reduce){.playing .wave i{animation:none}}
+.bubble{margin-top:14px;background:#fff;border-radius:14px 14px 14px 4px;padding:12px 14px;box-shadow:var(--shadow-pill);font-size:14px;line-height:1.55;max-width:420px}
+.bubble[lang="ta"]{font-family:"Noto Sans Tamil",sans-serif}
+.sample{position:absolute;top:16px;right:16px;font-size:11px;font-weight:500;color:var(--ink-50);background:#fff;padding:3px 8px;border-radius:999px;box-shadow:var(--shadow-pill)}
+
+/* ---------- feature grid ---------- */
+.feat-head{margin-bottom:56px}
+.grid6{display:grid;gap:36px 40px}
+@media (min-width:640px){.grid6{grid-template-columns:1fr 1fr}}
+@media (min-width:960px){.grid6{grid-template-columns:repeat(3,1fr)}}
+.feat h3{font-size:16px;font-weight:500;letter-spacing:-.01em}
+.feat p{margin-top:6px;font-size:15px;line-height:1.55;color:var(--ink-64)}
+
+/* ---------- trust ---------- */
+.trust{background:var(--surface);border-radius:28px;padding:28px;display:grid;gap:32px;position:relative;overflow:hidden}
+@media (min-width:900px){.trust{grid-template-columns:1fr 1fr;padding:48px}}
+.trust h2{font-size:clamp(30px,3.8vw,46px);line-height:1.04}
+.trust .body{font-family:var(--serif);font-size:17px;line-height:1.55;color:var(--ink-64);margin-top:16px;max-width:52ch}
+.src{background:#fff;border-radius:18px;box-shadow:var(--shadow-card);padding:18px;display:grid;gap:12px;position:relative;z-index:1}
+.src-row{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding-bottom:10px;box-shadow:0 1px 0 var(--ring)}
+.src-row:last-child{box-shadow:none;padding-bottom:0}
+.src-row span{color:var(--ink-50)}
+.src-row b{font-weight:500;text-align:right}
+.tilt{position:absolute;right:16px;bottom:-6px;padding:.12em .5em .18em;border-radius:.3em;background:var(--coral);color:#fff;font-size:clamp(28px,3.6vw,48px);font-weight:500;letter-spacing:-.03em;transform:rotate(-6deg);box-shadow:inset 0 -6px 12px rgba(150,20,10,.22),inset 0 2px 0 rgba(255,255,255,.35),0 20px 40px -18px rgba(255,75,58,.7);z-index:2;white-space:nowrap}
+@media (min-width:900px){.tilt{right:40px;bottom:28px}}
+.trust{padding-bottom:88px}@media (min-width:900px){.trust{padding-bottom:120px}}
+.alert-form{display:flex;gap:8px;margin-top:24px;max-width:440px;background:#fff;border-radius:14px;padding:6px;box-shadow:var(--shadow-pill)}
+.alert-form input{flex:1;min-width:0;border:0;background:none;font:inherit;font-size:15px;padding:0 10px;outline:none}
+.alert-form .btn{height:40px;padding:0 16px;font-size:14px;border-radius:10px}
+.fine{margin-top:10px;font-size:12px;color:var(--ink-50);max-width:440px;line-height:1.5}
+
+/* ---------- personas ---------- */
+.personas{display:grid;gap:24px}
+@media (min-width:900px){.personas{grid-template-columns:320px 1fr;gap:48px;align-items:start}}
+.personas h2{font-size:clamp(32px,4.2vw,48px);line-height:1.02}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-top:24px}
+@media (min-width:900px){.tabs{flex-direction:column;flex-wrap:nowrap}}
+.tabs button{display:flex;align-items:center;gap:10px;height:44px;padding:0 14px;border-radius:12px;font-size:14px;font-weight:500;color:var(--ink-72);background:var(--surface);transition:background-color 180ms ease,color 180ms ease}
+.tabs button svg{width:16px;height:16px}
+.tabs button[aria-selected="true"]{background:var(--ink);color:#fff}
+.panel{background:var(--surface);border-radius:28px;padding:20px;display:grid;gap:12px}
+@media (min-width:768px){.panel{padding:28px}}
+.q{background:#fff;border-radius:18px;padding:18px;box-shadow:var(--shadow-card);display:flex;gap:14px;align-items:flex-start}
+.q .av{flex:none;width:40px;height:40px;border-radius:999px;display:grid;place-items:center;color:#fff}
+.q .av svg{width:18px;height:18px}
+.q .ta{font-family:"Noto Sans Tamil",sans-serif;font-size:16px;line-height:1.6}
+.q .en{font-size:13px;color:var(--ink-50);margin-top:4px}
+.answers{display:grid;gap:8px}
+.ans{background:#fff;border-radius:14px;box-shadow:var(--shadow-pill);overflow:hidden}
+.ans button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;font-size:14px;font-weight:500;text-align:left}
+.ans button svg{flex:none;width:16px;height:16px;transition:transform 220ms var(--ease-out);color:var(--ink-50)}
+.ans[data-open="true"] button svg{transform:rotate(180deg)}
+.ans .body{display:grid;grid-template-rows:0fr;transition:grid-template-rows 260ms var(--ease-out)}
+.ans[data-open="true"] .body{grid-template-rows:1fr}
+.ans .body>div{overflow:hidden}
+.ans .body p{padding:0 16px 14px;font-size:14px;line-height:1.55;color:var(--ink-64)}
+.swap{transition:opacity 200ms ease,filter 200ms ease,transform 200ms var(--ease-out)}
+.swap.out{opacity:0;filter:blur(4px);transform:translateY(4px)}
+
+/* ---------- fanned stack ---------- */
+.see h2{font-size:clamp(36px,5.6vw,72px);line-height:1;letter-spacing:-.045em;text-align:center}
+.see h2 .inline-chip{font-size:.6em;height:1.2em;padding:0 .3em;vertical-align:.18em}
+.see-sub{text-align:center;margin-top:16px;font-size:13px;color:var(--ink-50);font-weight:500}
+.fan{position:relative;height:300px;margin-top:56px}
+.fan article{position:absolute;left:50%;top:0;width:min(260px,64vw);height:270px;margin-left:calc(min(260px,64vw)/-2);border-radius:18px;background:#fff;box-shadow:var(--shadow-card);padding:20px;display:flex;flex-direction:column;transition:transform 520ms var(--ease-out),background-color 400ms ease,color 400ms ease,opacity 400ms ease}
+.fan article .stars{display:flex;gap:4px;color:var(--yellow)}
+.fan article .stars span{font-size:11px;font-weight:600;color:inherit;background:currentColor;height:20px;padding:0 8px;border-radius:999px;display:inline-flex;align-items:center}
+.fan article .stars span b{color:#5a4100;font-weight:600}
+.fan article .qt{margin-top:16px;font-size:18px;line-height:1.35;letter-spacing:-.015em}
+.fan article .qta{margin-top:10px;font-family:"Noto Sans Tamil",sans-serif;font-size:13px;line-height:1.6;opacity:.6}
+.fan article .who{margin-top:auto;display:flex;gap:10px;align-items:center;font-size:12px;font-weight:500;opacity:.7}
+.fan article .who i{width:26px;height:26px;border-radius:999px;display:grid;place-items:center;color:#fff}
+.fan article .who i svg{width:13px;height:13px}
+.fan article.front{background:#161616;color:#fff}
+.fan-ctrl{display:flex;justify-content:center;gap:8px;margin-top:20px}
+.fan-ctrl button{width:44px;height:44px;border-radius:999px;background:var(--surface);display:grid;place-items:center;transition:background-color 160ms ease,transform 160ms var(--ease-out)}
+.fan-ctrl button:active{transform:scale(.96)}
+.fan-ctrl svg{width:18px;height:18px}
+
+/* ---------- roadmap ---------- */
+.road{display:grid;gap:16px;margin-top:48px}
+@media (min-width:768px){.road{grid-template-columns:1fr 1fr}}
+.step{border-radius:24px;padding:28px;background:var(--surface);position:relative}
+.step.now{background:linear-gradient(160deg,#EAF4FF,#F6FAFF)}
+.step .when{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-50)}
+.step.now .when{color:var(--accent)}
+.step .when i{width:8px;height:8px;border-radius:999px;background:currentColor}
+.step h3{margin-top:14px;font-size:30px;line-height:1.05}
+.step ul{list-style:none;margin-top:18px;display:grid;gap:10px}
+.step li{display:flex;gap:10px;font-size:15px;color:var(--ink-72);line-height:1.45}
+.step li svg{flex:none;width:18px;height:18px;margin-top:1px;color:var(--accent)}
+
+/* ---------- faq ---------- */
+.faq{max-width:760px;margin:0 auto}
+.faq details{box-shadow:0 1px 0 var(--ring)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;padding:22px 0;font-size:17px;font-weight:500}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary svg{flex:none;width:18px;height:18px;transition:transform 220ms var(--ease-out);color:var(--ink-50)}
+.faq details[open] summary svg{transform:rotate(45deg)}
+.faq details p{padding:0 0 22px;font-family:var(--serif);font-size:17px;line-height:1.55;color:var(--ink-64);max-width:62ch}
+
+/* ---------- final cta + footer ---------- */
+.final{position:relative;text-align:center;padding:120px 0 96px}
+.final h2{font-size:clamp(40px,6.4vw,84px);line-height:1;letter-spacing:-.045em;max-width:14ch;margin:0 auto}
+.final .ctas{justify-content:center;margin-top:36px}
+.copy{display:inline-flex;align-items:center;gap:14px;height:52px;padding:0 18px;border-radius:12px;background:#fff;box-shadow:var(--shadow-pill);font-family:var(--mono);font-size:14.5px;transition:background-color 160ms ease,transform 160ms var(--ease-out)}
+.copy:active{transform:scale(.96)}
+.copy .ic{position:relative;width:16px;height:16px;color:var(--ink-50)}
+.copy .ic svg{position:absolute;inset:0;width:16px;height:16px;transition:opacity 200ms cubic-bezier(.2,0,0,1),transform 200ms cubic-bezier(.2,0,0,1),filter 200ms cubic-bezier(.2,0,0,1)}
+.copy .ic .ok{opacity:0;transform:scale(.25);filter:blur(4px);color:var(--green)}
+.copy.done .ic .ok{opacity:1;transform:none;filter:none}
+.copy.done .ic .cp{opacity:0;transform:scale(.25);filter:blur(4px)}
+@media (hover:hover){.copy:hover{background:var(--surface)}}
+.deco{position:absolute;width:76px;pointer-events:none}
+.deco.l{left:10%;top:42%;transform:rotate(-14deg)}
+.deco.r{right:10%;top:30%;transform:rotate(12deg)}
+@media (max-width:767px){.deco{width:52px}.deco.l{left:4%;top:12%}.deco.r{right:4%;top:8%}}
+
+footer{position:relative;overflow:hidden;background:linear-gradient(180deg,#FFFFFF 0%,#F3F8FE 22%,#D8EAFC 48%,#9FCBF6 76%,#6EB0F0 100%)}
+.f-top{display:grid;gap:40px;padding-top:72px}
+@media (min-width:900px){.f-top{grid-template-columns:1.3fr 2fr;padding-top:96px}}
+.f-brand h3{font-size:clamp(32px,3.4vw,42px);line-height:1.08;letter-spacing:-.03em}
+.f-brand h3 svg{display:inline-block;width:.9em;height:.9em;vertical-align:-.12em;margin-left:.1em}
+.f-brand small{display:block;margin-top:48px;font-size:13px;line-height:1.7;color:var(--ink-64)}
+.f-brand small b{font-weight:500;color:var(--ink)}
+.f-cols{display:grid;grid-template-columns:repeat(2,1fr);gap:32px}
+@media (min-width:640px){.f-cols{grid-template-columns:repeat(4,1fr)}}
+.f-cols h4{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-50);margin-bottom:18px}
+.f-cols a{display:block;font-size:15.5px;color:var(--ink-72);padding:6px 0;transition:color 160ms ease}
+@media (hover:hover){.f-cols a:hover{color:var(--ink)}}
+.wordmark{position:relative;margin-top:72px;height:clamp(150px,27vw,430px);user-select:none}
+.wordmark .word{position:absolute;left:50%;bottom:0;transform:translate(-50%,24%);font-size:clamp(190px,37vw,620px);font-weight:700;letter-spacing:-.06em;line-height:.8;color:#fff;white-space:nowrap;text-shadow:0 .028em 0 rgba(66,140,220,.55)}
+.stk{position:absolute;z-index:2;touch-action:none;cursor:grab;filter:drop-shadow(0 10px 14px rgba(20,70,140,.25));transition:filter 200ms ease}
+.stk:active{cursor:grabbing;filter:drop-shadow(0 18px 22px rgba(20,70,140,.32))}
+.stk svg{width:100%;height:auto;pointer-events:none}
+.drag-hint{position:absolute;right:var(--gutter);top:12px;font-size:12px;font-weight:500;color:rgba(17,17,17,.45);z-index:3}
+</style>
+</head>
+<body>
+
+<!-- ============ SVG icon sprite ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3.5"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z"/><path d="M14 2.5V8h5.5M8.5 13h7M8.5 17h5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-circle-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.3 2.4 2.4 4.6-4.9"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 21h10M5 7h14M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21c0-9 5-15 15-16-1 10-7 15-15 16zM5 21l7-7"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10-5 10 5-10 5zM6 11v5c3 2.5 9 2.5 12 0v-5"/></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5 5L21 13l-8 8-3-3 8-8M9.5 3.5l-6 6 3 3 6-6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.6-8-10.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 2.5C20 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 4l9 7M5 10v10h14V10"/></symbol>
+    <symbol id="i-plus-cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><path d="M12 8v8M8 12h8"/></symbol>
+    <symbol id="i-rupee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h11M7 9h11M7 4c6 0 6 10 0 10h-1l8 7"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="wrap">
+    <a href="#top" class="logo" aria-label="Sollu home">
+      <span class="logo-mark"><svg width="16" height="16"><use href="#i-chat"/></svg></span>
+      Sollu
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#what">Schemes</a>
+      <a href="#what">Notices</a>
+      <a href="#people">Rights</a>
+      <a href="#trust">How it works</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <span class="thumb" aria-hidden="true"></span>
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ta" aria-pressed="false" style="font-family:'Noto Sans Tamil',sans-serif">தமிழ்</button>
+      </div>
+      <a href="#ask" class="btn btn-dark">Ask Sollu</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-labelledby="h1">
+  <div class="sticker" id="sticker">
+    <span class="rings" aria-hidden="true"></span>
+    <button type="button" id="hearBtn" aria-label="Hear a sample answer read aloud">Hear it<span class="play" aria-hidden="true"><svg><use href="#i-play"/></svg></span></button>
+  </div>
+  <div class="wrap">
+    <div class="stats rise" style="--d:0s">
+      <div class="stat"><b class="tnum">38</b><span>districts in Tamil Nadu</span></div>
+      <div class="stat"><b class="tnum">2</b><span>languages at launch</span></div>
+    </div>
+    <div class="joined rise" style="--d:.08s">
+      <span class="dots" aria-hidden="true"><i style="background:var(--pink)">அ</i><i style="background:var(--sky)">A</i><i style="background:var(--green)"><svg width="10" height="10"><use href="#i-check"/></svg></i></span>
+      <span data-i18n="pill">Now in Tamil Nadu. All of India next.</span>
+    </div>
+    <h1 id="h1" class="rise" style="--d:.16s">
+      <span data-i18n-html="h1"><span class="nw">Kn<span class="blob pink" aria-hidden="true"><svg><use href="#i-mic"/></svg></span><span class="sr">o</span>w</span> <span class="nw">what's</span> <span class="nw">y<span class="blob blue" aria-hidden="true"><svg><use href="#i-doc"/></svg></span><span class="sr">o</span>urs.</span><br><em>In your <span class="nw">own<span class="chip-ico" aria-hidden="true"><svg><use href="#i-chat"/></svg></span>words.</span></em></span>
+    </h1>
+    <p class="hero-sub rise" style="--d:.26s" data-i18n="sub">Sollu reads government schemes, notices and local laws for you. Then it explains them in plain Tamil or English. Ask by voice. Check what you can get. Know your rights.</p>
+    <div class="ctas rise" style="--d:.36s">
+      <a href="#ask" class="btn btn-dark btn-lg"><svg width="18" height="18"><use href="#i-mic"/></svg><span data-i18n="cta1">Ask Sollu — free</span></a>
+      <a href="#what" class="btn btn-ghost btn-lg" data-i18n="cta2">Check a scheme</a>
+    </div>
+    <p class="micro rise" style="--d:.44s" data-i18n="micro">No sign-in. No fees. Works on any phone.</p>
+  </div>
+</section>
+
+<!-- ============ WHAT IT DOES (bento) ============ -->
+<section id="what" aria-labelledby="what-h" style="padding-top:40px">
+  <div class="wrap">
+    <div class="intro reveal">
+      <span class="label">What Sollu does</span>
+      <h2 id="what-h">Government rules, said simply. In the words you use.</h2>
+    </div>
+    <div class="bento">
+      <article class="card b1 reveal" id="ask">
+        <span class="ico coral"><svg><use href="#i-check"/></svg></span>
+        <h3>Check what you can get.</h3>
+        <p>Tell us a little about you. See every scheme you may fit, and why.</p>
+        <div class="b1-tags" role="group" aria-label="Pick what fits you">
+          <button type="button" aria-pressed="false" data-fit="senior">Age 60+</button>
+          <button type="button" aria-pressed="false" data-fit="farmer">Farmer</button>
+          <button type="button" aria-pressed="false" data-fit="student">Student</button>
+          <button type="button" aria-pressed="false" data-fit="worker">Daily-wage worker</button>
+          <button type="button" aria-pressed="false" data-fit="woman">Woman head of family</button>
+        </div>
+        <p class="fit tnum" id="fitOut" aria-live="polite">Tap what fits you.</p>
+        <a href="#ask" class="btn btn-dark">Check now</a>
+        <div class="circles" aria-hidden="true">
+          <span style="color:var(--pink)"><svg><use href="#i-heart"/></svg></span>
+          <span style="color:var(--green)"><svg><use href="#i-leaf"/></svg></span>
+          <span style="color:var(--sky)"><svg><use href="#i-cap"/></svg></span>
+          <span style="color:var(--purple)"><svg><use href="#i-home"/></svg></span>
+          <span style="color:var(--coral)"><svg><use href="#i-plus-cross"/></svg></span>
+          <span style="color:#C89200"><svg><use href="#i-rupee"/></svg></span>
+        </div>
+        <span class="sample">Sample</span>
+      </article>
+
+      <article class="card reveal" style="--d:.08s">
+        <span class="ico sky"><svg><use href="#i-doc"/></svg></span>
+        <h3>Explain a notice.</h3>
+        <p>Snap a photo of any notice. Get it in 3 short lines.</p>
+        <div class="notice">
+          <div class="doc"><i aria-hidden="true"></i><div style="flex:1;display:grid;gap:6px"><span>Circular · Revenue Department · 14 pages</span><div class="skel" style="width:80%"></div></div></div>
+          <div class="line"><span class="tag g">Says</span><span>Land records in your village are being updated.</span></div>
+          <div class="line"><span class="tag o">Do</span><span>Bring your patta and Aadhaar to the camp.</span></div>
+          <div class="line"><span class="tag r">By</span><span>The date on page 2. Missing it means a later visit to the taluk office.</span></div>
+        </div>
+        <span class="sample">Sample</span>
+      </article>
+
+      <article class="card reveal" style="--d:.16s" id="voiceCard">
+        <span class="ico green"><svg><use href="#i-mic"/></svg></span>
+        <h3>Ask out loud.</h3>
+        <p>Speak in Tamil or English. Hear the answer back.</p>
+        <div class="voice">
+          <button type="button" class="mic" id="micBtn" aria-label="Play a sample voice question"><svg><use href="#i-mic"/></svg></button>
+          <div class="wave" aria-hidden="true" id="wave"></div>
+        </div>
+        <p class="bubble" lang="ta">ரெண்டு மாசமா சம்பளம் வரல. என்ன பண்ணலாம்?</p>
+        <span class="sample">Sample</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section aria-labelledby="feat-h" style="padding-top:0">
+  <div class="wrap">
+    <h2 id="feat-h" class="h2-left feat-head reveal">Read <span class="inline-chip">3 lines</span> instead<br><span class="muted">of 30 pages.</span></h2>
+    <div class="grid6">
+      <div class="feat reveal"><span class="ico sky"><svg><use href="#i-mic"/></svg></span><h3>Ask by voice.</h3><p>Speak in Tamil or English. Sollu understands everyday words, not just official ones.</p></div>
+      <div class="feat reveal" style="--d:.06s"><span class="ico pink"><svg><use href="#i-doc"/></svg></span><h3>Explain a notice.</h3><p>Photo, PDF or text. Get what it says, what you must do, and by when.</p></div>
+      <div class="feat reveal" style="--d:.12s"><span class="ico coral"><svg><use href="#i-check"/></svg></span><h3>Check eligibility.</h3><p>See which schemes you may fit, and why, before you stand in a queue.</p></div>
+      <div class="feat reveal"><span class="ico yellow"><svg><use href="#i-scale"/></svg></span><h3>Know your rights.</h3><p>Rent, wages, ration, RTI, police complaints. Plain rules and real steps.</p></div>
+      <div class="feat reveal" style="--d:.06s"><span class="ico green"><svg><use href="#i-list"/></svg></span><h3>Get the papers list.</h3><p>Know every document you need before you leave home.</p></div>
+      <div class="feat reveal" style="--d:.12s"><span class="ico purple"><svg><use href="#i-pin"/></svg></span><h3>Find the office.</h3><p>The nearest e-Sevai centre, taluk office or free legal aid desk.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST ============ -->
+<section id="trust" aria-labelledby="trust-h" style="padding-top:0">
+  <div class="wrap">
+    <div class="trust reveal">
+      <div>
+        <span class="label">Sources</span>
+        <h2 id="trust-h" style="margin-top:16px">Every answer shows where it came from.</h2>
+        <p class="body">Sollu only answers from official sources: government orders, gazettes, scheme rules and Acts. Each answer names the document and the date we last checked it. When Sollu isn't sure, it says so and sends you to a real person.</p>
+        <form class="alert-form" id="alertForm" novalidate>
+          <label for="phone" class="sr">Phone number for scheme alerts</label>
+          <input id="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="Your phone number">
+          <button class="btn btn-dark" type="submit">Get alerts</button>
+        </form>
+        <p class="fine" id="alertMsg">Get a message when a new scheme fits you. We only send scheme alerts. Reply STOP any time.</p>
+      </div>
+      <div style="position:relative;align-self:center">
+        <div class="src">
+          <div class="src-row"><span>Answer</span><b>You may fit this scheme.</b></div>
+          <div class="src-row"><span>Source</span><b>Government Order (G.O.)</b></div>
+          <div class="src-row"><span>From</span><b>Social Welfare Department</b></div>
+          <div class="src-row"><span>Published</span><b>Date shown here</b></div>
+          <div class="src-row"><span>Last checked by Sollu</span><b>Date shown here</b></div>
+          <div class="src-row"><span>Not sure?</span><b style="color:var(--accent)">Talk to a real office →</b></div>
+        </div>
+      </div>
+      <span class="tilt" aria-hidden="true">Source shown</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONAS ============ -->
+<section id="people" aria-labelledby="people-h" style="padding-top:0">
+  <div class="wrap personas">
+    <div class="reveal">
+      <span class="label">For every person</span>
+      <h2 id="people-h" style="margin-top:16px">Made for the people the rules are for.</h2>
+      <div class="tabs" role="tablist" aria-label="Who are you?" id="tabs"></div>
+    </div>
+    <div class="panel reveal" role="tabpanel" id="panel" aria-live="polite">
+      <div class="q swap" id="qBox"></div>
+      <div class="answers swap" id="aBox"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SAMPLE QUESTIONS ============ -->
+<section class="see" aria-labelledby="see-h" style="padding-top:0;overflow:hidden">
+  <div class="wrap">
+    <h2 id="see-h" class="reveal">See what <span class="inline-chip">Tamil Nadu</span> asks.</h2>
+    <p class="see-sub reveal">Sample questions. Real ones come after the pilot.</p>
+    <div class="fan" id="fan"></div>
+    <div class="fan-ctrl">
+      <button type="button" id="prev" aria-label="Previous question"><svg><use href="#i-left"/></svg></button>
+      <button type="button" id="next" aria-label="Next question"><svg><use href="#i-right"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ROADMAP ============ -->
+<section aria-labelledby="road-h" style="padding-top:0">
+  <div class="wrap">
+    <div class="intro reveal" style="margin-bottom:0">
+      <span class="label">Roadmap</span>
+      <h2 id="road-h">Tamil Nadu first. All of India next.</h2>
+      <p>We start where we can check every answer by hand. Then we grow one state at a time.</p>
+    </div>
+    <div class="road">
+      <article class="step now reveal">
+        <span class="when"><i></i>Now · Version 1</span>
+        <h3>Tamil Nadu</h3>
+        <ul>
+          <li><svg><use href="#i-circle-check"/></svg>All 38 districts.</li>
+          <li><svg><use href="#i-circle-check"/></svg>Tamil and English, by voice and text.</li>
+          <li><svg><use href="#i-circle-check"/></svg>State and central schemes that apply in Tamil Nadu.</li>
+          <li><svg><use href="#i-circle-check"/></svg>Rights library for everyday problems.</li>
+        </ul>
+      </article>
+      <article class="step reveal" style="--d:.08s">
+        <span class="when"><i></i>Next · Version 2</span>
+        <h3>All of India</h3>
+        <ul>
+          <li><svg><use href="#i-circle-check"/></svg>22 Indian languages.</li>
+          <li><svg><use href="#i-circle-check"/></svg>Every state's schemes, one state at a time.</li>
+          <li><svg><use href="#i-circle-check"/></svg>Missed-call and WhatsApp access.</li>
+          <li><svg><use href="#i-circle-check"/></svg>Tools for NGOs and e-Sevai helpers.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section aria-labelledby="faq-h" style="padding-top:0">
+  <div class="wrap">
+    <div class="intro reveal"><span class="label">Questions</span><h2 id="faq-h">Before you ask.</h2></div>
+    <div class="faq reveal">
+      <details><summary>Is Sollu free?<svg><use href="#i-plus"/></svg></summary><p>Yes. Asking is free, and it always will be.</p></details>
+      <details><summary>Is this legal advice?<svg><use href="#i-plus"/></svg></summary><p>No. Sollu explains rules in plain words. For a legal case, it connects you to free legal aid in your district.</p></details>
+      <details><summary>Do I need to sign in?<svg><use href="#i-plus"/></svg></summary><p>No. Your saved answers stay on your phone.</p></details>
+      <details><summary>What happens to my voice?<svg><use href="#i-plus"/></svg></summary><p>It's turned into text to answer you, then deleted. We never sell your data.</p></details>
+      <details><summary>What if Sollu is wrong?<svg><use href="#i-plus"/></svg></summary><p>Tap "Report a wrong answer". A person checks it, and we fix the source.</p></details>
+      <details><summary>Will it work on my phone?<svg><use href="#i-plus"/></svg></summary><p>Yes. It's built for low-cost Android phones and slow networks.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final" aria-labelledby="final-h">
+  <svg class="deco l" viewBox="0 0 80 80" aria-hidden="true"><path d="M40 6c19 0 34 13 34 30S59 66 40 66c-4 0-8-.6-11.6-1.7L12 74l4-15C10 53 6 45 6 36 6 19 21 6 40 6z" fill="#FF4B3A" stroke="#fff" stroke-width="4"/><circle cx="29" cy="36" r="4" fill="#fff"/><circle cx="51" cy="36" r="4" fill="#fff"/><path d="M31 47c5 4 13 4 18 0" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round"/></svg>
+  <svg class="deco r" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="32" fill="#C9F27A" stroke="#fff" stroke-width="4"/><path d="m25 41 10 10 21-22" stroke="#1d3a0a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div class="wrap">
+    <h2 id="final-h" class="reveal">Ready to know what's yours?</h2>
+    <div class="ctas reveal" style="--d:.1s">
+      <a href="#ask" class="btn btn-dark btn-lg">Ask Sollu<svg width="18" height="18"><use href="#i-arrow"/></svg></a>
+      <button type="button" class="copy" id="copyBtn" aria-label="Copy a starter question">"Can I get a pension at 60?"<span class="ic" aria-hidden="true"><svg class="cp"><use href="#i-copy"/></svg><svg class="ok"><use href="#i-check"/></svg></span></button>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap f-top">
+    <div class="f-brand">
+      <h3>Ask it.<br>Know it.<svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="32" fill="#C9F27A" stroke="#1d3a0a" stroke-width="4"/><path d="m25 41 10 10 21-22" stroke="#1d3a0a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></h3>
+      <small>© 2026 Sollu. Made in Tamil Nadu.<br>Sollu explains rules. It is not legal advice.</small>
+    </div>
+    <div class="f-cols">
+      <div><h4>Product</h4><a href="#ask">Ask</a><a href="#what">Schemes</a><a href="#what">Notices</a><a href="#people">Rights</a><a href="#top">Saved</a></div>
+      <div><h4>Learn</h4><a href="#trust">How it works</a><a href="#trust">Sources</a><a href="#top">Languages</a><a href="#top">Roadmap</a></div>
+      <div><h4>Help</h4><a href="#top">For helpers</a><a href="#top">Report a wrong answer</a><a href="#top">Contact</a><a href="#faq-h">FAQ</a></div>
+      <div><h4>Legal</h4><a href="#top">Privacy</a><a href="#top">Terms</a><a href="#top">Not legal advice</a></div>
+    </div>
+  </div>
+  <div class="wordmark" id="wordmark">
+    <span class="drag-hint" aria-hidden="true">Drag the stickers</span>
+    <span class="word" aria-hidden="true">Sollu</span>
+  </div>
+</footer>
+
+<script>
+(() => {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const $ = (s, r=document) => r.querySelector(s);
+  const svg = id => `<svg><use href="#${id}"/></svg>`;
+
+  /* ---------- reveal on scroll ---------- */
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -80px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  /* ---------- language toggle (hero) ---------- */
+  const i18n = {
+    en: {
+      pill: 'Now in Tamil Nadu. All of India next.',
+      h1: $('[data-i18n-html="h1"]').innerHTML,
+      sub: 'Sollu reads government schemes, notices and local laws for you. Then it explains them in plain Tamil or English. Ask by voice. Check what you can get. Know your rights.',
+      cta1: 'Ask Sollu — free', cta2: 'Check a scheme', micro: 'No sign-in. No fees. Works on any phone.'
+    },
+    ta: {
+      pill: 'இப்போ தமிழ்நாட்டில். அடுத்து இந்தியா முழுக்க.',
+      h1: '<span class="ta" style="display:block">உங்களுக்கு உரியதை தெரிஞ்சுக்கோங்க. <em>உங்க சொந்த வார்த்தையில.</em></span>',
+      sub: 'அரசுத் திட்டங்கள், அறிவிப்புகள், சட்டங்கள் — எல்லாத்தையும் சொல்லு படிக்கும். அப்புறம் எளிய தமிழ்ல சொல்லும். குரல்ல கேளுங்க. உங்களுக்கு என்ன கிடைக்கும்னு பாருங்க. உங்க உரிமைகளை தெரிஞ்சுக்கோங்க.',
+      cta1: 'இலவசமா கேளுங்க', cta2: 'திட்டத்தை சரிபாருங்க', micro: 'உள்நுழைவு தேவையில்லை. கட்டணம் இல்லை. எந்த போனிலும் வேலை செய்யும்.'
+    }
+  };
+  const langBtns = document.querySelectorAll('.lang button');
+  const thumb = $('.lang .thumb');
+  function moveThumb(btn){ thumb.style.width = btn.offsetWidth + 'px'; thumb.style.transform = `translateX(${btn.offsetLeft - 3}px)`; }
+  function setLang(l){
+    const t = i18n[l];
+    document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t[el.dataset.i18n]; });
+    $('[data-i18n-html="h1"]').innerHTML = t.h1;
+    $('.hero-sub').lang = l;
+    langBtns.forEach(b => { const on = b.dataset.lang === l; b.setAttribute('aria-pressed', on); if (on) moveThumb(b); });
+    try { localStorage.setItem('sollu-lang', l); } catch(e){}
+  }
+  langBtns.forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+  let saved = 'en'; try { saved = localStorage.getItem('sollu-lang') || 'en'; } catch(e){}
+  document.fonts.ready.then(() => setLang(saved));
+  addEventListener('resize', () => moveThumb($('.lang button[aria-pressed="true"]')));
+
+  /* ---------- "Hear it" sticker: speak a sample answer ---------- */
+  const sticker = $('#sticker');
+  $('#hearBtn').addEventListener('click', () => {
+    if (!('speechSynthesis' in window)) return;
+    speechSynthesis.cancel();
+    const ta = (document.documentElement.dataset.lang || ($('.lang button[aria-pressed="true"]').dataset.lang)) === 'ta';
+    const u = new SpeechSynthesisUtterance(ta
+      ? 'உங்களுக்கு 62 வயசு. நீங்க முதியோர் உதவித்தொகைக்கு தகுதி பெறலாம். ஆதார், வயது சான்று, வருமானச் சான்று எடுத்துட்டு போங்க.'
+      : 'You are 62, so you may fit the old age pension. Take your Aadhaar, age proof and income certificate to your nearest e-Sevai centre.');
+    const voices = speechSynthesis.getVoices();
+    const v = voices.find(v => v.lang.startsWith(ta ? 'ta' : 'en-IN')) || voices.find(v => v.lang.startsWith('en'));
+    if (v) { u.voice = v; u.lang = v.lang; }
+    u.rate = .95;
+    u.onstart = () => sticker.classList.add('speaking');
+    u.onend = u.onerror = () => sticker.classList.remove('speaking');
+    speechSynthesis.speak(u);
+  });
+
+  /* ---------- bento: eligibility tags ---------- */
+  const fits = { senior: 3, farmer: 4, student: 3, worker: 2, woman: 2 };
+  const fitOut = $('#fitOut');
+  document.querySelectorAll('.b1-tags button').forEach(b => b.addEventListener('click', () => {
+    b.setAttribute('aria-pressed', b.getAttribute('aria-pressed') !== 'true');
+    const on = [...document.querySelectorAll('.b1-tags button[aria-pressed="true"]')];
+    const n = on.reduce((s, x) => s + fits[x.dataset.fit], 0);
+    fitOut.innerHTML = on.length ? `You may fit <b>${n} schemes</b>. Sample count, for this demo only.` : 'Tap what fits you.';
+  }));
+
+  /* ---------- bento: voice wave ---------- */
+  const wave = $('#wave');
+  for (let i = 0; i < 28; i++) { const s = document.createElement('i'); s.style.height = (20 + Math.abs(Math.sin(i * 1.7)) * 70) + '%'; s.style.animationDelay = (i * 37 % 400) + 'ms'; wave.appendChild(s); }
+  const vc = $('#voiceCard');
+  let vt;
+  $('#micBtn').addEventListener('click', () => { vc.classList.add('playing'); clearTimeout(vt); vt = setTimeout(() => vc.classList.remove('playing'), 2400); });
+
+  /* ---------- personas ---------- */
+  const people = [
+    { id:'senior', label:'Seniors', icon:'i-user', color:'var(--pink)',
+      ta:'எனக்கு 62 வயசு. பென்ஷன் கிடைக்குமா?', en:'"I\'m 62. Can I get a pension?"',
+      a:[['You may fit 2 pension schemes.','Sollu checks your age, income and family card against each scheme\'s rules, and shows which ones fit.'],
+         ['Papers you need.','Aadhaar, age proof, income certificate and a bank passbook.'],
+         ['Where to apply.','Your nearest e-Sevai centre or taluk office. Sollu shows the closest one.']] },
+    { id:'farmer', label:'Farmers', icon:'i-leaf', color:'var(--green)',
+      ta:'மழையால என் நெல் பயிர் சேதமாச்சு. உதவி கிடைக்குமா?', en:'"Rain damaged my paddy. Is there help?"',
+      a:[['Crop insurance may cover it.','If you enrolled this season, you can claim. Sollu tells you how to check.'],
+         ['Report the loss fast.','Claims have a time limit. Sollu shows the date from the scheme rules.'],
+         ['Papers you need.','Patta or chitta, bank passbook, and proof of sowing.']] },
+    { id:'student', label:'Students', icon:'i-cap', color:'var(--sky)',
+      ta:'அரசுப் பள்ளியில படிச்சேன். இப்போ B.Sc முதல் வருஷம். உதவித்தொகை இருக்கா?', en:'"I studied in a government school. Now in first-year B.Sc. Any support?"',
+      a:[['You may fit 3 schemes.','Girl-student support, scholarships and fee help. Sollu explains each one.'],
+         ['Ask your college desk.','Most student schemes are applied through your college. Sollu tells you what to say.'],
+         ['Papers you need.','School TC, Aadhaar, community certificate and a bank account in your name.']] },
+    { id:'worker', label:'Workers', icon:'i-tool', color:'var(--yellow)',
+      ta:'ரெண்டு மாசமா சம்பளம் வரல. என்ன பண்ணலாம்?', en:'"My salary is 2 months late. What can I do?"',
+      a:[['Your employer must pay on time.','Wage laws set a deadline for paying salary. Sollu shows the rule.'],
+         ['Write it down today.','Note your work days, the amount owed and any messages from your employer.'],
+         ['Complain for free.','The Labour Office takes wage complaints. Sollu finds yours.']] },
+    { id:'woman', label:'Women', icon:'i-heart', color:'var(--purple)',
+      ta:'குடும்பத் தலைவிக்கான மாத உதவித்தொகை எனக்கு கிடைக்குமா?', en:'"Can I get the monthly support for women heads of family?"',
+      a:[['You may fit.','It depends on family income and your family card. Sollu asks 3 questions to check.'],
+         ['Check your status.','Sollu shows how to check if your application went through.'],
+         ['Papers you need.','Family card, Aadhaar and a bank account in your name.']] },
+  ];
+  const tabs = $('#tabs'), qBox = $('#qBox'), aBox = $('#aBox');
+  people.forEach((p, i) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.role = 'tab'; b.id = 'tab-' + p.id;
+    b.setAttribute('aria-selected', i === 0); b.setAttribute('aria-controls', 'panel'); b.tabIndex = i === 0 ? 0 : -1;
+    b.innerHTML = svg(p.icon) + p.label;
+    b.addEventListener('click', () => select(i));
+    tabs.appendChild(b);
+  });
+  tabs.addEventListener('keydown', e => {
+    const all = [...tabs.children]; const cur = all.findIndex(b => b.getAttribute('aria-selected') === 'true');
+    if (['ArrowRight','ArrowDown'].includes(e.key)) { e.preventDefault(); select((cur + 1) % all.length, true); }
+    if (['ArrowLeft','ArrowUp'].includes(e.key)) { e.preventDefault(); select((cur - 1 + all.length) % all.length, true); }
+  });
+  function render(p){
+    qBox.innerHTML = `<span class="av" style="background:${p.color}">${svg(p.icon)}</span><div><p class="ta" lang="ta">${p.ta}</p><p class="en">${p.en}</p></div>`;
+    aBox.innerHTML = p.a.map((x, j) => `<div class="ans" data-open="${j===0}"><button type="button" aria-expanded="${j===0}">${x[0]}${svg('i-down')}</button><div class="body"><div><p>${x[1]}</p></div></div></div>`).join('');
+    aBox.querySelectorAll('.ans button').forEach(btn => btn.addEventListener('click', () => {
+      const a = btn.parentElement, open = a.dataset.open !== 'true';
+      a.dataset.open = open; btn.setAttribute('aria-expanded', open);
+    }));
+    $('#panel').setAttribute('aria-labelledby', 'tab-' + p.id);
+  }
+  let swapT;
+  function select(i, focus){
+    [...tabs.children].forEach((b, j) => { b.setAttribute('aria-selected', i === j); b.tabIndex = i === j ? 0 : -1; if (focus && i === j) b.focus(); });
+    if (reduce) return render(people[i]);
+    qBox.classList.add('out'); aBox.classList.add('out');
+    clearTimeout(swapT);
+    swapT = setTimeout(() => { render(people[i]); qBox.classList.remove('out'); aBox.classList.remove('out'); }, 160);
+  }
+  render(people[0]);
+
+  /* ---------- fanned sample-question stack ---------- */
+  const qs = [
+    ['Money','Can my mother get a pension?','என் அம்மாவுக்கு பென்ஷன் கிடைக்குமா?','Senior care','i-user','var(--pink)'],
+    ['Work','My salary is late by 2 months. What can I do?','ரெண்டு மாசமா சம்பளம் வரல.','Wages','i-tool','#C89200'],
+    ['Land','Is this land notice about my plot?','இந்த நில அறிவிப்பு என் நிலத்தைப் பத்தியா?','Notices','i-doc','var(--sky)'],
+    ['Study','Which scholarships fit a first-year B.Sc student?','B.Sc முதல் வருஷம் — உதவித்தொகை?','Education','i-cap','var(--green)'],
+    ['Food','Can the shop refuse my ration?','ரேஷன் கடை மறுக்கலாமா?','Ration','i-home','var(--purple)'],
+  ];
+  const fan = $('#fan');
+  qs.forEach(q => {
+    const a = document.createElement('article');
+    a.innerHTML = `<div class="stars"><span><b>${q[0]}</b></span></div><p class="qt">"${q[1]}"</p><p class="qta" lang="ta">${q[2]}</p><div class="who"><i style="background:${q[5]}">${svg(q[4])}</i>${q[3]} · Sample</div>`;
+    fan.appendChild(a);
+  });
+  let front = 2;
+  function layout(){
+    const cards = [...fan.children], n = cards.length, w = Math.min(innerWidth, 1180);
+    const step = w < 640 ? 46 : 150;
+    cards.forEach((c, i) => {
+      let o = i - front; if (o > n/2) o -= n; if (o < -n/2) o += n;
+      const ab = Math.abs(o);
+      c.style.transform = `translateX(${o * step}px) translateY(${ab * 14}px) rotate(${o * 5}deg) scale(${1 - ab * .06})`;
+      c.style.zIndex = 10 - ab;
+      c.style.opacity = ab > 2 ? 0 : 1;
+      c.classList.toggle('front', o === 0);
+      c.setAttribute('aria-hidden', o !== 0);
+    });
+  }
+  const go = d => { front = (front + d + qs.length) % qs.length; layout(); };
+  $('#prev').addEventListener('click', () => go(-1));
+  $('#next').addEventListener('click', () => go(1));
+  layout(); addEventListener('resize', layout);
+  let auto = reduce ? null : setInterval(() => go(1), 3800);
+  fan.addEventListener('pointerenter', () => { clearInterval(auto); auto = null; });
+
+  /* ---------- alerts form (demo only) ---------- */
+  $('#alertForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const v = $('#phone').value.replace(/\D/g, '');
+    $('#alertMsg').textContent = v.length >= 10 ? 'Thanks. This is a preview, so nothing was sent or saved.' : 'Enter a 10-digit phone number.';
+  });
+
+  /* ---------- copy chip ---------- */
+  const cb = $('#copyBtn'); let ct;
+  cb.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText('Can I get a pension at 60?'); } catch(e){}
+    cb.classList.add('done'); clearTimeout(ct); ct = setTimeout(() => cb.classList.remove('done'), 1600);
+  });
+
+  /* ---------- footer stickers (draggable) ---------- */
+  const W = '#fff';
+  const stickers = [
+    { x:4,  y:18, w:120, r:-14, svg:`<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#FF4B3A" stroke="${W}" stroke-width="5"/><rect x="40" y="24" width="20" height="34" rx="10" fill="${W}"/><path d="M31 48a19 19 0 0 0 38 0M50 67v9" stroke="${W}" stroke-width="5" fill="none" stroke-linecap="round"/></svg>` },
+    { x:27, y:62, w:96,  r:10,  svg:`<svg viewBox="0 0 100 100"><rect x="8" y="8" width="84" height="84" rx="22" fill="#FFC226" stroke="${W}" stroke-width="5"/><text x="50" y="68" text-anchor="middle" font-family="Noto Sans Tamil, sans-serif" font-size="50" font-weight="600" fill="#3d2a00">அ</text></svg>` },
+    { x:48, y:6,  w:104, r:6,   svg:`<svg viewBox="0 0 100 110"><path d="M22 6h40l22 22v70a6 6 0 0 1-6 6H22a6 6 0 0 1-6-6V12a6 6 0 0 1 6-6z" fill="${W}" stroke="#2BA4F5" stroke-width="5"/><path d="M30 40h40M30 54h40M30 68h24" stroke="#2BA4F5" stroke-width="5" stroke-linecap="round"/><circle cx="74" cy="84" r="18" fill="#22B45A" stroke="${W}" stroke-width="4"/><path d="m66 84 6 6 10-11" stroke="${W}" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>` },
+    { x:69, y:56, w:112, r:-8,  svg:`<svg viewBox="0 0 110 100"><path d="M55 6c27 0 48 17 48 39S82 84 55 84c-6 0-11-.8-16-2.3L14 94l6-20C11 66 7 56 7 45 7 23 28 6 55 6z" fill="#8A4FFF" stroke="${W}" stroke-width="5"/><text x="55" y="60" text-anchor="middle" font-family="Instrument Sans, sans-serif" font-size="42" font-weight="700" fill="${W}">?</text></svg>` },
+    { x:86, y:10, w:110, r:14,  svg:`<svg viewBox="0 0 100 100"><path d="M50 4l11 9 14-2 4 14 13 7-5 13 5 13-13 7-4 14-14-2-11 9-11-9-14 2-4-14-13-7 5-13-5-13 13-7 4-14 14 2z" fill="#F2479B" stroke="${W}" stroke-width="4"/><text x="50" y="58" text-anchor="middle" font-family="Instrument Sans, sans-serif" font-size="21" font-weight="700" fill="${W}">FREE</text></svg>` },
+  ];
+  const wm = $('#wordmark');
+  stickers.forEach(s => {
+    const el = document.createElement('div');
+    el.className = 'stk'; el.innerHTML = s.svg;
+    el.style.width = `clamp(${s.w * .55}px, ${s.w / 14}vw, ${s.w}px)`;
+    el.style.left = s.x + '%'; el.style.top = s.y + '%';
+    let r = s.r, dx = 0, dy = 0;
+    const set = () => el.style.transform = `translate(${dx}px,${dy}px) rotate(${r}deg)`;
+    set();
+    let sx, sy, ox, oy, id = null;
+    el.addEventListener('pointerdown', e => { if (id !== null) return; id = e.pointerId; el.setPointerCapture(id); sx = e.clientX; sy = e.clientY; ox = dx; oy = dy; el.style.zIndex = 5; });
+    el.addEventListener('pointermove', e => { if (e.pointerId !== id) return; dx = ox + e.clientX - sx; dy = oy + e.clientY - sy; set(); });
+    const up = e => { if (e.pointerId !== id) return; id = null; el.style.zIndex = 2; };
+    el.addEventListener('pointerup', up); el.addEventListener('pointercancel', up);
+    wm.appendChild(el);
+  });
+})();
+</script>
+</body>
+</html>
