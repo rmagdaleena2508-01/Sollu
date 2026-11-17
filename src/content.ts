@@ -15,14 +15,14 @@ export interface HeroCopy {
 
 export const hero: Record<Lang, HeroCopy> = {
   en: {
-    pill: 'Now in Tamil Nadu. All of India next.',
+    pill: 'Trusted by citizens in Tamil Nadu. All of India next.',
     sub: 'Sollu reads government schemes, notices and local laws for you. Then it explains them in plain Tamil or English. Ask by voice. Check what you can get. Know your rights.',
     cta1: 'Ask Sollu — free',
     cta2: 'Check a scheme',
     micro: 'No sign-in. No fees. Works on any phone.',
   },
   ta: {
-    pill: 'இப்போ தமிழ்நாட்டில். அடுத்து இந்தியா முழுக்க.',
+    pill: 'தமிழ்நாட்டு மக்கள் நம்பும் சொல்லு. அடுத்து இந்தியா முழுக்க.',
     sub: 'அரசுத் திட்டங்கள், அறிவிப்புகள், சட்டங்கள் — எல்லாத்தையும் சொல்லு படிக்கும். அப்புறம் எளிய தமிழ்ல சொல்லும். குரல்ல கேளுங்க. உங்களுக்கு என்ன கிடைக்கும்னு பாருங்க. உங்க உரிமைகளை தெரிஞ்சுக்கோங்க.',
     cta1: 'இலவசமா கேளுங்க',
     cta2: 'திட்டத்தை சரிபாருங்க',
@@ -30,10 +30,16 @@ export const hero: Record<Lang, HeroCopy> = {
   },
 };
 
+/**
+ * Sollu introducing itself when someone taps "Hear it". The audio is Sarvam's voice, made once
+ * (public/intro-en.mp3, public/intro-ta.mp3). The text is the backup for the phone's own voice.
+ */
 export const heroSpeech: Record<Lang, string> = {
-  en: 'You are 62, so you may fit the old age pension. Take your Aadhaar, age proof and income certificate to your nearest e-Sevai centre.',
-  ta: 'உங்களுக்கு 62 வயசு. நீங்க முதியோர் உதவித்தொகைக்கு தகுதி பெறலாம். ஆதார், வயது சான்று, வருமானச் சான்று எடுத்துட்டு போங்க.',
+  en: "Hello, my name is Sollu. Ask me about any government scheme, notice or right, in Tamil or English, and I'll explain it simply.",
+  ta: 'வணக்கம், என் பேர் சொல்லு. எந்த அரசு திட்டம், அறிவிப்பு, உரிமை பத்தியும் தமிழ்லயோ English-லயோ கேளுங்க. எளிமையா சொல்லுவேன்.',
 };
+
+export const heroAudio: Record<Lang, string> = { en: '/intro-en.mp3', ta: '/intro-ta.mp3' };
 
 export const stats = [
   { value: '38', label: 'districts in Tamil Nadu' },
