@@ -48,6 +48,10 @@ export interface AskResponse {
   items: AnswerItem[];
   /** True when the AI text failed our number check and we showed plain facts instead. */
   fallback?: boolean;
+  /** Read-aloud audio made in advance (saved demo answers). Played instead of calling /api/tts. */
+  audioUrl?: string;
+  /** Where the answer came from when it wasn't made just now. */
+  cached?: 'saved' | 'recent';
 }
 
 export interface SttResponse {

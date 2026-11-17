@@ -1,0 +1,577 @@
+{
+  "note": "Saved answers for the demo script and sample questions. Made by data/tools/demo_answers.py from the live pipeline. Do not edit by hand; run the script again.",
+  "made_at": "2026-11-17T19:10:40+0530",
+  "answers": [
+    {
+      "key": "ta-pension",
+      "prev": "",
+      "question": "என் அம்மாவுக்கு பென்ஷன் கிடைக்குமா?",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "உங்கள் அம்மாவுக்கு வயது மற்றும் தகுதி அடிப்படையில் பென்ஷன் கிடைக்க வாய்ப்பு உள்ளது.",
+          "முதியோர் பென்ஷன் அல்லது விதவை பென்ஷன் பெற விண்ணப்பிக்கலாம்.",
+          "அருகில் உள்ள காமன் சர்வீஸ் சென்டருக்குச் சென்று விவரங்களைச் சரிபார்க்கவும்."
+        ],
+        "followUp": "அவங்களுக்கு எத்தனை வயசு?",
+        "cautionNote": "இதுல சில தகவல் மாறியிருக்கலாம். விண்ணப்பிக்கறதுக்கு முன்னாடி இ-சேவை மையத்துல இல்ல அலுவலகத்துல ஒரு தடவை உறுதி பண்ணிக்கோங்க.",
+        "items": [
+          {
+            "id": "sw-old-age-pension",
+            "type": "scheme",
+            "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
+            "verdict": "need_info",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          },
+          {
+            "id": "sw-widow-pension",
+            "type": "scheme",
+            "title": "Destitute Widow Pension Scheme",
+            "verdict": "need_info",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/dwps",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/eafa16cee4.mp3"
+      }
+    },
+    {
+      "key": "ta-pension-67",
+      "prev": "என் அம்மாவுக்கு பென்ஷன் கிடைக்குமா?",
+      "question": "67 வயசு",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "உங்கள் அம்மாவுக்கு 67 வயசு ஆவதால், முதியோர் பென்ஷன் திட்டத்தில் மாதந்தோறும் Rs 1,000 பெற வாய்ப்பு உள்ளது.",
+          "அவர் ஆதரவற்றவராக இருக்க வேண்டும் மற்றும் குடும்பம் வறுமைக்கோட்டிற்கு கீழ் இருக்க வேண்டும்.",
+          "இதற்கு விண்ணப்பிக்க அருகில் உள்ள காமன் சர்வீஸ் சென்டருக்குச் செல்லலாம்."
+        ],
+        "cautionNote": "இதுல சில தகவல் மாறியிருக்கலாம். விண்ணப்பிக்கறதுக்கு முன்னாடி இ-சேவை மையத்துல இல்ல அலுவலகத்துல ஒரு தடவை உறுதி பண்ணிக்கோங்க.",
+        "items": [
+          {
+            "id": "sw-old-age-pension",
+            "type": "scheme",
+            "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
+            "verdict": "likely",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/82a237ec66.mp3"
+      }
+    },
+    {
+      "key": "ta-pension-67b",
+      "prev": "என் அம்மாவுக்கு பென்ஷன் கிடைக்குமா?",
+      "question": "அவங்களுக்கு 67 வயசு",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "உங்கள் அம்மாவுக்கு 67 வயது ஆவதால், முதியோர் பென்ஷன் பெற வாய்ப்பு உள்ளது.",
+          "மாதம் Rs 1,000 உதவித்தொகையும், பொங்கல் மற்றும் தீபாவளிக்கு இலவச சேலையும் கிடைக்கும்.",
+          "இதற்கு அருகில் உள்ள Common Service Centre (CSC) மூலம் விண்ணப்பிக்கலாம்."
+        ],
+        "cautionNote": "இதுல சில தகவல் மாறியிருக்கலாம். விண்ணப்பிக்கறதுக்கு முன்னாடி இ-சேவை மையத்துல இல்ல அலுவலகத்துல ஒரு தடவை உறுதி பண்ணிக்கோங்க.",
+        "items": [
+          {
+            "id": "sw-old-age-pension",
+            "type": "scheme",
+            "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
+            "verdict": "likely",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/b74ee1bed8.mp3"
+      }
+    },
+    {
+      "key": "en-pension",
+      "prev": "",
+      "question": "Can my mother get a pension?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "Whether your mother can get a pension depends on her age, if she is a widow, and if she is destitute.",
+          "I need to know her age to tell you if she can apply for these pensions.",
+          "Once I know more, I can explain how to apply at the nearest Common Service Centre (CSC)."
+        ],
+        "followUp": "How old is the person?",
+        "cautionNote": "Some of this may have changed. Please confirm at an e-Sevai centre or the office before you apply.",
+        "items": [
+          {
+            "id": "sw-old-age-pension",
+            "type": "scheme",
+            "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
+            "verdict": "need_info",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          },
+          {
+            "id": "sw-widow-pension",
+            "type": "scheme",
+            "title": "Destitute Widow Pension Scheme",
+            "verdict": "need_info",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/dwps",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/4a0d5cd60a.mp3"
+      }
+    },
+    {
+      "key": "en-pension-67",
+      "prev": "Can my mother get a pension?",
+      "question": "She is 67",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "Your mother may be able to get an old age pension of Rs 1,000 every month since she is 67.",
+          "She must be destitute and belong to the Below Poverty Line group.",
+          "You can apply for her at the nearest Common Service Centre (CSC)."
+        ],
+        "cautionNote": "Some of this may have changed. Please confirm at an e-Sevai centre or the office before you apply.",
+        "items": [
+          {
+            "id": "sw-old-age-pension",
+            "type": "scheme",
+            "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
+            "verdict": "likely",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/e14fc66e38.mp3"
+      }
+    },
+    {
+      "key": "en-girl",
+      "prev": "",
+      "question": "I'm a girl from a government school, now in first year of college. What can I get?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "You may be able to get Rs 1,000 every month under the Pudhumai Penn scheme since you studied in a government school.",
+          "You need to check if you meet the other rules like studying your first college course in Tamil Nadu.",
+          "You can apply online on the Penkalvi portal."
+        ],
+        "items": [
+          {
+            "id": "stu-pudhumai-penn",
+            "type": "scheme",
+            "title": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/pudhumai-penn-scheme",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/e7ddc8f4cf.mp3"
+      }
+    },
+    {
+      "key": "en-boy",
+      "prev": "",
+      "question": "I'm a boy from a government school, now in first year of college. What can I get?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "You may be able to get the Tamizh Pudhalvan Scheme because you are a boy from a government school now in college.",
+          "You may get Rs 1,000 every month while you study your degree.",
+          "You still need to check that your Aadhaar number is ready."
+        ],
+        "cautionNote": "Some of this may have changed. Please confirm at an e-Sevai centre or the office before you apply.",
+        "items": [
+          {
+            "id": "stu-tamil-pudhalvan",
+            "type": "scheme",
+            "title": "Tamizh Pudhalvan Scheme",
+            "verdict": "likely",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://stationeryprinting.tn.gov.in/extraordinary/2024/230_Ex_II_1_2024.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/f96d825654.mp3"
+      }
+    },
+    {
+      "key": "en-bsc-girl",
+      "prev": "",
+      "question": "Any scholarship for a B.Sc girl from a government school?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "You may be able to get Rs 1,000 every month for your college studies.",
+          "This is for girl students who studied in government schools for classes 6 to 12.",
+          "You can apply online on the Penkalvi portal."
+        ],
+        "items": [
+          {
+            "id": "stu-pudhumai-penn",
+            "type": "scheme",
+            "title": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/pudhumai-penn-scheme",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/a15a4a64f8.mp3"
+      }
+    },
+    {
+      "key": "ta-bsc-girl",
+      "prev": "",
+      "question": "அரசு பள்ளியில படிச்ச B.Sc பொண்ணுக்கு உதவித்தொகை இருக்கா?",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "அரசு பள்ளியில் படித்ததால் உங்களுக்கு புதுமை பெண் திட்டம் மூலம் மாதந்தோறும் Rs 1,000 உதவித்தொகை கிடைக்க வாய்ப்பு உள்ளது.",
+          "நீங்கள் 6 ஆம் வகுப்பு முதல் 12 ஆம் வகுப்பு வரை அரசு பள்ளியில் படித்திருக்க வேண்டும் மற்றும் இது உங்கள் முதல் உயர்கல்வியாக இருக்க வேண்டும்.",
+          "இதற்கு Penkalvi இணையதளம் மூலமாக ஆன்லைனில் விண்ணப்பிக்கலாம்."
+        ],
+        "items": [
+          {
+            "id": "stu-pudhumai-penn",
+            "type": "scheme",
+            "title": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/pudhumai-penn-scheme",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/7c55ff09e0.mp3"
+      }
+    },
+    {
+      "key": "en-salary",
+      "prev": "",
+      "question": "My salary is late by 2 months. What can I do?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "Your employer must pay your wages before the 7th day of the next month. You have the right to get paid on time.",
+          "You can file a claim for your unpaid wages with the Inspector-cum-Facilitator or the claims authority. You have 3 years to file this claim from the day it is due."
+        ],
+        "items": [
+          {
+            "id": "rn-wages",
+            "type": "right",
+            "title": "You must get at least the minimum wage, on time",
+            "sources": [
+              {
+                "url": "https://www.labour.gov.in/static/uploads/2025/06/c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+                "host": "labour.gov.in",
+                "checked": "2026-11-17"
+              },
+              {
+                "url": "https://www.labour.gov.in/static/uploads/2026/11/da640b1558a315e81e22ce5ac12f463f.pdf",
+                "host": "labour.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/8d3716159b.mp3"
+      }
+    },
+    {
+      "key": "ta-salary",
+      "prev": "",
+      "question": "ரெண்டு மாசமா சம்பளம் வரல. என்ன பண்றது?",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "உங்களுக்கு வர வேண்டிய சம்பளத்தை உரிய காலத்தில் கொடுக்க வேண்டும்.",
+          "நீங்கள் அரசாங்கம் நியமித்த அதிகாரியிடம் இதற்காக புகார் மனு கொடுக்கலாம்.",
+          "இந்த உரிமையின் கீழ் 3 ஆண்டுகளுக்குள் நீங்கள் மனு தாக்கல் செய்யலாம்."
+        ],
+        "items": [
+          {
+            "id": "rn-wages",
+            "type": "right",
+            "title": "You must get at least the minimum wage, on time",
+            "sources": [
+              {
+                "url": "https://www.labour.gov.in/static/uploads/2025/06/c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+                "host": "labour.gov.in",
+                "checked": "2026-11-17"
+              },
+              {
+                "url": "https://www.labour.gov.in/static/uploads/2026/11/da640b1558a315e81e22ce5ac12f463f.pdf",
+                "host": "labour.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/db6008fe44.mp3"
+      }
+    },
+    {
+      "key": "en-passport",
+      "prev": "",
+      "question": "How do I get a passport?",
+      "response": {
+        "kind": "not_sure",
+        "lang": "en",
+        "lines": [
+          "I'm not sure about this one. I only answer from government pages we have checked.",
+          "For help, visit your nearest e-Sevai centre, or the free legal aid office at your district court."
+        ],
+        "items": [],
+        "audioUrl": "/demo-audio/ffee8ad841.mp3"
+      }
+    },
+    {
+      "key": "ta-passport",
+      "prev": "",
+      "question": "பாஸ்போர்ட் எப்படி வாங்குறது?",
+      "response": {
+        "kind": "not_sure",
+        "lang": "ta",
+        "lines": [
+          "இதைப் பத்தி எனக்கு உறுதியா தெரியல. நாங்க சரிபார்த்த அரசு தகவல்ல இருந்து மட்டும் தான் சொல்வேன்.",
+          "உதவிக்கு பக்கத்துல இருக்கற இ-சேவை மையத்துக்கு போங்க, இல்லன்னா மாவட்ட நீதிமன்றத்துல இருக்கற இலவச சட்ட உதவி மையத்துக்கு போங்க."
+        ],
+        "items": [],
+        "audioUrl": "/demo-audio/389cf441f1.mp3"
+      }
+    },
+    {
+      "key": "en-farmer",
+      "prev": "",
+      "question": "I'm a farmer with 2 acres. What can I get?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "Since you are a farmer, you may be able to get Rs 6,000 a year from Pradhan Mantri Kisan Samman Nidhi (PM-KISAN).",
+          "You also may be able to get crop insurance through Pradhan Mantri Fasal Bima Yojana (PMFBY) to help if your crop is lost.",
+          "You may also be able to get benefits from Chief Minister's Uzhavar Pathukappu Thittam 2011 if you join as a member."
+        ],
+        "cautionNote": "Some of this may have changed. Please confirm at an e-Sevai centre or the office before you apply.",
+        "items": [
+          {
+            "id": "fw-pm-kisan",
+            "type": "scheme",
+            "title": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/pm-kisan",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          },
+          {
+            "id": "fw-pmfby",
+            "type": "scheme",
+            "title": "Pradhan Mantri Fasal Bima Yojana (PMFBY) - crop insurance",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/pmfby",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          },
+          {
+            "id": "fw-cm-uzhavar-pathukappu",
+            "type": "scheme",
+            "title": "Chief Minister's Uzhavar Pathukappu Thittam 2011 (Farmers Security Scheme)",
+            "verdict": "need_info",
+            "caution": true,
+            "sources": [
+              {
+                "url": "https://landreforms.tn.gov.in/UPT.html",
+                "host": "landreforms.tn.gov.in",
+                "checked": "2026-11-17"
+              },
+              {
+                "url": "https://www.myscheme.gov.in/schemes/oapsucmupt",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/b25854483e.mp3"
+      }
+    },
+    {
+      "key": "ta-farmer",
+      "prev": "",
+      "question": "எனக்கு 2 ஏக்கர் நிலம் இருக்கு. என்ன கிடைக்கும்?",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "உங்களுக்கு 2 ஏக்கர் நிலம் இருப்பதால் பிரதம மந்திரி கிசான் சம்மன் நிதி திட்டத்தின் மூலம் ஆண்டுக்கு Rs 6,000 பெறலாம்.",
+          "பிரதான் மந்திரி பயிர்க் காப்பீட்டுத் திட்டத்தின் கீழ் குறைந்த விலையில் பயிர்க் காப்பீடும் உங்களுக்கு கிடைக்கலாம்.",
+          "இதை விண்ணப்பிக்க அருகில் உள்ள Common Service Centre (CSC) அல்லது pmfby.gov.in இணையதளத்திற்கு செல்லலாம்."
+        ],
+        "items": [
+          {
+            "id": "fw-pm-kisan",
+            "type": "scheme",
+            "title": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/pm-kisan",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          },
+          {
+            "id": "fw-pmfby",
+            "type": "scheme",
+            "title": "Pradhan Mantri Fasal Bima Yojana (PMFBY) - crop insurance",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.myscheme.gov.in/schemes/pmfby",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/b10c002f36.mp3"
+      }
+    },
+    {
+      "key": "en-census",
+      "prev": "",
+      "question": "When can I fill my own census details?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "You can fill in your own census details from 10 to 24 January 2027.",
+          "If you do not use this option, census staff will come house to house."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-census-2027",
+            "type": "notice",
+            "title": "Census of India 2027: counting dates and self-enumeration window",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/479_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/ed67ebf9cb.mp3"
+      }
+    },
+    {
+      "key": "ta-census",
+      "prev": "",
+      "question": "சென்சஸ் விவரத்த நானே எப்போ நிரப்பலாம்?",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "சென்சஸ் விவரங்களை நீங்கள் 10 ஜனவரி 2027 முதல் 24 ஜனவரி 2027 வரை நீங்களாகவே நிரப்பலாம்.",
+          "அதன் பிறகு 25 ஜனவரி 2027 முதல் 28 பிப்ரவரி 2027 வரை சென்சஸ் பணியாளர்கள் வீடு வீடாக வந்து விவரங்களை சேகரிப்பார்கள்."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-census-2027",
+            "type": "notice",
+            "title": "Census of India 2027: counting dates and self-enumeration window",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/479_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/5ed38eb23f.mp3"
+      }
+    }
+  ]
+}

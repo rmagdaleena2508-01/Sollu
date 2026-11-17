@@ -3,7 +3,7 @@ import type { FormEvent } from 'react';
 import { IconSprite, Icon } from '../components/Icon';
 import { LangToggle } from '../components/Nav';
 import { useLang, useReducedMotion } from '../hooks';
-import { ask, speech, transcribe } from './api';
+import { ApiError, ask, speech, transcribe, warmUp } from './api';
 import { AnswerCard } from './AnswerCard';
 import { askSamples, copy } from './copy';
 import type { AskResponse, Turn } from './types';
@@ -15,7 +15,7 @@ type Entry =
   | { id: number; kind: 'answer'; res: AskResponse }
   | { id: number; kind: 'error'; text: string };
 
-type Phase = 'idle' | 'hearing' | 'thinking';
+type Phase = 'idle' | 'hearing' | 'thinking' | 'retrying';
 
 let nextId = 1;
 
@@ -76,7 +76,7 @@ export function AskPage() {
       if (!audio.current) audio.current = new Audio();
       const el = audio.current;
       try {
-        let url = audioCache.current.get(id);
+        let url = audioCache.current.get(id) ?? (res.audioUrl && !res.fallback ? res.audioUrl : undefined);
         if (!url) {
           setLoadingAudio(id);
           url = URL.createObjectURL(await speech(text, l));
@@ -112,15 +112,27 @@ export function AskPage() {
       setPhase('thinking');
       const ctrl = new AbortController();
       inFlight.current = ctrl;
+      const askOnce = () => ask({ question: q, lang, history }, ctrl.signal);
       try {
-        const res = await ask({ question: q, lang, history }, ctrl.signal);
+        let res;
+        try {
+          res = await askOnce();
+        } catch (err) {
+          // Busy: wait a moment and try once more before telling the person.
+          if (!(err instanceof ApiError && err.busy) || ctrl.signal.aborted) throw err;
+          setPhase('retrying');
+          await new Promise((r) => setTimeout(r, 2500));
+          if (ctrl.signal.aborted) return;
+          setPhase('thinking');
+          res = await askOnce();
+        }
         const id = nextId++;
         setEntries((x) => [...x, { id, kind: 'answer', res }]);
         setPhase('idle');
         void play(id, res);
       } catch (err) {
         if (ctrl.signal.aborted) return;
-        setEntries((x) => [...x, { id: nextId++, kind: 'error', text: err instanceof Error && /Too many/.test(err.message) ? err.message : t.failed }]);
+        setEntries((x) => [...x, { id: nextId++, kind: 'error', text: err instanceof ApiError && err.busy ? t.busy : t.failed }]);
         setPhase('idle');
       }
     },
@@ -200,6 +212,10 @@ export function AskPage() {
   };
 
   useEffect(() => {
+    warmUp();
+  }, []);
+
+  useEffect(() => {
     document.title = lang === 'ta' ? 'சொல்லு கிட்ட கேளுங்க' : 'Ask Sollu';
   }, [lang]);
 
@@ -225,7 +241,9 @@ export function AskPage() {
       ? t.hearing
       : phase === 'thinking'
         ? t.thinking
-        : t.tapToSpeak;
+        : phase === 'retrying'
+          ? t.retrying
+          : t.tapToSpeak;
 
   const empty = entries.length === 0;
 
@@ -303,7 +321,7 @@ export function AskPage() {
             {busy && (
               <li className="turn turn-wait" aria-live="polite">
                 <span className="dots-wait" aria-hidden="true"><i /><i /><i /></span>
-                {phase === 'hearing' ? t.hearing : t.thinking}
+                {phase === 'hearing' ? t.hearing : phase === 'retrying' ? t.retrying : t.thinking}
               </li>
             )}
             <div ref={endRef} />

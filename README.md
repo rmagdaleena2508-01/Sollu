@@ -120,12 +120,14 @@ Voice is the front door, so it can't be the only door. Every step has a backup, 
 | The person taps the mic but says nothing | Stops after 8 seconds and asks them to try again. **Nothing is sent**, so no API call is wasted on silence |
 | Sollu heard the words wrong | The words wait in the text box for about 2 seconds. Tapping **Edit** stops the sending so they can fix them |
 | You talk for more than 28 seconds | Stops at 28 seconds, still answers, and tells you it stopped |
-| A Gemini model is busy (common on the free tier) | Waits up to 9 seconds, then tries the next model (3 models in a row) |
+| A Gemini model is slow (common on the free tier) | After 4 seconds, starts the next model **at the same time** and uses whichever answers first (3 models) |
+| Every Gemini model is busy | Tries once more by itself, then says *"Sollu is busy right now. Please try again in a minute"* in Tamil or English, instead of a general error |
+| The demo questions, when the free tier is busy | They don't use the AI live at all: their answers were made in advance by the same pipeline and come back instantly, with ready-made audio |
 | The AI answer has a number that isn't in the checked facts | Asks the AI to write it again. If it fails twice, shows the **plain checked facts** instead |
 | Nothing in the checked data matches the question | Says *"I'm not sure"* and points to e-Sevai or free legal aid. **It never guesses** |
 | Sarvam can't make the audio | The **phone's own voice** reads the answer |
 | The phone blocks audio from playing by itself | The **Hear it** button is always there |
-| Too many questions from one place in a minute | Asks the person to wait a minute (protects the free API keys) |
+| Too many questions from one place in a minute | Asks the person to wait a minute (protects the free API keys). Set to 40 a minute, because everyone on the same venue Wi-Fi shares one address |
 
 ## How I built it
 
@@ -141,7 +143,13 @@ These are the choices I made as a full-stack engineer, and why.
 
 **5. Keys never reach the phone.** The Gemini and Sarvam keys live only on the server, in Vercel Functions ([`api/`](api/)). The browser talks to `/api/ask`, `/api/stt` and `/api/tts`, never to Google or Sarvam directly. The same handlers run in local development through a small Vite plugin, so what I test is what ships.
 
-**6. Built for the free tier and slow networks.** Free AI models get busy. I measured them: the bigger Gemini Flash models often answered "high demand" after more than 70 seconds, while Flash-Lite answered in about 2 seconds with good Tamil. So Sollu tries `gemini-3.5-flash-lite` first, with a 9-second limit, then two backups. Audio comes back as MP3 (small), and the text shows before the voice starts.
+**6. Built for the free tier and slow networks.** Free AI models get busy. I measured them: the bigger Gemini Flash models often answered "high demand" after more than 70 seconds, while Flash-Lite answered in about 2 seconds with good Tamil. So Sollu tries `gemini-3.5-flash-lite` first. If it hasn't answered in 4 seconds, a backup model starts alongside it ("hedging", the same trick big systems use for slow servers), and the first good answer wins. Audio comes back as MP3 (small), and the text shows before the voice starts.
+
+**12. Ready for a busy room.** A demo is the worst time for a free API to be slow, so:
+- The questions in the demo script and the sample chips have **saved answers**, made in advance by the same pipeline and checked by me ([`data/demo-answers.json`](data/demo-answers.json), audio in [`public/demo-audio/`](public/demo-audio/)). They come back in milliseconds.
+- A saved answer is used only when the question means the same thing word for word and has exactly the same numbers. *"Can my father get a pension?"* never gets the answer saved for *"Can my mother get a pension?"*, and *"72"* never gets the answer for *"67"*.
+- Recent live answers are kept in memory, so the same question twice is instant.
+- `GET /api/health` wakes the server, and the Ask page calls it when it opens. `GET /api/health?deep=1` makes one tiny Gemini call and one tiny Sarvam call and times them. Run it just before going on stage.
 
 **7. Privacy by default.** Questions go to Gemini with storage turned off (`store: false`). Nothing is saved in a database. The page reminds people not to say their name, Aadhaar or phone number.
 
@@ -246,9 +254,16 @@ Then open the address Vite prints (usually `http://localhost:8950`) and go to `/
 
 ```bash
 npm run build      # strict type check + production build into dist/
+python3 data/tools/demo_answers.py   # remake the saved demo answers (dev server must be running)
 ```
 
 For the live site, add the same two keys in Vercel: **Project → Settings → Environment Variables**.
+
+Before a demo, check everything is awake and working:
+
+```bash
+curl "https://sollu-ai.vercel.app/api/health?deep=1"
+```
 
 <details>
 <summary><b>Project map</b></summary>

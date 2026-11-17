@@ -4,6 +4,7 @@ import type { Entry } from './data.js';
 import { checkScheme, followUps } from './eligibility.js';
 import type { Check, Person } from './eligibility.js';
 import { geminiJson } from './gemini.js';
+import { findLive, findSaved, remember } from './cache.js';
 
 const ids = entries.map((e) => e.id);
 
@@ -142,7 +143,8 @@ function clean(history: Turn[] | undefined): Turn[] {
     .map((t) => ({ role: t.role, text: t.text.slice(0, 600) }));
 }
 
-export async function answer(req: AskRequest): Promise<AskResponse> {
+/** The full pipeline: understand, decide, explain, check. Always calls Gemini. */
+export async function answerLive(req: AskRequest): Promise<AskResponse> {
   const question = req.question.trim().slice(0, 500);
   const history = clean(req.history);
   const convo = [...history, { role: 'user' as const, text: question }]
@@ -238,4 +240,18 @@ export async function answer(req: AskRequest): Promise<AskResponse> {
     items,
     fallback: fallback || undefined,
   };
+}
+
+/**
+ * Saved demo answers first (instant, can't fail), then recent live answers, then the full pipeline.
+ * `fresh` skips both caches; only the script that makes the saved answers uses it.
+ */
+export async function answer(req: AskRequest, opts: { fresh?: boolean } = {}): Promise<AskResponse> {
+  if (!opts.fresh) {
+    const hit = findSaved(req) ?? findLive(req);
+    if (hit) return hit;
+  }
+  const res = await answerLive(req);
+  remember(req, res);
+  return res;
 }
