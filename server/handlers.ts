@@ -1,5 +1,6 @@
 import type { AskLang, AskRequest } from '../src/ask/types';
 import { answer } from './ask.js';
+import { geminiJson, GeminiBusyError } from './gemini.js';
 import { speak, transcribe } from './sarvam.js';
 
 const json = (body: unknown, status = 200) =>
@@ -10,12 +11,13 @@ const json = (body: unknown, status = 200) =>
  * It lives in memory, so it resets when the function restarts. Good enough for a demo, not for launch.
  */
 const hits = new Map<string, number[]>();
-function limited(req: Request, perMinute: number): boolean {
+function limited(req: Request, perMinute: number, bucket: string): boolean {
   const ip = (req.headers.get('x-forwarded-for') ?? 'local').split(',')[0].trim();
+  const key = `${bucket}:${ip}`; // each endpoint counts on its own
   const now = Date.now();
-  const recent = (hits.get(ip) ?? []).filter((t) => now - t < 60_000);
+  const recent = (hits.get(key) ?? []).filter((t) => now - t < 60_000);
   recent.push(now);
-  hits.set(ip, recent);
+  hits.set(key, recent);
   return recent.length > perMinute;
 }
 
@@ -23,9 +25,10 @@ const isLang = (l: unknown): l is AskLang => l === 'ta' || l === 'en';
 
 export async function handleAsk(req: Request): Promise<Response> {
   if (req.method !== 'POST') return json({ error: 'Use POST' }, 405);
-  if (limited(req, 20)) return json({ error: 'Too many questions. Please wait a minute.' }, 429);
+  // Everyone on the same venue Wi-Fi shares one address, so this is set high enough for a room of judges.
+  if (limited(req, 40, 'ask')) return json({ error: 'Too many questions. Please wait a minute.', code: 'busy' }, 429);
 
-  let body: AskRequest;
+  let body: AskRequest & { fresh?: boolean };
   try {
     body = (await req.json()) as AskRequest;
   } catch {
@@ -34,9 +37,19 @@ export async function handleAsk(req: Request): Promise<Response> {
   if (typeof body.question !== 'string' || !body.question.trim()) return json({ error: 'Ask a question' }, 400);
   if (!isLang(body.lang)) body.lang = 'en';
 
+  // Skipping the caches is only for making the saved answers on a developer's machine, never on Vercel.
+  const fresh = body.fresh === true && !process.env.VERCEL;
+
   try {
-    return json(await answer(body));
+    return json(await answer(body, { fresh }));
   } catch (err) {
+    if (err instanceof GeminiBusyError) {
+      console.warn('ask busy', err.message);
+      return new Response(JSON.stringify({ error: 'busy', code: 'busy' }), {
+        status: 503,
+        headers: { 'Content-Type': 'application/json; charset=utf-8', 'Retry-After': '30' },
+      });
+    }
     console.error('ask failed', err);
     return json({ error: 'Sollu could not answer right now. Please try again.' }, 502);
   }
@@ -46,7 +59,7 @@ const MAX_AUDIO_BYTES = 3 * 1024 * 1024;
 
 export async function handleStt(req: Request): Promise<Response> {
   if (req.method !== 'POST') return json({ error: 'Use POST' }, 405);
-  if (limited(req, 20)) return json({ error: 'Too many requests. Please wait a minute.' }, 429);
+  if (limited(req, 20, 'stt')) return json({ error: 'Too many requests. Please wait a minute.' }, 429);
 
   const type = (req.headers.get('content-type') ?? 'audio/webm').split(';')[0];
   if (!type.startsWith('audio/') && type !== 'video/webm' && type !== 'video/mp4') {
@@ -67,7 +80,7 @@ export async function handleStt(req: Request): Promise<Response> {
 
 export async function handleTts(req: Request): Promise<Response> {
   if (req.method !== 'POST') return json({ error: 'Use POST' }, 405);
-  if (limited(req, 30)) return json({ error: 'Too many requests. Please wait a minute.' }, 429);
+  if (limited(req, 30, 'tts')) return json({ error: 'Too many requests. Please wait a minute.' }, 429);
 
   let body: { text?: unknown; lang?: unknown };
   try {
@@ -85,4 +98,44 @@ export async function handleTts(req: Request): Promise<Response> {
     console.error('tts failed', err);
     return json({ error: 'Could not make audio' }, 502);
   }
+}
+
+/**
+ * GET /api/health: wakes the server up before a demo.
+ * Plain call: confirms the server runs and both keys are set (no API calls, safe to hit often).
+ * ?deep=1: also makes one tiny Gemini call and one tiny Sarvam call, and times them.
+ */
+export async function handleHealth(req: Request): Promise<Response> {
+  const url = new URL(req.url);
+  const out: Record<string, unknown> = {
+    ok: true,
+    keys: { gemini: Boolean(process.env.GEMINI_API_KEY), sarvam: Boolean(process.env.SARVAM_API_KEY) },
+  };
+  if (url.searchParams.get('deep') === '1') {
+    if (limited(req, 6, 'health')) return json({ error: 'Too many checks. Please wait a minute.' }, 429);
+    const time = async (fn: () => Promise<unknown>) => {
+      const t0 = Date.now();
+      try {
+        await fn();
+        return { ok: true, ms: Date.now() - t0 };
+      } catch (err) {
+        return { ok: false, ms: Date.now() - t0, busy: err instanceof GeminiBusyError, error: err instanceof Error ? err.message.slice(0, 160) : 'error' };
+      }
+    };
+    const [gemini, sarvam] = await Promise.all([
+      time(() =>
+        geminiJson({
+          system: 'Reply with the JSON only.',
+          input: 'Say ok.',
+          schema: { type: 'object', properties: { ok: { type: 'boolean' } }, required: ['ok'] },
+          maxOutputTokens: 200,
+        }),
+      ),
+      time(() => speak('சரி', 'ta')),
+    ]);
+    out.gemini = gemini;
+    out.sarvam = sarvam;
+    out.ok = gemini.ok && sarvam.ok;
+  }
+  return json(out, out.ok ? 200 : 503);
 }
