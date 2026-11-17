@@ -53,7 +53,7 @@ export function Nav({ lang, onLang }: NavProps) {
     <header className="nav">
       <div className="wrap">
         <a href="#top" className="logo" aria-label="Sollu home">
-          <img className="logo-mark" src="/sollu-icon.png" width={28} height={28} alt="" />
+          <img className="logo-mark" src="/sollu-icon-56.webp" width={28} height={28} alt="" />
           Sollu
         </a>
         {/* Same names and order as the section labels on the page. */}

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { RefObject } from 'react';
 import type { Lang } from '../content';
+import { useBrowserLayoutEffect } from '../hooks';
 
 /**
  * Voice in.
@@ -72,8 +73,15 @@ export function useVoiceInput({ lang, meterRef, onAudio, onText, onError }: Opti
   const cb = useRef({ onAudio, onText, onError });
   cb.current = { onAudio, onText, onError };
 
-  const canRecord = typeof navigator !== 'undefined' && !!navigator.mediaDevices?.getUserMedia && !!pickMime();
-  const Recognition = browserRecognition();
+  // Checked after the first render, so the pre-rendered page and the browser's first render match.
+  const [env, setEnv] = useState<{ canRecord: boolean; Recognition: (new () => BrowserRecognition) | null }>({
+    canRecord: true,
+    Recognition: null,
+  });
+  useBrowserLayoutEffect(() => {
+    setEnv({ canRecord: !!navigator.mediaDevices?.getUserMedia && !!pickMime(), Recognition: browserRecognition() });
+  }, []);
+  const { canRecord, Recognition } = env;
   const available = canRecord || (!!Recognition && !browserBroken);
 
   const setLevel = (v: number) => meterRef.current?.style.setProperty('--level', v.toFixed(3));

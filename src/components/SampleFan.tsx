@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { CSSProperties } from 'react';
 import { sampleQuestions } from '../content';
-import { useReducedMotion } from '../hooks';
+import { useBrowserLayoutEffect, useReducedMotion } from '../hooks';
 import { Icon } from './Icon';
 
 const n = sampleQuestions.length;
@@ -19,10 +19,11 @@ export function SampleFan() {
   const reduce = useReducedMotion();
   const [front, setFront] = useState(2);
   const [auto, setAuto] = useState(!reduce);
-  const [step, setStep] = useState(() => (Math.min(innerWidth, 1180) < 640 ? 46 : 150));
+  const [step, setStep] = useState(150);
 
-  useEffect(() => {
+  useBrowserLayoutEffect(() => {
     const onResize = () => setStep(Math.min(innerWidth, 1180) < 640 ? 46 : 150);
+    onResize();
     addEventListener('resize', onResize);
     return () => removeEventListener('resize', onResize);
   }, []);
