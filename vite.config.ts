@@ -30,7 +30,11 @@ function devApi(): Plugin {
           const response: Response = await mod[name](request);
           res.statusCode = response.status;
           response.headers.forEach((v, k) => res.setHeader(k, v));
-          res.end(Buffer.from(await response.arrayBuffer()));
+          // Pass the body through as it arrives, so streamed audio streams in development too.
+          if (response.body) {
+            for await (const chunk of response.body as unknown as AsyncIterable<Uint8Array>) res.write(chunk);
+            res.end();
+          } else res.end();
         } catch (err) {
           console.error(err);
           res.statusCode = 500;
