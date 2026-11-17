@@ -1,4 +1,4 @@
-import { handleTts } from '../server/handlers';
+import { handleTts } from '../server/handlers.js';
 
 /** Vercel Function: POST /api/tts */
 export function POST(request: Request): Promise<Response> {

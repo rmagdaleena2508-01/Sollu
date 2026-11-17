@@ -1,5 +1,5 @@
 import type { Verdict } from '../src/ask/types';
-import type { Scheme } from './data';
+import type { Scheme } from './data.js';
 
 /**
  * Facts about the person the question is about (the asker, or their mother, son and so on).

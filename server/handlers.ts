@@ -1,6 +1,6 @@
 import type { AskLang, AskRequest } from '../src/ask/types';
-import { answer } from './ask';
-import { speak, transcribe } from './sarvam';
+import { answer } from './ask.js';
+import { speak, transcribe } from './sarvam.js';
 
 const json = (body: unknown, status = 200) =>
   new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json; charset=utf-8' } });

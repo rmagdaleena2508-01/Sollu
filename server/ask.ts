@@ -1,9 +1,9 @@
 import type { AnswerItem, AskLang, AskRequest, AskResponse, Turn } from '../src/ask/types';
-import { byId, catalogue, entries, factsFor, sourcesOf, titleOf } from './data';
-import type { Entry } from './data';
-import { checkScheme, followUps } from './eligibility';
-import type { Check, Person } from './eligibility';
-import { geminiJson } from './gemini';
+import { byId, catalogue, entries, factsFor, sourcesOf, titleOf } from './data.js';
+import type { Entry } from './data.js';
+import { checkScheme, followUps } from './eligibility.js';
+import type { Check, Person } from './eligibility.js';
+import { geminiJson } from './gemini.js';
 
 const ids = entries.map((e) => e.id);
 
