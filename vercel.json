@@ -1,3 +1,11 @@
 {
-  "rewrites": [{ "source": "/ask", "destination": "/index.html" }]
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "sollu-delta.vercel.app" }],
+      "destination": "https://sollu-ai.vercel.app/:path*",
+      "permanent": true
+    }
+  ]
 }

@@ -259,6 +259,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 13 | The top bar shortcuts use the names of the sections on the page, in order. | [#12](https://github.com/rmagdaleena2508-01/Sollu/pull/12) |
 | 14 | **Explain a notice cards:** the 3 checked notices as cards on the Ask page, with saved Tamil and English answers. The landing page's notice card now shows the real census notice and opens its explanation. The top bar says "FAQs" at its original size. | [#13](https://github.com/rmagdaleena2508-01/Sollu/pull/13) |
 | 15 | **"Hear it" plays Sollu introducing itself** in Sarvam's Tamil or English voice (recorded once, about 8 seconds). The rings behind it now grow outward like sound, faster while it talks. A three-face sticker drawn for Sollu sits next to the pill, which now says "Trusted by citizens in Tamil Nadu. All of India next." | this change |
+| 16 | **Findable by search engines:** both pages are pre-rendered to real HTML at build time, each with its own title, description and canonical link. Adds robots.txt, a sitemap, FAQ and breadcrumb structured data, a share image, a 404 page, and a redirect from the old second address. | this change |
 
 ### Problems I hit, and how I fixed them
 
@@ -346,6 +347,7 @@ Then open the address Vite prints (usually `http://localhost:8950`) and go to `/
 ```bash
 npm run build      # strict type check + production build into dist/
 python3 data/tools/demo_answers.py   # remake the saved demo answers (dev server must be running)
+# `npm run build` also pre-renders / and /ask to HTML (scripts/prerender.mjs), so search engines see the text
 ```
 
 For the live site, add the same two keys in Vercel: **Project → Settings → Environment Variables**.

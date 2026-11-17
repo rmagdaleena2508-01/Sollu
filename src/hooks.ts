@@ -1,15 +1,23 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { CSSProperties } from 'react';
 import type { Lang } from './content';
+
+/**
+ * The pages are pre-rendered to HTML at build time, and the browser's first render must match that
+ * HTML exactly. So anything that depends on the browser (saved language, motion setting, screen
+ * width) starts from the build-time value and is corrected in a layout effect, before the first paint.
+ */
+export const useBrowserLayoutEffect = typeof window === 'undefined' ? useEffect : useLayoutEffect;
 
 /** Stagger delay for `.rise` / `.reveal` entrances: style={delay('.1s')} */
 export const delay = (d: string) => ({ '--d': d }) as CSSProperties;
 
 export function useReducedMotion(): boolean {
-  const [reduce, setReduce] = useState(() => matchMedia('(prefers-reduced-motion: reduce)').matches);
-  useEffect(() => {
+  const [reduce, setReduce] = useState(false);
+  useBrowserLayoutEffect(() => {
     const mq = matchMedia('(prefers-reduced-motion: reduce)');
     const on = () => setReduce(mq.matches);
+    on();
     mq.addEventListener('change', on);
     return () => mq.removeEventListener('change', on);
   }, []);
@@ -37,13 +45,14 @@ export function useRevealAll() {
 const LANG_KEY = 'sollu-lang';
 
 export function useLang(): [Lang, (l: Lang) => void] {
-  const [lang, setLangState] = useState<Lang>(() => {
+  const [lang, setLangState] = useState<Lang>('en');
+  useBrowserLayoutEffect(() => {
     try {
-      return localStorage.getItem(LANG_KEY) === 'ta' ? 'ta' : 'en';
+      if (localStorage.getItem(LANG_KEY) === 'ta') setLangState('ta');
     } catch {
-      return 'en';
+      /* storage blocked: stay in English */
     }
-  });
+  }, []);
   const setLang = useCallback((l: Lang) => {
     setLangState(l);
     try {

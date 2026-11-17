@@ -7,3 +7,4 @@ dist
 
 # Saved source originals stay local; text.txt + meta.json (with SHA-256) are committed
 data/sources/*/original.*
+dist-ssr
