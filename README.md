@@ -105,7 +105,7 @@ flowchart TD
 5. **One question at a time.** If a fact is missing, Sollu asks one short, fixed question, like *"அவங்களுக்கு எத்தனை வயசு?"* (How old are they?). You answer, and Sollu remembers the conversation.
 6. **Sollu explains.** Gemini writes at most 3 short lines in the language you used, using only the checked facts.
 7. **Sollu checks itself.** Every number in the answer must appear in the checked facts or in what you said. Numbers written as words and broken text are rejected too.
-8. **You hear it.** Sarvam's text-to-speech (`bulbul:v4-flash`) reads the answer out loud with a Tamil voice. The voice is **streamed**, so it starts in under a second, while the rest is still being made. Each answer shows the official source link and the date it was checked. Entries a reviewer marked "caution" also say *"confirm at the office before you apply"*.
+8. **You hear it.** Sarvam's text-to-speech (`bulbul:v4-flash`) reads the answer out loud with a Tamil voice. The voice is **streamed**, so it starts in 1 to 2 seconds, while the rest is still being made. Each answer shows the official source link and the date it was checked. Entries a reviewer marked "caution" also say *"confirm at the office before you apply"*.
 
 ## When things fail
 
@@ -219,7 +219,7 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 | Busy free tier | Faked "busy" replies from the server | Shows *"Sollu is busy. Trying again…"*, retries once, then *"Please try again in a minute"* |
 | The demo, on the live site | The 4-step demo script on sollu-ai.vercel.app, plus `/api/health?deep=1` | Each step answers in under 1 second; all 17 saved audio files load; health check passes |
 | Speech out | Tamil text through `/api/tts`, played in the browser | Plays, with the phone's voice as backup |
-| Voice delay | Time from the answer showing to the voice starting, for an answer that isn't saved | **About 0.9 seconds** (was about 6). The production build's first audio chunk comes in 0.4 seconds |
+| Voice delay | Time from the answer showing to the voice starting, for an answer that isn't saved | **About 0.9 seconds** on my machine and **about 1.7 seconds on the live site** (was about 6). On the live site the first second of sound arrives in 0.8 to 1.3 seconds, and the download stays well ahead of playback |
 | Voice backups | A broken stream, then the Stop button | Falls back to the whole audio file and plays; Stop also cancels the download |
 | Page | Checked in a browser at phone size (390px) and desktop (1440px), in English and Tamil: sample questions, typing, follow-up, play and stop | No sideways scroll, everything works |
 | Code | `npm run build` (strict TypeScript + production build) | Passes |
@@ -253,7 +253,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 8 | **Ready for a busy room:** saved demo answers, a backup Gemini model when one is slow, a clear "busy" message, a health check. | [#6](https://github.com/rmagdaleena2508-01/Sollu/pull/6) |
 | 9 | **Pensions corrected to Rs 1,200** from the official page, after my own check of the amounts. | [#7](https://github.com/rmagdaleena2508-01/Sollu/pull/7) |
 | 10 | A build log in this README. | [#8](https://github.com/rmagdaleena2508-01/Sollu/pull/8) |
-| 11 | **The voice starts in under a second** instead of about 6, by streaming it. | this change |
+| 11 | **The voice starts in about 1.7 seconds** instead of about 6, by streaming it. | [#9](https://github.com/rmagdaleena2508-01/Sollu/pull/9) |
 
 ### Problems I hit, and how I fixed them
 
@@ -303,7 +303,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 
 | Problem | Fix |
 |---|---|
-| The voice came about 6 seconds after the answer, and voicing just the first line still took about 4 | Streamed the voice instead of splitting it: it now starts in about 0.9 seconds |
+| The voice came about 6 seconds after the answer, and voicing just the first line still took about 4 | Streamed the voice instead of splitting it: it now starts in about 1.7 seconds on the live site |
 | The free Gemini tier can be slow or busy during a demo | Saved answers for the demo questions, made in advance by the same pipeline and checked by me |
 | My first saved-answer match gave the **mother's** pension answer to *"Can my father get a pension?"* | A saved answer is used only when every different word is filler or a spelling variant, and all the numbers match |
 | The health check shared its request limit with questions, so a busy room could block it | Each endpoint now has its own limit. Questions allow 40 a minute, because a whole venue shares one Wi-Fi address |
