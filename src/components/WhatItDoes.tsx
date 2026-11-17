@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import audienceIndex from '../../data/audience-index.json';
 import { fitTags, noticeLines, schemeCircles } from '../content';
 import type { FitKey } from '../content';
 import { delay, useTimeout } from '../hooks';
@@ -6,10 +7,13 @@ import { Icon } from './Icon';
 
 function CheckCard() {
   const [picked, setPicked] = useState<Set<FitKey>>(new Set());
-  const total = useMemo(
-    () => fitTags.filter((t) => picked.has(t.key)).reduce((s, t) => s + t.sample, 0),
-    [picked],
-  );
+  // Real counts from the checked data. A scheme for two picked groups counts once.
+  const matches = useMemo(() => {
+    const index = audienceIndex.audiences as Record<string, { id: string; name: string }[]>;
+    const seen = new Map<string, string>();
+    for (const t of fitTags) if (picked.has(t.key)) for (const a of t.audiences) for (const s of index[a] ?? []) seen.set(s.id, s.name);
+    return [...seen.values()];
+  }, [picked]);
 
   const toggle = (k: FitKey) =>
     setPicked((prev) => {
@@ -33,7 +37,7 @@ function CheckCard() {
       </div>
       <p className="fit tnum" aria-live="polite">
         {picked.size ? (
-          <>You may fit <b>{total} schemes</b>. Sample count, for this demo only.</>
+          <><b>{matches.length} checked {matches.length === 1 ? 'scheme' : 'schemes'}</b> are for people like you. Ask Sollu which ones fit you.</>
         ) : (
           'Tap what fits you.'
         )}
@@ -44,7 +48,6 @@ function CheckCard() {
           <span key={c.icon} style={{ color: c.color }}><Icon name={c.icon} /></span>
         ))}
       </div>
-      <span className="sample">Sample</span>
     </article>
   );
 }

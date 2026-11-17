@@ -173,7 +173,13 @@ export function Footer() {
           {footerCols.map((c) => (
             <div key={c.title}>
               <h4>{c.title}</h4>
-              {c.links.map(([label, href]) => <a key={label} href={href}>{label}</a>)}
+              {c.links.map(([label, href]) =>
+                href.startsWith('http') ? (
+                  <a key={label} href={href} target="_blank" rel="noreferrer">{label}</a>
+                ) : (
+                  <a key={label} href={href}>{label}</a>
+                ),
+              )}
             </div>
           ))}
         </div>
