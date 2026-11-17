@@ -42,13 +42,13 @@ export const stats = [
 
 export type FitKey = 'senior' | 'farmer' | 'student' | 'worker' | 'woman';
 
-/** Sample counts for the demo chips only — not real scheme data. */
-export const fitTags: { key: FitKey; label: string; sample: number }[] = [
-  { key: 'senior', label: 'Age 60+', sample: 3 },
-  { key: 'farmer', label: 'Farmer', sample: 4 },
-  { key: 'student', label: 'Student', sample: 3 },
-  { key: 'worker', label: 'Daily-wage worker', sample: 2 },
-  { key: 'woman', label: 'Woman head of family', sample: 2 },
+/** Each chip maps to the audiences used in the checked data (data/audience-index.json). */
+export const fitTags: { key: FitKey; label: string; audiences: string[] }[] = [
+  { key: 'senior', label: 'Age 60+', audiences: ['seniors'] },
+  { key: 'farmer', label: 'Farmer', audiences: ['farmers'] },
+  { key: 'student', label: 'Student', audiences: ['school_students', 'college_students'] },
+  { key: 'worker', label: 'Daily-wage worker', audiences: ['workers'] },
+  { key: 'woman', label: 'Woman', audiences: ['women'] },
 ];
 
 export const schemeCircles: { icon: IconName; color: string }[] = [
@@ -78,12 +78,13 @@ export const features: { icon: FeatureIcon; tone: Tone; title: string; body: str
   { icon: 'pin', tone: 'purple', title: 'Find the office.', body: 'The nearest e-Sevai centre, taluk office or free legal aid desk.' },
 ];
 
+/** A real example from the checked data: the old age pension answer. */
 export const sourceRows: [string, string][] = [
-  ['Answer', 'You may fit this scheme.'],
-  ['Source', 'Government Order (G.O.)'],
-  ['From', 'Social Welfare Department'],
-  ['Published', 'Date shown here'],
-  ['Last checked by Sollu', 'Date shown here'],
+  ['Answer', 'Rs 1,200 a month, if you fit.'],
+  ['Source', 'Social security schemes page'],
+  ['From', 'Commissionerate of Revenue Administration'],
+  ['Says', 'Rs 1,200 from August 2023'],
+  ['Last checked by Sollu', '17 Nov 2026'],
 ];
 
 export type PersonaIcon = Extract<IconName, 'user' | 'leaf' | 'cap' | 'tool' | 'heart'>;
@@ -158,7 +159,7 @@ export interface SampleQuestion {
 export const sampleQuestions: SampleQuestion[] = [
   { tag: 'Money', en: 'Can my mother get a pension?', ta: 'என் அம்மாவுக்கு பென்ஷன் கிடைக்குமா?', topic: 'Senior care', icon: 'user', color: 'var(--pink)' },
   { tag: 'Work', en: 'My salary is late by 2 months. What can I do?', ta: 'ரெண்டு மாசமா சம்பளம் வரல.', topic: 'Wages', icon: 'tool', color: '#C89200' },
-  { tag: 'Land', en: 'Is this land notice about my plot?', ta: 'இந்த நில அறிவிப்பு என் நிலத்தைப் பத்தியா?', topic: 'Notices', icon: 'doc', color: 'var(--sky)' },
+  { tag: 'Notice', en: 'When can I fill my own census details?', ta: 'சென்சஸ் விவரத்த நானே எப்போ நிரப்பலாம்?', topic: 'Notices', icon: 'doc', color: 'var(--sky)' },
   { tag: 'Study', en: 'Which scholarships fit a first-year B.Sc student?', ta: 'B.Sc முதல் வருஷம் — உதவித்தொகை?', topic: 'Education', icon: 'cap', color: 'var(--green)' },
   { tag: 'Food', en: 'Can the shop refuse my ration?', ta: 'ரேஷன் கடை மறுக்கலாமா?', topic: 'Ration', icon: 'home', color: 'var(--purple)' },
 ];
@@ -175,19 +176,21 @@ export const roadmap = [
 ] as const;
 
 export const faqs: [q: string, a: string][] = [
-  ['Is Sollu free?', 'Yes. Asking is free, and it always will be.'],
-  ['Is this legal advice?', 'No. Sollu explains rules in plain words. For a legal case, it connects you to free legal aid in your district.'],
-  ['Do I need to sign in?', 'No. Your saved answers stay on your phone.'],
-  ['What happens to my voice?', "It's turned into text to answer you, then deleted. We never sell your data."],
-  ['What if Sollu is wrong?', 'Tap "Report a wrong answer". A person checks it, and we fix the source.'],
-  ['Will it work on my phone?', "Yes. It's built for low-cost Android phones and slow networks."],
+  ['Is Sollu free?', 'Yes. Asking is free.'],
+  ['Is this legal advice?', 'No. Sollu explains rules in plain words. For a legal case, it points you to free legal aid at your district court.'],
+  ['Do I need to sign in?', "No. Sollu doesn't ask who you are, and it doesn't save your questions. Please don't say your name, Aadhaar or phone number."],
+  ['What happens to my voice?', "It's sent to a speech service only to turn it into text. Sollu doesn't keep the recording, and we never sell your data."],
+  ['What if Sollu is wrong?', 'Every answer shows the official page it came from and the date we checked it. If an amount may have changed, Sollu says so. Always confirm at the office before you apply.'],
+  ['Will it work on my phone?', 'It works in the browser on a phone with a mic. If voice fails, you can type. We are still testing more low-cost Android phones.'],
 ];
 
+const REPO = 'https://github.com/rmagdaleena2508-01/Sollu';
+
+/** Every link goes somewhere real. Links that leave the site open in a new tab. */
 export const footerCols: { title: string; links: [label: string, href: string][] }[] = [
-  { title: 'Product', links: [['Ask', '/ask'], ['Schemes', '#what'], ['Notices', '#what'], ['Rights', '#people'], ['Saved', '#top']] },
-  { title: 'Learn', links: [['How it works', '#trust'], ['Sources', '#trust'], ['Languages', '#top'], ['Roadmap', '#top']] },
-  { title: 'Help', links: [['For helpers', '#top'], ['Report a wrong answer', '#top'], ['Contact', '#top'], ['FAQ', '#faq-h']] },
-  { title: 'Legal', links: [['Privacy', '#top'], ['Terms', '#top'], ['Not legal advice', '#top']] },
+  { title: 'Product', links: [['Ask', '/ask'], ['Schemes', '#what'], ['Notices', '#what'], ['Rights', '#people']] },
+  { title: 'Learn', links: [['How it works', '#trust'], ['Where answers come from', `${REPO}/blob/main/DATA-SOURCES.md`], ['Roadmap', '#road-h'], ['FAQ', '#faq-h']] },
+  { title: 'Project', links: [['Source code', REPO], ['Report a wrong answer', `${REPO}/issues/new`], ['How AI was used', `${REPO}#ai-use-and-responsibility`], ['License (MIT)', `${REPO}/blob/main/LICENSE`]] },
 ];
 
 export const starterQuestion = 'Can I get a pension at 60?';

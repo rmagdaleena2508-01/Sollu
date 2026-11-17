@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import type { FormEvent } from 'react';
 import { faqs, features, roadmap, sourceRows } from '../content';
 import { delay } from '../hooks';
 import { Icon } from './Icon';
@@ -29,17 +27,7 @@ export function Features() {
   );
 }
 
-const DEFAULT_FINE = 'Get a message when a new scheme fits you. We only send scheme alerts. Reply STOP any time.';
-
 export function Trust() {
-  const [phone, setPhone] = useState('');
-  const [msg, setMsg] = useState(DEFAULT_FINE);
-
-  const submit = (e: FormEvent) => {
-    e.preventDefault();
-    const digits = phone.replace(/\D/g, '');
-    setMsg(digits.length >= 10 ? 'Thanks. This is a preview, so nothing was sent or saved.' : 'Enter a 10-digit phone number.');
-  };
 
   return (
     <section id="trust" aria-labelledby="trust-h" style={{ paddingTop: 0 }}>
@@ -53,20 +41,21 @@ export function Trust() {
               names the document and the date we last checked it. When Sollu isn't sure, it says so and sends you to a
               real person.
             </p>
-            <form className="alert-form" noValidate onSubmit={submit}>
-              <label htmlFor="phone" className="sr">Phone number for scheme alerts</label>
-              <input
-                id="phone"
-                type="tel"
-                inputMode="numeric"
-                autoComplete="tel"
-                placeholder="Your phone number"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-              />
-              <button className="btn btn-dark" type="submit">Get alerts</button>
-            </form>
-            <p className="fine" aria-live="polite">{msg}</p>
+            <div className="trust-ctas">
+              <a href="/ask" className="btn btn-dark">Ask Sollu</a>
+              <a
+                href="https://github.com/rmagdaleena2508-01/Sollu/blob/main/data/README.md"
+                className="btn btn-ghost"
+                target="_blank"
+                rel="noreferrer"
+              >
+                See how we check
+              </a>
+            </div>
+            <p className="fine">
+              Today Sollu answers from 27 checked entries: 19 schemes, 5 rights and 3 notices. Every fact is quoted word
+              for word from an official page.
+            </p>
           </div>
           <div style={{ position: 'relative', alignSelf: 'center' }}>
             <div className="src">

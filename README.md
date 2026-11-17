@@ -71,7 +71,7 @@ I'd rather show you an honest list than a big promise.
 | A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
 | Explain a notice from a photo, Check (5 questions), Find an office | 🟠 Not built yet |
 
-Every demo card on the landing page says **Sample**. There are no fake users, ratings or testimonials. Real ones come after the pilot.
+Demo cards that are still illustrations say **Sample**. The "Check" card counts real checked schemes. There are no fake users, ratings or testimonials, and no buttons for features that don't exist. Real stories come after the pilot.
 
 ## Voice first, text always
 
@@ -254,6 +254,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 9 | **Pensions corrected to Rs 1,200** from the official page, after my own check of the amounts. | [#7](https://github.com/rmagdaleena2508-01/Sollu/pull/7) |
 | 10 | A build log in this README. | [#8](https://github.com/rmagdaleena2508-01/Sollu/pull/8) |
 | 11 | **The voice starts in about 1.7 seconds** instead of about 6, by streaming it. | [#9](https://github.com/rmagdaleena2508-01/Sollu/pull/9) |
+| 12 | **The landing page matches what Sollu really does:** real scheme counts, no features that don't exist, and every link goes somewhere real. | [#11](https://github.com/rmagdaleena2508-01/Sollu/pull/11) |
 
 ### Problems I hit, and how I fixed them
 
@@ -266,6 +267,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | Cards in the fanned stack showed through each other | Made the side cards fully solid |
 | The Tamil button text didn't fit on a 390px phone | Shortened it to *"இலவசமா கேளுங்க"* |
 | `sollu.vercel.app` already belonged to a different app | Picked `sollu-ai.vercel.app` |
+| Once the real Ask page existed, the landing page still had mockup leftovers: made-up scheme counts, a "Get alerts" phone number form with no alerts behind it, an FAQ promising "saved answers" and a "Report a wrong answer" button that didn't exist, footer links to pages that don't exist, and a sample question Sollu can't answer | The "Check" card now counts the real checked schemes for each group (built from the data by `check.py`). The alerts form is now "Ask Sollu" and "See how we check". The FAQ only says what's true. Footer links go to real pages. The land notice question is now the census question |
 
 **Data**
 

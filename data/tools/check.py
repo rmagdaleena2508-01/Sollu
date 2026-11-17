@@ -191,6 +191,14 @@ def main():
                "notices": [e for e in live if e["type"] == "notice"]}
         # ROOT is the data/ folder, so this is data/sollu-demo.json, the file the app reads.
         (ROOT / "sollu-demo.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
+        # A tiny index for the landing page's "Check" card: which checked schemes are for which group.
+        index = {}
+        for e in out["schemes"]:
+            for aud in e["audiences"]:
+                index.setdefault(aud, []).append({"id": e["id"], "name": e["name_en"]})
+        (ROOT / "audience-index.json").write_text(json.dumps(
+            {"note": "Built by tools/check.py --build from sollu-demo.json. Do not edit by hand.", "audiences": index},
+            ensure_ascii=False, indent=2) + "\n")
         print(f"built data/sollu-demo.json: {len(out['schemes'])} schemes, {len(out['rights'])} rights, {len(out['notices'])} notices")
 
 

@@ -1,0 +1,109 @@
+{
+  "note": "Built by tools/check.py --build from sollu-demo.json. Do not edit by hand.",
+  "audiences": {
+    "farmers": [
+      {
+        "id": "fw-cm-uzhavar-pathukappu",
+        "name": "Chief Minister's Uzhavar Pathukappu Thittam 2011 (Farmers Security Scheme)"
+      },
+      {
+        "id": "fw-eshram",
+        "name": "e-Shram registration for unorganised workers"
+      },
+      {
+        "id": "fw-pm-kisan",
+        "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)"
+      },
+      {
+        "id": "fw-pmfby",
+        "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY) - crop insurance"
+      }
+    ],
+    "seniors": [
+      {
+        "id": "fw-cm-uzhavar-pathukappu",
+        "name": "Chief Minister's Uzhavar Pathukappu Thittam 2011 (Farmers Security Scheme)"
+      },
+      {
+        "id": "sw-cmchis",
+        "name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)"
+      },
+      {
+        "id": "sw-old-age-pension",
+        "name": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu"
+      },
+      {
+        "id": "sw-pmjay-vay-vandana",
+        "name": "Ayushman Bharat PM-JAY for senior citizens 70+ (Ayushman Vay Vandana Card)"
+      }
+    ],
+    "workers": [
+      {
+        "id": "fw-eshram",
+        "name": "e-Shram registration for unorganised workers"
+      },
+      {
+        "id": "fw-pmsym",
+        "name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) - pension for unorganised workers"
+      },
+      {
+        "id": "fw-tn-construction-board",
+        "name": "Tamil Nadu Construction Workers Welfare Board - member benefits"
+      },
+      {
+        "id": "fw-tn-manual-workers-board",
+        "name": "Tamil Nadu Manual Workers Social Security and Welfare Board - member benefits"
+      }
+    ],
+    "school_students": [
+      {
+        "id": "stu-adtw-exam-fee",
+        "name": "Adi Dravidar and Tribal Welfare Department: Scholarship - Public Examination Fee for 10th and 12th Std."
+      },
+      {
+        "id": "stu-free-bicycle",
+        "name": "Distribution of Free Bicycles to Class 11 Students"
+      }
+    ],
+    "college_students": [
+      {
+        "id": "stu-bc-mbc-postmatric",
+        "name": "Post-Matric Scholarship for BC, MBC and DNC College Students"
+      },
+      {
+        "id": "stu-pudhumai-penn",
+        "name": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)"
+      },
+      {
+        "id": "stu-tamil-pudhalvan",
+        "name": "Tamizh Pudhalvan Scheme"
+      }
+    ],
+    "women": [
+      {
+        "id": "stu-pudhumai-penn",
+        "name": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)"
+      },
+      {
+        "id": "sw-cmchis",
+        "name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)"
+      },
+      {
+        "id": "sw-free-bus-women",
+        "name": "Vidiyal Payanam (free bus travel for women)"
+      },
+      {
+        "id": "sw-magalir-urimai",
+        "name": "Kalaignar Magalir Urimai Thogai (Kalaignar Mahalir Urimai Thittam)"
+      },
+      {
+        "id": "sw-maternity-benefit",
+        "name": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme"
+      },
+      {
+        "id": "sw-widow-pension",
+        "name": "Destitute Widow Pension Scheme"
+      }
+    ]
+  }
+}
