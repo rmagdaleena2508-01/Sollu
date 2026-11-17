@@ -6,7 +6,7 @@ const featureDelays = ['0s', '.06s', '.12s'];
 
 export function Features() {
   return (
-    <section aria-labelledby="feat-h" style={{ paddingTop: 0 }}>
+    <section aria-labelledby="feat-h">
       <div className="wrap">
         <h2 id="feat-h" className="h2-left feat-head reveal">
           Read <span className="inline-chip">3 lines</span> instead
@@ -30,7 +30,7 @@ export function Features() {
 export function Trust() {
 
   return (
-    <section id="trust" aria-labelledby="trust-h" style={{ paddingTop: 0 }}>
+    <section id="trust" aria-labelledby="trust-h">
       <div className="wrap">
         <div className="trust reveal">
           <div>
@@ -77,7 +77,7 @@ export function Trust() {
 
 export function Roadmap() {
   return (
-    <section id="roadmap" aria-labelledby="road-h" style={{ paddingTop: 0 }}>
+    <section id="roadmap" aria-labelledby="road-h">
       <div className="wrap">
         <div className="intro reveal" style={{ marginBottom: 0 }}>
           <span className="label">Roadmap</span>
@@ -104,7 +104,7 @@ export function Roadmap() {
 
 export function Faq() {
   return (
-    <section id="faq" aria-labelledby="faq-h" style={{ paddingTop: 0 }}>
+    <section id="faq" aria-labelledby="faq-h">
       <div className="wrap">
         <div className="intro reveal">
           <span className="label">FAQs</span>

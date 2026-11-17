@@ -119,7 +119,7 @@ function VoiceCard() {
 
 export function WhatItDoes() {
   return (
-    <section id="what" aria-labelledby="what-h" style={{ paddingTop: 40 }}>
+    <section id="what" aria-labelledby="what-h">
       <div className="wrap">
         <div className="intro reveal">
           <span className="label">What Sollu does</span>

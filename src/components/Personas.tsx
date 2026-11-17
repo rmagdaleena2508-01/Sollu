@@ -58,7 +58,7 @@ export function Personas() {
   const p = personas[shown];
 
   return (
-    <section id="people" aria-labelledby="people-h" style={{ paddingTop: 0 }}>
+    <section id="people" aria-labelledby="people-h">
       <div className="wrap personas">
         <div className="reveal">
           <span className="label">For every person</span>
