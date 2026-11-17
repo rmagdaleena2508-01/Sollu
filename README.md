@@ -259,7 +259,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 12 | **The landing page matches what Sollu really does:** real scheme counts, no features that don't exist, and every link goes somewhere real. | [#11](https://github.com/rmagdaleena2508-01/Sollu/pull/11) |
 | 13 | The top bar shortcuts use the names of the sections on the page, in order. | [#12](https://github.com/rmagdaleena2508-01/Sollu/pull/12) |
 | 14 | **Explain a notice cards:** the 3 checked notices as cards on the Ask page, with saved Tamil and English answers. The landing page's notice card now shows the real census notice and opens its explanation. The top bar says "FAQs" at its original size. | [#13](https://github.com/rmagdaleena2508-01/Sollu/pull/13) |
-| 15 | **"Hear it" plays Sollu introducing itself** in Sarvam's Tamil or English voice (recorded once, about 8 seconds). The rings behind it now grow outward like sound, faster while it talks. A three-face sticker drawn for Sollu sits next to the pill, which now says "Trusted by citizens in Tamil Nadu. All of India next." | this change |
+| 15 | **"Hear it" plays Sollu introducing itself** in Sarvam's Tamil or English voice (recorded once, about 8 seconds). The rings behind it now grow outward like sound, faster while it talks. A three-face sticker drawn for Sollu sits next to the pill, which now says "Trusted by citizens in Tamil Nadu. All of India next." | [#14](https://github.com/rmagdaleena2508-01/Sollu/pull/14) |
 | 16 | **Findable by search engines:** both pages are pre-rendered to real HTML at build time, each with its own title, description and canonical link. Adds robots.txt, a sitemap, FAQ and breadcrumb structured data, a share image, a 404 page, and a redirect from the old second address. | [#15](https://github.com/rmagdaleena2508-01/Sollu/pull/15) |
 | 17 | **Faster first visit:** the stylesheet is built into each page, so it draws without a second request, and the hero fades in faster (0.55 s, shorter delays). | [#16](https://github.com/rmagdaleena2508-01/Sollu/pull/16) |
 
@@ -319,6 +319,66 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | The health check shared its request limit with questions, so a busy room could block it | Each endpoint now has its own limit. Questions allow 40 a minute, because a whole venue shares one Wi-Fi address |
 | The health check asked Gemini for too short a reply and got cut-off JSON | Gave it room for a full reply |
 | Twice, a pull request was merged before my last commit reached it, so that commit never went live | Opened a follow-up pull request each time ([#3](https://github.com/rmagdaleena2508-01/Sollu/pull/3), [#7](https://github.com/rmagdaleena2508-01/Sollu/pull/7)). Now I don't add commits to a pull request once it's ready, and I check `main` has every commit before testing live |
+
+**Getting found by Google, and loading fast**
+
+I gave myself a checklist people share for "Google isn't showing my site". Click to see it:
+
+<details>
+<summary><b>The SEO checklist I worked from</b></summary>
+
+<br>
+
+> Google isn't showing my vibe-coded website.
+> - Render it server-side.
+> - Generate a sitemap.
+> - Submit it to Search Console.
+> - Unblock Googlebot in robots.txt.
+> - Delete the noindex tags.
+> - Kill the redirect chains.
+> - Fix the 404s.
+> - Add canonical tags.
+> - Write a meta description for every page.
+> - One H1 per page.
+> - Add FAQ schema.
+> - Add breadcrumbs.
+> - Link the orphan pages.
+> - Alt text on every image.
+> - Convert images to WebP.
+> - Fix the layout shifts.
+> - Load in under 2 seconds.
+> - Remove the obvious AI slop.
+> - Add a real author bio.
+> - Get quality backlinks.
+>
+> Rank #1.
+
+</details>
+
+**Why it mattered:** Sollu only helps people who can find it. Someone searching "old age pension Tamil Nadu" should land on a page Google can read, and that page has to open fast on a cheap phone over mobile data.
+
+| Problem | Fix |
+|---|---|
+| Google got an **empty page**: both `/` and `/ask` returned `<div id="root"></div>` until JavaScript ran | Both pages are now built as real HTML at build time (`src/entry-server.tsx`, `scripts/prerender.mjs`). The home page HTML has 931 words, the Ask page 150. The browser then takes over the same HTML instead of drawing it again ([#15](https://github.com/rmagdaleena2508-01/Sollu/pull/15)) |
+| Taking over the built HTML could make the page flash, because the browser's first render didn't match it (saved Tamil setting, phone width, reduced motion, mic check) | The first render now matches the built HTML exactly. Those four are applied right after, before anything is drawn |
+| At `/ask.html` the browser loaded the home page instead (React error #418) | The route check now accepts `/ask` and `/ask.html`. On the live site `/ask.html` redirects to `/ask` in one step |
+| No `robots.txt` and no sitemap (both returned 404) | Added both. `robots.txt` allows everything except `/api/` and points to the sitemap |
+| Both pages had the same title and description, and no canonical link | Each page has its own title, description and canonical link, plus share tags and a fresh share picture |
+| The same site also lived at a second address (`sollu-delta.vercel.app`) | It now redirects to `sollu-ai.vercel.app` in one step |
+| A wrong link showed Vercel's plain-text "not found" | A real 404 page with links to Ask and Home |
+| No structured data | FAQ data from the 6 FAQs, website data, and breadcrumbs on the Ask page |
+| The logo was a 37 KB PNG shown at 28px | A 1.4 KB WebP |
+| Noindex tags, orphan pages, H1s, alt text | Checked: no noindex tags, no orphan pages, 1 H1 per page, alt text on every image |
+| The "AI slop": made-up counts, a fake alerts form, an FAQ promising features that don't exist | Removed earlier in [#11](https://github.com/rmagdaleena2508-01/Sollu/pull/11) |
+| **Speed:** on a first visit over slow 4G, the page couldn't draw until a separate 82 KB stylesheet arrived, and then the main paragraph took another 0.5 s to fade in | The stylesheet is now written into each page's HTML, so it draws from the first response. The hero rises in faster (0.55 s instead of 0.8 s, shorter delays) ([#16](https://github.com/rmagdaleena2508-01/Sollu/pull/16)). **Why:** the people Sollu is for are often on cheap phones and slow data, and a page that seems slow gets closed before it can help |
+| How fast is it now? | Slow 4G, empty cache, 4× slower CPU: home page main content in **1.31–1.34 s** (was 1.64–1.71), Ask page **0.61–0.70 s** (was 1.0). Layout shift 0.029–0.043, within Google's "good" limit of 0.1 |
+| Lighthouse wasn't allowed to run in my setup | I wrote a small first-visit test instead: a fresh Brave profile with slow 4G and a slower CPU, reading the browser's own paint and layout-shift numbers |
+
+**Not done yet, and why:**
+- **Search Console** needs the owner's Google account to verify the site and submit the sitemap.
+- **Author bio** needs my own words.
+- **Backlinks** come from real people linking to Sollu.
+- **Rank #1** isn't something anyone can promise. The work above makes sure Google can read every page and that each page loads fast.
 
 ## Run it
 
