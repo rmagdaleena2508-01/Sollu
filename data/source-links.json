@@ -1,0 +1,154 @@
+{
+  "fw-cmupt-tn": {
+    "url": "https://landreforms.tn.gov.in/UPT.html",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-cmupt": {
+    "url": "https://www.myscheme.gov.in/schemes/oapsucmupt",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-eshram-faq": {
+    "url": "https://eshram.gov.in/faqs",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-eshram-obj": {
+    "url": "https://www.eshram.gov.in/e-shram-objectives",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-pm-kisan": {
+    "url": "https://www.myscheme.gov.in/schemes/pm-kisan",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-pmfby": {
+    "url": "https://www.myscheme.gov.in/schemes/pmfby",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-pmsym": {
+    "url": "https://www.myscheme.gov.in/schemes/pm-sym",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-tn-labour-pn": {
+    "url": "https://labour.tn.gov.in/pdf/policy_note_lwsd_e_pn_2023_24.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-tncwwb-pension": {
+    "url": "https://labour.tn.gov.in/Pension-For-Construction-Workers.php",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-tncwwb-reg": {
+    "url": "https://labour.tn.gov.in/Procedure-For-Registration.php",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-tnmw-reg": {
+    "url": "https://labour.tn.gov.in/tnmanwork_Registration.php",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-tnuwwb-claims": {
+    "url": "https://tnuwwb.tn.gov.in/docs/welfare-claim.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-tnuwwb": {
+    "url": "https://tnuwwb.tn.gov.in/",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-bnss": {
+    "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-code-wages": {
+    "url": "https://www.labour.gov.in/static/uploads/2025/06/c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-labour-faq-2026": {
+    "url": "https://www.labour.gov.in/static/uploads/2026/11/da640b1558a315e81e22ce5ac12f463f.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-n-census479": {
+    "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/479_Ex_II_1_2026.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-n-rice487": {
+    "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/487_Ex_II_1_2026.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-n-salem-marksheet": {
+    "url": "https://cdn.s3waas.gov.in/s3c81e728d9d4c2f636f067f89cc14862c/uploads/2026/10/17920460981574.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-nfsa-act": {
+    "url": "https://dfpd.gov.in/WriteReadData/Other/nfsa_1.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-rti-act": {
+    "url": "https://cic.gov.in/sites/default/files/RTI_English.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "rn-tn-rent-act": {
+    "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2017/261_Ex_IV_2.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "stu-adtw-examfee-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/adtwspe",
+    "fetched_at": "2026-11-17"
+  },
+  "stu-bc-welfare": {
+    "url": "https://bcmbcmw.tn.gov.in/welfschemes.htm",
+    "fetched_at": "2026-11-17"
+  },
+  "stu-pudhumai-penn-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/pudhumai-penn-scheme",
+    "fetched_at": "2026-11-17"
+  },
+  "stu-sc-pms-tiruppur": {
+    "url": "https://tiruppur.nic.in/?p=24023",
+    "fetched_at": "2026-11-17"
+  },
+  "stu-tamil-pudhalvan-go": {
+    "url": "https://stationeryprinting.tn.gov.in/extraordinary/2024/230_Ex_II_1_2024.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-cmchis-site": {
+    "url": "https://www.cmchistn.com/",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-cmchis": {
+    "url": "https://www.myscheme.gov.in/schemes/cmchis",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-freebus-arasu": {
+    "url": "https://arasubus.tn.gov.in/services.php",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-freebus-mtc": {
+    "url": "https://mtcbus.tn.gov.in/Home/facilities",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-freebus-spc": {
+    "url": "https://spc.tn.gov.in/vidiyal-payanam-scheme/",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-kmut-gazette": {
+    "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2023/284_Ex_II_1_2023.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-kmut-nrtamils": {
+    "url": "https://nrtamils.tn.gov.in/en/sri-lankan-tamils/sri-lankan-tamils-schemes/",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-maternity-picme": {
+    "url": "https://picme3.tn.gov.in/api/react2/commonImages/FAQ.pdf",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-oap-myscheme": {
+    "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-pmjay-enrol": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2082288",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-widow-pension": {
+    "url": "https://www.myscheme.gov.in/schemes/dwps",
+    "fetched_at": "2026-11-17"
+  }
+}

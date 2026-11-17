@@ -70,7 +70,7 @@ export function Hero({ lang }: { lang: Lang }) {
         </h1>
         <p className="hero-sub rise" style={delay('.26s')} lang={lang}>{t.sub}</p>
         <div className="ctas rise" style={delay('.36s')}>
-          <a href="#ask" className="btn btn-dark btn-lg">
+          <a href="/ask" className="btn btn-dark btn-lg">
             <Icon name="mic" size={18} />
             <span>{t.cta1}</span>
           </a>
