@@ -16,7 +16,7 @@ export function App() {
     <>
       <IconSprite />
       <Nav lang={lang} onLang={setLang} />
-      <main id="top">
+      <main id="top" className="snap-page">
         <Hero lang={lang} />
         <WhatItDoes />
         <Features />

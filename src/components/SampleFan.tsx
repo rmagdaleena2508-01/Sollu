@@ -37,7 +37,7 @@ export function SampleFan() {
   const go = (d: number) => setFront((f) => (f + d + n) % n);
 
   return (
-    <section className="see" aria-labelledby="see-h" style={{ paddingTop: 0, overflow: 'hidden' }}>
+    <section className="see" aria-labelledby="see-h" style={{ overflow: 'hidden' }}>
       <div className="wrap">
         <h2 id="see-h" className="reveal">See what <span className="inline-chip">Tamil Nadu</span> asks.</h2>
         <p className="see-sub reveal">Sample questions. Real ones come after the pilot.</p>
