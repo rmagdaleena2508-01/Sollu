@@ -52,3 +52,25 @@ export async function speak(text: string, lang: 'ta' | 'en'): Promise<ArrayBuffe
   const bytes = Buffer.from(b64, 'base64');
   return bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength) as ArrayBuffer;
 }
+
+/**
+ * Streaming text to speech. Sarvam starts sending MP3 in about 0.3 seconds, and the browser can
+ * play MP3 while it downloads, so speech starts almost at once instead of after the whole file
+ * (about 6 seconds for a 3-line Tamil answer). Max 3,500 characters.
+ */
+export async function speakStream(text: string, lang: 'ta' | 'en'): Promise<ReadableStream<Uint8Array>> {
+  const res = await fetch(`${BASE}/text-to-speech/stream`, {
+    method: 'POST',
+    headers: { 'api-subscription-key': key(), 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      text: text.slice(0, 3500),
+      model: 'bulbul:v4-flash',
+      ...VOICES[lang],
+      output_audio_codec: 'mp3',
+      output_audio_bitrate: '64k',
+    }),
+    signal: AbortSignal.timeout(30000),
+  });
+  if (!res.ok || !res.body) throw new Error(`Sarvam stream ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  return res.body;
+}

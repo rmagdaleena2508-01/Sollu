@@ -1,7 +1,7 @@
 import type { AskLang, AskRequest } from '../src/ask/types';
 import { answer } from './ask.js';
 import { geminiJson, GeminiBusyError } from './gemini.js';
-import { speak, transcribe } from './sarvam.js';
+import { speak, speakStream, transcribe } from './sarvam.js';
 
 const json = (body: unknown, status = 200) =>
   new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json; charset=utf-8' } });
@@ -78,9 +78,14 @@ export async function handleStt(req: Request): Promise<Response> {
   }
 }
 
+/**
+ * GET /api/tts?lang=ta&text=...: streams MP3 so an <audio> element can start playing in well under a second.
+ * POST /api/tts {text, lang}: the whole MP3 at once (the backup if streaming fails).
+ */
 export async function handleTts(req: Request): Promise<Response> {
-  if (req.method !== 'POST') return json({ error: 'Use POST' }, 405);
-  if (limited(req, 30, 'tts')) return json({ error: 'Too many requests. Please wait a minute.' }, 429);
+  if (req.method === 'GET') return handleTtsStream(req);
+  if (req.method !== 'POST') return json({ error: 'Use GET or POST' }, 405);
+  if (limited(req, 60, 'tts')) return json({ error: 'Too many requests. Please wait a minute.' }, 429);
 
   let body: { text?: unknown; lang?: unknown };
   try {
@@ -138,4 +143,27 @@ export async function handleHealth(req: Request): Promise<Response> {
     out.ok = gemini.ok && sarvam.ok;
   }
   return json(out, out.ok ? 200 : 503);
+}
+
+async function handleTtsStream(req: Request): Promise<Response> {
+  if (limited(req, 60, 'tts')) return json({ error: 'Too many requests. Please wait a minute.' }, 429);
+  const url = new URL(req.url);
+  const text = (url.searchParams.get('text') ?? '').trim();
+  const lang = url.searchParams.get('lang');
+  if (!text) return json({ error: 'No text' }, 400);
+  if (text.length > 1500) return json({ error: 'Text too long' }, 413);
+  try {
+    const body = await speakStream(text, isLang(lang) ? lang : 'en');
+    return new Response(body, {
+      headers: {
+        'Content-Type': 'audio/mpeg',
+        // Answers can mention a person's age or family, so nothing is stored along the way.
+        'Cache-Control': 'no-store',
+        'X-Content-Type-Options': 'nosniff',
+      },
+    });
+  } catch (err) {
+    console.error('tts stream failed', err);
+    return json({ error: 'Could not make audio' }, 502);
+  }
 }

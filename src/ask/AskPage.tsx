@@ -39,6 +39,8 @@ export function AskPage() {
   const inFlight = useRef<AbortController | null>(null);
   const audio = useRef<HTMLAudioElement | null>(null);
   const audioCache = useRef(new Map<number, string>());
+  /** Goes up on every play or stop, so a slow, old audio request can't start playing late. */
+  const playRun = useRef(0);
   const inputRef = useRef<HTMLTextAreaElement | null>(null);
   const endRef = useRef<HTMLDivElement | null>(null);
   const micRef = useRef<HTMLButtonElement | null>(null);
@@ -51,7 +53,16 @@ export function AskPage() {
 
   // ---------- audio out ----------
   const stopAudio = useCallback(() => {
-    audio.current?.pause();
+    playRun.current++;
+    const el = audio.current;
+    if (el) {
+      el.pause();
+      // Cut a voice stream that is still downloading, so it stops costing anything.
+      if (el.src.includes('/api/tts?')) {
+        el.removeAttribute('src');
+        el.load();
+      }
+    }
     if ('speechSynthesis' in window) speechSynthesis.cancel();
     setPlaying(null);
   }, []);
@@ -71,24 +82,44 @@ export function AskPage() {
     async (id: number, res: AskResponse) => {
       if (playing === id) return stopAudio();
       stopAudio();
+      const run = ++playRun.current;
       const l = res.fallback ? 'en' : res.lang;
       const text = res.fallback ? res.lines.join(' ') : spoken(res);
       if (!audio.current) audio.current = new Audio();
       const el = audio.current;
-      try {
-        let url = audioCache.current.get(id) ?? (res.audioUrl && !res.fallback ? res.audioUrl : undefined);
-        if (!url) {
-          setLoadingAudio(id);
-          url = URL.createObjectURL(await speech(text, l));
-          audioCache.current.set(id, url);
-        }
+      const start = async (url: string) => {
         el.src = url;
         el.onended = () => setPlaying((p) => (p === id ? null : p));
         setPlaying(id);
         await el.play();
-      } catch {
-        // Sarvam voice failed or autoplay was blocked: use the phone's own voice.
-        browserSpeak(id, text, l);
+      };
+      const blocked = (err: unknown) => err instanceof DOMException && err.name === 'NotAllowedError';
+      try {
+        // Saved demo answers, or audio made earlier for this answer.
+        const ready = audioCache.current.get(id) ?? (res.audioUrl && !res.fallback ? res.audioUrl : undefined);
+        if (ready) return await start(ready);
+
+        setLoadingAudio(id);
+        // 1. Streamed voice: starts playing while it downloads (about 0.3 seconds instead of about 6).
+        try {
+          return await start(`/api/tts?lang=${l}&text=${encodeURIComponent(text)}`);
+        } catch (err) {
+          if (blocked(err)) {
+            // The phone blocked sound that the person didn't tap for. The Hear it button still works.
+            setPlaying(null);
+            return;
+          }
+        }
+        if (run !== playRun.current) return; // the person moved on
+        // 2. The whole file at once.
+        const url = URL.createObjectURL(await speech(text, l));
+        audioCache.current.set(id, url);
+        if (run !== playRun.current) return;
+        await start(url);
+      } catch (err) {
+        if (blocked(err)) setPlaying(null);
+        // 3. Sarvam voice failed: use the phone's own voice.
+        else if (run === playRun.current) browserSpeak(id, text, l);
       } finally {
         setLoadingAudio((x) => (x === id ? null : x));
       }
