@@ -221,7 +221,7 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 | The demo, on the live site | The 4-step demo script on sollu-ai.vercel.app, plus `/api/health?deep=1` | Each step answers in under 1 second; all 17 saved audio files load; health check passes |
 | Speech out | Tamil text through `/api/tts`, played in the browser | Plays, with the phone's voice as backup |
 | Voice delay | Time from the answer showing to the voice starting, for an answer that isn't saved | **About 0.9 seconds** on my machine and **about 1.7 seconds on the live site** (was about 6). On the live site the first second of sound arrives in 0.8 to 1.3 seconds, and the download stays well ahead of playback |
-| First visit speed | Fresh browser (empty cache), slow 4G (150 ms delay, 1.6 Mbps) and a 4× slower CPU, before this change | Main content shown in 1.64 to 1.71 s on the home page and 1.0 s on the Ask page. Layout shift 0.029 on phones (the serif font swapping in), within Google's "good" limit of 0.1 |
+| First visit speed | Fresh browser (empty cache), slow 4G (150 ms delay, 1.6 Mbps) and a 4× slower CPU, on the live site | Home page: first paint **0.54–0.56 s** (was 1.16–1.20), main content shown **1.31–1.34 s** (was 1.64–1.71). Ask page: main content shown **0.61–0.70 s** (was 1.0). On fast 4G the home page's main content shows in 0.68 s. Layout shift 0.029–0.043 on slow 4G (the serif font swapping in after the text is already drawn), within Google's "good" limit of 0.1 |
 | Voice backups | A broken stream, then the Stop button | Falls back to the whole audio file and plays; Stop also cancels the download |
 | Page | Checked in a browser at phone size (390px) and desktop (1440px), in English and Tamil: sample questions, typing, follow-up, play and stop | No sideways scroll, everything works |
 | Code | `npm run build` (strict TypeScript + production build) | Passes |
@@ -261,7 +261,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 14 | **Explain a notice cards:** the 3 checked notices as cards on the Ask page, with saved Tamil and English answers. The landing page's notice card now shows the real census notice and opens its explanation. The top bar says "FAQs" at its original size. | [#13](https://github.com/rmagdaleena2508-01/Sollu/pull/13) |
 | 15 | **"Hear it" plays Sollu introducing itself** in Sarvam's Tamil or English voice (recorded once, about 8 seconds). The rings behind it now grow outward like sound, faster while it talks. A three-face sticker drawn for Sollu sits next to the pill, which now says "Trusted by citizens in Tamil Nadu. All of India next." | this change |
 | 16 | **Findable by search engines:** both pages are pre-rendered to real HTML at build time, each with its own title, description and canonical link. Adds robots.txt, a sitemap, FAQ and breadcrumb structured data, a share image, a 404 page, and a redirect from the old second address. | [#15](https://github.com/rmagdaleena2508-01/Sollu/pull/15) |
-| 17 | **Faster first visit:** the stylesheet is built into each page, so it draws without a second request, and the hero fades in faster (0.55 s, shorter delays). | this change |
+| 17 | **Faster first visit:** the stylesheet is built into each page, so it draws without a second request, and the hero fades in faster (0.55 s, shorter delays). | [#16](https://github.com/rmagdaleena2508-01/Sollu/pull/16) |
 
 ### Problems I hit, and how I fixed them
 
