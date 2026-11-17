@@ -1,6 +1,6 @@
 {
   "note": "Saved answers for the demo script and sample questions. Made by data/tools/demo_answers.py from the live pipeline. Do not edit by hand; run the script again.",
-  "made_at": "2026-11-17T19:10:40+0530",
+  "made_at": "2026-11-17T19:24:17+0530",
   "answers": [
     {
       "key": "ta-pension",
@@ -10,20 +10,23 @@
         "kind": "answer",
         "lang": "ta",
         "lines": [
-          "உங்கள் அம்மாவுக்கு வயது மற்றும் தகுதி அடிப்படையில் பென்ஷன் கிடைக்க வாய்ப்பு உள்ளது.",
-          "முதியோர் பென்ஷன் அல்லது விதவை பென்ஷன் பெற விண்ணப்பிக்கலாம்.",
-          "அருகில் உள்ள காமன் சர்வீஸ் சென்டருக்குச் சென்று விவரங்களைச் சரிபார்க்கவும்."
+          "உங்கள் அம்மாவுக்கு பென்ஷன் கிடைக்க, அவருக்கு வயது 60 முடிந்திருக்க வேண்டும்.",
+          "அவர் ஆதரவற்றவராக இருக்கிறாரா அல்லது விதவையா என்பது போன்ற விவரங்களை பொறுத்து திட்டம் மாறும்.",
+          "மேலும் விவரங்களுக்கு அருகில் உள்ள பொது சேவை மையத்தை (CSC) அணுகலாம்."
         ],
         "followUp": "அவங்களுக்கு எத்தனை வயசு?",
-        "cautionNote": "இதுல சில தகவல் மாறியிருக்கலாம். விண்ணப்பிக்கறதுக்கு முன்னாடி இ-சேவை மையத்துல இல்ல அலுவலகத்துல ஒரு தடவை உறுதி பண்ணிக்கோங்க.",
         "items": [
           {
             "id": "sw-old-age-pension",
             "type": "scheme",
             "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
             "verdict": "need_info",
-            "caution": true,
             "sources": [
+              {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
               {
                 "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
                 "host": "myscheme.gov.in",
@@ -36,8 +39,12 @@
             "type": "scheme",
             "title": "Destitute Widow Pension Scheme",
             "verdict": "need_info",
-            "caution": true,
             "sources": [
+              {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
               {
                 "url": "https://www.myscheme.gov.in/schemes/dwps",
                 "host": "myscheme.gov.in",
@@ -57,21 +64,42 @@
         "kind": "answer",
         "lang": "ta",
         "lines": [
-          "உங்கள் அம்மாவுக்கு 67 வயசு ஆவதால், முதியோர் பென்ஷன் திட்டத்தில் மாதந்தோறும் Rs 1,000 பெற வாய்ப்பு உள்ளது.",
-          "அவர் ஆதரவற்றவராக இருக்க வேண்டும் மற்றும் குடும்பம் வறுமைக்கோட்டிற்கு கீழ் இருக்க வேண்டும்.",
-          "இதற்கு விண்ணப்பிக்க அருகில் உள்ள காமன் சர்வீஸ் சென்டருக்குச் செல்லலாம்."
+          "உங்கள் அம்மாவுக்கு 67 வயது என்பதால், அவர் வறுமைக் கோட்டிற்கு கீழ் இருந்து ஆதரவற்றவராக இருந்தால் முதியோர் ஓய்வூதியத் திட்டத்தில் மாதத்திற்கு ரூ. 1,200 பெற வாய்ப்பு உள்ளது.",
+          "அவர் ஒரு விதவை என்றால், ஆதரவற்ற விதவையர் ஓய்வூதியத் திட்டத்தின் கீழ் ரூ. 1,200 பெற விண்ணப்பிக்கலாம்.",
+          "இதற்கு தேவையான ஆவணங்களுடன் அருகில் உள்ள பொது சேவை மையத்திற்கு (CSC) சென்று விண்ணப்பிக்கவும்."
         ],
-        "cautionNote": "இதுல சில தகவல் மாறியிருக்கலாம். விண்ணப்பிக்கறதுக்கு முன்னாடி இ-சேவை மையத்துல இல்ல அலுவலகத்துல ஒரு தடவை உறுதி பண்ணிக்கோங்க.",
         "items": [
           {
             "id": "sw-old-age-pension",
             "type": "scheme",
             "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
             "verdict": "likely",
-            "caution": true,
             "sources": [
               {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
+              {
                 "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          },
+          {
+            "id": "sw-widow-pension",
+            "type": "scheme",
+            "title": "Destitute Widow Pension Scheme",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
+              {
+                "url": "https://www.myscheme.gov.in/schemes/dwps",
                 "host": "myscheme.gov.in",
                 "checked": "2026-11-17"
               }
@@ -89,19 +117,22 @@
         "kind": "answer",
         "lang": "ta",
         "lines": [
-          "உங்கள் அம்மாவுக்கு 67 வயது ஆவதால், முதியோர் பென்ஷன் பெற வாய்ப்பு உள்ளது.",
-          "மாதம் Rs 1,000 உதவித்தொகையும், பொங்கல் மற்றும் தீபாவளிக்கு இலவச சேலையும் கிடைக்கும்.",
-          "இதற்கு அருகில் உள்ள Common Service Centre (CSC) மூலம் விண்ணப்பிக்கலாம்."
+          "உங்கள் அம்மாவுக்கு 67 வயது ஆவதால், அவர் முதியோர் ஓய்வூதியத் திட்டத்திற்கு விண்ணப்பிக்கலாம்.",
+          "இதன் மூலம் மாதந்தோறும் Rs 1,200 மற்றும் பொங்கல், தீபாவளிக்கு இலவச சேலை பெறலாம்.",
+          "இதற்கு அருகில் உள்ள Common Service Centre (CSC) சென்று விண்ணப்பிக்க வேண்டும்."
         ],
-        "cautionNote": "இதுல சில தகவல் மாறியிருக்கலாம். விண்ணப்பிக்கறதுக்கு முன்னாடி இ-சேவை மையத்துல இல்ல அலுவலகத்துல ஒரு தடவை உறுதி பண்ணிக்கோங்க.",
         "items": [
           {
             "id": "sw-old-age-pension",
             "type": "scheme",
             "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
             "verdict": "likely",
-            "caution": true,
             "sources": [
+              {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
               {
                 "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
                 "host": "myscheme.gov.in",
@@ -121,20 +152,23 @@
         "kind": "answer",
         "lang": "en",
         "lines": [
-          "Whether your mother can get a pension depends on her age, if she is a widow, and if she is destitute.",
-          "I need to know her age to tell you if she can apply for these pensions.",
-          "Once I know more, I can explain how to apply at the nearest Common Service Centre (CSC)."
+          "Your mother may be able to get a pension if she is 60 or older or if she is a widow.",
+          "She must also have no one to support her and belong to the Below Poverty Line group or have assets under Rs 1,00,000.",
+          "Please check her age and status, then visit the nearest Common Service Centre (CSC) to apply."
         ],
         "followUp": "How old is the person?",
-        "cautionNote": "Some of this may have changed. Please confirm at an e-Sevai centre or the office before you apply.",
         "items": [
           {
             "id": "sw-old-age-pension",
             "type": "scheme",
             "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
             "verdict": "need_info",
-            "caution": true,
             "sources": [
+              {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
               {
                 "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
                 "host": "myscheme.gov.in",
@@ -147,8 +181,12 @@
             "type": "scheme",
             "title": "Destitute Widow Pension Scheme",
             "verdict": "need_info",
-            "caution": true,
             "sources": [
+              {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
               {
                 "url": "https://www.myscheme.gov.in/schemes/dwps",
                 "host": "myscheme.gov.in",
@@ -168,21 +206,42 @@
         "kind": "answer",
         "lang": "en",
         "lines": [
-          "Your mother may be able to get an old age pension of Rs 1,000 every month since she is 67.",
-          "She must be destitute and belong to the Below Poverty Line group.",
-          "You can apply for her at the nearest Common Service Centre (CSC)."
+          "Your mother may get Rs 1,200 every month under the old age pension scheme if she is destitute and in the Below Poverty Line group.",
+          "She may also get a widow pension if she is a widow with assets not worth more than Rs 1,00,000.",
+          "To apply for either, please visit the nearest Common Service Centre (CSC) with her documents."
         ],
-        "cautionNote": "Some of this may have changed. Please confirm at an e-Sevai centre or the office before you apply.",
         "items": [
           {
             "id": "sw-old-age-pension",
             "type": "scheme",
             "title": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
             "verdict": "likely",
-            "caution": true,
             "sources": [
               {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
+              {
                 "url": "https://www.myscheme.gov.in/schemes/ignoapstn",
+                "host": "myscheme.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          },
+          {
+            "id": "sw-widow-pension",
+            "type": "scheme",
+            "title": "Destitute Widow Pension Scheme",
+            "verdict": "likely",
+            "sources": [
+              {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
+              {
+                "url": "https://www.myscheme.gov.in/schemes/dwps",
                 "host": "myscheme.gov.in",
                 "checked": "2026-11-17"
               }
@@ -458,6 +517,11 @@
             "verdict": "need_info",
             "caution": true,
             "sources": [
+              {
+                "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+                "host": "cra.tn.gov.in",
+                "checked": "2026-11-17"
+              },
               {
                 "url": "https://landreforms.tn.gov.in/UPT.html",
                 "host": "landreforms.tn.gov.in",

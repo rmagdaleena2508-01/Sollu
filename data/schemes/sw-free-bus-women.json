@@ -77,15 +77,15 @@
   ],
   "review": {
     "demo_use": "caution",
-    "note": "Sources describe the 2021 Vidiyal Payanam (ordinary town buses). A newer expansion is reported in news but not confirmed officially.",
+    "note": "Free travel is only on government ordinary town buses (white board buses), not every bus type. Sources are from 2021.",
     "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
     "reviewed_on": "2026-11-17",
-    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+    "human_review": "done 2026-11-17: the project owner confirmed free travel is on ordinary town buses only."
   },
   "verification": {
     "status": "verified",
     "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-    "checked_at": "2026-11-17T05:19:02+00:00",
+    "checked_at": "2026-11-17T13:55:04+00:00",
     "problems": [],
     "human_review": "pending"
   }

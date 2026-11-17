@@ -4,3 +4,6 @@ dist
 .DS_Store
 .vercel
 .env*
+
+# Saved source originals stay local; text.txt + meta.json (with SHA-256) are committed
+data/sources/*/original.*

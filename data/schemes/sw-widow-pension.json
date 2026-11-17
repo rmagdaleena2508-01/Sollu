@@ -8,7 +8,7 @@
   "audiences": [
     "women"
   ],
-  "benefit": "You get Rs 1,000 every month. You also get a free saree at Pongal and Deepavali, and free rice at the Anganwadi centre.",
+  "benefit": "You get Rs 1,200 every month (raised from Rs 1,000 in August 2023). You also get a free saree at Pongal and Deepavali, and free rice at the Anganwadi centre.",
   "eligibility": {
     "age_min": 18,
     "age_max": null,
@@ -40,6 +40,7 @@
   "helpline": null,
   "go_number": null,
   "sources": [
+    "ss-cra-schemes-ta",
     "sw-widow-pension"
   ],
   "evidence": [
@@ -47,11 +48,6 @@
       "field": "department",
       "source": "sw-widow-pension",
       "quote": "launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu"
-    },
-    {
-      "field": "benefit",
-      "source": "sw-widow-pension",
-      "quote": "₹1,000/- per month."
     },
     {
       "field": "benefit",
@@ -112,24 +108,34 @@
       "field": "where_to_apply",
       "source": "sw-widow-pension",
       "quote": "Interested applicants should apply via CSC."
+    },
+    {
+      "field": "benefit",
+      "source": "ss-cra-schemes-ta",
+      "quote": "இதர ஓய்வூதியத் திட்டங்களின் (மாற்றுத்திறனாளிகள் ஓய்வூதியத் திட்டம் தவிர்த்து) கீழ் பயன்பெறும் பயனாளிகளுக்கான ஓய்வூதியம் ஆகஸ்டு-2023 முதல் ரூ.1,200/- ஆகவும், உயர்த்தி வழங்கப்பட்டு வருகிறது"
+    },
+    {
+      "field": "benefit",
+      "source": "ss-cra-schemes-ta",
+      "quote": "ஆதரவற்ற விதவையர் ஓய்வூதியத் திட்டம்\n-\n1200/-\n1200/-"
     }
   ],
   "gaps": [
     "Source gives an asset limit (Rs 1,00,000 fixed assets) but no annual income limit.",
     "No helpline or G.O. number in the source.",
-    "Amount is from myScheme (page last updated 18/09/2026); not cross-checked with a TN Social Welfare G.O."
+    "The myScheme page still says Rs 1,000 a month; the official Revenue Administration page (Rs 1,200 from August 2023) is newer and is used."
   ],
   "review": {
-    "demo_use": "caution",
-    "note": "Same as old age pension: amount not cross-checked with a current G.O.",
+    "demo_use": "ready",
+    "note": "Amount confirmed on the official Revenue Administration page: Rs 1,200 a month from August 2023.",
     "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
     "reviewed_on": "2026-11-17",
-    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+    "human_review": "done 2026-11-17: the project owner checked the amounts against a separate report, and the pension amount was then confirmed on the official Commissionerate of Revenue Administration page (cra.tn.gov.in, Tamil), which lists Rs 1,200 a month from August 2023."
   },
   "verification": {
     "status": "verified",
     "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-    "checked_at": "2026-11-17T05:19:02+00:00",
+    "checked_at": "2026-11-17T13:55:04+00:00",
     "problems": [],
     "human_review": "pending"
   }
