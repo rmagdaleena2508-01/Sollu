@@ -1,0 +1,107 @@
+{
+  "id": "rn-notice-rice-stock-limit",
+  "type": "notice",
+  "title": "Tamil Nadu Paddy / Rice (Stock Limit) Control Order, 2026",
+  "issued_by": "Co-operation, Food and Consumer Protection Department, Government of Tamil Nadu",
+  "date": "2026-11-13",
+  "reference_number": "G.O.Ms.No.93, Co-operation, Food and Consumer Protection (B1), 13 November 2026; Notification No. II(1)/CFCP/23(h)/2026",
+  "says": "Tamil Nadu has set limits on how much paddy or rice traders and millers can hold, up to 31 January 2027. For example, a wholesaler can hold 2000 metric tonnes and a retailer 8 metric tonnes for each shop.",
+  "what_to_do": "Traders must declare their paddy / rice stock on the Department of Consumer Affairs portal (fcainfoweb.nic.in/psp) and keep it updated. Anyone holding more than the limit must bring the stock down to the limit.",
+  "by_when": "Stock above the limit had to be brought down by 16 November 2026. The limits apply up to 31 January 2027.",
+  "if_not": null,
+  "who_it_affects": "Paddy and rice wholesalers, retailers, big chain retail shops, millers, importers and processors across Tamil Nadu.",
+  "sources": [
+    "rn-n-rice487"
+  ],
+  "evidence": [
+    {
+      "field": "date",
+      "source": "rn-n-rice487",
+      "quote": "CHENNAI, FRIDAY, NOVEMBER 13, 2026"
+    },
+    {
+      "field": "reference_number",
+      "source": "rn-n-rice487",
+      "quote": "G.O.Ms.No.93, Co-operation, Food and Consumer Protection (B1), 13th November 2026"
+    },
+    {
+      "field": "reference_number",
+      "source": "rn-n-rice487",
+      "quote": "No. II(1)/CFCP/23(h)/2026."
+    },
+    {
+      "field": "says",
+      "source": "rn-n-rice487",
+      "quote": "Paddy/Rice, for a period up to 31.01.2027 with following stock limits for the State of Tamil Nadu"
+    },
+    {
+      "field": "says",
+      "source": "rn-n-rice487",
+      "quote": "Wholesaler : 2000 MT Paddy / Rice."
+    },
+    {
+      "field": "says",
+      "source": "rn-n-rice487",
+      "quote": "Retailer : 8 MT for each retail outlet."
+    },
+    {
+      "field": "what_to_do",
+      "source": "rn-n-rice487",
+      "quote": "Respective legal entities shall declare the stock position on the portal of Department of Consumer Affairs"
+    },
+    {
+      "field": "what_to_do",
+      "source": "rn-n-rice487",
+      "quote": "(fcainfoweb.nic.in/psp) and in case the stocks held by them are higher than the prescribed limits then they shall bring the"
+    },
+    {
+      "field": "what_to_do",
+      "source": "rn-n-rice487",
+      "quote": "stock is regularly declared and updated on the portal"
+    },
+    {
+      "field": "by_when",
+      "source": "rn-n-rice487",
+      "quote": "same to the prescribed stock limits by 16th November 2026"
+    },
+    {
+      "field": "by_when",
+      "source": "rn-n-rice487",
+      "quote": "Paddy/Rice, for a period up to 31.01.2027"
+    },
+    {
+      "field": "who_it_affects",
+      "source": "rn-n-rice487",
+      "quote": "Big Chain retail shop : Up to 8 MT for each retail outlet"
+    },
+    {
+      "field": "who_it_affects",
+      "source": "rn-n-rice487",
+      "quote": "Miller : Not more than one month production capacity."
+    },
+    {
+      "field": "who_it_affects",
+      "source": "rn-n-rice487",
+      "quote": "It extends to the whole of the State of Tamil Nadu."
+    }
+  ],
+  "gaps": [
+    "The order does not state a penalty, so if_not is null (it is made under the Essential Commodities Act, 1955, but the penalty is not in this text).",
+    "The 16 November 2026 deadline to reduce stock had already passed when this entry was made (17 November 2026).",
+    "Ordinary households buying rice are not addressed by this order."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Official G.O.; its first deadline (16.11.2026) has already passed, limits run to 31.01.2027. Good 'what does this mean for me' demo.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

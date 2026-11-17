@@ -1,0 +1,149 @@
+{
+  "id": "stu-pudhumai-penn",
+  "type": "scheme",
+  "name_en": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Social Welfare & Women Empowerment Department, Government of Tamil Nadu",
+  "audiences": [
+    "college_students",
+    "women"
+  ],
+  "benefit": "Girls who studied in government schools get Rs 1,000 every month while they study their first college course, diploma or ITI. The money goes straight into their bank account. They can get this on top of other scholarships.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "student"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "Must live in Tamil Nadu",
+      "Must have studied Class 6 to Class 12 in Tamil Nadu government schools",
+      "Only the first course of higher education counts (not post-graduation)",
+      "Any number of girls in one family can get it",
+      "Must study a recognized course in a recognized college or university"
+    ]
+  },
+  "documents": [
+    "Identity proof",
+    "Passport size photos",
+    "Residence certificate",
+    "Educational certificates",
+    "Family income certificate (if asked)",
+    "Bank account details"
+  ],
+  "how_to_apply": "Go to the Penkalvi website. Sign up or log in. Fill in the form, upload your papers and submit.",
+  "where_to_apply": "Online on the Penkalvi portal (penkalvi.tn.gov.in)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "stu-pudhumai-penn-ms"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "was launched by the Department of Social Welfare & Women Empowerment, Government of Tamil Nadu"
+    },
+    {
+      "field": "benefit",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "All girl students who studied from Classes 6th to 12th in Government schools will be paid ₹1,000/- per month till the completion of their undergraduate degree, diploma, ITI, and any other recognized course."
+    },
+    {
+      "field": "benefit",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "The assistance amount under this scheme will be disbursed directly into the student’s Bank Account."
+    },
+    {
+      "field": "benefit",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "The students shall be eligible for this in addition to other scholarships."
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "Yes, this scheme is only for girl students."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "The applicant should be a student."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "The applicant should be residing in the state of Tamil Nadu."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "All girl students who studied from Classes 6th to 12th in Government schools of Tamil Nadu are eligible to apply under the scheme."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "Only the first course of higher education will be considered as an eligible factor."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "Can I also get the benefits of the scheme for Post-Graduation courses?"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "The assistance can be extended to any number of girl students in a family pursuing higher education"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "The girl students should pursue their education in recognized courses and colleges/universities."
+    },
+    {
+      "field": "documents",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "Identity proof Passport size photos Residence Certificate Educational Certificates Family Income Certificate (If applicable) Bank account details"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "the applicants (girl students) should visit the Official Portal ' Penkalvi ’."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "Upload all the relevant documents and select the option to submit the application form."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "stu-pudhumai-penn-ms",
+      "quote": "https://penkalvi.tn.gov.in/index.php"
+    }
+  ],
+  "gaps": [
+    "Source gives no Tamil name, so name_ta is null.",
+    "Source gives no age limit or income limit (it lists a family income certificate only 'if applicable').",
+    "Source gives no helpline number and no G.O. number.",
+    "myScheme page is undated; the official portal pudhumaipenn.tn.gov.in timed out and could not be saved to cross-check.",
+    "myScheme FAQ says the bank account must be in one of four banks (Indian Bank, Canara Bank, Indian Overseas Bank, SBI); left out of eligibility because another line on the same page says 'wherever necessary'."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Clear myScheme page; apply route (Penkalvi) sourced.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

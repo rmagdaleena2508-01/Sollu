@@ -1,0 +1,3701 @@
+{
+  "built_at": "2026-11-17T05:19:02+00:00",
+  "note": "Only entries whose every quote matched an official saved source and that a reviewer did not hold back. Entries marked review.demo_use = 'caution' must be spoken with their note in mind.",
+  "held_back": [
+    "stu-sc-st-postmatric"
+  ],
+  "schemes": [
+    {
+      "id": "fw-cm-uzhavar-pathukappu",
+      "type": "scheme",
+      "name_en": "Chief Minister's Uzhavar Pathukappu Thittam 2011 (Farmers Security Scheme)",
+      "name_ta": "முதலமைச்சரின் உழவர் பாதுகாப்புத் திட்டம் 2011",
+      "level": "state",
+      "department": "Revenue Administration (Commissioner of Revenue Administration), Government of Tamil Nadu",
+      "audiences": [
+        "farmers",
+        "seniors"
+      ],
+      "benefit": "Small farmers and farm workers who are members, and their families, can get help money: Rs 1,000 old age pension a month, Rs 1,000 a month during serious illness (TB, cancer, HIV), Rs 1,00,000 for accidental death, Rs 20,000 for natural death, Rs 2,500 for funeral costs, marriage help (Rs 10,000 for women, Rs 8,000 for men), and yearly study help for children.",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "small farmer",
+          "marginal farmer",
+          "tenant farmer",
+          "agricultural labourer",
+          "inland fishing worker",
+          "plantation labourer"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "Main member: small or marginal farmer (wet land up to 2.5 acres or dry land up to 5 acres, farming it yourself), farm labourer, inland fishing worker or plantation worker.",
+          "Age 18 to 65 to join as main member.",
+          "Family members who do not earn (husband or wife, children, parents, dead son's wife and children) can join as dependants.",
+          "For the old age pension: age 60 or more, destitute, a farmer or landless farm worker, fixed assets not above Rs 1,00,000, and a CMUPT membership card."
+        ]
+      },
+      "documents": [
+        "For old age pension: photo, Aadhaar card, age proof, Aadhaar consent form, smart ration card or address proof, CMUPT membership card, self-declaration, ID proof, bank passbook"
+      ],
+      "how_to_apply": "For the old age pension: take copies of your papers to the nearest Common Service Centre (CSC), give your fingerprint, fill the form, upload the papers and keep the receipt. Applying is free.",
+      "where_to_apply": "Common Service Centre (CSC) for the old age pension",
+      "helpline": null,
+      "go_number": "G.O. (Ms.) No.265, Revenue [LR-I(2)] Department dated 10.09.2011",
+      "sources": [
+        "fw-cmupt-tn",
+        "fw-cmupt"
+      ],
+      "evidence": [
+        {
+          "field": "name_ta",
+          "source": "fw-cmupt-tn",
+          "quote": "( முதலமைச்சரின் உழவர் பாதுகாப்புத் திட்டம் 2011 )"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt-tn",
+          "quote": "(i) Old Age Pension ( per month )"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt-tn",
+          "quote": "(Given through Commissioner of Revenue Administration Department w.e.f. 1.4.2014)\n1,000"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt-tn",
+          "quote": "Pension for the period during Temporary Incapacitation due to TB , HIV , Cancer and other terminal illness ( per month )\n1,000"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt-tn",
+          "quote": "a) Death due to accident\n1,00,000"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt-tn",
+          "quote": "(upto 23.4.2017 – Rs. 10,000/-)\n20,000"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt-tn",
+          "quote": "Funeral Expenses\n2,500"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt-tn",
+          "quote": "Marriage assistance\nWomen\n10,000\nMen\n8,000"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt-tn",
+          "quote": "Educational Assistance to son and Children of members"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-cmupt",
+          "quote": "₹1,000/- per month."
+        },
+        {
+          "field": "eligibility.age_min",
+          "source": "fw-cmupt-tn",
+          "quote": "Age - 18-65 years."
+        },
+        {
+          "field": "eligibility.age_max",
+          "source": "fw-cmupt-tn",
+          "quote": "Age - 18-65 years."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-cmupt-tn",
+          "quote": "Small and marginal farmers (including on tenancy)"
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-cmupt-tn",
+          "quote": "Agricultural labourers.\nInland fishing and labourers working in plantations."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-cmupt-tn",
+          "quote": "wet land not exceeding 2.50 acres or dry land not exceeding 5.00 acres and engaged in"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-cmupt-tn",
+          "quote": "Age - 18-65 years."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-cmupt-tn",
+          "quote": "Non-earning members of the family of registered farmer member.\nWife or husband, as the case may be.\nChildren.\nDeceased son’s wife and children.\nParents."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-cmupt",
+          "quote": "The applicant should be destitute."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-cmupt",
+          "quote": "The applicant's age should be 60 years and above."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-cmupt",
+          "quote": "The applicant should be farmer or a landless agricultural labour."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-cmupt",
+          "quote": "The applicant's fixed assets should not exceed ₹1,00,000/-."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-cmupt",
+          "quote": "who have membership card under Chief Minister’s Uzhavar Padhukappu Thittam (CMPUT)"
+        },
+        {
+          "field": "documents",
+          "source": "fw-cmupt",
+          "quote": "Applicant's Photo.\nAadhaar Card.\nProof of Age.\nAadhaar Consent Form.\nSmart Ration Card or Any Address Proof.\nMembership Card under CMPUT.\nSelf–declaration of Applicant."
+        },
+        {
+          "field": "documents",
+          "source": "fw-cmupt",
+          "quote": "Any Identity Proof (Voter ID Card, Passport, PAN Card, Driving License).\nBank Passbook."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-cmupt",
+          "quote": "The applicant should gather copies of the necessary documents needed to apply for the concerned scheme."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-cmupt",
+          "quote": "The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-cmupt",
+          "quote": "In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-cmupt",
+          "quote": "Request a receipt or acknowledgement from the concerned authority"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-cmupt",
+          "quote": "No, applying for the Old Age Pension Scheme is completely free."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-cmupt",
+          "quote": "visit the nearest Common Service Center (CSC)"
+        },
+        {
+          "field": "go_number",
+          "source": "fw-cmupt-tn",
+          "quote": "G.O. (Ms.) No.265, Revenue [LR-I(2)] Department dated 10.09.2011"
+        }
+      ],
+      "gaps": [
+        "How to enrol as a CMUPT member (to get the membership card) is not described on either source; how_to_apply covers only the old age pension.",
+        "Documents listed are for the old age pension only; enrolment documents are not stated.",
+        "The landreforms.tn.gov.in page has no date; amounts (e.g. natural death Rs 20,000, changed after 23.4.2017) may have been revised since. The old age pension is Rs 1,000 on both sources.",
+        "The pension page on myScheme says the pension is run by the Social Welfare and Women Empowerment Department; the landreforms page says it is given through the Commissioner of Revenue Administration. Department is set to Revenue Administration (owner of the main scheme page).",
+        "Source does not give a helpline number."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Rs 1,000 pension and other amounts not cross-checked with a current G.O.; how to join the scheme is not sourced.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "fw-eshram",
+      "type": "scheme",
+      "name_en": "e-Shram registration for unorganised workers",
+      "name_ta": null,
+      "level": "central",
+      "department": "Ministry of Labour and Employment",
+      "audiences": [
+        "workers",
+        "farmers"
+      ],
+      "benefit": "Free sign-up that gives you a 12-digit number (UAN) and an e-Shram card that never expires. The government uses this list to bring welfare and social security schemes to you. After you log in you can see schemes you can join, like PM-SYM pension, in one place.",
+      "eligibility": {
+        "age_min": 16,
+        "age_max": null,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "unorganised worker",
+          "construction worker",
+          "migrant worker",
+          "gig and platform worker",
+          "street vendor",
+          "domestic worker",
+          "agricultural worker",
+          "landless farmer"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "You must be an unorganised worker: home-based, self-employed or wage worker.",
+          "Not a member of EPFO, ESIC or government-funded NPS.",
+          "No income limit.",
+          "No school or college certificate needed."
+        ]
+      },
+      "documents": [
+        "Aadhaar number",
+        "Mobile number linked to Aadhaar"
+      ],
+      "how_to_apply": "Sign up yourself on the e-Shram website, or go to the nearest CSC for help. It is free. If your mobile is not linked to Aadhaar, go to a CSC or State Seva Kendra and sign up with your fingerprint. You can sign up any day; there is no last date.",
+      "where_to_apply": "eshram.gov.in, or a Common Service Centre (CSC) / State Seva Kendra (SSK)",
+      "helpline": "14434",
+      "go_number": null,
+      "sources": [
+        "fw-eshram-faq",
+        "fw-eshram-obj"
+      ],
+      "evidence": [
+        {
+          "field": "benefit",
+          "source": "fw-eshram-faq",
+          "quote": "Registration on eShram portal is totally free."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-eshram-faq",
+          "quote": "UAN or Universal Account Number is a 12-digit number uniquely assigned to each unorganised worker after registration on eShram portal."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-eshram-faq",
+          "quote": "The eShram card never expires."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-eshram-faq",
+          "quote": "It is envisaged that this portal will be used to facilitate delivery of various social security benefits to unorganised workers."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-eshram-faq",
+          "quote": "eShram OSS provides a single window for unorganised workers, bringing all key social security and welfare schemes together in one place."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-eshram-faq",
+          "quote": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)"
+        },
+        {
+          "field": "eligibility.age_min",
+          "source": "fw-eshram-obj",
+          "quote": "Age should be 16 years or above at the time of registration."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-eshram-obj",
+          "quote": "including Construction Workers, Migrant Workers, Gig and Platform workers, Street Vendors, Domestic Workers, Agriculture Workers"
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-eshram-faq",
+          "quote": "Agriculture labours and landless farmers are eligible for registration in the eShram portal."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-eshram-faq",
+          "quote": "Any worker who is a home-based worker, self-employed worker or a wage worker working in the unorganised sector and not a member of ESIC or EPFO, is called an unorganised worker."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-eshram-obj",
+          "quote": "Not a member of EPFO/ESIC or NPS (Govt. funded)"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-eshram-faq",
+          "quote": "There are no income criteria for registering on eShram as unorganised worker."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-eshram-faq",
+          "quote": "Are there any educational qualifications prescribed for registering as an unorganised worker?\nNo"
+        },
+        {
+          "field": "documents",
+          "source": "fw-eshram-faq",
+          "quote": "Aadhaar Number.\nAadhaar linked Mobile number."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-eshram-faq",
+          "quote": "An unorganised worker may register himself/ herself by visiting eShram portal or through assisted approach by visiting nearest CSC."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-eshram-faq",
+          "quote": "Workers are not required to pay any charges to any registering entity."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-eshram-faq",
+          "quote": "If a worker does not have Aadhaar linked mobile number, he/ she may visit nearest Common Service Centre (CSC) or State Seva Kendra (SSK) and register through biometric authentication."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-eshram-faq",
+          "quote": "No, there is no fixed last date for registration."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-eshram-faq",
+          "quote": "eShram services may be accessed through the portal, available at http://www.eshram.gov.in."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-eshram-faq",
+          "quote": "nearest Common Service Centre (CSC) or State Seva Kendra (SSK)"
+        },
+        {
+          "field": "helpline",
+          "source": "fw-eshram-faq",
+          "quote": "Users may contact the helpdesk by dialling 14434 for support and guidance"
+        }
+      ],
+      "gaps": [
+        "e-Shram is a registration, not a cash scheme. The FAQ says the portal is 'facilitative' and each scheme is still run by its own ministry; Sollu should not promise money just for registering.",
+        "The objectives page also lists 'Savings Bank Account number with IFSC code' as required, but the newer FAQ lists only Aadhaar number and Aadhaar-linked mobile. The FAQ (with 2026 figures) is used; bank account is left out of documents.",
+        "The site header also shows a second helpdesk number (18008896811); only 14434 is used because the FAQ names it.",
+        "Source does not give a Tamil name."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "It is a registration, not cash. Never promise money for signing up.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "fw-pm-kisan",
+      "type": "scheme",
+      "name_en": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "name_ta": null,
+      "level": "central",
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "audiences": [
+        "farmers"
+      ],
+      "benefit": "Farmer families who own farm land get Rs 6,000 a year. It comes as three payments of Rs 2,000, one every four months, straight into the bank account.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "farmer"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "The family must have farm land in their own names.",
+          "Land size does not matter. Big and small farmers can both get it.",
+          "Not for families where any member paid income tax last year.",
+          "Not for land held by institutions.",
+          "Not for families with a minister, MP, MLA, mayor or other constitutional post holder (now or before).",
+          "Not for serving or retired government officers and staff (Group D / Class IV / Multi Tasking Staff are allowed).",
+          "Not for retired people with a pension of Rs 10,000 or more a month (Group D / Class IV / Multi Tasking Staff are allowed).",
+          "Not for doctors, engineers, lawyers, chartered accountants and architects who are registered and working."
+        ]
+      },
+      "documents": [
+        "Aadhaar card",
+        "Land papers",
+        "Savings bank account"
+      ],
+      "how_to_apply": "Go to a Common Service Centre (CSC). The worker there types your Aadhaar, bank and land details, uploads your land paper, Aadhaar and bank passbook, and saves the form. Later you can check your status with your Aadhaar number.",
+      "where_to_apply": "Common Service Centre (CSC)",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "fw-pm-kisan"
+      ],
+      "evidence": [
+        {
+          "field": "benefit",
+          "source": "fw-pm-kisan",
+          "quote": "Financial benefit of Rs. 6000 per annum per family payable in three equal installments of Rs 2000 each , every four months."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-pm-kisan",
+          "quote": "released by the Central Government online directly into the bank accounts of the eligible farmers"
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-pm-kisan",
+          "quote": "All landholding farmers' families, which have cultivable land holding in their names are eligible to get benefit under the scheme."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "All landholding farmers' families, which have cultivable land holding in their names are eligible to get benefit under the scheme."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "The ambit of the scheme has been extended to cover all farmer families, irrespective of the size of their land holdings."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "All Persons who paid Income Tax in last assessment year"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "All Institutional Land holders."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "Former and present holders of constitutional posts"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "Former and present Ministers/ State Ministers and former/present Members of LokSabha/ RajyaSabha/ State Legislative Assemblies/ State Legislative Councils,former and present Mayors of Municipal Corporations"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "All serving or retired officers and employees of Central/ State Government Ministries /Offices/Departments"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "(Excluding Multi Tasking Staff /Class IV/Group D employees)"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "All superannuated/retired pensioners whose monthly pension is Rs.10,000/-or more (Excluding Multi Tasking Staff / Class IV/Group D employees)"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pm-kisan",
+          "quote": "Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects registered with Professional bodies and carrying out profession by undertaking practices."
+        },
+        {
+          "field": "documents",
+          "source": "fw-pm-kisan",
+          "quote": "Indicative Documents\nAadhaar Card\nLandholding papers\nSavings Bank Account."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pm-kisan",
+          "quote": "Online - via CSCs"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pm-kisan",
+          "quote": "key in the Aadhaar number, Name of the beneficiary, category, Bank detail, Land Registration ID"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pm-kisan",
+          "quote": "Step 4: Upload the supporting documents like Land, Aadhar, and Bank passbook."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pm-kisan",
+          "quote": "Step 5: Self-declaration accept and save the application form."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pm-kisan",
+          "quote": "Step 7: Check the Beneficiary status through the Aadhaar number."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-pm-kisan",
+          "quote": "Online - via CSCs"
+        }
+      ],
+      "gaps": [
+        "Source does not give a helpline number.",
+        "Source does not set an age limit or a Tamil name.",
+        "Step 6 on the source says 'make payment through CSC ID'; it does not say whether the farmer pays any fee, so the plain text leaves this out.",
+        "Source lists pmkisan.gov.in self-registration only as a link ('New Farmer Registration Form'); online self-apply steps are not described, so only the CSC route is given."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Clear official myScheme page; amounts and rules consistent.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "fw-pmfby",
+      "type": "scheme",
+      "name_en": "Pradhan Mantri Fasal Bima Yojana (PMFBY) - crop insurance",
+      "name_ta": null,
+      "level": "central",
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "audiences": [
+        "farmers"
+      ],
+      "benefit": "Crop insurance at a low price. If your crop is lost to floods, drought, storms, hail, pests or disease, you can get money back. You pay at most 2% for Kharif food and oilseed crops, 1.5% for Rabi food and oilseed crops, and 5% for yearly commercial or garden crops. The government pays the rest.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "farmer",
+          "tenant farmer",
+          "sharecropper"
+        ],
+        "community": null,
+        "district": null,
+        "other": [
+          "You must grow a notified crop in a notified area.",
+          "You need a land ownership certificate or a land tenure (lease) agreement.",
+          "Apply in time, usually within 2 weeks of the start of the sowing season.",
+          "You must not have got money for the same crop loss from anywhere else.",
+          "If you took a farm loan from a bank, cover is compulsory, but check that your bank has enrolled you."
+        ]
+      },
+      "documents": [
+        "Passport-size photo",
+        "Bank passbook",
+        "ID proof (Aadhaar / PAN / Voter ID / bank passbook with photo / Kisan photo book / NREGA job card)",
+        "Address proof (Aadhaar / PAN / Voter ID / electricity bill / bank passbook with photo)",
+        "Land records or land tenure agreement",
+        "Declaration about the crop sown or to be sown"
+      ],
+      "how_to_apply": "Go to the PMFBY website (pmfby.gov.in). Open 'Farmer Corner' and register as a guest farmer. Then log in with your mobile number and OTP, fill the form, upload documents and submit. Pay the premium online or later. You can also go to a CSC or bank branch. You must apply again each season.",
+      "where_to_apply": "pmfby.gov.in, a Common Service Centre (CSC), or your bank branch",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "fw-pmfby"
+      ],
+      "evidence": [
+        {
+          "field": "benefit",
+          "source": "fw-pmfby",
+          "quote": "The maximum premium payable by the farmer will be 2% for the Kharif food and oilseed crops. For rabi food and oilseeds crop, it is 1.5% and for yearly commercial or horticultural crops it will be 5%. The remaining premium is subsidized by the government."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-pmfby",
+          "quote": "The scheme covers natural disasters (droughts, floods), pests, and diseases."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-pmfby",
+          "quote": "Storm, Hailstorm, Tornado etc.: Flood, Inundation and Landslide"
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-pmfby",
+          "quote": "All farmers, including tenant farmers and sharecroppers growing notified crops in notified areas."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmfby",
+          "quote": "All farmers, including tenant farmers and sharecroppers growing notified crops in notified areas."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmfby",
+          "quote": "Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmfby",
+          "quote": "usually within 2 weeks of the start of the sowing season."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmfby",
+          "quote": "Farmers must not have received compensation for the same crop loss from any other medium or source."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmfby",
+          "quote": "For loanee farmers, coverage is compulsory but not automatic. You must ensure your bank has processed your PMFBY enrollment within the specified timeframe."
+        },
+        {
+          "field": "documents",
+          "source": "fw-pmfby",
+          "quote": "Passport–sized Photograph"
+        },
+        {
+          "field": "documents",
+          "source": "fw-pmfby",
+          "quote": "Identity Proof (Aadhaar Card/PAN Card/Voter ID/Bank Passbook with Photo, Kisan Photo Book/NREGA Job Card)"
+        },
+        {
+          "field": "documents",
+          "source": "fw-pmfby",
+          "quote": "Address Proof (Aadhaar Card/PAN Card/Voter ID/Electricity Bill/Bank Passbook with Photo)."
+        },
+        {
+          "field": "documents",
+          "source": "fw-pmfby",
+          "quote": "Evidence of Land records, as per the State Records of Right (RoR)"
+        },
+        {
+          "field": "documents",
+          "source": "fw-pmfby",
+          "quote": "Declaration about the crop sown/intended to be sown."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmfby",
+          "quote": "click \"Farmer Corner\"."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmfby",
+          "quote": "In the popup window, click \"Guest Farmer\"."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmfby",
+          "quote": "provide your Mobile Number, fill the Captcha Code, then click \"Request for OTP\"."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmfby",
+          "quote": "Fill in all the mandatory fields of the Application Form and upload all the mandatory documents"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmfby",
+          "quote": "Select \"Pay Later\" if you intend to pay for the insurance at a later stage."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmfby",
+          "quote": "you must submit a fresh application and premium payment for each season you want coverage."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-pmfby",
+          "quote": "https://pmfby.gov.in/farmerLogin"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-pmfby",
+          "quote": "You can visit a nearby CSC or bank branch to submit your premium payment."
+        }
+      ],
+      "gaps": [
+        "Source does not give a helpline number or a Tamil name.",
+        "Which crops and areas are notified in Tamil Nadu this season is not on the source; farmers must check locally.",
+        "Source says the CSC / bank branch can take the premium payment; it lists 'Online - via CSCs' and 'Offline' modes but gives step-by-step text only for the website route.",
+        "Source page says the scheme launched in 2016; it does not state the current season's deadlines."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Clear official page. Tamil Nadu notified crops for the season are not listed; say so if asked.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "fw-pmsym",
+      "type": "scheme",
+      "name_en": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) - pension for unorganised workers",
+      "name_ta": null,
+      "level": "central",
+      "department": "Ministry of Labour and Employment",
+      "audiences": [
+        "workers"
+      ],
+      "benefit": "A pension of at least Rs 3,000 a month after you turn 60. You pay a small amount each month (Rs 55 to Rs 200, based on your age when you join), and the Central Government adds the same amount. If you die while getting the pension, your husband or wife gets half of it.",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 40,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "unorganised worker",
+          "construction worker",
+          "domestic worker",
+          "cobbler",
+          "home-based worker",
+          "rickshaw puller",
+          "agricultural labourer"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "Monthly income must be Rs 15,000 or less.",
+          "Age when you join must be 18 to 40.",
+          "You need a savings bank account or Jan Dhan account with IFSC.",
+          "Not for income tax payers.",
+          "Not for people working in the organised sector.",
+          "Not for members of EPFO, NPS or ESIC."
+        ]
+      },
+      "documents": [
+        "Aadhaar card",
+        "Savings bank or Jan Dhan account passbook",
+        "Mobile number",
+        "Self-certification (at the time of enrolment)"
+      ],
+      "how_to_apply": "Go to your nearest Common Services Centre (CSC). The worker there checks your Aadhaar, enters your bank, mobile and nominee details, and tells you the monthly amount. Pay the first amount in cash and sign the auto-debit form. You get a Shram Yogi card. After that, the money is taken from your bank account every month, so keep enough money in it.",
+      "where_to_apply": "Common Services Centre (CSC)",
+      "helpline": "1800 267 6888",
+      "go_number": null,
+      "sources": [
+        "fw-pmsym"
+      ],
+      "evidence": [
+        {
+          "field": "benefit",
+          "source": "fw-pmsym",
+          "quote": "A minimum assured pension of ₹3,000/- per month is provided to the subscriber after attaining the age of 60 years."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-pmsym",
+          "quote": "A matching contribution is provided by the Central Government on a 50:50 basis, where an equal amount to the subscriber's age-specific contribution (ranging from ₹55/- to ₹200/-) is credited to the pension account."
+        },
+        {
+          "field": "benefit",
+          "source": "fw-pmsym",
+          "quote": "The spouse of the beneficiary shall be entitled to receive a family pension equal to 50% of the pension received by the beneficiary."
+        },
+        {
+          "field": "eligibility.age_min",
+          "source": "fw-pmsym",
+          "quote": "The applicant must have an entry age between 18 and 40 years."
+        },
+        {
+          "field": "eligibility.age_max",
+          "source": "fw-pmsym",
+          "quote": "The applicant must have an entry age between 18 and 40 years."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-pmsym",
+          "quote": "The applicant must be an unorganized worker, construction workers, domestic workers, cobbler etc."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-pmsym",
+          "quote": "includes occupations like home-based workers, cobblers, rickshaw pullers, and agricultural laborers"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmsym",
+          "quote": "The applicant must have a monthly income of ₹15,000/- or less."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmsym",
+          "quote": "The applicant must have an entry age between 18 and 40 years."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmsym",
+          "quote": "The applicant must possess a Savings Bank Account or Jan Dhan account number with an Indian Financial System Code."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmsym",
+          "quote": "An income tax payer."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmsym",
+          "quote": "Engaged in the organized sector."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmsym",
+          "quote": "Holding membership in the Employees' Provident Fund Organization scheme."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmsym",
+          "quote": "Holding membership in the National Pension Scheme."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-pmsym",
+          "quote": "Holding membership in the Employees' State Insurance Corporation scheme."
+        },
+        {
+          "field": "documents",
+          "source": "fw-pmsym",
+          "quote": "Aadhaar Card\nSavings Bank Account Passbook / Jan-Dhan Account Passbook\nMobile Number\nSelf-Certification (At the time of enrollment)"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmsym",
+          "quote": "The interested eligible person must visit the nearest Common Services Centre (CSC) to initiate the registration and enrollment process."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmsym",
+          "quote": "including Bank Account details, Mobile Number, Email-id, spouse, and nominee details"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmsym",
+          "quote": "The system will automatically calculate the exact monthly contribution payable according to the entry age of the subscriber."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmsym",
+          "quote": "The subscriber must then pay the full amount of the first subscription in cash to the VLE"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmsym",
+          "quote": "An Enrolment Form cum Auto Debit mandate will be printed and must be physically signed by the subscriber."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmsym",
+          "quote": "a Shram Yogi Card will be printed directly at the CSC"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-pmsym",
+          "quote": "The subscriber must proactively maintain sufficient funds in their account"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-pmsym",
+          "quote": "enrolment is being done through Common Services Centres."
+        },
+        {
+          "field": "helpline",
+          "source": "fw-pmsym",
+          "quote": "contact the official customer care number 1800 267 6888 on a 24*7 basis."
+        }
+      ],
+      "gaps": [
+        "Source gives a monthly income limit (Rs 15,000) only, so income_max_annual_inr is left null instead of converting it.",
+        "Source does not give a Tamil name.",
+        "Source mentions a web portal and app for complaints but gives no address for them."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Clear official page; helpline present.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "fw-tn-construction-board",
+      "type": "scheme",
+      "name_en": "Tamil Nadu Construction Workers Welfare Board - member benefits",
+      "name_ta": "தமிழ்நாடு கட்டுமானத் தொழிலாளர்கள் நல வாரியம்",
+      "level": "state",
+      "department": "Labour Welfare and Skill Development Department, Government of Tamil Nadu",
+      "audiences": [
+        "workers"
+      ],
+      "benefit": "Construction workers who join the Board can get help money: Rs 1,000 pension a month after 60, Rs 500 family pension a month, Rs 2,00,000 if a member dies in an accident, Rs 5,00,000 if a worker dies at the work site (even if not a member), Rs 50,000 on natural death, Rs 5,000 for funeral costs, Rs 20,000 for marriage, Rs 18,000 for having a baby, money for children's studies, up to Rs 500 for glasses, and up to Rs 4,00,000 for a house.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "construction worker"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "You must do manual work in construction or upkeep of dams, bridges, roads or buildings, stone breaking or crushing, brick making, or putting up pandals.",
+          "For the pension, you must be a registered member aged 60 or more (or younger if sickness has made you unable to work)."
+        ]
+      },
+      "documents": null,
+      "how_to_apply": "Register online on the Tamil Nadu Unorganised Workers Welfare Board website (New Registration). There is no registration fee. You get an ID card. Renew your membership on time. Claims for help money and renewal are also done online.",
+      "where_to_apply": "tnuwwb.tn.gov.in (online), from home or a nearby service centre",
+      "helpline": null,
+      "go_number": "G.O. No 421 (Labour & Employment (I2) Department) dated 27.12.2013 (pension raised to Rs 1,000)",
+      "sources": [
+        "fw-tnuwwb-claims",
+        "fw-tnuwwb",
+        "fw-tncwwb-reg",
+        "fw-tncwwb-pension",
+        "fw-tn-labour-pn"
+      ],
+      "evidence": [
+        {
+          "field": "name_ta",
+          "source": "fw-tnuwwb",
+          "quote": "TN Construction WWB / தமிழ்நாடு கட்டுமானத் தொழிலாளர்கள் நல வாரியம்"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Pension (Per month) 1000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Family Pension (Per month) 500/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "a) Accidental Death 2,00,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "c) Accidental Death at work site and death 5,00,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "(including unregistered workers)"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Natural Death Assistance 50,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Funeral expenses Assistance 5,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Marriage Assistance (a) for men 20,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Maternity Assistance – 18,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Reimbursement of cost of Spectacles upto 500/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Housing Scheme upto 4,00,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Educational Assistance"
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-tncwwb-reg",
+          "quote": "engaged to do any manual work in construction or maintenance of dams, bridges, roads or in any building operations"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-tncwwb-reg",
+          "quote": "engaged to do any manual work in construction or maintenance of dams, bridges, roads or in any building operations, stone breaking or stone crushing, brick manufactory (other than those covered under the Factories Act) and construction of pandals"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-tncwwb-pension",
+          "quote": "Every registered manual worker who has completed 60 years of age is eligible for pension."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-tncwwb-pension",
+          "quote": "if he has become disabled due to sickness and incapacitated from normal work"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-tnuwwb",
+          "quote": "புதிய விண்ணப்பப் பதிவு / New Registration"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-tncwwb-reg",
+          "quote": "No registration fee is collected."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-tncwwb-reg",
+          "quote": "The workers who are registered with the Board are issued with Identity Cards assigning registration numbers, free of cost."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-tn-labour-pn",
+          "quote": "to apply for registration, renewal as well as benefit schemes online."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-tnuwwb",
+          "quote": "Renewal / புதுப்பித்தல்"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-tnuwwb",
+          "quote": "Tamil Nadu Unorganised Workers Welfare Board"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-tn-labour-pn",
+          "quote": "as they can do it either from their homes or nearby service centers."
+        },
+        {
+          "field": "go_number",
+          "source": "fw-tncwwb-pension",
+          "quote": "The monthly pension enhanced to Rs. 1000/- vide G.O No 421 (Labour & Employment (I2) Department) dated 27.12.2013."
+        }
+      ],
+      "gaps": [
+        "Age limit for joining is not used: the only official page found (labour.tn.gov.in 'Procedure For Registration') says 'completed fifteen years of age but has not completed sixty' and its figures stop at 2014, so it may be outdated.",
+        "That same old page says registration is valid for two years; the renewal period is not stated on a newer source, so the plain text only says 'renew on time'.",
+        "Family pension: the old labour.tn.gov.in pension page says Rs 400 a month; the newer tnuwwb.tn.gov.in claims list says Rs 500. The newer figure is used.",
+        "Pension Rs 1,000 a month is from the tnuwwb claims list and a 2013 G.O.; no 2025-26 rate was found in English on an official site. Check for any later increase.",
+        "The claims PDF has no date printed on it.",
+        "Source does not list the documents needed to register.",
+        "Source does not give a helpline number for the Board."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Amounts come from an undated claims PDF; one older official page shows lower family pension. Re-check current rates.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "fw-tn-manual-workers-board",
+      "type": "scheme",
+      "name_en": "Tamil Nadu Manual Workers Social Security and Welfare Board - member benefits",
+      "name_ta": "தமிழ்நாடு உடல் உழைப்பு தொழிலாளர்கள் சமூக பாதுகாப்பு மற்றும் நல வாரியம்",
+      "level": "state",
+      "department": "Labour Welfare and Skill Development Department, Government of Tamil Nadu",
+      "audiences": [
+        "workers"
+      ],
+      "benefit": "Manual workers who join the Board (or one of the other unorganised workers boards) can get help money: Rs 1,000 pension a month, Rs 1,25,000 if the member dies in an accident, Rs 30,000 on natural death, Rs 5,000 for funeral costs, Rs 3,000 (men) or Rs 5,000 (women) for marriage, Rs 6,000 for having a baby, money for children's studies, and up to Rs 500 for glasses.",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 59,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "manual worker",
+          "unorganised worker"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "You must work in one of the manual jobs listed under the Tamil Nadu Manual Workers Act, 1982.",
+          "You can join from age 18 until you turn 60.",
+          "You need a work certificate from your employer, a registered trade union, a Labour Department officer, or the Village Administrative Officer (Revenue Inspector in Chennai).",
+          "Membership lasts 5 years or until you turn 60, whichever comes first."
+        ]
+      },
+      "documents": [
+        "Application in Form-1",
+        "Two passport-size photos",
+        "Work certificate (from employer, trade union, labour officer or VAO)",
+        "One age proof: birth certificate, voter ID, school or college certificate, driving licence, ration card, Aadhaar card, or a government doctor's certificate"
+      ],
+      "how_to_apply": "Fill Form-1, stick one photo on it and attach another, and add your work certificate and age proof. The Labour Officer (Social Security Scheme) of your district registers you after the VAO checks it. You can apply and renew online on the Tamil Nadu Unorganised Workers Welfare Board website.",
+      "where_to_apply": "tnuwwb.tn.gov.in (online), or the district Labour Officer (Social Security Scheme)",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "fw-tnuwwb-claims",
+        "fw-tnuwwb",
+        "fw-tnmw-reg",
+        "fw-tn-labour-pn"
+      ],
+      "evidence": [
+        {
+          "field": "name_ta",
+          "source": "fw-tnuwwb",
+          "quote": "TN Manual Workers Social Security and Welfare Board / தமிழ்நாடு உடல் உழைப்பு தொழிலாளர்கள் சமூக பாதுகாப்பு மற்றும் நல வாரியம்"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "The following Welfare Scheme Assistances are provided to the workers, who are registered with 17 Unorganised Workers Welfare Boards:"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Workshop Workers Board Registered in"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Accidental Death 2,00,000/- 1,25,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Natural Death Assistance 50,000/- 30,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "Funeral Assistance 5,000/- 5,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "(a) for men 3,000/- 3,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "(b) for women 5,000/- 5,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "*18,000/- 6,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "upto 500/- upto 500/-"
+        },
+        {
+          "field": "benefit",
+          "source": "fw-tnuwwb-claims",
+          "quote": "a) Pension (Per month) 1000/- 1000/-"
+        },
+        {
+          "field": "eligibility.age_min",
+          "source": "fw-tnmw-reg",
+          "quote": "The worker who has completed the age of 18 years but has not completed 60 years of age is eligible for registration."
+        },
+        {
+          "field": "eligibility.age_max",
+          "source": "fw-tnmw-reg",
+          "quote": "The worker who has completed the age of 18 years but has not completed 60 years of age is eligible for registration."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "fw-tn-labour-pn",
+          "quote": "engaged in 70 (manual) and 54 (construction) categories of works specified in the schedule appended to the Act."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-tn-labour-pn",
+          "quote": "The Tamil Nadu Manual Workers (Regulation of Employment and Conditions of Work) Act, 1982"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-tnmw-reg",
+          "quote": "The worker who has completed the age of 18 years but has not completed 60 years of age is eligible for registration."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-tnmw-reg",
+          "quote": "The worker shall furnish a certificate of employment issued by anyone of the persons specified below"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-tnmw-reg",
+          "quote": "(d) Village Administrative Officer and for Chennai district, the Revenue Inspector"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "fw-tnmw-reg",
+          "quote": "The registration under this clause is valid for a period of five years or until the registered manual worker attains the age of sixty years, whichever is earlier."
+        },
+        {
+          "field": "documents",
+          "source": "fw-tnmw-reg",
+          "quote": "The worker should fill up the application in Form-1 prescribed in the Scheme"
+        },
+        {
+          "field": "documents",
+          "source": "fw-tnmw-reg",
+          "quote": "The worker shall affix one passport size photograph in the application form and enclose another photo with the application"
+        },
+        {
+          "field": "documents",
+          "source": "fw-tnmw-reg",
+          "quote": "(a) Employer of the manual worker"
+        },
+        {
+          "field": "documents",
+          "source": "fw-tnmw-reg",
+          "quote": "(a) Birth certificate issued by Registrar of Births and Deaths\n(b) Identity card issued by the Election commission\n(c) School certificate or College Certificate\n(d) Driving licence\n(e) Ration Card\n(f) Aadhar Card"
+        },
+        {
+          "field": "documents",
+          "source": "fw-tnmw-reg",
+          "quote": "Certificate from registered medical practitioner not below the rank of civil surgeon of a Government Hospital"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-tnmw-reg",
+          "quote": "The Registration of the name of the manual worker with the Board shall be made by the Labour Officer (Social Security Scheme) of the respective district after due verification by the respective village administrative officer"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-tn-labour-pn",
+          "quote": "to apply for registration, renewal as well as benefit schemes online."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "fw-tnuwwb",
+          "quote": "புதிய விண்ணப்பப் பதிவு / New Registration"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-tnuwwb",
+          "quote": "Tamil Nadu Unorganised Workers Welfare Board"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "fw-tnmw-reg",
+          "quote": "Labour Officer (Social Security Scheme) of the respective district"
+        }
+      ],
+      "gaps": [
+        "age_max is 59 because the page says the worker must not have 'completed 60 years of age'.",
+        "Benefit amounts come from the 'Workers Registered in other Welfare Boards' column of the tnuwwb.tn.gov.in claims list, which covers this Board and the other non-construction boards. The PDF has no date printed on it.",
+        "The 2023-24 Policy Note column for 'TNMWSSWB and 15 other welfare boards' was read but not quoted, because its table text is jumbled when copied.",
+        "The older labour.tn.gov.in benefit page gives lower amounts (e.g. natural death Rs 15,000, funeral Rs 2,000); the newer tnuwwb claims list is used.",
+        "Pension age (60) is not stated for this Board on the sources used; only the amount is.",
+        "The registration page (labour.tn.gov.in) describes the paper process; how Form-1 and certificates map to the online form is not stated.",
+        "The full list of covered jobs (the Act schedule) was not saved; the Policy Note says 70 manual job categories.",
+        "Source does not give a helpline number."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Amounts come from a shared, undated claims table, not board-specific. Re-check current rates.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "stu-adtw-exam-fee",
+      "type": "scheme",
+      "name_en": "Adi Dravidar and Tribal Welfare Department: Scholarship - Public Examination Fee for 10th and 12th Std.",
+      "name_ta": null,
+      "level": "state",
+      "department": "Adi Dravidar and Tribal Welfare Department, Tamil Nadu",
+      "audiences": [
+        "school_students"
+      ],
+      "benefit": "If you are writing the Class 10 or Class 12 public exam, the government pays your full exam fee. You do not pay it. There is no income limit.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": null,
+        "income_max_annual_inr": null,
+        "occupation": [
+          "student"
+        ],
+        "community": [
+          "Adi Dravidar (SC)",
+          "Tribal (ST)",
+          "Adi Dravidar converted to Christianity"
+        ],
+        "district": "all",
+        "other": [
+          "Must live in Tamil Nadu",
+          "Must be writing the 10th or 12th public exam",
+          "No income limit"
+        ]
+      },
+      "documents": [
+        "Aadhaar card or other ID",
+        "Community (caste) certificate",
+        "Public exam registration slip"
+      ],
+      "how_to_apply": "Students or parents meet the school Headmaster with the papers. The school handles it.",
+      "where_to_apply": "At your school, through the Headmaster",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "stu-adtw-examfee-ms"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "by the Adi Dravidar and Tribal Welfare Department, Tamil Nadu"
+        },
+        {
+          "field": "benefit",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "Full reimbursement on Public Examination fee for 10th and 12th Std. students."
+        },
+        {
+          "field": "benefit",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "There is no income limit for eligibility under this scheme."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "The beneficiary should be a Student."
+        },
+        {
+          "field": "eligibility.community",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "The beneficiary should belong to the Adi Dravidar/Tribal/Adi Dravidar converted to Christianity community."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "The beneficiary should be a resident of Tamil Nadu."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "The beneficiary must be appearing for public examinations of 10th/12th Std."
+        },
+        {
+          "field": "documents",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "Proof of identity (Aadhar card or any other document as directed by the authority)."
+        },
+        {
+          "field": "documents",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "Caste certificate Adi Dravidar/Tribal/Adi Dravidar Converted to Christianity community)."
+        },
+        {
+          "field": "documents",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "Public examination registration slip."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "Students/ Guardians should contact the Headmaster of the School with all the required documents"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "stu-adtw-examfee-ms",
+          "quote": "Students must apply through the headmaster of their respective schools."
+        }
+      ],
+      "gaps": [
+        "Source does not say which schools are covered (government, aided or private).",
+        "Source gives no rupee amount; it says the full fee is paid to the Directorate of Government Examinations.",
+        "Source gives no helpline, G.O. number or Tamil name. myScheme page is undated."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Simple, clear benefit; school handles it.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "stu-bc-mbc-postmatric",
+      "type": "scheme",
+      "name_en": "Post-Matric Scholarship for BC, MBC and DNC College Students",
+      "name_ta": null,
+      "level": "state",
+      "department": "Backward Classes, Most Backward Classes and Minorities Welfare Department, Government of Tamil Nadu",
+      "audiences": [
+        "college_students"
+      ],
+      "benefit": "The state pays your tuition fee and special fee (at government college rates), your full exam fee, and book money. If you stay in a college hostel, you also get Rs 4,000 a year (Rs 400 a month for 10 months) for food and stay. The money goes into your bank account.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": null,
+        "income_max_annual_inr": 250000,
+        "occupation": [
+          "student"
+        ],
+        "community": [
+          "BC",
+          "MBC",
+          "DNC"
+        ],
+        "district": "all",
+        "other": [
+          "Must be a native of Tamil Nadu",
+          "Must be studying ITI, polytechnic diploma, post-graduate, professional or Ph.D. course",
+          "Second-shift students in government and aided colleges can also get it"
+        ]
+      },
+      "documents": [],
+      "how_to_apply": "Get the scholarship form from your college. Fill it in, add the papers it asks for, and give it back to your college.",
+      "where_to_apply": "At your college. For questions, go to the District Backward Classes and Minorities Welfare Office at the District Collectorate.",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "stu-bc-welfare"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "stu-bc-welfare",
+          "quote": "Schemes for the Welfare of Backward Classes, Most Backward Classes and Denotified Communities"
+        },
+        {
+          "field": "benefit",
+          "source": "stu-bc-welfare",
+          "quote": "Under the scheme, tuition fee and special fee are sanctioned as fixed for the Government educational institutions."
+        },
+        {
+          "field": "benefit",
+          "source": "stu-bc-welfare",
+          "quote": "Examination fee is sanctioned in full and book money as notified in the scholarship notification."
+        },
+        {
+          "field": "benefit",
+          "source": "stu-bc-welfare",
+          "quote": "at the enhanced rate of Rs.4000/-per year (Rs.400/- per month for 10 months in a year) for Under Graudate courses, Professional Courses, ITI / Diploma and Post Graduate courses from the year 2021-22."
+        },
+        {
+          "field": "benefit",
+          "source": "stu-bc-welfare",
+          "quote": "Scholarships are directly credited into the students’ bank account"
+        },
+        {
+          "field": "eligibility.income_max_annual_inr",
+          "source": "stu-bc-welfare",
+          "quote": "Annual parental income should not exceed Rs.2.5 lakh to avail this scholarship."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "stu-bc-welfare",
+          "quote": "Denotified Communities students studying ITI, Diploma in Polytechnics, Post Graduate, Professional and Ph.D. courses."
+        },
+        {
+          "field": "eligibility.community",
+          "source": "stu-bc-welfare",
+          "quote": "scholarships are sanctioned to Backward Classes, Most Backward Classes and Denotified Communities students"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-bc-welfare",
+          "quote": "are available only to those who are natives of Tamil Nadu"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-bc-welfare",
+          "quote": "Students studying in the second shift in Government and Government aided colleges are also sanctioned scholarship"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "stu-bc-welfare",
+          "quote": "BC, MBC & DNC College students can collect their BC, MBC & DNC Scholarship application from their Institutions and submit the duly filled in applications with the relevant documents to the Institutions."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "stu-bc-welfare",
+          "quote": "For any queries contact District Backward Classes and Minorities Welfare Office situated in the Campus of District Collectorate."
+        }
+      ],
+      "gaps": [
+        "Source does not list the documents needed ('relevant documents' only), so documents is empty.",
+        "Source does not give the book money amount; it says 'as notified in the scholarship notification'.",
+        "Source names www.bcmbcscholarship.tn.gov.in for sanction and disbursement, but says students apply on paper at their institution; a web search snippet (not saved) mentioned umis.tn.gov.in. Current online route not confirmed.",
+        "Source page is undated (it lists 2026-2027 notices at the top, and the hostel rate is 'from the year 2021-22').",
+        "Undergraduate arts and science degree students are covered under a separate Free Education Scholarship (Degree) on the same page, not under this entry.",
+        "Doubt: the school-level BC/MBC/DNC post-matric listing on myScheme (myscheme.gov.in/schemes/pmstn) gives a BC income limit of Rs 1,00,000, while this department page gives Rs 2.5 lakh for the school-level scheme. Not used here; the department page is kept."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Official sources disagree on income limit (Rs 2.5 lakh on department page vs Rs 1 lakh on a myScheme school-level page). Department page kept.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "stu-free-bicycle",
+      "type": "scheme",
+      "name_en": "Distribution of Free Bicycles to Class 11 Students",
+      "name_ta": null,
+      "level": "state",
+      "department": "Backward Classes, Most Backward Classes and Minorities Welfare Department, Government of Tamil Nadu",
+      "audiences": [
+        "school_students"
+      ],
+      "benefit": "Boys and girls in Class 11 at government, aided and partly aided schools get a free bicycle. Income and community do not matter.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "student"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "Must be in Class 11 (+1) at a Government, Government Aided or partially aided school",
+          "Free bus pass holders can also get it",
+          "Students who live in a hostel inside the school, or in a residential school, cannot get it"
+        ]
+      },
+      "documents": [],
+      "how_to_apply": "Ask your school Headmaster.",
+      "where_to_apply": "Your school Headmaster",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "stu-bc-welfare"
+      ],
+      "evidence": [
+        {
+          "field": "benefit",
+          "source": "stu-bc-welfare",
+          "quote": "Bicycles are supplied to 11th standard students of Government, Government aided and partially aided schools irrespective of income and community."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "stu-bc-welfare",
+          "quote": "Should be the students (Boys & Girls) of +1 in Government, Government aided and partially aided school"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-bc-welfare",
+          "quote": "(this concession is applicable to the Free bus pass holders also.)"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-bc-welfare",
+          "quote": "Students staying in the Hostels situated in the school premises and staying in Residential Schools are not eligible for getting free bi-cycles."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "stu-bc-welfare",
+          "quote": "Officials to be contacted Concerned School Headmaster."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "stu-bc-welfare",
+          "quote": "Officials to be contacted Concerned School Headmaster."
+        }
+      ],
+      "gaps": [
+        "Source is the BC/MBC/DNC Welfare Department page; it says bicycles go to all Class 11 students 'irrespective of income and community', but does not name which department runs the scheme overall.",
+        "Source does not list documents or a formal application step; it only says to contact the school Headmaster.",
+        "Source page is undated; no G.O. number, helpline or Tamil name."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Simple benefit; apply via Headmaster.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "stu-pudhumai-penn",
+      "type": "scheme",
+      "name_en": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)",
+      "name_ta": null,
+      "level": "state",
+      "department": "Social Welfare & Women Empowerment Department, Government of Tamil Nadu",
+      "audiences": [
+        "college_students",
+        "women"
+      ],
+      "benefit": "Girls who studied in government schools get Rs 1,000 every month while they study their first college course, diploma or ITI. The money goes straight into their bank account. They can get this on top of other scholarships.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "female",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "student"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "Must live in Tamil Nadu",
+          "Must have studied Class 6 to Class 12 in Tamil Nadu government schools",
+          "Only the first course of higher education counts (not post-graduation)",
+          "Any number of girls in one family can get it",
+          "Must study a recognized course in a recognized college or university"
+        ]
+      },
+      "documents": [
+        "Identity proof",
+        "Passport size photos",
+        "Residence certificate",
+        "Educational certificates",
+        "Family income certificate (if asked)",
+        "Bank account details"
+      ],
+      "how_to_apply": "Go to the Penkalvi website. Sign up or log in. Fill in the form, upload your papers and submit.",
+      "where_to_apply": "Online on the Penkalvi portal (penkalvi.tn.gov.in)",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "stu-pudhumai-penn-ms"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "was launched by the Department of Social Welfare & Women Empowerment, Government of Tamil Nadu"
+        },
+        {
+          "field": "benefit",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "All girl students who studied from Classes 6th to 12th in Government schools will be paid ₹1,000/- per month till the completion of their undergraduate degree, diploma, ITI, and any other recognized course."
+        },
+        {
+          "field": "benefit",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "The assistance amount under this scheme will be disbursed directly into the student’s Bank Account."
+        },
+        {
+          "field": "benefit",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "The students shall be eligible for this in addition to other scholarships."
+        },
+        {
+          "field": "eligibility.gender",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "Yes, this scheme is only for girl students."
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "The applicant should be a student."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "The applicant should be residing in the state of Tamil Nadu."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "All girl students who studied from Classes 6th to 12th in Government schools of Tamil Nadu are eligible to apply under the scheme."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "Only the first course of higher education will be considered as an eligible factor."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "Can I also get the benefits of the scheme for Post-Graduation courses?"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "The assistance can be extended to any number of girl students in a family pursuing higher education"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "The girl students should pursue their education in recognized courses and colleges/universities."
+        },
+        {
+          "field": "documents",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "Identity proof Passport size photos Residence Certificate Educational Certificates Family Income Certificate (If applicable) Bank account details"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "the applicants (girl students) should visit the Official Portal ' Penkalvi ’."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "Upload all the relevant documents and select the option to submit the application form."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "stu-pudhumai-penn-ms",
+          "quote": "https://penkalvi.tn.gov.in/index.php"
+        }
+      ],
+      "gaps": [
+        "Source gives no Tamil name, so name_ta is null.",
+        "Source gives no age limit or income limit (it lists a family income certificate only 'if applicable').",
+        "Source gives no helpline number and no G.O. number.",
+        "myScheme page is undated; the official portal pudhumaipenn.tn.gov.in timed out and could not be saved to cross-check.",
+        "myScheme FAQ says the bank account must be in one of four banks (Indian Bank, Canara Bank, Indian Overseas Bank, SBI); left out of eligibility because another line on the same page says 'wherever necessary'."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Clear myScheme page; apply route (Penkalvi) sourced.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "stu-tamil-pudhalvan",
+      "type": "scheme",
+      "name_en": "Tamizh Pudhalvan Scheme",
+      "name_ta": null,
+      "level": "state",
+      "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+      "audiences": [
+        "college_students"
+      ],
+      "benefit": "Boys who studied in government schools (or Tamil-medium aided schools) get Rs 1,000 every month while they study a degree, diploma or ITI course.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "male",
+        "income_max_annual_inr": null,
+        "occupation": [
+          "student"
+        ],
+        "community": null,
+        "district": "all",
+        "other": [
+          "Must have studied in a Government school (any medium) or a Government Aided school (Tamil medium only)",
+          "Must be studying a degree, diploma or ITI course",
+          "Must show an Aadhaar number or do Aadhaar check; if you have no Aadhaar yet, apply for one"
+        ]
+      },
+      "documents": [
+        "Aadhaar number (or Aadhaar enrolment slip / request copy plus one ID such as bank or post office passbook with photo, PAN card, passport, ration card, voter ID, MGNREGA card, Kisan photo passbook, driving licence, or a photo ID letter from a Gazetted Officer or Tahsildar)"
+      ],
+      "how_to_apply": null,
+      "where_to_apply": null,
+      "helpline": null,
+      "go_number": "G.O. Ms. No. 42, Social Welfare and Women Empowerment Department, 18 July 2024",
+      "sources": [
+        "stu-tamil-pudhalvan-go"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "SOCIAL WELFARE AND WOMEN EMPOWERMENT DEPARTMENT"
+        },
+        {
+          "field": "benefit",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "by providing a sum of Rs.1,000/ – (Rupees thousand only) per month as incentive to all boy students who studied in Government Schools (both medium) / Government Aided Schools (Tamil medium only) and pursuing their Graduation / Diploma and Industrial Training Institute courses."
+        },
+        {
+          "field": "eligibility.gender",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "incentive to all boy students who studied in Government Schools"
+        },
+        {
+          "field": "eligibility.occupation",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "pursuing their Graduation / Diploma and Industrial Training Institute courses"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "Government Schools (both medium) / Government Aided Schools (Tamil medium only)"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "is required to furnish proof of possession of Aadhaar number or undergo Aadhaar authentication."
+        },
+        {
+          "field": "documents",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "If he has enrolled, his Aadhaar Enrolment Identity Slip; or"
+        },
+        {
+          "field": "documents",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "Bank or Post office Passbook with Photo; or"
+        },
+        {
+          "field": "documents",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "Permanent Account Number (PAN) Card; or"
+        },
+        {
+          "field": "documents",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "Certificate of identity having photo of such person issued by a Gazetted Officer or a Tahsildar"
+        },
+        {
+          "field": "go_number",
+          "source": "stu-tamil-pudhalvan-go",
+          "quote": "G.O. Ms. No. 42, Social Welfare and Women Empowerment [SW-3(2)],18th July 2024"
+        }
+      ],
+      "gaps": [
+        "The only saved source is the Aadhaar notification (G.O. Ms. No. 42, July 2024); it does not say how or where to apply.",
+        "No myScheme page was found; dte.tn.gov.in/tamil-pudhalvan timed out and could not be saved.",
+        "Source names Rs 1,000 a month but does not say until when it is paid, or whether it can be combined with other scholarships.",
+        "Source gives no age limit, income limit, helpline or Tamil name.",
+        "Source does not say the student must live in Tamil Nadu (implied, not stated)."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Only source is the 2024 Gazette Aadhaar notification; how and where to apply are missing.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "sw-cmchis",
+      "type": "scheme",
+      "name_en": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+      "name_ta": null,
+      "level": "state",
+      "department": "Health and Family Welfare Department, Government of Tamil Nadu",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
+      "benefit": "Your family gets free (cashless) hospital care up to Rs 5 lakh a year at listed government and private hospitals.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "any",
+        "income_max_annual_inr": 120000,
+        "occupation": null,
+        "community": null,
+        "district": "all",
+        "other": [
+          "You must live in Tamil Nadu.",
+          "Your name must be on the family (ration) card.",
+          "The family includes the head, spouse, children and dependent parents."
+        ]
+      },
+      "documents": [
+        "Income certificate from the VAO or revenue office",
+        "Ration card (original and photocopy)",
+        "Self-declaration from the head of the family",
+        "Proof of identity",
+        "Address proof",
+        "Aadhaar card",
+        "PAN card (optional)"
+      ],
+      "how_to_apply": "Get an income certificate from the Village Administrative Officer. Take your Aadhaar, ration card and income certificate to the enrolment centre. Show them to the kiosk operator. Give your fingerprint, photo and eye scan. You will get an e-card.",
+      "where_to_apply": "CMCHIS enrolment centre (kiosk); details on cmchistn.com",
+      "helpline": "1800 425 3993 (Mon-Sat, 10 AM to 6 PM)",
+      "go_number": null,
+      "sources": [
+        "sw-cmchis",
+        "sw-cmchis-site"
+      ],
+      "evidence": [
+        {
+          "field": "benefit",
+          "source": "sw-cmchis",
+          "quote": "provides coverage up to Rs. 5,00,000/- per family, per year on a floater basis"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-cmchis",
+          "quote": "cashless hospitalization for specific ailments/procedures"
+        },
+        {
+          "field": "eligibility.income_max_annual_inr",
+          "source": "sw-cmchis",
+          "quote": "their family's annual income should be less than Rs.1,20,000/- per annum"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-cmchis",
+          "quote": "Non-residents of Tamil Nadu are not eligible for this scheme."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-cmchis",
+          "quote": "the applicant's name must be present in the family card"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-cmchis",
+          "quote": "the definition of family includes the eligible member, their legal spouse, their children, and their dependent parents"
+        },
+        {
+          "field": "documents",
+          "source": "sw-cmchis",
+          "quote": "Income certificate from the Village Administrative Officer/Revenue authorities"
+        },
+        {
+          "field": "documents",
+          "source": "sw-cmchis",
+          "quote": "Ration Card (both original and photocopy)"
+        },
+        {
+          "field": "documents",
+          "source": "sw-cmchis",
+          "quote": "Self-declaration from the head of the family"
+        },
+        {
+          "field": "documents",
+          "source": "sw-cmchis",
+          "quote": "PAN card (optional)"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-cmchis",
+          "quote": "Obtain an income certificate from the Village Administrative Officer or Revenue authorities."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-cmchis",
+          "quote": "Present your documents to the kiosk operator for verification."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-cmchis",
+          "quote": "Provide your biometric details such as fingerprints, photograph, and eye scan."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-cmchis",
+          "quote": "Your details will be verified and the e-card will be issued to you."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "sw-cmchis",
+          "quote": "proceed to the enrollment center"
+        },
+        {
+          "field": "helpline",
+          "source": "sw-cmchis-site",
+          "quote": "Helpline: 1800 425 3993 (Mon-Sat) (10 AM to 6 PM)"
+        }
+      ],
+      "gaps": [
+        "myScheme page conflicts with itself on income: eligibility says family income below Rs 1,20,000 a year, but the Exclusions list says income above Rs 72,000 is not eligible. Kept Rs 1,20,000 (also in the FAQ); needs a check against the current G.O.",
+        "Department is not quoted in the saved sources ('Health and Family Welfare' is a label).",
+        "Scheme is for whole families, not only seniors or women; tagged seniors (dependent parents are covered) and women for this slice.",
+        "Insurer contract stated as running 'January 2022 to 2027'; check renewal after 2027.",
+        "No G.O. number in saved sources."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "myScheme page contradicts itself on income limit (Rs 1,20,000 vs Rs 72,000). Kept Rs 1,20,000 (also in FAQ).",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "sw-free-bus-women",
+      "type": "scheme",
+      "name_en": "Vidiyal Payanam (free bus travel for women)",
+      "name_ta": null,
+      "level": "state",
+      "department": "Transport Department, Government of Tamil Nadu (State Transport Undertakings)",
+      "audiences": [
+        "women"
+      ],
+      "benefit": "Women can ride government ordinary town buses (white board buses) for free. No ticket money is needed.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "female",
+        "income_max_annual_inr": null,
+        "occupation": null,
+        "community": null,
+        "district": "all",
+        "other": [
+          "Transgender persons can also travel free.",
+          "A person who helps someone with 40% or more disability can also travel free."
+        ]
+      },
+      "documents": [],
+      "how_to_apply": null,
+      "where_to_apply": "Ordinary fare town buses (white board) of all State Transport Undertakings in Tamil Nadu",
+      "helpline": "149 (MTC Chennai customer care)",
+      "go_number": null,
+      "sources": [
+        "sw-freebus-mtc",
+        "sw-freebus-arasu",
+        "sw-freebus-spc"
+      ],
+      "evidence": [
+        {
+          "field": "benefit",
+          "source": "sw-freebus-mtc",
+          "quote": "All women are allowed to travel free of charge in ordinary buses under the “Vidiyal Payanam” scheme with effect from 08.05.2021."
+        },
+        {
+          "field": "benefit",
+          "source": "sw-freebus-arasu",
+          "quote": "free of charge in ordinary fare town buses (white"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-freebus-spc",
+          "quote": "waives charges for travel by the women commuters in ordinary fare State-owned public buses"
+        },
+        {
+          "field": "eligibility.gender",
+          "source": "sw-freebus-mtc",
+          "quote": "All women are allowed to travel free of charge in ordinary buses"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-freebus-arasu",
+          "quote": "transgenders and escorts of the person with disability of 40% and above."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "sw-freebus-arasu",
+          "quote": "board) in all State Transport Undertakings"
+        },
+        {
+          "field": "helpline",
+          "source": "sw-freebus-mtc",
+          "quote": "Customer Care Toll Free No.: 149"
+        }
+      ],
+      "gaps": [
+        "Saved official sources describe the original 2021 scheme (ordinary town buses only). News reports say it was expanded and renamed 'Vettri/Vetri Payanam' on 2 Oct 2026 to more bus types (Express, LSS, Deluxe, some mofussil); no official page for the expansion was found, so it is NOT included. Re-check before showing.",
+        "Sources do not describe how to use it (for example, a zero-fare ticket); no application is mentioned.",
+        "Department name is not stated in the saved sources; 'Transport Department' is a label, not a quoted fact.",
+        "Helpline 149 is MTC (Chennai) customer care only, not a statewide scheme helpline."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Sources describe the 2021 Vidiyal Payanam (ordinary town buses). A newer expansion is reported in news but not confirmed officially.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "sw-magalir-urimai",
+      "type": "scheme",
+      "name_en": "Kalaignar Magalir Urimai Thogai (Kalaignar Mahalir Urimai Thittam)",
+      "name_ta": null,
+      "level": "state",
+      "department": "Special Programme Implementation Department, Government of Tamil Nadu",
+      "audiences": [
+        "women"
+      ],
+      "benefit": "Women heads of family get Rs 12,000 a year from the Tamil Nadu government, to help run the home.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "female",
+        "income_max_annual_inr": null,
+        "occupation": null,
+        "community": null,
+        "district": "all",
+        "other": [
+          "Meant for women who are the head of their household."
+        ]
+      },
+      "documents": [
+        "Aadhaar number (or Aadhaar authentication)",
+        "If no Aadhaar yet: Aadhaar enrolment slip plus one ID such as bank or post office passbook with photo, PAN card, passport, ration card, voter ID, MGNREGA card or driving licence"
+      ],
+      "how_to_apply": null,
+      "where_to_apply": null,
+      "helpline": null,
+      "go_number": "G.O.Ms. No. 21, Special Programme Implementation, 21 July 2023 (Aadhaar use notification)",
+      "sources": [
+        "sw-kmut-gazette",
+        "sw-kmut-nrtamils"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "sw-kmut-gazette",
+          "quote": "Special Programme Implementation Department is implementing the Kalaignar Mahalir Urimai Thittam"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-kmut-gazette",
+          "quote": "WHICH PROVIDES Rs. 12,000/- PER ANNUM TO IMPROVE THE LIVELIHOOD OF WOMEN"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-kmut-nrtamils",
+          "quote": "financial assistance to approximately 14,723 women heads of households"
+        },
+        {
+          "field": "eligibility.gender",
+          "source": "sw-kmut-gazette",
+          "quote": "provided she is entitled to obtain Aadhaar"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-kmut-nrtamils",
+          "quote": "providing financial assistance to approximately 14,723 women heads of households"
+        },
+        {
+          "field": "documents",
+          "source": "sw-kmut-gazette",
+          "quote": "is required to furnish proof of possession of Aadhaar number or undergo Aadhaar authentication"
+        },
+        {
+          "field": "documents",
+          "source": "sw-kmut-gazette",
+          "quote": "her Aadhaar Enrolment Identification slip"
+        },
+        {
+          "field": "documents",
+          "source": "sw-kmut-gazette",
+          "quote": "Bank or Post office Passbook with Photo"
+        },
+        {
+          "field": "go_number",
+          "source": "sw-kmut-gazette",
+          "quote": "G.O.Ms. No. 21, Special Programme Implementation, 21st July 2023"
+        }
+      ],
+      "gaps": [
+        "Official KMUT portal kmut.tn.gov.in could not be saved (its SSL certificate has expired), so age (21+), income, land, electricity and exclusion rules are NOT included. Only the 2023 Gazette and an NRT Commissionerate page were saved.",
+        "Benefit is stated as Rs 12,000 per year in the July 2023 Gazette; the monthly Rs 1,000 split is not stated in saved sources.",
+        "How and where to apply are not in the saved sources (news says ration-shop camps / e-Sevai; not verified).",
+        "Status doubt: Tamil Nadu changed government in 2026 and news (not official) mentions a possible rename or restructure; the saved official sources are from 2023-2024. Re-check the current status before showing this.",
+        "No helpline found in saved sources."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Official portal could not be saved; age, income and apply rules missing; status after the 2026 change of government not confirmed. Only say what the 2023 Gazette says, and point to e-Sevai for current rules.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "sw-maternity-benefit",
+      "type": "scheme",
+      "name_en": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+      "name_ta": null,
+      "level": "state",
+      "department": "Health and Family Welfare Department, Government of Tamil Nadu",
+      "audiences": [
+        "women"
+      ],
+      "benefit": "Pregnant mothers can get up to Rs 18,000 in total. It comes in parts: cash at different steps of pregnancy and after the baby's shots, plus two nutrition kits.",
+      "eligibility": {
+        "age_min": null,
+        "age_max": null,
+        "gender": "female",
+        "income_max_annual_inr": null,
+        "occupation": null,
+        "community": null,
+        "district": "all",
+        "other": [
+          "Your pregnancy must be registered in PICME and you need an RCH ID.",
+          "Each part is paid only when you meet its step, like registering by 12 weeks, giving birth in a government hospital, and getting the baby's vaccines."
+        ]
+      },
+      "documents": [
+        "Mother's Aadhaar number",
+        "For the first delivery: husband's Aadhaar number too",
+        "Address proof, such as bank passbook with photo, voter ID, ration card, passport, driving licence, MGNREGS job card or CMCHIS card"
+      ],
+      "how_to_apply": "Tell the government you are pregnant (pre-register). You can do it online on the PICME site, at an e-Seva centre, by calling 102, or at a government hospital. The village or urban health nurse will then register you and give you an RCH ID.",
+      "where_to_apply": "PICME website (picme.tn.gov.in/picme_public), e-Seva centre, or nearest government hospital",
+      "helpline": "102",
+      "go_number": "G.O. Ms. 118, Health & FW, dated 2-4-2018",
+      "sources": [
+        "sw-maternity-picme"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "sw-maternity-picme",
+          "quote": "G.O Ms. 118, Health & FW dated: 2-4-2018"
+        },
+        {
+          "field": "go_number",
+          "source": "sw-maternity-picme",
+          "quote": "G.O Ms. 118, Health & FW dated: 2-4-2018"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-maternity-picme",
+          "quote": "TOTAL Rs.18,000/-"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-maternity-picme",
+          "quote": "First Nutrition Kit on completion of third month (Kind benefit)"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-maternity-picme",
+          "quote": "Second Nutrition Kit on completion of fourth month (Kind benefit)"
+        },
+        {
+          "field": "eligibility.gender",
+          "source": "sw-maternity-picme",
+          "quote": "if the mother applies for maternity benefit scheme"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-maternity-picme",
+          "quote": "Government of Tamilnadu has mandated to register all pregnancies"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-maternity-picme",
+          "quote": "Antenatal registration on or before 12 weeks"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-maternity-picme",
+          "quote": "After delivery in Government health facility"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-maternity-picme",
+          "quote": "After completion of Measles Rubella vaccination"
+        },
+        {
+          "field": "documents",
+          "source": "sw-maternity-picme",
+          "quote": "if the mother applies for maternity benefit scheme, submission of Aadhaar number is compulsory"
+        },
+        {
+          "field": "documents",
+          "source": "sw-maternity-picme",
+          "quote": "submission of aadhaar number of pregnant mother and her husband is compulsory"
+        },
+        {
+          "field": "documents",
+          "source": "sw-maternity-picme",
+          "quote": "Bank Pass book with photo, Voter ID, Ration Card, Passport, Driving License, MGNREGS Job"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-maternity-picme",
+          "quote": "Pre-registration can be done in 4 ways."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-maternity-picme",
+          "quote": "The pregnant mother can approach the nearest e-Seva centre and pre-register her pregnancy free of cost."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-maternity-picme",
+          "quote": "Only the Village Health Nurse / Urban Health Nurse can give RCH ID."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "sw-maternity-picme",
+          "quote": "https://picme.tn.gov.in/picme_public"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "sw-maternity-picme",
+          "quote": "The pregnant mother can approach the nearest Government Hospital and pre-register."
+        },
+        {
+          "field": "helpline",
+          "source": "sw-maternity-picme",
+          "quote": "The pregnant mother can call toll free number “102” and"
+        }
+      ],
+      "gaps": [
+        "Saved source (PICME FAQ PDF, undated) does not state income/BPL limit, minimum age (often cited as 19) or the 'first two deliveries' limit; these are left out.",
+        "Rs 18,000 split is from G.O. Ms. 118 (2018) as quoted in the FAQ; any later revision is not confirmed.",
+        "Department is inferred from the 'Health & FW' G.O. label in the FAQ."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Clear PICME FAQ with the Rs 18,000 split and steps. FAQ is undated.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "sw-old-age-pension",
+      "type": "scheme",
+      "name_en": "Indira Gandhi National Old Age Pension Scheme - Tamil Nadu",
+      "name_ta": null,
+      "level": "state",
+      "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+      "audiences": [
+        "seniors"
+      ],
+      "benefit": "You get Rs 1,000 every month. You also get a free saree or dhoti at Pongal and Deepavali, and free rice at the Anganwadi centre.",
+      "eligibility": {
+        "age_min": 60,
+        "age_max": null,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": null,
+        "community": null,
+        "district": "all",
+        "other": [
+          "You must be destitute (no one to support you).",
+          "Your family must be in the Below Poverty Line (BPL) group."
+        ]
+      },
+      "documents": [
+        "Your photo",
+        "Aadhaar card",
+        "Proof of age",
+        "Aadhaar consent form",
+        "Smart ration card or any address proof",
+        "Self-declaration",
+        "Any ID proof (voter ID, passport, PAN card or driving licence)",
+        "Bank passbook",
+        "BPL card number"
+      ],
+      "how_to_apply": "Get copies of your papers. Go to the nearest Common Service Centre (CSC). Give your fingerprint there. Fill the form and upload your papers. Ask for a receipt.",
+      "where_to_apply": "Nearest Common Service Centre (CSC)",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "sw-oap-myscheme"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "sw-oap-myscheme",
+          "quote": "launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-oap-myscheme",
+          "quote": "₹1,000/- per month."
+        },
+        {
+          "field": "benefit",
+          "source": "sw-oap-myscheme",
+          "quote": "One free dhoti to a male pensioner."
+        },
+        {
+          "field": "benefit",
+          "source": "sw-oap-myscheme",
+          "quote": "One free saree to a female pensioner."
+        },
+        {
+          "field": "benefit",
+          "source": "sw-oap-myscheme",
+          "quote": "Free Rice in Anganwadi Centres:"
+        },
+        {
+          "field": "eligibility.age_min",
+          "source": "sw-oap-myscheme",
+          "quote": "The applicant's age should be 60 years and above."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-oap-myscheme",
+          "quote": "The applicant should be destitute."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-oap-myscheme",
+          "quote": "The applicant should belong to the \"Below Poverty Line\" category."
+        },
+        {
+          "field": "documents",
+          "source": "sw-oap-myscheme",
+          "quote": "Smart Ration Card or Any Address Proof."
+        },
+        {
+          "field": "documents",
+          "source": "sw-oap-myscheme",
+          "quote": "Any Identity Proof (Voter ID Card, Passport, PAN Card, Driving License)."
+        },
+        {
+          "field": "documents",
+          "source": "sw-oap-myscheme",
+          "quote": "BPL Card Number."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-oap-myscheme",
+          "quote": "visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-oap-myscheme",
+          "quote": "Request a receipt or acknowledgment from the concerned authority"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "sw-oap-myscheme",
+          "quote": "Online - via CSCs"
+        }
+      ],
+      "gaps": [
+        "The myScheme 'Details' paragraph wrongly names this scheme 'The Indira Gandhi National Widow Pension Scheme' (copy error on the page); the page title and eligibility are for old age pension.",
+        "Source does not give a rupee income limit; it only says Below Poverty Line.",
+        "Source does not say how much of the pension is paid by the Centre vs the State, so level is set to 'state' (TN department runs it).",
+        "No helpline or G.O. number in the source.",
+        "Pension amount is from myScheme (page last updated 18/09/2026); not cross-checked with a TN Social Welfare G.O."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Amount Rs 1,000 a month is from myScheme and not cross-checked with a current Tamil Nadu G.O.; the amount may have been revised. Re-check before saying the figure aloud.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "sw-pmjay-vay-vandana",
+      "type": "scheme",
+      "name_en": "Ayushman Bharat PM-JAY for senior citizens 70+ (Ayushman Vay Vandana Card)",
+      "name_ta": null,
+      "level": "central",
+      "department": "Ministry of Health and Family Welfare, Government of India",
+      "audiences": [
+        "seniors"
+      ],
+      "benefit": "If you are 70 or older, you get free hospital care up to Rs 5 lakh a year. If your family already has PM-JAY, you get an extra Rs 5 lakh just for you.",
+      "eligibility": {
+        "age_min": 70,
+        "age_max": null,
+        "gender": "any",
+        "income_max_annual_inr": null,
+        "occupation": null,
+        "community": null,
+        "district": "all",
+        "other": [
+          "There is no income limit. Rich or poor, all people 70 and above can join.",
+          "If you use CGHS, ECHS or CAPF health schemes, you must pick either that scheme or PM-JAY.",
+          "People with private health insurance or ESI can still join."
+        ]
+      },
+      "documents": [],
+      "how_to_apply": "Go to the nearest listed (empanelled) hospital to register. Or register yourself on the Ayushman app or at beneficiary.nha.gov.in.",
+      "where_to_apply": "Nearest empanelled hospital, Ayushman app, or www.beneficiary.nha.gov.in. In Tamil Nadu, PM-JAY runs with CMCHIS (cmchistn.com).",
+      "helpline": "14555 (toll-free); missed call 1800110770",
+      "go_number": null,
+      "sources": [
+        "sw-pmjay-enrol",
+        "sw-cmchis-site"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "sw-pmjay-enrol",
+          "quote": "Ministry of Health and Family Welfare"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-pmjay-enrol",
+          "quote": "Ayushman Vay Vandana Card provides Rs 5 lakh free health cover to all senior citizens of the age 70 years and above"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-pmjay-enrol",
+          "quote": "get an additional top-up cover up to ₹5 lakh per year for themselves"
+        },
+        {
+          "field": "eligibility.age_min",
+          "source": "sw-pmjay-enrol",
+          "quote": "all senior citizens of the age 70 years and above irrespective of their socio-economic status"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-pmjay-enrol",
+          "quote": "irrespective of their socio-economic status"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-pmjay-enrol",
+          "quote": "have to choose between their existing scheme or can opt for AB PM-JAY"
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-pmjay-enrol",
+          "quote": "persons covered by private health insurance coverage or members of the Employees' State Insurance scheme are eligible"
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-pmjay-enrol",
+          "quote": "They can visit nearest empanelled hospital for registration."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-pmjay-enrol",
+          "quote": "For self-registration eligible citizens can download Ayushman app (from Google Play store) or visit www.beneficiary.nha.gov.in."
+        },
+        {
+          "field": "where_to_apply",
+          "source": "sw-pmjay-enrol",
+          "quote": "visit nearest empanelled hospital for registration"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "sw-cmchis-site",
+          "quote": "CMCHIS-PMJAY Apply Now"
+        },
+        {
+          "field": "helpline",
+          "source": "sw-pmjay-enrol",
+          "quote": "call on the toll-free number 14555 or give a missed call on 1800110770"
+        }
+      ],
+      "gaps": [
+        "Main source is a PIB press release dated 9 Dec 2024, not the NHA scheme guidelines; any later rule change is not captured.",
+        "Documents needed are not listed in the saved source (news says Aadhaar e-KYC; not verified).",
+        "Saved sources do not explain Tamil Nadu-specific steps for the 70+ card; cmchistn.com only shows CMCHIS and AB-PMJAY run together in TN."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Source is an official PIB release (Dec 2024); no documents listed.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "sw-widow-pension",
+      "type": "scheme",
+      "name_en": "Destitute Widow Pension Scheme",
+      "name_ta": null,
+      "level": "state",
+      "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+      "audiences": [
+        "women"
+      ],
+      "benefit": "You get Rs 1,000 every month. You also get a free saree at Pongal and Deepavali, and free rice at the Anganwadi centre.",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": null,
+        "gender": "female",
+        "income_max_annual_inr": null,
+        "occupation": null,
+        "community": null,
+        "district": "all",
+        "other": [
+          "You must be a widow.",
+          "You must be destitute (no one to support you).",
+          "Your fixed assets (house, land) must not be worth more than Rs 1,00,000."
+        ]
+      },
+      "documents": [
+        "Your photo",
+        "Aadhaar card",
+        "Proof of age",
+        "Aadhaar consent form",
+        "Smart ration card or any address proof",
+        "Husband's death certificate",
+        "Self-declaration",
+        "Widow certificate",
+        "Any ID proof (voter ID, passport, PAN card or driving licence)",
+        "Bank passbook"
+      ],
+      "how_to_apply": "Get copies of your papers. Go to the nearest Common Service Centre (CSC). Give your fingerprint there. Fill the form and upload your papers. Ask for a receipt. Applying is free.",
+      "where_to_apply": "Nearest Common Service Centre (CSC)",
+      "helpline": null,
+      "go_number": null,
+      "sources": [
+        "sw-widow-pension"
+      ],
+      "evidence": [
+        {
+          "field": "department",
+          "source": "sw-widow-pension",
+          "quote": "launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu"
+        },
+        {
+          "field": "benefit",
+          "source": "sw-widow-pension",
+          "quote": "₹1,000/- per month."
+        },
+        {
+          "field": "benefit",
+          "source": "sw-widow-pension",
+          "quote": "The widow is also provided with one free saree during Pongal and Deepavali, and free rice in the Anganwadi Centres."
+        },
+        {
+          "field": "eligibility.age_min",
+          "source": "sw-widow-pension",
+          "quote": "The applicant's age should be 18 years and above."
+        },
+        {
+          "field": "eligibility.gender",
+          "source": "sw-widow-pension",
+          "quote": "The applicant should be a widow."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-widow-pension",
+          "quote": "The applicant should be destitute."
+        },
+        {
+          "field": "eligibility.other",
+          "source": "sw-widow-pension",
+          "quote": "The applicant's fixed assets should not exceed ₹1,00,000/-."
+        },
+        {
+          "field": "documents",
+          "source": "sw-widow-pension",
+          "quote": "Husband Death Certificate."
+        },
+        {
+          "field": "documents",
+          "source": "sw-widow-pension",
+          "quote": "Widow Certificate."
+        },
+        {
+          "field": "documents",
+          "source": "sw-widow-pension",
+          "quote": "Smart Ration Card or Any Address Proof."
+        },
+        {
+          "field": "documents",
+          "source": "sw-widow-pension",
+          "quote": "Bank Passbook."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-widow-pension",
+          "quote": "visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+        },
+        {
+          "field": "how_to_apply",
+          "source": "sw-widow-pension",
+          "quote": "applying for the Destitute Widow Pension Scheme is completely free"
+        },
+        {
+          "field": "where_to_apply",
+          "source": "sw-widow-pension",
+          "quote": "Interested applicants should apply via CSC."
+        }
+      ],
+      "gaps": [
+        "Source gives an asset limit (Rs 1,00,000 fixed assets) but no annual income limit.",
+        "No helpline or G.O. number in the source.",
+        "Amount is from myScheme (page last updated 18/09/2026); not cross-checked with a TN Social Welfare G.O."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Same as old age pension: amount not cross-checked with a current G.O.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    }
+  ],
+  "rights": [
+    {
+      "id": "rn-police-complaint",
+      "type": "right",
+      "topic": "police_complaint",
+      "title_en": "You can report a serious crime at any police station (FIR)",
+      "law": "Bharatiya Nagarik Suraksha Sanhita, 2023, Section 173 (Information in cognizable cases). It takes the place of Section 154 of the Code of Criminal Procedure, 1973, which the Sanhita repeals.",
+      "rule_plain": "You can report a cognizable (serious) crime to the officer in charge of a police station, no matter where the crime happened. You can tell the police in person or by electronic communication. The police must give you a free copy of what they write down.",
+      "what_you_can_do": [
+        "Give the information to the officer in charge of a police station, by speaking or by electronic communication.",
+        "If you speak, the police must write it down and read it back to you, and you sign it.",
+        "If you send it by electronic communication, sign it within three days.",
+        "If the police refuse to record it, send the details in writing by post to the Superintendent of Police.",
+        "If that does not help, you can apply to the Magistrate."
+      ],
+      "where_to_get_help": "The officer in charge of any police station; if refused, the Superintendent of Police; then the Magistrate.",
+      "sources": [
+        "rn-bnss"
+      ],
+      "evidence": [
+        {
+          "field": "law",
+          "source": "rn-bnss",
+          "quote": "173. Information in cognizable 154. Information in cognizable cases."
+        },
+        {
+          "field": "law",
+          "source": "rn-bnss",
+          "quote": "The Code of Criminal Procedure, 1973 is hereby repealed."
+        },
+        {
+          "field": "law",
+          "source": "rn-bnss",
+          "quote": "Corresponding Section Table of BNSS with Repealed Act"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-bnss",
+          "quote": "Every information relating to the commission of a cognizable offence,"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-bnss",
+          "quote": "irrespective of the area where the offence is committed, may be given orally or by"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-bnss",
+          "quote": "electronic communication to an officer in charge of a police station"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-bnss",
+          "quote": "A copy of the information as recorded under sub-section (1) shall be given"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-bnss",
+          "quote": "forthwith, free of cost, to the informant or the victim."
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-bnss",
+          "quote": "orally, it shall be reduced to writing by him or under his direction, and"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-bnss",
+          "quote": "be read over to the informant"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-bnss",
+          "quote": "shall be signed by the person giving"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-bnss",
+          "quote": "being signed within three days by the person giving it"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-bnss",
+          "quote": "Any person aggrieved by a refusal on the part of an officer in charge of a"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-bnss",
+          "quote": "substance of such information, in writing and by post, to the Superintendent of Police"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-bnss",
+          "quote": "application to the Magistrate."
+        }
+      ],
+      "gaps": [
+        "Commencement date (widely reported as 1 July 2024) is not confirmed from a saved official text: the commencement notification (reported as S.O. 848(E)) could not be found on an official site, and the PIB release of 30 July 2024 is worded ambiguously. The NCRB compilation does treat the CrPC as the 'Repealed Act'.",
+        "Section 173(3) lets the officer, with a DSP's prior permission, do a preliminary enquiry (within 14 days) for offences punishable with 3 to 7 years; this is not explained above.",
+        "Special rules for women victims of certain offences (recording by a woman officer, videography) are in Section 173(1) but left out to keep the entry short.",
+        "Source text is the NCRB (ncrb.mha.gov.in) BNSS compilation; later amendments were not checked. The mha.gov.in PDF link returned 'Page not found' and India Code was unreachable.",
+        "Tamil Nadu police online complaint options are not in these sources."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Official BNSS text (NCRB); start date not stated, so not said.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "rn-ration",
+      "type": "right",
+      "topic": "ration",
+      "title_en": "Your family has a right to food grains from the ration shop",
+      "law": "National Food Security Act, 2013, Sections 3, 8, 13, 14 and 15",
+      "rule_plain": "If your family is a priority household, each person can get 5 kg of food grains a month at low prices from the ration system. Antyodaya Anna Yojana families can get 35 kg per family a month. If you do not get the grains you are owed, the State Government must pay you a food security allowance.",
+      "what_you_can_do": [
+        "Complain through the State's grievance system, which may include call centres and help lines.",
+        "Complain to the District Grievance Redressal Officer of your district if you do not get your grains.",
+        "If you are not happy with that officer's order, you can appeal to the State Food Commission."
+      ],
+      "where_to_get_help": "The District Grievance Redressal Officer of your district; the State Food Commission for appeals.",
+      "sources": [
+        "rn-nfsa-act"
+      ],
+      "evidence": [
+        {
+          "field": "law",
+          "source": "rn-nfsa-act",
+          "quote": "THE NATIONAL FOOD SECURITY ACT, 2013"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-nfsa-act",
+          "quote": "shall be entitled to receive five kilograms of foodgrains per person per month"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-nfsa-act",
+          "quote": "Public Distribution System:"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-nfsa-act",
+          "quote": "entitled to thirty-five kilograms of foodgrains per household per month"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-nfsa-act",
+          "quote": "In case of non-supply of the entitled quantities of foodgrains"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-nfsa-act",
+          "quote": "such persons shall be entitled to receive such food security"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-nfsa-act",
+          "quote": "which may include call centres, help lines, designation of nodal officers"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-nfsa-act",
+          "quote": "be the District Grievance Redressal Officer for expeditious and effective redressal of"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-nfsa-act",
+          "quote": "hear complaints regarding non-"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-nfsa-act",
+          "quote": "may file an appeal against such order before the State Commission"
+        },
+        {
+          "field": "where_to_get_help",
+          "source": "rn-nfsa-act",
+          "quote": "Every State Government shall, by notification, constitute a State Food"
+        }
+      ],
+      "gaps": [
+        "Prices in Schedule I and any later central decision on free grains are not given here; check current prices before stating them.",
+        "Tamil Nadu's own public distribution rules and who counts as a priority household in Tamil Nadu are not in this source.",
+        "How to apply for a ration card in Tamil Nadu, and the District Grievance Redressal Officer's contact, are not in this source.",
+        "The Act also says the eldest woman aged 18 or more is head of the household for ration cards (Section 13); not included above to keep the entry short."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Central NFSA only; Tamil Nadu PDS rules and prices not included.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "rn-rent",
+      "type": "right",
+      "topic": "rent",
+      "title_en": "Tenants have rights: written agreement, rent receipt, basic services",
+      "law": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017 (Tamil Nadu Act 42 of 2017), Sections 4, 13, 14, 20 and 21",
+      "rule_plain": "A house can be let on rent only with a written agreement, and the Rent Authority must be told about it. Each time you pay rent, you can ask for a signed written receipt. The landlord must not cut off water, electricity or other basic services, and a tenant cannot be evicted during the agreement except as this law allows, through the Rent Court.",
+      "what_you_can_do": [
+        "Ask your landlord for a written receipt, signed by the landlord or property manager, for every rent payment.",
+        "If the landlord will not take your rent or will not give a receipt, send the rent by postal money order for two months in a row. If it is still not accepted, deposit the rent with the Rent Authority.",
+        "If water, electricity or another basic service is cut off, complain to the Rent Authority. It can order the service to be restored while it looks into the complaint."
+      ],
+      "where_to_get_help": "The Rent Authority for your area; eviction cases go to the Rent Court.",
+      "sources": [
+        "rn-tn-rent-act"
+      ],
+      "evidence": [
+        {
+          "field": "law",
+          "source": "rn-tn-rent-act",
+          "quote": "No.42 of 2017—Tamil Nadu Regulation of Rights and Responsibilities of Landlords and"
+        },
+        {
+          "field": "law",
+          "source": "rn-tn-rent-act",
+          "quote": "ACT No. 42 OF 2017."
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-tn-rent-act",
+          "quote": "take on rent any premises except by an agreement in writing, which shall be"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-tn-rent-act",
+          "quote": "informed to the Rent Authority by the landlord and tenant jointly"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-tn-rent-act",
+          "quote": "a written receipt for the amount paid to him, signed by the landlord or his property"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-tn-rent-act",
+          "quote": "off or withhold any essential supply or service in the premises occupied by the tenant"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-tn-rent-act",
+          "quote": "essential services includes supply of water, electricity"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-tn-rent-act",
+          "quote": "A tenant shall not be evicted during the continuance of tenancy agreement"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-tn-rent-act",
+          "quote": "The Rent Court may, on an application made to it in the manner as may"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-tn-rent-act",
+          "quote": "shall be entitled, against"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-tn-rent-act",
+          "quote": "or refuses to give a receipt, the rent and other charges shall be sent to the landlord"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-tn-rent-act",
+          "quote": "by postal money order or any other method as may be prescribed consecutively"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-tn-rent-act",
+          "quote": "the tenant shall deposit the same with the Rent Authority"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-tn-rent-act",
+          "quote": "may pass an interim order directing the restoration of supply of essential"
+        },
+        {
+          "field": "where_to_get_help",
+          "source": "rn-tn-rent-act",
+          "quote": "The Rent Authority, on an application made by the landlord or tenant, shall"
+        }
+      ],
+      "gaps": [
+        "Source is the Act as first published in the Tamil Nadu Government Gazette Extraordinary No. 261 of 7 August 2017. Later amending Acts (2018, 2019, 2020, 2022) were not checked; they may change these sections, for example how agreements are registered. India Code's consolidated copy was unreachable (HTTP 504) and tenancy.tn.gov.in did not respond.",
+        "The date the Act came into force is not in this source.",
+        "Security deposit (Section 11) is left out because the limit applies only 'Save an agreement to the contrary'.",
+        "Rent Authority office addresses and any fees are not in this source."
+      ],
+      "review": {
+        "demo_use": "caution",
+        "note": "Uses the original 2017 Act text; later amendments (2018-2022) not checked.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "rn-rti",
+      "type": "right",
+      "topic": "rti",
+      "title_en": "You can ask the government for information",
+      "law": "Right to Information Act, 2005, Sections 6, 7 and 19",
+      "rule_plain": "You can ask a government office for information in writing or by electronic means. You do not have to say why you want it. The officer must answer within 30 days, or within 48 hours if it is about a person's life or liberty.",
+      "what_you_can_do": [
+        "Send your request to the Public Information Officer of the office, with the fee that is set.",
+        "If you cannot write, the officer must help you put your spoken request in writing.",
+        "If you get no answer in time, or you are not happy with the answer, appeal within 30 days to an officer senior to the Public Information Officer in the same office.",
+        "After that, you can make a second appeal to the State Information Commission or the Central Information Commission within 90 days."
+      ],
+      "where_to_get_help": "The Public Information Officer of the office; for a second appeal, the State Information Commission or the Central Information Commission.",
+      "sources": [
+        "rn-rti-act"
+      ],
+      "evidence": [
+        {
+          "field": "law",
+          "source": "rn-rti-act",
+          "quote": "The Right to Information Act, 2005"
+        },
+        {
+          "field": "law",
+          "source": "rn-rti-act",
+          "quote": "6. Request for obtaining information."
+        },
+        {
+          "field": "law",
+          "source": "rn-rti-act",
+          "quote": "7. Disposal of request."
+        },
+        {
+          "field": "law",
+          "source": "rn-rti-act",
+          "quote": "19. Appeal."
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-rti-act",
+          "quote": "shall make a request in writing or through electronic means in English or Hindi or in the official"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-rti-act",
+          "quote": "shall not be required to give any reason for"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-rti-act",
+          "quote": "within thirty days of the receipt of the request"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-rti-act",
+          "quote": "concerns the life or liberty of a person"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-rti-act",
+          "quote": "be provided within forty-eight hours of the receipt of the request"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "the Central Public Information Officer or State Public Information Officer, as the case may"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "accompanying such fee as may be"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "shall render all reasonable assistance to the"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "person making the request orally to reduce the same in writing"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "may within thirty days"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "prefer an appeal to such officer who"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "is senior in rank to the Central Public Information Officer or State Public Information Officer"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "A second appeal against the decision under sub-section (1) shall lie within ninety days"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-rti-act",
+          "quote": "with the Central Information Commission or the State Information Commission"
+        }
+      ],
+      "gaps": [
+        "The fee amount for Tamil Nadu offices is not in the Act, so no amount is given.",
+        "The address of the Tamil Nadu State Information Commission is not in this source.",
+        "Source is the Central Information Commission copy of the Act marked 'As on the 18th November, 2025'."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Official RTI Act text.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "rn-wages",
+      "type": "right",
+      "topic": "wages",
+      "title_en": "You must get at least the minimum wage, on time",
+      "law": "Code on Wages, 2019, Sections 5, 17 and 45 (in force from 21 November 2025 under Gazette notification S.O. 5322(E); it repealed the Payment of Wages Act, 1936 and the Minimum Wages Act, 1948)",
+      "rule_plain": "Your employer must not pay you less than the minimum wage set by the government. If you are paid every month, you must get your pay before the 7th day of the next month. If you are removed from the job or you resign, you must get your wages within two working days.",
+      "what_you_can_do": [
+        "You can file a claim for your unpaid wages with the claims authority that the government appoints.",
+        "A trade union you belong to, or the Inspector-cum-Facilitator, can also file the claim.",
+        "File the claim within three years from the day the claim arises."
+      ],
+      "where_to_get_help": "The claims authority appointed under Section 45 of the Code on Wages, 2019, or the Inspector-cum-Facilitator.",
+      "sources": [
+        "rn-code-wages",
+        "rn-labour-faq-2026"
+      ],
+      "evidence": [
+        {
+          "field": "law",
+          "source": "rn-labour-faq-2026",
+          "quote": "Gazette Notification No. S.O. 5322 (E)"
+        },
+        {
+          "field": "law",
+          "source": "rn-labour-faq-2026",
+          "quote": "Wages, 2019 which came into effect on"
+        },
+        {
+          "field": "law",
+          "source": "rn-labour-faq-2026",
+          "quote": "(2)(y) of the Code on Wages, 2019 is enforceable from 21.11.2025"
+        },
+        {
+          "field": "law",
+          "source": "rn-code-wages",
+          "quote": "The Payment of Wages Act, 1936, the Minimum Wages Act, 1948, the Payment"
+        },
+        {
+          "field": "law",
+          "source": "rn-code-wages",
+          "quote": "the Equal Remuneration Act, 1976 are hereby repealed"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-code-wages",
+          "quote": "No employer shall pay to any employee wages less than the minimum rate of wages"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-code-wages",
+          "quote": "monthly basis, before the expiry of the seventh day of the succeeding"
+        },
+        {
+          "field": "rule_plain",
+          "source": "rn-code-wages",
+          "quote": "the wages payable to him shall be paid within two working days of his removal, dismissal,"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-code-wages",
+          "quote": "authorities, not below the rank of a Gazetted Officer, to hear and determine the claims"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-code-wages",
+          "quote": "(a) the employee concerned; or"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-code-wages",
+          "quote": "any Trade Union registered under the Trade Unions Act, 1926 of which the"
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-code-wages",
+          "quote": "(c) the Inspector-cum-Facilitator."
+        },
+        {
+          "field": "what_you_can_do",
+          "source": "rn-code-wages",
+          "quote": "may be filed within a period of three years"
+        },
+        {
+          "field": "where_to_get_help",
+          "source": "rn-code-wages",
+          "quote": "Claims under           45. (1) The appropriate Government may, by notification, appoint one or more"
+        }
+      ],
+      "gaps": [
+        "Tamil Nadu's current minimum wage rates are not in these sources, so no amount is given.",
+        "Which Tamil Nadu officer is notified as the Section 45 claims authority, and the office address, are not in these sources.",
+        "The labour.gov.in copy of the Code is the 8 August 2019 Gazette text as enacted; whether Tamil Nadu has notified its own rules under the Code was not checked.",
+        "Commencement on 21.11.2025 is confirmed from the Ministry of Labour FAQ compilation (as on 25.10.2026), which cites S.O. 5322(E); the S.O. 5322(E) Gazette itself was not saved."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Code on Wages, 2019 in force from 21.11.2025 per Labour Ministry FAQ. Tamil Nadu wage rates not included.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    }
+  ],
+  "notices": [
+    {
+      "id": "rn-notice-census-2027",
+      "type": "notice",
+      "title": "Census of India 2027: counting dates and self-enumeration window",
+      "issued_by": "Registrar General of India and Census Commissioner (Ministry of Home Affairs); republished in the Tamil Nadu Government Gazette by the Public Department, Government of Tamil Nadu",
+      "date": "2026-11-06",
+      "reference_number": "S.O.5913(E); Tamil Nadu Notification No. II(1)/PULO/23(f)/2026",
+      "says": "The population census will be done from 25 January 2027 to 28 February 2027, with a check-again round from 1 to 5 March 2027. Before the house-to-house counting starts, people can fill in their own details (self-enumeration) from 10 to 24 January 2027.",
+      "what_to_do": "If you wish, fill in your own census details through self-enumeration between 10 and 24 January 2027; otherwise census staff will come house to house.",
+      "by_when": "Self-enumeration: 10-24 January 2027. House-to-house counting: 25 January - 28 February 2027 (revisional round 1-5 March 2027).",
+      "if_not": null,
+      "who_it_affects": "Everyone living in Tamil Nadu. The order covers all States and Union territories except those it lists (Manipur for now, Goa, Uttar Pradesh, Punjab, Uttarakhand, Ladakh and snow-bound areas of Himachal Pradesh and Jammu and Kashmir).",
+      "sources": [
+        "rn-n-census479"
+      ],
+      "evidence": [
+        {
+          "field": "date",
+          "source": "rn-n-census479",
+          "quote": "CHENNAI, FRIDAY, NOVEMBER 6, 2026"
+        },
+        {
+          "field": "reference_number",
+          "source": "rn-n-census479",
+          "quote": "S.O.5913(E).—In exercise of the powers conferred by section 3 of the Census Act, 1948"
+        },
+        {
+          "field": "reference_number",
+          "source": "rn-n-census479",
+          "quote": "No. II(1)/PULO/23(f)/2026."
+        },
+        {
+          "field": "says",
+          "source": "rn-n-census479",
+          "quote": "the conduct of census of the population shall be undertaken from the 25th January, 2027 to the 28th February,"
+        },
+        {
+          "field": "says",
+          "source": "rn-n-census479",
+          "quote": "2027 with a revisional round from the 1st March, 2027 to the 5th March, 2027"
+        },
+        {
+          "field": "says",
+          "source": "rn-n-census479",
+          "quote": "there shall be an option for self-enumeration from the 10th January, 2027 to"
+        },
+        {
+          "field": "what_to_do",
+          "source": "rn-n-census479",
+          "quote": "the 24th January, 2027, just before the start of the house to house population enumeration"
+        },
+        {
+          "field": "by_when",
+          "source": "rn-n-census479",
+          "quote": "there shall be an option for self-enumeration from the 10th January, 2027 to"
+        },
+        {
+          "field": "by_when",
+          "source": "rn-n-census479",
+          "quote": "the conduct of census of the population shall be undertaken from the 25th January, 2027 to the 28th February,"
+        },
+        {
+          "field": "who_it_affects",
+          "source": "rn-n-census479",
+          "quote": "the Central Government hereby declares that in all States and Union territories of India except the State of Manipur"
+        },
+        {
+          "field": "who_it_affects",
+          "source": "rn-n-census479",
+          "quote": "Punjab, Uttarakhand, the Union territory of Ladakh and the snow-bound non-synchronous areas of the State of"
+        }
+      ],
+      "gaps": [
+        "The notice does not say how or where to self-enumerate (website or app).",
+        "The notice does not say what happens if someone does not take part, so if_not is null.",
+        "The census reference date is 00:00 hours on 1 March 2027; not repeated in 'says'."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Official Gazette notice with clear dates.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "rn-notice-rice-stock-limit",
+      "type": "notice",
+      "title": "Tamil Nadu Paddy / Rice (Stock Limit) Control Order, 2026",
+      "issued_by": "Co-operation, Food and Consumer Protection Department, Government of Tamil Nadu",
+      "date": "2026-11-13",
+      "reference_number": "G.O.Ms.No.93, Co-operation, Food and Consumer Protection (B1), 13 November 2026; Notification No. II(1)/CFCP/23(h)/2026",
+      "says": "Tamil Nadu has set limits on how much paddy or rice traders and millers can hold, up to 31 January 2027. For example, a wholesaler can hold 2000 metric tonnes and a retailer 8 metric tonnes for each shop.",
+      "what_to_do": "Traders must declare their paddy / rice stock on the Department of Consumer Affairs portal (fcainfoweb.nic.in/psp) and keep it updated. Anyone holding more than the limit must bring the stock down to the limit.",
+      "by_when": "Stock above the limit had to be brought down by 16 November 2026. The limits apply up to 31 January 2027.",
+      "if_not": null,
+      "who_it_affects": "Paddy and rice wholesalers, retailers, big chain retail shops, millers, importers and processors across Tamil Nadu.",
+      "sources": [
+        "rn-n-rice487"
+      ],
+      "evidence": [
+        {
+          "field": "date",
+          "source": "rn-n-rice487",
+          "quote": "CHENNAI, FRIDAY, NOVEMBER 13, 2026"
+        },
+        {
+          "field": "reference_number",
+          "source": "rn-n-rice487",
+          "quote": "G.O.Ms.No.93, Co-operation, Food and Consumer Protection (B1), 13th November 2026"
+        },
+        {
+          "field": "reference_number",
+          "source": "rn-n-rice487",
+          "quote": "No. II(1)/CFCP/23(h)/2026."
+        },
+        {
+          "field": "says",
+          "source": "rn-n-rice487",
+          "quote": "Paddy/Rice, for a period up to 31.01.2027 with following stock limits for the State of Tamil Nadu"
+        },
+        {
+          "field": "says",
+          "source": "rn-n-rice487",
+          "quote": "Wholesaler : 2000 MT Paddy / Rice."
+        },
+        {
+          "field": "says",
+          "source": "rn-n-rice487",
+          "quote": "Retailer : 8 MT for each retail outlet."
+        },
+        {
+          "field": "what_to_do",
+          "source": "rn-n-rice487",
+          "quote": "Respective legal entities shall declare the stock position on the portal of Department of Consumer Affairs"
+        },
+        {
+          "field": "what_to_do",
+          "source": "rn-n-rice487",
+          "quote": "(fcainfoweb.nic.in/psp) and in case the stocks held by them are higher than the prescribed limits then they shall bring the"
+        },
+        {
+          "field": "what_to_do",
+          "source": "rn-n-rice487",
+          "quote": "stock is regularly declared and updated on the portal"
+        },
+        {
+          "field": "by_when",
+          "source": "rn-n-rice487",
+          "quote": "same to the prescribed stock limits by 16th November 2026"
+        },
+        {
+          "field": "by_when",
+          "source": "rn-n-rice487",
+          "quote": "Paddy/Rice, for a period up to 31.01.2027"
+        },
+        {
+          "field": "who_it_affects",
+          "source": "rn-n-rice487",
+          "quote": "Big Chain retail shop : Up to 8 MT for each retail outlet"
+        },
+        {
+          "field": "who_it_affects",
+          "source": "rn-n-rice487",
+          "quote": "Miller : Not more than one month production capacity."
+        },
+        {
+          "field": "who_it_affects",
+          "source": "rn-n-rice487",
+          "quote": "It extends to the whole of the State of Tamil Nadu."
+        }
+      ],
+      "gaps": [
+        "The order does not state a penalty, so if_not is null (it is made under the Essential Commodities Act, 1955, but the penalty is not in this text).",
+        "The 16 November 2026 deadline to reduce stock had already passed when this entry was made (17 November 2026).",
+        "Ordinary households buying rice are not addressed by this order."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Official G.O.; its first deadline (16.11.2026) has already passed, limits run to 31.01.2027. Good 'what does this mean for me' demo.",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    },
+    {
+      "id": "rn-notice-salem-marksheet",
+      "type": "notice",
+      "title": "Salem: private candidates must collect old 10th / 12th mark sheets by 15 December 2026",
+      "issued_by": "District Collector, Salem (press release from the District Public Relations Office, Salem)",
+      "date": "2026-10-14",
+      "reference_number": "செ.செ.எண்: 691/2026 (press release number)",
+      "says": "Private candidates who wrote the higher secondary (12th) or 10th standard exams in Salem district from 2019 to 2023 and have not collected their mark sheets should collect them by 15 December 2026.",
+      "what_to_do": "Go in person to the Assistant Director of Government Examinations office in Salem with an identity proof and your exam hall ticket, or send a self-addressed envelope with a Rs. 42 postage stamp to that office.",
+      "by_when": "15 December 2026",
+      "if_not": "Mark sheets that are not collected will be treated as waste paper and destroyed, as per exam department rules.",
+      "who_it_affects": "Private candidates who wrote 10th or 12th standard exams in Salem district between 2019 and 2023 and did not collect their mark sheets.",
+      "sources": [
+        "rn-n-salem-marksheet"
+      ],
+      "evidence": [
+        {
+          "field": "reference_number",
+          "source": "rn-n-salem-marksheet",
+          "quote": "செ.செ.எண்: 691/2026"
+        },
+        {
+          "field": "date",
+          "source": "rn-n-salem-marksheet",
+          "quote": "நாள்: 14.10.2026"
+        },
+        {
+          "field": "says",
+          "source": "rn-n-salem-marksheet",
+          "quote": "சேலம் மாவட்டத்தில் 2019 முதல் 2023 வரை சமல்நிரல / பத்தாம் வகுப்பு சதர்வு"
+        },
+        {
+          "field": "says",
+          "source": "rn-n-salem-marksheet",
+          "quote": "எழுதிய தனித்சதர்வர்கள் வருகின்ற 15.12.2026-க்குள் தங்களது மதிப்பபண்"
+        },
+        {
+          "field": "what_to_do",
+          "source": "rn-n-salem-marksheet",
+          "quote": "ஆளறிச் ொன்று மற்றும் சதர்வுக்கூட நுலைவுச்சீட்டுடன்"
+        },
+        {
+          "field": "what_to_do",
+          "source": "rn-n-salem-marksheet",
+          "quote": "ரூ.42/- மதிப்புள்ள அஞ்ெல் வில்லை ஒட்டிய சுய முகெரி எழுதப்பட்ட"
+        },
+        {
+          "field": "what_to_do",
+          "source": "rn-n-salem-marksheet",
+          "quote": "செைம், அைசுத் சதர்வுகள் உதவி இயக்குநர் அலுெைகத்தில்"
+        },
+        {
+          "field": "by_when",
+          "source": "rn-n-salem-marksheet",
+          "quote": "உரிய மதிப்சபண் ொன்றிதழ்கலள 15.12.2026-க்குள் சநரில் சென்று சபற்றுக்"
+        },
+        {
+          "field": "if_not",
+          "source": "rn-n-salem-marksheet",
+          "quote": "சபற்றுக் சகாள்ளப்படாத மதிப்சபண் ொன்றிதழ்கள் கழிவுத்தாட்களாக கருதி"
+        },
+        {
+          "field": "if_not",
+          "source": "rn-n-salem-marksheet",
+          "quote": "அழிக்கப்படும்."
+        },
+        {
+          "field": "who_it_affects",
+          "source": "rn-n-salem-marksheet",
+          "quote": "சேலம் மாவட்டத்தில் 2019 முதல் 2023 வரை சமல்நிரல / பத்தாம் வகுப்பு சதர்வு"
+        }
+      ],
+      "gaps": [
+        "The notice is in Tamil only. The PDF's text layer uses a broken Tamil font mapping, so many words in text.txt are misspelt (for example 'சமல்நிரல' for மேல்நிலை); quotes are copied exactly as extracted. A human should read the PDF itself to confirm the English summary.",
+        "Office hours are not given. The notice gives the office address as Sannathi Street, Kottai (Fort) Road, opposite the SBI bank, Salem; not put in 'what_to_do' because the extracted text is garbled.",
+        "The issuing officer's name is in the PDF but is left out here."
+      ],
+      "review": {
+        "demo_use": "ready",
+        "note": "Tamil PDF with broken font; reviewer read the Tamil text and the English summary matches it (higher secondary/10th private candidates 2019-2023, collect by 15.12.2026).",
+        "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+        "reviewed_on": "2026-11-17",
+        "human_review": "pending: the project owner should confirm amounts and current status before public use"
+      },
+      "verification": {
+        "status": "verified",
+        "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+        "checked_at": "2026-11-17T05:19:02+00:00",
+        "problems": [],
+        "human_review": "pending"
+      }
+    }
+  ]
+}

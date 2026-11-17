@@ -1,0 +1,116 @@
+{
+  "id": "sw-pmjay-vay-vandana",
+  "type": "scheme",
+  "name_en": "Ayushman Bharat PM-JAY for senior citizens 70+ (Ayushman Vay Vandana Card)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Health and Family Welfare, Government of India",
+  "audiences": [
+    "seniors"
+  ],
+  "benefit": "If you are 70 or older, you get free hospital care up to Rs 5 lakh a year. If your family already has PM-JAY, you get an extra Rs 5 lakh just for you.",
+  "eligibility": {
+    "age_min": 70,
+    "age_max": null,
+    "gender": "any",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "There is no income limit. Rich or poor, all people 70 and above can join.",
+      "If you use CGHS, ECHS or CAPF health schemes, you must pick either that scheme or PM-JAY.",
+      "People with private health insurance or ESI can still join."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Go to the nearest listed (empanelled) hospital to register. Or register yourself on the Ayushman app or at beneficiary.nha.gov.in.",
+  "where_to_apply": "Nearest empanelled hospital, Ayushman app, or www.beneficiary.nha.gov.in. In Tamil Nadu, PM-JAY runs with CMCHIS (cmchistn.com).",
+  "helpline": "14555 (toll-free); missed call 1800110770",
+  "go_number": null,
+  "sources": [
+    "sw-pmjay-enrol",
+    "sw-cmchis-site"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "sw-pmjay-enrol",
+      "quote": "Ministry of Health and Family Welfare"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-pmjay-enrol",
+      "quote": "Ayushman Vay Vandana Card provides Rs 5 lakh free health cover to all senior citizens of the age 70 years and above"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-pmjay-enrol",
+      "quote": "get an additional top-up cover up to ₹5 lakh per year for themselves"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "sw-pmjay-enrol",
+      "quote": "all senior citizens of the age 70 years and above irrespective of their socio-economic status"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-pmjay-enrol",
+      "quote": "irrespective of their socio-economic status"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-pmjay-enrol",
+      "quote": "have to choose between their existing scheme or can opt for AB PM-JAY"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-pmjay-enrol",
+      "quote": "persons covered by private health insurance coverage or members of the Employees' State Insurance scheme are eligible"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-pmjay-enrol",
+      "quote": "They can visit nearest empanelled hospital for registration."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-pmjay-enrol",
+      "quote": "For self-registration eligible citizens can download Ayushman app (from Google Play store) or visit www.beneficiary.nha.gov.in."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "sw-pmjay-enrol",
+      "quote": "visit nearest empanelled hospital for registration"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "sw-cmchis-site",
+      "quote": "CMCHIS-PMJAY Apply Now"
+    },
+    {
+      "field": "helpline",
+      "source": "sw-pmjay-enrol",
+      "quote": "call on the toll-free number 14555 or give a missed call on 1800110770"
+    }
+  ],
+  "gaps": [
+    "Main source is a PIB press release dated 9 Dec 2024, not the NHA scheme guidelines; any later rule change is not captured.",
+    "Documents needed are not listed in the saved source (news says Aadhaar e-KYC; not verified).",
+    "Saved sources do not explain Tamil Nadu-specific steps for the 70+ card; cmchistn.com only shows CMCHIS and AB-PMJAY run together in TN."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Source is an official PIB release (Dec 2024); no documents listed.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

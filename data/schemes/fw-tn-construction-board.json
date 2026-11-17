@@ -1,0 +1,189 @@
+{
+  "id": "fw-tn-construction-board",
+  "type": "scheme",
+  "name_en": "Tamil Nadu Construction Workers Welfare Board - member benefits",
+  "name_ta": "தமிழ்நாடு கட்டுமானத் தொழிலாளர்கள் நல வாரியம்",
+  "level": "state",
+  "department": "Labour Welfare and Skill Development Department, Government of Tamil Nadu",
+  "audiences": [
+    "workers"
+  ],
+  "benefit": "Construction workers who join the Board can get help money: Rs 1,000 pension a month after 60, Rs 500 family pension a month, Rs 2,00,000 if a member dies in an accident, Rs 5,00,000 if a worker dies at the work site (even if not a member), Rs 50,000 on natural death, Rs 5,000 for funeral costs, Rs 20,000 for marriage, Rs 18,000 for having a baby, money for children's studies, up to Rs 500 for glasses, and up to Rs 4,00,000 for a house.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "any",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "construction worker"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must do manual work in construction or upkeep of dams, bridges, roads or buildings, stone breaking or crushing, brick making, or putting up pandals.",
+      "For the pension, you must be a registered member aged 60 or more (or younger if sickness has made you unable to work)."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "Register online on the Tamil Nadu Unorganised Workers Welfare Board website (New Registration). There is no registration fee. You get an ID card. Renew your membership on time. Claims for help money and renewal are also done online.",
+  "where_to_apply": "tnuwwb.tn.gov.in (online), from home or a nearby service centre",
+  "helpline": null,
+  "go_number": "G.O. No 421 (Labour & Employment (I2) Department) dated 27.12.2013 (pension raised to Rs 1,000)",
+  "sources": [
+    "fw-tnuwwb-claims",
+    "fw-tnuwwb",
+    "fw-tncwwb-reg",
+    "fw-tncwwb-pension",
+    "fw-tn-labour-pn"
+  ],
+  "evidence": [
+    {
+      "field": "name_ta",
+      "source": "fw-tnuwwb",
+      "quote": "TN Construction WWB / தமிழ்நாடு கட்டுமானத் தொழிலாளர்கள் நல வாரியம்"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Pension (Per month) 1000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Family Pension (Per month) 500/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "a) Accidental Death 2,00,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "c) Accidental Death at work site and death 5,00,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "(including unregistered workers)"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Natural Death Assistance 50,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Funeral expenses Assistance 5,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Marriage Assistance (a) for men 20,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Maternity Assistance – 18,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Reimbursement of cost of Spectacles upto 500/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Housing Scheme upto 4,00,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Educational Assistance"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "fw-tncwwb-reg",
+      "quote": "engaged to do any manual work in construction or maintenance of dams, bridges, roads or in any building operations"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-tncwwb-reg",
+      "quote": "engaged to do any manual work in construction or maintenance of dams, bridges, roads or in any building operations, stone breaking or stone crushing, brick manufactory (other than those covered under the Factories Act) and construction of pandals"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-tncwwb-pension",
+      "quote": "Every registered manual worker who has completed 60 years of age is eligible for pension."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-tncwwb-pension",
+      "quote": "if he has become disabled due to sickness and incapacitated from normal work"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-tnuwwb",
+      "quote": "புதிய விண்ணப்பப் பதிவு / New Registration"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-tncwwb-reg",
+      "quote": "No registration fee is collected."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-tncwwb-reg",
+      "quote": "The workers who are registered with the Board are issued with Identity Cards assigning registration numbers, free of cost."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-tn-labour-pn",
+      "quote": "to apply for registration, renewal as well as benefit schemes online."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-tnuwwb",
+      "quote": "Renewal / புதுப்பித்தல்"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-tnuwwb",
+      "quote": "Tamil Nadu Unorganised Workers Welfare Board"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-tn-labour-pn",
+      "quote": "as they can do it either from their homes or nearby service centers."
+    },
+    {
+      "field": "go_number",
+      "source": "fw-tncwwb-pension",
+      "quote": "The monthly pension enhanced to Rs. 1000/- vide G.O No 421 (Labour & Employment (I2) Department) dated 27.12.2013."
+    }
+  ],
+  "gaps": [
+    "Age limit for joining is not used: the only official page found (labour.tn.gov.in 'Procedure For Registration') says 'completed fifteen years of age but has not completed sixty' and its figures stop at 2014, so it may be outdated.",
+    "That same old page says registration is valid for two years; the renewal period is not stated on a newer source, so the plain text only says 'renew on time'.",
+    "Family pension: the old labour.tn.gov.in pension page says Rs 400 a month; the newer tnuwwb.tn.gov.in claims list says Rs 500. The newer figure is used.",
+    "Pension Rs 1,000 a month is from the tnuwwb claims list and a 2013 G.O.; no 2025-26 rate was found in English on an official site. Check for any later increase.",
+    "The claims PDF has no date printed on it.",
+    "Source does not list the documents needed to register.",
+    "Source does not give a helpline number for the Board."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Amounts come from an undated claims PDF; one older official page shows lower family pension. Re-check current rates.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

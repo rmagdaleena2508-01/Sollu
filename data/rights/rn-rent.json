@@ -1,0 +1,114 @@
+{
+  "id": "rn-rent",
+  "type": "right",
+  "topic": "rent",
+  "title_en": "Tenants have rights: written agreement, rent receipt, basic services",
+  "law": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017 (Tamil Nadu Act 42 of 2017), Sections 4, 13, 14, 20 and 21",
+  "rule_plain": "A house can be let on rent only with a written agreement, and the Rent Authority must be told about it. Each time you pay rent, you can ask for a signed written receipt. The landlord must not cut off water, electricity or other basic services, and a tenant cannot be evicted during the agreement except as this law allows, through the Rent Court.",
+  "what_you_can_do": [
+    "Ask your landlord for a written receipt, signed by the landlord or property manager, for every rent payment.",
+    "If the landlord will not take your rent or will not give a receipt, send the rent by postal money order for two months in a row. If it is still not accepted, deposit the rent with the Rent Authority.",
+    "If water, electricity or another basic service is cut off, complain to the Rent Authority. It can order the service to be restored while it looks into the complaint."
+  ],
+  "where_to_get_help": "The Rent Authority for your area; eviction cases go to the Rent Court.",
+  "sources": [
+    "rn-tn-rent-act"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rn-tn-rent-act",
+      "quote": "No.42 of 2017—Tamil Nadu Regulation of Rights and Responsibilities of Landlords and"
+    },
+    {
+      "field": "law",
+      "source": "rn-tn-rent-act",
+      "quote": "ACT No. 42 OF 2017."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-tn-rent-act",
+      "quote": "take on rent any premises except by an agreement in writing, which shall be"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-tn-rent-act",
+      "quote": "informed to the Rent Authority by the landlord and tenant jointly"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-tn-rent-act",
+      "quote": "a written receipt for the amount paid to him, signed by the landlord or his property"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-tn-rent-act",
+      "quote": "off or withhold any essential supply or service in the premises occupied by the tenant"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-tn-rent-act",
+      "quote": "essential services includes supply of water, electricity"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-tn-rent-act",
+      "quote": "A tenant shall not be evicted during the continuance of tenancy agreement"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-tn-rent-act",
+      "quote": "The Rent Court may, on an application made to it in the manner as may"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-tn-rent-act",
+      "quote": "shall be entitled, against"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-tn-rent-act",
+      "quote": "or refuses to give a receipt, the rent and other charges shall be sent to the landlord"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-tn-rent-act",
+      "quote": "by postal money order or any other method as may be prescribed consecutively"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-tn-rent-act",
+      "quote": "the tenant shall deposit the same with the Rent Authority"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-tn-rent-act",
+      "quote": "may pass an interim order directing the restoration of supply of essential"
+    },
+    {
+      "field": "where_to_get_help",
+      "source": "rn-tn-rent-act",
+      "quote": "The Rent Authority, on an application made by the landlord or tenant, shall"
+    }
+  ],
+  "gaps": [
+    "Source is the Act as first published in the Tamil Nadu Government Gazette Extraordinary No. 261 of 7 August 2017. Later amending Acts (2018, 2019, 2020, 2022) were not checked; they may change these sections, for example how agreements are registered. India Code's consolidated copy was unreachable (HTTP 504) and tenancy.tn.gov.in did not respond.",
+    "The date the Act came into force is not in this source.",
+    "Security deposit (Section 11) is left out because the limit applies only 'Save an agreement to the contrary'.",
+    "Rent Authority office addresses and any fees are not in this source."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Uses the original 2017 Act text; later amendments (2018-2022) not checked.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": "fw-pmsym",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM) - pension for unorganised workers",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Labour and Employment",
+  "audiences": [
+    "workers"
+  ],
+  "benefit": "A pension of at least Rs 3,000 a month after you turn 60. You pay a small amount each month (Rs 55 to Rs 200, based on your age when you join), and the Central Government adds the same amount. If you die while getting the pension, your husband or wife gets half of it.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 40,
+    "gender": "any",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "unorganised worker",
+      "construction worker",
+      "domestic worker",
+      "cobbler",
+      "home-based worker",
+      "rickshaw puller",
+      "agricultural labourer"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "Monthly income must be Rs 15,000 or less.",
+      "Age when you join must be 18 to 40.",
+      "You need a savings bank account or Jan Dhan account with IFSC.",
+      "Not for income tax payers.",
+      "Not for people working in the organised sector.",
+      "Not for members of EPFO, NPS or ESIC."
+    ]
+  },
+  "documents": [
+    "Aadhaar card",
+    "Savings bank or Jan Dhan account passbook",
+    "Mobile number",
+    "Self-certification (at the time of enrolment)"
+  ],
+  "how_to_apply": "Go to your nearest Common Services Centre (CSC). The worker there checks your Aadhaar, enters your bank, mobile and nominee details, and tells you the monthly amount. Pay the first amount in cash and sign the auto-debit form. You get a Shram Yogi card. After that, the money is taken from your bank account every month, so keep enough money in it.",
+  "where_to_apply": "Common Services Centre (CSC)",
+  "helpline": "1800 267 6888",
+  "go_number": null,
+  "sources": [
+    "fw-pmsym"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "fw-pmsym",
+      "quote": "A minimum assured pension of ₹3,000/- per month is provided to the subscriber after attaining the age of 60 years."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-pmsym",
+      "quote": "A matching contribution is provided by the Central Government on a 50:50 basis, where an equal amount to the subscriber's age-specific contribution (ranging from ₹55/- to ₹200/-) is credited to the pension account."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-pmsym",
+      "quote": "The spouse of the beneficiary shall be entitled to receive a family pension equal to 50% of the pension received by the beneficiary."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "fw-pmsym",
+      "quote": "The applicant must have an entry age between 18 and 40 years."
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "fw-pmsym",
+      "quote": "The applicant must have an entry age between 18 and 40 years."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "fw-pmsym",
+      "quote": "The applicant must be an unorganized worker, construction workers, domestic workers, cobbler etc."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "fw-pmsym",
+      "quote": "includes occupations like home-based workers, cobblers, rickshaw pullers, and agricultural laborers"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmsym",
+      "quote": "The applicant must have a monthly income of ₹15,000/- or less."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmsym",
+      "quote": "The applicant must have an entry age between 18 and 40 years."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmsym",
+      "quote": "The applicant must possess a Savings Bank Account or Jan Dhan account number with an Indian Financial System Code."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmsym",
+      "quote": "An income tax payer."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmsym",
+      "quote": "Engaged in the organized sector."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmsym",
+      "quote": "Holding membership in the Employees' Provident Fund Organization scheme."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmsym",
+      "quote": "Holding membership in the National Pension Scheme."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmsym",
+      "quote": "Holding membership in the Employees' State Insurance Corporation scheme."
+    },
+    {
+      "field": "documents",
+      "source": "fw-pmsym",
+      "quote": "Aadhaar Card\nSavings Bank Account Passbook / Jan-Dhan Account Passbook\nMobile Number\nSelf-Certification (At the time of enrollment)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmsym",
+      "quote": "The interested eligible person must visit the nearest Common Services Centre (CSC) to initiate the registration and enrollment process."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmsym",
+      "quote": "including Bank Account details, Mobile Number, Email-id, spouse, and nominee details"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmsym",
+      "quote": "The system will automatically calculate the exact monthly contribution payable according to the entry age of the subscriber."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmsym",
+      "quote": "The subscriber must then pay the full amount of the first subscription in cash to the VLE"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmsym",
+      "quote": "An Enrolment Form cum Auto Debit mandate will be printed and must be physically signed by the subscriber."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmsym",
+      "quote": "a Shram Yogi Card will be printed directly at the CSC"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmsym",
+      "quote": "The subscriber must proactively maintain sufficient funds in their account"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-pmsym",
+      "quote": "enrolment is being done through Common Services Centres."
+    },
+    {
+      "field": "helpline",
+      "source": "fw-pmsym",
+      "quote": "contact the official customer care number 1800 267 6888 on a 24*7 basis."
+    }
+  ],
+  "gaps": [
+    "Source gives a monthly income limit (Rs 15,000) only, so income_max_annual_inr is left null instead of converting it.",
+    "Source does not give a Tamil name.",
+    "Source mentions a web portal and app for complaints but gives no address for them."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Clear official page; helpline present.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

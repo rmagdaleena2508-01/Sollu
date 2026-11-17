@@ -1,0 +1,117 @@
+{
+  "id": "rn-police-complaint",
+  "type": "right",
+  "topic": "police_complaint",
+  "title_en": "You can report a serious crime at any police station (FIR)",
+  "law": "Bharatiya Nagarik Suraksha Sanhita, 2023, Section 173 (Information in cognizable cases). It takes the place of Section 154 of the Code of Criminal Procedure, 1973, which the Sanhita repeals.",
+  "rule_plain": "You can report a cognizable (serious) crime to the officer in charge of a police station, no matter where the crime happened. You can tell the police in person or by electronic communication. The police must give you a free copy of what they write down.",
+  "what_you_can_do": [
+    "Give the information to the officer in charge of a police station, by speaking or by electronic communication.",
+    "If you speak, the police must write it down and read it back to you, and you sign it.",
+    "If you send it by electronic communication, sign it within three days.",
+    "If the police refuse to record it, send the details in writing by post to the Superintendent of Police.",
+    "If that does not help, you can apply to the Magistrate."
+  ],
+  "where_to_get_help": "The officer in charge of any police station; if refused, the Superintendent of Police; then the Magistrate.",
+  "sources": [
+    "rn-bnss"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rn-bnss",
+      "quote": "173. Information in cognizable 154. Information in cognizable cases."
+    },
+    {
+      "field": "law",
+      "source": "rn-bnss",
+      "quote": "The Code of Criminal Procedure, 1973 is hereby repealed."
+    },
+    {
+      "field": "law",
+      "source": "rn-bnss",
+      "quote": "Corresponding Section Table of BNSS with Repealed Act"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-bnss",
+      "quote": "Every information relating to the commission of a cognizable offence,"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-bnss",
+      "quote": "irrespective of the area where the offence is committed, may be given orally or by"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-bnss",
+      "quote": "electronic communication to an officer in charge of a police station"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-bnss",
+      "quote": "A copy of the information as recorded under sub-section (1) shall be given"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-bnss",
+      "quote": "forthwith, free of cost, to the informant or the victim."
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-bnss",
+      "quote": "orally, it shall be reduced to writing by him or under his direction, and"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-bnss",
+      "quote": "be read over to the informant"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-bnss",
+      "quote": "shall be signed by the person giving"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-bnss",
+      "quote": "being signed within three days by the person giving it"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-bnss",
+      "quote": "Any person aggrieved by a refusal on the part of an officer in charge of a"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-bnss",
+      "quote": "substance of such information, in writing and by post, to the Superintendent of Police"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-bnss",
+      "quote": "application to the Magistrate."
+    }
+  ],
+  "gaps": [
+    "Commencement date (widely reported as 1 July 2024) is not confirmed from a saved official text: the commencement notification (reported as S.O. 848(E)) could not be found on an official site, and the PIB release of 30 July 2024 is worded ambiguously. The NCRB compilation does treat the CrPC as the 'Repealed Act'.",
+    "Section 173(3) lets the officer, with a DSP's prior permission, do a preliminary enquiry (within 14 days) for offences punishable with 3 to 7 years; this is not explained above.",
+    "Special rules for women victims of certain offences (recording by a woman officer, videography) are in Section 173(1) but left out to keep the entry short.",
+    "Source text is the NCRB (ncrb.mha.gov.in) BNSS compilation; later amendments were not checked. The mha.gov.in PDF link returned 'Page not found' and India Code was unreachable.",
+    "Tamil Nadu police online complaint options are not in these sources."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Official BNSS text (NCRB); start date not stated, so not said.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

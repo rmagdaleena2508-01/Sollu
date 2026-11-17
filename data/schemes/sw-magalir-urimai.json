@@ -1,0 +1,104 @@
+{
+  "id": "sw-magalir-urimai",
+  "type": "scheme",
+  "name_en": "Kalaignar Magalir Urimai Thogai (Kalaignar Mahalir Urimai Thittam)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Special Programme Implementation Department, Government of Tamil Nadu",
+  "audiences": [
+    "women"
+  ],
+  "benefit": "Women heads of family get Rs 12,000 a year from the Tamil Nadu government, to help run the home.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Meant for women who are the head of their household."
+    ]
+  },
+  "documents": [
+    "Aadhaar number (or Aadhaar authentication)",
+    "If no Aadhaar yet: Aadhaar enrolment slip plus one ID such as bank or post office passbook with photo, PAN card, passport, ration card, voter ID, MGNREGA card or driving licence"
+  ],
+  "how_to_apply": null,
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": "G.O.Ms. No. 21, Special Programme Implementation, 21 July 2023 (Aadhaar use notification)",
+  "sources": [
+    "sw-kmut-gazette",
+    "sw-kmut-nrtamils"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "sw-kmut-gazette",
+      "quote": "Special Programme Implementation Department is implementing the Kalaignar Mahalir Urimai Thittam"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-kmut-gazette",
+      "quote": "WHICH PROVIDES Rs. 12,000/- PER ANNUM TO IMPROVE THE LIVELIHOOD OF WOMEN"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-kmut-nrtamils",
+      "quote": "financial assistance to approximately 14,723 women heads of households"
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "sw-kmut-gazette",
+      "quote": "provided she is entitled to obtain Aadhaar"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-kmut-nrtamils",
+      "quote": "providing financial assistance to approximately 14,723 women heads of households"
+    },
+    {
+      "field": "documents",
+      "source": "sw-kmut-gazette",
+      "quote": "is required to furnish proof of possession of Aadhaar number or undergo Aadhaar authentication"
+    },
+    {
+      "field": "documents",
+      "source": "sw-kmut-gazette",
+      "quote": "her Aadhaar Enrolment Identification slip"
+    },
+    {
+      "field": "documents",
+      "source": "sw-kmut-gazette",
+      "quote": "Bank or Post office Passbook with Photo"
+    },
+    {
+      "field": "go_number",
+      "source": "sw-kmut-gazette",
+      "quote": "G.O.Ms. No. 21, Special Programme Implementation, 21st July 2023"
+    }
+  ],
+  "gaps": [
+    "Official KMUT portal kmut.tn.gov.in could not be saved (its SSL certificate has expired), so age (21+), income, land, electricity and exclusion rules are NOT included. Only the 2023 Gazette and an NRT Commissionerate page were saved.",
+    "Benefit is stated as Rs 12,000 per year in the July 2023 Gazette; the monthly Rs 1,000 split is not stated in saved sources.",
+    "How and where to apply are not in the saved sources (news says ration-shop camps / e-Sevai; not verified).",
+    "Status doubt: Tamil Nadu changed government in 2026 and news (not official) mentions a possible rename or restructure; the saved official sources are from 2023-2024. Re-check the current status before showing this.",
+    "No helpline found in saved sources."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Official portal could not be saved; age, income and apply rules missing; status after the 2026 change of government not confirmed. Only say what the 2023 Gazette says, and point to e-Sevai for current rules.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

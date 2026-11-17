@@ -1,0 +1,92 @@
+{
+  "id": "rn-notice-census-2027",
+  "type": "notice",
+  "title": "Census of India 2027: counting dates and self-enumeration window",
+  "issued_by": "Registrar General of India and Census Commissioner (Ministry of Home Affairs); republished in the Tamil Nadu Government Gazette by the Public Department, Government of Tamil Nadu",
+  "date": "2026-11-06",
+  "reference_number": "S.O.5913(E); Tamil Nadu Notification No. II(1)/PULO/23(f)/2026",
+  "says": "The population census will be done from 25 January 2027 to 28 February 2027, with a check-again round from 1 to 5 March 2027. Before the house-to-house counting starts, people can fill in their own details (self-enumeration) from 10 to 24 January 2027.",
+  "what_to_do": "If you wish, fill in your own census details through self-enumeration between 10 and 24 January 2027; otherwise census staff will come house to house.",
+  "by_when": "Self-enumeration: 10-24 January 2027. House-to-house counting: 25 January - 28 February 2027 (revisional round 1-5 March 2027).",
+  "if_not": null,
+  "who_it_affects": "Everyone living in Tamil Nadu. The order covers all States and Union territories except those it lists (Manipur for now, Goa, Uttar Pradesh, Punjab, Uttarakhand, Ladakh and snow-bound areas of Himachal Pradesh and Jammu and Kashmir).",
+  "sources": [
+    "rn-n-census479"
+  ],
+  "evidence": [
+    {
+      "field": "date",
+      "source": "rn-n-census479",
+      "quote": "CHENNAI, FRIDAY, NOVEMBER 6, 2026"
+    },
+    {
+      "field": "reference_number",
+      "source": "rn-n-census479",
+      "quote": "S.O.5913(E).—In exercise of the powers conferred by section 3 of the Census Act, 1948"
+    },
+    {
+      "field": "reference_number",
+      "source": "rn-n-census479",
+      "quote": "No. II(1)/PULO/23(f)/2026."
+    },
+    {
+      "field": "says",
+      "source": "rn-n-census479",
+      "quote": "the conduct of census of the population shall be undertaken from the 25th January, 2027 to the 28th February,"
+    },
+    {
+      "field": "says",
+      "source": "rn-n-census479",
+      "quote": "2027 with a revisional round from the 1st March, 2027 to the 5th March, 2027"
+    },
+    {
+      "field": "says",
+      "source": "rn-n-census479",
+      "quote": "there shall be an option for self-enumeration from the 10th January, 2027 to"
+    },
+    {
+      "field": "what_to_do",
+      "source": "rn-n-census479",
+      "quote": "the 24th January, 2027, just before the start of the house to house population enumeration"
+    },
+    {
+      "field": "by_when",
+      "source": "rn-n-census479",
+      "quote": "there shall be an option for self-enumeration from the 10th January, 2027 to"
+    },
+    {
+      "field": "by_when",
+      "source": "rn-n-census479",
+      "quote": "the conduct of census of the population shall be undertaken from the 25th January, 2027 to the 28th February,"
+    },
+    {
+      "field": "who_it_affects",
+      "source": "rn-n-census479",
+      "quote": "the Central Government hereby declares that in all States and Union territories of India except the State of Manipur"
+    },
+    {
+      "field": "who_it_affects",
+      "source": "rn-n-census479",
+      "quote": "Punjab, Uttarakhand, the Union territory of Ladakh and the snow-bound non-synchronous areas of the State of"
+    }
+  ],
+  "gaps": [
+    "The notice does not say how or where to self-enumerate (website or app).",
+    "The notice does not say what happens if someone does not take part, so if_not is null.",
+    "The census reference date is 00:00 hours on 1 March 2027; not repeated in 'says'."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Official Gazette notice with clear dates.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

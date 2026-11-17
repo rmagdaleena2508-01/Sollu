@@ -1,0 +1,176 @@
+{
+  "id": "fw-eshram",
+  "type": "scheme",
+  "name_en": "e-Shram registration for unorganised workers",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Labour and Employment",
+  "audiences": [
+    "workers",
+    "farmers"
+  ],
+  "benefit": "Free sign-up that gives you a 12-digit number (UAN) and an e-Shram card that never expires. The government uses this list to bring welfare and social security schemes to you. After you log in you can see schemes you can join, like PM-SYM pension, in one place.",
+  "eligibility": {
+    "age_min": 16,
+    "age_max": null,
+    "gender": "any",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "unorganised worker",
+      "construction worker",
+      "migrant worker",
+      "gig and platform worker",
+      "street vendor",
+      "domestic worker",
+      "agricultural worker",
+      "landless farmer"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be an unorganised worker: home-based, self-employed or wage worker.",
+      "Not a member of EPFO, ESIC or government-funded NPS.",
+      "No income limit.",
+      "No school or college certificate needed."
+    ]
+  },
+  "documents": [
+    "Aadhaar number",
+    "Mobile number linked to Aadhaar"
+  ],
+  "how_to_apply": "Sign up yourself on the e-Shram website, or go to the nearest CSC for help. It is free. If your mobile is not linked to Aadhaar, go to a CSC or State Seva Kendra and sign up with your fingerprint. You can sign up any day; there is no last date.",
+  "where_to_apply": "eshram.gov.in, or a Common Service Centre (CSC) / State Seva Kendra (SSK)",
+  "helpline": "14434",
+  "go_number": null,
+  "sources": [
+    "fw-eshram-faq",
+    "fw-eshram-obj"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "fw-eshram-faq",
+      "quote": "Registration on eShram portal is totally free."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-eshram-faq",
+      "quote": "UAN or Universal Account Number is a 12-digit number uniquely assigned to each unorganised worker after registration on eShram portal."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-eshram-faq",
+      "quote": "The eShram card never expires."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-eshram-faq",
+      "quote": "It is envisaged that this portal will be used to facilitate delivery of various social security benefits to unorganised workers."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-eshram-faq",
+      "quote": "eShram OSS provides a single window for unorganised workers, bringing all key social security and welfare schemes together in one place."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-eshram-faq",
+      "quote": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "fw-eshram-obj",
+      "quote": "Age should be 16 years or above at the time of registration."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "fw-eshram-obj",
+      "quote": "including Construction Workers, Migrant Workers, Gig and Platform workers, Street Vendors, Domestic Workers, Agriculture Workers"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "fw-eshram-faq",
+      "quote": "Agriculture labours and landless farmers are eligible for registration in the eShram portal."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-eshram-faq",
+      "quote": "Any worker who is a home-based worker, self-employed worker or a wage worker working in the unorganised sector and not a member of ESIC or EPFO, is called an unorganised worker."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-eshram-obj",
+      "quote": "Not a member of EPFO/ESIC or NPS (Govt. funded)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-eshram-faq",
+      "quote": "There are no income criteria for registering on eShram as unorganised worker."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-eshram-faq",
+      "quote": "Are there any educational qualifications prescribed for registering as an unorganised worker?\nNo"
+    },
+    {
+      "field": "documents",
+      "source": "fw-eshram-faq",
+      "quote": "Aadhaar Number.\nAadhaar linked Mobile number."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-eshram-faq",
+      "quote": "An unorganised worker may register himself/ herself by visiting eShram portal or through assisted approach by visiting nearest CSC."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-eshram-faq",
+      "quote": "Workers are not required to pay any charges to any registering entity."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-eshram-faq",
+      "quote": "If a worker does not have Aadhaar linked mobile number, he/ she may visit nearest Common Service Centre (CSC) or State Seva Kendra (SSK) and register through biometric authentication."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-eshram-faq",
+      "quote": "No, there is no fixed last date for registration."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-eshram-faq",
+      "quote": "eShram services may be accessed through the portal, available at http://www.eshram.gov.in."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-eshram-faq",
+      "quote": "nearest Common Service Centre (CSC) or State Seva Kendra (SSK)"
+    },
+    {
+      "field": "helpline",
+      "source": "fw-eshram-faq",
+      "quote": "Users may contact the helpdesk by dialling 14434 for support and guidance"
+    }
+  ],
+  "gaps": [
+    "e-Shram is a registration, not a cash scheme. The FAQ says the portal is 'facilitative' and each scheme is still run by its own ministry; Sollu should not promise money just for registering.",
+    "The objectives page also lists 'Savings Bank Account number with IFSC code' as required, but the newer FAQ lists only Aadhaar number and Aadhaar-linked mobile. The FAQ (with 2026 figures) is used; bank account is left out of documents.",
+    "The site header also shows a second helpdesk number (18008896811); only 14434 is used because the FAQ names it.",
+    "Source does not give a Tamil name."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "It is a registration, not cash. Never promise money for signing up.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}
