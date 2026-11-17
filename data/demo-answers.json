@@ -1,6 +1,6 @@
 {
   "note": "Saved answers for the demo script and sample questions. Made by data/tools/demo_answers.py from the live pipeline. Do not edit by hand; run the script again.",
-  "made_at": "2026-11-17T19:24:17+0530",
+  "made_at": "2026-11-17T22:29:57+0530",
   "answers": [
     {
       "key": "ta-pension",
@@ -635,6 +635,179 @@
           }
         ],
         "audioUrl": "/demo-audio/5ed38eb23f.mp3"
+      }
+    },
+    {
+      "key": "en-notice-census",
+      "prev": "",
+      "question": "Explain the Census 2027 notice. What should I do?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "The population census will happen from 25 January 2027 to 28 February 2027, with a check-again round from 1 to 5 March 2027.",
+          "You can fill in your own census details from 10 to 24 January 2027 if you wish.",
+          "Otherwise, census staff will come from house to house to count."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-census-2027",
+            "type": "notice",
+            "title": "Census of India 2027: counting dates and self-enumeration window",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/479_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/cb7aa6a485.mp3"
+      }
+    },
+    {
+      "key": "ta-notice-census",
+      "prev": "",
+      "question": "சென்சஸ் 2027 அறிவிப்பை விளக்குங்க. நான் என்ன பண்ணணும்?",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "இந்திய மக்கள் தொகை கணக்கெடுப்பு 25 ஜனவரி 2027 முதல் 28 பிப்ரவரி 2027 வரை நடக்கிறது, மற்றும் 1 முதல் 5 மார்ச் 2027 வரை சரிபார்ப்பு சுற்று இருக்கு.",
+          "நீங்கள் விரும்பினால் 10 முதல் 24 ஜனவரி 2027 வரை நீங்களே விவரங்களை நிரப்பலாம், அல்லது கணக்கெடுப்பு ஊழியர்கள் உங்கள் வீட்டிற்கு வருவார்கள்."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-census-2027",
+            "type": "notice",
+            "title": "Census of India 2027: counting dates and self-enumeration window",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/479_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/d93573329a.mp3"
+      }
+    },
+    {
+      "key": "en-notice-rice",
+      "prev": "",
+      "question": "Explain the rice stock limit order. Who does it affect?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "The Tamil Nadu government has set limits on how much rice or paddy traders and millers can store until 31 January 2027.",
+          "Wholesalers can hold 2000 metric tonnes and retailers 8 metric tonnes for each shop.",
+          "Traders must declare their stocks on the Department of Consumer Affairs website."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-rice-stock-limit",
+            "type": "notice",
+            "title": "Tamil Nadu Paddy / Rice (Stock Limit) Control Order, 2026",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/487_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/37c541c7c2.mp3"
+      }
+    },
+    {
+      "key": "ta-notice-rice",
+      "prev": "",
+      "question": "அரிசி இருப்பு வரம்பு உத்தரவை விளக்குங்க. இது யாருக்கு?",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "தமிழ்நாட்டில் நெல் மற்றும் அரிசி வியாபாரிகள், சில்லறை விற்பனையாளர்கள், மில் உரிமையாளர்கள் வைக்கக்கூடிய இருப்புக்கு அரசு அளவு நிர்ணயித்துள்ளது.",
+          "மொத்த விற்பனையாளர்கள் 2000 மெட்ரிக் டன் வரையும், சில்லறை விற்பனையாளர்கள் ஒரு கடைக்கு 8 மெட்ரிக் டன் வரையும் மட்டுமே அரிசி வைத்துக் கொள்ள முடியும்.",
+          "இந்த உத்தரவு 31 ஜனவரி 2027 வரை நடைமுறையில் இருக்கும்."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-rice-stock-limit",
+            "type": "notice",
+            "title": "Tamil Nadu Paddy / Rice (Stock Limit) Control Order, 2026",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/487_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/2ab37d85ec.mp3"
+      }
+    },
+    {
+      "key": "en-notice-salem",
+      "prev": "",
+      "question": "Explain the Salem mark sheet notice. What should I do?",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "If you wrote your 10th or 12th private exams in Salem district from 2019 to 2023, you must collect your old mark sheets by 15 December 2026.",
+          "Go in person to the Assistant Director of Government Examinations office in Salem with an identity proof and your exam hall ticket.",
+          "You can also send a self-addressed envelope with a Rs. 42 postage stamp to that office."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-salem-marksheet",
+            "type": "notice",
+            "title": "Salem: private candidates must collect old 10th / 12th mark sheets by 15 December 2026",
+            "sources": [
+              {
+                "url": "https://cdn.s3waas.gov.in/s3c81e728d9d4c2f636f067f89cc14862c/uploads/2026/10/17920460981574.pdf",
+                "host": "cdn.s3waas.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/61a9e2115d.mp3"
+      }
+    },
+    {
+      "key": "ta-notice-salem",
+      "prev": "",
+      "question": "சேலம் மதிப்பெண் சான்றிதழ் அறிவிப்பை விளக்குங்க. நான் என்ன பண்ணணும்?",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "சேலம் மாவட்டத்தில் 2019 முதல் 2023 வரை தனித்தேர்வராக 10ஆம் அல்லது 12ஆம் வகுப்பு எழுதியவர்கள் தங்கள் பழைய மதிப்பெண் சான்றிதழ்களை 15 December 2026க்குள் பெற்றுக்கொள்ள வேண்டும்.",
+          "அடையாளச் சான்று மற்றும் தேர்வுக்கூட நுழைவுச்சீட்டுடன் சேலத்தில் உள்ள அரசுத் தேர்வுகள் உதவி இயக்குநர் அலுவலகத்திற்கு நேரில் சென்று பெற்றுக்கொள்ளலாம்.",
+          "அல்லது ரூ. 42 மதிப்புள்ள அஞ்சல் வில்லை ஒட்டிய சுய முகவரி எழுதிய உறையை அந்த அலுவலகத்திற்கு அனுப்பி பெற்றுக்கொள்ளலாம்."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-salem-marksheet",
+            "type": "notice",
+            "title": "Salem: private candidates must collect old 10th / 12th mark sheets by 15 December 2026",
+            "sources": [
+              {
+                "url": "https://cdn.s3waas.gov.in/s3c81e728d9d4c2f636f067f89cc14862c/uploads/2026/10/17920460981574.pdf",
+                "host": "cdn.s3waas.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "audioUrl": "/demo-audio/37ef481c61.mp3"
       }
     }
   ]

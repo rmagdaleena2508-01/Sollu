@@ -60,11 +60,14 @@ export const schemeCircles: { icon: IconName; color: string }[] = [
   { icon: 'rupee', color: '#C89200' },
 ];
 
+/** A real checked notice (data/notices/rn-notice-census-2027.json), said in 3 lines. */
 export const noticeLines = [
-  { tag: 'Says', tone: 'g', text: 'Land records in your village are being updated.' },
-  { tag: 'Do', tone: 'o', text: 'Bring your patta and Aadhaar to the camp.' },
-  { tag: 'By', tone: 'r', text: 'The date on page 2. Missing it means a later visit to the taluk office.' },
+  { tag: 'Says', tone: 'g', text: 'The census counting runs from 25 January to 28 February 2027.' },
+  { tag: 'Do', tone: 'o', text: 'If you wish, fill in your own details yourself first.' },
+  { tag: 'By', tone: 'r', text: '24 January 2027. After that, census staff come house to house.' },
 ] as const;
+
+export const noticeAsk = 'Explain the Census 2027 notice. What should I do?';
 
 export type FeatureIcon = Extract<IconName, 'mic' | 'doc' | 'check' | 'scale' | 'list' | 'pin'>;
 export type Tone = 'sky' | 'pink' | 'coral' | 'yellow' | 'green' | 'purple';
@@ -190,7 +193,7 @@ export const navLinks: [label: string, href: string][] = [
   ['Sources', '#trust'],
   ['For every person', '#people'],
   ['Roadmap', '#roadmap'],
-  ['Questions', '#faq'],
+  ['FAQs', '#faq'],
 ];
 
 const REPO = 'https://github.com/rmagdaleena2508-01/Sollu';
@@ -198,7 +201,7 @@ const REPO = 'https://github.com/rmagdaleena2508-01/Sollu';
 /** Every link goes somewhere real. Links that leave the site open in a new tab. */
 export const footerCols: { title: string; links: [label: string, href: string][] }[] = [
   { title: 'Product', links: [['Ask', '/ask'], ['What Sollu does', '#what'], ['For every person', '#people']] },
-  { title: 'Learn', links: [['Sources', '#trust'], ['Where answers come from', `${REPO}/blob/main/DATA-SOURCES.md`], ['Roadmap', '#roadmap'], ['Questions', '#faq']] },
+  { title: 'Learn', links: [['Sources', '#trust'], ['Where answers come from', `${REPO}/blob/main/DATA-SOURCES.md`], ['Roadmap', '#roadmap'], ['FAQs', '#faq']] },
   { title: 'Project', links: [['Source code', REPO], ['Report a wrong answer', `${REPO}/issues/new`], ['How AI was used', `${REPO}#ai-use-and-responsibility`], ['License (MIT)', `${REPO}/blob/main/LICENSE`]] },
 ];
 

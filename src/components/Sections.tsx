@@ -107,7 +107,7 @@ export function Faq() {
     <section id="faq" aria-labelledby="faq-h" style={{ paddingTop: 0 }}>
       <div className="wrap">
         <div className="intro reveal">
-          <span className="label">Questions</span>
+          <span className="label">FAQs</span>
           <h2 id="faq-h">Before you ask.</h2>
         </div>
         <div className="faq reveal">

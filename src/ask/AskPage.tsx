@@ -5,7 +5,7 @@ import { LangToggle } from '../components/Nav';
 import { useLang, useReducedMotion } from '../hooks';
 import { ApiError, ask, speech, transcribe, warmUp } from './api';
 import { AnswerCard } from './AnswerCard';
-import { askSamples, copy } from './copy';
+import { askSamples, copy, noticeCards, shortDate } from './copy';
 import type { AskResponse, Turn } from './types';
 import { useVoiceInput } from './useVoiceInput';
 import './ask.css';
@@ -246,6 +246,18 @@ export function AskPage() {
     warmUp();
   }, []);
 
+  // /ask?q=... asks that question straight away (used by the landing page's notice card).
+  const askedFromLink = useRef(false);
+  useEffect(() => {
+    if (askedFromLink.current) return;
+    askedFromLink.current = true;
+    const q = new URLSearchParams(location.search).get('q');
+    if (q && q.trim()) {
+      history.replaceState(null, '', location.pathname);
+      void send(q.slice(0, 500));
+    }
+  }, [send]);
+
   useEffect(() => {
     document.title = lang === 'ta' ? 'சொல்லு கிட்ட கேளுங்க' : 'Ask Sollu';
   }, [lang]);
@@ -330,6 +342,27 @@ export function AskPage() {
                   </button>
                 ))}
               </div>
+            </div>
+            <div className="ask-notices" id="notices">
+              <h2 className="ask-notices-title">{t.noticesTitle}</h2>
+              <p className="ask-notices-sub">{t.noticesSub}</p>
+              <ul>
+                {noticeCards.map((n) => (
+                  <li key={n.id}>
+                    <button type="button" className="notice-card" onClick={() => void send(n.ask[lang])} disabled={busy}>
+                      <span className="notice-card-ico" aria-hidden="true"><Icon name="doc" size={20} /></span>
+                      <span className="notice-card-text">
+                        <span className="notice-card-title">{n.title[lang]}</span>
+                        <span className="notice-card-meta tnum">{n.from[lang]} · {shortDate(n.date)}</span>
+                      </span>
+                      <span className="notice-card-go">
+                        {t.tapToExplain}
+                        <Icon name="arrow" size={16} />
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
             </div>
           </section>
         ) : (

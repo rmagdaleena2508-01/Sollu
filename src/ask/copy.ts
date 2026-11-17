@@ -15,6 +15,9 @@ export const copy = {
     send: 'Send',
     privacy: "Don't share your name, Aadhaar or phone number.",
     tryThese: 'Try one',
+    noticesTitle: 'Explain a notice',
+    noticesSub: 'Real government notices, checked against the official copy. Tap one.',
+    tapToExplain: 'Explain',
     you: 'You',
     hear: 'Hear it',
     stop: 'Stop',
@@ -47,6 +50,9 @@ export const copy = {
     send: 'அனுப்பு',
     privacy: 'உங்க பேரு, ஆதார், போன் நம்பர் சொல்ல வேண்டாம்.',
     tryThese: 'இப்படி கேளுங்க',
+    noticesTitle: 'ஒரு அறிவிப்பை விளக்கிக்கோங்க',
+    noticesSub: 'அதிகாரப்பூர்வ நகலோட சரிபார்த்த உண்மையான அரசு அறிவிப்புகள். ஒன்றை தட்டுங்க.',
+    tapToExplain: 'விளக்கு',
     you: 'நீங்க',
     hear: 'கேளுங்க',
     stop: 'நிறுத்து',
@@ -75,6 +81,49 @@ export const verdictLabel: Record<Lang, Record<Verdict, string>> = {
 };
 
 /** Questions that our checked data can answer. */
+/**
+ * The 3 checked notices (data/notices/). Titles, issuers and dates come from the checked entries.
+ * Tapping one asks Sollu to explain it; the answers are saved in data/demo-answers.json.
+ */
+export const noticeCards: {
+  id: string;
+  title: { en: string; ta: string };
+  from: { en: string; ta: string };
+  date: string;
+  ask: { en: string; ta: string };
+}[] = [
+  {
+    id: 'rn-notice-census-2027',
+    title: { en: 'Census 2027: dates to fill in your own details', ta: 'சென்சஸ் 2027: உங்க விவரத்தை நீங்களே நிரப்ப தேதிகள்' },
+    from: { en: 'Registrar General of India', ta: 'இந்திய பதிவாளர் ஜெனரல்' },
+    date: '2026-11-06',
+    ask: {
+      en: 'Explain the Census 2027 notice. What should I do?',
+      ta: 'சென்சஸ் 2027 அறிவிப்பை விளக்குங்க. நான் என்ன பண்ணணும்?',
+    },
+  },
+  {
+    id: 'rn-notice-rice-stock-limit',
+    title: { en: 'Rice stock limits for traders and millers', ta: 'வியாபாரிகள், ஆலைகளுக்கு அரிசி இருப்பு வரம்பு' },
+    from: { en: 'Food and Consumer Protection Department', ta: 'உணவு மற்றும் நுகர்வோர் பாதுகாப்புத் துறை' },
+    date: '2026-11-13',
+    ask: {
+      en: 'Explain the rice stock limit order. Who does it affect?',
+      ta: 'அரிசி இருப்பு வரம்பு உத்தரவை விளக்குங்க. இது யாருக்கு?',
+    },
+  },
+  {
+    id: 'rn-notice-salem-marksheet',
+    title: { en: 'Salem: collect old 10th and 12th mark sheets', ta: 'சேலம்: பழைய 10, 12ஆம் வகுப்பு மதிப்பெண் சான்றிதழ் வாங்குங்க' },
+    from: { en: 'District Collector, Salem', ta: 'மாவட்ட ஆட்சியர், சேலம்' },
+    date: '2026-10-14',
+    ask: {
+      en: 'Explain the Salem mark sheet notice. What should I do?',
+      ta: 'சேலம் மதிப்பெண் சான்றிதழ் அறிவிப்பை விளக்குங்க. நான் என்ன பண்ணணும்?',
+    },
+  },
+];
+
 export const askSamples: { en: string; ta: string }[] = [
   { en: 'Can my mother get a pension?', ta: 'என் அம்மாவுக்கு பென்ஷன் கிடைக்குமா?' },
   { en: 'My salary is late by 2 months. What can I do?', ta: 'ரெண்டு மாசமா சம்பளம் வரல. என்ன பண்றது?' },

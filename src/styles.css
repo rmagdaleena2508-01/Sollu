@@ -51,7 +51,7 @@ p{text-wrap:pretty}
 .nav-links{display:none;gap:2px;margin:0 auto}
 /* Sections land below the sticky top bar when a shortcut is tapped. */
 section[id]{scroll-margin-top:76px}
-.nav-links a{padding:8px 12px;border-radius:8px;font-size:calc(15px + 1pt);white-space:nowrap;font-weight:500;color:var(--ink-85);transition:background-color 160ms ease}
+.nav-links a{padding:8px 12px;border-radius:8px;font-size:15px;white-space:nowrap;font-weight:500;color:var(--ink-85);transition:background-color 160ms ease}
 @media (hover:hover){.nav-links a:hover{background:rgba(17,17,17,.05)}}
 .nav-right{display:flex;align-items:center;gap:8px;margin-left:auto}
 .lang{position:relative;display:flex;height:36px;padding:3px;border-radius:999px;background:var(--surface-2);font-size:13px;font-weight:500}

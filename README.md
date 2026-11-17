@@ -69,6 +69,7 @@ I'd rather show you an honest list than a big promise.
 | **Ask page** at `/ask`: speak or type, get a checked answer read aloud | ✅ Built and tested on my machine ([how](#how-i-tested-it)) |
 | Ask page on the live site | ✅ Live and demo-ready: saved demo answers, a health check, and a clear "busy" message ([build log](#build-log)) |
 | A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
+| **Explain a notice:** 3 real, checked notices on the Ask page (census, rice stock limits, Salem mark sheets). Tap one, get it in 3 lines, read aloud | ✅ Built |
 | Explain a notice from a photo, Check (5 questions), Find an office | 🟠 Not built yet |
 
 Demo cards that are still illustrations say **Sample**. The "Check" card counts real checked schemes. There are no fake users, ratings or testimonials, and no buttons for features that don't exist. Real stories come after the pilot.
@@ -255,6 +256,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 10 | A build log in this README. | [#8](https://github.com/rmagdaleena2508-01/Sollu/pull/8) |
 | 11 | **The voice starts in about 1.7 seconds** instead of about 6, by streaming it. | [#9](https://github.com/rmagdaleena2508-01/Sollu/pull/9) |
 | 12 | **The landing page matches what Sollu really does:** real scheme counts, no features that don't exist, and every link goes somewhere real. | [#11](https://github.com/rmagdaleena2508-01/Sollu/pull/11) |
+| 13 | The top bar shortcuts use the names of the sections on the page, in order. | [#12](https://github.com/rmagdaleena2508-01/Sollu/pull/12) |
+| 14 | **Explain a notice cards:** the 3 checked notices as cards on the Ask page, with saved Tamil and English answers. The landing page's notice card now shows the real census notice and opens its explanation. The top bar says "FAQs" at its original size. | this change |
 
 ### Problems I hit, and how I fixed them
 
@@ -307,6 +310,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 |---|---|
 | The voice came about 6 seconds after the answer, and voicing just the first line still took about 4 | Streamed the voice instead of splitting it: it now starts in about 1.7 seconds on the live site |
 | The free Gemini tier can be slow or busy during a demo | Saved answers for the demo questions, made in advance by the same pipeline and checked by me |
+| When I made the saved answer for the Salem notice in Tamil, the AI added "such as Aadhaar" as the identity proof. The notice only says "identity proof" | Made that answer again until it matched the notice, and read all 6 notice answers before saving them |
 | My first saved-answer match gave the **mother's** pension answer to *"Can my father get a pension?"* | A saved answer is used only when every different word is filler or a spelling variant, and all the numbers match |
 | The health check shared its request limit with questions, so a busy room could block it | Each endpoint now has its own limit. Questions allow 40 a minute, because a whole venue shares one Wi-Fi address |
 | The health check asked Gemini for too short a reply and got cut-off JSON | Gave it room for a full reply |
@@ -428,6 +432,7 @@ These are the choices that make Sollu feel like Sollu.
 - [x] Owner check of the pension, Magalir Urimai and free bus amounts
 - [ ] Owner check of every other amount
 - [ ] Scheme check: 5 questions → schemes you may fit
+- [x] Explain a notice: 3 checked notices as tap-to-explain cards
 - [ ] Explain a notice from a photo or PDF
 - [ ] Test on low-cost Android phones with real people
 - [ ] Pilot with real people, then replace the samples with real stories (with consent)
