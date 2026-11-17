@@ -16,7 +16,7 @@
 [![Checked data](https://img.shields.io/badge/data-27%20checked%20entries-22B45A?style=flat-square)](data/README.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22B45A?style=flat-square)](LICENSE)
 
-**[▶ See it live](https://sollu-ai.vercel.app)** · [Why Sollu](#why-sollu) · [What's real today](#whats-real-today) · [Voice first](#voice-first-text-always) · [When things fail](#when-things-fail) · [How I built it](#how-i-built-it) · [How I tested it](#how-i-tested-it) · [Run it](#run-it) · [AI use](#ai-use-and-responsibility)
+**[▶ See it live](https://sollu-ai.vercel.app)** · [Why Sollu](#why-sollu) · [What's real today](#whats-real-today) · [Voice first](#voice-first-text-always) · [When things fail](#when-things-fail) · [How I built it](#how-i-built-it) · [How I tested it](#how-i-tested-it) · [Build log](#build-log) · [Run it](#run-it) · [AI use](#ai-use-and-responsibility)
 
 </div>
 
@@ -67,7 +67,7 @@ I'd rather show you an honest list than a big promise.
 | Official data sources for Tamil Nadu, researched | ✅ Done, in [DATA-SOURCES.md](DATA-SOURCES.md) |
 | **Checked demo data:** 19 schemes, 5 rights topics, 3 real notices | ✅ Done, in [data/](data/README.md). Every fact is quoted from an official page |
 | **Ask page** at `/ask`: speak or type, get a checked answer read aloud | ✅ Built and tested on my machine ([how](#how-i-tested-it)) |
-| Ask page on the live site | ✅ Keys added. Fixed the first live bug ([what happened](#how-i-built-it)) |
+| Ask page on the live site | ✅ Live and demo-ready: saved demo answers, a health check, and a clear "busy" message ([build log](#build-log)) |
 | A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
 | Explain a notice from a photo, Check (5 questions), Find an office | 🟠 Not built yet |
 
@@ -212,6 +212,9 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 | Mic failure paths | A silent mic, and a broken speech service | Silence: stops at 8 seconds and sends nothing. Broken service: *"Voice isn't working right now"*, cursor in the text box |
 | Live site, real phone | I spoke a question into the mic on my own phone at [sollu-ai.vercel.app/ask](https://sollu-ai.vercel.app/ask) | Works: my words showed in the text box, sent by themselves, and the answer was read aloud |
 | Production build | `vercel build`, then called the built functions directly with real keys | Ask and voice both return 200 |
+| Saved demo answers | 12 look-alike questions: the scripted ones, plus *"Can my father get a pension?"*, *"72 வயசு"*, *"my father is 67"*, *"late by 3 months"* | Scripted ones answer in about 2 ms; every look-alike goes live and never gets a saved answer meant for someone else |
+| Busy free tier | Faked "busy" replies from the server | Shows *"Sollu is busy. Trying again…"*, retries once, then *"Please try again in a minute"* |
+| The demo, on the live site | The 4-step demo script on sollu-ai.vercel.app, plus `/api/health?deep=1` | Each step answers in under 1 second; all 17 saved audio files load; health check passes |
 | Speech out | Tamil text through `/api/tts`, played in the browser | Plays, with the phone's voice as backup |
 | Page | Checked in a browser at phone size (390px) and desktop (1440px), in English and Tamil: sample questions, typing, follow-up, play and stop | No sideways scroll, everything works |
 | Code | `npm run build` (strict TypeScript + production build) | Passes |
@@ -228,6 +231,76 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 - **The AI can still say things a little off.** For example, it sometimes says "will get" where it should say "may get". Numbers are checked strictly. Wording isn't.
 - **Free tier.** Gemini's free tier keeps requests for 1 day, even with storage off, and limits requests per minute. A real launch should move to a paid tier.
 - **Not legal advice.** Sollu explains rules. For a legal case, it points to free legal aid.
+
+## Build log
+
+Everything that has changed so far, newest last, and every problem I hit on the way.
+
+| # | What changed | Link |
+|---|---|---|
+| 1 | Landing page in English and Tamil, first as one HTML file, then rebuilt in TypeScript and React to match it pixel for pixel. Deployed to Vercel. | `main` |
+| 2 | This README, the AI use statement, and [DATA-SOURCES.md](DATA-SOURCES.md): where Tamil Nadu's official data lives. | `main` |
+| 3 | **Checked demo data:** 20 schemes, 5 rights topics and 3 real notices. Every fact is quoted word for word from an official page, and a checker script proves it. 1 entry held back. | [#1](https://github.com/rmagdaleena2508-01/Sollu/pull/1) |
+| 4 | **The Ask page:** voice in (Sarvam), understand and explain (Gemini), yes/no rules in our own code, a number check, voice out. | [#2](https://github.com/rmagdaleena2508-01/Sollu/pull/2) |
+| 5 | The Sollu icon (the winking face) as the logo and tab icon, and the README sections on voice, failures and tests. | [#3](https://github.com/rmagdaleena2508-01/Sollu/pull/3) |
+| 6 | Fixed the live site crash. The mic now stops when you stop talking, and your words show in the text box first. | [#4](https://github.com/rmagdaleena2508-01/Sollu/pull/4) |
+| 7 | Tested the mic on a real phone. | [#5](https://github.com/rmagdaleena2508-01/Sollu/pull/5) |
+| 8 | **Ready for a busy room:** saved demo answers, a backup Gemini model when one is slow, a clear "busy" message, a health check. | [#6](https://github.com/rmagdaleena2508-01/Sollu/pull/6) |
+| 9 | **Pensions corrected to Rs 1,200** from the official page, after my own check of the amounts. | [#7](https://github.com/rmagdaleena2508-01/Sollu/pull/7) |
+
+### Problems I hit, and how I fixed them
+
+**Landing page**
+
+| Problem | Fix |
+|---|---|
+| The headline broke inside a word ("y◉" on one line, "urs" on the next) | Kept each word on one line, and made the font size scale down a little more on small screens |
+| The "Source shown" sticker covered part of a card | Moved it to the bottom-right corner |
+| Cards in the fanned stack showed through each other | Made the side cards fully solid |
+| The Tamil button text didn't fit on a 390px phone | Shortened it to *"இலவசமா கேளுங்க"* |
+| `sollu.vercel.app` already belonged to a different app | Picked `sollu-ai.vercel.app` |
+
+**Data**
+
+| Problem | Fix |
+|---|---|
+| No single official API lists Tamil Nadu's schemes | Built a small checked library instead: save each official page, quote every fact from it, and let a script prove the quotes exist |
+| Some official pages contradict each other (two income limits for CMCHIS and for BC/MBC scholarships) | Kept both in the entry's notes, and marked those answers "confirm at the office" |
+| **Pension amounts were out of date.** myScheme and district pages still say Rs 1,000 a month | I checked the amounts myself. The official Revenue Administration page shows **Rs 1,200 from August 2023**, so Sollu now quotes that page, listed first |
+| A separate report said Rs 1,500 a month at age 80+ | The official table says Rs 1,200 at 80+ (Centre Rs 500 + State Rs 700). Sollu follows the official page |
+| The Revenue Administration page in English now says "File not found" | Used the same official page in Tamil (`about_schemes_t.php`) |
+| The checker saved its output in the wrong folder (`data/data/`) | Fixed the path |
+
+**AI answers**
+
+| Problem | Fix |
+|---|---|
+| Gemini's older endpoint returned *"no longer available to new users"* for this key | Moved to Gemini's newer Interactions API |
+| Bigger Gemini models answered "high demand" after 70 to 80 seconds | Fast Flash-Lite model first, time limits, and later "hedging": if one model is slow, a second starts and the first good answer wins |
+| Tamil answers sometimes wrote amounts as words (*ஆயிரம்*), which slipped past the number check | Rejected numbers written as words, and broken text, then asked the AI to try again |
+| Answers about the asker sometimes said "your mother" | Fixed the instructions: "you" for the asker, "your mother" only when they ask for her |
+| "Do women travel free?" made Sollu ask "is this for a woman or a man?" | Stopped asking for gender. The answer says who the scheme is for |
+| The number check rejected "Rs 5 lakh" even though the facts say it | Words like "lakh" are allowed when the checked facts use them too |
+
+**Live site and voice**
+
+| Problem | Fix |
+|---|---|
+| **Every question failed on the live site** (`ERR_MODULE_NOT_FOUND`) | Node.js on Vercel needs full file names in imports (`handlers.js`). Added them, and I now test the production build before shipping ([full story](#how-i-built-it)) |
+| The mic failed in Brave, which turns off the browser's own speech recognition | The mic records audio and sends it to Sarvam instead. If voice is down, Sollu says so and points to the text box |
+| People had to tap again to stop recording | The mic now listens for silence and stops by itself |
+| People couldn't see what Sollu heard | The words go into the text box first, and send by themselves after 2.6 seconds unless you tap **Edit** |
+| Preview deploys couldn't answer | The keys were added for Production only. Production works; preview links need the keys too |
+
+**Getting ready for the demo**
+
+| Problem | Fix |
+|---|---|
+| The free Gemini tier can be slow or busy during a demo | Saved answers for the demo questions, made in advance by the same pipeline and checked by me |
+| My first saved-answer match gave the **mother's** pension answer to *"Can my father get a pension?"* | A saved answer is used only when every different word is filler or a spelling variant, and all the numbers match |
+| The health check shared its request limit with questions, so a busy room could block it | Each endpoint now has its own limit. Questions allow 40 a minute, because a whole venue shares one Wi-Fi address |
+| The health check asked Gemini for too short a reply and got cut-off JSON | Gave it room for a full reply |
+| Twice, a pull request was merged before my last commit reached it, so that commit never went live | Opened a follow-up pull request each time ([#3](https://github.com/rmagdaleena2508-01/Sollu/pull/3), [#7](https://github.com/rmagdaleena2508-01/Sollu/pull/7)). Now I don't add commits to a pull request once it's ready, and I check `main` has every commit before testing live |
 
 ## Run it
 
@@ -379,7 +452,7 @@ The most useful help isn't code.
 
 In creating this project, I collaborated with **Claude Code (Anthropic's Claude Opus 5.5)**, the only AI tool I used to build it, to assist with research, writing code, finding and fixing bugs, and drafting documentation. The Ask feature itself calls two outside AI services at run time, Google Gemini and Sarvam AI, as described in [Voice first](#voice-first-text-always).
 
-**What I did myself:** I came up with the idea: an AI that explains government notices, schemes and local laws in plain language and regional languages, starting with Tamil Nadu and then all of India. I set the goal and the rule that Sollu is voice first and falls back to text only when voice doesn't work. I picked the two design references and the name "Sollu". I chose which groups the demo data covers (school and college students, seniors, farmers, workers and women), the 5 rights topics and the 3 notices. I asked for every fact to be checked against official sources, and I reviewed and approved that data before it was merged. I chose Gemini and Sarvam for the Ask feature, provided the API keys and the Sollu icon, and reviewed and approved each pull request.
+**What I did myself:** I came up with the idea: an AI that explains government notices, schemes and local laws in plain language and regional languages, starting with Tamil Nadu and then all of India. I set the goal and the rule that Sollu is voice first and falls back to text only when voice doesn't work. I picked the two design references and the name "Sollu". I chose which groups the demo data covers (school and college students, seniors, farmers, workers and women), the 5 rights topics and the 3 notices. I asked for every fact to be checked against official sources, and I reviewed and approved that data before it was merged. I chose Gemini and Sarvam for the Ask feature, provided the API keys and the Sollu icon, and reviewed and approved each pull request. I checked the pension, Magalir Urimai and free bus amounts against my own research before the demo, which is how the out-of-date pension figure was caught. I also tested the mic on my own phone.
 
 **What the AI helped with:**
 
@@ -387,6 +460,8 @@ In creating this project, I collaborated with **Claude Code (Anthropic's Claude 
 - Building the landing page, first in HTML, then in TypeScript and React
 - Researching official data sources, collecting the scheme, rights and notice facts, and writing the checker that matches every quote to its saved source
 - Designing and building the Ask feature: the server functions, eligibility rules, number check, voice fallback ladder and the Ask page
+- Finding and fixing the live site crash from the Vercel logs, and making the demo safe in a busy room (saved answers, backup models, busy message, health check)
+- Finding the official page for the new pension amounts and updating the data with word-for-word quotes
 - Writing and running the 22-question test set, type checks, builds and browser checks at phone and desktop size
 - Cutting out the Sollu icon for the logo and browser tab
 - Setting up GitHub and Vercel, and drafting this README, the pull requests and the commit messages, which I then reviewed and approved
