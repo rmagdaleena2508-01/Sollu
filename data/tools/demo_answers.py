@@ -46,6 +46,13 @@ SCRIPT = [
     ("ta-farmer", "எனக்கு 2 ஏக்கர் நிலம் இருக்கு. என்ன கிடைக்கும்?", "ta", None, "answer"),
     ("en-census", "When can I fill my own census details?", "en", None, "answer"),
     ("ta-census", "சென்சஸ் விவரத்த நானே எப்போ நிரப்பலாம்?", "ta", None, "answer"),
+    # "Explain a notice" cards on the Ask page (src/ask/copy.ts: noticeCards). Keep the wording identical.
+    ("en-notice-census", "Explain the Census 2027 notice. What should I do?", "en", None, "answer"),
+    ("ta-notice-census", "சென்சஸ் 2027 அறிவிப்பை விளக்குங்க. நான் என்ன பண்ணணும்?", "ta", None, "answer"),
+    ("en-notice-rice", "Explain the rice stock limit order. Who does it affect?", "en", None, "answer"),
+    ("ta-notice-rice", "அரிசி இருப்பு வரம்பு உத்தரவை விளக்குங்க. இது யாருக்கு?", "ta", None, "answer"),
+    ("en-notice-salem", "Explain the Salem mark sheet notice. What should I do?", "en", None, "answer"),
+    ("ta-notice-salem", "சேலம் மதிப்பெண் சான்றிதழ் அறிவிப்பை விளக்குங்க. நான் என்ன பண்ணணும்?", "ta", None, "answer"),
 ]
 
 

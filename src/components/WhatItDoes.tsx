@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import audienceIndex from '../../data/audience-index.json';
-import { fitTags, noticeLines, schemeCircles } from '../content';
+import { fitTags, noticeAsk, noticeLines, schemeCircles } from '../content';
 import type { FitKey } from '../content';
 import { delay, useTimeout } from '../hooks';
 import { Icon } from './Icon';
@@ -57,12 +57,12 @@ function NoticeCard() {
     <article className="card reveal" style={delay('.08s')}>
       <span className="ico sky"><Icon name="doc" /></span>
       <h3>Explain a notice.</h3>
-      <p>Snap a photo of any notice. Get it in 3 short lines.</p>
+      <p>Pick a real government notice. Get it in 3 short lines.</p>
       <div className="notice">
         <div className="doc">
           <i aria-hidden="true" />
           <div style={{ flex: 1, display: 'grid', gap: 6 }}>
-            <span>Circular · Revenue Department · 14 pages</span>
+            <span>Gazette notice · Census of India 2027 · 6 Nov 2026</span>
             <div className="skel" style={{ width: '80%' }} />
           </div>
         </div>
@@ -73,7 +73,9 @@ function NoticeCard() {
           </div>
         ))}
       </div>
-      <span className="sample">Sample</span>
+      <a href={`/ask?q=${encodeURIComponent(noticeAsk)}`} className="btn btn-dark" style={{ marginTop: 16 }}>
+        Explain this notice
+      </a>
     </article>
   );
 }

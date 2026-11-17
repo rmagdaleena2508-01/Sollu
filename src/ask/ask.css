@@ -106,6 +106,22 @@
 .ask-notice.live{color:var(--coral);font-weight:500}
 .ask-privacy{margin-top:8px;text-align:center;font-size:12.5px;color:var(--ink-50)}
 
+/* ---------- explain a notice ---------- */
+.ask-notices{width:100%;margin-top:36px;text-align:left}
+.ask-notices-title{font-size:20px;line-height:1.25;letter-spacing:-.02em;font-weight:500}
+.ask-notices-sub{margin-top:6px;font-size:14.5px;line-height:1.45;color:var(--ink-64)}
+.ask-notices ul{list-style:none;display:grid;gap:10px;margin-top:14px}
+.notice-card{width:100%;display:flex;align-items:center;gap:14px;min-height:64px;padding:14px 14px 14px 14px;border-radius:18px;background:var(--card);box-shadow:var(--shadow-pill);text-align:left;transition:transform 160ms var(--ease-out),background-color 160ms ease}
+.notice-card:active{transform:scale(.98)}
+.notice-card:disabled{opacity:.5}
+@media (hover:hover) and (pointer:fine){.notice-card:not(:disabled):hover{background:var(--surface)}}
+.notice-card-ico{flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:var(--accent-tint);color:var(--accent)}
+.notice-card-text{flex:1;min-width:0;display:grid;gap:3px}
+.notice-card-title{font-size:15.5px;font-weight:500;line-height:1.35;color:var(--ink)}
+.notice-card-meta{font-size:13px;line-height:1.35;color:var(--ink-50)}
+.notice-card-go{flex:none;display:inline-flex;align-items:center;gap:4px;font-size:14px;font-weight:500;color:var(--accent)}
+@media (max-width:420px){.notice-card-go{font-size:0;gap:0}.notice-card-go svg{width:18px;height:18px}}
+
 @media (prefers-reduced-motion:reduce){
   .turn,.dots-wait i{animation:none}
   .mic.rec .mic-ring{transition:none}
