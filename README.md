@@ -2,6 +2,8 @@
 
 <a href="https://sollu-ai.vercel.app"><img src="docs/footer.png" alt="Sollu wordmark in giant white letters on a blue fade, with stickers around it" width="100%"></a>
 
+<img src="public/sollu-icon.png" alt="Sollu icon: a winking blue face" width="72">
+
 ### Know what's yours. *In your own words.*
 
 உங்களுக்கு உரியதை தெரிஞ்சுக்கோங்க — உங்க சொந்த வார்த்தையில.
@@ -10,10 +12,11 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square&logo=typescript&logoColor=white)](tsconfig.json)
 [![React 19](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)](package.json)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)](vite.config.ts)
-[![Made in Tamil Nadu](https://img.shields.io/badge/made%20in-Tamil%20Nadu-FF4B3A?style=flat-square)](#roadmap)
+[![Voice first](https://img.shields.io/badge/voice-first-FF4B3A?style=flat-square)](#voice-first-text-always)
+[![Checked data](https://img.shields.io/badge/data-27%20checked%20entries-22B45A?style=flat-square)](data/README.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22B45A?style=flat-square)](LICENSE)
 
-**[▶ See it live](https://sollu-ai.vercel.app)** · [Why Sollu](#why-sollu) · [What's real today](#whats-real-today) · [Run it](#run-it) · [Design notes](#design-notes) · [Roadmap](#roadmap) · [AI use](#ai-use-and-responsibility)
+**[▶ See it live](https://sollu-ai.vercel.app)** · [Why Sollu](#why-sollu) · [What's real today](#whats-real-today) · [Voice first](#voice-first-text-always) · [When things fail](#when-things-fail) · [How I built it](#how-i-built-it) · [How I tested it](#how-i-tested-it) · [Run it](#run-it) · [AI use](#ai-use-and-responsibility)
 
 </div>
 
@@ -34,6 +37,8 @@ The rules that decide what people get from the government are written in a langu
 So a 62-year-old who could get a pension often doesn't know it. A farmer gets a notice and can't tell if it's about their land. A worker whose pay is late doesn't know they can complain for free. Many people end up paying a middleman just to read a page.
 
 Sollu's job is simple: **read the rule for you, then say it the way you'd say it.**
+
+> My goal: make public information effortless to discover, government services intuitive to navigate, and statutory policies clear to understand, no matter how comfortable someone is with technology. That's why Sollu is **voice first**, and falls back to text only when voice doesn't work.
 
 ## What it does
 
@@ -59,30 +64,121 @@ I'd rather show you an honest list than a big promise.
 |---|---|
 | Landing page (English + Tamil, phone + desktop) | ✅ Live at [sollu-ai.vercel.app](https://sollu-ai.vercel.app) |
 | Product plan, user flows and copy for every page | ✅ Done, in [FLOW.md](FLOW.md) |
-| "Hear it" button that reads a sample answer aloud | ✅ Works, using your browser's own voice |
-| The AI helper that answers real questions | 🟠 Not built yet |
-| Scheme data checked against the source G.O.s | 🟠 Not started |
+| Official data sources for Tamil Nadu, researched | ✅ Done, in [DATA-SOURCES.md](DATA-SOURCES.md) |
+| **Checked demo data:** 19 schemes, 5 rights topics, 3 real notices | ✅ Done, in [data/](data/README.md). Every fact is quoted from an official page |
+| **Ask page** at `/ask`: speak or type, get a checked answer read aloud | ✅ Built and tested on my machine ([how](#how-i-tested-it)) |
+| Ask page on the live site | 🟠 Waiting for the API keys to be added in Vercel |
+| A person (me) confirming every amount is still current | 🟠 Pending. Entries that may be out of date say so on screen |
+| Explain a notice from a photo, Check (5 questions), Find an office | 🟠 Not built yet |
 
-Every demo card on the page says **Sample**. There are no fake users, ratings or testimonials. Real ones come after the pilot.
+Every demo card on the landing page says **Sample**. There are no fake users, ratings or testimonials. Real ones come after the pilot.
 
-## How Sollu will answer
+## Voice first, text always
 
-This is the plan for the AI helper. It isn't built yet.
+<p align="center">
+  <img src="docs/ask.png" alt="The Ask page on a phone. Left: a big mic button with 'Tap to speak' and sample questions. Right: a Tamil question about a mother's pension and Sollu's 3-line Tamil answer, with a 'confirm at the office' note and the official source." width="100%">
+</p>
+
+Many people Sollu is for can talk easily but find reading forms hard. So the **mic is the biggest thing on the page**, and every answer is **read out loud by itself**. The text box is always there, right next to the mic, for anyone who would rather type or can't use voice.
+
+### What happens when you ask
 
 ```mermaid
-flowchart LR
-    A["🎙️ You ask<br/>Tamil or English"] --> B["📚 Find the official source<br/>G.O., gazette, Act"]
-    B --> C{"Sure about<br/>the answer?"}
-    C -- yes --> D["✍️ Say it in 3 short lines"]
-    D --> E["🔗 Show the source<br/>and the date checked"]
-    C -- no --> F["🏢 Say so, and point you<br/>to a real office"]
+flowchart TD
+    A["🎙️ Tap the mic and speak<br/>(or type)"] --> B["Sarvam turns speech into text<br/>Tamil, English or mixed"]
+    B --> C["Gemini reads the question<br/>picks the matching checked entries<br/>and notes facts like age or income"]
+    C --> D{"Did anything<br/>match?"}
+    D -- no --> N["'I'm not sure.'<br/>Go to e-Sevai or free legal aid"]
+    D -- yes --> E["Our own code decides:<br/>may fit · need one detail · doesn't fit"]
+    E --> F["Gemini writes 3 short lines<br/>using only the checked facts"]
+    F --> G{"Every number found<br/>in the checked facts?"}
+    G -- no, twice --> H["Show the plain checked facts instead"]
+    G -- yes --> I["Show the answer + official source + date checked"]
+    H --> I
+    I --> J["🔊 Sarvam reads it out loud in Tamil or English"]
 ```
 
-Three rules sit under every answer:
+1. **You speak.** Tap the mic once, talk, tap again to stop (it stops by itself at 28 seconds). The audio goes to Sarvam's speech-to-text (`saaras:v4`). It works out the language on its own, so Tamil, English and Tamil-English mixed all work.
+2. **Sollu understands.** Gemini reads the question and picks up to 3 entries from the checked data. It also writes down facts you said, like "67 years old" or "family income 1 lakh". It can only pick entries that exist.
+3. **Our code decides, not the AI.** Rules in [`server/eligibility.ts`](server/eligibility.ts) compare your facts with each scheme's age, income, gender and community limits. The answer is **may fit**, **need one detail** or **doesn't fit**.
+4. **One question at a time.** If a fact is missing, Sollu asks one short, fixed question, like *"அவங்களுக்கு எத்தனை வயசு?"* (How old are they?). You answer, and Sollu remembers the conversation.
+5. **Sollu explains.** Gemini writes at most 3 short lines in the language you used, using only the checked facts.
+6. **Sollu checks itself.** Every number in the answer must appear in the checked facts or in what you said. Numbers written as words and broken text are rejected too.
+7. **You hear it.** Sarvam's text-to-speech (`bulbul:v4-flash`) reads the answer out loud with a Tamil voice. Each answer shows the official source link and the date it was checked. Entries a reviewer marked "caution" also say *"confirm at the office before you apply"*.
 
-1. **Show the source.** Every answer names its document and the date we last checked it.
-2. **Say "I'm not sure".** When it isn't sure, it says so and sends you to a person.
-3. **Not legal advice.** For a legal case, it connects you to free legal aid.
+## When things fail
+
+Voice is the front door, so it can't be the only door. Every step has a backup, and the last backup is always plain text.
+
+| If this fails… | …Sollu does this |
+|---|---|
+| The phone has no mic, or the person says no to mic access | Says so in plain words and moves the cursor to the text box |
+| Sarvam can't turn the speech into text | Says *"Sorry, I couldn't hear that"* and uses the **browser's own speech recognition** next time |
+| The browser has no speech recognition either | The **text box** still works, always |
+| The recording is too short or empty | Asks you to try again, without sending anything |
+| You talk for more than 28 seconds | Stops at 28 seconds, still answers, and tells you it stopped |
+| A Gemini model is busy (common on the free tier) | Waits up to 9 seconds, then tries the next model (3 models in a row) |
+| The AI answer has a number that isn't in the checked facts | Asks the AI to write it again. If it fails twice, shows the **plain checked facts** instead |
+| Nothing in the checked data matches the question | Says *"I'm not sure"* and points to e-Sevai or free legal aid. **It never guesses** |
+| Sarvam can't make the audio | The **phone's own voice** reads the answer |
+| The phone blocks audio from playing by itself | The **Hear it** button is always there |
+| Too many questions from one place in a minute | Asks the person to wait a minute (protects the free API keys) |
+
+## How I built it
+
+These are the choices I made as a full-stack engineer, and why.
+
+**1. The AI never decides who gets what.** A language model can sound sure and still be wrong. "You can get it" is a high-stakes sentence, so the yes/no decision lives in plain TypeScript rules that anyone can read and test. The AI only does the language work: understanding the question and saying the answer simply.
+
+**2. The AI can only use checked facts.** The 27 entries in [`data/`](data/README.md) came from official sites only (`*.gov.in`, `*.nic.in`, myScheme, CMCHIS). Every fact has a word-for-word quote, and a checker script ([`data/tools/check.py`](data/tools/check.py)) proves each quote exists in the saved page. Gemini gets only the 1 to 3 entries that match, not the whole internet.
+
+**3. Trust, but check the output.** Before an answer is shown, the server pulls every number out of it and looks for each one in the facts. Money amounts are where a wrong answer hurts most, so this check is strict. If it fails, Sollu falls back to the plain facts. A dull right answer beats a friendly wrong one.
+
+**4. "I'm not sure" is a feature.** If the question doesn't match a checked entry (a passport, a stock tip), Sollu says so and sends people to a real office.
+
+**5. Keys never reach the phone.** The Gemini and Sarvam keys live only on the server, in Vercel Functions ([`api/`](api/)). The browser talks to `/api/ask`, `/api/stt` and `/api/tts`, never to Google or Sarvam directly. The same handlers run in local development through a small Vite plugin, so what I test is what ships.
+
+**6. Built for the free tier and slow networks.** Free AI models get busy. I measured them: the bigger Gemini Flash models often answered "high demand" after more than 70 seconds, while Flash-Lite answered in about 2 seconds with good Tamil. So Sollu tries `gemini-3.5-flash-lite` first, with a 9-second limit, then two backups. Audio comes back as MP3 (small), and the text shows before the voice starts.
+
+**7. Privacy by default.** Questions go to Gemini with storage turned off (`store: false`). Nothing is saved in a database. The page reminds people not to say their name, Aadhaar or phone number.
+
+**8. Fewer moving parts.** Gemini and Sarvam are called with plain `fetch`, not their SDKs, so there are fewer packages to update and break. The whole feature adds one dev package (`@types/node`).
+
+**9. Words for people, not engineers.** Follow-up questions, errors and notes are written by hand in English and spoken-style Tamil, not generated. They say the same thing every time.
+
+<details>
+<summary><b>The trade-offs I chose</b></summary>
+
+<br>
+
+- **Speed vs. smarts.** Flash-Lite is fast but less careful. The number check and the fixed rules make up for it. If answers need more care later, the model list in [`server/gemini.ts`](server/gemini.ts) is one line to change.
+- **Two AI calls per question.** One to understand, one to explain. It's slower than one call (about 2 to 13 seconds in total), but it means the AI never sees entries that don't match, and the rules run in between.
+- **A simple rate limit.** It lives in memory, so it resets when the server restarts. Fine for a demo. A real launch needs a shared store.
+- **28-second recordings.** Sarvam's quick endpoint takes up to 30 seconds. Longer questions are rare, and the person can type or ask again.
+
+</details>
+
+## How I tested it
+
+| What | How | Result |
+|---|---|---|
+| Answers | 22 test questions in Tamil and English: pensions, wages, ration, scholarships, farmers, workers, health, women, RTI, police, rent, the census notice, a follow-up turn, and 2 trick questions that should get "I'm not sure" | **22 of 22 passed**, about 2 to 13 seconds each |
+| Eligibility rules | The same questions check the verdicts: a 67-year-old *may fit* the old age pension, a family earning Rs 3 lakh *doesn't fit* CMCHIS, "my mother" with no age gets *one detail needed* | Correct in every case |
+| Number check | Early Tamil answers wrote amounts as words (*ஆயிரம்*), which slipped past the check. I added a rule for that and for broken text, then retested | Fixed |
+| Speech to text | Real Tamil audio sent through `/api/stt` as WAV and WebM | Word for word |
+| Speech out | Tamil text through `/api/tts`, played in the browser | Plays, with the phone's voice as backup |
+| Page | Checked in a browser at phone size (390px) and desktop (1440px), in English and Tamil: sample questions, typing, follow-up, play and stop | No sideways scroll, everything works |
+| Code | `npm run build` (strict TypeScript + production build) | Passes |
+| Data | `python3 data/tools/check.py` on all 28 entries | 28 pass, 1 held back by review |
+
+**Not tested yet:** a live mic on a real, low-cost Android phone, and the Ask page on the live Vercel site (it needs the keys first).
+
+## What you should know
+
+- **The data is checked, not current-proof.** The checker proves each fact matches an official page. It can't prove the page is up to date. Pension amounts, Magalir Urimai and the free bus scheme may have changed, so those answers carry a "confirm at the office" note. A person (me) still needs to confirm each amount.
+- **The AI can still say things a little off.** For example, it sometimes says "will get" where it should say "may get". Numbers are checked strictly. Wording isn't.
+- **Free tier.** Gemini's free tier keeps requests for 1 day, even with storage off, and limits requests per minute. A real launch should move to a paid tier.
+- **Not legal advice.** Sollu explains rules. For a legal case, it points to free legal aid.
 
 ## Run it
 
@@ -92,14 +188,29 @@ You need Node 20.19+ or 22.12+.
 git clone https://github.com/rmagdaleena2508-01/Sollu.git
 cd Sollu
 npm install
+```
+
+The Ask page needs two free API keys. Put them in a file called `.env.local` in the project folder. Git ignores this file, so it never gets pushed.
+
+```bash
+GEMINI_API_KEY=your-gemini-key
+SARVAM_API_KEY=your-sarvam-key
+```
+
+- Gemini key: [aistudio.google.com](https://aistudio.google.com)
+- Sarvam key: sign up at [sarvam.ai](https://www.sarvam.ai)
+
+```bash
 npm run dev
 ```
 
-Then open the address Vite prints (usually `http://localhost:5173`).
+Then open the address Vite prints (usually `http://localhost:8950`) and go to `/ask`.
 
 ```bash
 npm run build      # strict type check + production build into dist/
 ```
+
+For the live site, add the same two keys in Vercel: **Project → Settings → Environment Variables**.
 
 <details>
 <summary><b>Project map</b></summary>
@@ -108,21 +219,26 @@ npm run build      # strict type check + production build into dist/
 
 ```text
 sollu/
+├── api/                  ← Vercel Functions: /api/ask, /api/stt, /api/tts
+├── server/
+│   ├── ask.ts            ← understand → decide → explain → check
+│   ├── eligibility.ts    ← the yes/no rules (no AI) and follow-up questions
+│   ├── gemini.ts         ← Gemini calls, model backups, time limits
+│   ├── sarvam.ts         ← speech to text and text to speech
+│   ├── data.ts           ← loads the checked entries and their sources
+│   └── handlers.ts       ← input checks, rate limit, error replies
 ├── src/
-│   ├── content.ts        ← every word on the page, typed. Change copy here.
+│   ├── ask/              ← the Ask page
+│   │   ├── AskPage.tsx       mic, text box, conversation
+│   │   ├── AnswerCard.tsx    answer, verdicts, sources, Hear it
+│   │   ├── useVoiceInput.ts  recording + the voice fallback ladder
+│   │   └── copy.ts           every word on the page, English and Tamil
+│   ├── content.ts        ← every word on the landing page, typed
 │   ├── hooks.ts          ← language, voice, reveal-on-scroll, reduced motion
 │   ├── styles.css        ← one stylesheet with design tokens on :root
-│   ├── App.tsx
-│   └── components/
-│       ├── Nav.tsx           EN / தமிழ் switch
-│       ├── Hero.tsx          icons inside the headline + "Hear it" sticker
-│       ├── WhatItDoes.tsx    Check · Explain · Ask demo cards
-│       ├── Sections.tsx      features, sources, roadmap, FAQ
-│       ├── Personas.tsx      seniors, farmers, students, workers, women
-│       ├── SampleFan.tsx     fanned stack of sample questions
-│       ├── Footer.tsx        blue fade, giant wordmark, draggable stickers
-│       └── Icon.tsx          one SVG sprite, recolours with currentColor
-├── prototype/index.html  ← the first single-file version
+│   └── components/       ← landing page sections
+├── data/                 ← checked facts, saved sources, checker scripts
+├── DATA-SOURCES.md       ← where Tamil Nadu's official data lives
 ├── FLOW.md               ← sitemap, user flows, word rules, all page copy
 └── docs/                 ← images for this README
 ```
@@ -139,11 +255,13 @@ These are the choices that make Sollu feel like Sollu.
 
 **Voice first, text always.** The mic gets the biggest button. Every answer can be heard *and* read.
 
-**Playful where it's safe, calm where it matters.** The stickers and the giant wordmark are there to make a government topic feel friendly. The parts about money and rights stay calm and clear.
+**Spoken Tamil, not textbook Tamil.** The Ask page talks the way people talk: *"பேச தட்டுங்க"*, not formal written Tamil.
 
-**Motion that gets out of the way.** Things rise in once, then stop. Buttons press down a little when tapped. If your phone asks for less motion, the page listens.
+**Playful where it's safe, calm where it matters.** The stickers and the giant wordmark make a government topic feel friendly. The parts about money and rights stay calm and clear.
 
-**Honest by default.** Sample UI is labelled "Sample". Nothing on the page claims users we don't have.
+**Motion that gets out of the way.** Things rise in once, then stop. Buttons press down a little when tapped. The mic pulses only while it's listening. If your phone asks for less motion, the page listens.
+
+**Honest by default.** Sample UI is labelled "Sample". Answers show their source and the date it was checked. Nothing on the page claims users we don't have.
 
 <details>
 <summary><b>Where the look came from</b></summary>
@@ -152,7 +270,8 @@ These are the choices that make Sollu feel like Sollu.
 
 - **Layout ideas:** a lead-generation landing page shot on Dribbble. From it came the big numbers, the icons inside the headline letters, the tilted stickers, the bento cards and the fanned card stack.
 - **Footer idea:** [stickitupx.com](https://stickitupx.com). From it came the giant white wordmark on a blue fade with stickers you can drag.
-- No art or code was copied from either. The stickers and icons are drawn as SVG in this repo.
+- **Icon:** the winking blue face is Sollu's own icon.
+- No art or code was copied from either reference. The stickers and icons are drawn as SVG in this repo.
 
 </details>
 
@@ -162,11 +281,15 @@ These are the choices that make Sollu feel like Sollu.
 
 - [x] Landing page in English and Tamil
 - [x] Product flow and copy for every page ([FLOW.md](FLOW.md))
-- [ ] Ask screen with voice in and voice out
+- [x] Official data sources researched ([DATA-SOURCES.md](DATA-SOURCES.md))
+- [x] Checked demo data: 19 schemes, 5 rights topics, 3 notices
+- [x] Ask screen with voice in and voice out, and a text fallback
+- [x] Source card on every answer
+- [ ] Ask page live on Vercel (keys)
+- [ ] Owner check of every amount (human review)
 - [ ] Scheme check: 5 questions → schemes you may fit
 - [ ] Explain a notice from a photo or PDF
-- [ ] Rights library for everyday problems
-- [ ] Source card on every answer
+- [ ] Test on low-cost Android phones with real people
 - [ ] Pilot with real people, then replace the samples with real stories (with consent)
 
 **Version 2 — All of India**
@@ -181,7 +304,7 @@ These are the choices that make Sollu feel like Sollu.
 The most useful help isn't code.
 
 - **Tamil speakers:** read the Tamil lines and tell me where they sound stiff or wrong.
-- **People who work with schemes** (e-Sevai operators, NGO staff, ward volunteers): tell me which questions people actually ask.
+- **People who work with schemes** (e-Sevai operators, NGO staff, ward volunteers): tell me which questions people actually ask, and which amounts have changed.
 - **Developers:** issues and pull requests are welcome. Please keep the copy plain and the claims honest.
 
 ## Credits
@@ -190,28 +313,32 @@ The most useful help isn't code.
 |---|---|---|
 | Instrument Sans, Noto Sans Tamil, Source Serif 4, Geist Mono | [Fontsource](https://fontsource.org) | SIL OFL 1.1 |
 | React, Vite, TypeScript | npm | MIT / Apache-2.0 |
+| Speech to text and text to speech | [Sarvam AI](https://www.sarvam.ai) (API) | Sarvam's terms |
+| Understanding and explaining questions | [Google Gemini](https://ai.google.dev) (API) | Google's terms |
+| Scheme, rights and notice facts | Government of India and Government of Tamil Nadu websites, listed per entry in [data/](data/README.md) | Public government information |
 | Badges | [shields.io](https://shields.io) | CC0 |
 
 ## AI use and responsibility
 
-In creating this project, I collaborated with **Claude Code (Anthropic's Claude Opus 5.5)**, the only AI tool I used, to assist with research, writing code, finding and fixing bugs, and drafting documentation.
+In creating this project, I collaborated with **Claude Code (Anthropic's Claude Opus 5.5)**, the only AI tool I used to build it, to assist with research, writing code, finding and fixing bugs, and drafting documentation. The Ask feature itself calls two outside AI services at run time, Google Gemini and Sarvam AI, as described in [Voice first](#voice-first-text-always).
 
-**What I did myself:** I came up with the idea: an AI that explains government notices, schemes and local laws in plain language and regional languages, starting with Tamil Nadu and then all of India. I picked the two design references (the Dribbble landing page and the Stick It Up footer) and asked for the same white wordmark and blue fade. I asked for the step-by-step flow and for words chosen carefully so the product is clear. I looked at other names and chose to keep "Sollu". I asked for the TypeScript rebuild to match the first version pixel for pixel, chose the public repo, and picked the sollu-ai.vercel.app address.
+**What I did myself:** I came up with the idea: an AI that explains government notices, schemes and local laws in plain language and regional languages, starting with Tamil Nadu and then all of India. I set the goal and the rule that Sollu is voice first and falls back to text only when voice doesn't work. I picked the two design references and the name "Sollu". I chose which groups the demo data covers (school and college students, seniors, farmers, workers and women), the 5 rights topics and the 3 notices. I asked for every fact to be checked against official sources, and I reviewed and approved that data before it was merged. I chose Gemini and Sarvam for the Ask feature, provided the API keys and the Sollu icon, and reviewed and approved each pull request.
 
 **What the AI helped with:**
 
 - Writing the product flow, sitemap, word rules and page copy in FLOW.md, based on my brief
-- Designing and building the first HTML version, then the TypeScript and React version
-- Drawing the SVG stickers and icons, and picking open-source fonts
-- Suggesting names, with their meanings and risks
-- Running checks: type checks, builds, screenshots, a pixel-by-pixel compare between the two versions, and phone-size tests
-- Setting up GitHub and Vercel, and drafting this README and the commit messages, which I then edited and approved
+- Building the landing page, first in HTML, then in TypeScript and React
+- Researching official data sources, collecting the scheme, rights and notice facts, and writing the checker that matches every quote to its saved source
+- Designing and building the Ask feature: the server functions, eligibility rules, number check, voice fallback ladder and the Ask page
+- Writing and running the 22-question test set, type checks, builds and browser checks at phone and desktop size
+- Cutting out the Sollu icon for the logo and browser tab
+- Setting up GitHub and Vercel, and drafting this README, the pull requests and the commit messages, which I then reviewed and approved
 
-**How I reviewed it:** I looked at the screenshots at each step and gave direction, like asking for the footer to match my reference and for the TypeScript version to match the first one exactly. The TypeScript version was compared to the first version with a screenshot diff before it shipped. Anything not built yet is marked 🟠 in [What's real today](#whats-real-today), and every demo card on the site is labelled "Sample".
+**How I reviewed it:** I looked at screenshots and test results at each step and gave direction. The data and the Ask feature each went through a pull request that I approved before merging. Every data entry carries its official source and a review note, and entries that might be out of date are marked "caution" and say so on screen. Anything not built or not confirmed yet is marked 🟠 in [What's real today](#whats-real-today).
 
 I affirm that all AI-generated and co-created content underwent thorough review and evaluation. The final output accurately reflects my understanding, expertise, and intended meaning. While AI assistance was instrumental in the process, I maintain full responsibility for the content, its accuracy, and its presentation.
 
-**Context:** This is a personal portfolio project and an early product idea. It is not a school assignment, not a product of any company, and not a government service. The scheme examples on the site are samples, not checked facts. This disclosure is made in the spirit of transparency and to acknowledge the role of AI in the creation process.
+**Context:** This is a personal portfolio project and an early product idea. It is not a school assignment, not a product of any company, and not a government service. The landing page's demo cards are samples. The Ask page answers only from the 27 checked entries, and a person still needs to confirm that every amount is current. This disclosure is made in the spirit of transparency and to acknowledge the role of AI in the creation process.
 
 ## License
 

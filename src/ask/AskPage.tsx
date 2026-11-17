@@ -218,7 +218,7 @@ export function AskPage() {
       <IconSprite />
       <header className="ask-top">
         <a href="/" className="logo" aria-label={`Sollu ${t.back}`}>
-          <span className="logo-mark"><Icon name="chat" size={16} /></span>
+          <img className="logo-mark" src="/sollu-icon.png" width={28} height={28} alt="" />
           Sollu
         </a>
         <div className="ask-top-right">

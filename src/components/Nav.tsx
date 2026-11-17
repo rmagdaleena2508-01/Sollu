@@ -1,7 +1,6 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 import type { CSSProperties } from 'react';
 import type { Lang } from '../content';
-import { Icon } from './Icon';
 
 interface NavProps {
   lang: Lang;
@@ -53,7 +52,7 @@ export function Nav({ lang, onLang }: NavProps) {
     <header className="nav">
       <div className="wrap">
         <a href="#top" className="logo" aria-label="Sollu home">
-          <span className="logo-mark"><Icon name="chat" size={16} /></span>
+          <img className="logo-mark" src="/sollu-icon.png" width={28} height={28} alt="" />
           Sollu
         </a>
         <nav className="nav-links" aria-label="Main">
