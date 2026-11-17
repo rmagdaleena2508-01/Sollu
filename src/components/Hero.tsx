@@ -122,22 +122,22 @@ export function Hero({ lang }: { lang: Lang }) {
             </div>
           ))}
         </div>
-        <div className="joined rise" style={delay('.08s')}>
+        <div className="joined rise" style={delay('.04s')}>
           <FacesSticker />
           <span>{t.pill}</span>
         </div>
-        <h1 id="h1" className="rise" style={delay('.16s')}>
+        <h1 id="h1" className="rise" style={delay('.08s')}>
           {lang === 'en' ? <HeadlineEn /> : <HeadlineTa />}
         </h1>
-        <p className="hero-sub rise" style={delay('.26s')} lang={lang}>{t.sub}</p>
-        <div className="ctas rise" style={delay('.36s')}>
+        <p className="hero-sub rise" style={delay('.12s')} lang={lang}>{t.sub}</p>
+        <div className="ctas rise" style={delay('.16s')}>
           <a href="/ask" className="btn btn-dark btn-lg">
             <Icon name="mic" size={18} />
             <span>{t.cta1}</span>
           </a>
           <a href="#what" className="btn btn-ghost btn-lg">{t.cta2}</a>
         </div>
-        <p className="micro rise" style={delay('.44s')}>{t.micro}</p>
+        <p className="micro rise" style={delay('.2s')}>{t.micro}</p>
       </div>
     </section>
   );

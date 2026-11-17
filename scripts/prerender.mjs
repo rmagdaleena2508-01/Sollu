@@ -12,7 +12,15 @@ const SITE = 'https://sollu-ai.vercel.app';
 
 const { render, faqs } = await import(pathToFileURL(join(root, 'dist-ssr', 'entry-server.js')).href);
 
-const template = readFileSync(join(dist, 'index.html'), 'utf8');
+let template = readFileSync(join(dist, 'index.html'), 'utf8');
+
+// Put the stylesheet inside the HTML. The page can then draw as soon as the HTML arrives, without
+// waiting for a second request (about one round trip, roughly 0.3 s on slow 4G).
+const cssLink = template.match(/<link rel="stylesheet"[^>]*href="(\/assets\/[^"]+\.css)"[^>]*>/);
+if (cssLink) {
+  const css = readFileSync(join(dist, cssLink[1]), 'utf8');
+  template = template.replace(cssLink[0], () => `<style>${css}</style>`);
+}
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 
 const pages = [
