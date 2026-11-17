@@ -184,7 +184,7 @@ export const faqs: [q: string, a: string][] = [
 ];
 
 export const footerCols: { title: string; links: [label: string, href: string][] }[] = [
-  { title: 'Product', links: [['Ask', '#ask'], ['Schemes', '#what'], ['Notices', '#what'], ['Rights', '#people'], ['Saved', '#top']] },
+  { title: 'Product', links: [['Ask', '/ask'], ['Schemes', '#what'], ['Notices', '#what'], ['Rights', '#people'], ['Saved', '#top']] },
   { title: 'Learn', links: [['How it works', '#trust'], ['Sources', '#trust'], ['Languages', '#top'], ['Roadmap', '#top']] },
   { title: 'Help', links: [['For helpers', '#top'], ['Report a wrong answer', '#top'], ['Contact', '#top'], ['FAQ', '#faq-h']] },
   { title: 'Legal', links: [['Privacy', '#top'], ['Terms', '#top'], ['Not legal advice', '#top']] },

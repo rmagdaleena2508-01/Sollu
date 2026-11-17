@@ -13,7 +13,8 @@ const langs: { id: Lang; label: string; style?: CSSProperties }[] = [
   { id: 'ta', label: 'தமிழ்', style: { fontFamily: "'Noto Sans Tamil',sans-serif" } },
 ];
 
-export function Nav({ lang, onLang }: NavProps) {
+/** EN / தமிழ் switch with a sliding thumb. Used on the landing page and the Ask page. */
+export function LangToggle({ lang, onLang }: NavProps) {
   const btns = useRef<Record<Lang, HTMLButtonElement | null>>({ en: null, ta: null });
   const [thumb, setThumb] = useState<CSSProperties>({});
 
@@ -29,6 +30,26 @@ export function Nav({ lang, onLang }: NavProps) {
   }, [lang]);
 
   return (
+    <div className="lang" role="group" aria-label="Language">
+      <span className="thumb" aria-hidden="true" style={thumb} />
+      {langs.map((l) => (
+        <button
+          key={l.id}
+          ref={(el) => { btns.current[l.id] = el; }}
+          type="button"
+          aria-pressed={lang === l.id}
+          style={l.style}
+          onClick={() => onLang(l.id)}
+        >
+          {l.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+export function Nav({ lang, onLang }: NavProps) {
+  return (
     <header className="nav">
       <div className="wrap">
         <a href="#top" className="logo" aria-label="Sollu home">
@@ -42,22 +63,8 @@ export function Nav({ lang, onLang }: NavProps) {
           <a href="#trust">How it works</a>
         </nav>
         <div className="nav-right">
-          <div className="lang" role="group" aria-label="Language">
-            <span className="thumb" aria-hidden="true" style={thumb} />
-            {langs.map((l) => (
-              <button
-                key={l.id}
-                ref={(el) => { btns.current[l.id] = el; }}
-                type="button"
-                aria-pressed={lang === l.id}
-                style={l.style}
-                onClick={() => onLang(l.id)}
-              >
-                {l.label}
-              </button>
-            ))}
-          </div>
-          <a href="#ask" className="btn btn-dark">Ask Sollu</a>
+          <LangToggle lang={lang} onLang={onLang} />
+          <a href="/ask" className="btn btn-dark">Ask Sollu</a>
         </div>
       </div>
     </header>

@@ -27,6 +27,11 @@ const symbols = {
   home: <g {...stroke} strokeWidth={2}><path d="M3 11 12 4l9 7M5 10v10h14V10" /></g>,
   'plus-cross': <g {...stroke} strokeWidth={2}><rect x="3.5" y="3.5" width="17" height="17" rx="4" /><path d="M12 8v8M8 12h8" /></g>,
   rupee: <g {...stroke} strokeWidth={2}><path d="M7 4h11M7 9h11M7 4c6 0 6 10 0 10h-1l8 7" /></g>,
+  stop: <rect fill="currentColor" x="6" y="6" width="12" height="12" rx="2.5" />,
+  send: <g {...stroke} strokeWidth={2.2}><path d="M12 19V5M6 11l6-6 6 6" /></g>,
+  volume: <g {...stroke} strokeWidth={2}><path d="M11 5 6 9H3v6h3l5 4zM15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" /></g>,
+  external: <g {...stroke} strokeWidth={2}><path d="M14 4h6v6M20 4l-9 9M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4" /></g>,
+  info: <g {...stroke} strokeWidth={2}><circle cx="12" cy="12" r="9" /><path d="M12 11v5M12 8h.01" /></g>,
 } as const;
 
 export type IconName = keyof typeof symbols;

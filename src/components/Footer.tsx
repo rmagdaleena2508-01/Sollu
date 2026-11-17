@@ -147,7 +147,7 @@ export function FinalCta() {
       <div className="wrap">
         <h2 id="final-h" className="reveal">Ready to know what's yours?</h2>
         <div className="ctas reveal" style={delay('.1s')}>
-          <a href="#ask" className="btn btn-dark btn-lg">Ask Sollu<Icon name="arrow" size={18} /></a>
+          <a href="/ask" className="btn btn-dark btn-lg">Ask Sollu<Icon name="arrow" size={18} /></a>
           <CopyChip />
         </div>
       </div>

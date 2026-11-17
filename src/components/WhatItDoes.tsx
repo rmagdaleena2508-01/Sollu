@@ -38,7 +38,7 @@ function CheckCard() {
           'Tap what fits you.'
         )}
       </p>
-      <a href="#ask" className="btn btn-dark">Check now</a>
+      <a href="/ask" className="btn btn-dark">Check now</a>
       <div className="circles" aria-hidden="true">
         {schemeCircles.map((c) => (
           <span key={c.icon} style={{ color: c.color }}><Icon name={c.icon} /></span>

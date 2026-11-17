@@ -16,9 +16,12 @@ import '@fontsource/geist-mono/500.css';
 
 import './styles.css';
 import { App } from './App';
+import { AskPage } from './ask/AskPage';
+
+const onAsk = location.pathname.replace(/\/+$/, '') === '/ask';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    {onAsk ? <AskPage /> : <App />}
   </StrictMode>,
 );
