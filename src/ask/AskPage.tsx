@@ -33,12 +33,17 @@ export function AskPage() {
   const [draft, setDraft] = useState('');
   const [playing, setPlaying] = useState<number | null>(null);
   const [loadingAudio, setLoadingAudio] = useState<number | null>(null);
+  /** True for a moment after voice fills the text box: it sends itself unless the person edits it. */
+  const [autoSend, setAutoSend] = useState(false);
 
   const inFlight = useRef<AbortController | null>(null);
   const audio = useRef<HTMLAudioElement | null>(null);
   const audioCache = useRef(new Map<number, string>());
-  const inputRef = useRef<HTMLInputElement | null>(null);
+  const inputRef = useRef<HTMLTextAreaElement | null>(null);
   const endRef = useRef<HTMLDivElement | null>(null);
+  const micRef = useRef<HTMLButtonElement | null>(null);
+  const draftRef = useRef(draft);
+  draftRef.current = draft;
   const entriesRef = useRef(entries);
   entriesRef.current = entries;
 
@@ -99,6 +104,7 @@ export function AskPage() {
       stopAudio();
       setNotice(null);
       setDraft('');
+      setAutoSend(false);
       const history: Turn[] = entriesRef.current.flatMap((e): Turn[] =>
         e.kind === 'user' ? [{ role: 'user', text: e.text }] : e.kind === 'answer' ? [{ role: 'sollu', text: spoken(e.res) }] : [],
       );
@@ -122,34 +128,56 @@ export function AskPage() {
   );
 
   // ---------- voice in ----------
+  // Spoken words go into the text box first, so people can see (and fix) what Sollu heard.
+  // Then they send by themselves after a short pause, unless the person starts editing.
+  const fillFromVoice = useCallback((text: string) => {
+    setDraft(text);
+    setAutoSend(true);
+  }, []);
+
   const voice = useVoiceInput({
     lang,
+    meterRef: micRef,
     onAudio: async (blob, cutShort) => {
       setPhase('hearing');
       setNotice(cutShort ? t.tooLong : null);
       try {
         const { transcript } = await transcribe(blob);
         setPhase('idle');
-        if (transcript) void send(transcript);
+        if (transcript) fillFromVoice(transcript);
         else setNotice(t.notHeard);
       } catch {
+        // The speech service itself failed (not the person): say so, and point to the text box.
         setPhase('idle');
-        setNotice(t.notHeard);
-        voice.fallBackToBrowser();
+        setNotice(t.voiceDown);
+        inputRef.current?.focus();
       }
     },
-    onText: (text) => void send(text),
+    onText: (text, final) => {
+      if (final) fillFromVoice(text);
+      else setDraft(text);
+    },
     onError: (kind) => {
-      setNotice(kind === 'blocked' ? t.micBlocked : t.notHeard);
-      if (kind === 'blocked') inputRef.current?.focus();
+      setNotice(kind === 'blocked' ? t.micBlocked : kind === 'no_voice' ? t.voiceDown : t.notHeard);
+      if (kind !== 'not_heard') inputRef.current?.focus();
     },
   });
+
+  useEffect(() => {
+    if (!autoSend) return;
+    const id = window.setTimeout(() => {
+      setAutoSend(false);
+      void send(draftRef.current);
+    }, 2600);
+    return () => window.clearTimeout(id);
+  }, [autoSend, send]);
 
   const onMic = () => {
     if (voice.state === 'recording') return voice.stop();
     if (busy) return;
     stopAudio();
     setNotice(null);
+    setAutoSend(false);
     void voice.start();
   };
 
@@ -167,6 +195,8 @@ export function AskPage() {
     setEntries([]);
     setPhase('idle');
     setNotice(null);
+    setAutoSend(false);
+    setDraft('');
   };
 
   useEffect(() => {
@@ -201,6 +231,7 @@ export function AskPage() {
 
   const micButton = (
     <button
+      ref={micRef}
       type="button"
       className={`mic${recording ? ' rec' : ''}${busy ? ' busy' : ''}`}
       onClick={onMic}
@@ -283,15 +314,29 @@ export function AskPage() {
       <footer className="ask-dock">
         {!empty && recording && <p className="ask-notice live tnum" aria-live="polite">{status}</p>}
         {notice && <p className="ask-notice" role="status">{notice}</p>}
+        {autoSend && (
+          <div className="ask-autosend" role="status">
+            <span className="ask-autosend-bar" aria-hidden="true" />
+            <span>{t.autoSending}</span>
+            <button type="button" onClick={() => { setAutoSend(false); inputRef.current?.focus(); }}>{t.edit}</button>
+          </div>
+        )}
         <div className="ask-dock-row">
           {!empty && micButton}
-          <form className="ask-form" onSubmit={onSubmit}>
+          <form className={`ask-form${autoSend ? ' heard' : ''}`} onSubmit={onSubmit}>
             <label className="sr" htmlFor="ask-input">{t.typeHere}</label>
-            <input
+            <textarea
               id="ask-input"
               ref={inputRef}
+              rows={1}
               value={draft}
-              onChange={(e) => setDraft(e.target.value)}
+              onChange={(e) => { setAutoSend(false); setDraft(e.target.value); }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) {
+                  e.preventDefault();
+                  void send(draft);
+                }
+              }}
               placeholder={recording ? t.listening : t.typeHere}
               maxLength={500}
               autoComplete="off"

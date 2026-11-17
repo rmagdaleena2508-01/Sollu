@@ -67,7 +67,7 @@ I'd rather show you an honest list than a big promise.
 | Official data sources for Tamil Nadu, researched | ✅ Done, in [DATA-SOURCES.md](DATA-SOURCES.md) |
 | **Checked demo data:** 19 schemes, 5 rights topics, 3 real notices | ✅ Done, in [data/](data/README.md). Every fact is quoted from an official page |
 | **Ask page** at `/ask`: speak or type, get a checked answer read aloud | ✅ Built and tested on my machine ([how](#how-i-tested-it)) |
-| Ask page on the live site | 🟠 Waiting for the API keys to be added in Vercel |
+| Ask page on the live site | ✅ Keys added. Fixed the first live bug ([what happened](#how-i-built-it)) |
 | A person (me) confirming every amount is still current | 🟠 Pending. Entries that may be out of date say so on screen |
 | Explain a notice from a photo, Check (5 questions), Find an office | 🟠 Not built yet |
 
@@ -98,13 +98,14 @@ flowchart TD
     I --> J["🔊 Sarvam reads it out loud in Tamil or English"]
 ```
 
-1. **You speak.** Tap the mic once, talk, tap again to stop (it stops by itself at 28 seconds). The audio goes to Sarvam's speech-to-text (`saaras:v4`). It works out the language on its own, so Tamil, English and Tamil-English mixed all work.
-2. **Sollu understands.** Gemini reads the question and picks up to 3 entries from the checked data. It also writes down facts you said, like "67 years old" or "family income 1 lakh". It can only pick entries that exist.
-3. **Our code decides, not the AI.** Rules in [`server/eligibility.ts`](server/eligibility.ts) compare your facts with each scheme's age, income, gender and community limits. The answer is **may fit**, **need one detail** or **doesn't fit**.
-4. **One question at a time.** If a fact is missing, Sollu asks one short, fixed question, like *"அவங்களுக்கு எத்தனை வயசு?"* (How old are they?). You answer, and Sollu remembers the conversation.
-5. **Sollu explains.** Gemini writes at most 3 short lines in the language you used, using only the checked facts.
-6. **Sollu checks itself.** Every number in the answer must appear in the checked facts or in what you said. Numbers written as words and broken text are rejected too.
-7. **You hear it.** Sarvam's text-to-speech (`bulbul:v4-flash`) reads the answer out loud with a Tamil voice. Each answer shows the official source link and the date it was checked. Entries a reviewer marked "caution" also say *"confirm at the office before you apply"*.
+1. **You speak.** Tap the mic once and talk. A ring around the mic grows with your voice, so you can see it hears you. When you stop talking, it stops by itself (or tap again, and it never goes past 28 seconds). The audio goes to Sarvam's speech-to-text (`saaras:v4`). It works out the language on its own, so Tamil, English and Tamil-English mixed all work.
+2. **You see what Sollu heard.** Your words appear in the text box, with a green *"Sending what I heard…"* bar. If they're right, they send by themselves in about 2 seconds. If not, tap **Edit** (or the text) and fix them first.
+3. **Sollu understands.** Gemini reads the question and picks up to 3 entries from the checked data. It also writes down facts you said, like "67 years old" or "family income 1 lakh". It can only pick entries that exist.
+4. **Our code decides, not the AI.** Rules in [`server/eligibility.ts`](server/eligibility.ts) compare your facts with each scheme's age, income, gender and community limits. The answer is **may fit**, **need one detail** or **doesn't fit**.
+5. **One question at a time.** If a fact is missing, Sollu asks one short, fixed question, like *"அவங்களுக்கு எத்தனை வயசு?"* (How old are they?). You answer, and Sollu remembers the conversation.
+6. **Sollu explains.** Gemini writes at most 3 short lines in the language you used, using only the checked facts.
+7. **Sollu checks itself.** Every number in the answer must appear in the checked facts or in what you said. Numbers written as words and broken text are rejected too.
+8. **You hear it.** Sarvam's text-to-speech (`bulbul:v4-flash`) reads the answer out loud with a Tamil voice. Each answer shows the official source link and the date it was checked. Entries a reviewer marked "caution" also say *"confirm at the office before you apply"*.
 
 ## When things fail
 
@@ -113,9 +114,11 @@ Voice is the front door, so it can't be the only door. Every step has a backup, 
 | If this fails… | …Sollu does this |
 |---|---|
 | The phone has no mic, or the person says no to mic access | Says so in plain words and moves the cursor to the text box |
-| Sarvam can't turn the speech into text | Says *"Sorry, I couldn't hear that"* and uses the **browser's own speech recognition** next time |
-| The browser has no speech recognition either | The **text box** still works, always |
-| The recording is too short or empty | Asks you to try again, without sending anything |
+| The browser can't record audio at all | Uses the **browser's own speech recognition** instead, showing the words as you speak |
+| That browser has no working speech service either (Brave turns it off) | Says *"Voice isn't working right now"* and moves the cursor to the **text box**, which always works |
+| Sarvam's speech service is down | Says *"Voice isn't working right now. Please type"* (not "I couldn't hear you", because it isn't the person's fault) and moves the cursor to the text box |
+| The person taps the mic but says nothing | Stops after 8 seconds and asks them to try again. **Nothing is sent**, so no API call is wasted on silence |
+| Sollu heard the words wrong | The words wait in the text box for about 2 seconds. Tapping **Edit** stops the sending so they can fix them |
 | You talk for more than 28 seconds | Stops at 28 seconds, still answers, and tells you it stopped |
 | A Gemini model is busy (common on the free tier) | Waits up to 9 seconds, then tries the next model (3 models in a row) |
 | The AI answer has a number that isn't in the checked facts | Asks the AI to write it again. If it fails twice, shows the **plain checked facts** instead |
@@ -146,6 +149,36 @@ These are the choices I made as a full-stack engineer, and why.
 
 **9. Words for people, not engineers.** Follow-up questions, errors and notes are written by hand in English and spoken-style Tamil, not generated. They say the same thing every time.
 
+**10. Show what the machine heard.** Speech-to-text is never perfect, especially with noise, accents and mixed Tamil-English. So the words go into the text box first, where people can see them, instead of being sent straight away. People who can read can catch a mistake. People who can't don't have to do anything, because it sends by itself.
+
+**11. The mic listens for silence.** A small audio meter (Web Audio `AnalyserNode`) measures the room's background noise for the first moment, then watches for speech. It stops 1.6 seconds after the person stops talking. Low-literacy users shouldn't have to learn "tap again to stop", and it saves sending long silent recordings.
+
+<details>
+<summary><b>The first live bug, and what I learned</b></summary>
+
+<br>
+
+**What happened:** after the first deploy, every question on the live site said *"Sollu couldn't answer right now"*, and the mic never worked. It all worked on my machine.
+
+**How I found it:** I called the live API directly (500 errors on all 3 endpoints), then read the Vercel function logs:
+
+```text
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imported from /var/task/api/ask.js
+```
+
+**Why:** the project is an ES module (`"type": "module"`). In local development, Vite fills in missing file endings, so `import '../server/handlers'` worked. On Vercel, plain Node.js runs the code, and Node needs the full name: `'../server/handlers.js'`. All 3 functions crashed before they could run. The mic failed for the same reason: speech-to-text crashed, then the backup tried Brave's built-in speech recognition, which Brave turns off.
+
+**The fix:**
+
+1. Added `.js` endings to every server import.
+2. Ran `vercel build` on my machine and called the built functions directly. This tests the exact files Vercel runs, not the dev server.
+3. Made "the voice service is down" a different message from "I couldn't hear you".
+4. Made the backup recognizer give up cleanly when a browser has the feature but no service behind it.
+
+**Lesson:** "works on my machine" isn't tested. Test the build output the way production runs it.
+
+</details>
+
 <details>
 <summary><b>The trade-offs I chose</b></summary>
 
@@ -155,6 +188,7 @@ These are the choices I made as a full-stack engineer, and why.
 - **Two AI calls per question.** One to understand, one to explain. It's slower than one call (about 2 to 13 seconds in total), but it means the AI never sees entries that don't match, and the rules run in between.
 - **A simple rate limit.** It lives in memory, so it resets when the server restarts. Fine for a demo. A real launch needs a shared store.
 - **28-second recordings.** Sarvam's quick endpoint takes up to 30 seconds. Longer questions are rare, and the person can type or ask again.
+- **Words appear after you speak, not while you speak.** Sarvam also offers live streaming, which would show words as you talk. The 1-shot endpoint is simpler and more reliable for a demo, and a short question takes well under a second to transcribe. Streaming is a good next step.
 
 </details>
 
@@ -166,12 +200,15 @@ These are the choices I made as a full-stack engineer, and why.
 | Eligibility rules | The same questions check the verdicts: a 67-year-old *may fit* the old age pension, a family earning Rs 3 lakh *doesn't fit* CMCHIS, "my mother" with no age gets *one detail needed* | Correct in every case |
 | Number check | Early Tamil answers wrote amounts as words (*ஆயிரம்*), which slipped past the check. I added a rule for that and for broken text, then retested | Fixed |
 | Speech to text | Real Tamil audio sent through `/api/stt` as WAV and WebM | Word for word |
+| The mic, end to end | Spoken Tamil and English questions played into the page as a fake microphone: record → stop on silence → words in the text box → sent by itself → answer | Tamil came back as *"என் அம்மாவுக்கு 67 வயது. அவங்களுக்கு பென்ஷன் கிடைக்குமா?"*, word for word |
+| Mic failure paths | A silent mic, and a broken speech service | Silence: stops at 8 seconds and sends nothing. Broken service: *"Voice isn't working right now"*, cursor in the text box |
+| Production build | `vercel build`, then called the built functions directly with real keys | Ask and voice both return 200 |
 | Speech out | Tamil text through `/api/tts`, played in the browser | Plays, with the phone's voice as backup |
 | Page | Checked in a browser at phone size (390px) and desktop (1440px), in English and Tamil: sample questions, typing, follow-up, play and stop | No sideways scroll, everything works |
 | Code | `npm run build` (strict TypeScript + production build) | Passes |
 | Data | `python3 data/tools/check.py` on all 28 entries | 28 pass, 1 held back by review |
 
-**Not tested yet:** a live mic on a real, low-cost Android phone, and the Ask page on the live Vercel site (it needs the keys first).
+**Not tested yet:** a live mic on a real, low-cost Android phone and on an iPhone. The fake-mic test proves the code path, not every phone's mic.
 
 ## What you should know
 
@@ -285,7 +322,7 @@ These are the choices that make Sollu feel like Sollu.
 - [x] Checked demo data: 19 schemes, 5 rights topics, 3 notices
 - [x] Ask screen with voice in and voice out, and a text fallback
 - [x] Source card on every answer
-- [ ] Ask page live on Vercel (keys)
+- [x] Ask page live on Vercel
 - [ ] Owner check of every amount (human review)
 - [ ] Scheme check: 5 questions → schemes you may fit
 - [ ] Explain a notice from a photo or PDF
