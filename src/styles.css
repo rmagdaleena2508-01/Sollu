@@ -82,9 +82,7 @@ section[id]{scroll-margin-top:76px}
 .chip-ico svg{width:.26em;height:.26em}
 .hero h1 em{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.02em;letter-spacing:-.035em;color:var(--ink-72)}
 .joined{display:inline-flex;align-items:center;gap:8px;margin-bottom:20px;padding:4px 12px 4px 4px;border-radius:999px;background:var(--surface);font-size:13px;font-weight:500;color:var(--ink-72)}
-.joined .dots{display:flex}
-.joined .dots i{width:20px;height:20px;border-radius:999px;border:2px solid var(--surface);display:grid;place-items:center;font-style:normal;font-size:10px;color:#fff;font-weight:600}
-.joined .dots i+i{margin-left:-6px}
+.joined .faces{flex:none;height:30px;width:auto;filter:drop-shadow(0 1px 1.5px rgba(17,17,17,.18))}
 .hero-sub{margin-top:28px;max-width:720px;padding:18px 20px;border-radius:16px;background:var(--surface);font-family:var(--serif);font-size:19px;line-height:1.5;letter-spacing:-.015em;color:var(--ink-72)}
 .hero-sub[lang="ta"]{font-family:"Noto Sans Tamil",var(--sans);font-size:17px;line-height:1.7}
 .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;align-items:center}
@@ -92,13 +90,22 @@ section[id]{scroll-margin-top:76px}
 
 /* sticker */
 .sticker{position:absolute;right:max(var(--gutter),calc((100vw - 1180px)/2 + 32px));top:72px;width:clamp(150px,22vw,300px);aspect-ratio:1;display:grid;place-items:center}
-.sticker .rings{position:absolute;inset:0;border-radius:999px;background:repeating-radial-gradient(circle,rgba(255,75,58,.0) 0 10px,rgba(255,75,58,.16) 10px 12px);mask:radial-gradient(circle,#000 40%,transparent 72%);-webkit-mask:radial-gradient(circle,#000 40%,transparent 72%)}
+.sticker .rings{--dur:4.8s;position:absolute;inset:0;pointer-events:none}
+/* Faint fixed rings underneath, so the sticker never sits on a blank spot. */
+.sticker .rings::before{content:"";position:absolute;inset:0;border-radius:999px;opacity:.55;background:repeating-radial-gradient(circle,rgba(255,75,58,0) 0 10px,rgba(255,75,58,.16) 10px 12px);mask:radial-gradient(circle,#000 40%,transparent 72%);-webkit-mask:radial-gradient(circle,#000 40%,transparent 72%)}
+/* Four rings grow out from the centre one after another, like sound. Only transform and opacity animate. */
+.sticker .rings i{position:absolute;inset:4%;border-radius:999px;border:1.5px solid rgba(255,75,58,.42);opacity:0;transform:scale(.28);animation:ring-grow var(--dur) cubic-bezier(.22,1,.36,1) infinite;will-change:transform,opacity}
+.sticker .rings i:nth-child(2){animation-delay:calc(var(--dur) * -.25)}
+.sticker .rings i:nth-child(3){animation-delay:calc(var(--dur) * -.5)}
+.sticker .rings i:nth-child(4){animation-delay:calc(var(--dur) * -.75)}
+@keyframes ring-grow{0%{transform:scale(.28);opacity:0}12%{opacity:.85}100%{transform:scale(1.04);opacity:0}}
+/* While Sollu is talking the rings come faster and a little stronger. */
+.sticker.speaking .rings{--dur:2.2s}
+.sticker.speaking .rings i{border-color:rgba(255,75,58,.6);border-width:2px}
 .sticker button{position:relative;display:flex;align-items:center;gap:.3em;padding:.22em .5em .26em .55em;border-radius:.28em;background:var(--coral);color:#fff;font-size:clamp(30px,4.4vw,60px);font-weight:500;letter-spacing:-.03em;transform:rotate(-14deg);box-shadow:inset 0 -6px 12px rgba(150,20,10,.25),inset 0 2px 0 rgba(255,255,255,.35),0 20px 40px -16px rgba(255,75,58,.7);transition:transform 200ms var(--ease-out)}
 .sticker button:active{transform:rotate(-14deg) scale(.96)}
 .sticker .play{display:grid;place-items:center;width:.62em;height:.62em;border-radius:999px;background:#fff;color:var(--coral);position:absolute;right:-.24em;bottom:-.2em;box-shadow:0 4px 10px rgba(0,0,0,.18)}
 .sticker .play svg{width:.28em;height:.28em;margin-left:.04em}
-.sticker.speaking .rings{animation:pulse 1.4s var(--ease-out) infinite}
-@keyframes pulse{from{transform:scale(.85);opacity:1}to{transform:scale(1.1);opacity:.3}}
 @media (max-width:767px){.hero{padding-bottom:150px}.sticker{top:auto;bottom:4px;right:16px;width:140px}.sticker button{font-size:26px}}
 
 /* ---------- sections ---------- */
@@ -114,7 +121,7 @@ section{padding:80px 0}
 .reveal.in{opacity:1;transform:none;filter:none}
 .rise{animation:rise .8s var(--ease-rise) var(--d,0s) both}
 @keyframes rise{from{opacity:0;transform:translate3d(0,16px,0);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
-@media (prefers-reduced-motion:reduce){.rise{animation:none}.reveal{opacity:1;transform:none;filter:none;transition:none}.sticker.speaking .rings{animation:none}}
+@media (prefers-reduced-motion:reduce){.rise{animation:none}.reveal{opacity:1;transform:none;filter:none;transition:none}.sticker .rings i{display:none}.sticker .rings::before{opacity:1}}
 
 /* ---------- bento ---------- */
 .bento{display:grid;gap:16px}

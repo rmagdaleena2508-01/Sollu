@@ -257,7 +257,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 11 | **The voice starts in about 1.7 seconds** instead of about 6, by streaming it. | [#9](https://github.com/rmagdaleena2508-01/Sollu/pull/9) |
 | 12 | **The landing page matches what Sollu really does:** real scheme counts, no features that don't exist, and every link goes somewhere real. | [#11](https://github.com/rmagdaleena2508-01/Sollu/pull/11) |
 | 13 | The top bar shortcuts use the names of the sections on the page, in order. | [#12](https://github.com/rmagdaleena2508-01/Sollu/pull/12) |
-| 14 | **Explain a notice cards:** the 3 checked notices as cards on the Ask page, with saved Tamil and English answers. The landing page's notice card now shows the real census notice and opens its explanation. The top bar says "FAQs" at its original size. | this change |
+| 14 | **Explain a notice cards:** the 3 checked notices as cards on the Ask page, with saved Tamil and English answers. The landing page's notice card now shows the real census notice and opens its explanation. The top bar says "FAQs" at its original size. | [#13](https://github.com/rmagdaleena2508-01/Sollu/pull/13) |
+| 15 | **"Hear it" plays Sollu introducing itself** in Sarvam's Tamil or English voice (recorded once, about 8 seconds). The rings behind it now grow outward like sound, faster while it talks. A three-face sticker drawn for Sollu sits next to the pill, which now says "Trusted by citizens in Tamil Nadu. All of India next." | this change |
 
 ### Problems I hit, and how I fixed them
 
@@ -412,7 +413,7 @@ These are the choices that make Sollu feel like Sollu.
 <br>
 
 - **Layout ideas:** a lead-generation landing page shot on Dribbble. From it came the big numbers, the icons inside the headline letters, the tilted stickers, the bento cards and the fanned card stack.
-- **Footer idea:** [stickitupx.com](https://stickitupx.com). From it came the giant white wordmark on a blue fade with stickers you can drag.
+- **Footer idea:** [stickitupx.com](https://stickitupx.com). From it came the giant white wordmark on a blue fade with stickers you can drag, and the idea of a row of face stickers next to the pill at the top. The three faces are drawn for Sollu (one winks, like the Sollu icon).
 - **Icon:** the winking blue face is Sollu's own icon.
 - No art or code was copied from either reference. The stickers and icons are drawn as SVG in this repo.
 
