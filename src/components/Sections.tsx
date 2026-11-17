@@ -77,7 +77,7 @@ export function Trust() {
 
 export function Roadmap() {
   return (
-    <section aria-labelledby="road-h" style={{ paddingTop: 0 }}>
+    <section id="roadmap" aria-labelledby="road-h" style={{ paddingTop: 0 }}>
       <div className="wrap">
         <div className="intro reveal" style={{ marginBottom: 0 }}>
           <span className="label">Roadmap</span>
@@ -104,7 +104,7 @@ export function Roadmap() {
 
 export function Faq() {
   return (
-    <section aria-labelledby="faq-h" style={{ paddingTop: 0 }}>
+    <section id="faq" aria-labelledby="faq-h" style={{ paddingTop: 0 }}>
       <div className="wrap">
         <div className="intro reveal">
           <span className="label">Questions</span>
