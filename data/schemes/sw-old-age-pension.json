@@ -8,7 +8,7 @@
   "audiences": [
     "seniors"
   ],
-  "benefit": "You get Rs 1,000 every month. You also get a free saree or dhoti at Pongal and Deepavali, and free rice at the Anganwadi centre.",
+  "benefit": "You get Rs 1,200 every month (raised from Rs 1,000 in August 2023). It stays Rs 1,200 at age 80 and above. You also get a free saree or dhoti at Pongal and Deepavali, and free rice at the Anganwadi centre.",
   "eligibility": {
     "age_min": 60,
     "age_max": null,
@@ -38,6 +38,7 @@
   "helpline": null,
   "go_number": null,
   "sources": [
+    "ss-cra-schemes-ta",
     "sw-oap-myscheme"
   ],
   "evidence": [
@@ -45,11 +46,6 @@
       "field": "department",
       "source": "sw-oap-myscheme",
       "quote": "launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu"
-    },
-    {
-      "field": "benefit",
-      "source": "sw-oap-myscheme",
-      "quote": "₹1,000/- per month."
     },
     {
       "field": "benefit",
@@ -110,26 +106,41 @@
       "field": "where_to_apply",
       "source": "sw-oap-myscheme",
       "quote": "Online - via CSCs"
+    },
+    {
+      "field": "benefit",
+      "source": "ss-cra-schemes-ta",
+      "quote": "இதர ஓய்வூதியத் திட்டங்களின் (மாற்றுத்திறனாளிகள் ஓய்வூதியத் திட்டம் தவிர்த்து) கீழ் பயன்பெறும் பயனாளிகளுக்கான ஓய்வூதியம் ஆகஸ்டு-2023 முதல் ரூ.1,200/- ஆகவும், உயர்த்தி வழங்கப்பட்டு வருகிறது"
+    },
+    {
+      "field": "benefit",
+      "source": "ss-cra-schemes-ta",
+      "quote": "இந்திராகாந்தி தேசிய முதியோர் ஓய்வூதியத் திட்டம்\n60 வயது முதல் 79 வயது வரை\n200/-\n1000/-\n1200/-\n80 வயது மற்றும் அதற்கு மேற்பட்டவயது\n500/-\n700/-\n1200/-"
+    },
+    {
+      "field": "benefit",
+      "source": "ss-cra-schemes-ta",
+      "quote": "ஆண் பயனாளிகளுக்கு ஒரு வேட்டியும், பெண் பயனாளிகளுக்கு ஒரு சேலையும் வழங்கப்பட்டு வருகிறது"
     }
   ],
   "gaps": [
     "The myScheme 'Details' paragraph wrongly names this scheme 'The Indira Gandhi National Widow Pension Scheme' (copy error on the page); the page title and eligibility are for old age pension.",
     "Source does not give a rupee income limit; it only says Below Poverty Line.",
-    "Source does not say how much of the pension is paid by the Centre vs the State, so level is set to 'state' (TN department runs it).",
     "No helpline or G.O. number in the source.",
-    "Pension amount is from myScheme (page last updated 18/09/2026); not cross-checked with a TN Social Welfare G.O."
+    "The myScheme page still says Rs 1,000 a month; the official Revenue Administration page (Rs 1,200 from August 2023) is newer and is used.",
+    "Of the Rs 1,200, the Centre pays Rs 200 and the State Rs 1,000 for ages 60 to 79; the Centre Rs 500 and the State Rs 700 at 80 and above (Revenue Administration page). A separate report said Rs 1,500 at 80 and above; the official page does not support that."
   ],
   "review": {
-    "demo_use": "caution",
-    "note": "Amount Rs 1,000 a month is from myScheme and not cross-checked with a current Tamil Nadu G.O.; the amount may have been revised. Re-check before saying the figure aloud.",
+    "demo_use": "ready",
+    "note": "Amount confirmed on the official Revenue Administration page: Rs 1,200 a month from August 2023, the same at 80 and above. Eligibility (destitute, Below Poverty Line) still has to be checked for each person.",
     "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
     "reviewed_on": "2026-11-17",
-    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+    "human_review": "done 2026-11-17: the project owner checked the amounts against a separate report, and the pension amount was then confirmed on the official Commissionerate of Revenue Administration page (cra.tn.gov.in, Tamil), which lists Rs 1,200 a month from August 2023."
   },
   "verification": {
     "status": "verified",
     "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-    "checked_at": "2026-11-17T05:19:02+00:00",
+    "checked_at": "2026-11-17T13:55:04+00:00",
     "problems": [],
     "human_review": "pending"
   }

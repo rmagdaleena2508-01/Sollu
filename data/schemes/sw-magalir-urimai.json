@@ -89,15 +89,15 @@
   ],
   "review": {
     "demo_use": "caution",
-    "note": "Official portal could not be saved; age, income and apply rules missing; status after the 2026 change of government not confirmed. Only say what the 2023 Gazette says, and point to e-Sevai for current rules.",
+    "note": "Rs 1,000 a month (Rs 12,000 a year) is the latest regular amount the owner could confirm. A one-time Rs 5,000 payment in February 2026 was not a permanent rise, and a proposed rise to Rs 2,000 a month is not confirmed. Our saved source is the 2023 Gazette.",
     "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
     "reviewed_on": "2026-11-17",
-    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+    "human_review": "done 2026-11-17: the project owner confirmed Rs 1,000 a month is still the regular amount; a proposed rise is not confirmed and needs a final check of the official notification."
   },
   "verification": {
     "status": "verified",
     "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-    "checked_at": "2026-11-17T05:19:02+00:00",
+    "checked_at": "2026-11-17T13:55:04+00:00",
     "problems": [],
     "human_review": "pending"
   }

@@ -68,7 +68,7 @@ I'd rather show you an honest list than a big promise.
 | **Checked demo data:** 19 schemes, 5 rights topics, 3 real notices | ✅ Done, in [data/](data/README.md). Every fact is quoted from an official page |
 | **Ask page** at `/ask`: speak or type, get a checked answer read aloud | ✅ Built and tested on my machine ([how](#how-i-tested-it)) |
 | Ask page on the live site | ✅ Keys added. Fixed the first live bug ([what happened](#how-i-built-it)) |
-| A person (me) confirming every amount is still current | 🟠 Pending. Entries that may be out of date say so on screen |
+| A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
 | Explain a notice from a photo, Check (5 questions), Find an office | 🟠 Not built yet |
 
 Every demo card on the landing page says **Sample**. There are no fake users, ratings or testimonials. Real ones come after the pilot.
@@ -221,7 +221,10 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 
 ## What you should know
 
-- **The data is checked, not current-proof.** The checker proves each fact matches an official page. It can't prove the page is up to date. Pension amounts, Magalir Urimai and the free bus scheme may have changed, so those answers carry a "confirm at the office" note. A person (me) still needs to confirm each amount.
+- **The data is checked, not current-proof.** The checker proves each fact matches an official page. It can't prove the page is up to date. Answers that may be out of date carry a "confirm at the office" note.
+- **Even official pages go out of date.** The myScheme pages and some district websites still say the old age and widow pensions are Rs 1,000 a month. I checked the amounts, and the official Revenue Administration page ([cra.tn.gov.in](https://www.cra.tn.gov.in/about_schemes_t.php), in Tamil) shows they rose to **Rs 1,200 from August 2023**, including for people aged 80 and above. A separate report said Rs 1,500 at 80+, but the official table doesn't support that, so Sollu says Rs 1,200. Sollu now uses the official page, and its data notes say which page was out of date.
+- **Amount isn't the same as eligibility.** Turning 60 doesn't make someone get Rs 1,200. Sollu always says the conditions too (for example "if she is destitute and Below Poverty Line").
+- **Magalir Urimai** stays at Rs 1,000 a month, the latest regular amount I could confirm. A proposed rise to Rs 2,000 isn't confirmed yet. **Free bus travel** is only on ordinary town buses. Both still carry the "confirm" note.
 - **The AI can still say things a little off.** For example, it sometimes says "will get" where it should say "may get". Numbers are checked strictly. Wording isn't.
 - **Free tier.** Gemini's free tier keeps requests for 1 day, even with storage off, and limits requests per minute. A real launch should move to a paid tier.
 - **Not legal advice.** Sollu explains rules. For a legal case, it points to free legal aid.
@@ -339,7 +342,8 @@ These are the choices that make Sollu feel like Sollu.
 - [x] Ask screen with voice in and voice out, and a text fallback
 - [x] Source card on every answer
 - [x] Ask page live on Vercel
-- [ ] Owner check of every amount (human review)
+- [x] Owner check of the pension, Magalir Urimai and free bus amounts
+- [ ] Owner check of every other amount
 - [ ] Scheme check: 5 questions → schemes you may fit
 - [ ] Explain a notice from a photo or PDF
 - [ ] Test on low-cost Android phones with real people

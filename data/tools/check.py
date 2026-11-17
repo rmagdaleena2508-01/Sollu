@@ -189,8 +189,8 @@ def main():
                "schemes": [e for e in live if e["type"] == "scheme"],
                "rights": [e for e in live if e["type"] == "right"],
                "notices": [e for e in live if e["type"] == "notice"]}
-        (ROOT / "data").mkdir(exist_ok=True)
-        (ROOT / "data" / "sollu-demo.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
+        # ROOT is the data/ folder, so this is data/sollu-demo.json, the file the app reads.
+        (ROOT / "sollu-demo.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
         print(f"built data/sollu-demo.json: {len(out['schemes'])} schemes, {len(out['rights'])} rights, {len(out['notices'])} notices")
 
 
