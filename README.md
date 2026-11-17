@@ -202,13 +202,14 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 | Speech to text | Real Tamil audio sent through `/api/stt` as WAV and WebM | Word for word |
 | The mic, end to end | Spoken Tamil and English questions played into the page as a fake microphone: record → stop on silence → words in the text box → sent by itself → answer | Tamil came back as *"என் அம்மாவுக்கு 67 வயது. அவங்களுக்கு பென்ஷன் கிடைக்குமா?"*, word for word |
 | Mic failure paths | A silent mic, and a broken speech service | Silence: stops at 8 seconds and sends nothing. Broken service: *"Voice isn't working right now"*, cursor in the text box |
+| Live site, real phone | I spoke a question into the mic on my own phone at [sollu-ai.vercel.app/ask](https://sollu-ai.vercel.app/ask) | Works: my words showed in the text box, sent by themselves, and the answer was read aloud |
 | Production build | `vercel build`, then called the built functions directly with real keys | Ask and voice both return 200 |
 | Speech out | Tamil text through `/api/tts`, played in the browser | Plays, with the phone's voice as backup |
 | Page | Checked in a browser at phone size (390px) and desktop (1440px), in English and Tamil: sample questions, typing, follow-up, play and stop | No sideways scroll, everything works |
 | Code | `npm run build` (strict TypeScript + production build) | Passes |
 | Data | `python3 data/tools/check.py` on all 28 entries | 28 pass, 1 held back by review |
 
-**Not tested yet:** a live mic on a real, low-cost Android phone and on an iPhone. The fake-mic test proves the code path, not every phone's mic.
+**Not tested yet:** other phones, especially low-cost Android phones and iPhones, and noisy places like a bus stand or a ration shop queue. One phone working doesn't prove every phone works.
 
 ## What you should know
 
