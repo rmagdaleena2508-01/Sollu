@@ -184,12 +184,21 @@ export const faqs: [q: string, a: string][] = [
   ['Will it work on my phone?', 'It works in the browser on a phone with a mic. If voice fails, you can type. We are still testing more low-cost Android phones.'],
 ];
 
+/** Top bar shortcuts: each one is a section label on the page, in the order the sections appear. */
+export const navLinks: [label: string, href: string][] = [
+  ['What Sollu does', '#what'],
+  ['Sources', '#trust'],
+  ['For every person', '#people'],
+  ['Roadmap', '#roadmap'],
+  ['Questions', '#faq'],
+];
+
 const REPO = 'https://github.com/rmagdaleena2508-01/Sollu';
 
 /** Every link goes somewhere real. Links that leave the site open in a new tab. */
 export const footerCols: { title: string; links: [label: string, href: string][] }[] = [
-  { title: 'Product', links: [['Ask', '/ask'], ['Schemes', '#what'], ['Notices', '#what'], ['Rights', '#people']] },
-  { title: 'Learn', links: [['How it works', '#trust'], ['Where answers come from', `${REPO}/blob/main/DATA-SOURCES.md`], ['Roadmap', '#road-h'], ['FAQ', '#faq-h']] },
+  { title: 'Product', links: [['Ask', '/ask'], ['What Sollu does', '#what'], ['For every person', '#people']] },
+  { title: 'Learn', links: [['Sources', '#trust'], ['Where answers come from', `${REPO}/blob/main/DATA-SOURCES.md`], ['Roadmap', '#roadmap'], ['Questions', '#faq']] },
   { title: 'Project', links: [['Source code', REPO], ['Report a wrong answer', `${REPO}/issues/new`], ['How AI was used', `${REPO}#ai-use-and-responsibility`], ['License (MIT)', `${REPO}/blob/main/LICENSE`]] },
 ];
 

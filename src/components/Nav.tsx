@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 import type { CSSProperties } from 'react';
+import { navLinks } from '../content';
 import type { Lang } from '../content';
 
 interface NavProps {
@@ -55,11 +56,11 @@ export function Nav({ lang, onLang }: NavProps) {
           <img className="logo-mark" src="/sollu-icon.png" width={28} height={28} alt="" />
           Sollu
         </a>
+        {/* Same names and order as the section labels on the page. */}
         <nav className="nav-links" aria-label="Main">
-          <a href="#what">Schemes</a>
-          <a href="#what">Notices</a>
-          <a href="#people">Rights</a>
-          <a href="#trust">How it works</a>
+          {navLinks.map(([label, href]) => (
+            <a key={href} href={href}>{label}</a>
+          ))}
         </nav>
         <div className="nav-right">
           <LangToggle lang={lang} onLang={onLang} />
