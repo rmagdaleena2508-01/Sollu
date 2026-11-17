@@ -1,0 +1,136 @@
+{
+  "id": "sw-widow-pension",
+  "type": "scheme",
+  "name_en": "Destitute Widow Pension Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+  "audiences": [
+    "women"
+  ],
+  "benefit": "You get Rs 1,000 every month. You also get a free saree at Pongal and Deepavali, and free rice at the Anganwadi centre.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a widow.",
+      "You must be destitute (no one to support you).",
+      "Your fixed assets (house, land) must not be worth more than Rs 1,00,000."
+    ]
+  },
+  "documents": [
+    "Your photo",
+    "Aadhaar card",
+    "Proof of age",
+    "Aadhaar consent form",
+    "Smart ration card or any address proof",
+    "Husband's death certificate",
+    "Self-declaration",
+    "Widow certificate",
+    "Any ID proof (voter ID, passport, PAN card or driving licence)",
+    "Bank passbook"
+  ],
+  "how_to_apply": "Get copies of your papers. Go to the nearest Common Service Centre (CSC). Give your fingerprint there. Fill the form and upload your papers. Ask for a receipt. Applying is free.",
+  "where_to_apply": "Nearest Common Service Centre (CSC)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "sw-widow-pension"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "sw-widow-pension",
+      "quote": "launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-widow-pension",
+      "quote": "₹1,000/- per month."
+    },
+    {
+      "field": "benefit",
+      "source": "sw-widow-pension",
+      "quote": "The widow is also provided with one free saree during Pongal and Deepavali, and free rice in the Anganwadi Centres."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "sw-widow-pension",
+      "quote": "The applicant's age should be 18 years and above."
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "sw-widow-pension",
+      "quote": "The applicant should be a widow."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-widow-pension",
+      "quote": "The applicant should be destitute."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-widow-pension",
+      "quote": "The applicant's fixed assets should not exceed ₹1,00,000/-."
+    },
+    {
+      "field": "documents",
+      "source": "sw-widow-pension",
+      "quote": "Husband Death Certificate."
+    },
+    {
+      "field": "documents",
+      "source": "sw-widow-pension",
+      "quote": "Widow Certificate."
+    },
+    {
+      "field": "documents",
+      "source": "sw-widow-pension",
+      "quote": "Smart Ration Card or Any Address Proof."
+    },
+    {
+      "field": "documents",
+      "source": "sw-widow-pension",
+      "quote": "Bank Passbook."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-widow-pension",
+      "quote": "visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-widow-pension",
+      "quote": "applying for the Destitute Widow Pension Scheme is completely free"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "sw-widow-pension",
+      "quote": "Interested applicants should apply via CSC."
+    }
+  ],
+  "gaps": [
+    "Source gives an asset limit (Rs 1,00,000 fixed assets) but no annual income limit.",
+    "No helpline or G.O. number in the source.",
+    "Amount is from myScheme (page last updated 18/09/2026); not cross-checked with a TN Social Welfare G.O."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Same as old age pension: amount not cross-checked with a current G.O.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "fw-pmfby",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Fasal Bima Yojana (PMFBY) - crop insurance",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "audiences": [
+    "farmers"
+  ],
+  "benefit": "Crop insurance at a low price. If your crop is lost to floods, drought, storms, hail, pests or disease, you can get money back. You pay at most 2% for Kharif food and oilseed crops, 1.5% for Rabi food and oilseed crops, and 5% for yearly commercial or garden crops. The government pays the rest.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "any",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "farmer",
+      "tenant farmer",
+      "sharecropper"
+    ],
+    "community": null,
+    "district": null,
+    "other": [
+      "You must grow a notified crop in a notified area.",
+      "You need a land ownership certificate or a land tenure (lease) agreement.",
+      "Apply in time, usually within 2 weeks of the start of the sowing season.",
+      "You must not have got money for the same crop loss from anywhere else.",
+      "If you took a farm loan from a bank, cover is compulsory, but check that your bank has enrolled you."
+    ]
+  },
+  "documents": [
+    "Passport-size photo",
+    "Bank passbook",
+    "ID proof (Aadhaar / PAN / Voter ID / bank passbook with photo / Kisan photo book / NREGA job card)",
+    "Address proof (Aadhaar / PAN / Voter ID / electricity bill / bank passbook with photo)",
+    "Land records or land tenure agreement",
+    "Declaration about the crop sown or to be sown"
+  ],
+  "how_to_apply": "Go to the PMFBY website (pmfby.gov.in). Open 'Farmer Corner' and register as a guest farmer. Then log in with your mobile number and OTP, fill the form, upload documents and submit. Pay the premium online or later. You can also go to a CSC or bank branch. You must apply again each season.",
+  "where_to_apply": "pmfby.gov.in, a Common Service Centre (CSC), or your bank branch",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "fw-pmfby"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "fw-pmfby",
+      "quote": "The maximum premium payable by the farmer will be 2% for the Kharif food and oilseed crops. For rabi food and oilseeds crop, it is 1.5% and for yearly commercial or horticultural crops it will be 5%. The remaining premium is subsidized by the government."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-pmfby",
+      "quote": "The scheme covers natural disasters (droughts, floods), pests, and diseases."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-pmfby",
+      "quote": "Storm, Hailstorm, Tornado etc.: Flood, Inundation and Landslide"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "fw-pmfby",
+      "quote": "All farmers, including tenant farmers and sharecroppers growing notified crops in notified areas."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmfby",
+      "quote": "All farmers, including tenant farmers and sharecroppers growing notified crops in notified areas."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmfby",
+      "quote": "Farmers must possess a valid and authenticated land ownership certificate or a valid land tenure agreement."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmfby",
+      "quote": "usually within 2 weeks of the start of the sowing season."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmfby",
+      "quote": "Farmers must not have received compensation for the same crop loss from any other medium or source."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pmfby",
+      "quote": "For loanee farmers, coverage is compulsory but not automatic. You must ensure your bank has processed your PMFBY enrollment within the specified timeframe."
+    },
+    {
+      "field": "documents",
+      "source": "fw-pmfby",
+      "quote": "Passport–sized Photograph"
+    },
+    {
+      "field": "documents",
+      "source": "fw-pmfby",
+      "quote": "Identity Proof (Aadhaar Card/PAN Card/Voter ID/Bank Passbook with Photo, Kisan Photo Book/NREGA Job Card)"
+    },
+    {
+      "field": "documents",
+      "source": "fw-pmfby",
+      "quote": "Address Proof (Aadhaar Card/PAN Card/Voter ID/Electricity Bill/Bank Passbook with Photo)."
+    },
+    {
+      "field": "documents",
+      "source": "fw-pmfby",
+      "quote": "Evidence of Land records, as per the State Records of Right (RoR)"
+    },
+    {
+      "field": "documents",
+      "source": "fw-pmfby",
+      "quote": "Declaration about the crop sown/intended to be sown."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmfby",
+      "quote": "click \"Farmer Corner\"."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmfby",
+      "quote": "In the popup window, click \"Guest Farmer\"."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmfby",
+      "quote": "provide your Mobile Number, fill the Captcha Code, then click \"Request for OTP\"."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmfby",
+      "quote": "Fill in all the mandatory fields of the Application Form and upload all the mandatory documents"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmfby",
+      "quote": "Select \"Pay Later\" if you intend to pay for the insurance at a later stage."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pmfby",
+      "quote": "you must submit a fresh application and premium payment for each season you want coverage."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-pmfby",
+      "quote": "https://pmfby.gov.in/farmerLogin"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-pmfby",
+      "quote": "You can visit a nearby CSC or bank branch to submit your premium payment."
+    }
+  ],
+  "gaps": [
+    "Source does not give a helpline number or a Tamil name.",
+    "Which crops and areas are notified in Tamil Nadu this season is not on the source; farmers must check locally.",
+    "Source says the CSC / bank branch can take the premium payment; it lists 'Online - via CSCs' and 'Offline' modes but gives step-by-step text only for the website route.",
+    "Source page says the scheme launched in 2016; it does not state the current season's deadlines."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Clear official page. Tamil Nadu notified crops for the season are not listed; say so if asked.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

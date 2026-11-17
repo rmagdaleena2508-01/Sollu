@@ -1,0 +1,147 @@
+{
+  "id": "sw-cmchis",
+  "type": "scheme",
+  "name_en": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Health and Family Welfare Department, Government of Tamil Nadu",
+  "audiences": [
+    "seniors",
+    "women"
+  ],
+  "benefit": "Your family gets free (cashless) hospital care up to Rs 5 lakh a year at listed government and private hospitals.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "any",
+    "income_max_annual_inr": 120000,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must live in Tamil Nadu.",
+      "Your name must be on the family (ration) card.",
+      "The family includes the head, spouse, children and dependent parents."
+    ]
+  },
+  "documents": [
+    "Income certificate from the VAO or revenue office",
+    "Ration card (original and photocopy)",
+    "Self-declaration from the head of the family",
+    "Proof of identity",
+    "Address proof",
+    "Aadhaar card",
+    "PAN card (optional)"
+  ],
+  "how_to_apply": "Get an income certificate from the Village Administrative Officer. Take your Aadhaar, ration card and income certificate to the enrolment centre. Show them to the kiosk operator. Give your fingerprint, photo and eye scan. You will get an e-card.",
+  "where_to_apply": "CMCHIS enrolment centre (kiosk); details on cmchistn.com",
+  "helpline": "1800 425 3993 (Mon-Sat, 10 AM to 6 PM)",
+  "go_number": null,
+  "sources": [
+    "sw-cmchis",
+    "sw-cmchis-site"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "sw-cmchis",
+      "quote": "provides coverage up to Rs. 5,00,000/- per family, per year on a floater basis"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-cmchis",
+      "quote": "cashless hospitalization for specific ailments/procedures"
+    },
+    {
+      "field": "eligibility.income_max_annual_inr",
+      "source": "sw-cmchis",
+      "quote": "their family's annual income should be less than Rs.1,20,000/- per annum"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-cmchis",
+      "quote": "Non-residents of Tamil Nadu are not eligible for this scheme."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-cmchis",
+      "quote": "the applicant's name must be present in the family card"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-cmchis",
+      "quote": "the definition of family includes the eligible member, their legal spouse, their children, and their dependent parents"
+    },
+    {
+      "field": "documents",
+      "source": "sw-cmchis",
+      "quote": "Income certificate from the Village Administrative Officer/Revenue authorities"
+    },
+    {
+      "field": "documents",
+      "source": "sw-cmchis",
+      "quote": "Ration Card (both original and photocopy)"
+    },
+    {
+      "field": "documents",
+      "source": "sw-cmchis",
+      "quote": "Self-declaration from the head of the family"
+    },
+    {
+      "field": "documents",
+      "source": "sw-cmchis",
+      "quote": "PAN card (optional)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-cmchis",
+      "quote": "Obtain an income certificate from the Village Administrative Officer or Revenue authorities."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-cmchis",
+      "quote": "Present your documents to the kiosk operator for verification."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-cmchis",
+      "quote": "Provide your biometric details such as fingerprints, photograph, and eye scan."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-cmchis",
+      "quote": "Your details will be verified and the e-card will be issued to you."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "sw-cmchis",
+      "quote": "proceed to the enrollment center"
+    },
+    {
+      "field": "helpline",
+      "source": "sw-cmchis-site",
+      "quote": "Helpline: 1800 425 3993 (Mon-Sat) (10 AM to 6 PM)"
+    }
+  ],
+  "gaps": [
+    "myScheme page conflicts with itself on income: eligibility says family income below Rs 1,20,000 a year, but the Exclusions list says income above Rs 72,000 is not eligible. Kept Rs 1,20,000 (also in the FAQ); needs a check against the current G.O.",
+    "Department is not quoted in the saved sources ('Health and Family Welfare' is a label).",
+    "Scheme is for whole families, not only seniors or women; tagged seniors (dependent parents are covered) and women for this slice.",
+    "Insurer contract stated as running 'January 2022 to 2027'; check renewal after 2027.",
+    "No G.O. number in saved sources."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "myScheme page contradicts itself on income limit (Rs 1,20,000 vs Rs 72,000). Kept Rs 1,20,000 (also in FAQ).",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

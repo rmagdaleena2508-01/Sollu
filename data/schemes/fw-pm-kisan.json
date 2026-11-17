@@ -1,0 +1,167 @@
+{
+  "id": "fw-pm-kisan",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "audiences": [
+    "farmers"
+  ],
+  "benefit": "Farmer families who own farm land get Rs 6,000 a year. It comes as three payments of Rs 2,000, one every four months, straight into the bank account.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "any",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "farmer"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "The family must have farm land in their own names.",
+      "Land size does not matter. Big and small farmers can both get it.",
+      "Not for families where any member paid income tax last year.",
+      "Not for land held by institutions.",
+      "Not for families with a minister, MP, MLA, mayor or other constitutional post holder (now or before).",
+      "Not for serving or retired government officers and staff (Group D / Class IV / Multi Tasking Staff are allowed).",
+      "Not for retired people with a pension of Rs 10,000 or more a month (Group D / Class IV / Multi Tasking Staff are allowed).",
+      "Not for doctors, engineers, lawyers, chartered accountants and architects who are registered and working."
+    ]
+  },
+  "documents": [
+    "Aadhaar card",
+    "Land papers",
+    "Savings bank account"
+  ],
+  "how_to_apply": "Go to a Common Service Centre (CSC). The worker there types your Aadhaar, bank and land details, uploads your land paper, Aadhaar and bank passbook, and saves the form. Later you can check your status with your Aadhaar number.",
+  "where_to_apply": "Common Service Centre (CSC)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "fw-pm-kisan"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "fw-pm-kisan",
+      "quote": "Financial benefit of Rs. 6000 per annum per family payable in three equal installments of Rs 2000 each , every four months."
+    },
+    {
+      "field": "benefit",
+      "source": "fw-pm-kisan",
+      "quote": "released by the Central Government online directly into the bank accounts of the eligible farmers"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "fw-pm-kisan",
+      "quote": "All landholding farmers' families, which have cultivable land holding in their names are eligible to get benefit under the scheme."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "All landholding farmers' families, which have cultivable land holding in their names are eligible to get benefit under the scheme."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "The ambit of the scheme has been extended to cover all farmer families, irrespective of the size of their land holdings."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "All Persons who paid Income Tax in last assessment year"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "All Institutional Land holders."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "Former and present holders of constitutional posts"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "Former and present Ministers/ State Ministers and former/present Members of LokSabha/ RajyaSabha/ State Legislative Assemblies/ State Legislative Councils,former and present Mayors of Municipal Corporations"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "All serving or retired officers and employees of Central/ State Government Ministries /Offices/Departments"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "(Excluding Multi Tasking Staff /Class IV/Group D employees)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "All superannuated/retired pensioners whose monthly pension is Rs.10,000/-or more (Excluding Multi Tasking Staff / Class IV/Group D employees)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-pm-kisan",
+      "quote": "Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects registered with Professional bodies and carrying out profession by undertaking practices."
+    },
+    {
+      "field": "documents",
+      "source": "fw-pm-kisan",
+      "quote": "Indicative Documents\nAadhaar Card\nLandholding papers\nSavings Bank Account."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pm-kisan",
+      "quote": "Online - via CSCs"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pm-kisan",
+      "quote": "key in the Aadhaar number, Name of the beneficiary, category, Bank detail, Land Registration ID"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pm-kisan",
+      "quote": "Step 4: Upload the supporting documents like Land, Aadhar, and Bank passbook."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pm-kisan",
+      "quote": "Step 5: Self-declaration accept and save the application form."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-pm-kisan",
+      "quote": "Step 7: Check the Beneficiary status through the Aadhaar number."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-pm-kisan",
+      "quote": "Online - via CSCs"
+    }
+  ],
+  "gaps": [
+    "Source does not give a helpline number.",
+    "Source does not set an age limit or a Tamil name.",
+    "Step 6 on the source says 'make payment through CSC ID'; it does not say whether the farmer pays any fee, so the plain text leaves this out.",
+    "Source lists pmkisan.gov.in self-registration only as a link ('New Farmer Registration Form'); online self-apply steps are not described, so only the CSC route is given."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Clear official myScheme page; amounts and rules consistent.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

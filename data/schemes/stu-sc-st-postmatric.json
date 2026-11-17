@@ -1,0 +1,92 @@
+{
+  "id": "stu-sc-st-postmatric",
+  "type": "scheme",
+  "name_en": "Post-Matric Scholarship for SC / ST / SCC Students",
+  "name_ta": null,
+  "level": "state",
+  "department": "Adi Dravidar and Tribal Welfare Department, Government of Tamil Nadu",
+  "audiences": [
+    "school_students",
+    "college_students"
+  ],
+  "benefit": "Students from Class 11 up to college get a monthly scholarship: Rs 100 to 175 a month if you live at home, Rs 175 to 350 a month if you stay in a hostel. Tuition fees are fully waived.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": 250000,
+    "occupation": [
+      "student"
+    ],
+    "community": [
+      "SC",
+      "ST",
+      "SC converted to Christianity (SCC)"
+    ],
+    "district": "all",
+    "other": [
+      "Must be studying in Class 11 or higher, up to college"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": null,
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "stu-sc-pms-tiruppur"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "stu-sc-pms-tiruppur",
+      "quote": "ADI DRAVIDAR AND TRIBAL WELFARE"
+    },
+    {
+      "field": "benefit",
+      "source": "stu-sc-pms-tiruppur",
+      "quote": "Post – Matric Scholarship 11th upto College Days Scholars – Rs.100 to 175/p.m. Hostellers -Rs.175 to 350/p.m. The Tution Fees are paid by the Students are fully exempted"
+    },
+    {
+      "field": "eligibility.income_max_annual_inr",
+      "source": "stu-sc-pms-tiruppur",
+      "quote": "SC / ST / SCC Communities Only. Income 2.5 Lakhs. 3"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "stu-sc-pms-tiruppur",
+      "quote": "Post – Matric Scholarship 11th upto College"
+    },
+    {
+      "field": "eligibility.community",
+      "source": "stu-sc-pms-tiruppur",
+      "quote": "SC / ST / SCC Communities Only."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-sc-pms-tiruppur",
+      "quote": "Post – Matric Scholarship 11th upto College"
+    }
+  ],
+  "gaps": [
+    "Only source saved is the Tiruppur district (tiruppur.nic.in) Adi Dravidar and Tribal Welfare page, a short table. The state department scholarship page (tntribalwelfare.tn.gov.in/scholarship.php) returned 404.",
+    "Doubt: the monthly amounts (Rs 100-350) look old; the site footer says \"Last Updated: 16.03.2024\" but the table itself is undated. Check current rates before relying on them.",
+    "Source does not say how or where to apply, or which documents are needed.",
+    "Source does not say whether the scholarship is state or centrally funded, or whether it is for Tamil Nadu natives only.",
+    "No helpline, G.O. number or Tamil name in the source."
+  ],
+  "review": {
+    "demo_use": "hold",
+    "note": "Amounts (Rs 100-350 a month) look years old and come from one district page. Do not show until a current state source is found.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

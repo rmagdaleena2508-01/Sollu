@@ -1,0 +1,125 @@
+{
+  "id": "stu-adtw-exam-fee",
+  "type": "scheme",
+  "name_en": "Adi Dravidar and Tribal Welfare Department: Scholarship - Public Examination Fee for 10th and 12th Std.",
+  "name_ta": null,
+  "level": "state",
+  "department": "Adi Dravidar and Tribal Welfare Department, Tamil Nadu",
+  "audiences": [
+    "school_students"
+  ],
+  "benefit": "If you are writing the Class 10 or Class 12 public exam, the government pays your full exam fee. You do not pay it. There is no income limit.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "student"
+    ],
+    "community": [
+      "Adi Dravidar (SC)",
+      "Tribal (ST)",
+      "Adi Dravidar converted to Christianity"
+    ],
+    "district": "all",
+    "other": [
+      "Must live in Tamil Nadu",
+      "Must be writing the 10th or 12th public exam",
+      "No income limit"
+    ]
+  },
+  "documents": [
+    "Aadhaar card or other ID",
+    "Community (caste) certificate",
+    "Public exam registration slip"
+  ],
+  "how_to_apply": "Students or parents meet the school Headmaster with the papers. The school handles it.",
+  "where_to_apply": "At your school, through the Headmaster",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "stu-adtw-examfee-ms"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "by the Adi Dravidar and Tribal Welfare Department, Tamil Nadu"
+    },
+    {
+      "field": "benefit",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "Full reimbursement on Public Examination fee for 10th and 12th Std. students."
+    },
+    {
+      "field": "benefit",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "There is no income limit for eligibility under this scheme."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "The beneficiary should be a Student."
+    },
+    {
+      "field": "eligibility.community",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "The beneficiary should belong to the Adi Dravidar/Tribal/Adi Dravidar converted to Christianity community."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "The beneficiary should be a resident of Tamil Nadu."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "The beneficiary must be appearing for public examinations of 10th/12th Std."
+    },
+    {
+      "field": "documents",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "Proof of identity (Aadhar card or any other document as directed by the authority)."
+    },
+    {
+      "field": "documents",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "Caste certificate Adi Dravidar/Tribal/Adi Dravidar Converted to Christianity community)."
+    },
+    {
+      "field": "documents",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "Public examination registration slip."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "Students/ Guardians should contact the Headmaster of the School with all the required documents"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "stu-adtw-examfee-ms",
+      "quote": "Students must apply through the headmaster of their respective schools."
+    }
+  ],
+  "gaps": [
+    "Source does not say which schools are covered (government, aided or private).",
+    "Source gives no rupee amount; it says the full fee is paid to the Directorate of Government Examinations.",
+    "Source gives no helpline, G.O. number or Tamil name. myScheme page is undated."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Simple, clear benefit; school handles it.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

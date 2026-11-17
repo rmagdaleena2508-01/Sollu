@@ -1,0 +1,92 @@
+{
+  "id": "rn-notice-salem-marksheet",
+  "type": "notice",
+  "title": "Salem: private candidates must collect old 10th / 12th mark sheets by 15 December 2026",
+  "issued_by": "District Collector, Salem (press release from the District Public Relations Office, Salem)",
+  "date": "2026-10-14",
+  "reference_number": "செ.செ.எண்: 691/2026 (press release number)",
+  "says": "Private candidates who wrote the higher secondary (12th) or 10th standard exams in Salem district from 2019 to 2023 and have not collected their mark sheets should collect them by 15 December 2026.",
+  "what_to_do": "Go in person to the Assistant Director of Government Examinations office in Salem with an identity proof and your exam hall ticket, or send a self-addressed envelope with a Rs. 42 postage stamp to that office.",
+  "by_when": "15 December 2026",
+  "if_not": "Mark sheets that are not collected will be treated as waste paper and destroyed, as per exam department rules.",
+  "who_it_affects": "Private candidates who wrote 10th or 12th standard exams in Salem district between 2019 and 2023 and did not collect their mark sheets.",
+  "sources": [
+    "rn-n-salem-marksheet"
+  ],
+  "evidence": [
+    {
+      "field": "reference_number",
+      "source": "rn-n-salem-marksheet",
+      "quote": "செ.செ.எண்: 691/2026"
+    },
+    {
+      "field": "date",
+      "source": "rn-n-salem-marksheet",
+      "quote": "நாள்: 14.10.2026"
+    },
+    {
+      "field": "says",
+      "source": "rn-n-salem-marksheet",
+      "quote": "சேலம் மாவட்டத்தில் 2019 முதல் 2023 வரை சமல்நிரல / பத்தாம் வகுப்பு சதர்வு"
+    },
+    {
+      "field": "says",
+      "source": "rn-n-salem-marksheet",
+      "quote": "எழுதிய தனித்சதர்வர்கள் வருகின்ற 15.12.2026-க்குள் தங்களது மதிப்பபண்"
+    },
+    {
+      "field": "what_to_do",
+      "source": "rn-n-salem-marksheet",
+      "quote": "ஆளறிச் ொன்று மற்றும் சதர்வுக்கூட நுலைவுச்சீட்டுடன்"
+    },
+    {
+      "field": "what_to_do",
+      "source": "rn-n-salem-marksheet",
+      "quote": "ரூ.42/- மதிப்புள்ள அஞ்ெல் வில்லை ஒட்டிய சுய முகெரி எழுதப்பட்ட"
+    },
+    {
+      "field": "what_to_do",
+      "source": "rn-n-salem-marksheet",
+      "quote": "செைம், அைசுத் சதர்வுகள் உதவி இயக்குநர் அலுெைகத்தில்"
+    },
+    {
+      "field": "by_when",
+      "source": "rn-n-salem-marksheet",
+      "quote": "உரிய மதிப்சபண் ொன்றிதழ்கலள 15.12.2026-க்குள் சநரில் சென்று சபற்றுக்"
+    },
+    {
+      "field": "if_not",
+      "source": "rn-n-salem-marksheet",
+      "quote": "சபற்றுக் சகாள்ளப்படாத மதிப்சபண் ொன்றிதழ்கள் கழிவுத்தாட்களாக கருதி"
+    },
+    {
+      "field": "if_not",
+      "source": "rn-n-salem-marksheet",
+      "quote": "அழிக்கப்படும்."
+    },
+    {
+      "field": "who_it_affects",
+      "source": "rn-n-salem-marksheet",
+      "quote": "சேலம் மாவட்டத்தில் 2019 முதல் 2023 வரை சமல்நிரல / பத்தாம் வகுப்பு சதர்வு"
+    }
+  ],
+  "gaps": [
+    "The notice is in Tamil only. The PDF's text layer uses a broken Tamil font mapping, so many words in text.txt are misspelt (for example 'சமல்நிரல' for மேல்நிலை); quotes are copied exactly as extracted. A human should read the PDF itself to confirm the English summary.",
+    "Office hours are not given. The notice gives the office address as Sannathi Street, Kottai (Fort) Road, opposite the SBI bank, Salem; not put in 'what_to_do' because the extracted text is garbled.",
+    "The issuing officer's name is in the PDF but is left out here."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Tamil PDF with broken font; reviewer read the Tamil text and the English summary matches it (higher secondary/10th private candidates 2019-2023, collect by 15.12.2026).",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

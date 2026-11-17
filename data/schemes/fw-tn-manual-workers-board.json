@@ -1,0 +1,217 @@
+{
+  "id": "fw-tn-manual-workers-board",
+  "type": "scheme",
+  "name_en": "Tamil Nadu Manual Workers Social Security and Welfare Board - member benefits",
+  "name_ta": "தமிழ்நாடு உடல் உழைப்பு தொழிலாளர்கள் சமூக பாதுகாப்பு மற்றும் நல வாரியம்",
+  "level": "state",
+  "department": "Labour Welfare and Skill Development Department, Government of Tamil Nadu",
+  "audiences": [
+    "workers"
+  ],
+  "benefit": "Manual workers who join the Board (or one of the other unorganised workers boards) can get help money: Rs 1,000 pension a month, Rs 1,25,000 if the member dies in an accident, Rs 30,000 on natural death, Rs 5,000 for funeral costs, Rs 3,000 (men) or Rs 5,000 (women) for marriage, Rs 6,000 for having a baby, money for children's studies, and up to Rs 500 for glasses.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 59,
+    "gender": "any",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "manual worker",
+      "unorganised worker"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must work in one of the manual jobs listed under the Tamil Nadu Manual Workers Act, 1982.",
+      "You can join from age 18 until you turn 60.",
+      "You need a work certificate from your employer, a registered trade union, a Labour Department officer, or the Village Administrative Officer (Revenue Inspector in Chennai).",
+      "Membership lasts 5 years or until you turn 60, whichever comes first."
+    ]
+  },
+  "documents": [
+    "Application in Form-1",
+    "Two passport-size photos",
+    "Work certificate (from employer, trade union, labour officer or VAO)",
+    "One age proof: birth certificate, voter ID, school or college certificate, driving licence, ration card, Aadhaar card, or a government doctor's certificate"
+  ],
+  "how_to_apply": "Fill Form-1, stick one photo on it and attach another, and add your work certificate and age proof. The Labour Officer (Social Security Scheme) of your district registers you after the VAO checks it. You can apply and renew online on the Tamil Nadu Unorganised Workers Welfare Board website.",
+  "where_to_apply": "tnuwwb.tn.gov.in (online), or the district Labour Officer (Social Security Scheme)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "fw-tnuwwb-claims",
+    "fw-tnuwwb",
+    "fw-tnmw-reg",
+    "fw-tn-labour-pn"
+  ],
+  "evidence": [
+    {
+      "field": "name_ta",
+      "source": "fw-tnuwwb",
+      "quote": "TN Manual Workers Social Security and Welfare Board / தமிழ்நாடு உடல் உழைப்பு தொழிலாளர்கள் சமூக பாதுகாப்பு மற்றும் நல வாரியம்"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "The following Welfare Scheme Assistances are provided to the workers, who are registered with 17 Unorganised Workers Welfare Boards:"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Workshop Workers Board Registered in"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Accidental Death 2,00,000/- 1,25,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Natural Death Assistance 50,000/- 30,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "Funeral Assistance 5,000/- 5,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "(a) for men 3,000/- 3,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "(b) for women 5,000/- 5,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "*18,000/- 6,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "upto 500/- upto 500/-"
+    },
+    {
+      "field": "benefit",
+      "source": "fw-tnuwwb-claims",
+      "quote": "a) Pension (Per month) 1000/- 1000/-"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "fw-tnmw-reg",
+      "quote": "The worker who has completed the age of 18 years but has not completed 60 years of age is eligible for registration."
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "fw-tnmw-reg",
+      "quote": "The worker who has completed the age of 18 years but has not completed 60 years of age is eligible for registration."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "fw-tn-labour-pn",
+      "quote": "engaged in 70 (manual) and 54 (construction) categories of works specified in the schedule appended to the Act."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-tn-labour-pn",
+      "quote": "The Tamil Nadu Manual Workers (Regulation of Employment and Conditions of Work) Act, 1982"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-tnmw-reg",
+      "quote": "The worker who has completed the age of 18 years but has not completed 60 years of age is eligible for registration."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-tnmw-reg",
+      "quote": "The worker shall furnish a certificate of employment issued by anyone of the persons specified below"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-tnmw-reg",
+      "quote": "(d) Village Administrative Officer and for Chennai district, the Revenue Inspector"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "fw-tnmw-reg",
+      "quote": "The registration under this clause is valid for a period of five years or until the registered manual worker attains the age of sixty years, whichever is earlier."
+    },
+    {
+      "field": "documents",
+      "source": "fw-tnmw-reg",
+      "quote": "The worker should fill up the application in Form-1 prescribed in the Scheme"
+    },
+    {
+      "field": "documents",
+      "source": "fw-tnmw-reg",
+      "quote": "The worker shall affix one passport size photograph in the application form and enclose another photo with the application"
+    },
+    {
+      "field": "documents",
+      "source": "fw-tnmw-reg",
+      "quote": "(a) Employer of the manual worker"
+    },
+    {
+      "field": "documents",
+      "source": "fw-tnmw-reg",
+      "quote": "(a) Birth certificate issued by Registrar of Births and Deaths\n(b) Identity card issued by the Election commission\n(c) School certificate or College Certificate\n(d) Driving licence\n(e) Ration Card\n(f) Aadhar Card"
+    },
+    {
+      "field": "documents",
+      "source": "fw-tnmw-reg",
+      "quote": "Certificate from registered medical practitioner not below the rank of civil surgeon of a Government Hospital"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-tnmw-reg",
+      "quote": "The Registration of the name of the manual worker with the Board shall be made by the Labour Officer (Social Security Scheme) of the respective district after due verification by the respective village administrative officer"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-tn-labour-pn",
+      "quote": "to apply for registration, renewal as well as benefit schemes online."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "fw-tnuwwb",
+      "quote": "புதிய விண்ணப்பப் பதிவு / New Registration"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-tnuwwb",
+      "quote": "Tamil Nadu Unorganised Workers Welfare Board"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "fw-tnmw-reg",
+      "quote": "Labour Officer (Social Security Scheme) of the respective district"
+    }
+  ],
+  "gaps": [
+    "age_max is 59 because the page says the worker must not have 'completed 60 years of age'.",
+    "Benefit amounts come from the 'Workers Registered in other Welfare Boards' column of the tnuwwb.tn.gov.in claims list, which covers this Board and the other non-construction boards. The PDF has no date printed on it.",
+    "The 2023-24 Policy Note column for 'TNMWSSWB and 15 other welfare boards' was read but not quoted, because its table text is jumbled when copied.",
+    "The older labour.tn.gov.in benefit page gives lower amounts (e.g. natural death Rs 15,000, funeral Rs 2,000); the newer tnuwwb claims list is used.",
+    "Pension age (60) is not stated for this Board on the sources used; only the amount is.",
+    "The registration page (labour.tn.gov.in) describes the paper process; how Form-1 and certificates map to the online form is not stated.",
+    "The full list of covered jobs (the Act schedule) was not saved; the Policy Note says 70 manual job categories.",
+    "Source does not give a helpline number."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Amounts come from a shared, undated claims table, not board-specific. Re-check current rates.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

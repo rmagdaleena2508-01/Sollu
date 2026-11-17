@@ -1,0 +1,124 @@
+{
+  "id": "stu-bc-mbc-postmatric",
+  "type": "scheme",
+  "name_en": "Post-Matric Scholarship for BC, MBC and DNC College Students",
+  "name_ta": null,
+  "level": "state",
+  "department": "Backward Classes, Most Backward Classes and Minorities Welfare Department, Government of Tamil Nadu",
+  "audiences": [
+    "college_students"
+  ],
+  "benefit": "The state pays your tuition fee and special fee (at government college rates), your full exam fee, and book money. If you stay in a college hostel, you also get Rs 4,000 a year (Rs 400 a month for 10 months) for food and stay. The money goes into your bank account.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": 250000,
+    "occupation": [
+      "student"
+    ],
+    "community": [
+      "BC",
+      "MBC",
+      "DNC"
+    ],
+    "district": "all",
+    "other": [
+      "Must be a native of Tamil Nadu",
+      "Must be studying ITI, polytechnic diploma, post-graduate, professional or Ph.D. course",
+      "Second-shift students in government and aided colleges can also get it"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Get the scholarship form from your college. Fill it in, add the papers it asks for, and give it back to your college.",
+  "where_to_apply": "At your college. For questions, go to the District Backward Classes and Minorities Welfare Office at the District Collectorate.",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "stu-bc-welfare"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "stu-bc-welfare",
+      "quote": "Schemes for the Welfare of Backward Classes, Most Backward Classes and Denotified Communities"
+    },
+    {
+      "field": "benefit",
+      "source": "stu-bc-welfare",
+      "quote": "Under the scheme, tuition fee and special fee are sanctioned as fixed for the Government educational institutions."
+    },
+    {
+      "field": "benefit",
+      "source": "stu-bc-welfare",
+      "quote": "Examination fee is sanctioned in full and book money as notified in the scholarship notification."
+    },
+    {
+      "field": "benefit",
+      "source": "stu-bc-welfare",
+      "quote": "at the enhanced rate of Rs.4000/-per year (Rs.400/- per month for 10 months in a year) for Under Graudate courses, Professional Courses, ITI / Diploma and Post Graduate courses from the year 2021-22."
+    },
+    {
+      "field": "benefit",
+      "source": "stu-bc-welfare",
+      "quote": "Scholarships are directly credited into the students’ bank account"
+    },
+    {
+      "field": "eligibility.income_max_annual_inr",
+      "source": "stu-bc-welfare",
+      "quote": "Annual parental income should not exceed Rs.2.5 lakh to avail this scholarship."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "stu-bc-welfare",
+      "quote": "Denotified Communities students studying ITI, Diploma in Polytechnics, Post Graduate, Professional and Ph.D. courses."
+    },
+    {
+      "field": "eligibility.community",
+      "source": "stu-bc-welfare",
+      "quote": "scholarships are sanctioned to Backward Classes, Most Backward Classes and Denotified Communities students"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-bc-welfare",
+      "quote": "are available only to those who are natives of Tamil Nadu"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-bc-welfare",
+      "quote": "Students studying in the second shift in Government and Government aided colleges are also sanctioned scholarship"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "stu-bc-welfare",
+      "quote": "BC, MBC & DNC College students can collect their BC, MBC & DNC Scholarship application from their Institutions and submit the duly filled in applications with the relevant documents to the Institutions."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "stu-bc-welfare",
+      "quote": "For any queries contact District Backward Classes and Minorities Welfare Office situated in the Campus of District Collectorate."
+    }
+  ],
+  "gaps": [
+    "Source does not list the documents needed ('relevant documents' only), so documents is empty.",
+    "Source does not give the book money amount; it says 'as notified in the scholarship notification'.",
+    "Source names www.bcmbcscholarship.tn.gov.in for sanction and disbursement, but says students apply on paper at their institution; a web search snippet (not saved) mentioned umis.tn.gov.in. Current online route not confirmed.",
+    "Source page is undated (it lists 2026-2027 notices at the top, and the hostel rate is 'from the year 2021-22').",
+    "Undergraduate arts and science degree students are covered under a separate Free Education Scholarship (Degree) on the same page, not under this entry.",
+    "Doubt: the school-level BC/MBC/DNC post-matric listing on myScheme (myscheme.gov.in/schemes/pmstn) gives a BC income limit of Rs 1,00,000, while this department page gives Rs 2.5 lakh for the school-level scheme. Not used here; the department page is kept."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Official sources disagree on income limit (Rs 2.5 lakh on department page vs Rs 1 lakh on a myScheme school-level page). Department page kept.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

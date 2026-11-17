@@ -1,0 +1,277 @@
+FAQs | e-Shram
+﻿
+भारत सरकार | Government of India
+Screen Reader Access
+Skip to main content
+A-
+A
+A+
+श्रम एवं रोजगार मंत्रालय
+Ministry of Labour
+& Employment
+Helpdesk No. 14434/18008896811
+9.00 AM to 6.00 PM
+Daily Including Sundays
+Home
+About Us
+About the Ministry
+Objectives
+eShram Portal
+Who's Who
+FAQs
+Schemes
+Schemes
+Social Security Welfare Schemes
+Employment Schemes
+-->
+Acts & Rules
+Media
+One-Stop-Solution
+Press Release
+Leaflets
+Pamphlets
+Creatives
+Video Gallery
+Stakeholder
+Platform/Aggregators
+Documents
+Advisory to Platform Aggregators
+Data Sharing Guidelines - Central Ministries
+Data Sharing Guidelines - States & UTs
+Ex-Gratia guidelines
+Ex-Gratia guidelines (Hindi Version)
+Ex-Gratia Extension Letter
+National Metadata Structure
+-->
+Documents
+Dashboard
+Contact Us
+Contact Us
+Helpdesk
+Grievance
+CSC Locator
+e-Shram Registrants are advised to update their profile for continued benefits (click here) |
+e-Shram Registrants are advised to update their occupation for continued benefits (click here).
+Home
+FAQs
+Frequently Asked Questions
+Q - 1. What is eShram?
+eShram is an integrated National Database of Unorganised Workers (NDUW), established by the Ministry of Labour & Employment, Government of India. The primary objective of this initiative is to streamline the delivery of welfare schemes and social security benefits to workers in the unorganised sector across the nation. The platform facilitates the registration of such workers and issues them a 12 digit unique identification number (UAN) card, thereby enabling efficient access to various government schemes, entitlements and services.
+Q - 2. Where may I access eShram services?
+eShram services may be accessed through the portal, available at http://www.eshram.gov.in. Through this platform, users may register, update their personal information and avail themselves of various services offered under the eShram initiative.
+Q - 3. Who are unorganised workers?
+Any worker who is a home-based worker, self-employed worker or a wage worker working in the unorganised sector and not a member of ESIC or EPFO, is called an unorganised worker.
+Q - 4. What is unorganised sector?
+Unorganised sector comprises of establishment/ units which are engaged in the production/ sale of goods/ services and employs less than 10 workers. These units are not covered under ESIC & EPFO.
+Q - 5. What is UAN?
+UAN or Universal Account Number is a 12-digit number uniquely assigned to each unorganised worker after registration on eShram portal. UAN is a permanent number i.e., once assigned, it will remain unchanged for any worker.
+Q - 6. What is eShram: One-Stop Solution (OSS)?
+Ministry of Labour & Employment has launched eShram as a One-Stop-Solution (OSS) for unorganised workers, consolidating and integrating data from various Central Ministries/ Departments into a single repository. The eShram portal serves as a single platform, channelising social security and welfare schemes for unorganised workers efficiently.
+Q - 7. When was the eShram: One-Stop-Solution launched?
+eShram portal was launched on 26th August 2021 and as on 09June 2026, over 31.69 31.08 crore unorganised workers have been registered on eShram. Subsequently, eShram: One-Stop-Solution was launched by Hon’ble Union Minister (Labour & Employment) on 21st October 2024.
+Q - 8. What are the benefits of eShram: One-Stop-Solution?
+Key benefits through eShram: One-Stop-Solution includes:
+Tracking of all integrated schemes through a unique identifier i.e., UAN.
+No need to visit multiple portals or fill out separate forms for each scheme.
+Real-time or close to real time updates on the beneficiary's status to support scheme continuation or discontinuation.
+Q - 9. Which Central Ministries/ Departments schemes are available or will be available in the future on eShram OSS?
+The following schemes are currently available under eShram OSS:
+One Nation One Ration Card (ONORC)
+Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)
+Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)
+Pradhan Mantri Awas Yojana - Gramin (PMAY-G)
+National Career Services (NCS)
+Skill India Digital Hub (SIDH
+National Social Assistance Programme (NSAP)
+Indira Gandhi National Widow Pension Scheme (IGNWPS)
+Indira Gandhi National Disability Pension Scheme (IGNDPS),
+National Family Benefit Scheme NFBS)
+Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)
+Pradhan Mantri Suraksha Bima Yojana (PMSBY)
+Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)
+Prime Minister Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)
+Pradhan Mantri Awas Yojana - Urban (PMAY-U)
+Pradhan Mantri Matsya Sampada Yojana (PMMSY)
+Mera Yuva Bharat (MY Bharat)
+Q - 10. How will eShram: One-Stop Solution (OSS) will help me as an eShram registrant?
+eShram OSS provides a single window for unorganised workers, bringing all key social security and welfare schemes together in one place. Key objectives that are targeted to be achieved through eShram: One-Stop-Solution includes:
+Awareness creation about available schemes.
+User-friendly registration process.
+Availability of a statement/ ledger for tracking scheme benefits (wherever applicable).
+Access to employment and skilling services.
+Q - 11. Is there any change in registration eligibility, document requirements, etc.?
+There are no changes in the eligibility criteria. Eligibility and document required for registration remains the same.
+Q - 12. I have already registered on the eShram portal. Am I required to register again on the eShram One-Stop Solution (OSS)?
+No, re-registration is not required. Individuals who have already registered on the eShram portal may use their Universal Account Number (UAN) to log in to the eShram One-Stop Solution and monitor the schemes in which they are enrolled.
+Q - 13. How may I log in to the One-Stop Solution portal?
+You may log in by clicking the Login button under the eShram: One-Stop-Solution section on the eShram homepage, or use the links below:
+https://register.eshram.gov.in/#/user/uan-login
+Q - 14. Will my Universal Account Number (UAN) be recognised by other schemes under OSS?
+The UAN assigned to registered workers on eShram will be used as identifier on eShram to view all schemes
+Q - 15. What details will I observe on the eShram OSS homepage after login?
+Upon login, the homepage displays:
+Your Name and UAN
+Profile picture and Update Profile tabs
+Download UAN Card option
+Find Eligible Schemes option
+Looking for a Job option
+Enrol for Government Schemes categories
+My Enrolled Schemes (including count of enrolled schemes)
+Logout button
+Q - 16. How frequently will the eShram portal be updated in the future?
+The portal shall undergo regular updates to incorporate new functionalities and enhance existing features, thereby ensuring its continued relevance and utility for unorganised workers.
+Q - 17. How can I determine whether I am enrolled in a scheme after logging into the eShram portal?
+Upon logging in, the status of each scheme will be clearly indicated:
+If an ‘Apply’ button is visible, it signifies that the user is not yet enrolled in the respective scheme. The user may select the ‘Apply’ button to initiate the enrolment process.
+If a ‘View’ button is displayed, it indicates that the user is already enrolled in the scheme. Selecting the ‘View’ button will allow the user to access detailed information and track associated benefits.
+Q - 18. What major scheme categories are available under eShram: One-Stop-Solution after login?
+After logging in, the user will observe these main categories under 'Enrol for Government Schemes':
+Health
+Insurance
+Pension
+Credit Scheme
+Housing
+Food Security
+Employment
+Skilling
+Miscellaneous
+Q - 19. Are there any schemes available under these categories? Could you please provide some examples?
+Yes, each category includes various Welfare & Social Security schemes. Examples includes:
+Employment category:
+i. National Career Service
+ii. MGNREGA
+Pension category
+i. Indira Gandhi National Widow Pension Scheme (IGNWPS)
+ii. Pradhan Mantri Shram Yogi Maandhan (PM-SYM)
+Q - 20. Will additional schemes be introduced under various categories in the future?
+Yes, the Ministry of Labour & Employment intends to expand the range of schemes available under the One-Stop Solution (OSS) by onboarding them in a phased manner for the benefit of unorganised workers.
+Q - 21. Once schemes are onboarded to the eShram platform, who will be responsible for managing them?
+The eShram portal will continue to function as a facilitative platform, streamlining the enrolment process and enabling effective tracking of scheme benefits. However, the ownership, implementation and management of
+individual schemes will remain with the respective Ministries and Departments responsible for their administration
+Q - 22. What benefits does the Ministry of Labour & Employment anticipate from this initiative?
+Ministry of Labour & Employment is anticipating following benefits from this initiative:
+Unique identifier (UAN) for tracking workers' status and benefits.
+Consolidation of verified information for data-driven decision-making.
+Detailed profiles of workers for demand and supply pattern identification.
+Reduced need for multiple portal visits and redundant form filling.
+Real-time updates on beneficiary status for scheme continuation/ discontinuation.
+Q - 23. How eShram: One-Stop-Solution will help other Ministries/ Department?
+eShram: One-Stop-Solution will help the other Ministries/ Departments in following ways:
+It will potentially help the government by providing access to analytical details and devising evidence-based policies.
+This initiative will also help in achieving saturation of schemes and targeted delivery of schemes to the left-out individuals.
+This will ensure a more effective and equitable provision of essential services, social welfare programs and employment opportunities.
+Q - 24. Will the eShram One-Stop Solution (OSS) support State and Union Territory Governments? If so, how?
+Yes, the eShram One-Stop Solution is designed to assist State and Union Territory Governments. The Ministry of Labour & Employment is already sharing data of registered workers with these governments. Furthermore, the Ministry envisions enabling a technology driven ecosystem that allows States and UTs to access registrant information, assess eligibility and extend appropriate social security provisions to unorganised workers within their jurisdictions.
+Q - 25. What am I advised to do if I encounter technical issues with the eShram portal?
+If the user encounters technical issues while using the eShram portal, here are steps the user may take to resolve them:
+Verify Internet Connectivity: Ensure that the user's internet connection is stable and functioning correctly.
+Refresh the Webpage: In certain cases, refreshing the page may resolve minor display or loading issues.
+Clear Browser Cache and Cookies: Removing cached data and cookies from the browser may help address issues related to stored information.
+Use an Alternative Browser or Device: If the issue persists, consider accessing the portal through a different web browser or device.
+Contact Technical Support: If none of the above measures resolve the issue, the user is advised to contact the eShram helpdesk at 14434 for assistance. The support team may offer further troubleshooting guidance or escalate the matter to the technical team if required.
+Provide Detailed Information: When reaching out to support, the user should share specific details about the issue encountered, including any error messages or actions taken prior to the problem. This will assist the support team in diagnosing and resolving the issue effectively.
+Stay Informed: Users are encouraged to check the eShram portal and official communication channels for announcements regarding known technical issues or scheduled maintenance activities.
+Q - 26. How may I stay informed about updates and changes to eShram services?
+To stay informed about updates and changes to eShram services, the user may follow these steps:
+Official Website: Users are encouraged to visit the official eShram portal at https://www.eshram.gov.in regularly, where important announcements and updates are published.
+Social Media Platforms: Stakeholders may follow eShram on platforms such as Twitter, Facebook and LinkedIn to stay informed. Updates and notifications are routinely shared through these channels to ensure timely dissemination of information.
+Q - 27. Is there a helpdesk I may contact to seek clarification or address my queries?
+Yes, a dedicated national helpdesk has been established to assist users with queries related to eShram registration and associated services. Users may contact the helpdesk by dialling 14434 for support and guidance
+Q - 28. I am unable to connect to the helpdesk number 14434. What am I advised to do in such a situation?
+In the event that the helpdesk number 14434 is temporarily unreachable, possibly due to high call volumes, users are advised to attempt contacting the helpdesk again after some time. Alternatively, grievances or queries may be submitted through the official eShram Grievance Portal at https://gms.eshram.gov.in, where they will be addressed appropriately.
+Q - 29. Are there any income criteria?
+There are no income criteria for registering on eShram as unorganised worker.
+Q - 30. Are there any age-related eligibility criteria for registration on the eShram portal?
+Yes, any individual engaged in unorganised work and aged 16 years and above is eligible to register on the eShram portal, subject to the fulfilment of other prescribed criteria.
+Q - 31. What essential documents are required by the worker to register on eShram?
+Following is required by the worker to register on the eShram portal–
+Aadhaar Number.
+Aadhaar linked Mobile number.
+Note: If a worker does not have Aadhaar linked mobile number, he/ she may visit nearest Common Service Centre (CSC) or State Seva Kendra (SSK) and register through biometric authentication.
+Q - 32. What is the benefit an unorganised worker will receive when he/ she registers on eShram portal?
+Central Government has developed eShram portal which is a centralised database of unorganised workers seeded with Aadhaar. It is envisaged that this portal will be used to facilitate delivery of various social security benefits to unorganised workers. In emergency and national pandemic like situations, this database may be utilised to provide necessary assistance to the eligible unorganised workers.
+Q - 33. How unorganised workers may register on eShram portal?
+An unorganised worker may register himself/ herself by visiting eShram portal or through assisted approach by visiting nearest CSC.
+Q - 34. Is there any charge the workers are required to pay for registration on the eShram portal?
+Registration on eShram portal is totally free. Workers are not required to pay any charges to any registering entity.
+Q - 35. Does the eShram card have validity period?
+The eShram card never expires.
+Q - 36. Is it necessary for a worker to renew their UAN card?
+No, renewal of the eShram card is not required. However, it is advisable to keep the personal details on the card up to date to ensure accuracy and continued benefits.
+Q - 37. Who may update workers details on eShram?
+Workers may self-update their details by visiting eShram portal or through CSC’s.
+Q - 38. How may a worker update his/ her personal information on eShram?
+Updating the user's personal information on eShram may be done through the following steps:
+Log In: Access the eShram portal by logging into your account using your UAN and the OTP sent to your registered mobile number.
+Update Details: Navigate to the section where you can edit personal information. You can update details such as your address, contact number, bank account information, and other relevant data.
+Save Changes: After making the necessary updates, click on the "Save" or "Update" button to ensure your changes are recorded.
+Verification (If Applicable): Depending on the type of information being modified, you may be required to verify the changes via an OTP sent to your registered mobile number or a confirmation email
+Q - 39. What is NCO?
+NCO stands for “National Classification of Occupation”. It is prepared on the basis of work and skill levels required to execute the work. It is an international practice and uniform across the country. It helps in comparing, classifying, sorting occupations and skill levels.
+Q - 40. How can a worker choose the correct occupation that matches their current work?
+During the registration process on the eShram Portal, the worker must select the occupation that best represents the activity he/she is currently engaged in.
+Q - 41. How occupation is different from skill?
+A skill is a learned or natural ability to accomplish a particular task whereas an occupation is a person's usual or principal work or business, especially as a means of earning a living.
+Q - 42. How my details will be used by the Government of India?
+eShram is a centralised database seeded with Aadhaar. It will be used for facilitating delivery of social security benefits as implemented by Central & State Governments. It will also enable portability of the social security and welfare benefits to the migrant and construction workers at their working places. It may also be used for providing assistance to the eligible workers during any National crisis like COVID-19 in future.
+Q - 43. What if after registration on eShram the unorganised worker moves to organised sector?
+In case if a worker moves to unorganised/organised sector, he/ she will only be entitled for benefits defined for organised sector workers.
+Q - 44. Am I required to give proof of my date of birth and income?
+At present there is no requirement to provide any proof of date of birth and income.
+Q - 45. Are there any educational qualifications prescribed for registering as an unorganised worker?
+No, the worker is required to be employed in the unorganised sector.
+Q - 46. What are the documents that are to be submitted at the enrolment Centre?
+Worker is not required to submit any document at the CSC’s. They are required to carry their Aadhaar number & Mobile for registration.
+Q - 47. Who operate the helpdesk/ grievance redressal mechanism?
+Ministry of Labour & Employment is managing national helpdesk/ grievance redressal mechanism.
+Q - 48. Is there any interactive map for finding the nearest location of the registration Centre?
+Yes, please click on the link below to find the user's nearest CSC Centre for assisted registration - https://findmycsc.nic.in/csc.
+Q - 49. Can the worker update his/ her photo on eShram portal?
+During the registration, photo is retrieved from Aadhaar services. Therefore, provision to update photo on eShram is not available. However, if worker’s photo is updated in Aadhaar, same will be reflected on eShram portal as well after completing Aadhaar re-eKYC on eShram.
+Q - 50. What is occupation?
+A person's usual or principal work or business, especially as a means of earning a living is called occupation.
+Q - 51. What is primary occupation?
+The activity which is major source of income for a worker is called his/ her primary activity/ occupation.
+Q - 52. What is secondary occupation?
+Any other activity which is a minor but significant source of income is called secondary activity/ occupation.
+Q - 53. I have changed my registered mobile number. How may I update my mobile number? or register other mobile number on eShram portal?
+You may login on eShram through “Update profile using Aadhaar” under “Already registered” menu and update the new mobile number as the user's registered number. If the user does not have Aadhaar registered mobile number, the user may also visit nearest CSC/ SSK’s to update mobile number.
+Q - 54. Are farmers eligible to register on eShram portal?
+Agriculture labours and landless farmers are eligible for registration in the eShram portal.
+Q - 55. I am 16 years old. Can I register on eShram portal?
+Yes, the user is eligible provided the user satisfy other registration criteria.
+Q - 56. What are the details workers may update in eShram?
+Once registered, a worker may update his particulars such as mobile number, current address, occupation, educational qualification, skill types etc. through eShram portal or by visiting nearest CSC Centres.
+Q - 57. Is there a deadline for registering on the eShram Portal?
+No, there is no fixed last date for registration. For user convenience, the eShram Portal is accessible 24x7, allowing workers to register at any time.
+Q - 58. Is eShram accessible for individuals with disabilities?
+Yes, eShram aims to be accessible for individuals with disabilities. The platform strives to adhere to accessibility standards to ensure inclusivity for all users.
+Q - 59. Where may I find announcements or news related to eShram?
+Visit the official eShram website regularly https://www.eshram.gov.in. Important announcements and updates are often posted on the homepage.
+Stakeholders:
+-->
+Stakeholders:
+-->
+Accessibility Statement
+Terms & Conditions
+Disclaimer
+Website Policies
+Bhashini Disclaimer
+Help
+Contact Us
+Web Information Manager
+Glossary
+FAQs
+Sitemap
+-->
+Last Update: 17-Nov-2026
+Total Visitors: 587646130
+Website Content Managed by Ministry of Labour & Employment
+Designed and Developed by National Informatics Centre
+-->
+Ministry of Labour & Employment
+Government of India
+Shram Shakti Bhawan
+Rafi Marg, New Delhi-110001
+©2026 Ministry Of Labour & Employment. All rights reserved.
+-->

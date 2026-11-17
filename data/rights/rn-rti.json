@@ -1,0 +1,129 @@
+{
+  "id": "rn-rti",
+  "type": "right",
+  "topic": "rti",
+  "title_en": "You can ask the government for information",
+  "law": "Right to Information Act, 2005, Sections 6, 7 and 19",
+  "rule_plain": "You can ask a government office for information in writing or by electronic means. You do not have to say why you want it. The officer must answer within 30 days, or within 48 hours if it is about a person's life or liberty.",
+  "what_you_can_do": [
+    "Send your request to the Public Information Officer of the office, with the fee that is set.",
+    "If you cannot write, the officer must help you put your spoken request in writing.",
+    "If you get no answer in time, or you are not happy with the answer, appeal within 30 days to an officer senior to the Public Information Officer in the same office.",
+    "After that, you can make a second appeal to the State Information Commission or the Central Information Commission within 90 days."
+  ],
+  "where_to_get_help": "The Public Information Officer of the office; for a second appeal, the State Information Commission or the Central Information Commission.",
+  "sources": [
+    "rn-rti-act"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rn-rti-act",
+      "quote": "The Right to Information Act, 2005"
+    },
+    {
+      "field": "law",
+      "source": "rn-rti-act",
+      "quote": "6. Request for obtaining information."
+    },
+    {
+      "field": "law",
+      "source": "rn-rti-act",
+      "quote": "7. Disposal of request."
+    },
+    {
+      "field": "law",
+      "source": "rn-rti-act",
+      "quote": "19. Appeal."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-rti-act",
+      "quote": "shall make a request in writing or through electronic means in English or Hindi or in the official"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-rti-act",
+      "quote": "shall not be required to give any reason for"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-rti-act",
+      "quote": "within thirty days of the receipt of the request"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-rti-act",
+      "quote": "concerns the life or liberty of a person"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-rti-act",
+      "quote": "be provided within forty-eight hours of the receipt of the request"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "the Central Public Information Officer or State Public Information Officer, as the case may"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "accompanying such fee as may be"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "shall render all reasonable assistance to the"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "person making the request orally to reduce the same in writing"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "may within thirty days"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "prefer an appeal to such officer who"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "is senior in rank to the Central Public Information Officer or State Public Information Officer"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "A second appeal against the decision under sub-section (1) shall lie within ninety days"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-rti-act",
+      "quote": "with the Central Information Commission or the State Information Commission"
+    }
+  ],
+  "gaps": [
+    "The fee amount for Tamil Nadu offices is not in the Act, so no amount is given.",
+    "The address of the Tamil Nadu State Information Commission is not in this source.",
+    "Source is the Central Information Commission copy of the Act marked 'As on the 18th November, 2025'."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Official RTI Act text.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

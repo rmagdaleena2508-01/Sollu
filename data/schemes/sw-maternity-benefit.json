@@ -1,0 +1,153 @@
+{
+  "id": "sw-maternity-benefit",
+  "type": "scheme",
+  "name_en": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Health and Family Welfare Department, Government of Tamil Nadu",
+  "audiences": [
+    "women"
+  ],
+  "benefit": "Pregnant mothers can get up to Rs 18,000 in total. It comes in parts: cash at different steps of pregnancy and after the baby's shots, plus two nutrition kits.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Your pregnancy must be registered in PICME and you need an RCH ID.",
+      "Each part is paid only when you meet its step, like registering by 12 weeks, giving birth in a government hospital, and getting the baby's vaccines."
+    ]
+  },
+  "documents": [
+    "Mother's Aadhaar number",
+    "For the first delivery: husband's Aadhaar number too",
+    "Address proof, such as bank passbook with photo, voter ID, ration card, passport, driving licence, MGNREGS job card or CMCHIS card"
+  ],
+  "how_to_apply": "Tell the government you are pregnant (pre-register). You can do it online on the PICME site, at an e-Seva centre, by calling 102, or at a government hospital. The village or urban health nurse will then register you and give you an RCH ID.",
+  "where_to_apply": "PICME website (picme.tn.gov.in/picme_public), e-Seva centre, or nearest government hospital",
+  "helpline": "102",
+  "go_number": "G.O. Ms. 118, Health & FW, dated 2-4-2018",
+  "sources": [
+    "sw-maternity-picme"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "sw-maternity-picme",
+      "quote": "G.O Ms. 118, Health & FW dated: 2-4-2018"
+    },
+    {
+      "field": "go_number",
+      "source": "sw-maternity-picme",
+      "quote": "G.O Ms. 118, Health & FW dated: 2-4-2018"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-maternity-picme",
+      "quote": "TOTAL Rs.18,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-maternity-picme",
+      "quote": "First Nutrition Kit on completion of third month (Kind benefit)"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-maternity-picme",
+      "quote": "Second Nutrition Kit on completion of fourth month (Kind benefit)"
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "sw-maternity-picme",
+      "quote": "if the mother applies for maternity benefit scheme"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-maternity-picme",
+      "quote": "Government of Tamilnadu has mandated to register all pregnancies"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-maternity-picme",
+      "quote": "Antenatal registration on or before 12 weeks"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-maternity-picme",
+      "quote": "After delivery in Government health facility"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-maternity-picme",
+      "quote": "After completion of Measles Rubella vaccination"
+    },
+    {
+      "field": "documents",
+      "source": "sw-maternity-picme",
+      "quote": "if the mother applies for maternity benefit scheme, submission of Aadhaar number is compulsory"
+    },
+    {
+      "field": "documents",
+      "source": "sw-maternity-picme",
+      "quote": "submission of aadhaar number of pregnant mother and her husband is compulsory"
+    },
+    {
+      "field": "documents",
+      "source": "sw-maternity-picme",
+      "quote": "Bank Pass book with photo, Voter ID, Ration Card, Passport, Driving License, MGNREGS Job"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-maternity-picme",
+      "quote": "Pre-registration can be done in 4 ways."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-maternity-picme",
+      "quote": "The pregnant mother can approach the nearest e-Seva centre and pre-register her pregnancy free of cost."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "sw-maternity-picme",
+      "quote": "Only the Village Health Nurse / Urban Health Nurse can give RCH ID."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "sw-maternity-picme",
+      "quote": "https://picme.tn.gov.in/picme_public"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "sw-maternity-picme",
+      "quote": "The pregnant mother can approach the nearest Government Hospital and pre-register."
+    },
+    {
+      "field": "helpline",
+      "source": "sw-maternity-picme",
+      "quote": "The pregnant mother can call toll free number “102” and"
+    }
+  ],
+  "gaps": [
+    "Saved source (PICME FAQ PDF, undated) does not state income/BPL limit, minimum age (often cited as 19) or the 'first two deliveries' limit; these are left out.",
+    "Rs 18,000 split is from G.O. Ms. 118 (2018) as quoted in the FAQ; any later revision is not confirmed.",
+    "Department is inferred from the 'Health & FW' G.O. label in the FAQ."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Clear PICME FAQ with the Rs 18,000 split and steps. FAQ is undated.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

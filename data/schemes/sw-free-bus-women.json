@@ -1,0 +1,92 @@
+{
+  "id": "sw-free-bus-women",
+  "type": "scheme",
+  "name_en": "Vidiyal Payanam (free bus travel for women)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Transport Department, Government of Tamil Nadu (State Transport Undertakings)",
+  "audiences": [
+    "women"
+  ],
+  "benefit": "Women can ride government ordinary town buses (white board buses) for free. No ticket money is needed.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Transgender persons can also travel free.",
+      "A person who helps someone with 40% or more disability can also travel free."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": null,
+  "where_to_apply": "Ordinary fare town buses (white board) of all State Transport Undertakings in Tamil Nadu",
+  "helpline": "149 (MTC Chennai customer care)",
+  "go_number": null,
+  "sources": [
+    "sw-freebus-mtc",
+    "sw-freebus-arasu",
+    "sw-freebus-spc"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "sw-freebus-mtc",
+      "quote": "All women are allowed to travel free of charge in ordinary buses under the “Vidiyal Payanam” scheme with effect from 08.05.2021."
+    },
+    {
+      "field": "benefit",
+      "source": "sw-freebus-arasu",
+      "quote": "free of charge in ordinary fare town buses (white"
+    },
+    {
+      "field": "benefit",
+      "source": "sw-freebus-spc",
+      "quote": "waives charges for travel by the women commuters in ordinary fare State-owned public buses"
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "sw-freebus-mtc",
+      "quote": "All women are allowed to travel free of charge in ordinary buses"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "sw-freebus-arasu",
+      "quote": "transgenders and escorts of the person with disability of 40% and above."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "sw-freebus-arasu",
+      "quote": "board) in all State Transport Undertakings"
+    },
+    {
+      "field": "helpline",
+      "source": "sw-freebus-mtc",
+      "quote": "Customer Care Toll Free No.: 149"
+    }
+  ],
+  "gaps": [
+    "Saved official sources describe the original 2021 scheme (ordinary town buses only). News reports say it was expanded and renamed 'Vettri/Vetri Payanam' on 2 Oct 2026 to more bus types (Express, LSS, Deluxe, some mofussil); no official page for the expansion was found, so it is NOT included. Re-check before showing.",
+    "Sources do not describe how to use it (for example, a zero-fare ticket); no application is mentioned.",
+    "Department name is not stated in the saved sources; 'Transport Department' is a label, not a quoted fact.",
+    "Helpline 149 is MTC (Chennai) customer care only, not a statewide scheme helpline."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Sources describe the 2021 Vidiyal Payanam (ordinary town buses). A newer expansion is reported in news but not confirmed officially.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

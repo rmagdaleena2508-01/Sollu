@@ -1,0 +1,116 @@
+{
+  "id": "stu-tamil-pudhalvan",
+  "type": "scheme",
+  "name_en": "Tamizh Pudhalvan Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+  "audiences": [
+    "college_students"
+  ],
+  "benefit": "Boys who studied in government schools (or Tamil-medium aided schools) get Rs 1,000 every month while they study a degree, diploma or ITI course.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "male",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "student"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "Must have studied in a Government school (any medium) or a Government Aided school (Tamil medium only)",
+      "Must be studying a degree, diploma or ITI course",
+      "Must show an Aadhaar number or do Aadhaar check; if you have no Aadhaar yet, apply for one"
+    ]
+  },
+  "documents": [
+    "Aadhaar number (or Aadhaar enrolment slip / request copy plus one ID such as bank or post office passbook with photo, PAN card, passport, ration card, voter ID, MGNREGA card, Kisan photo passbook, driving licence, or a photo ID letter from a Gazetted Officer or Tahsildar)"
+  ],
+  "how_to_apply": null,
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": "G.O. Ms. No. 42, Social Welfare and Women Empowerment Department, 18 July 2024",
+  "sources": [
+    "stu-tamil-pudhalvan-go"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "SOCIAL WELFARE AND WOMEN EMPOWERMENT DEPARTMENT"
+    },
+    {
+      "field": "benefit",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "by providing a sum of Rs.1,000/ – (Rupees thousand only) per month as incentive to all boy students who studied in Government Schools (both medium) / Government Aided Schools (Tamil medium only) and pursuing their Graduation / Diploma and Industrial Training Institute courses."
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "incentive to all boy students who studied in Government Schools"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "pursuing their Graduation / Diploma and Industrial Training Institute courses"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "Government Schools (both medium) / Government Aided Schools (Tamil medium only)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "is required to furnish proof of possession of Aadhaar number or undergo Aadhaar authentication."
+    },
+    {
+      "field": "documents",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "If he has enrolled, his Aadhaar Enrolment Identity Slip; or"
+    },
+    {
+      "field": "documents",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "Bank or Post office Passbook with Photo; or"
+    },
+    {
+      "field": "documents",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "Permanent Account Number (PAN) Card; or"
+    },
+    {
+      "field": "documents",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "Certificate of identity having photo of such person issued by a Gazetted Officer or a Tahsildar"
+    },
+    {
+      "field": "go_number",
+      "source": "stu-tamil-pudhalvan-go",
+      "quote": "G.O. Ms. No. 42, Social Welfare and Women Empowerment [SW-3(2)],18th July 2024"
+    }
+  ],
+  "gaps": [
+    "The only saved source is the Aadhaar notification (G.O. Ms. No. 42, July 2024); it does not say how or where to apply.",
+    "No myScheme page was found; dte.tn.gov.in/tamil-pudhalvan timed out and could not be saved.",
+    "Source names Rs 1,000 a month but does not say until when it is paid, or whether it can be combined with other scholarships.",
+    "Source gives no age limit, income limit, helpline or Tamil name.",
+    "Source does not say the student must live in Tamil Nadu (implied, not stated)."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Only source is the 2024 Gazette Aadhaar notification; how and where to apply are missing.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

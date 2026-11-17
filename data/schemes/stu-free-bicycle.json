@@ -1,0 +1,87 @@
+{
+  "id": "stu-free-bicycle",
+  "type": "scheme",
+  "name_en": "Distribution of Free Bicycles to Class 11 Students",
+  "name_ta": null,
+  "level": "state",
+  "department": "Backward Classes, Most Backward Classes and Minorities Welfare Department, Government of Tamil Nadu",
+  "audiences": [
+    "school_students"
+  ],
+  "benefit": "Boys and girls in Class 11 at government, aided and partly aided schools get a free bicycle. Income and community do not matter.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "any",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "student"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "Must be in Class 11 (+1) at a Government, Government Aided or partially aided school",
+      "Free bus pass holders can also get it",
+      "Students who live in a hostel inside the school, or in a residential school, cannot get it"
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Ask your school Headmaster.",
+  "where_to_apply": "Your school Headmaster",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "stu-bc-welfare"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "stu-bc-welfare",
+      "quote": "Bicycles are supplied to 11th standard students of Government, Government aided and partially aided schools irrespective of income and community."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "stu-bc-welfare",
+      "quote": "Should be the students (Boys & Girls) of +1 in Government, Government aided and partially aided school"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-bc-welfare",
+      "quote": "(this concession is applicable to the Free bus pass holders also.)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "stu-bc-welfare",
+      "quote": "Students staying in the Hostels situated in the school premises and staying in Residential Schools are not eligible for getting free bi-cycles."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "stu-bc-welfare",
+      "quote": "Officials to be contacted Concerned School Headmaster."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "stu-bc-welfare",
+      "quote": "Officials to be contacted Concerned School Headmaster."
+    }
+  ],
+  "gaps": [
+    "Source is the BC/MBC/DNC Welfare Department page; it says bicycles go to all Class 11 students 'irrespective of income and community', but does not name which department runs the scheme overall.",
+    "Source does not list documents or a formal application step; it only says to contact the school Headmaster.",
+    "Source page is undated; no G.O. number, helpline or Tamil name."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Simple benefit; apply via Headmaster.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

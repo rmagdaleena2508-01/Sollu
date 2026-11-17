@@ -1,0 +1,94 @@
+{
+  "id": "rn-ration",
+  "type": "right",
+  "topic": "ration",
+  "title_en": "Your family has a right to food grains from the ration shop",
+  "law": "National Food Security Act, 2013, Sections 3, 8, 13, 14 and 15",
+  "rule_plain": "If your family is a priority household, each person can get 5 kg of food grains a month at low prices from the ration system. Antyodaya Anna Yojana families can get 35 kg per family a month. If you do not get the grains you are owed, the State Government must pay you a food security allowance.",
+  "what_you_can_do": [
+    "Complain through the State's grievance system, which may include call centres and help lines.",
+    "Complain to the District Grievance Redressal Officer of your district if you do not get your grains.",
+    "If you are not happy with that officer's order, you can appeal to the State Food Commission."
+  ],
+  "where_to_get_help": "The District Grievance Redressal Officer of your district; the State Food Commission for appeals.",
+  "sources": [
+    "rn-nfsa-act"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rn-nfsa-act",
+      "quote": "THE NATIONAL FOOD SECURITY ACT, 2013"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-nfsa-act",
+      "quote": "shall be entitled to receive five kilograms of foodgrains per person per month"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-nfsa-act",
+      "quote": "Public Distribution System:"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-nfsa-act",
+      "quote": "entitled to thirty-five kilograms of foodgrains per household per month"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-nfsa-act",
+      "quote": "In case of non-supply of the entitled quantities of foodgrains"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rn-nfsa-act",
+      "quote": "such persons shall be entitled to receive such food security"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-nfsa-act",
+      "quote": "which may include call centres, help lines, designation of nodal officers"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-nfsa-act",
+      "quote": "be the District Grievance Redressal Officer for expeditious and effective redressal of"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-nfsa-act",
+      "quote": "hear complaints regarding non-"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rn-nfsa-act",
+      "quote": "may file an appeal against such order before the State Commission"
+    },
+    {
+      "field": "where_to_get_help",
+      "source": "rn-nfsa-act",
+      "quote": "Every State Government shall, by notification, constitute a State Food"
+    }
+  ],
+  "gaps": [
+    "Prices in Schedule I and any later central decision on free grains are not given here; check current prices before stating them.",
+    "Tamil Nadu's own public distribution rules and who counts as a priority household in Tamil Nadu are not in this source.",
+    "How to apply for a ration card in Tamil Nadu, and the District Grievance Redressal Officer's contact, are not in this source.",
+    "The Act also says the eldest woman aged 18 or more is head of the household for ration cards (Section 13); not included above to keep the entry short."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Central NFSA only; Tamil Nadu PDS rules and prices not included.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-17",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-17T05:19:02+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}
