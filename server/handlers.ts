@@ -1,5 +1,6 @@
 import type { AskLang, AskRequest } from '../src/ask/types';
 import { answer } from './ask.js';
+import { check, cleanCheck } from './check.js';
 import { geminiJson, GeminiBusyError } from './gemini.js';
 import { speak, speakStream, transcribe } from './sarvam.js';
 
@@ -166,4 +167,19 @@ async function handleTtsStream(req: Request): Promise<Response> {
     console.error('tts stream failed', err);
     return json({ error: 'Could not make audio' }, 502);
   }
+}
+
+/** POST /api/check: the 5 answers from the Check page. Our rules only, no AI, so it's instant and free. */
+export async function handleCheck(req: Request): Promise<Response> {
+  if (req.method !== 'POST') return json({ error: 'Use POST' }, 405);
+  if (limited(req, 60, 'check')) return json({ error: 'Too many requests. Please wait a minute.' }, 429);
+  let body: unknown;
+  try {
+    body = await req.json();
+  } catch {
+    return json({ error: 'Bad request' }, 400);
+  }
+  const clean = cleanCheck(body);
+  if (!clean) return json({ error: 'Bad request' }, 400);
+  return json(check(clean));
 }

@@ -206,7 +206,7 @@ const REPO = 'https://github.com/rmagdaleena2508-01/Sollu';
 
 /** Every link goes somewhere real. Links that leave the site open in a new tab. */
 export const footerCols: { title: string; links: [label: string, href: string][] }[] = [
-  { title: 'Product', links: [['Ask', '/ask'], ['What Sollu does', '#what'], ['For every person', '#people']] },
+  { title: 'Product', links: [['Ask', '/ask'], ['Check what you can get', '/check'], ['What Sollu does', '#what'], ['For every person', '#people']] },
   { title: 'Learn', links: [['Sources', '#trust'], ['Where answers come from', `${REPO}/blob/main/DATA-SOURCES.md`], ['Roadmap', '#roadmap'], ['FAQs', '#faq']] },
   { title: 'Project', links: [['Source code', REPO], ['Report a wrong answer', `${REPO}/issues/new`], ['How AI was used', `${REPO}#ai-use-and-responsibility`], ['License (MIT)', `${REPO}/blob/main/LICENSE`]] },
 ];

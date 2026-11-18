@@ -47,6 +47,23 @@ const pages = [
     ],
   },
   {
+    path: '/check',
+    file: 'check.html',
+    title: 'Check what you can get — Tamil Nadu schemes in 5 questions | Sollu',
+    description:
+      'Answer 5 quick questions and see which checked Tamil Nadu and central schemes may fit you or your family, why, and the official source.',
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Sollu', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: 'Check', item: `${SITE}/check` },
+        ],
+      },
+    ],
+  },
+  {
     path: '/ask',
     file: 'ask.html',
     title: 'Ask Sollu — government schemes and rights, by voice, in Tamil or English',
