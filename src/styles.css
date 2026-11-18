@@ -114,22 +114,23 @@ section{padding:80px 0}
 @media (min-width:768px){section{padding:120px 0}}
 
 /* ---------- one screen per section (landing page only) ----------
-   Each section fills the screen below the sticky top bar and the page snaps to it, so after a scroll
-   only one section is in view. A section with more content than one screen keeps its full height:
-   browsers let you scroll freely inside a snap area taller than the screen, so nothing is cut off. */
+   Each section fills the screen below the sticky top bar. After a scroll stops near a section's edge,
+   useSoftSnap (hooks.ts) glides onto it, so one section fills the view. A section with more content
+   than one screen keeps its full height and scrolls freely, so nothing is cut off. */
 :root{--nav-h:68px}
-html:has(.snap-page){scroll-snap-type:y mandatory;scroll-padding-top:var(--nav-h)}
+/* No CSS scroll snapping: hard snapping felt like pushing a deck of cards. useSoftSnap (hooks.ts) glides
+   gently onto the next section after a scroll ends, only in the direction of the scroll. The padding keeps
+   anchor links landing below the sticky top bar. */
+html:has(.snap-page){scroll-padding-top:var(--nav-h)}
 .snap-page > section{
   min-height:calc(100vh - var(--nav-h));
   min-height:calc(100dvh - var(--nav-h));
   display:flex;flex-direction:column;justify-content:center;
   padding:48px 0;
-  scroll-snap-align:start;
   overflow-x:clip; /* tilted cards and stickers can't spill sideways */
 }
 @media (min-width:768px){.snap-page > section{padding:64px 0}}
 .snap-page > section > .wrap{width:100%}
-html:has(.snap-page) footer{scroll-snap-align:end}
 /* The hero keeps its own spacing, including room for the Hear it sticker on phones. */
 .snap-page > section.hero{padding:56px 0 40px}
 @media (min-width:768px){.snap-page > section.hero{padding:88px 0 64px}}
