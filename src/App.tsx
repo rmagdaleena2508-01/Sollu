@@ -1,4 +1,4 @@
-import { useRevealAll, useLang } from './hooks';
+import { useRevealAll, useLang, useSoftSnap } from './hooks';
 import { IconSprite } from './components/Icon';
 import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
@@ -11,6 +11,7 @@ import { FinalCta, Footer } from './components/Footer';
 export function App() {
   const [lang, setLang] = useLang();
   useRevealAll();
+  useSoftSnap('.snap-page > section, footer');
 
   return (
     <>
