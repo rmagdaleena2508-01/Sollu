@@ -268,7 +268,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 18 | This README's story of getting found by Google and loading fast, with the SEO checklist in a fold. | [#18](https://github.com/rmagdaleena2508-01/Sollu/pull/18) |
 | 19 | **One section per screen:** the landing page snaps to each section (CSS Scroll Snap). Each fills the screen below the top bar; longer sections can still be scrolled through, so nothing is cut off. | [#19](https://github.com/rmagdaleena2508-01/Sollu/pull/19) |
 | 20 | **Check what you can get:** 5 questions (age, woman or man, what fits them, family income, community certificate), then every checked scheme that may fit, grouped into "may fit", "need one more answer" and "doesn't fit", with the reason and the official source. Our own rules decide, no AI. | [#21](https://github.com/rmagdaleena2508-01/Sollu/pull/21) |
-| 21 | **Smoother scrolling:** hard CSS snapping replaced by a gentle glide. Sections still fill the screen, but scrolling moves freely, and the page eases onto a section only when you stop near its edge, in the direction you were going. | this change |
+| 21 | **Smoother scrolling:** hard CSS snapping replaced by a gentle glide. Sections still fill the screen, but scrolling moves freely, and the page eases onto a section only when you stop near its edge, in the direction you were going. | [#24](https://github.com/rmagdaleena2508-01/Sollu/pull/24) |
+| 22 | Fixed: the "Ask out loud" card vanished after its mic was tapped. | this change |
 
 ### Problems I hit, and how I fixed them
 
@@ -281,6 +282,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | Cards in the fanned stack showed through each other | Made the side cards fully solid |
 | The Tamil button text didn't fit on a 390px phone | Shortened it to *"இலவசமா கேளுங்க"* |
 | `sollu.vercel.app` already belonged to a different app | Picked `sollu-ai.vercel.app` |
+| 18 Nov: tapping the mic on the "Ask out loud" card made the whole card disappear | Cards fade in on scroll by getting an `in` class added from outside React. This card adds `playing` to its own `className` when tapped, and React rewrote the whole class list, dropping `in`, so the card went back to invisible. Revealed cards are now marked with a `data-revealed` attribute, which React leaves alone. Tested with a real click: the live site went to opacity 0, the fix stays at 1 |
 | Once the real Ask page existed, the landing page still had mockup leftovers: made-up scheme counts, a "Get alerts" phone number form with no alerts behind it, an FAQ promising "saved answers" and a "Report a wrong answer" button that didn't exist, footer links to pages that don't exist, and a sample question Sollu can't answer | The "Check" card now counts the real checked schemes for each group (built from the data by `check.py`). The alerts form is now "Ask Sollu" and "See how we check". The FAQ only says what's true. Footer links go to real pages. The land notice question is now the census question |
 
 **Data**

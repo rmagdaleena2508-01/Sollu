@@ -24,7 +24,12 @@ export function useReducedMotion(): boolean {
   return reduce;
 }
 
-/** Adds `.in` to every `.reveal` element once it scrolls into view. */
+/**
+ * Marks every `.reveal` element with `data-revealed` once it scrolls into view.
+ * It's an attribute, not a class: React rewrites `className` whenever a component re-renders with a
+ * different class (the "Ask out loud" card adds `playing` when its mic is tapped), and that wiped out a
+ * class added from here, so the card faded back out. React leaves attributes it didn't set alone.
+ */
 /**
  * Gentle "settle" for the landing page, instead of hard CSS scroll snapping.
  *
@@ -124,7 +129,7 @@ export function useRevealAll() {
       (entries) =>
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            e.target.classList.add('in');
+            e.target.setAttribute('data-revealed', '');
             io.unobserve(e.target);
           }
         }),
