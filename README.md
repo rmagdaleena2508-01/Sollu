@@ -399,15 +399,29 @@ I gave myself a checklist people share for "Google isn't showing my site". Click
 
 **Check what you can get**
 
-| Problem | Fix |
-|---|---|
-| The landing page promised "Check: answer 5 quick questions, see every scheme you may fit", but it didn't exist | Built `/check`. It asks one question per screen: age, woman or man, what fits them, family income, community certificate. Every question can be skipped |
-| Should the AI decide who qualifies? | No. `/api/check` runs the same rules as the Ask page (`server/eligibility.ts`) on the checked data. It's instant, free, and anyone can read the rules |
-| The data has no age limit for the maternity benefit and no "widow" field, so the first version showed maternity help to a 67-year-old woman, and the widow pension to every woman | Those two schemes now appear only when "Pregnant or a new mother" or "Widow" is picked |
-| Pudhumai Penn (for women in college) showed up for a 67-year-old woman, because it's tagged for both "women" and "college students" | A scheme meant for students, farmers or workers now needs that answer. Being a woman or over 60 alone isn't enough |
-| Free bus travel was listed above the old age pension | Results are sorted by how many rules each scheme checked (an age match counts double), so the most specific matches come first |
-| Some lines listed under a scheme are notes, not requirements ("Transgender persons can also travel free") | The box is labelled "From the official page" instead of "Also needed" |
-| After "Answer: family income", the person had to go through the remaining questions again | Answering a missing question now goes straight back to the results |
+**Why we built it.** Most people don't know which schemes exist, so they can't ask about them. The Ask page only helps once you know what to ask. A 67-year-old widow may not know there's a widow pension *and* an old age pension *and* free hospital cover she could get. Check turns that around: answer 5 simple questions about the person, and Sollu shows every checked scheme they may get, and why.
+
+**The problem we solved.** The landing page promised "Check what you can get: tell us a little about you, see every scheme you may fit". It had a "Check now" button and a "Check a scheme" button. Neither led to a real feature: the first opened the Ask page, and the second only scrolled down the landing page. A visitor who tapped them got a promise the product didn't keep.
+
+**When we faced it.** On 17 November 2026, while getting the demo ready, I went through the landing page line by line and listed every claim that wasn't real yet. The made-up scheme counts on the Check card were replaced with real ones that day ([#11](https://github.com/rmagdaleena2508-01/Sollu/pull/11)), but the feature behind the card was still missing. On 18 November 2026 I built it ([#21](https://github.com/rmagdaleena2508-01/Sollu/pull/21)).
+
+**How we solved it.**
+
+1. **Ask only what the rules can use.** The checked data has rules for age, gender, family income and community certificate, and each scheme is tagged for groups (students, farmers, workers, women, seniors). So the 5 questions map straight to those: age, woman or man, what fits them, family income, community certificate. Every question can be skipped.
+2. **Let our own rules decide, not the AI.** `/api/check` runs the same eligibility rules as the Ask page (`server/eligibility.ts`). A "may fit" is a sentence about someone's money, so it has to come from rules anyone can read and test. It's also instant, free, and works even when Gemini is busy.
+3. **Be honest about what 5 answers can't tell.** Results are split into "may fit", "need one more answer" (with a button to answer just that question) and "doesn't fit" (with the reason). Each scheme shows the extra conditions from the official page and its source, and the page says the office makes the final decision.
+4. **Test with real-looking people before trusting it.** I ran 8 sample people through it and checked every result against the scheme rules by hand. That's how the problems below were found.
+
+| When | Problem | Fix |
+|---|---|---|
+| 17 Nov, landing page review | "Check now" and "Check a scheme" promised a feature that didn't exist | Built `/check` and pointed all three landing buttons (bento card, hero, footer) to it |
+| 18 Nov, design | Should the AI decide who qualifies? | No. `/api/check` uses our own rules on the checked data |
+| 18 Nov, testing the 8 sample people | The data has no age limit for the maternity benefit and no "widow" field, so maternity help showed for a 67-year-old woman, and the widow pension for every woman | Those two schemes now appear only when "Pregnant or a new mother" or "Widow" is picked |
+| 18 Nov, testing | Pudhumai Penn (for women in college) showed up for a 67-year-old woman, because it's tagged for both "women" and "college students" | A scheme meant for students, farmers or workers now needs that answer. Being a woman or over 60 alone isn't enough |
+| 18 Nov, testing | Free bus travel was listed above the old age pension | Results are sorted by how many rules each scheme checked (an age match counts double), so the closest matches come first |
+| 18 Nov, reading the results on a phone | Some lines under a scheme are notes, not requirements ("Transgender persons can also travel free") | The box is labelled "From the official page" instead of "Also needed" |
+| 18 Nov, reading the results on a phone | Each result card's text turned green, because the card borrowed the green "may fit" pill's colour | The card and the pill now use separate class names |
+| 18 Nov, clicking through | After "Answer: family income", the person had to go through the remaining questions again | Answering a missing question now goes straight back to the results |
 
 ## Run it
 
