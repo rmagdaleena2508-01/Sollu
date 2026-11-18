@@ -70,7 +70,8 @@ I'd rather show you an honest list than a big promise.
 | Ask page on the live site | ✅ Live and demo-ready: saved demo answers, a health check, and a clear "busy" message ([build log](#build-log)) |
 | A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
 | **Explain a notice:** 3 real, checked notices on the Ask page (census, rice stock limits, Salem mark sheets). Tap one, get it in 3 lines, read aloud | ✅ Built |
-| Explain a notice from a photo, Check (5 questions), Find an office | 🟠 Not built yet |
+| **Check what you can get** at `/check`: 5 quick questions, then every checked scheme that may fit, why, and the official source | ✅ Built |
+| Explain a notice from a photo, Find an office | 🟠 Not built yet |
 
 Demo cards that are still illustrations say **Sample**. The "Check" card counts real checked schemes. There are no fake users, ratings or testimonials, and no buttons for features that don't exist. Real stories come after the pilot.
 
@@ -221,6 +222,7 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 | The demo, on the live site | The 4-step demo script on sollu-ai.vercel.app, plus `/api/health?deep=1` | Each step answers in under 1 second; all 17 saved audio files load; health check passes |
 | Speech out | Tamil text through `/api/tts`, played in the browser | Plays, with the phone's voice as backup |
 | Voice delay | Time from the answer showing to the voice starting, for an answer that isn't saved | **About 0.9 seconds** on my machine and **about 1.7 seconds on the live site** (was about 6). On the live site the first second of sound arrives in 0.8 to 1.3 seconds, and the download stays well ahead of playback |
+| Check what you can get | 8 sample people through `/api/check` (for example a 67-year-old widow, a 19-year-old BC college student earning Rs 2 lakh, a 66-year-old farmer), then the page itself in English and Tamil, at 390px and 1440px | Every result matched the scheme rules by hand. The widow gets the widow and old age pensions, free bus and Magalir Urimai, and CMCHIS asks for income. Answering the missing question goes straight back to the results. Built page: no errors, layout shift 0.0003 |
 | Scroll snapping | Real swipes, Page Down/Up and Tab in a headless Brave, on the live site at 1440×900 and 390×844 (touch) | Desktop: every swipe and Page Down settles on the next section, ending at the footer. Phone: longer sections scroll through, then snap. Tab: all 70 controls on screen on desktop. No sideways scroll |
 | First visit speed | Fresh browser (empty cache), slow 4G (150 ms delay, 1.6 Mbps) and a 4× slower CPU, on the live site | Home page: first paint **0.54–0.56 s** (was 1.16–1.20), main content shown **1.31–1.34 s** (was 1.64–1.71). Ask page: main content shown **0.61–0.70 s** (was 1.0). On fast 4G the home page's main content shows in 0.68 s. Layout shift 0.029–0.043 on slow 4G (the serif font swapping in after the text is already drawn), within Google's "good" limit of 0.1 |
 | Voice backups | A broken stream, then the Stop button | Falls back to the whole audio file and plays; Stop also cancels the download |
@@ -265,6 +267,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 17 | **Faster first visit:** the stylesheet is built into each page, so it draws without a second request, and the hero fades in faster (0.55 s, shorter delays). | [#16](https://github.com/rmagdaleena2508-01/Sollu/pull/16) |
 | 18 | This README's story of getting found by Google and loading fast, with the SEO checklist in a fold. | [#18](https://github.com/rmagdaleena2508-01/Sollu/pull/18) |
 | 19 | **One section per screen:** the landing page snaps to each section (CSS Scroll Snap). Each fills the screen below the top bar; longer sections can still be scrolled through, so nothing is cut off. | [#19](https://github.com/rmagdaleena2508-01/Sollu/pull/19) |
+| 20 | **Check what you can get:** 5 questions (age, woman or man, what fits them, family income, community certificate), then every checked scheme that may fit, grouped into "may fit", "need one more answer" and "doesn't fit", with the reason and the official source. Our own rules decide, no AI. | this change |
 
 ### Problems I hit, and how I fixed them
 
@@ -394,6 +397,18 @@ I gave myself a checklist people share for "Google isn't showing my site". Click
 | The in-app test browser can't send real wheel or key input, so it couldn't prove snapping worked | I drove a headless Brave over the Chrome DevTools Protocol with real scroll gestures, Page Down/Up and Tab. On desktop every swipe settles on the next section, and all 70 buttons and links stay on screen when tabbed to |
 | People who ask for less motion | Smooth scrolling turns off for them. Snapping stays, because it isn't an animation |
 
+**Check what you can get**
+
+| Problem | Fix |
+|---|---|
+| The landing page promised "Check: answer 5 quick questions, see every scheme you may fit", but it didn't exist | Built `/check`. It asks one question per screen: age, woman or man, what fits them, family income, community certificate. Every question can be skipped |
+| Should the AI decide who qualifies? | No. `/api/check` runs the same rules as the Ask page (`server/eligibility.ts`) on the checked data. It's instant, free, and anyone can read the rules |
+| The data has no age limit for the maternity benefit and no "widow" field, so the first version showed maternity help to a 67-year-old woman, and the widow pension to every woman | Those two schemes now appear only when "Pregnant or a new mother" or "Widow" is picked |
+| Pudhumai Penn (for women in college) showed up for a 67-year-old woman, because it's tagged for both "women" and "college students" | A scheme meant for students, farmers or workers now needs that answer. Being a woman or over 60 alone isn't enough |
+| Free bus travel was listed above the old age pension | Results are sorted by how many rules each scheme checked (an age match counts double), so the most specific matches come first |
+| Some lines listed under a scheme are notes, not requirements ("Transgender persons can also travel free") | The box is labelled "From the official page" instead of "Also needed" |
+| After "Answer: family income", the person had to go through the remaining questions again | Answering a missing question now goes straight back to the results |
+
 ## Run it
 
 You need Node 20.19+ or 22.12+.
@@ -450,6 +465,7 @@ sollu/
 │   ├── data.ts           ← loads the checked entries and their sources
 │   └── handlers.ts       ← input checks, rate limit, error replies
 ├── src/
+│   ├── check/            ← the Check page: 5 questions, then the schemes that may fit
 │   ├── ask/              ← the Ask page
 │   │   ├── AskPage.tsx       mic, text box, conversation
 │   │   ├── AnswerCard.tsx    answer, verdicts, sources, Hear it
@@ -510,7 +526,7 @@ These are the choices that make Sollu feel like Sollu.
 - [x] Ask page live on Vercel
 - [x] Owner check of the pension, Magalir Urimai and free bus amounts
 - [ ] Owner check of every other amount
-- [ ] Scheme check: 5 questions → schemes you may fit
+- [x] Scheme check: 5 questions → schemes you may fit
 - [x] Explain a notice: 3 checked notices as tap-to-explain cards
 - [ ] Explain a notice from a photo or PDF
 - [ ] Test on low-cost Android phones with real people

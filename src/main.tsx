@@ -17,12 +17,13 @@ import '@fontsource/geist-mono/500.css';
 import './styles.css';
 import { App } from './App';
 import { AskPage } from './ask/AskPage';
+import { CheckPage } from './check/CheckPage';
 
-// /ask in production (vercel.json cleanUrls); /ask.html when the built files are served as they are.
-const onAsk = /^\/ask(\.html)?\/?$/.test(location.pathname);
+// /ask and /check in production (vercel.json cleanUrls); /ask.html and /check.html when the built files are served as they are.
+const page = location.pathname.match(/^\/(ask|check)(\.html)?\/?$/)?.[1];
 
 const root = document.getElementById('root')!;
-const app = <StrictMode>{onAsk ? <AskPage /> : <App />}</StrictMode>;
+const app = <StrictMode>{page === 'ask' ? <AskPage /> : page === 'check' ? <CheckPage /> : <App />}</StrictMode>;
 
 // Built pages arrive already rendered (scripts/prerender.mjs), so React takes over that HTML in place.
 // The dev server sends an empty page, so it renders from scratch.

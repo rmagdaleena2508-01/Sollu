@@ -8,7 +8,7 @@ import react from '@vitejs/plugin-react';
  * so `npm run dev` works end to end. Keys come from .env.local and stay on the server.
  */
 function devApi(): Plugin {
-  const routes: Record<string, string> = { '/api/ask': 'handleAsk', '/api/stt': 'handleStt', '/api/tts': 'handleTts', '/api/health': 'handleHealth' };
+  const routes: Record<string, string> = { '/api/ask': 'handleAsk', '/api/stt': 'handleStt', '/api/tts': 'handleTts', '/api/health': 'handleHealth', '/api/check': 'handleCheck' };
   return {
     name: 'sollu-dev-api',
     apply: 'serve',

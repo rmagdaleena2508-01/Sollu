@@ -135,7 +135,7 @@ export function Hero({ lang }: { lang: Lang }) {
             <Icon name="mic" size={18} />
             <span>{t.cta1}</span>
           </a>
-          <a href="#what" className="btn btn-ghost btn-lg">{t.cta2}</a>
+          <a href="/check" className="btn btn-ghost btn-lg">{t.cta2}</a>
         </div>
         <p className="micro rise" style={delay('.2s')}>{t.micro}</p>
       </div>

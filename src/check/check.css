@@ -1,0 +1,68 @@
+/* Check page. Uses the tokens from styles.css and the top bar, verdict pills and source links from ask.css. */
+
+.check{min-height:100dvh;background:var(--bg)}
+.check-ask-link{height:36px;padding:0 12px 0 10px;font-size:14px;border-radius:999px}
+@media (max-width:420px){.check-ask-link span{display:none}.check-ask-link{width:36px;padding:0;justify-content:center}}
+
+.check-main{max-width:640px;margin:0 auto;padding:28px var(--gutter) 64px}
+
+/* ---------- questions ---------- */
+.check-intro{margin-bottom:28px}
+.check-intro h1{font-size:clamp(32px,6vw,48px);line-height:1.04;letter-spacing:-.04em}
+.check[lang="ta"] .check-intro h1{font-size:clamp(26px,5vw,38px);line-height:1.25;letter-spacing:-.01em}
+.check-intro p{margin-top:12px;font-size:16px;line-height:1.5;color:var(--ink-64)}
+
+.check-progress{height:4px;border-radius:999px;background:var(--surface-2);overflow:hidden}
+.check-progress span{display:block;height:100%;background:var(--accent);transform-origin:left;transition:transform 300ms var(--ease-out)}
+.check-step{margin-top:14px;font-size:13px;font-weight:500;color:var(--ink-50)}
+.check-card h2{margin-top:6px;font-size:clamp(24px,4.4vw,32px);line-height:1.2;letter-spacing:-.025em;outline:none}
+.check[lang="ta"] .check-card h2{font-size:clamp(21px,4vw,27px);line-height:1.35;letter-spacing:0}
+
+.check-options{border:0;margin-top:20px;display:grid;gap:10px}
+.check-opt{position:relative;display:flex;align-items:center;gap:12px;min-height:56px;padding:14px 18px;border-radius:16px;background:var(--card);box-shadow:var(--shadow-pill);font-size:16.5px;line-height:1.35;font-weight:500;cursor:pointer;transition:transform 160ms var(--ease-out),background-color 160ms ease,box-shadow 160ms ease}
+.check-opt:active{transform:scale(.98)}
+.check-opt input{position:absolute;opacity:0;width:1px;height:1px}
+.check-opt:has(input:focus-visible){box-shadow:0 0 0 2px var(--accent),var(--shadow-pill)}
+.check-opt.on{background:var(--accent-tint);box-shadow:0 0 0 2px var(--accent)}
+@media (hover:hover) and (pointer:fine){.check-opt:not(.on):hover{background:var(--surface)}}
+.check-tick{flex:none;display:grid;place-items:center;width:24px;height:24px;border-radius:7px;box-shadow:inset 0 0 0 1.5px var(--ink-50);color:transparent;transition:background-color 160ms ease,color 160ms ease}
+.check-opt.on .check-tick{background:var(--accent);box-shadow:none;color:#fff}
+
+.check-age{margin-top:20px}
+.check-age input{width:100%;height:64px;padding:0 20px;border:0;border-radius:16px;background:var(--card);box-shadow:var(--shadow-card);font:inherit;font-size:28px;font-variant-numeric:tabular-nums;letter-spacing:-.02em;color:var(--ink);outline:none}
+.check-age input:focus{box-shadow:0 0 0 2px var(--accent),var(--shadow-card)}
+.check-age input::placeholder{color:var(--ink-50);font-size:20px}
+.check-hint{margin-top:8px;font-size:13.5px;color:var(--ink-50)}
+
+.check-nav{display:flex;justify-content:space-between;gap:10px;margin-top:16px}
+.check-nav.end{justify-content:flex-start;flex-wrap:wrap;margin-top:28px}
+.check-nav .btn:disabled{opacity:.35;cursor:default}
+
+/* ---------- results ---------- */
+.check-results h1{font-size:clamp(30px,6vw,46px);line-height:1.06;letter-spacing:-.04em;outline:none}
+.check[lang="ta"] .check-results h1{font-size:clamp(24px,5vw,34px);line-height:1.3;letter-spacing:0}
+.check-results-sub{margin-top:10px;font-size:14.5px;line-height:1.5;color:var(--ink-64)}
+.check-empty{margin-top:18px;font-size:16px;line-height:1.5}
+.check-empty a{color:var(--accent);font-weight:500}
+.check-group{margin:32px 0 12px;font-size:13px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:var(--ink-50)}
+.check-list{list-style:none;display:grid;gap:12px}
+.check-result{padding:18px;border-radius:20px;background:var(--card);box-shadow:var(--shadow-card)}
+.check-result h3{margin-top:8px;font-size:18px;font-weight:600;line-height:1.3;letter-spacing:-.01em}
+.check-benefit{margin-top:6px;font-size:15.5px;line-height:1.5;color:var(--ink-85)}
+.check-needs{margin-top:12px;padding:10px 12px;border-radius:12px;background:var(--surface)}
+.check-needs p{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.02em;color:var(--ink-50)}
+.check-needs ul,.check-reasons{margin-top:4px;padding-left:18px;font-size:14px;line-height:1.45;color:var(--ink-72)}
+.check-reasons{margin-top:8px}
+.check-caution{display:flex;gap:6px;align-items:center;margin-top:10px;font-size:13.5px;color:#6B4E00}
+.check-result-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 14px;margin-top:12px}
+.check-ask{display:inline-flex;align-items:center;gap:4px;min-height:40px;font-size:14px;font-weight:500;color:var(--accent)}
+.check-answer{display:inline-flex;align-items:center;gap:6px;margin:10px 8px 0 0;min-height:40px;padding:0 14px;border-radius:999px;background:#FFF3D1;color:#7A5600;font-size:14px;font-weight:600;transition:transform 160ms var(--ease-out)}
+.check-answer:active{transform:scale(.97)}
+.check-no{margin-top:28px}
+.check-no summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-size:15px;font-weight:500;color:var(--ink-64)}
+.check-no .check-list{margin-top:8px}
+.check-result.is-no{box-shadow:var(--shadow-pill)}
+/* The global section padding is for the landing page. */
+.check-main section{padding:0;min-height:0}
+
+@media (prefers-reduced-motion:reduce){.check-progress span{transition:none}}
