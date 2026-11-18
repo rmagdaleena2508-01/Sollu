@@ -254,7 +254,14 @@ function Choices<V extends string | number>({
       <legend className="sr">{legend}</legend>
       {options.map((o) => (
         <label key={String(o.value)} className={`check-opt${value === o.value ? ' on' : ''}`}>
-          <input type="radio" name={name} checked={value === o.value} onChange={() => onPick(o.value)} />
+          <input
+            type="radio"
+            name={name}
+            checked={value === o.value}
+            onChange={() => onPick(o.value)}
+            // Tapping the answer that's already picked (after Back) fires no "change", so move on here too.
+            onClick={() => value === o.value && onPick(o.value)}
+          />
           {o.label}
         </label>
       ))}
