@@ -267,7 +267,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 17 | **Faster first visit:** the stylesheet is built into each page, so it draws without a second request, and the hero fades in faster (0.55 s, shorter delays). | [#16](https://github.com/rmagdaleena2508-01/Sollu/pull/16) |
 | 18 | This README's story of getting found by Google and loading fast, with the SEO checklist in a fold. | [#18](https://github.com/rmagdaleena2508-01/Sollu/pull/18) |
 | 19 | **One section per screen:** the landing page snaps to each section (CSS Scroll Snap). Each fills the screen below the top bar; longer sections can still be scrolled through, so nothing is cut off. | [#19](https://github.com/rmagdaleena2508-01/Sollu/pull/19) |
-| 20 | **Check what you can get:** 5 questions (age, woman or man, what fits them, family income, community certificate), then every checked scheme that may fit, grouped into "may fit", "need one more answer" and "doesn't fit", with the reason and the official source. Our own rules decide, no AI. | this change |
+| 20 | **Check what you can get:** 5 questions (age, woman or man, what fits them, family income, community certificate), then every checked scheme that may fit, grouped into "may fit", "need one more answer" and "doesn't fit", with the reason and the official source. Our own rules decide, no AI. | [#21](https://github.com/rmagdaleena2508-01/Sollu/pull/21) |
 
 ### Problems I hit, and how I fixed them
 
@@ -422,6 +422,7 @@ I gave myself a checklist people share for "Google isn't showing my site". Click
 | 18 Nov, reading the results on a phone | Some lines under a scheme are notes, not requirements ("Transgender persons can also travel free") | The box is labelled "From the official page" instead of "Also needed" |
 | 18 Nov, reading the results on a phone | Each result card's text turned green, because the card borrowed the green "may fit" pill's colour | The card and the pill now use separate class names |
 | 18 Nov, clicking through | After "Answer: family income", the person had to go through the remaining questions again | Answering a missing question now goes straight back to the results |
+| 18 Nov, checking it live | Going **Back** and tapping the answer that was already picked did nothing, because an already-selected option doesn't send a "changed" event | Tapping the picked answer now moves on too ([#23](https://github.com/rmagdaleena2508-01/Sollu/pull/23)) |
 
 ## Run it
 
