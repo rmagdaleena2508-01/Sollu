@@ -50,7 +50,7 @@ So the people who need help most are the least likely to find it. And when they 
 | **Daily-wage workers** | "My pay is late. Can I complain?" | No time to dig, so they pay a middleman to read one page |
 | **Students** | "Which scholarship can I get?" | The rules are buried in PDFs on five different department sites |
 
-Many of them can talk easily but find reading forms hard. That's why Sollu is **voice first**.
+Many of them can talk easily and listen to something read out loud but reading forms, pages of scanned scheme docs are really  hard. That's why Sollu is **voice first**.
 
 ## Why I'm building this
 
@@ -109,7 +109,7 @@ The phone never talks to an AI directly. Every request goes to a small server fu
   <img src="docs/ask.png" alt="The Ask page on a phone. Left: a big mic button with 'Tap to speak' and sample questions. Right: a Tamil question about a mother's pension and Sollu's 3-line Tamil answer, with a 'confirm at the office' note and the official source." width="100%">
 </p>
 
-Many people Sollu is for can talk easily but find reading forms hard. So the **mic is the biggest thing on the page**, and every answer is **read out loud by itself**. The text box is always there, right next to the mic, for anyone who would rather type or can't use voice.
+Many people can easily listen to something that is read out loud or read something that is given simply, briefly, and in short. But they find it hard to go through pages of scanned documents which show the schemes or the rights that they can claim.  So the **mic is the biggest thing on the page**, and every answer is **read out loud by itself**. The text box is always there, right next to the mic, for anyone who would rather type or can't use voice.
 
 ### What happens when you ask
 
