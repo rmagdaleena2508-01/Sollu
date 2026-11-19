@@ -16,51 +16,51 @@
 [![Checked data](https://img.shields.io/badge/data-101%20checked%20entries-22B45A?style=flat-square)](data/README.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22B45A?style=flat-square)](LICENSE)
 
-**[▶ See it live](https://sollu-ai.vercel.app)** · [Why Sollu](#why-sollu) · [What's real today](#whats-real-today) · [Voice first](#voice-first-text-always) · [When things fail](#when-things-fail) · [How I built it](#how-i-built-it) · [How I tested it](#how-i-tested-it) · [Build log](#build-log) · [Run it](#run-it) · [AI use](#ai-use-and-responsibility)
+**[▶ See it live](https://sollu-ai.vercel.app)** · [The problem](#the-problem) · [Why I'm building this](#why-im-building-this) · [Try it](#try-it-in-30-seconds) · [How it works](#how-it-works) · [Data you can trust](#data-you-can-trust) · [How I built it](#how-i-built-it) · [How I tested it](#how-i-tested-it) · [Run it](#run-it)
 
 </div>
 
 <br>
 
+
+<p align="center">
+  <a href="docs/sollu-launch.mp4"><img src="docs/sollu-launch.gif" alt="Sollu in 50 seconds: a Tamil voice question about a mother's pension answered in 3 lines and read aloud, a notice photo explained, 5 quick taps to see schemes that may fit, and the official source behind every fact" width="100%"></a>
+  <br><sub>▶ <a href="docs/sollu-launch.mp4">Watch the 50-second launch video (with sound)</a></sub>
+</p>
+
 **Sollu** (சொல்லு, *"say it"*) reads government schemes, notices and local laws. Then it explains them in plain Tamil or English. You can ask by voice, check what you can get, and learn your rights.
 
 It starts in **Tamil Nadu**. Then it grows to **all of India**, one state at a time.
 
-## What's new in version 2
+## The problem
 
-**Version 2 knows about 3.7 times as much as version 1.** Version 1 answered from 27 checked entries. Version 2 answers from **101**, and every new fact is still quoted word for word from an official government page and passes the same checker.
+Tamil Nadu runs hundreds of welfare schemes. myScheme, the Government of India's scheme catalogue, lists **234** for the state alone. Each one has its own rules, its own office and its own form.
 
-| | Version 1 | Version 2 |
-|---|:-:|:-:|
-| Schemes | 19 | 67 |
-| Rights | 5 | 15 |
-| Certificates and services (new) | 0 | 16 |
-| Notices | 3 | 3 |
-| **Checked entries** | **27** | **101** |
+The rules exist. They're public. They're also written for officers, not for the people they're meant to help: long PDFs, legal English, formal Tamil, G.O. numbers, and amounts that change quietly from one year to the next.
 
-What people can now ask about, in Tamil or English:
+So the people who need help most are the least likely to find it. And when they search, the internet makes it worse: ads, old news, five different amounts for the same pension, and AI chat answers that sound sure but can't show where a single fact came from.
 
-- **Children and families:** a savings account for a daughter (Sukanya Samriddhi), the Chief Minister's Girl Child Protection deposit, school breakfast and noon meals, Anganwadi food, money for new mothers (PMMVY), support for children in need.
-- **Women, seniors and disabled people:** pensions for deserted wives, unmarried women, disabled and transgender people, working women's hostels, help after violence (Sakhi centres, 181).
-- **Jobs and business:** unemployment help, UYEGP, NEEDS, Annal Ambedkar Business Champions, Mudra, PM SVANidhi, PM Vishwakarma, Stand-Up India, PMEGP, Naan Mudhalvan.
-- **Health, money and home:** free accident treatment for 48 hours, Makkalai Thedi Maruthuvam, Ayushman Bharat, Jan Dhan accounts, Rs 436 life cover and Rs 20 accident cover, Atal Pension, free LPG connections, village houses, cheap generic medicines.
-- **Farmers and fishermen:** fishing ban relief, lean season savings, the Fishermen Welfare Board, Kisan Credit Card, soil tests, drip irrigation, solar pumps, free farm power, interest-free crop loans.
-- **Certificates (new):** community, nativity, income, first graduate, legal heir, residence, widow, deserted woman, unemployment, inter-caste marriage, small farmer, birth, death, patta, encumbrance and new ration cards: what you need, where to apply, the fee and how long it takes.
-- **Rights:** consumer complaints, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, sexual harassment at work, free private school seats (RTE) and cyber fraud (1930).
+## Who faces it
 
-60 of the 101 entries are marked *caution*: the official page has no recent date, or two official pages disagree. Sollu tells you to confirm those at the office. 2 more were held back because they have probably ended.
+| Who | What they're trying to find out | What gets in the way |
+|---|---|---|
+| **Seniors** | "Can I get a pension? How much?" | Small print, long forms, and no one to read them |
+| **Mothers and homemakers** | "Is there anything for my family? For my daughter?" | Search results full of ads, old news and amounts that don't match |
+| **Farmers and fishermen** | "What does this notice mean for my land, my boat?" | Notices in formal Tamil, with G.O. numbers and no plain summary |
+| **Daily-wage workers** | "My pay is late. Can I complain?" | No time to dig, so they pay a middleman to read one page |
+| **Students** | "Which scholarship can I get?" | The rules are buried in PDFs on five different department sites |
 
-<p align="center">
-  <a href="https://sollu-ai.vercel.app"><img src="docs/hero.png" alt="Sollu landing page hero: 'Know what's yours. In your own words.' with a tilted red 'Hear it' sticker" width="100%"></a>
-</p>
+Many of them can talk easily but find reading forms hard. That's why Sollu is **voice first**.
 
-## Why Sollu
+## Why I'm building this
 
-The rules that decide what people get from the government are written in a language most people don't read. Long PDFs. Legal English. Formal Tamil. G.O. numbers.
+My mother wanted to know which Tamil Nadu schemes she could get.
 
-So a 62-year-old who could get a pension often doesn't know it. A farmer gets a notice and can't tell if it's about their land. A worker whose pay is late doesn't know they can complain for free. Many people end up paying a middleman just to read a page.
+She did what anyone would do. She searched Google, and got ads, old news and different amounts for the same scheme. She asked ChatGPT, and got a long, confident list. Some answers showed where they came from, some were wrongly cited, and none of it told her whether it was meant for her.
 
-Sollu's job is simple: **read the rule for you, then say it the way you'd say it.**
+The information was out there. But it just wasn't built for her.
+
+That is the gap Sollu closes. The right answer, for this person, in their own language, with proof.
 
 > My goal: make public information effortless to discover, government services intuitive to navigate, and statutory policies clear to understand, no matter how comfortable someone is with technology. That's why Sollu is **voice first**, and falls back to text only when voice doesn't work.
 
@@ -73,34 +73,37 @@ Each action has one plain verb. We never swap it for a fancier word.
 | 🎙️ | **Ask** | Speak in Tamil or English | An answer in your words, read aloud |
 | ✅ | **Check** | Answer 5 quick questions | Every scheme you may fit, and why |
 | 📄 | **Explain** | Snap a photo of a notice, or tap one of ours | What it says, what to do, and by when, in 3 lines |
-| ⚖️ | **Know** | Ask about rent, wages, ration or police | The plain rule and what you can do today |
-| 📋 | **Find** | Ask where to go | The papers you need and the nearest office |
+| ⚖️ | **Know** | Ask about your rights: wages, rent, ration, consumer complaints, violence at home, cyber fraud | The plain rule and what you can do today |
+| 🪪 | **Get** | Ask how to get a certificate: community, income, birth, patta, ration card | The papers you need, where to apply, the fee and how long it takes |
 
 <p align="center">
   <img src="docs/bento.png" alt="Three demo cards: Check what you can get, Explain a notice, and Ask out loud" width="100%">
 </p>
 
-## What's real today
+## Try it in 30 seconds
 
-I'd rather show you an honest list than a big promise.
+Open **[sollu-ai.vercel.app/ask](https://sollu-ai.vercel.app/ask)** on your phone and try one of these:
 
-| Part | Status |
-|---|---|
-| Landing page (English + Tamil, phone + desktop) | ✅ Live at [sollu-ai.vercel.app](https://sollu-ai.vercel.app) |
-| Product plan, user flows and copy for every page | ✅ Done, in [FLOW.md](FLOW.md) |
-| Official data sources for Tamil Nadu, researched | ✅ Done, in [DATA-SOURCES.md](DATA-SOURCES.md) |
-| **Checked data:** 67 schemes, 15 rights topics, 16 certificates and services, 3 real notices (101 entries) | ✅ Done, in [data/](data/README.md). Every fact is quoted from an official page |
-| **Ask page** at `/ask`: speak or type, get a checked answer read aloud | ✅ Built and tested on my machine ([how](#how-i-tested-it)) |
-| Ask page on the live site | ✅ Live and demo-ready: saved demo answers, a health check, and a clear "busy" message ([build log](#build-log)) |
-| A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
-| **Explain a notice:** 3 real, checked notices on the Ask page (census, rice stock limits, Salem mark sheets). Tap one, get it in 3 lines, read aloud | ✅ Built |
-| **Check what you can get** at `/check`: 5 quick questions, then every checked scheme that may fit, why, and the official source | ✅ Built |
-| **Explain a notice from a photo:** take or pick a photo on the Ask page; Sollu reads it and explains it in 3 lines, read aloud. 3 example photos of the checked notices work instantly | ✅ Built. Photos are read by AI, so the answer says "not checked by Sollu" unless the photo is one of our checked notices |
-| Explain a notice from a PDF, Find an office | 🟠 Not built yet |
+1. **Tap the mic and say** *"என் அம்மாவுக்கு பென்ஷன் கிடைக்குமா?"* (Can my mother get a pension?). Sollu asks her age. Say *"67"*. You'll hear what she may get, and see the official page it came from.
+2. **Scroll to "Or explain a photo" and tap the Salem notice.** You get what it says, what to do and the deadline, in 3 lines.
+3. **Open [/check](https://sollu-ai.vercel.app/check)** and answer 5 quick questions. You'll see every checked scheme that may fit, and why.
 
-Demo cards that are still illustrations say **Sample**. The "Check" card counts real checked schemes. There are no fake users, ratings or testimonials, and no buttons for features that don't exist. Real stories come after the pilot.
+No sign-up. Free. Works in Tamil and English.
 
-## Voice first, text always
+## How it works
+
+```mermaid
+flowchart LR
+    P["📱 Phone<br/>(mic, camera or text)"] --> V["Vercel Functions<br/>/api/ask · /api/check · /api/read · /api/stt · /api/tts"]
+    V --> S["Sarvam<br/>speech ⇄ text"]
+    V --> G["Gemini<br/>understand · explain · read photos"]
+    V --> R["Our rules<br/>(plain TypeScript, no AI)"]
+    V --> D[("101 checked entries<br/>quoted from official pages")]
+```
+
+The phone never talks to an AI directly. Every request goes to a small server function that holds the keys, picks the matching checked facts, lets our own rules decide eligibility, and only then asks the AI to put the answer into plain words.
+
+### Voice first, text always
 
 <p align="center">
   <img src="docs/ask.png" alt="The Ask page on a phone. Left: a big mic button with 'Tap to speak' and sample questions. Right: a Tamil question about a mother's pension and Sollu's 3-line Tamil answer, with a 'confirm at the office' note and the official source." width="100%">
@@ -134,6 +137,61 @@ flowchart TD
 7. **Sollu checks itself.** Every number in the answer must appear in the checked facts or in what you said. Numbers written as words and broken text are rejected too.
 8. **You hear it.** Sarvam's text-to-speech (`bulbul:v4-flash`) reads the answer out loud with a Tamil voice. The voice is **streamed**, so it starts in 1 to 2 seconds, while the rest is still being made. Each answer shows the official source link and the date it was checked. Entries a reviewer marked "caution" also say *"confirm at the office before you apply"*.
 
+## Data you can trust
+
+Sollu answers from **101 checked entries**: 67 schemes, 15 rights, 16 certificates and services, and 3 real notices. Nothing comes from the AI's memory.
+
+**How a fact gets in:**
+
+1. **Find the official page.** Only government sites (`.gov.in`, `.nic.in`) are allowed. No news sites, blogs or Wikipedia.
+2. **Save it.** A small script ([`data/tools/fetch.sh`](data/tools/fetch.sh)) downloads the page or PDF, turns it into plain text, and keeps the web address, the date and a fingerprint (SHA-256) of the file.
+3. **Write the facts as JSON.** Each scheme, right or certificate is one `.json` file: the amount, who can get it, how to apply. Every fact carries a quote copied word for word from the saved page. Facts the page doesn't give stay empty and are listed as gaps.
+4. **The checker decides.** [`data/tools/check.py`](data/tools/check.py) looks up every quote in the saved page. One missing quote and the entry fails.
+5. **One file for the app.** Every passing entry is merged into [`data/sollu-demo.json`](data/sollu-demo.json). The server only reads that file.
+
+| Area | Entries | Ready | Caution (page old or undated) |
+|---|:-:|:-:|:-:|
+| Children and families | 7 | 1 | 6 |
+| Women, disabled people, seniors | 10 | 5 | 5 |
+| Jobs and business loans | 10 | 5 | 5 |
+| Health, banking and home | 10 | 4 | 6 |
+| Farmers and fishermen | 11 | 3 | 8 |
+| Certificates and services | 16 | 0 | 16 |
+| Rights | 10 | 6 | 4 |
+| From version 1 | 27 | 17 | 10 |
+| **Total** | **101** | **41** | **60** |
+
+161 official pages, 1,548 word-for-word quotes. "Caution" entries tell people to confirm at the office. 2 more are held back by review (one because the scheme has probably ended). Full format and rules: [data/README.md](data/README.md).
+
+## What's real today
+
+I'd rather show you an honest list than a big promise.
+
+| Part | Status |
+|---|---|
+| Landing page (English + Tamil, phone + desktop) | ✅ Live at [sollu-ai.vercel.app](https://sollu-ai.vercel.app) |
+| Product plan, user flows and copy for every page | ✅ Done, in [FLOW.md](FLOW.md) |
+| Official data sources for Tamil Nadu, researched | ✅ Done, in [DATA-SOURCES.md](DATA-SOURCES.md) |
+| **Checked data:** 67 schemes, 15 rights topics, 16 certificates and services, 3 real notices (101 entries) | ✅ Done, in [data/](data/README.md). Every fact is quoted from an official page |
+| **Ask page** at `/ask`: speak or type, get a checked answer read aloud | ✅ Live and demo-ready: saved demo answers, a health check, and a clear "busy" message |
+| A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
+| **Explain a notice:** 3 real, checked notices on the Ask page (census, rice stock limits, Salem mark sheets). Tap one, get it in 3 lines, read aloud | ✅ Built |
+| **Check what you can get** at `/check`: 5 quick questions, then every checked scheme that may fit, why, and the official source | ✅ Built |
+| **Explain a notice from a photo:** take or pick a photo on the Ask page; Sollu reads it and explains it in 3 lines, read aloud. 3 example photos of the checked notices work instantly | ✅ Built. Photos are read by AI, so the answer says "not checked by Sollu" unless the photo is one of our checked notices |
+| Explain a notice from a PDF, find the nearest office | 🟠 Not built yet |
+
+Demo cards that are still illustrations say **Sample**. The "Check" card counts real checked schemes. There are no fake users, ratings or testimonials, and no buttons for features that don't exist. Real stories come after the pilot.
+
+### What you should know
+
+- **The data is checked, not current-proof.** The checker proves each fact matches an official page. It can't prove the page is up to date. Answers that may be out of date carry a "confirm at the office" note.
+- **Even official pages go out of date.** The myScheme pages and some district websites still say the old age and widow pensions are Rs 1,000 a month. I checked the amounts, and the official Revenue Administration page ([cra.tn.gov.in](https://www.cra.tn.gov.in/about_schemes_t.php), in Tamil) shows they rose to **Rs 1,200 from August 2023**, including for people aged 80 and above. A separate report said Rs 1,500 at 80+, but the official table doesn't support that, so Sollu says Rs 1,200. Sollu now uses the official page, and its data notes say which page was out of date.
+- **Amount isn't the same as eligibility.** Turning 60 doesn't make someone get Rs 1,200. Sollu always says the conditions too (for example "if she is destitute and Below Poverty Line").
+- **Magalir Urimai** stays at Rs 1,000 a month, the latest regular amount I could confirm. A proposed rise to Rs 2,000 isn't confirmed yet. **Free bus travel** is only on ordinary town buses. Both still carry the "confirm" note.
+- **The AI can still say things a little off.** For example, it sometimes says "will get" where it should say "may get". Numbers are checked strictly. Wording isn't.
+- **Free tier.** Gemini's free tier keeps requests for 1 day, even with storage off, and limits requests per minute. A real launch should move to a paid tier.
+- **Not legal advice.** Sollu explains rules. For a legal case, it points to free legal aid.
+
 ## When things fail
 
 Voice is the front door, so it can't be the only door. Every step has a backup, and the last backup is always plain text.
@@ -163,7 +221,7 @@ These are the choices I made as a full-stack engineer, and why.
 
 **1. The AI never decides who gets what.** A language model can sound sure and still be wrong. "You can get it" is a high-stakes sentence, so the yes/no decision lives in plain TypeScript rules that anyone can read and test. The AI only does the language work: understanding the question and saying the answer simply.
 
-**2. The AI can only use checked facts.** The 27 entries in [`data/`](data/README.md) came from official sites only (`*.gov.in`, `*.nic.in`, myScheme, CMCHIS). Every fact has a word-for-word quote, and a checker script ([`data/tools/check.py`](data/tools/check.py)) proves each quote exists in the saved page. Gemini gets only the 1 to 3 entries that match, not the whole internet.
+**2. The AI can only use checked facts.** The 101 entries in [`data/`](data/README.md) came from official sites only (`*.gov.in`, `*.nic.in`, myScheme, CMCHIS). Every fact has a word-for-word quote, and a checker script ([`data/tools/check.py`](data/tools/check.py)) proves each quote exists in the saved page. Gemini gets only the 1 to 3 entries that match, not the whole internet.
 
 **3. Trust, but check the output.** Before an answer is shown, the server pulls every number out of it and looks for each one in the facts. Money amounts are where a wrong answer hurts most, so this check is strict. If it fails, Sollu falls back to the plain facts. A dull right answer beats a friendly wrong one.
 
@@ -173,23 +231,23 @@ These are the choices I made as a full-stack engineer, and why.
 
 **6. Built for the free tier and slow networks.** Free AI models get busy. I measured them: the bigger Gemini Flash models often answered "high demand" after more than 70 seconds, while Flash-Lite answered in about 2 seconds with good Tamil. So Sollu tries `gemini-3.5-flash-lite` first. If it hasn't answered in 4 seconds, a backup model starts alongside it ("hedging", the same trick big systems use for slow servers), and the first good answer wins. Audio comes back as MP3 (small), and the text shows before the voice starts.
 
-**13. Speak sooner by streaming.** Making the voice for a 3-line Tamil answer took 6 to 7 seconds, and Sollu waited for the whole file before speaking. Making only the first line still took about 4 seconds, so splitting lines wasn't enough. Sarvam's streaming endpoint sends the first audio in about 0.3 seconds, and browsers can play MP3 while it downloads. So `GET /api/tts` passes the stream straight through to the `<audio>` element. If streaming fails, Sollu falls back to the whole file, then to the phone's own voice.
+**7. Speak sooner by streaming.** Making the voice for a 3-line Tamil answer took 6 to 7 seconds, and Sollu waited for the whole file before speaking. Making only the first line still took about 4 seconds, so splitting lines wasn't enough. Sarvam's streaming endpoint sends the first audio in about 0.3 seconds, and browsers can play MP3 while it downloads. So `GET /api/tts` passes the stream straight through to the `<audio>` element. If streaming fails, Sollu falls back to the whole file, then to the phone's own voice.
 
-**12. Ready for a busy room.** A demo is the worst time for a free API to be slow, so:
+**8. Ready for a busy room.** A demo is the worst time for a free API to be slow, so:
 - The questions in the demo script and the sample chips have **saved answers**, made in advance by the same pipeline and checked by me ([`data/demo-answers.json`](data/demo-answers.json), audio in [`public/demo-audio/`](public/demo-audio/)). They come back in milliseconds.
 - A saved answer is used only when the question means the same thing word for word and has exactly the same numbers. *"Can my father get a pension?"* never gets the answer saved for *"Can my mother get a pension?"*, and *"72"* never gets the answer for *"67"*.
 - Recent live answers are kept in memory, so the same question twice is instant.
 - `GET /api/health` wakes the server, and the Ask page calls it when it opens. `GET /api/health?deep=1` makes one tiny Gemini call and one tiny Sarvam call and times them. Run it just before going on stage.
 
-**7. Privacy by default.** Questions go to Gemini with storage turned off (`store: false`). Nothing is saved in a database. The page reminds people not to say their name, Aadhaar or phone number.
+**9. Privacy by default.** Questions go to Gemini with storage turned off (`store: false`). Nothing is saved in a database. The page reminds people not to say their name, Aadhaar or phone number.
 
-**8. Fewer moving parts.** Gemini and Sarvam are called with plain `fetch`, not their SDKs, so there are fewer packages to update and break. The whole feature adds one dev package (`@types/node`).
+**10. Fewer moving parts.** Gemini and Sarvam are called with plain `fetch`, not their SDKs, so there are fewer packages to update and break. The whole feature adds one dev package (`@types/node`).
 
-**9. Words for people, not engineers.** Follow-up questions, errors and notes are written by hand in English and spoken-style Tamil, not generated. They say the same thing every time.
+**11. Words for people, not engineers.** Follow-up questions, errors and notes are written by hand in English and spoken-style Tamil, not generated. They say the same thing every time.
 
-**10. Show what the machine heard.** Speech-to-text is never perfect, especially with noise, accents and mixed Tamil-English. So the words go into the text box first, where people can see them, instead of being sent straight away. People who can read can catch a mistake. People who can't don't have to do anything, because it sends by itself.
+**12. Show what the machine heard.** Speech-to-text is never perfect, especially with noise, accents and mixed Tamil-English. So the words go into the text box first, where people can see them, instead of being sent straight away. People who can read can catch a mistake. People who can't don't have to do anything, because it sends by itself.
 
-**11. The mic listens for silence.** A small audio meter (Web Audio `AnalyserNode`) measures the room's background noise for the first moment, then watches for speech. It stops 1.6 seconds after the person stops talking. Low-literacy users shouldn't have to learn "tap again to stop", and it saves sending long silent recordings.
+**13. The mic listens for silence.** A small audio meter (Web Audio `AnalyserNode`) measures the room's background noise for the first moment, then watches for speech. It stops 1.6 seconds after the person stops talking. Low-literacy users shouldn't have to learn "tap again to stop", and it saves sending long silent recordings.
 
 <details>
 <summary><b>The first live bug, and what I learned</b></summary>
@@ -232,6 +290,17 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 
 ## How I tested it
 
+- **Answers:** 22 test questions in Tamil and English, including 2 trick questions that should get "I'm not sure": **22 of 22 passed**.
+- **Data:** all 103 entries pass the quote checker; 2 are held back by review.
+- **Voice:** real Tamil speech came back word for word; the voice starts in **about 1.7 seconds** on the live site (was about 6).
+- **Live site, real phone:** spoke a question on my own phone; it was heard, sent and read aloud.
+- **Speed:** home page first paint **0.54 s** on slow 4G with a 4× slower CPU.
+
+<details>
+<summary><b>Every test, how I ran it, and the result</b></summary>
+
+<br>
+
 | What | How | Result |
 |---|---|---|
 | Answers | 22 test questions in Tamil and English: pensions, wages, ration, scholarships, farmers, workers, health, women, RTI, police, rent, the census notice, a follow-up turn, and 2 trick questions that should get "I'm not sure" | **22 of 22 passed**, about 2 to 13 seconds each |
@@ -257,19 +326,39 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 | Data | `python3 data/tools/check.py` on all 103 entries | 103 pass, 2 held back by review (one scheme that has likely ended) |
 | New data on the Ask and Check pages | 5 new questions on the local server: a savings scheme for a baby girl, a community certificate, a broken phone the shop won't replace, a road accident (in Tamil), online fraud. Then 5 sample people through `/api/check` | Each question found the right new entry (Sukanya Samriddhi and the Girl Child Protection Scheme, the e-Sevai community certificate, the consumer helpline 1915, Innuyir Kappom 48, the 1930 cyber helpline). Check results stay on topic: a farmer gets the 6 new farm schemes, a new mother gets PMMVY and Anganwadi food |
 
+</details>
+
+
 **Not tested yet:** other phones, especially low-cost Android phones and iPhones, and noisy places like a bus stand or a ration shop queue. One phone working doesn't prove every phone works.
 
-## What you should know
+## What's new in version 2
 
-- **The data is checked, not current-proof.** The checker proves each fact matches an official page. It can't prove the page is up to date. Answers that may be out of date carry a "confirm at the office" note.
-- **Even official pages go out of date.** The myScheme pages and some district websites still say the old age and widow pensions are Rs 1,000 a month. I checked the amounts, and the official Revenue Administration page ([cra.tn.gov.in](https://www.cra.tn.gov.in/about_schemes_t.php), in Tamil) shows they rose to **Rs 1,200 from August 2023**, including for people aged 80 and above. A separate report said Rs 1,500 at 80+, but the official table doesn't support that, so Sollu says Rs 1,200. Sollu now uses the official page, and its data notes say which page was out of date.
-- **Amount isn't the same as eligibility.** Turning 60 doesn't make someone get Rs 1,200. Sollu always says the conditions too (for example "if she is destitute and Below Poverty Line").
-- **Magalir Urimai** stays at Rs 1,000 a month, the latest regular amount I could confirm. A proposed rise to Rs 2,000 isn't confirmed yet. **Free bus travel** is only on ordinary town buses. Both still carry the "confirm" note.
-- **The AI can still say things a little off.** For example, it sometimes says "will get" where it should say "may get". Numbers are checked strictly. Wording isn't.
-- **Free tier.** Gemini's free tier keeps requests for 1 day, even with storage off, and limits requests per minute. A real launch should move to a paid tier.
-- **Not legal advice.** Sollu explains rules. For a legal case, it points to free legal aid.
+**Version 2 knows about 3.7 times as much as version 1.** Version 1 answered from 27 checked entries. Version 2 answers from **101**, and every new fact is still quoted word for word from an official government page and passes the same checker.
+
+| | Version 1 | Version 2 |
+|---|:-:|:-:|
+| Schemes | 19 | 67 |
+| Rights | 5 | 15 |
+| Certificates and services (new) | 0 | 16 |
+| Notices | 3 | 3 |
+| **Checked entries** | **27** | **101** |
+
+What people can now ask about, in Tamil or English:
+
+- **Children and families:** a savings account for a daughter (Sukanya Samriddhi), the Chief Minister's Girl Child Protection deposit, school breakfast and noon meals, Anganwadi food, money for new mothers (PMMVY), support for children in need.
+- **Women, seniors and disabled people:** pensions for deserted wives, unmarried women, disabled and transgender people, working women's hostels, help after violence (Sakhi centres, 181).
+- **Jobs and business:** unemployment help, UYEGP, NEEDS, Annal Ambedkar Business Champions, Mudra, PM SVANidhi, PM Vishwakarma, Stand-Up India, PMEGP, Naan Mudhalvan.
+- **Health, money and home:** free accident treatment for 48 hours, Makkalai Thedi Maruthuvam, Ayushman Bharat, Jan Dhan accounts, Rs 436 life cover and Rs 20 accident cover, Atal Pension, free LPG connections, village houses, cheap generic medicines.
+- **Farmers and fishermen:** fishing ban relief, lean season savings, the Fishermen Welfare Board, Kisan Credit Card, soil tests, drip irrigation, solar pumps, free farm power, interest-free crop loans.
+- **Certificates (new):** community, nativity, income, first graduate, legal heir, residence, widow, deserted woman, unemployment, inter-caste marriage, small farmer, birth, death, patta, encumbrance and new ration cards: what you need, where to apply, the fee and how long it takes.
+- **Rights:** consumer complaints, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, sexual harassment at work, free private school seats (RTE) and cyber fraud (1930).
+
+60 of the 101 entries are marked *caution*: the official page has no recent date, or two official pages disagree. Sollu tells you to confirm those at the office. 2 more were held back because they have probably ended.
 
 ## Build log
+
+<details>
+<summary><b>Everything that changed, one pull request at a time (28 steps)</b></summary>
 
 Everything that has changed so far, newest last, and every problem I hit on the way.
 
@@ -301,9 +390,13 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 24 | **Free scrolling:** removed the section snapping and the glide completely. Sections are as tall as their content, so phones don't scroll through empty space. On phones the top bar has no blur, the fade-in has no blur, and a finger on a footer sticker still scrolls the page. | [#27](https://github.com/rmagdaleena2508-01/Sollu/pull/27) |
 | 25 | **Search highlight:** the home page title, description and search keywords now lead with "multilingual policy, rights and scheme explainer": AI that reads government notices, welfare schemes and local laws and explains them in simple language, so people in Tamil Nadu can check their scheme eligibility and understand their rights. Adds WebApplication structured data. | [#28](https://github.com/rmagdaleena2508-01/Sollu/pull/28) |
 | 26 | **Version 2, about 3.7 times the data:** 74 new checked entries, every fact quoted from an official page: 48 schemes (girl child savings, breakfast and noon meals, pensions for deserted wives, unmarried women, disabled and transgender people, job and business loans, farm and fishermen help, bank accounts, insurance, LPG, free accident treatment), 10 rights (consumer, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, workplace harassment, free school seats, cyber fraud) and 16 certificates and services (community, income, nativity, legal heir, birth, death, patta, encumbrance, ration card and more). A new "certificate or service" entry type. | [#29](https://github.com/rmagdaleena2508-01/Sollu/pull/29) |
-| 27 | Fixed: answers from the new version 2 entries showed no source link. The checker now rebuilds the list of source links from every saved source, so all 161 are there. | this change |
+| 27 | Fixed: answers from the new version 2 entries showed no source link. The checker now rebuilds the list of source links from every saved source, so all 161 are there. | [#30](https://github.com/rmagdaleena2508-01/Sollu/pull/30) |
+| 28 | **The story first:** this README now opens with the problem, who faces it and why I'm building Sollu, then a 30-second way to try it, before the engineering. Adds a 50-second launch video recorded on the live site (Tamil voice question, a notice photo, the 5-question check, the official source), with a short GIF at the top. | this change |
 
-### Problems I hit, and how I fixed them
+</details>
+
+<details>
+<summary><b>Problems I hit, and how I fixed them</b></summary>
 
 **Landing page**
 
@@ -314,12 +407,6 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | Cards in the fanned stack showed through each other | Made the side cards fully solid |
 | The Tamil button text didn't fit on a 390px phone | Shortened it to *"இலவசமா கேளுங்க"* |
 | `sollu.vercel.app` already belonged to a different app | Picked `sollu-ai.vercel.app` |
-| 19 Nov: after adding 74 entries, the Check page showed a deserted-wife pension, LPG for poor families and business loans as "may fit" for every woman or worker | Those depend on something the 5 questions don't ask (being deserted, below the poverty line, a street vendor or starting a business). They are now explained on the Ask page only. Pregnancy help (PMMVY, Anganwadi food) shows only when "pregnant or a new mother" is picked |
-| 19 Nov: some official pages couldn't be saved (the 100 free electricity units order is a scanned image; tnpds.gov.in shows a bot check; TAHDCO and Thozhi use non-government web addresses) | Left those facts out and listed them as gaps instead of filling them from memory. 100 free units and TAHDCO loans are not in the data yet |
-| 19 Nov: answers about the new entries (for example Sukanya Samriddhi) came back with no "Source" link | The list of source links (`data/source-links.json`) was written by hand and still had only the 39 old sources. `check.py --build` now writes it from the saved sources, so it can't fall behind again |
-| 19 Nov: even the gentle glide onto sections felt wrong on a laptop and a phone | Took out all snapping. On phones, full-screen sections also left empty space, and the browser bar showing and hiding changed `dvh` while scrolling. Sections now fit their content, and only the desktop hero fills the screen, using `svh`, which stays put |
-| 19 Nov: the rice stock order's photo explained almost nothing (*"no date is given"*) | Its limits and dates are on page 2, and the photo showed page 1 only. The example photo now shows both pages side by side, the way you'd photograph them on a table |
-| 19 Nov: Tamil photo answers said *"15 December 2026"* with the month in English | The prompt now asks for Tamil month names (*டிசம்பர்*) |
 | 18 Nov: tapping the mic on the "Ask out loud" card made the whole card disappear | Cards fade in on scroll by getting an `in` class added from outside React. This card adds `playing` to its own `className` when tapped, and React rewrote the whole class list, dropping `in`, so the card went back to invisible. Revealed cards are now marked with a `data-revealed` attribute, which React leaves alone. Tested with a real click: the live site went to opacity 0, the fix stays at 1 |
 | Once the real Ask page existed, the landing page still had mockup leftovers: made-up scheme counts, a "Get alerts" phone number form with no alerts behind it, an FAQ promising "saved answers" and a "Report a wrong answer" button that didn't exist, footer links to pages that don't exist, and a sample question Sollu can't answer | The "Check" card now counts the real checked schemes for each group (built from the data by `check.py`). The alerts form is now "Ask Sollu" and "See how we check". The FAQ only says what's true. Footer links go to real pages. The land notice question is now the census question |
 
@@ -333,6 +420,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | A separate report said Rs 1,500 a month at age 80+ | The official table says Rs 1,200 at 80+ (Centre Rs 500 + State Rs 700). Sollu follows the official page |
 | The Revenue Administration page in English now says "File not found" | Used the same official page in Tamil (`about_schemes_t.php`) |
 | The checker saved its output in the wrong folder (`data/data/`) | Fixed the path |
+| 19 Nov: some official pages couldn't be saved (the 100 free electricity units order is a scanned image; tnpds.gov.in shows a bot check; TAHDCO and Thozhi use non-government web addresses) | Left those facts out and listed them as gaps instead of filling them from memory. 100 free units and TAHDCO loans are not in the data yet |
+| 19 Nov: answers about the new entries (for example Sukanya Samriddhi) came back with no "Source" link | The list of source links (`data/source-links.json`) was written by hand and still had only the 39 old sources. `check.py --build` now writes it from the saved sources, so it can't fall behind again |
 
 **AI answers**
 
@@ -440,6 +529,7 @@ I gave myself a checklist people share for "Google isn't showing my site". Click
 | 18 Nov: it felt like pushing a deck of cards. Every scroll, even a small one, was forced to end on a section, so a short flick got pulled back and a slightly longer one jumped a whole screen | First tried `scroll-snap-type: y proximity`. Testing showed Chrome still pulled a 250px flick back to the start, so that wasn't enough |
 | The real cause: snapping *against* the direction of the scroll, and the browser's abrupt snap animation | Removed CSS snapping and added `useSoftSnap` (`src/hooks.ts`). It does nothing while you scroll. About 0.14 s after you stop, if a section's edge is within half a screen *ahead* of you, it glides there in 0.45 s, easing out. It never pulls back, never moves while you read inside a long section, stops the moment you touch, click, type or scroll, and is off for people who ask for less motion |
 | My first version of the glide didn't work on the very first swipe | The "stop the glide on new input" code reset the last scroll position on every wheel event, so the first swipe never got a direction. It now only resets after a glide |
+| 19 Nov: even the gentle glide onto sections felt wrong on a laptop and a phone | Took out all snapping. On phones, full-screen sections also left empty space, and the browser bar showing and hiding changed `dvh` while scrolling. Sections now fit their content, and only the desktop hero fills the screen, using `svh`, which stays put |
 
 **Check what you can get**
 
@@ -467,6 +557,14 @@ I gave myself a checklist people share for "Google isn't showing my site". Click
 | 18 Nov, reading the results on a phone | Each result card's text turned green, because the card borrowed the green "may fit" pill's colour | The card and the pill now use separate class names |
 | 18 Nov, clicking through | After "Answer: family income", the person had to go through the remaining questions again | Answering a missing question now goes straight back to the results |
 | 18 Nov, checking it live | Going **Back** and tapping the answer that was already picked did nothing, because an already-selected option doesn't send a "changed" event | Tapping the picked answer now moves on too ([#23](https://github.com/rmagdaleena2508-01/Sollu/pull/23)) |
+
+**Version 2 data**
+
+| Problem | Fix |
+|---|---|
+| 19 Nov: after adding 74 entries, the Check page showed a deserted-wife pension, LPG for poor families and business loans as "may fit" for every woman or worker | Those depend on something the 5 questions don't ask (being deserted, below the poverty line, a street vendor or starting a business). They are now explained on the Ask page only. Pregnancy help (PMMVY, Anganwadi food) shows only when "pregnant or a new mother" is picked |
+
+</details>
 
 ## Run it
 
@@ -497,7 +595,7 @@ Then open the address Vite prints (usually `http://localhost:8950`) and go to `/
 ```bash
 npm run build      # strict type check + production build into dist/
 python3 data/tools/demo_answers.py   # remake the saved demo answers (dev server must be running)
-# `npm run build` also pre-renders / and /ask to HTML (scripts/prerender.mjs), so search engines see the text
+# `npm run build` also pre-renders /, /ask and /check to HTML (scripts/prerender.mjs), so search engines see the text
 ```
 
 For the live site, add the same two keys in Vercel: **Project → Settings → Environment Variables**.
@@ -515,10 +613,12 @@ curl "https://sollu-ai.vercel.app/api/health?deep=1"
 
 ```text
 sollu/
-├── api/                  ← Vercel Functions: /api/ask, /api/stt, /api/tts
+├── api/                  ← Vercel Functions: /api/ask, /api/check, /api/read, /api/stt, /api/tts, /api/health
 ├── server/
 │   ├── ask.ts            ← understand → decide → explain → check
 │   ├── eligibility.ts    ← the yes/no rules (no AI) and follow-up questions
+│   ├── check.ts          ← the Check page: 5 answers in, schemes that may fit out
+│   ├── read.ts           ← Explain a photo: read the notice, explain it, check its numbers
 │   ├── gemini.ts         ← Gemini calls, model backups, time limits
 │   ├── sarvam.ts         ← speech to text and text to speech
 │   ├── data.ts           ← loads the checked entries and their sources
@@ -534,7 +634,7 @@ sollu/
 │   ├── hooks.ts          ← language, voice, reveal-on-scroll, reduced motion
 │   ├── styles.css        ← one stylesheet with design tokens on :root
 │   └── components/       ← landing page sections
-├── data/                 ← checked facts, saved sources, checker scripts
+├── data/                 ← checked facts (schemes, rights, notices, services), saved sources, checker scripts
 ├── DATA-SOURCES.md       ← where Tamil Nadu's official data lives
 ├── FLOW.md               ← sitemap, user flows, word rules, all page copy
 └── docs/                 ← images for this README
@@ -598,6 +698,9 @@ These are the choices that make Sollu feel like Sollu.
 - [x] A new "certificate or service" entry type
 - [ ] Owner check of the new amounts
 - [ ] More of the 234 Tamil Nadu schemes on myScheme, picked by what people ask most
+- [ ] Find the nearest office: the papers you need and where to go
+
+**How I'll know it works:** in the pilot, a person who has never used Sollu finds one scheme they may get, by voice, in under a minute, and can point to the official page it came from.
 
 **Version 3 — All of India**
 
