@@ -27,9 +27,10 @@ const pages = [
   {
     path: '/',
     file: 'index.html',
-    title: "Sollu — Know what's yours, in your own words",
+    // The highlight: what Sollu is, in the words people search for.
+    title: 'Sollu — Multilingual policy, rights and scheme explainer for Tamil Nadu',
     description:
-      'Sollu explains Tamil Nadu government schemes, notices and your rights in plain Tamil or English. Ask by voice, see what you may get, and see the official source.',
+      'Sollu is a multilingual policy, rights and scheme explainer for Tamil Nadu. It is AI that reads government notices, welfare schemes and local laws and explains them in simple Tamil or English. Check your scheme eligibility and understand your rights.',
     jsonLd: [
       {
         '@context': 'https://schema.org',
@@ -37,7 +38,26 @@ const pages = [
         name: 'Sollu',
         url: `${SITE}/`,
         inLanguage: ['en', 'ta'],
-        description: 'Explains government schemes, notices and rights in plain Tamil or English.',
+        description:
+          'A multilingual policy, rights and scheme explainer. AI that reads government notices, welfare schemes and local laws and explains them in simple language, so people in Tamil Nadu can check their scheme eligibility and understand their rights.',
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebApplication',
+        name: 'Sollu — Multilingual policy, rights and scheme explainer',
+        url: `${SITE}/`,
+        applicationCategory: 'GovernmentApplication',
+        operatingSystem: 'Any (web browser)',
+        inLanguage: ['en', 'ta'],
+        isAccessibleForFree: true,
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
+        areaServed: { '@type': 'State', name: 'Tamil Nadu' },
+        featureList: [
+          'Explains government notices, welfare schemes and local laws in simple Tamil or English',
+          'Check your scheme eligibility',
+          'Understand your rights',
+          'Ask by voice',
+        ],
       },
       {
         '@context': 'https://schema.org',
