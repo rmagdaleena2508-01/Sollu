@@ -30,7 +30,7 @@
 
 **Sollu** (சொல்லு, *"say it"*) reads government schemes, notices and local laws. Then it explains them in plain Tamil or English. You can ask by voice, check what you can get, and learn your rights.
 
-It starts in **Tamil Nadu**. Then it grows to **all of India**, one state at a time.
+It starts in **Tamil Nadu**. Then we will scale it to **all of India**, one state at a time.
 
 ## The problem
 
