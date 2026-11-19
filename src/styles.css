@@ -51,7 +51,7 @@ p{text-wrap:pretty}
 .nav-links{display:none;gap:2px;margin:0 auto}
 /* Sections land below the sticky top bar when a shortcut is tapped. */
 section[id]{scroll-margin-top:76px}
-.snap-page section[id]{scroll-margin-top:0}
+.landing section[id]{scroll-margin-top:0}
 .nav-links a{padding:8px 12px;border-radius:8px;font-size:15px;white-space:nowrap;font-weight:500;color:var(--ink-85);transition:background-color 160ms ease}
 @media (hover:hover){.nav-links a:hover{background:rgba(17,17,17,.05)}}
 .nav-right{display:flex;align-items:center;gap:8px;margin-left:auto}
@@ -113,29 +113,28 @@ section[id]{scroll-margin-top:76px}
 section{padding:80px 0}
 @media (min-width:768px){section{padding:120px 0}}
 
-/* ---------- one screen per section (landing page only) ----------
-   Each section fills the screen below the sticky top bar. After a scroll stops near a section's edge,
-   useSoftSnap (hooks.ts) glides onto it, so one section fills the view. A section with more content
-   than one screen keeps its full height and scrolls freely, so nothing is cut off. */
+/* ---------- landing page sections ----------
+   Plain, free scrolling: no snapping and no glide. Sections are as tall as their content, so a phone
+   never scrolls through empty space. On wide screens only the hero fills the first screen. It uses svh
+   (the screen with the browser bars showing), which doesn't change while a phone's address bar hides and
+   shows, so nothing jumps mid-scroll. The padding keeps anchor links below the sticky top bar. */
 :root{--nav-h:68px}
-/* No CSS scroll snapping: hard snapping felt like pushing a deck of cards. useSoftSnap (hooks.ts) glides
-   gently onto the next section after a scroll ends, only in the direction of the scroll. The padding keeps
-   anchor links landing below the sticky top bar. */
-html:has(.snap-page){scroll-padding-top:var(--nav-h)}
-.snap-page > section{
-  min-height:calc(100vh - var(--nav-h));
-  min-height:calc(100dvh - var(--nav-h));
-  display:flex;flex-direction:column;justify-content:center;
-  padding:48px 0;
-  overflow-x:clip; /* tilted cards and stickers can't spill sideways */
+html:has(.landing){scroll-padding-top:var(--nav-h)}
+.landing > section{padding:56px 0;overflow-x:clip} /* tilted cards and stickers can't spill sideways */
+@media (min-width:768px){.landing > section{padding:96px 0}}
+.landing > section.hero{padding:56px 0 150px}
+@media (min-width:768px){
+  .landing > section.hero{
+    min-height:calc(100vh - var(--nav-h));
+    min-height:calc(100svh - var(--nav-h));
+    display:flex;flex-direction:column;justify-content:center;
+    padding:88px 0 64px;
+  }
+  .landing > section.hero > .wrap{width:100%}
 }
-@media (min-width:768px){.snap-page > section{padding:64px 0}}
-.snap-page > section > .wrap{width:100%}
-/* The hero keeps its own spacing, including room for the Hear it sticker on phones. */
-.snap-page > section.hero{padding:56px 0 40px}
-@media (min-width:768px){.snap-page > section.hero{padding:88px 0 64px}}
-@media (max-width:767px){.snap-page > section.hero{padding-bottom:150px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Phones: a blurred see-through top bar repaints on every scroll frame. A nearly solid bar looks the same and scrolls smoother. */
+@media (max-width:767px){.nav{background:rgba(255,255,255,.97);backdrop-filter:none;-webkit-backdrop-filter:none}}
 .intro{text-align:center;max-width:760px;margin:0 auto 48px}
 .intro h2{font-size:clamp(32px,4.6vw,54px);line-height:1.02;margin-top:16px}
 .intro p{margin:20px auto 0;max-width:600px;font-family:var(--serif);font-size:18px;line-height:1.5;color:var(--ink-64);letter-spacing:-.01em}
@@ -144,6 +143,9 @@ html:has(.snap-page){scroll-padding-top:var(--nav-h)}
 .inline-chip{display:inline-flex;align-items:center;padding:0 .18em;height:.92em;border-radius:.16em;background:linear-gradient(#3BAEFF,#1478E6);color:#fff;font-size:.86em;vertical-align:.04em;letter-spacing:-.04em;transform:rotate(-3deg);box-shadow:inset 0 1px 0 rgba(255,255,255,.4)}
 .reveal{opacity:0;transform:translate3d(0,18px,0);filter:blur(8px);transition:opacity .8s var(--ease-rise),transform .8s var(--ease-rise),filter .8s var(--ease-rise);transition-delay:var(--d,0s)}
 .reveal[data-revealed]{opacity:1;transform:none;filter:none}
+/* Phones: no blur on the fade-in (a blur repaints every frame and can stutter a scroll on cheap phones),
+   and a shorter, quicker rise. */
+@media (max-width:767px){.reveal{filter:none;transform:translate3d(0,12px,0);transition:opacity .5s var(--ease-rise),transform .5s var(--ease-rise);transition-delay:min(var(--d,0s),.15s)}}
 /* Short and tight, so the hero text is readable within about half a second of the first paint. */
 .rise{animation:rise .55s var(--ease-rise) var(--d,0s) both}
 @keyframes rise{from{opacity:0;transform:translate3d(0,12px,0);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
@@ -316,4 +318,6 @@ footer{position:relative;overflow:hidden;background:linear-gradient(180deg,#FFFF
 .stk{position:absolute;z-index:2;touch-action:none;cursor:grab;filter:drop-shadow(0 10px 14px rgba(20,70,140,.25));transition:filter 200ms ease}
 .stk:active{cursor:grabbing;filter:drop-shadow(0 18px 22px rgba(20,70,140,.32))}
 .stk svg{width:100%;height:auto;pointer-events:none}
+/* On touch screens a finger on a sticker still scrolls the page up and down; sideways drags move it. */
+@media (pointer:coarse){.stk{touch-action:pan-y}}
 .drag-hint{position:absolute;right:var(--gutter);top:12px;font-size:12px;font-weight:500;color:rgba(17,17,17,.45);z-index:3}
