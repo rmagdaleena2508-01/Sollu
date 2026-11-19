@@ -1,21 +1,22 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import type { FormEvent } from 'react';
+import type { ChangeEvent, FormEvent } from 'react';
 import { IconSprite, Icon } from '../components/Icon';
 import { LangToggle } from '../components/Nav';
 import { useLang, useReducedMotion } from '../hooks';
-import { ApiError, ask, speech, transcribe, warmUp } from './api';
+import { ApiError, ask, readPhoto, shrinkPhoto, speech, transcribe, warmUp } from './api';
 import { AnswerCard } from './AnswerCard';
-import { askSamples, copy, noticeCards, shortDate } from './copy';
+import { askSamples, copy, noticeCards, photoExamples, shortDate } from './copy';
 import type { AskResponse, Turn } from './types';
 import { useVoiceInput } from './useVoiceInput';
 import './ask.css';
 
 type Entry =
   | { id: number; kind: 'user'; text: string }
+  | { id: number; kind: 'photo'; src: string }
   | { id: number; kind: 'answer'; res: AskResponse }
   | { id: number; kind: 'error'; text: string };
 
-type Phase = 'idle' | 'hearing' | 'thinking' | 'retrying';
+type Phase = 'idle' | 'hearing' | 'thinking' | 'reading' | 'retrying';
 
 let nextId = 1;
 
@@ -44,6 +45,9 @@ export function AskPage() {
   const inputRef = useRef<HTMLTextAreaElement | null>(null);
   const endRef = useRef<HTMLDivElement | null>(null);
   const micRef = useRef<HTMLButtonElement | null>(null);
+  const fileRef = useRef<HTMLInputElement | null>(null);
+  /** Photo previews shown in the thread, freed when the chat is cleared. */
+  const photoUrls = useRef<string[]>([]);
   const draftRef = useRef(draft);
   draftRef.current = draft;
   const entriesRef = useRef(entries);
@@ -170,6 +174,74 @@ export function AskPage() {
     [busy, lang, play, stopAudio, t.failed],
   );
 
+  // ---------- photo of a notice ----------
+  /**
+   * `photo` is sent as it is for the example photos (so the server finds their saved answers),
+   * and shrunk first for photos the person takes.
+   */
+  const sendPhoto = useCallback(
+    async (photo: Blob, shrink: boolean) => {
+      if (busy) return;
+      stopAudio();
+      setNotice(null);
+      setAutoSend(false);
+      let body = photo;
+      if (shrink) {
+        try {
+          body = await shrinkPhoto(photo);
+        } catch {
+          setNotice(t.photoBadFile);
+          return;
+        }
+      }
+      const src = URL.createObjectURL(body);
+      photoUrls.current.push(src);
+      setEntries((x) => [...x, { id: nextId++, kind: 'photo', src }]);
+      setPhase('reading');
+      const ctrl = new AbortController();
+      inFlight.current = ctrl;
+      try {
+        let res;
+        try {
+          res = await readPhoto(body, lang, ctrl.signal);
+        } catch (err) {
+          if (!(err instanceof ApiError && err.busy) || ctrl.signal.aborted) throw err;
+          setPhase('retrying');
+          await new Promise((r) => setTimeout(r, 2500));
+          if (ctrl.signal.aborted) return;
+          setPhase('reading');
+          res = await readPhoto(body, lang, ctrl.signal);
+        }
+        const id = nextId++;
+        setEntries((x) => [...x, { id, kind: 'answer', res }]);
+        setPhase('idle');
+        void play(id, res);
+      } catch (err) {
+        if (ctrl.signal.aborted) return;
+        setEntries((x) => [...x, { id: nextId++, kind: 'error', text: err instanceof ApiError && err.busy ? t.busy : t.failed }]);
+        setPhase('idle');
+      }
+    },
+    [busy, lang, play, stopAudio, t.busy, t.failed, t.photoBadFile],
+  );
+
+  const onPhotoPicked = (e: ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = ''; // so picking the same photo again still works
+    if (file) void sendPhoto(file, true);
+  };
+
+  const tryExample = async (src: string) => {
+    if (busy) return;
+    try {
+      const r = await fetch(src);
+      if (!r.ok) throw new Error(String(r.status));
+      await sendPhoto(await r.blob(), false);
+    } catch {
+      setNotice(t.failed);
+    }
+  };
+
   // ---------- voice in ----------
   // Spoken words go into the text box first, so people can see (and fix) what Sollu heard.
   // Then they send by themselves after a short pause, unless the person starts editing.
@@ -235,6 +307,8 @@ export function AskPage() {
     voice.stop();
     audioCache.current.forEach((u) => URL.revokeObjectURL(u));
     audioCache.current.clear();
+    photoUrls.current.forEach((u) => URL.revokeObjectURL(u));
+    photoUrls.current = [];
     setEntries([]);
     setPhase('idle');
     setNotice(null);
@@ -274,6 +348,7 @@ export function AskPage() {
   useEffect(() => () => {
     audio.current?.pause();
     audioCache.current.forEach((u) => URL.revokeObjectURL(u));
+    photoUrls.current.forEach((u) => URL.revokeObjectURL(u));
   }, []);
 
   const recording = voice.state === 'recording';
@@ -284,7 +359,9 @@ export function AskPage() {
       ? t.hearing
       : phase === 'thinking'
         ? t.thinking
-        : phase === 'retrying'
+        : phase === 'reading'
+          ? t.reading
+          : phase === 'retrying'
           ? t.retrying
           : t.tapToSpeak;
 
@@ -364,12 +441,37 @@ export function AskPage() {
                 ))}
               </ul>
             </div>
+            <div className="ask-photo" id="photo">
+              <h2 className="ask-notices-title">{t.photoTitle}</h2>
+              <p className="ask-notices-sub">{t.photoSub}</p>
+              <button type="button" className="btn btn-dark ask-photo-btn" onClick={() => fileRef.current?.click()} disabled={busy}>
+                <Icon name="camera" size={18} />
+                {t.photoButton}
+              </button>
+              <p className="ask-photo-cover">{t.photoCover}</p>
+              <p className="ask-samples-label">{t.photoExamples}</p>
+              <ul className="ask-photo-examples">
+                {photoExamples.map((p) => (
+                  <li key={p.id}>
+                    <button type="button" className="photo-example" onClick={() => void tryExample(p.src)} disabled={busy}>
+                      <img src={p.thumb} width={240} height={340} alt="" loading="lazy" decoding="async" />
+                      <span>{p.label[lang]}</span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </section>
         ) : (
           <ol className="ask-thread">
             {entries.map((e) => (
               <li key={e.id} id={`turn-${e.id}`} className={`turn turn-${e.kind}`}>
                 {e.kind === 'user' && <p className="bubble">{e.text}</p>}
+                {e.kind === 'photo' && (
+                  <figure className="bubble bubble-photo">
+                    <img src={e.src} alt={t.photoSent} />
+                  </figure>
+                )}
                 {e.kind === 'answer' && (
                   <AnswerCard
                     res={e.res}
@@ -385,7 +487,7 @@ export function AskPage() {
             {busy && (
               <li className="turn turn-wait" aria-live="polite">
                 <span className="dots-wait" aria-hidden="true"><i /><i /><i /></span>
-                {phase === 'hearing' ? t.hearing : phase === 'retrying' ? t.retrying : t.thinking}
+                {phase === 'hearing' ? t.hearing : phase === 'retrying' ? t.retrying : phase === 'reading' ? t.reading : t.thinking}
               </li>
             )}
             <div ref={endRef} />
@@ -406,6 +508,9 @@ export function AskPage() {
         <div className="ask-dock-row">
           {!empty && micButton}
           <form className={`ask-form${autoSend ? ' heard' : ''}`} onSubmit={onSubmit}>
+            <button type="button" className="ask-attach" onClick={() => fileRef.current?.click()} disabled={busy} aria-label={t.photoAttach}>
+              <Icon name="camera" size={20} />
+            </button>
             <label className="sr" htmlFor="ask-input">{t.typeHere}</label>
             <textarea
               id="ask-input"
@@ -430,6 +535,7 @@ export function AskPage() {
           </form>
         </div>
         <p className="ask-privacy">{t.privacy}</p>
+        <input ref={fileRef} type="file" accept="image/*" className="sr" tabIndex={-1} aria-hidden="true" onChange={onPhotoPicked} />
       </footer>
     </div>
   );

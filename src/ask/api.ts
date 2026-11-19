@@ -59,3 +59,39 @@ export async function speech(text: string, lang: 'ta' | 'en', signal?: AbortSign
   if (!res.ok) throw await fail(res);
   return res.blob();
 }
+
+/** Longest side of a photo we send. Enough to read small print, and keeps uploads to a few hundred KB. */
+const PHOTO_MAX_SIDE = 1600;
+
+/**
+ * Shrinks a phone photo before it is sent: turned the right way up, at most 1600 px on its longest side,
+ * as a JPEG. A 4 MB camera photo becomes about 300 KB, which matters on a slow phone connection.
+ */
+export async function shrinkPhoto(file: Blob): Promise<Blob> {
+  const bmp = await createImageBitmap(file, { imageOrientation: 'from-image' });
+  const scale = Math.min(1, PHOTO_MAX_SIDE / Math.max(bmp.width, bmp.height));
+  const w = Math.round(bmp.width * scale);
+  const h = Math.round(bmp.height * scale);
+  const canvas = document.createElement('canvas');
+  canvas.width = w;
+  canvas.height = h;
+  const ctx = canvas.getContext('2d');
+  if (!ctx) throw new Error('no canvas');
+  ctx.fillStyle = '#fff'; // a PNG with see-through parts would turn black as a JPEG
+  ctx.fillRect(0, 0, w, h);
+  ctx.drawImage(bmp, 0, 0, w, h);
+  bmp.close();
+  return new Promise((resolve, reject) => canvas.toBlob((b) => (b ? resolve(b) : reject(new Error('encode failed'))), 'image/jpeg', 0.85));
+}
+
+/** Sends a photo of a notice; Sollu reads it and explains it. */
+export async function readPhoto(photo: Blob, lang: 'ta' | 'en', signal?: AbortSignal): Promise<AskResponse> {
+  const res = await fetch(`/api/read?lang=${lang}`, {
+    method: 'POST',
+    headers: { 'Content-Type': photo.type || 'image/jpeg' },
+    body: photo,
+    signal,
+  });
+  if (!res.ok) throw await fail(res);
+  return (await res.json()) as AskResponse;
+}

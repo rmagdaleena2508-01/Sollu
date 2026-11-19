@@ -20,11 +20,17 @@ const HEDGE_AFTER_MS = 4000;
 /** Give up on one model after this long. */
 const PER_MODEL_TIMEOUT_MS = 12000;
 
+/** Text, or a list of parts (for example a photo and a question). */
+export type GeminiInput = string | ({ type: 'text'; text: string } | { type: 'image'; data: string; mime_type: string })[];
+
 export interface JsonCall {
   system: string;
-  input: string;
+  input: GeminiInput;
   schema: Record<string, unknown>;
   maxOutputTokens?: number;
+  /** Photos take longer to read than a question, so they get more time. */
+  hedgeAfterMs?: number;
+  perModelTimeoutMs?: number;
 }
 
 interface Step {
@@ -56,7 +62,7 @@ async function callModel<T>(
   outer: AbortSignal,
 ): Promise<T> {
   const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(new DOMException('timeout', 'TimeoutError')), PER_MODEL_TIMEOUT_MS);
+  const timer = setTimeout(() => ctrl.abort(new DOMException('timeout', 'TimeoutError')), call.perModelTimeoutMs ?? PER_MODEL_TIMEOUT_MS);
   const onOuter = () => ctrl.abort(new DOMException('cancelled', 'AbortError'));
   outer.addEventListener('abort', onOuter);
   try {
@@ -121,7 +127,7 @@ export async function geminiJson<T>(call: JsonCall): Promise<T> {
       const m = MODELS[started++];
       // If this one is slow, start the next one too.
       clearTimeout(hedge);
-      hedge = setTimeout(startNext, HEDGE_AFTER_MS);
+      hedge = setTimeout(startNext, call.hedgeAfterMs ?? HEDGE_AFTER_MS);
       callModel<T>(key, call, m, done.signal).then(
         (value) => {
           if (settled) return;

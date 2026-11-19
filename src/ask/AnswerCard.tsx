@@ -17,6 +17,18 @@ export function AnswerCard({ res, uiLang, playing, loadingAudio, onPlay }: Props
 
   return (
     <article className="answer" aria-live="polite">
+      {res.photo && (res.photo.title || res.photo.from) && (
+        <header className="answer-photo">
+          {res.photo.title && <p className="answer-photo-title">{res.photo.title}</p>}
+          {(res.photo.from || res.photo.date) && (
+            <p className="answer-photo-meta">
+              {res.photo.from && <>{t.photoFrom}: <span>{res.photo.from}</span></>}
+              {res.photo.from && res.photo.date && ' · '}
+              {res.photo.date && <span className="tnum">{res.photo.date}</span>}
+            </p>
+          )}
+        </header>
+      )}
       <div className="answer-body" lang={textLang}>
         {res.lines.map((l, i) => (
           <p key={i}>{l}</p>
@@ -67,7 +79,7 @@ export function AnswerCard({ res, uiLang, playing, loadingAudio, onPlay }: Props
           </span>
           {loadingAudio ? '…' : playing ? t.stop : t.hear}
         </button>
-        <p className="answer-ai">{t.aiNote}</p>
+        <p className="answer-ai">{res.photo ? (res.photo.checked ? t.photoChecked : t.photoNote) : t.aiNote}</p>
       </div>
     </article>
   );

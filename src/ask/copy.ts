@@ -18,6 +18,18 @@ export const copy = {
     noticesTitle: 'Explain a notice',
     noticesSub: 'Real government notices, checked against the official copy. Tap one.',
     tapToExplain: 'Explain',
+    photoTitle: 'Or explain a photo',
+    photoSub: 'Take a photo of a notice or letter you got. Sollu reads it and tells you what it says, what to do, and by when.',
+    photoButton: 'Take or choose a photo',
+    photoCover: 'Cover Aadhaar, bank and phone numbers before you take the photo. We don\'t keep your photo.',
+    photoExamples: 'Or try one of these photos',
+    photoSent: 'Photo of a notice',
+    photoAttach: 'Explain a photo of a notice',
+    reading: 'Reading your photo…',
+    photoNote: 'Read from your photo by AI, not checked by Sollu. Check names, numbers and dates on the paper.',
+    photoChecked: 'Sollu has checked this notice against its official copy, linked above.',
+    photoFrom: 'From',
+    photoBadFile: "That file isn't a photo Sollu can open. Try a JPEG or PNG photo.",
     you: 'You',
     hear: 'Hear it',
     stop: 'Stop',
@@ -53,6 +65,18 @@ export const copy = {
     noticesTitle: 'ஒரு அறிவிப்பை விளக்கிக்கோங்க',
     noticesSub: 'அதிகாரப்பூர்வ நகலோட சரிபார்த்த உண்மையான அரசு அறிவிப்புகள். ஒன்றை தட்டுங்க.',
     tapToExplain: 'விளக்கு',
+    photoTitle: 'இல்லன்னா ஒரு போட்டோவ விளக்கிக்கோங்க',
+    photoSub: 'உங்களுக்கு வந்த அறிவிப்போ கடிதமோ போட்டோ எடுங்க. சொல்லு அதைப் படிச்சு, என்ன சொல்லுது, நீங்க என்ன பண்ணணும், எப்போ வரைன்னு சொல்லும்.',
+    photoButton: 'போட்டோ எடுங்க அல்லது தேர்வு பண்ணுங்க',
+    photoCover: 'போட்டோ எடுக்கறதுக்கு முன்னாடி ஆதார், வங்கி, போன் நம்பரை மறைச்சிடுங்க. உங்க போட்டோவ நாங்க வச்சுக்கறதில்ல.',
+    photoExamples: 'இல்லன்னா இந்த போட்டோக்கள்ல ஒன்றை முயற்சி பண்ணுங்க',
+    photoSent: 'அறிவிப்பின் போட்டோ',
+    photoAttach: 'அறிவிப்பின் போட்டோவை விளக்கு',
+    reading: 'உங்க போட்டோவ படிக்குது…',
+    photoNote: 'உங்க போட்டோவுல இருந்து AI படிச்சது, சொல்லு சரிபார்க்கல. பேர், எண், தேதியை காகிதத்துல பாருங்க.',
+    photoChecked: 'இந்த அறிவிப்பை சொல்லு அதிகாரப்பூர்வ நகலோட சரிபார்த்திருக்கு. இணைப்பு மேல இருக்கு.',
+    photoFrom: 'அனுப்பியவர்',
+    photoBadFile: 'இந்த ஃபைலை சொல்லுவால திறக்க முடியல. JPEG அல்லது PNG போட்டோவ முயற்சி பண்ணுங்க.',
     you: 'நீங்க',
     hear: 'கேளுங்க',
     stop: 'நிறுத்து',
@@ -138,3 +162,13 @@ export function shortDate(iso: string): string {
   const [y, m, d] = iso.split('-').map(Number);
   return y && m && d ? `${d} ${MONTHS[m - 1]} ${y}` : iso;
 }
+
+/**
+ * Example photos for "Explain a photo": the first page of each checked notice, made from the official PDF.
+ * Tapping one sends that exact file to /api/read, which returns the answer saved in data/read-examples.json.
+ */
+export const photoExamples: { id: string; src: string; thumb: string; label: { en: string; ta: string } }[] = [
+  { id: 'census', src: '/notice-photos/census.jpg', thumb: '/notice-photos/census-thumb.webp', label: { en: 'Census 2027 gazette', ta: 'சென்சஸ் 2027 அரசிதழ்' } },
+  { id: 'rice', src: '/notice-photos/rice.jpg', thumb: '/notice-photos/rice-thumb.webp', label: { en: 'Rice stock order', ta: 'அரிசி இருப்பு உத்தரவு' } },
+  { id: 'salem', src: '/notice-photos/salem.jpg', thumb: '/notice-photos/salem-thumb.webp', label: { en: 'Salem press release', ta: 'சேலம் செய்திக் குறிப்பு' } },
+];

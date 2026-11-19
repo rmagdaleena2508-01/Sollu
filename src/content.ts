@@ -80,7 +80,7 @@ export type Tone = 'sky' | 'pink' | 'coral' | 'yellow' | 'green' | 'purple';
 
 export const features: { icon: FeatureIcon; tone: Tone; title: string; body: string }[] = [
   { icon: 'mic', tone: 'sky', title: 'Ask by voice.', body: 'Speak in Tamil or English. Sollu understands everyday words, not just official ones.' },
-  { icon: 'doc', tone: 'pink', title: 'Explain a notice.', body: 'Photo, PDF or text. Get what it says, what you must do, and by when.' },
+  { icon: 'doc', tone: 'pink', title: 'Explain a notice.', body: 'Take a photo of it. Get what it says, what you must do, and by when.' },
   { icon: 'check', tone: 'coral', title: 'Check eligibility.', body: 'See which schemes you may fit, and why, before you stand in a queue.' },
   { icon: 'scale', tone: 'yellow', title: 'Know your rights.', body: 'Rent, wages, ration, RTI, police complaints. Plain rules and real steps.' },
   { icon: 'list', tone: 'green', title: 'Get the papers list.', body: 'Know every document you need before you leave home.' },
