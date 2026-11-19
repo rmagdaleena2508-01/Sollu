@@ -1,0 +1,139 @@
+{
+  "id": "job-pm-svanidhi",
+  "type": "scheme",
+  "name_en": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Housing and Urban Affairs, Government of India",
+  "audiences": [
+    "workers",
+    "entrepreneurs"
+  ],
+  "benefit": "Street vendors get a small working capital loan with no security and no processing fee. If you repay on time, you get a 7% interest subsidy and can get bigger loans later. The loan limits were raised recently, so ask your bank for the current amount.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a street vendor.",
+      "You need a Certificate of Vending or ID card from the urban local body, or a Letter of Recommendation from the ULB or Town Vending Committee.",
+      "There is no age limit."
+    ]
+  },
+  "documents": [
+    "Certificate of Vending or ID card (or Letter of Recommendation)",
+    "Aadhaar, voter ID, driving licence, MNREGA card or PAN card",
+    "For the second loan: proof the first loan is closed"
+  ],
+  "how_to_apply": "Go to pmsvanidhi.mohua.gov.in and log in with your mobile number and OTP. Pick your vendor category and enter your Survey Reference Number. Fill the form, upload papers and submit.",
+  "where_to_apply": "Online at pmsvanidhi.mohua.gov.in",
+  "helpline": "Toll free 1800111979 (9.30 AM to 6 PM, Monday to Saturday)",
+  "go_number": null,
+  "sources": [
+    "job-svanidhi-ms",
+    "job-svanidhi-home"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-svanidhi-ms",
+      "quote": "Ministry Of Housing & Urban Affairs"
+    },
+    {
+      "field": "benefit",
+      "source": "job-svanidhi-ms",
+      "quote": "No collateral is required to avail of the loan"
+    },
+    {
+      "field": "benefit",
+      "source": "job-svanidhi-ms",
+      "quote": "There is no processing fee to apply for the scheme"
+    },
+    {
+      "field": "benefit",
+      "source": "job-svanidhi-ms",
+      "quote": "with subsequent loans of ₹20,000 and ₹50,000 with a 7% interest subsidy"
+    },
+    {
+      "field": "benefit",
+      "source": "job-svanidhi-home",
+      "quote": "PM SVANidhi Portal is live with enhanced loan amount limits."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-svanidhi-ms",
+      "quote": "Street vendors in possession of Certificate of Vending / Identity Card issued by Urban Local Bodies (ULBs)."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-svanidhi-ms",
+      "quote": "have been issued a Letter of Recommendation (LoR) to that effect by the ULB / Town Vending Committee (TVC)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-svanidhi-ms",
+      "quote": "There is no age limit to apply for the PM Street Vendor's AtmaNirbhar Nidhi scheme."
+    },
+    {
+      "field": "documents",
+      "source": "job-svanidhi-ms",
+      "quote": "KYC documents required in addition to CoV/ID/LoR : Aadhaar Card"
+    },
+    {
+      "field": "documents",
+      "source": "job-svanidhi-ms",
+      "quote": "MNREGA Card"
+    },
+    {
+      "field": "documents",
+      "source": "job-svanidhi-ms",
+      "quote": "For Second Loan Loan Closure Document"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-svanidhi-ms",
+      "quote": "Enter Mobile number and captcha. Click request OTP."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-svanidhi-ms",
+      "quote": "Enter \" Survey Reference Number \" (SRN) which is mandatory."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-svanidhi-ms",
+      "quote": "fill the application form online, upload the relevant documents and submit"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-svanidhi-ms",
+      "quote": "Visit https://pmsvanidhi.mohua.gov.in/"
+    },
+    {
+      "field": "helpline",
+      "source": "job-svanidhi-ms",
+      "quote": "toll free number i.e 1800111979 between 9.30 AM to 6.00 PM on Monday to Saturday"
+    }
+  ],
+  "gaps": [
+    "The official portal says loan limits were enhanced, but neither saved page gives the new amounts; the myScheme page still shows Rs 10,000 / 20,000 / 50,000, so no amounts are stated.",
+    "The portal also mentions a PM SVANidhi Credit Card for vendors who repaid the second loan; details are not on the saved pages.",
+    "The saved pages do not give the digital payment cashback amount, so it is left out."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Loan amounts changed recently and the new figures are not on the saved pages, so do not quote a loan amount.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

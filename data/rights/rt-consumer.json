@@ -1,0 +1,136 @@
+{
+  "id": "rt-consumer",
+  "type": "right",
+  "topic": "consumer",
+  "title_en": "You can complain about a faulty product or poor service",
+  "law": "Consumer Protection Act, 2019, Sections 2, 34, 35 and 69",
+  "rule_plain": "If a product you bought has a fault, or a service you paid for was poor, you can complain. You can file a complaint at the District Consumer Commission. You must file it within two years from the day the problem started.",
+  "what_you_can_do": [
+    "First, call the National Consumer Helpline at 1915 or 1800 11 4000. It is open every day except national holidays, 8 AM to 8 PM.",
+    "You can also send your problem by SMS or WhatsApp to 8800001915, or use the NCH app, the web portal or the UMANG app. The helpline sends your problem to the company.",
+    "If that does not fix it, file a complaint at the District Consumer Commission. You can file it where you live or work, or where the seller is.",
+    "The complaint can be filed online. You must pay the set fee with it."
+  ],
+  "where_to_get_help": "National Consumer Helpline: 1915 or 1800 11 4000 (8 AM to 8 PM). Formal complaints go to the District Consumer Commission.",
+  "sources": [
+    "rt-cpa-act",
+    "rt-nch-contact",
+    "rt-nch-home"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-cpa-act",
+      "quote": "THE CONSUMER PROTECTION ACT, 2019"
+    },
+    {
+      "field": "law",
+      "source": "rt-cpa-act",
+      "quote": "shall not admit a complaint unless it is filed within two years from the date on which the"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cpa-act",
+      "quote": "\"defect\" means any fault, imperfection or shortcoming in the quality,"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cpa-act",
+      "quote": "\"deficiency\" means any fault, imperfection, shortcoming or inadequacy in"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cpa-act",
+      "quote": "may be filed with a District"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cpa-act",
+      "quote": "shall not admit a complaint unless it is filed within two years from the date on which the"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cpa-act",
+      "quote": "cause of action has arisen."
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nch-contact",
+      "quote": "1800 11 4000 or 1915"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nch-contact",
+      "quote": "Available daily except national holidays,"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nch-contact",
+      "quote": "08:00 AM"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nch-contact",
+      "quote": "Send SMS to 8800001915"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nch-contact",
+      "quote": "Register via WhatsApp"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nch-home",
+      "quote": "NCH processes the grievance and forwards it to the"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nch-home",
+      "quote": "Web Portal, Mobile App, UMANG, WhatsApp or Call Centre."
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cpa-act",
+      "quote": "(d) the complainant resides or personally works for gain."
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cpa-act",
+      "quote": "ordinarily resides or carries on"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cpa-act",
+      "quote": "Provided that the complaint under this sub-section may be filed electronically in such"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cpa-act",
+      "quote": "shall be accompanied with such fee"
+    },
+    {
+      "field": "where_to_get_help",
+      "source": "rt-nch-contact",
+      "quote": "1800 11 4000 or 1915"
+    }
+  ],
+  "gaps": [
+    "The e-Daakhil site (edaakhil.nic.in) could not be saved, so the entry says only that a complaint 'can be filed online'.",
+    "The money limit for the District Commission is not given. The Act text says one crore rupees, but it lets the government set another value, so it may have changed.",
+    "The fee amount is not in the Act."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Act text is official and the helpline page is current (shows 2026 maintenance notice); money limits left out on purpose.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

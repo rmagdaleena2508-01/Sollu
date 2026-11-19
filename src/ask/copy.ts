@@ -48,7 +48,7 @@ export const copy = {
     autoSending: 'Sending what I heard…',
     edit: 'Edit',
     newChat: 'New question',
-    types: { scheme: 'Scheme', right: 'Your right', notice: 'Notice' },
+    types: { scheme: 'Scheme', right: 'Your right', notice: 'Notice', service: 'Certificate or service' },
   },
   ta: {
     back: 'முகப்பு',
@@ -95,7 +95,7 @@ export const copy = {
     autoSending: 'கேட்டதை அனுப்புறேன்…',
     edit: 'மாத்து',
     newChat: 'புது கேள்வி',
-    types: { scheme: 'திட்டம்', right: 'உங்க உரிமை', notice: 'அறிவிப்பு' },
+    types: { scheme: 'திட்டம்', right: 'உங்க உரிமை', notice: 'அறிவிப்பு', service: 'சான்றிதழ் / சேவை' },
   },
 } satisfies Record<Lang, unknown>;
 

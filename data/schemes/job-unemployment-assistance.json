@@ -1,0 +1,183 @@
+{
+  "id": "job-unemployment-assistance",
+  "type": "scheme",
+  "name_en": "Unemployment Assistance Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department of Employment and Training, Government of Tamil Nadu",
+  "audiences": [
+    "workers",
+    "disabled"
+  ],
+  "benefit": "You get a small amount every month while you look for a job. Rs 200 if you failed SSLC, Rs 300 if you passed SSLC, Rs 400 if you passed HSC, Rs 600 if you are a graduate. You get it for 3 years. If you have a disability, you get Rs 600 (SSLC and below), Rs 750 (HSC) or Rs 1,000 (graduate) for 10 years.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": 40,
+    "gender": null,
+    "income_max_annual_inr": 72000,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be registered at the District Employment and Career Guidance Centre for 5 years or more (1 year or more if you have a disability).",
+      "The age limit is 40 years. It is 45 years for SC/ST.",
+      "You must have studied in Tamil Nadu, or your parents must have lived in Tamil Nadu for at least 15 years.",
+      "You must not have a job or run your own business.",
+      "You must not be a regular student in a school or college.",
+      "Professional degree holders cannot get it.",
+      "You need a savings account in a nationalised bank in your district."
+    ]
+  },
+  "documents": [
+    "Consolidated certificate from the Revenue Department (family income, no job, studied in Tamil Nadu)",
+    "Savings bank account details",
+    "If you have a disability: National Identity Card for persons with disabilities"
+  ],
+  "how_to_apply": "Register at your District Employment and Career Guidance Centre. After 5 years of registration, fill the application form. Give your bank details and the Revenue Department certificate with it.",
+  "where_to_apply": "District Employment and Career Guidance Centre (DECGC) in your district",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "job-velai-charter",
+    "job-velai-faq"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-velai-charter",
+      "quote": "DIRECTORATE OF EMPLOYMENT AND TRAINING"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "SSLC Failed Rs.200/-"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "SSLC Passed Rs.300/-"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "HSC Passed Rs.400/-"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "Graduates Rs.600/-"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "receive the assistance for a continuous period of three years"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "SSLC and below SSLC Rs.600/-"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "HSC Passed Rs.750/-"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "Graduates Rs.1000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-charter",
+      "quote": "unemployment assistance for a continuous period of ten years"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "job-velai-charter",
+      "quote": "The maximum age limit is 40 years for Others and 45 years for SC/ST."
+    },
+    {
+      "field": "eligibility.income_max_annual_inr",
+      "source": "job-velai-charter",
+      "quote": "The family income should be below Rs.72,000/- per annum."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-velai-charter",
+      "quote": "registered at District Employment and Career Guidance Centres (DECGC) for a continuous period of five years or more"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-velai-charter",
+      "quote": "have registered at the District Employment and Career Guidance Centre for more than a year"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-velai-charter",
+      "quote": "Tamil Nadu itself (or) Parents / Guardian should have lived at least 15 years in Tamil Nadu"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-velai-charter",
+      "quote": "should not be employed in any Government or Private Organisation or they should not be Self Employed"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-velai-charter",
+      "quote": "The Registrants should not be a regular student of any School or College."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-velai-charter",
+      "quote": "(d) Graduates (Other than Professional Courses)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-velai-charter",
+      "quote": "should possess a Savings Bank Account with the Nationalised Banks in their district"
+    },
+    {
+      "field": "documents",
+      "source": "job-velai-charter",
+      "quote": "should submit a Consolidated Certificate from the Revenue Department (Family Income, Unemployment, School / College education in Tamil Nadu itself, etc.)"
+    },
+    {
+      "field": "documents",
+      "source": "job-velai-charter",
+      "quote": "should possess National Identity Card for the Differently Abled Persons"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-velai-charter",
+      "quote": "the same details should be submitted along with the application form"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-velai-charter",
+      "quote": "who have registered at District Employment and Career Guidance Centres (DECGC)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-velai-faq",
+      "quote": "Unemployment Assistance will be discontinued if the candidate gets government employment"
+    }
+  ],
+  "gaps": [
+    "The age limit is 40 (45 for SC/ST); eligibility.age_max holds 40. People with disabilities have no age limit and no income limit (FAQ).",
+    "No helpline number or G.O. number in the source.",
+    "Source does not say whether you can apply online; it says to submit the application form with bank details."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Taken from the department's 2026 citizen charter, so amounts are current.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

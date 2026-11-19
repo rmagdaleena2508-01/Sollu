@@ -1,8 +1,13 @@
+import audienceIndex from '../../data/audience-index.json';
 import { faqs, features, roadmap, sourceRows } from '../content';
 import { delay } from '../hooks';
 import { Icon } from './Icon';
 
 const featureDelays = ['0s', '.06s', '.12s'];
+
+/** Real counts from the checked data, written by data/tools/check.py --build. */
+const counts = { schemes: 0, rights: 0, notices: 0, services: 0, ...(audienceIndex as { counts?: Record<string, number> }).counts };
+const total = counts.schemes + counts.rights + counts.notices + counts.services;
 
 export function Features() {
   return (
@@ -53,8 +58,9 @@ export function Trust() {
               </a>
             </div>
             <p className="fine">
-              Today Sollu answers from 27 checked entries: 19 schemes, 5 rights and 3 notices. Every fact is quoted word
-              for word from an official page.
+              Today Sollu answers from {total} checked entries: {counts.schemes} schemes, {counts.rights} rights,{' '}
+              {counts.services} certificates and services, and {counts.notices} notices. Every fact is quoted word for word
+              from an official page.
             </p>
           </div>
           <div style={{ position: 'relative', alignSelf: 'center' }}>

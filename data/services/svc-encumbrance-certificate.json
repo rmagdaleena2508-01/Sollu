@@ -1,0 +1,106 @@
+{
+  "id": "svc-encumbrance-certificate",
+  "type": "service",
+  "title_en": "Encumbrance certificate (EC)",
+  "name_ta": "வில்லங்கச் சான்று",
+  "department": "Registration Department, Government of Tamil Nadu",
+  "what_it_is": "The Encumbrance Certificate (EC) is given by the Registration Department. You can search and view it free on the TNREGINET site, or get it at an e-Sevai centre.",
+  "who_can_apply": null,
+  "documents": null,
+  "how_to_apply": "Go to tnreginet.gov.in and use 'Search and View Encumbrance Certificate'. Viewing the EC there is free. You can also ask at an e-Sevai centre.",
+  "where_to_apply": "Online at tnreginet.gov.in (also the TNREGINET mobile app), or any e-Sevai centre.",
+  "fee": "Free to view on TNREGINET. At e-Sevai: Rs 10 service charge to issue an EC, or Rs 2 per page to download.",
+  "time_limit": null,
+  "validity": null,
+  "helpline": "Registration Department complaints: 9498452110, 9498452120, 9498452130. Software help: toll-free 1800 102 5174.",
+  "sources": [
+    "svc-tnreginet-home",
+    "svc-esevai-list",
+    "svc-esevai-services",
+    "svc-um-ec"
+  ],
+  "evidence": [
+    {
+      "field": "name_ta",
+      "source": "svc-tnreginet-home",
+      "quote": "வில்லங்கச் சான்று"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-tnreginet-home",
+      "quote": "Welcome to Tamil Nadu Government Registration Department"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-tnreginet-home",
+      "quote": "Search and View Encumbrance Certificate"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-tnreginet-home",
+      "quote": "How to view Encumbrance Certificate (EC) at free of cost?"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-tnreginet-home",
+      "quote": "To view Encumbrance Certificate click here"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-esevai-services",
+      "quote": "Inspectorate General of Registration Issuance of Encumbrance Certificate Operator"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-tnreginet-home",
+      "quote": "Access Registration Department services easily through the TNREGINET Mobile App"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-esevai-list",
+      "quote": "List of Services Offered in eSevai Centres"
+    },
+    {
+      "field": "fee",
+      "source": "svc-tnreginet-home",
+      "quote": "How to view Encumbrance Certificate (EC) at free of cost?"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "IGR-401 Issue of Encumbrance Certificate 0 10"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "IGR-403 EC Download 0 Per Page- 2"
+    },
+    {
+      "field": "helpline",
+      "source": "svc-tnreginet-home",
+      "quote": "9498452110 / 9498452120 / 9498452130"
+    },
+    {
+      "field": "helpline",
+      "source": "svc-tnreginet-home",
+      "quote": "1800 102 5174"
+    }
+  ],
+  "gaps": [
+    "The saved sources do not explain in words what an EC shows.",
+    "The sources do not list documents or a time limit.",
+    "The helpline numbers are on the Tamil part of the page: complaints line 10 am to 5.45 pm and software line 8 am to 8 pm on weekdays."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The TNREGINET page is current but does not explain what an EC is, and the e-Sevai fee list was last updated 10/04/2023.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

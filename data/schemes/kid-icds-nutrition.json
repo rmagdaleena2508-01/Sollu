@@ -1,0 +1,107 @@
+{
+  "id": "kid-icds-nutrition",
+  "type": "scheme",
+  "name_en": "Integrated Child Development Services (ICDS) – Supplementary Nutrition at Anganwadi",
+  "name_ta": null,
+  "level": "state",
+  "department": "Integrated Child Development Services, Department of Social Welfare, Government of Tamil Nadu",
+  "audiences": [
+    "children",
+    "women",
+    "families"
+  ],
+  "benefit": "At the Anganwadi centre, young children, pregnant women and new mothers get free extra food (a nutrition flour mix) for 300 days a year. Children aged 2 to 5 also get a hot meal, pre-school learning and health check-ups. Out-of-school girls aged 11 to 14 can get the food mix too.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Children aged 6 months to about 6 years.",
+      "Pregnant women and mothers who are feeding a baby.",
+      "Out-of-school girls aged 11 to 14."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "Go to your nearest Anganwadi centre and register your child or your pregnancy.",
+  "where_to_apply": "Your nearest Anganwadi centre.",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "kid-icds-tn-food",
+    "kid-icds-tn",
+    "kid-icds-salem"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "kid-icds-tn",
+      "quote": "Welcome to Department of Integrated Child Development Services Government of Tamilnadu."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-icds-tn-food",
+      "quote": "Complementary Food containing amylase activity is provided for 300 days in a year under Supplementary Nutrition Programme to ICDS beneficiaries in the age group of 6 months to 5+ years, Pregnant Women & Lactacting Mothers."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-icds-salem",
+      "quote": "No. of children in the age group of 25 -60 months who received Nutritious Meal and Preschool Education"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-icds-tn",
+      "quote": "special emphasis on nutrition, preschool education, health and personal hygiene of the children upto the age of 6 years"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-icds-tn-food",
+      "quote": "Out of School Adolescent Girls in the age group of 11 to 14 years are also provided with Complementary Food"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icds-tn-food",
+      "quote": "ICDS beneficiaries in the age group of 6 months to 5+ years, Pregnant Women & Lactacting Mothers."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icds-salem",
+      "quote": "To improve nutrition and health status of children under 6 Years, pregnant and lactating mothers and adolescent girls."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icds-tn-food",
+      "quote": "Adolescent Girls (11-14 out of school)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-icds-tn",
+      "quote": "Anganwadi is a type of rural child care centre in India."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-icds-salem",
+      "quote": "Main Anganwadi Centres"
+    }
+  ],
+  "gaps": [
+    "The saved pages do not explain how to register; going to the Anganwadi centre is the plain meaning of the service but not stated as steps.",
+    "No helpline on the pages; the ICDS head office phone in Chennai is listed but not as a helpline.",
+    "Pages have no recent date."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Official ICDS Tamil Nadu pages are undated (copyright 2021) and do not spell out how to register.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

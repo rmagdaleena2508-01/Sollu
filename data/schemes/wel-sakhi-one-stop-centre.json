@@ -1,0 +1,129 @@
+{
+  "id": "wel-sakhi-one-stop-centre",
+  "type": "scheme",
+  "name_en": "Sakhi One Stop Centre",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Women and Child Development, Government of India (run in Tamil Nadu by the Social Welfare and Women Empowerment Department)",
+  "audiences": [
+    "women",
+    "children"
+  ],
+  "benefit": "If you face violence, you can get help in one place. The centre gives emergency rescue, help to file a police complaint (FIR), counselling, legal aid, and video conferencing. It helps all women and girls, at home, at work or in public. Women Helpline 181 works 24 hours, free.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Any woman or girl facing physical, sexual, emotional, mental or money-related abuse.",
+      "No limit by age, caste, class, religion, education or marriage status."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Go to the One Stop Centre for help, or call the Women Helpline 181 at any time. 181 links you to the police, the One Stop Centre or a hospital.",
+  "where_to_apply": "One Stop Centre (Sakhi) in your district, or call 181",
+  "helpline": "181 (Women Helpline, 24 hours, toll-free)",
+  "go_number": null,
+  "sources": [
+    "wel-osc",
+    "wel-181"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-osc",
+      "quote": "1. Emergency Response and Rescue Services"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-osc",
+      "quote": "3. Assistance to women in lodging FIR/ DIR"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-osc",
+      "quote": "4. Psycho-social support/counseling"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-osc",
+      "quote": "5. Legal aid and counseling"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-osc",
+      "quote": "7. Video Conferencing Facility"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-osc",
+      "quote": "intended to support women affected by violence, in private and public spaces, within the family, community and at the workplace"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-181",
+      "quote": "To provide toll-free 24-hours telecom service to women"
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "wel-osc",
+      "quote": "The OSC support s all women including girls below 18 years of age affected by violence"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-osc",
+      "quote": "Women facing physical, sexual, emotional, psychological and economic abuse, irrespective of age, class, caste, education status, marital status"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-osc",
+      "quote": "can approach this centre for support"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-181",
+      "quote": "through referral (linking with appropriate authority As Police, OSC, Hospitals,etc,,)"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-osc",
+      "quote": "can approach this centre for support"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-181",
+      "quote": "Government of India has allocated short code 181 to Tamil Nadu as Women Helpline."
+    },
+    {
+      "field": "helpline",
+      "source": "wel-181",
+      "quote": "Government of India has allocated short code 181 to Tamil Nadu as Women Helpline."
+    },
+    {
+      "field": "helpline",
+      "source": "wel-181",
+      "quote": "To provide toll-free 24-hours telecom service to women"
+    }
+  ],
+  "gaps": [
+    "The source does not give the address of each One Stop Centre; the official list page did not load as text.",
+    "No papers are needed according to the source; none are listed.",
+    "Services 2 and 6 in the official list did not load in the saved text."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Current official Social Welfare pages describe the centre and the 181 helpline; no amounts are involved.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

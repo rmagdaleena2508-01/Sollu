@@ -1,0 +1,111 @@
+{
+  "id": "svc-new-ration-card",
+  "type": "service",
+  "title_en": "New smart ration card",
+  "name_ta": null,
+  "department": "Civil Supplies and Consumer Protection Department, Government of Tamil Nadu",
+  "what_it_is": "You can apply for a new ration card through e-Sevai. Printing of the smart card is a separate e-Sevai service.",
+  "who_can_apply": null,
+  "documents": null,
+  "how_to_apply": "Apply through e-Sevai for 'Application for New Ration Card'. Fill in the applicant's details and address in Tamil and English. Choose your district, taluk and village. Add each family member. Add gas connection details if you have one. Pay the fee and print the receipt.",
+  "where_to_apply": "Online through the e-Sevai portal (it opens the Public Distribution System portal), or at an e-Sevai centre.",
+  "fee": "Rs 60 service charge at e-Sevai for a new card. The department charge is Rs 0. Printing of the smart card is also Rs 60.",
+  "time_limit": null,
+  "validity": null,
+  "helpline": "e-Sevai helpdesk: toll-free 1800 425 6000, email tnesevaihelpdesk@tn.gov.in.",
+  "sources": [
+    "svc-esevai-list",
+    "svc-esevai-services",
+    "svc-um-newration"
+  ],
+  "evidence": [
+    {
+      "field": "what_it_is",
+      "source": "svc-esevai-services",
+      "quote": "Civil Supplies and Consumer Protection department Application for New Ration Card"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-esevai-list",
+      "quote": "PDS-504 Printing of Smart Card"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-newration",
+      "quote": "Applicant are used to fill this form in both Tamil and English language."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-newration",
+      "quote": "Applicants are used to select district, taluk and village name and contact details."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-newration",
+      "quote": "Applicant are used to fill the family member details and finally click save button."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-newration",
+      "quote": "Applicant are added if they have gas connection and finally submit the application."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-newration",
+      "quote": "Click on Print Receipt to download/print the receipt."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-um-newration",
+      "quote": "You will be redirected to the service page on the Public distribution services Web Portal."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-esevai-list",
+      "quote": "List of Services Offered in eSevai Centres"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "PDS-501 Apply for New Card 0 60"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "PDS-504 Printing of Smart Card 0 60"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "Department Charges Service Charge"
+    },
+    {
+      "field": "helpline",
+      "source": "svc-esevai-list",
+      "quote": "Toll Free Number : 18004256000"
+    },
+    {
+      "field": "helpline",
+      "source": "svc-esevai-list",
+      "quote": "tnesevaihelpdesk@tn.gov.in"
+    }
+  ],
+  "gaps": [
+    "tnpds.gov.in showed a bot-check page, so it could not be saved; who can apply and the documents needed are not in the saved sources.",
+    "The sources do not say how many days it takes to get the card.",
+    "The e-Sevai fee page says 'Last Updated: 10/04/2023' and the manual has no date.",
+    "The helpline given is the e-Sevai helpdesk, not a Civil Supplies helpline."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Only e-Sevai pages could be saved; the main ration card site (tnpds.gov.in) blocked the fetch, so rules and documents are missing.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

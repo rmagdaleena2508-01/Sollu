@@ -1,0 +1,107 @@
+{
+  "id": "agri-tn-coop-interest-free-crop-loan",
+  "type": "scheme",
+  "name_en": "Interest-free crop loans through Co-operative Societies (Kisan Credit Card - Crop Loan)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Co-operation Department, Government of Tamil Nadu",
+  "audiences": [
+    "farmers"
+  ],
+  "benefit": "Your village co-operative society gives you a short-term crop loan at 7% interest. If you repay on or before the due date, you pay no interest. The Government pays it for you. You need no security up to Rs 2 lakh. The loan is partly cash and partly fertilizer, pesticide and seeds.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "farmer",
+      "tenant cultivator",
+      "landless agricultural labourer"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "Tenant farmers and landless farm workers can also get crop loans.",
+      "To pay no interest, you must repay on or before the due date."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": null,
+  "where_to_apply": "Your Primary Agricultural Co-operative Credit Society (PACCS)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-coop-pn-2025",
+    "agri-rcs-about"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-coop-pn-2025",
+      "quote": "Societies issue short term crop loans to farmers"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-coop-pn-2025",
+      "quote": "cultivation at 7% interest under Kisan Credit Card scheme"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-coop-pn-2025",
+      "quote": "The interest on loans need not be paid by the farmers who repay their loan on or before the due date"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-coop-pn-2025",
+      "quote": "These loans are provided without collateral upto Rs.2 lakh as per RBI guidelines"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-coop-pn-2025",
+      "quote": "fertilizers, pesticides and seeds"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-rcs-about",
+      "quote": "including interest-free loans for prompt repayment"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-coop-pn-2025",
+      "quote": "Crop loans are provided to tenant cultivators and landless agricultural labourers as well."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-coop-pn-2025",
+      "quote": "Crop loans are provided to tenant cultivators and landless agricultural labourers as well."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-coop-pn-2025",
+      "quote": "who repay their loan on or before the due date"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-coop-pn-2025",
+      "quote": "Primary Agricultural Co-operative Credit Societies issue short term crop loans"
+    }
+  ],
+  "gaps": [
+    "The policy note does not list documents or steps to apply.",
+    "No helpline in the source.",
+    "The loan amount depends on the crop and area (Scale of Finance), which is not listed here."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "From the official 2025-26 Co-operation Department policy note.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

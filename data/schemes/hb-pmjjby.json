@@ -1,0 +1,113 @@
+{
+  "id": "hb-pmjjby",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Department of Financial Services, Ministry of Finance, Government of India",
+  "audiences": [
+    "everyone"
+  ],
+  "benefit": "Life insurance of Rs 2,00,000. If you die from any cause, your family gets Rs 2,00,000. You pay Rs 436 a year, taken from your bank or post office account. If you join for the first time, death other than by accident in the first 30 days is not covered.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 50,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must have a savings account in a bank or post office that takes part.",
+      "You can join through one account only.",
+      "Cover stops at age 55."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "Fill the form at your bank or post office and agree to auto-debit of the yearly premium. The cover runs from 1 June to 31 May. If you join late, you pay a smaller amount for the rest of the year.",
+  "where_to_apply": "Your bank or post office",
+  "helpline": "1800-180-1111 or 1800-110-001 (national toll free)",
+  "go_number": null,
+  "sources": [
+    "hb-pmjjby-rules",
+    "hb-jansuraksha-rules"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-pmjjby-rules",
+      "quote": "Rs.2 lakh is payable on member’s death due to any cause."
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmjjby-rules",
+      "quote": "Premium: Rs.436/- per annum per member."
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmjjby-rules",
+      "quote": "insurance cover shall not be available for death (other than due to accident) occurring during the first 30 days"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "hb-pmjjby-rules",
+      "quote": "aged between 18 years (completed) and 50 years (age nearer birthday)"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "hb-pmjjby-rules",
+      "quote": "entry, however, will not be possible beyond the age of 50 years"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmjjby-rules",
+      "quote": "eligible to join the scheme through one bank/ Post office account only"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmjjby-rules",
+      "quote": "On attaining age 55 years"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmjjby-rules",
+      "quote": "option to join / pay by auto-debit from the designated individual bank / Post office account on the prescribed forms"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmjjby-rules",
+      "quote": "The cover shall be for one-year period stretching from 1st June to 31st May"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmjjby-rules",
+      "quote": "Delayed enrolment for prospective cover is possible with payment of pro-rata premium"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "hb-pmjjby-rules",
+      "quote": "All individual account holders of participating banks/ Post office"
+    },
+    {
+      "field": "helpline",
+      "source": "hb-jansuraksha-rules",
+      "quote": "National Toll-Free - 1800-180-1111 / 1800-110-001"
+    }
+  ],
+  "gaps": [
+    "The rules do not list papers; the bank keeps your enrolment form.",
+    "Rules are from 1 June 2022 and say the premium is reviewed each year."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Rules are dated 1 June 2022 and say the premium is reviewed each year, so Rs 436 may have changed.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

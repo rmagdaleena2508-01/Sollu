@@ -1,0 +1,134 @@
+{
+  "id": "svc-residence-certificate",
+  "type": "service",
+  "title_en": "Residence certificate",
+  "name_ta": "வசிப்பிடச் சான்றிதழ்",
+  "department": "Revenue Department, Government of Tamil Nadu",
+  "what_it_is": "The Residence Certificate is a certificate from the Revenue Department of Tamil Nadu. You can ask for it online through e-Sevai.",
+  "who_can_apply": null,
+  "documents": [
+    "Photo",
+    "Current address proof",
+    "Self-declaration",
+    "One more ID such as passport, driving licence, PAN card, bank or post office passbook with photo, NPR smart card, pension paper with photo, or a government service ID card"
+  ],
+  "how_to_apply": "Make a free login on the e-Sevai citizen site with 'sign up', or go to an e-Sevai centre. You need a CAN (Citizen Access Number). Fill the form, upload your papers and pay. When the officer approves and signs it digitally, you can download the certificate. Check where it is with 'Check Status' and your application number.",
+  "where_to_apply": "Any e-Sevai centre (Common Service Centre), or online at tnesevai.tn.gov.in.",
+  "fee": "Rs 60 service charge at e-Sevai. No department charge (Rs 0).",
+  "time_limit": null,
+  "validity": null,
+  "helpline": "e-Sevai helpdesk, toll-free 1800 425 6000.",
+  "sources": [
+    "svc-esevai-list",
+    "svc-esevai-services",
+    "svc-esevai-citizen",
+    "svc-esevai-faq",
+    "svc-cra-ecert-ta",
+    "svc-um-residence"
+  ],
+  "evidence": [
+    {
+      "field": "what_it_is",
+      "source": "svc-esevai-services",
+      "quote": "Revenue Administration Residence Certificate Operator"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-cra-ecert-ta",
+      "quote": "பின்வரும் மின்னணு சான்றிதழ்கள் / சேவைகள் இணையவழியில் வழங்கப்படுகின்றன"
+    },
+    {
+      "field": "name_ta",
+      "source": "svc-cra-ecert-ta",
+      "quote": "வசிப்பிடச் சான்றிதழ்"
+    },
+    {
+      "field": "documents",
+      "source": "svc-esevai-services",
+      "quote": "1. Photo 2. Current Address Proof 3. Self-Declaration of Applicant 4. Passport"
+    },
+    {
+      "field": "documents",
+      "source": "svc-esevai-services",
+      "quote": "5. Driving Licence 6. PAN Card 7. Passbooks with photograph issued by Bank/Post Office 8. Smart Card issued by RGI under NPR"
+    },
+    {
+      "field": "documents",
+      "source": "svc-esevai-services",
+      "quote": "9. Health Insurance Smart Card issued under the scheme of Ministry of Labour 10. Pension Document with Photograph 11. Service Identity Cards with Photograph issued to employees by Central/State Govt 12. Officials Identity cards issued to MPs/MLAs/MLCs"
+    },
+    {
+      "field": "documents",
+      "source": "svc-esevai-services",
+      "quote": "13. Authenticated Photo Voter Slip issued by the election machinery"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-esevai-citizen",
+      "quote": "the citizen have to register their profile by clicking ‘sign up’"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-esevai-faq",
+      "quote": "CAN is Citizen Access Number required to avail all e-Sevai services"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-residence",
+      "quote": "provided he/she is having a unique CAN number"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-residence",
+      "quote": "Once the application is approved and digitally signed"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-esevai-faq",
+      "quote": "go to the \"Check Status\" tab and enter your application number"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-esevai-list",
+      "quote": "List of Services Offered in eSevai Centres"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-esevai-citizen",
+      "quote": "to public through Common Service Centers (CSC’s)"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "REV-116 Residence Certificate 0 60"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "Department Charges Service Charge"
+    },
+    {
+      "field": "helpline",
+      "source": "svc-esevai-list",
+      "quote": "Toll Free Number : 18004256000"
+    }
+  ],
+  "gaps": [
+    "The source does not explain what the certificate is used for.",
+    "The e-Sevai service list gives no time limit for this certificate.",
+    "The sources do not say who can apply.",
+    "The sources do not say how long the certificate is valid."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Fee and document list come from the e-Sevai site, which says it was last updated on 10/04/2023, and the step guide is from 2016, so the fee or steps may have changed.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

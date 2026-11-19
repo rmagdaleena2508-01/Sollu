@@ -1,0 +1,140 @@
+{
+  "id": "svc-patta-transfer",
+  "type": "service",
+  "title_en": "Patta transfer and patta / chitta copy online",
+  "name_ta": null,
+  "department": "Revenue and Disaster Management Department (Survey and Settlement), Government of Tamil Nadu",
+  "what_it_is": "Patta is the land record in your name. On the land records e-service you can apply for patta transfer, and view patta, chitta and land sketches (FMB) online. You do not need to visit a Revenue office to see this information.",
+  "who_can_apply": "Any citizen can apply for patta transfer.",
+  "documents": [
+    "A registered deed: sale deed, settlement deed, partition deed or gift deed",
+    "ID proof",
+    "Residence proof"
+  ],
+  "how_to_apply": "To change the patta, apply online for patta transfer, or go to a Common Service Centre (e-Sevai). There are two kinds: without subdivision and with subdivision of the land. To see your patta or chitta, open the land records e-service and choose 'View Patta / Chitta'. You can check your application status online.",
+  "where_to_apply": "Online at eservices.tn.gov.in or the Tamil Nilam citizen portal, or at any Common Service Centre in Tamil Nadu.",
+  "fee": "Rs 60 processing fee for a patta transfer application (with or without subdivision), at a Common Service Centre or the citizen portal. For subdivision, a further rate per subdivision: Rs 400 rural, Rs 500 urban, Rs 600 corporation areas (G.O.(Ms) No.370, 21.07.2020). Field Measurement Sketch copies can be downloaded free.",
+  "time_limit": null,
+  "validity": null,
+  "helpline": null,
+  "sources": [
+    "svc-eservices-land",
+    "svc-tamilnilam"
+  ],
+  "evidence": [
+    {
+      "field": "what_it_is",
+      "source": "svc-eservices-land",
+      "quote": "Apply Online Patta Transfer"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-eservices-land",
+      "quote": "View Patta / Chitta / FMB - (Rural / Natham)"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-eservices-land",
+      "quote": "physical visit to any office of revenue Department is not required to obtain the information"
+    },
+    {
+      "field": "who_can_apply",
+      "source": "svc-tamilnilam",
+      "quote": "Any Citizen for Patta Transfer"
+    },
+    {
+      "field": "documents",
+      "source": "svc-tamilnilam",
+      "quote": "Sale Deed Settlement Deed Partition Deed Gift Deed"
+    },
+    {
+      "field": "documents",
+      "source": "svc-tamilnilam",
+      "quote": "Other proofs required ID Proof Residence Proof Registered Deed"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-eservices-land",
+      "quote": "Application for Patta transfer can be filed at any Common Service Centres(CSCs) across the state"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-tamilnilam",
+      "quote": "Not Involving Sub Division (NISD) Involving Sub Division (ISD)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-eservices-land",
+      "quote": "View Patta / Chitta / FMB - (Rural / Natham)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-eservices-land",
+      "quote": "Application Status"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-eservices-land",
+      "quote": "Application for Patta transfer can be filed at any Common Service Centres(CSCs) across the state"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-tamilnilam",
+      "quote": "Tamil Nilam Citizen Portal"
+    },
+    {
+      "field": "fee",
+      "source": "svc-eservices-land",
+      "quote": "Patta Transfer - Not involving Subdivision: Processing fee of Rs. 60/- will be charged at Common Service Centre and Citizen Portal."
+    },
+    {
+      "field": "fee",
+      "source": "svc-eservices-land",
+      "quote": "Patta Transfer - Involving Subdivision: Processing fee of Rs. 60/- will be charged at Common Service Centre and Citizen Portal."
+    },
+    {
+      "field": "fee",
+      "source": "svc-eservices-land",
+      "quote": "Rural Rs.400/-"
+    },
+    {
+      "field": "fee",
+      "source": "svc-eservices-land",
+      "quote": "Urban Rs.500/-"
+    },
+    {
+      "field": "fee",
+      "source": "svc-eservices-land",
+      "quote": "Corporation Rs.600/-"
+    },
+    {
+      "field": "fee",
+      "source": "svc-eservices-land",
+      "quote": "G.O.(Ms) No. 370 Revenue and Disaster Management Department"
+    },
+    {
+      "field": "fee",
+      "source": "svc-eservices-land",
+      "quote": "Copies of Field Measurement Sketch (FMS) can be downloaded at free of cost"
+    }
+  ],
+  "gaps": [
+    "The pages do not say how many days a patta transfer takes.",
+    "The pages do not say whether viewing a patta / chitta copy online has a fee.",
+    "The pages do not explain what 'chitta' means in plain words.",
+    "No helpline number is on these pages.",
+    "The Tamil Nilam login page shows an old maintenance notice from November 2022."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Pages have no 'last updated' date; fee rests on G.O.(Ms) No.370 of 2020.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

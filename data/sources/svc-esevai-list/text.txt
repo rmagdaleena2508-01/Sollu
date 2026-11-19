@@ -1,0 +1,621 @@
+TNeGA
+Email: tnesevaihelpdesk@tn.gov.in |
+Toll Free Number : 18004256000
+Screen Reader Access
+A-
+A
+A+
+Last Updated: 10/04/2023
+Directorate of e-Governance
+Tamil Nadu e-Governance Agency
+Information Technology and Digital Services Department
+Government of Tamil Nadu
+e-Sevai
+இனிய சேவை இணைய சேவை
+Toggle navigation
+Home
+About Us
+e-Sevai
+Services Offered
+Contact US
+Help
+-->
+Services Offered
+Cyber Security
+Cogent Driver
+Mantra Driver
+Video Tutorials
+User Manual
+IVRS & WhatsApp Poster
+Grievences/Complaints
+Policy & Guidelines
+Frequently Asked Questions (FAQs)
+Sitemap
+e-adangal Extract
+Application Tracking
+Dashboard
+e-Sevai Training
+List of Services Offered in eSevai Centres
+Sl.no
+Department
+Service Code
+Services
+Department Charges
+Service Charge
+1
+Revenue
+REV-101
+Community Certificate
+0
+60
+2
+REV-102
+Nativity Certificate
+0
+60
+3
+REV-103
+Income Certificate
+0
+60
+4
+REV-104
+First Graduate Certificate
+0
+60
+5
+REV-105
+Deserted Woman Certificate
+0
+60
+6
+REV-106
+Agricultural Income
+Certificate
+0
+60
+7
+REV-107
+Family Migration
+Certificate
+0
+60
+8
+REV-108
+Unemployment Certificate
+0
+60
+9
+REV-109
+Widow Certificate
+0
+60
+10
+REV-111
+Certificate for Loss of
+Educational Records due to Natural Disaster
+0
+60
+11
+REV-113
+Inter-caste Marriage
+certificate
+0
+60
+12
+REV-114
+Legal Heir Certificate
+0
+60
+13
+REV-115
+Other Backward Class (OBC)
+Certificate
+0
+60
+14
+REV-116
+Residence Certificate
+0
+60
+15
+REV-117
+Small / Marginal Farmer
+Certificate
+0
+60
+16
+REV-118
+Solvency Certificate
+0
+60
+17
+REV-119
+No Male Child Certificate
+0
+60
+18
+REV-120
+Unmarried Certificate
+0
+60
+19
+REV-401
+License under Pawn Broker
+Act
+0
+60
+20
+REV-402
+Money Lender's License
+0
+60
+21
+REV-404
+Issuance of Public Building Licence
+0
+500
+22
+REV-201
+Indira Gandhi National Old Age Pension Scheme (IGNOPS)
+0
+10
+23
+REV-202
+Destitute Widow Pension Scheme (DWPS)
+0
+10
+24
+REV-203
+Destitute Deserted Woman Pension Scheme (DDWPS)
+0
+10
+25
+REV-204
+Unmarried Women Pension Scheme (UWPS)
+0
+10
+26
+REV-205
+Chief Minister Uzhavar Pathukapu Thittam (CMUPT)
+0
+10
+27
+REV-206
+Differently Abled Pension Scheme(DAPS)
+0
+10
+28
+REV-123
+Destitute Widow Certificate
+0
+60
+29
+REV-125
+Appropriate Official Document for COVID-19 Death
+0
+0
+29
+TANGEDCO
+TEB-601
+Electricity Bill Payment
+Upto
+1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+30
+TNEA
+TNE-501
+Tamil Nadu Engineering Admission 2016 B.E. / B.Tech Online
+Registration
+General
+Rs.500
+60
+OBC/SC/ST Rs.250
+60
+31
+Corporation of Chennai
+COC-101
+Printing of Birth
+Certificate
+0
+30
+32
+COC-102
+Printing of Death
+Certificate
+0
+30
+33
+COC-401
+Renewal of trade license
+Upto 1000
+15
+1001
+- 3000
+25
+34
+COC-601
+Collection of company tax
+3001 - 5000
+40
+35
+COC-602
+Collection of professional
+tax
+5001 - 10000
+50
+36
+COC-603
+Collection of property tax
+10001 and above
+60
+37
+Chennai Metro Water Supply & Sewerage Board
+CMW-601
+Water and Sewerage Tax
+Upto
+1000
+15
+1001 - 3000
+25
+3001 - 5000
+40
+5001 - 10000
+50
+10001 and above
+60
+38
+Commissionerate of Municipal Administration
+(CMA)
+CMA-601
+Collection of Non Tax
+Upto 1000
+15
+39
+CMA-602
+Collection of Professional
+Tax
+1001 - 3000
+25
+40
+CMA-603
+Collection of Property tax
+3001 - 5000
+40
+41
+CMA-604
+Collection of Underground
+Drainage Charge
+5001 - 10000
+50
+42
+CMA-605
+Collection of Water Charges
+10001 and above
+60
+43
+Directorate of Boilers
+DBL-401
+Registration of License
+under boilers act
+0
+200
+44
+DBL-402
+Renewal of License under
+boilers act
+0
+200
+45
+DBL-403
+Application for Approval of
+Manufacturer/Erector of Boilers
+0
+200
+46
+DBL-404
+Application for Renewal of
+Manufacturer/Erector of Boilers
+0
+200
+47
+Employment Training
+EMP-502
+Printing of registration ID
+0
+15
+48
+EMP-504
+Application for Renewal
+0
+15
+49
+EMP-503
+Application for
+Registration
+0
+10
+50
+EMP-501
+Application for profile
+updation
+0
+10
+51
+Drug Control Administration
+DCA-401
+Application for licence to
+grant or renewal allopathic drugs
+0
+500
+52
+DCA-402
+Application for licence to
+grant or renewal Homoeopathic Medicines
+0
+500
+53
+DCA-403
+Application for licence to
+grant or renewal restricted licence (allopathic drugs)
+0
+500
+54
+DCA-404
+Application for licence to
+grant or renewal specified in Schedule X drugs
+0
+500
+55
+DCA-405
+Application to obtain
+duplicate license
+0
+100
+56
+DCA-601
+Retention for Allopathic
+Drugs licence Sales
+0
+500
+57
+DCA-602
+Retention for Restricted
+licence (allopathic drugs)
+0
+500
+58
+DCA-603
+Retention for Schedule X
+drugs
+0
+500
+59
+DCA-604
+Retention for Allopathic
+Drugs Manufacture for sale
+0
+500
+60
+DCA-605
+Retention of Loan License
+for Manufacture of Drugs for sale Allopathic Drugs
+0
+500
+61
+DCA-606
+Retention of Repackaging
+License for Allopathic Drugs
+0
+500
+62
+Fire & Rescue
+DFR-101
+NOC for MSB Compliance
+0
+120
+63
+DFR-102
+NOC for MSB Planning
+Permission
+0
+120
+64
+DFR-103
+NOC for Non - MSB Planning
+Permission
+0
+120
+65
+DFR-401
+MSB Fire License
+Registration and Renewal
+0
+120
+66
+DFR-402
+Non - MSB Fire License
+Registration and Renewal
+0
+120
+67
+Civil Supplies and Consumer Protection
+PDS-501
+Apply for New Card
+0
+60
+68
+PDS-502
+Card Mutation
+0
+60
+69
+PDS-504
+Printing of Smart Card
+0
+60
+70
+TNEGA
+CSC-024
+PDS Aadhaar Enrollment
+0
+15
+71
+Chennai
+Traffic Police
+CTP-601
+Challan Payment
+0
+15
+71
+WAQF
+Board
+WQA-201
+Ulema Pension Scheme
+0
+15
+73
+Tamil Nadu Electrical Inspectorate
+TEI-401
+Issuance of Drawing
+Approval
+0
+300
+74
+TEI-402
+Issuance of Safety
+Certificate
+0
+300
+75
+Directorate of Fisheries
+ADF-203
+Relief Assistance to marine
+Fishermen families during Fishing Ban period
+0
+15
+76
+ADF-204
+Special Allowance to marine
+Fishermen families during Fishing lean period
+0
+15
+77
+Welfare of Differently Abled Persons
+WDA-801
+Loan Assistance
+0
+15
+78
+WDA-201
+Marriage Assistance
+0
+15
+79
+WDA-202
+Maintenance Support
+0
+15
+80
+Directorate of Public Health
+DPH-101
+CRS-Death Registration
+0
+100
+81
+DPH-102
+Printing of Birth
+Certificate
+0
+100
+82
+DPH-103
+Printing of Death
+Certificate
+0
+100
+83
+Revenue Administration
+REV-121
+Issuance of Income and
+Asset Certificate for EWS
+0
+60
+84
+REV-121
+Issuance of Jain Religious
+Minority Certificate
+0
+100
+85
+Directorate
+of Boilers
+DBL-405
+Steam test for Boilers
+0
+150
+86
+Water Resource Department
+WRD-101
+No Objection certificate for ground water extract
+0
+300
+87
+Inspector General of Registration
+IGR-401
+Issue of Encumbrance Certificate
+0
+10
+88
+IGR-402
+Issue of Certified Copies
+0
+10
+89
+IGR-403
+EC Download
+0
+Per Page- 2
+90
+IGR-404
+CC Download
+0
+Per Page- 2
+91
+IFHRMS
+IFH-401
+Generation of Challan with Online payment
+Upto 5000
+50
+50001 - 100000
+75
+100001 and above
+100
+92
+Tamil Nadu Civil Supplies Corporation
+TNS-501
+Farmer Registration Form
+0
+20
+Contact US
+TamilNadu e - Governance Agency
+807, 7th Floor,
+PT Lee Chengalvarayan Naicker Building,
+Anna Salai (Mount Road),
+Chennai - 600 002
+Helpdesk
+tnesevaihelpdesk@tn.gov.in
+Toll Free Number : 18004256000
+Feedback
+Privacy Policy
+Site best viewed at least 1024 x 768 resolution in I.E 10+, Mozilla 40+, Google Chrome 50+
+Application Version - 4.0.0.0 - Release Notes
+© 2026 All Rights Reserved

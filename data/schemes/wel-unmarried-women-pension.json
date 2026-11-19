@@ -1,0 +1,111 @@
+{
+  "id": "wel-unmarried-women-pension",
+  "type": "scheme",
+  "name_en": "Pension Scheme for Destitute Unmarried Poor Women aged 50 and above",
+  "name_ta": null,
+  "level": "state",
+  "department": "Revenue Administration and Disaster Management Department, Government of Tamil Nadu",
+  "audiences": [
+    "women"
+  ],
+  "benefit": "You get Rs 1,200 every month (from August 2023). You also get a free saree at Pongal and Deepavali, and free rice.",
+  "eligibility": {
+    "age_min": 50,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be destitute (no one to support you) and never married.",
+      "Your fixed assets (house, land) must not be worth more than Rs 1,00,000."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Apply online on the TN e-Sevai website (tnesevai.tn.gov.in). Revenue officers check your form. If you are eligible, the Special Tahsildar (Social Security Scheme) orders your pension. Forms are settled within 30 days.",
+  "where_to_apply": "TN e-Sevai website (tnesevai.tn.gov.in)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "wel-cra-schemes-ta"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "50 வயதிற்கு மேற்பட்ட திருமணமாகாத ஏழைப் பெண்களுக்கான ஓய்வூதியத் திட்டம் - 1200/- 1200/-"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "ஆகஸ்டு-2023 முதல் ரூ.1,200/- ஆகவும்"
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "wel-cra-schemes-ta",
+      "quote": "ஆதரவற்ற மற்றும் திருமணமாகாத பெண்ணாக இருத்தல் வேண்டும்."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-cra-schemes-ta",
+      "quote": "ஆதரவற்ற மற்றும் திருமணமாகாத பெண்ணாக இருத்தல் வேண்டும்."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "wel-cra-schemes-ta",
+      "quote": "வயது – 50 மற்றும் அதற்கு மேல் இருத்தல் வேண்டும்."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-cra-schemes-ta",
+      "quote": "அசையா சொத்து ரூ.1,00,000/-திற்கு மிகாமல் இருத்தல் வேண்டும்."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "https://www.tnesevai.tn.gov.in என்ற இணைதளம் உருவாக்கப்பட்டுள்ளது"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "தனி வட்டாட்சியர் (சமூக பாதுகாப்புத் திட்டம்) மூலம் ஓய்வூதியம் வழங்க உத்தரவிடப்படுகிறது"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "30 தினங்களுக்குள் தீர்வு செய்யப்படுகின்றன"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "சமூக பாதுகாப்புத் திட்டங்களுக்கு விண்ணப்பிக்கும் செயல்முறையை எளிதாக்குவதற்காக, https://www.tnesevai.tn.gov.in"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "பெண் பயனாளிகளுக்கு ஒரு சேலையும் வழங்கப்பட்டு வருகிறது"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "அங்கன்வாடி மையங்களில் உணவு உட்கொள்ளாதவர்களுக்கு மாதம் 4 கிலோ அரிசி வழங்கப்படுகிறது"
+    }
+  ],
+  "gaps": [
+    "The source does not list the papers you need.",
+    "No income limit, helpline or G.O. number in the source."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Amount and rules come from the official Revenue Administration page, which shows Rs 1,200 from August 2023.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

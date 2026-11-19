@@ -1,0 +1,137 @@
+{
+  "id": "rt-rte-free-seats",
+  "type": "right",
+  "topic": "education",
+  "title_en": "Free seats for poor children in private schools",
+  "law": "Right of Children to Free and Compulsory Education Act, 2009, Section 12(1)(c)",
+  "rule_plain": "Private unaided schools must keep at least 25 percent of seats in the first class for children from weaker sections and disadvantaged groups living nearby. These children study free until they finish elementary school. Disadvantaged groups include SC, ST, backward class children and children with disability. Weaker section means families with income below the limit set by the government.",
+  "what_you_can_do": [
+    "Apply online on the Tamil Nadu RTE portal (rteadmission.tnschools.gov.in). Click 'Start Application'.",
+    "Fill in the child, parent and address details, upload the documents, and pick schools.",
+    "Keep ready: the child's photo, birth certificate, parent's Aadhaar or ration card, income certificate (weaker section), and community certificate (disadvantaged group).",
+    "For help, call the RTE Helpline 14417."
+  ],
+  "where_to_get_help": "Directorate of Private Schools, Chennai. RTE Helpline 14417. Portal: rteadmission.tnschools.gov.in.",
+  "sources": [
+    "rt-rte-sop",
+    "rt-tn-rte-portal",
+    "rt-tn-rte-form"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-rte-sop",
+      "quote": "Section 12 (1) (c) states that school specified in sub-clauses (iii) and (iv) of clause (n)"
+    },
+    {
+      "field": "law",
+      "source": "rt-tn-rte-portal",
+      "quote": "Right To Education Act,2009 Section 12.1(c)"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-rte-sop",
+      "quote": "admit in class I, to the extent of at least twenty-five per cent of the"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-rte-sop",
+      "quote": "children belonging to weaker section and disadvantaged"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-rte-sop",
+      "quote": "group in the neighbourhood and provide free and compulsory elementary education"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-rte-sop",
+      "quote": "an unaided school not receiving any kind of aid or grants"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-rte-sop",
+      "quote": "Child belonging to disadvantaged group means a child with disability or a child"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-rte-sop",
+      "quote": "belonging to the Scheduled Caste, the Scheduled Tribe, the socially and educationally"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-rte-sop",
+      "quote": "guardian whose annual income is lower than the minimum limit specified by the"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-portal",
+      "quote": "Start Application"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-portal",
+      "quote": "Photograph of Applicant"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-portal",
+      "quote": "Birth Certificate"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-portal",
+      "quote": "AADHAR / Ration Card of Parent or Guardian"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-portal",
+      "quote": "Income Certificate for Weaker Section Candidates"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-portal",
+      "quote": "Community Certificate for Disadvantage Group Candidates"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-portal",
+      "quote": "RTE Helpline: 14417"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-form",
+      "quote": "https://rteadmission.tnschools.gov.in"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-form",
+      "quote": "upload necessary documents"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-rte-form",
+      "quote": "SELECT SCHOOLS"
+    }
+  ],
+  "gaps": [
+    "The Act itself could not be saved (indiacode.nic.in did not respond). Section 12(1)(c) is quoted from the NCPCR SOP, which copies the Act.",
+    "The Tamil Nadu income limit for 'weaker section' is not on the saved pages.",
+    "The portal shows no application dates right now; dates change every year.",
+    "The step-by-step form is the 2024-25 version."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Act quoted via NCPCR SOP, TN income limit and this year's dates are missing; portal steps are from the 2024-25 form.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

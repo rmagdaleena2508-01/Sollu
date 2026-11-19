@@ -1,0 +1,104 @@
+{
+  "id": "kid-cm-breakfast",
+  "type": "scheme",
+  "name_en": "Chief Minister's Breakfast Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+  "audiences": [
+    "children",
+    "school_students"
+  ],
+  "benefit": "Your child gets a free hot breakfast at school, Monday to Friday, on school working days. Dishes include upma, kichadi, pongal and kesari.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Your child studies in a Tamil Nadu government school.",
+      "Your child is in Class 1 to Class 5.",
+      "The scheme was also extended to some government aided schools in rural areas in 2024-25."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "You do not need to apply. Your child gets the breakfast at school.",
+  "where_to_apply": "At your child's school.",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "kid-breakfast-ms",
+    "kid-breakfast-spc"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "kid-breakfast-ms",
+      "quote": "by the Department of Social Welfare and Women Empowerment of the Tamil Nadu Government"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-breakfast-ms",
+      "quote": "Free Breakfast will be distributed daily from Monday to Friday on School Working Days."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-breakfast-ms",
+      "quote": "Rava Uppama with Vegetable Sambhar."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-breakfast-ms",
+      "quote": "Rava Vegetable Kitchadi."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-breakfast-ms",
+      "quote": "Sweet Pongal."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-breakfast-ms",
+      "quote": "Students should be Studying in the Government of Tamil Nadu Schools."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-breakfast-ms",
+      "quote": "Students of Class 1st to Class 5th will only be eligible."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-breakfast-spc",
+      "quote": "The scheme has been extended to 4154 Government Aided Schools in rural areas during 2024-2025."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-breakfast-ms",
+      "quote": "There is no need to apply anywhere for the Tamil Nadu Government's Chief Minister Breakfast Scheme."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-breakfast-ms",
+      "quote": "Student will get the breakfast (scheme benefits) at their school."
+    }
+  ],
+  "gaps": [
+    "No helpline or G.O. number on the saved pages.",
+    "The saved official pages say Class 1 to 5. News reports say the scheme was renamed and extended in 2026; this is not yet confirmed on a saved official page."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Official pages say Class 1 to 5, but news in 2026 reports a new name and extension to more classes, not yet confirmed on an official page.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

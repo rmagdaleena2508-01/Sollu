@@ -1,13 +1,13 @@
 # Sollu demo data
 
-This folder holds the checked facts Sollu answers from: 20 schemes, 5 rights and 3 real notices for Tamil Nadu. The app reads only `sollu-demo.json`.
+This folder holds the checked facts Sollu answers from: 67 schemes, 15 rights topics, 16 certificates and services, and 3 real notices for Tamil Nadu (101 live entries; 2 more are held back). The app reads only `sollu-demo.json`.
 
 ## What's in here
 
 | Path | What it is |
 |---|---|
 | `sollu-demo.json` | The file the app uses. Only entries that passed the checker and were not held back. |
-| `schemes/`, `rights/`, `notices/` | One JSON file per entry, with its quotes, gaps, check result and review note. |
+| `schemes/`, `rights/`, `notices/`, `services/` | One JSON file per entry, with its quotes, gaps, check result and review note. |
 | `sources/<id>/` | For each official source: `meta.json` (URL, fetch time, SHA-256 of the original) and `text.txt` (the text the quotes are matched against). The original PDFs and pages are not stored here; fetch them again from the URL and compare the SHA-256. |
 | `tools/fetch.sh` | Saves a new official source. |
 | `tools/check.py` | Checks every entry. `--write` records the result, `--build` rebuilds `sollu-demo.json`. |
@@ -61,7 +61,7 @@ This folder holds the checked facts Sollu answers from: 20 schemes, 5 rights and
 }
 ```
 
-`audiences` uses only: `school_students`, `college_students`, `seniors`, `farmers`, `workers`, `women`.
+`audiences` uses only: `school_students`, `college_students`, `seniors`, `farmers`, `workers`, `women`, `children`, `disabled`, `families`, `entrepreneurs`, `fishermen`, `transgender`, `everyone`.
 `gender` is `"female"`, `"male"`, `"any"` or `null`. `district` is `"all"`, a list of districts, or `null`.
 
 ## Right (`rights/<id>.json`)
@@ -82,7 +82,33 @@ This folder holds the checked facts Sollu answers from: 20 schemes, 5 rights and
 }
 ```
 
-`topic` is one of `wages`, `rent`, `ration`, `rti`, `police_complaint`.
+`topic` is one of `wages`, `rent`, `ration`, `rti`, `police_complaint`, `consumer`, `domestic_violence`, `dowry`, `maternity_leave`, `child_marriage`, `legal_aid`, `senior_maintenance`, `workplace_harassment`, `education`, `cyber_crime`.
+
+## Service (`services/<id>.json`)
+
+A certificate or everyday government service (community certificate, patta, ration card).
+
+```json
+{
+  "id": "svc-community-certificate",
+  "type": "service",
+  "title_en": "Community certificate",
+  "name_ta": null,
+  "department": "Revenue Department, Government of Tamil Nadu",
+  "what_it_is": "Plain sentence: what it is and what it's used for.",
+  "who_can_apply": "… or null",
+  "documents": ["…"],
+  "how_to_apply": "…",
+  "where_to_apply": "…",
+  "fee": "… or null",
+  "time_limit": "… or null",
+  "validity": "… or null",
+  "helpline": "… or null",
+  "sources": ["…"],
+  "evidence": [{"field": "fee", "source": "…", "quote": "…"}],
+  "gaps": []
+}
+```
 
 ## Notice (`notices/<id>.json`)
 

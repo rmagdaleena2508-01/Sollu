@@ -29,13 +29,17 @@ OFFICIAL_EXTRA = {
 }
 BLOCKED = ("citizennest", "sarkariyojana", "schemesinindia", "policybazaar", "indiankanoon", "wikipedia")
 
-AUDIENCES = {"school_students", "college_students", "seniors", "farmers", "workers", "women"}
-TOPICS = {"wages", "rent", "ration", "rti", "police_complaint"}
+AUDIENCES = {"school_students", "college_students", "seniors", "farmers", "workers", "women",
+             "children", "disabled", "families", "entrepreneurs", "fishermen", "transgender", "everyone"}
+TOPICS = {"wages", "rent", "ration", "rti", "police_complaint",
+          "consumer", "domestic_violence", "dowry", "maternity_leave", "child_marriage", "legal_aid",
+          "senior_maintenance", "workplace_harassment", "education", "cyber_crime"}
 
 REQUIRED = {
     "scheme": ["id", "name_en", "level", "department", "audiences", "benefit", "eligibility", "sources", "evidence"],
     "right": ["id", "topic", "title_en", "law", "rule_plain", "what_you_can_do", "sources", "evidence"],
     "notice": ["id", "title", "issued_by", "says", "who_it_affects", "sources", "evidence"],
+    "service": ["id", "title_en", "department", "what_it_is", "how_to_apply", "sources", "evidence"],
 }
 
 # Fields that state a fact and so must be backed by a quote when filled.
@@ -45,6 +49,8 @@ FACT_FIELDS = {
                "eligibility.other", "documents", "how_to_apply", "where_to_apply", "helpline", "go_number"],
     "right": ["law", "rule_plain", "what_you_can_do"],
     "notice": ["says", "what_to_do", "by_when", "if_not", "date", "reference_number"],
+    "service": ["what_it_is", "name_ta", "who_can_apply", "documents", "how_to_apply", "where_to_apply",
+                "fee", "time_limit", "validity", "helpline"],
 }
 
 
@@ -156,7 +162,7 @@ def main():
     build = "--build" in sys.argv
     now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
     results = {"verified": [], "needs_review": []}
-    for folder in ("schemes", "rights", "notices"):
+    for folder in ("schemes", "rights", "notices", "services"):
         for p in sorted((ROOT / folder).glob("*.json")):
             entry = json.loads(p.read_text())
             problems, warnings = check(entry)
@@ -188,7 +194,8 @@ def main():
                "held_back": held,
                "schemes": [e for e in live if e["type"] == "scheme"],
                "rights": [e for e in live if e["type"] == "right"],
-               "notices": [e for e in live if e["type"] == "notice"]}
+               "notices": [e for e in live if e["type"] == "notice"],
+               "services": [e for e in live if e["type"] == "service"]}
         # ROOT is the data/ folder, so this is data/sollu-demo.json, the file the app reads.
         (ROOT / "sollu-demo.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n")
         # A tiny index for the landing page's "Check" card: which checked schemes are for which group.
@@ -197,9 +204,12 @@ def main():
             for aud in e["audiences"]:
                 index.setdefault(aud, []).append({"id": e["id"], "name": e["name_en"]})
         (ROOT / "audience-index.json").write_text(json.dumps(
-            {"note": "Built by tools/check.py --build from sollu-demo.json. Do not edit by hand.", "audiences": index},
+            {"note": "Built by tools/check.py --build from sollu-demo.json. Do not edit by hand.",
+             "counts": {k: len(out[k]) for k in ("schemes", "rights", "notices", "services")},
+             "audiences": index},
             ensure_ascii=False, indent=2) + "\n")
-        print(f"built data/sollu-demo.json: {len(out['schemes'])} schemes, {len(out['rights'])} rights, {len(out['notices'])} notices")
+        print(f"built data/sollu-demo.json: {len(out['schemes'])} schemes, {len(out['rights'])} rights, "
+              f"{len(out['notices'])} notices, {len(out['services'])} services")
 
 
 if __name__ == "__main__":

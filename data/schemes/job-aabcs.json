@@ -1,0 +1,156 @@
+{
+  "id": "job-aabcs",
+  "type": "scheme",
+  "name_en": "Annal Ambedkar Business Champions Scheme (AABCS)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Micro, Small and Medium Enterprises Department, Government of Tamil Nadu",
+  "audiences": [
+    "entrepreneurs"
+  ],
+  "benefit": "Help for SC and ST people to start or grow a business. The government pays 35% of the project cost as a subsidy, up to Rs 1.5 crore. You also get 6% interest help on machinery loans for up to 10 years.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": 55,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": [
+      "SC",
+      "ST"
+    ],
+    "district": "all",
+    "other": [
+      "You must live in Tamil Nadu.",
+      "The business must be 100% owned by SC/ST people.",
+      "It can be a new business or a bigger version of an old one.",
+      "Manufacturing, service, and larger trading projects can apply.",
+      "No minimum education is needed."
+    ]
+  },
+  "documents": [
+    "Voter ID or Aadhaar card",
+    "PAN card",
+    "Passport size photo",
+    "Proof of age",
+    "Caste/community certificate",
+    "Residence proof",
+    "Bank account details"
+  ],
+  "how_to_apply": "Apply online on the MSME Department website. Click 'Apply Online' and then 'New Application'. Register, log in, fill the form and upload your papers.",
+  "where_to_apply": "Online at msmeonline.tn.gov.in/aabcs",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "job-aabcs-desc",
+    "job-aabcs-ms"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-aabcs-ms",
+      "quote": "launched by the Department of Micro, Small and Medium Enterprises, Government of Tamil Nadu"
+    },
+    {
+      "field": "benefit",
+      "source": "job-aabcs-desc",
+      "quote": "35% capital subsidy ( Not exceeding Rs 1.5 crore) on eligible project cost"
+    },
+    {
+      "field": "benefit",
+      "source": "job-aabcs-desc",
+      "quote": "6% interest subvention for loans to procure machinery and equipment during the tenure of loan not exceeding 10 years"
+    },
+    {
+      "field": "eligibility.community",
+      "source": "job-aabcs-desc",
+      "quote": "Beneficiaries belonging to SC/ST communities (100% owned by SC/ST persons)"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "job-aabcs-desc",
+      "quote": "Beneficiaries shall be with age limit of 55 years"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-aabcs-ms",
+      "quote": "The applicant should be a resident of the State of Tamil Nadu."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-aabcs-desc",
+      "quote": "Covering new and expansion of existing enterprises"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-aabcs-ms",
+      "quote": "The eligible enterprises can be business enterprises in the areas of manufacturing and services."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-aabcs-desc",
+      "quote": "No minimum educational qualification"
+    },
+    {
+      "field": "documents",
+      "source": "job-aabcs-ms",
+      "quote": "Identity proof i.e. copy of Election ID Card/ Aadhaar card"
+    },
+    {
+      "field": "documents",
+      "source": "job-aabcs-ms",
+      "quote": "Copy of PAN Card"
+    },
+    {
+      "field": "documents",
+      "source": "job-aabcs-ms",
+      "quote": "Caste/Community Certificate"
+    },
+    {
+      "field": "documents",
+      "source": "job-aabcs-ms",
+      "quote": "Bank account details"
+    },
+    {
+      "field": "documents",
+      "source": "job-aabcs-ms",
+      "quote": "Proof of age"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-aabcs-ms",
+      "quote": "On the home page, click on “Apply Online” and then “New Application”."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-aabcs-ms",
+      "quote": "Upload all the necessary documents and submit the application form."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-aabcs-desc",
+      "quote": "Application shall be filed through online only msmeonline.tn.gov.in/aabcs/"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-aabcs-desc",
+      "quote": "Covering Trading related projects which are above the threshold of assistance"
+    }
+  ],
+  "gaps": [
+    "No income limit or minimum age in the sources.",
+    "No helpline or G.O. number in the saved pages."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "The MSME Department page and the myScheme page agree on the subsidy and limits.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

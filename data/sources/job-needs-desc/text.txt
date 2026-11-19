@@ -1,0 +1,91 @@
+MSME
+Micro, Small and Medium Enterprises Department
+குறு, சிறு மற்றும் நடுத்தரத் தொழில் நிறுவனங்கள் துறை
+New Entrepreneur -cum- Enterprise
+Development Scheme (NEEDS)
+Home
+Dashboard
+About
+About NEEDS
+G.O & Guidelines
+Flow Chart
+Guidelines
+Check your Eligibility
+FAQ
+Dos & Don'ts
+Filing Procedure
+Online Blank Application
+Online Filled Application
+Documents to be Uploaded
+Apply Online
+New Application
+Pending Application
+Upload Documents
+Download Filed Application
+Track Your Status
+Contact Us
+Department Login
+Feed back
+Dashboard
+About
+About NEEDS
+G.O & Guidelines
+Flow Chart
+Guidelines
+Check your Eligibility
+FAQ
+Dos & Don'ts
+Filing Procedure
+Online Blank Application
+Online Filled Application
+Documents to be Uploaded
+Apply Online
+New Application
+Pending Application
+Upload Documents
+Download Filed Application
+Track Your Status
+Contact Us
+Department Login
+--> Feed back
+தமிழ்
+தமிழ்
+Check your eligibility_cs
+NEEDS
+Specially devised and specifically implemented for
+promoting first entrepreneurial projects of first generation entrepreneurs
+Aspirants must be of age between 21-45 in general
+and for special (Women/BC/MBC/SC/ST/Ex-servicemen/Transgenders/Differently abled), age
+relaxation upto 55 years
+Higher Secondary (+2 Passed)/Degree / Diploma / ITI / Vocational Training
+Manufacturing or Service projects with Project cost
+from Rs.10.00 lakhs upto Rs.5.00 crore
+Promoter’s contribution 10% for General and 5% for
+Special Category
+Loan assistance from TIIC / Commercial Banks /
+TAICO Banks
+Individual Based Capital Subsidy @ 25% of the
+Project cost (Maximum Rs.75.00 lakhs)
+3% Interest subvention through-out the entire
+repayment period
+Application shall be filed through online only msmeonline.tn.gov.in
+-->
+Contact Us
+FAQ
+Follow us on
+$('.open-popup-link').magnificPopup({
+type: 'inline',
+midClick: true,
+gallery: {
+enabled: true
+},
+mainClass: 'mfp-fade'
+});
+$('.open-popup-link1').magnificPopup({
+type: 'inline',
+midClick: true,
+gallery: {
+enabled: true
+},
+mainClass: 'mfp-fade'
+});

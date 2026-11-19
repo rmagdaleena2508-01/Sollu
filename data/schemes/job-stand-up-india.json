@@ -1,0 +1,174 @@
+{
+  "id": "job-stand-up-india",
+  "type": "scheme",
+  "name_en": "Stand-Up India",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Finance, Government of India",
+  "audiences": [
+    "entrepreneurs",
+    "women"
+  ],
+  "benefit": "SC/ST people and women can get a bank loan of Rs 10 lakh to Rs 1 crore to start a new business (manufacturing, services, trading or farm-related work). The loan covers machines and working capital. You get a RuPay debit card and help with training and project reports.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": [
+      "SC",
+      "ST"
+    ],
+    "district": "all",
+    "other": [
+      "You must be a woman, or an SC/ST man.",
+      "It must be a new (greenfield) business.",
+      "You must not have failed to repay a bank loan."
+    ]
+  },
+  "documents": [
+    "ID proof (voter ID, passport, driving licence or PAN)",
+    "Address proof",
+    "Business address proof",
+    "Caste certificate if you are SC/ST",
+    "Rent agreement if the shop is rented",
+    "Project report for larger loans"
+  ],
+  "how_to_apply": "Go to your nearest bank branch, or the Lead District Manager, or register on the Stand-Up Mitra portal. Fill your business details and register. The bank will then contact you.",
+  "where_to_apply": "Nearest bank branch, Lead District Manager (LDM), or www.standupmitra.in",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "job-standup-ms"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-standup-ms",
+      "quote": "A scheme by Ministry of Finance"
+    },
+    {
+      "field": "benefit",
+      "source": "job-standup-ms",
+      "quote": "financing SC/ST and/or Women Entrepreneurs"
+    },
+    {
+      "field": "benefit",
+      "source": "job-standup-ms",
+      "quote": "facilitate bank loans between Rs. 10 lakh and Rs. 1 Crore"
+    },
+    {
+      "field": "benefit",
+      "source": "job-standup-ms",
+      "quote": "greenfield project enterprise in manufacturing, services, trading sector and activities allied to agriculture"
+    },
+    {
+      "field": "benefit",
+      "source": "job-standup-ms",
+      "quote": "composite loan (inclusive of term loan and working capital)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-standup-ms",
+      "quote": "Rupay debit card to be issued for convenience of the borrower."
+    },
+    {
+      "field": "benefit",
+      "source": "job-standup-ms",
+      "quote": "project report preparation"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "job-standup-ms",
+      "quote": "The age of the applicant must be at least 18 years."
+    },
+    {
+      "field": "eligibility.community",
+      "source": "job-standup-ms",
+      "quote": "If the applicant is a male, he must be from SC / ST category."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-standup-ms",
+      "quote": "Finance is provided for Greenfield Enterprises."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-standup-ms",
+      "quote": "The applicant must not be in default to any bank/financial institution."
+    },
+    {
+      "field": "documents",
+      "source": "job-standup-ms",
+      "quote": "Proof of Identity: Voter's ID Card / Passport / Driving License / PAN Card"
+    },
+    {
+      "field": "documents",
+      "source": "job-standup-ms",
+      "quote": "Proof of Business Address"
+    },
+    {
+      "field": "documents",
+      "source": "job-standup-ms",
+      "quote": "Documents to establish whether the applicant belongs to SC/ST Category, wherever applicable."
+    },
+    {
+      "field": "documents",
+      "source": "job-standup-ms",
+      "quote": "Rent Agreement (if business premises on rent)"
+    },
+    {
+      "field": "documents",
+      "source": "job-standup-ms",
+      "quote": "Project report (for the proposed project if term funding is required)"
+    },
+    {
+      "field": "documents",
+      "source": "job-standup-ms",
+      "quote": "Proof of Residence"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-standup-ms",
+      "quote": "Either approach your nearest bank branch to apply"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-standup-ms",
+      "quote": "Or Through the Lead District Manager (LDM)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-standup-ms",
+      "quote": "for the officials to contact you"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-standup-ms",
+      "quote": "Or Apply Through Portal: www.standupmitra.in"
+    },
+    {
+      "field": "benefit",
+      "source": "job-standup-ms",
+      "quote": "provides hand-holding support through a network of agencies engaged in training"
+    }
+  ],
+  "gaps": [
+    "The community list covers men only; women of any community can apply.",
+    "No helpline in the source.",
+    "The source does not say until when the scheme runs, and the Stand-Up Mitra portal is not on a .gov.in address so it was not saved."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The myScheme page has no date or end date for the scheme; check with a bank that it is still open.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

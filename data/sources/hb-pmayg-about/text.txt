@@ -1,0 +1,226 @@
+About Us | Pradhan Mantri Awaas Yojana - Gramin | Ministry of Rural Development, Government of India
+Skip to main content
+Open accessibility options
+Accessibility Options
+Speech
+Bigger
+Normal
+Spacing
+Normal
+Dyslexia
+Dark Mode
+Highlight Links
+Hide Images
+Cursor
+Invert Colors
+Reset
+GOVERNMENT OF INDIA
+Skip to main content
+Screen Reader Access
+Search this website
+Download PMAY-G Logo
+Share This Page
+Share via Device...
+Copy Page Link
+Official Channels
+Facebook
+(External link opens in new tab)
+Twitter
+(External link opens in new tab)
+YouTube
+(External link opens in new tab)
+Instagram
+(External link opens in new tab)
+Useful Links
+Event Calendar (External link opens in new tab)
+Press Release (External link opens in new tab)
+Advertisement (External link opens in new tab)
+Committees
+ग्रामीण विकास मंत्रालय, भारत सरकार
+प्रधान मंत्री आवास योजना-ग्रामीण
+Ministry of Rural Development, Government of India
+Pradhan Mantri Awaas Yojana-Gramin
+PMAY-G Navigation
+Home
+About Us
+Awaassoft
+Data Entry
+Report (opens in external tab)
+FTO Tracking (opens in external tab)
+Documents
+User Manual
+User Manual - Mobile Application (PDF, 2.4 MB)
+User Manual - PMAY-G Registration (PDF, 3.1 MB)
+User Manual - Analytics Dashboard (PDF, 1.8 MB)
+Studies
+NIPFP Phase-I (PDF, 1.2 MB)
+NIPFP Phase-II (PDF, 1.5 MB)
+NIPFP Phase-III (PDF, 2.1 MB)
+PMAY-G Research Report (NIRD&PR) (PDF, 4.3 MB)
+Guidelines
+PMAY-G Guidelines (English) (PDF, 5.2 MB)
+PMAY-G Guidelines (Hindi) (PDF, 5.8 MB)
+RHISS Guidelines (English) (PDF, 980 KB)
+RHISS Guidelines (Hindi) (PDF, 1.1 MB)
+Guidelines on Social Audit (PDF, 750 KB)
+Guidelines on RMT (PDF, 890 KB)
+Demonstration Houses Guidelines (PDF, 1.6 MB)
+Housing Typologies
+Pahal Volume I (PDF, 8.4 MB)
+Pahal Volume II (PDF, 9.1 MB)
+Stakeholders
+IAY/PMAYG Beneficiary (opens in external tab)
+SECC Family Member Details (opens in external tab)
+AwaasPlus Beneficiary Details (opens in external tab)
+AwaasPlus Family Member Details (opens in external tab)
+Gram Panchayat
+Block Panchayat
+DRDA / Zilla Parishad
+States
+State (SNO)
+Other State Logins
+Centre Login
+Success Stories
+Photo Gallery
+Video Gallery
+Gaon Vikas Ki Ore
+Contact Us
+Public Grievance (External link opens in new tab)
+Am I Eligible?
+AwaasPlus Survey
+NEW
+(opens in external tab)
+Home
+About Us
+About Pradhan Mantri Awaas Yojana - Gramin (PMAY-G)
+Pradhan Mantri Awaas Yojana - Gramin (PMAY-G) is the flagship rural housing programme implemented by the Ministry of Rural Development, Government of India, aimed at achieving the national commitment of providing "Housing for All" in rural India.
+Programme Background & Evolution
+1
+Public housing programmes in India began with the rehabilitation of displaced families following independence. In January 1996, rural housing was established as an independent flagship initiative named Indira Awaas Yojana (IAY) .
+In 2014, an audit by the Comptroller and Auditor General (CAG) identified key areas for improvement. These included assessing actual housing needs, ensuring open beneficiary selection, improving house quality, and combining benefits from other government welfare schemes.
+2
+To address these findings and deliver on the promise of "Housing for All", the scheme was restructured into Pradhan Mantri Awaas Yojana – Gramin (PMAY-G) on 1st April 2016, placing the citizen at the heart of programme delivery.
+Objectives & Financial Assistance
+3
+PMAY-G provides financial grants directly to rural homeless families and those living in kutcha dwellings to build a solid, disaster-resilient pucca house with essential civic amenities.
+Minimum House Size: 25 square metres, including a dedicated kitchen area.
+Financial Grant (Plain Areas): ₹ 1,20,000 per house, delivered directly via bank transfer.
+Financial Grant (Hilly & Difficult Areas): ₹ 1,30,000 per house in North Eastern, Himalayan States, and difficult districts.
+Unskilled Labour Support: Up to 95 person-days of daily wage employment under MGNREGS (approx. ₹ 20,000+ additional benefit).
+Sanitation Assistance: ₹ 12,000 for toilet construction in convergence with Swachh Bharat Mission-Gramin (SBM-G).
+Essential Amenities: Piped water (Jal Jeevan Mission), electricity (Saubhagya), and clean cooking gas (Ujjwala Yojana) provided alongside house completion.
+4
+Cost Sharing Pattern: The construction cost is jointly funded by Central and State Governments. In plain areas, the ratio is 60:40 (Centre:State). In North-Eastern and Himalayan States, it is 90:10 . For Union Territories without legislature, 100% is funded by the Central Government.
+Funds are credited directly to dedicated State bank accounts to ensure timely payment releases to registered beneficiaries at each construction milestone.
+Transparent Beneficiary Selection & Appeals
+5
+How Beneficiaries Are Chosen: Rather than arbitrary selection, eligible families are identified based on housing deprivation and kutcha home criteria from the official SECC 2011 and updated AwaasPlus surveys.
+Gram Sabha Scrutiny: Every draft list is read aloud and publicly validated at the local Gram Sabha village assembly. This ensures that no genuine family is left out and no ineligible family is included.
+How to Raise a Complaint or Appeal: Any citizen whose name is wrongfully excluded or who notices ineligible entries can submit an appeal to the Block Development Officer (BDO) or District Appellate Committee, or file a grievance online via the national CPGRAMS Public Grievance Portal .
+Core Values & Guiding Principles
+Transparency
+Public waitlists, objective SECC-based targeting, Gram Sabha verification, and publicly accessible real-time tracking prevent discretionary selection.
+Equity & Social Justice
+Unconditional priority to the most vulnerable: houseless households, SC/ST families, primitive tribal groups, and female-headed households.
+Financial Accountability
+Direct Benefit Transfer (DBT) directly into beneficiary bank accounts via PFMS, with geo-tagged verification eliminating middlemen and leakage.
+Construction Quality & Resilience
+Disaster-resilient house typologies tailored to local climates, backed by technical oversight and nationwide rural mason certification.
+Technical Oversight & e-Governance Architecture
+6
+National Technical Support Agency (NTSA): Provides technical oversight for construction standards. A pan-India Rural Mason Training and Certification programme ensures skilled masonry across all rural districts.
+7
+How Applications & Photos Are Tracked (AwaasSoft & AwaasApp): Every house is monitored through a digital workflow. Field functionaries use the AwaasApp mobile application to capture time-stamped, geo-tagged photographs at every construction stage (existing site, plinth, lintel, and completion).
+Direct Bank Payments: Once each photo milestone is approved, the AwaasSoft portal automatically generates a Fund Transfer Order (FTO) through the Public Financial Management System (PFMS), depositing instalment money straight into the beneficiary's Aadhaar-linked bank account without middlemen.
+8
+Institutional Credit & Community Monitoring: Beneficiaries can avail optional low-interest bank loans up to ₹ 70,000 for house enlargement. Continuous oversight is conducted through public online dashboards, community Social Audits, District DISHA monitoring committees, and National Level Monitors (NLM).
+Programme Leadership & Administration
+PMAY-G is guided by the executive leadership of the Ministry of Rural Development, Government of India, supported by national and state nodal officers:
+Ministry Leadership
+Shri Shivraj Singh Chouhan
+Hon'ble Union Minister of Rural Development (Overall Policy & Programme Direction)
+Shri Kamlesh Paswan & Dr. Chandra Sekhar Pemmasani
+Hon'ble Ministers of State for Rural Development
+Shri Shailesh Kumar Singh, IAS
+Secretary, Ministry of Rural Development (Administrative Head)
+Rural Housing Division
+Shri Piyush Srivastava
+Senior Economic Advisor (SEA), Programme Supervision & Policy
+Shri Raj Priy Singh
+Director (Rural Housing), Implementation & Monitoring
+National Informatics Centre (NIC)
+Technical Team, Software Architecture, AwaasSoft & AwaasApp
+Official Leadership Directory
+Citizen Journey: Verification to Outcome
+As the nationwide AwaasPlus and SECC household survey enumeration process has been concluded, citizens can directly verify eligibility, track registered application status in the Permanent Wait List (PWL), and monitor installment releases:
+1
+Check Eligibility Criteria
+Assess household eligibility based on AwaasPlus 2024 survey guidelines, revised exclusion norms, and kutcha housing deprivation parameters.
+Am I Eligible?
+2
+Track Application & Waitlist
+Check verification status and PWL waitlist inclusion in AwaasSoft using your registration details.
+Track Status
+3
+View Payment Outcome
+Track stage-wise house construction instalment disbursals and Fund Transfer Orders (FTO).
+FTO Tracking
+Home
+|
+About Us
+|
+Contact Us
+|
+Terms & Conditions
+|
+Privacy Policy
+|
+Hyperlinking Policy
+|
+Copyright Policy
+|
+Accessibility Statement
+|
+Disclaimer
+|
+Feedback
+|
+Frequently Used Services
+|
+Help
+|
+Sitemap
+© Content owned, updated and maintained by
+Ministry of Rural Development, Government of India
+Designed, developed and hosted by
+National Informatics Centre (NIC)
+Visitors:
+Loading...
+Last Updated:
+19-11-2026
+Citizen Helpdesk & Support:
+Toll-Free Helpline: 1800-11-6446 (Mon–Fri, 9:30 AM – 6:00 PM IST)
+Direct Phone: 011-23063284
+Email: support-pmayg@gov.in
+List of PMAY-G Most Frequently Used Services
+Quick links to high-frequency rural housing portal services
+S.No.
+Service Name
+1.
+Rural Housing FTO Tracking System
+(Opens in external window)
+2.
+Panchayat Wise Permanent Wait List
+(Opens in external window)
+3.
+Installment Details
+(Opens in external window)
+4.
+SECC Family Member Details
+(Opens in external window)
+5.
+Search IAY / PMAY-G Beneficiary Details
+(Opens in external window)
+6.
+Convergence Scheme Details
+(Opens in external window)

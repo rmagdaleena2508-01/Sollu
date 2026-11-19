@@ -1,0 +1,99 @@
+{
+  "id": "rt-senior-maintenance",
+  "type": "right",
+  "topic": "senior_maintenance",
+  "title_en": "Parents and senior citizens can ask their children for maintenance",
+  "law": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007, Section 5",
+  "rule_plain": "If a parent or senior citizen cannot look after themselves from their own income or property, they can ask their children or legal heirs for a monthly allowance. The Tribunal must decide within 90 days. The allowance can be up to Rs 10,000 a month. Leaving a senior citizen alone without care can mean three months in jail, a fine up to Rs 5,000, or both.",
+  "what_you_can_do": [
+    "Apply to the Maintenance Tribunal. In Tamil Nadu it is run by the Revenue Divisional Officer (RDO) in each sub-division.",
+    "The District Social Welfare Officer is the Maintenance Officer and can help you.",
+    "While the case goes on, the Tribunal can order your children to pay a monthly amount for now.",
+    "If you do not agree with the order, you can appeal to the Appellate Tribunal led by the District Collector.",
+    "Call the Senior Citizen Helpline 14567."
+  ],
+  "where_to_get_help": "Maintenance Tribunal (Revenue Divisional Officer), District Social Welfare Officer, Senior Citizen Helpline 14567.",
+  "sources": [
+    "rt-tn-mwpsc"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-tn-mwpsc",
+      "quote": "THE MAINTENANCE AND WELFARE OF PARENTS AND SENIOR CITIZENS ACT, 2007"
+    },
+    {
+      "field": "law",
+      "source": "rt-tn-mwpsc",
+      "quote": "make an application under Section 5 of the Act"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-mwpsc",
+      "quote": "A senior citizen or a parent who is unable to maintain himself from his own earnings or out of the property owned by him"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-mwpsc",
+      "quote": "to obtain maintenance amount from his children / legal heirs"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-mwpsc",
+      "quote": "shall be disposed off within 90 days"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-mwpsc",
+      "quote": "The maximum maintenance allowance shall not exceed Rs.10,000 per month."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-mwpsc",
+      "quote": "abandon the senior citizens, such persons shall be punished with imprisonment for three months or fined up to 5,000 or with both"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-mwpsc",
+      "quote": "a Tribunal presided over by the Revenue Divisional Officer has been constituted in each sub-division"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-mwpsc",
+      "quote": "The District Social Welfare Officers are acting as the Maintenance Officers"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-mwpsc",
+      "quote": "for the interim maintenance of the senior citizen"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-mwpsc",
+      "quote": "An Appellate Tribunal chaired by the District Collector"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-mwpsc",
+      "quote": "Senior Citizen Helpline Number 14567"
+    }
+  ],
+  "gaps": [
+    "The Act text could not be saved: indiacode.nic.in and legislative.gov.in did not respond. All facts come from the Tamil Nadu Social Welfare Department page.",
+    "Time limit for an appeal is not on the saved page."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Only the TN Social Welfare summary page was saved, not the Act text; the Rs 10,000 cap may change if the Act is amended.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

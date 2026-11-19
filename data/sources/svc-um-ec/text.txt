@@ -1,0 +1,279 @@
+Tamil Nadu e-District
+User Manual
+Issue of Encumbrance Certificate
+                                                                                                                             Tamil Nadu e-District User Manual
+
+
+                                                                         Table of Content
+
+
+
+
+1.     Project Overview ................................................................................................................................................. 3
+
+2.     General Information........................................................................................................................................... 3
+
+     2.1.     Tools Required ............................................................................................................................................ 3
+
+     2.2.     Starting your Computer .............................................................................................................................. 3
+
+3.     Purpose ............................................................................................................................................................... 4
+
+4.     Scope ................................................................................................................................................................... 4
+
+5.     Getting Started.................................................................................................................................................... 4
+
+6.     The Objective of E-district Tamil Nadu ............................................................................................................. 5
+
+7.     IGR-Issue of Encumbrance Certificate .............................................................................................................. 5
+
+     7.1.     Operator Login ............................................................................................................................................ 6
+
+8.     Disclaimer ......................................................................................................................................................... 10
+
+
+
+
+                                               © 2018. Government of Tamil Nadu. All rights reserved.
+                                                                                  Tamil Nadu e-District User Manual
+
+
+
+
+                                E-DISTRICT TAMIL NADU USER MANUAL
+
+                                        (Government of Tamil Nadu)
+
+1. Project Overview
+   TNeDistricts are the de facto front-end of government where most Government-to-Consumer or G2C
+interaction takes place. The e-District project was conceptualized to improve this experience and enhance the
+efficiencies of the various Departments at the district-level to enable seamless service delivery to the citizen.
+
+Front-ends under the scheme, in the form of citizen facilitation centers, are envisioned to be built at District,
+Taluk, and Sub-division and Block levels. Indicative services planned to be delivered through this MMP
+include:
+
+Certificates: Creation and distribution of certificates for income, nativity, community, domicile, caste, Birth,
+Death etc.
+
+Linking with other e government projects: Birth Certificate COC, Death Certificate COC etc.
+
+Information Dissemination: About government schemes, entitlements, etc.
+
+Assessment of taxes: Property tax, and other government taxes.
+
+Utility Payment: Payments relating to electricity, water bills property taxes etc.
+
+2. General Information
+
+
+Let’s Start!!
+
+    2.1. Tools Required
+
+You will be provided with the following basic infrastructure:
+ Computer                           (CPU, Monitor, Keyboard & Mouse)
+ Network Connection                 (as per requirement)
+ Peripherals                                (as per requirement)
+ Browser                            (Google chrome, Version 37)
+ Uninterrupted Power Supply         (UPS)
+
+
+    2.2. Starting your Computer
+
+Steps
+1. Ensure all cables are connected between the computer, network connection, peripherals & UPS
+2. Plug the UPS to the electrical socket
+3. Switch ‘ON’ the electrical socket
+4. Switch ‘ON’ the UPS
+
+                               © 2018. Government of Tamil Nadu. All rights reserved.
+                                                                                Tamil Nadu e-District User Manual
+5. Press the     (power button) on the computer
+6. Allow the system to boot up
+
+
+             1. Switch ‘ON’ the UPS only after you have switched ‘ON’ the power socket
+             2. Switch ‘ON’ the computer only after you have switched ‘’ON’ the UPS
+             3. Switch ‘OFF’ the power socket in there is an electrical spark in the socket
+             4. Do not start the computer in case the UPS is not fully charged
+             5. Do not start the computer in case any of the wires are in contact with water sources /
+                moisture
+             6. In case you are not sure whether the computer is connected in the right way – please
+                contact the system engineer
+
+
+3. Purpose
+The purpose of this User Manual is to help user in running E-District application. The manual consist of steps
+used for registering service request and processing of application request at different levels using e- district
+Application.
+
+4. Scope
+The scope of this document is to provide Support and Guidance to End Users to access the e-district
+application.
+
+5. Getting Started
+Following points and guidelines may be referred while accessing the e-district application:
+     User must have valid username and password
+      Make relevant and correct entries only
+      Recheck the entries before clicking on Submit button
+      Mandatory fields cannot be left blank
+      Mandatory/Optional documents should be attached as per requirement
+      Do not make false entries
+
+
+   To launch E district - ONLINE
+
+       a. Double click on the      to open the browser
+               i. The browser will be open with default page or blank page
+              ii. Enter the URL and press enter button on keyboard
+   User starts with the given steps after opening the internet explorer
+
+
+STEP 1: Open the Tamil Nadu e-District website by typing the below given URL in address bar of browser
+
+       URL: https://tnesevai.tn.gov.in/Default.aspx
+
+STEP 2: Below Screen will display.
+                              © 2018. Government of Tamil Nadu. All rights reserved.
+                                                                                Tamil Nadu e-District User Manual
+
+
+
+
+6. The Objective of E-district Tamil Nadu
+   E-District Tamil Nadu application will allow citizen to apply, pay, track and receive on-line various services
+   as stated below from stipulated Government authorized named LMK/Department centres or Government
+   offices/counters:
+1. Issuance of Birth Certificates COC
+2. Issuance of Death Certificate COC
+3. Agriculture Income Certificate
+4. Unemployment Certificate
+5. Widow Certificate
+6. Family Migration Certificate
+7. Electricity Bill Payment Service etc..
+
+7. IGR-Issue of Encumbrance Certificate
+   STEP 1: Open the e-District Government of Tamil Nadu link.
+   STEP 2: Operator Login Page display like this.
+   STEP 3: Enter the Correct login credentials.
+   STEP 4: Click on Login.
+
+
+
+
+                              © 2018. Government of Tamil Nadu. All rights reserved.
+                                                                                 Tamil Nadu e-District User Manual
+    7.1. Operator Login
+
+
+
+
+                                                                       Click on Login
+
+
+
+
+   STEP 5: Click on Services.
+   STEP 6: Click on Inspectorate General of Registration department.
+
+
+
+
+        Click on
+        Services
+
+
+
+
+                                               Click on IGR
+                                               Department
+
+
+
+STEP 7: Click on “Issue of Encumbrance Certificate”...
+
+
+                             © 2018. Government of Tamil Nadu. All rights reserved.
+                                                                                Tamil Nadu e-District User Manual
+
+
+
+
+                                                        Click on Issue of
+                                                    Encumbrance Certificate.
+
+
+
+
+After clicking on the Issue of Encumbrance Certificate it will redirect to the Search EC details page like below
+screen. Need to fill the below mandatory input fields Zone, District, Sub Register Office, EC Start Date, EC End
+date.
+
+
+
+
+Under Survey Details – Village Name, Survey Number and Sub Division Number shall be added multiple times
+after clicking on Add button. If any details are found be incorrect there is option to either “Edit” or “Delete”
+
+
+
+
+House details, Boundary details, Extent and Build up area and Additional Details are optional to fill.
+
+
+
+
+                              © 2018. Government of Tamil Nadu. All rights reserved.
+                                                                               Tamil Nadu e-District User Manual
+
+
+
+
+Provide Name, Identification Type, Email ID and Mobile number as mandatory from as below.
+
+
+
+
+After filling all mandatory fields, finally click on “Submit” button. Department amount, Service Charges will
+be shown and same will be deducted from operator wallet.
+
+
+
+
+                             © 2018. Government of Tamil Nadu. All rights reserved.
+                                                                                Tamil Nadu e-District User Manual
+
+
+
+
+After submitting the request, if transaction is confirmed success message will be received with “Print Receipt”
+button to download the receipt.
+
+
+
+
+                              © 2018. Government of Tamil Nadu. All rights reserved.
+                                                                                Tamil Nadu e-District User Manual
+To process the payment the user need to click the “Submit” button.
+
+On completion of successful payment click <Print Receipt>, receipt will download in PDF format.
+
+Receipt Format.
+
+
+
+
+User can have printout of this PDF receipt.
+
+
+8. Disclaimer
+
+
+User manual is prepared as per the existing application; however actual screen shots may vary for few cases
+
+
+
+
+                              © 2018. Government of Tamil Nadu. All rights reserved.
+

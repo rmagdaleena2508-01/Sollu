@@ -1,0 +1,161 @@
+{
+  "id": "agri-kisan-credit-card",
+  "type": "scheme",
+  "name_en": "Kisan Credit Card",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Agriculture and Farmers Welfare, Government of India",
+  "audiences": [
+    "farmers",
+    "fishermen"
+  ],
+  "benefit": "You get a bank loan card for farming costs, post-harvest costs, home needs and farm upkeep. The Government of India gives 2% interest help and 3% more if you repay on time. So the loan can cost you only 4% a year. The card is valid for 5 years. Up to Rs 1.60 lakh, the crop itself is the security.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 75,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "farmer",
+      "tenant farmer",
+      "sharecropper"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "Owner farmers, alone or jointly, can apply.",
+      "Tenant farmers, oral lessees and sharecroppers can apply.",
+      "Self Help Groups or Joint Liability Groups of farmers can apply.",
+      "If you are a senior citizen, you need a co-borrower who is your legal heir."
+    ]
+  },
+  "documents": [
+    "Application form",
+    "Two passport size photos",
+    "ID proof (driving licence, Aadhaar, voter ID or passport)",
+    "Address proof (driving licence or Aadhaar)",
+    "Land proof certified by revenue officers",
+    "Crops grown and area",
+    "Security papers for loans above Rs 1.60 lakh or Rs 3 lakh"
+  ],
+  "how_to_apply": "Go to the website of the bank you choose. Pick Kisan Credit Card and click Apply. Fill the form and submit. You get a reference number. If you are eligible, the bank will contact you in 3 to 4 working days.",
+  "where_to_apply": "Your bank (online on the bank's website)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-ms-kcc"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-ms-kcc",
+      "quote": "The Government of India provides interest subvention of 2% and Prompt Repayment Incentive of 3% to the farmers, thus making the credit available at a very subsidized rate of 4% per annum."
+    },
+    {
+      "field": "benefit",
+      "source": "agri-ms-kcc",
+      "quote": "Post-harvest expenses;"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-ms-kcc",
+      "quote": "Consumption requirements of farmer household;"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-ms-kcc",
+      "quote": "This validity period is 5 years."
+    },
+    {
+      "field": "benefit",
+      "source": "agri-ms-kcc",
+      "quote": "For limits upto Rs.1.60 lakh & limts up to Rs.3 lakh (in case of tie up), security is the hypothecation of crops."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "agri-ms-kcc",
+      "quote": "You should me a minimum of 18 years of age and be a maximum age of 75 years."
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "agri-ms-kcc",
+      "quote": "be a maximum age of 75 years"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-ms-kcc",
+      "quote": "Tenant farmers, oral lessees & share croppers;"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-ms-kcc",
+      "quote": "Farmers - individual/joint borrowers who are owner cultivators;"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-ms-kcc",
+      "quote": "Self Help Groups (SHGs) or Joint Liability Groups (JLGs) of farmers including tenant farmers, share croppers etc"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-ms-kcc",
+      "quote": "If you are a senior citizen, then it is mandatory to have a co-borrower who is a legal heir."
+    },
+    {
+      "field": "documents",
+      "source": "agri-ms-kcc",
+      "quote": "Two Passport Size Photographs."
+    },
+    {
+      "field": "documents",
+      "source": "agri-ms-kcc",
+      "quote": "ID proof such as Driving License / Aadhar Card / Voter Identity Card / Passport."
+    },
+    {
+      "field": "documents",
+      "source": "agri-ms-kcc",
+      "quote": "Proof of landholding duly certified by the revenue authorities."
+    },
+    {
+      "field": "documents",
+      "source": "agri-ms-kcc",
+      "quote": "Cropping pattern (Crops grown) with acreage."
+    },
+    {
+      "field": "documents",
+      "source": "agri-ms-kcc",
+      "quote": "Security documents for loan limit above Rs.1.60 lakhs / Rs.3.00 lakhs, as applicable."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-ms-kcc",
+      "quote": "Visit the website of the bank you wish to apply for the kisan credit card scheme."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-ms-kcc",
+      "quote": "If you are eligible, the bank will get back to you for the further process within 3-4 working days."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-ms-kcc",
+      "quote": "Visit the website of the bank you wish to apply"
+    }
+  ],
+  "gaps": [
+    "The myScheme page cites a 2012 circular; limits (Rs 1.60 lakh, Rs 3 lakh) may have been raised since.",
+    "No helpline on the page."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The page relies on 2012 rules, so the loan and security limits may be out of date.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

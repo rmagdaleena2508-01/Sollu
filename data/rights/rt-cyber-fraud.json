@@ -1,0 +1,106 @@
+{
+  "id": "rt-cyber-fraud",
+  "type": "right",
+  "topic": "cyber_crime",
+  "title_en": "Report online money fraud fast on 1930",
+  "law": "National Cyber Crime Reporting Portal and Helpline 1930, Ministry of Home Affairs (I4C)",
+  "rule_plain": "If you lose money to an online fraud, call 1930 at once. It is a free national helpline that works 24 hours a day, every day. Quick reporting helps stop the money from reaching the fraudster. You can also report any cyber crime on cybercrime.gov.in.",
+  "what_you_can_do": [
+    "Call 1930 as soon as you see the fraud.",
+    "Report the crime on www.cybercrime.gov.in (Report Cyber Crime, then Register a Complaint).",
+    "You can also report online harassment and identity theft there. Your State police will act on it.",
+    "Track your complaint on the same portal."
+  ],
+  "where_to_get_help": "Helpline 1930; portal www.cybercrime.gov.in.",
+  "sources": [
+    "rt-cyber-home",
+    "rt-cyber-pib2",
+    "rt-i4c-home"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-cyber-home",
+      "quote": "National Cyber Crime Reporting Portal"
+    },
+    {
+      "field": "law",
+      "source": "rt-cyber-home",
+      "quote": "Government of India Ministry of Home Affairs"
+    },
+    {
+      "field": "law",
+      "source": "rt-cyber-pib2",
+      "quote": "A toll-free National Cyber Crime Helpline Number (1930)"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cyber-home",
+      "quote": "Any victim of financial cyber fraud can dial helpline number 1930"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cyber-pib2",
+      "quote": "This helpline operates 24X7X365"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cyber-pib2",
+      "quote": "for immediate reporting of financial frauds and to stop siphoning off funds by the fraudsters"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-cyber-pib2",
+      "quote": "to enable public to report incidents pertaining to all types of cyber-crimes"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cyber-home",
+      "quote": "Any victim of financial cyber fraud can dial helpline number 1930"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cyber-home",
+      "quote": "Register a Complaint"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cyber-home",
+      "quote": "Track Your Complaint"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-i4c-home",
+      "quote": "Report a Cybercrime on www.cybercrime.gov.in"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cyber-pib2",
+      "quote": "online harassment, identity theft, or financial fraud"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-cyber-pib2",
+      "quote": "handled by the LEAs of State/UT concerned"
+    }
+  ],
+  "gaps": [
+    "No single Act is cited; this is a government service run by the Ministry of Home Affairs.",
+    "The portal's instructions PDF could not be saved (blocked), so details such as finishing the complaint within 24 hours after calling 1930 are left out.",
+    "No Tamil Nadu cyber crime police contact is in the saved pages."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Portal page updated 19-11-2026 and a PIB note agree on 1930.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

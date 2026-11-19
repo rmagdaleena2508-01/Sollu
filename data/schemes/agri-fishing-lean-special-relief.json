@@ -1,0 +1,110 @@
+{
+  "id": "agri-fishing-lean-special-relief",
+  "type": "scheme",
+  "name_en": "Special Relief Assistance to Marine Fishermen Families during Fishing Lean Period",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department of Fisheries and Fishermen Welfare, Government of Tamil Nadu",
+  "audiences": [
+    "fishermen",
+    "families"
+  ],
+  "benefit": "Your marine fishing family gets Rs 6,000 as special relief during the lean fishing period.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "marine fisherman"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a member of a Fishermen Co-operative Society or the Tamil Nadu Fishermen Welfare Board.",
+      "You must work full time in fishing or fishing-related work.",
+      "You must have a valid ration card.",
+      "If you or your family members have a regular job or other income, you cannot get this."
+    ]
+  },
+  "documents": [
+    "Application form",
+    "Family ration card copy",
+    "Fishermen biometric ID card copy",
+    "Co-operative Society membership proof or Fishermen Welfare Board card copy",
+    "Bank passbook first page copy (with photo)",
+    "Aadhaar card copy",
+    "Copy of enrolment through the e-Sevai centre"
+  ],
+  "how_to_apply": "Fill the application form. Attach your papers. You need to enrol through an e-Sevai centre.",
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-fish-special"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-fish-special",
+      "quote": "An amount of Rs.6,000/- is being given to Marine fishermen family as special relief assistance during the fishing lean period."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-fish-special",
+      "quote": "Special Relief Assistance to Marine Fishermen Families during Fishing Lean Period"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-special",
+      "quote": "member of Fishermen Cooperative Society / Tamil Nadu Fishermen Welfare board and engaged in full-time fishing / allied fishing activities"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-special",
+      "quote": "The beneficiary should possess a valid ration card."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-special",
+      "quote": "having regular employment or indulging in any other income-generating activity shall not qualify under this scheme"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-special",
+      "quote": "Copy of Fishermen Bio metric identity card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-special",
+      "quote": "Proof for membership in Fishermen Cooperative Society / Copy of the Fishermen Welfare Board membership card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-special",
+      "quote": "Copy of Aadhaar card"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-fish-special",
+      "quote": "Copy of enrolment through the e-seva center"
+    }
+  ],
+  "gaps": [
+    "The page does not say which months are the lean period or which office takes the form.",
+    "No helpline or G.O. number on the page.",
+    "The page has no date."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The official page has no date, so the amount may have changed.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

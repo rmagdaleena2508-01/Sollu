@@ -1,0 +1,140 @@
+{
+  "id": "agri-fishermen-savings-relief",
+  "type": "scheme",
+  "name_en": "Fishermen Savings-cum-Relief Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department of Fisheries and Fishermen Welfare, Government of Tamil Nadu",
+  "audiences": [
+    "fishermen"
+  ],
+  "benefit": "You save Rs 1,500: Rs 175 a month for 8 months and Rs 100 in the 9th month. The State Government adds Rs 3,000. You get Rs 4,500 in total during the 3 lean fishing months.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 60,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "fisherman"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must fish full time.",
+      "You must be a member of a Fishermen Co-operative Society.",
+      "You must be Below Poverty Line (BPL).",
+      "If you or your family members have a regular job or other income, you cannot get this."
+    ]
+  },
+  "documents": [
+    "Application form",
+    "Fishermen biometric ID card copy",
+    "Bank passbook first page copy (with photo)",
+    "Fishermen Co-operative Society membership certificate",
+    "BPL certificate copy",
+    "Aadhaar card copy",
+    "Smart ration card copy",
+    "Copy of enrolment through the e-Sevai centre"
+  ],
+  "how_to_apply": "Fill the application form. Attach your papers. You need to enrol through an e-Sevai centre.",
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-fish-nfsrs"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-fish-nfsrs",
+      "quote": "The beneficiary has to contribute Rs. 1,500/- @ Rs. 175/- per month for the first eight months and Rs.100/- on the ninth month."
+    },
+    {
+      "field": "benefit",
+      "source": "agri-fish-nfsrs",
+      "quote": "An amount of Rs.3,000/- will be borne by State Government."
+    },
+    {
+      "field": "benefit",
+      "source": "agri-fish-nfsrs",
+      "quote": "The total amount of Rs.4,500/- will be disbursed during the three months of fishing lean period."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "agri-fish-nfsrs",
+      "quote": "within the age group of 18 to 60 years, member of Fishermen Cooperative Society and engaged in full-time fishing"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "agri-fish-nfsrs",
+      "quote": "within the age group of 18 to 60 years"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-fish-nfsrs",
+      "quote": "engaged in full-time fishing"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-nfsrs",
+      "quote": "The beneficiary should be Below Poverty Line (BPL)."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-nfsrs",
+      "quote": "The beneficiary should be a member of Fishermen Co-operative Society"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-nfsrs",
+      "quote": "having regular employment or indulging in any other income generating activity shallnot qualify"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-nfsrs",
+      "quote": "Copy of fishermen Bio metric identity card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-nfsrs",
+      "quote": "Copy of BPL certificate."
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-nfsrs",
+      "quote": "Copy of Smart Ration card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-nfsrs",
+      "quote": "Copy of Aadhaar card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-nfsrs",
+      "quote": "Certificate for membership in Fishermen Cooperative Society"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-fish-nfsrs",
+      "quote": "Copy of enrolment through the e-seva center"
+    }
+  ],
+  "gaps": [
+    "The page does not say which months are the lean months or which office takes the form.",
+    "No helpline or G.O. number on the page.",
+    "The page has no date."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The official page has no date, so the amounts may have changed.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

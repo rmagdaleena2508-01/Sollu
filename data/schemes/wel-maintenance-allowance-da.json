@@ -1,0 +1,124 @@
+{
+  "id": "wel-maintenance-allowance-da",
+  "type": "scheme",
+  "name_en": "Maintenance Allowance for Differently Abled Persons",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu",
+  "audiences": [
+    "disabled"
+  ],
+  "benefit": "You get Rs 1,500 every month. The money goes straight into your bank account from the Treasury. It is for four groups: people with intellectual disability, people with severe disability, people with muscular dystrophy, and people affected by leprosy.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Intellectual disability: 40% disability or more.",
+      "Severe disability: more than 75% disability, and no other scheme can help you.",
+      "Muscular dystrophy: 40% disability or more.",
+      "Leprosy: 40% deformity or more, and you live in a Government Rehabilitation Home."
+    ]
+  },
+  "documents": [
+    "National identity card for differently abled persons",
+    "Family card (ration card)",
+    "Bank account details",
+    "For leprosy: a doctor's certificate that surgery or other treatment cannot cure you"
+  ],
+  "how_to_apply": "Get the form from the District Differently Abled Welfare Officer. Fill it and give it back with your papers.",
+  "where_to_apply": "District Differently Abled Welfare Office in your district",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "wel-scd-maint"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-scd-maint",
+      "quote": "Maintenance allowance is given at the rate of Rs.1,500/- per month to the intellectually disabled persons with 40 percentage of disability and above."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-maint",
+      "quote": "The allowance is sent through “ECS” to bank account of individual directly from Treasury."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-maint",
+      "quote": "Maintenance allowance is given at the rate of Rs.1,500/- per month to the severely affected persons"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-maint",
+      "quote": "Maintenance allowance is given at the rate of Rs.1,500/- per month to the person affected with muscular dystrophy."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-maint",
+      "quote": "Maintenance allowance is given at the rate of Rs. 1,500/- per month to leprosy affected persons."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-maint",
+      "quote": "The percentage of disability should be more than 75%. Locomotor disabled persons who cannot be rehabilitated through any other scheme."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-maint",
+      "quote": "Persons should be affected with muscular dystrophy and percentage of disability 40% and above."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-maint",
+      "quote": "Leprosy affected with deformity of 40% and above."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-maint",
+      "quote": "The inmates accommodated in the Government Rehabilitation Homes are eligible to receive this allowance"
+    },
+    {
+      "field": "documents",
+      "source": "wel-scd-maint",
+      "quote": "National identity card for differently abled, Family card and Bank account details."
+    },
+    {
+      "field": "documents",
+      "source": "wel-scd-maint",
+      "quote": "A certificate from doctor stating that the applicant is not curable by surgical/other means"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-scd-maint",
+      "quote": "Prescribed format is available with District Differently Abled Welfare Officer."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-scd-maint",
+      "quote": "Officer to whom the application is to be submitted\nDistrict Differently Abled Welfare Officer"
+    }
+  ],
+  "gaps": [
+    "No age limit or income limit is given on the page.",
+    "No helpline or G.O. number on the page.",
+    "The page has no date, so the Rs 1,500 amount may have been raised since."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The official page has no date and the Rs 1,500 amount may have been raised; check before quoting the amount.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

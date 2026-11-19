@@ -1,0 +1,120 @@
+{
+  "id": "kid-sukanya-samriddhi",
+  "type": "scheme",
+  "name_en": "Sukanya Samriddhi Account",
+  "name_ta": null,
+  "level": "central",
+  "department": "National Savings Institute, Ministry of Finance, Government of India",
+  "audiences": [
+    "children",
+    "families"
+  ],
+  "benefit": "A savings account for your daughter. You can put in Rs 250 to Rs 1.5 lakh each year. The account matures after 21 years. The interest is free from income tax, and what you put in can be cut from your taxable income under Section 80-C.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": 10,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "The account is opened in the name of a girl child, before she turns 10.",
+      "Only one account for each girl.",
+      "She can take money out for higher studies, or close it early when she marries after age 18."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "Go to a post office or an authorised bank and open the account in your daughter's name.",
+  "where_to_apply": "Post offices and authorised banks. The account can be moved to any post office or bank in India.",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "kid-ssy-nsi"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "kid-ssy-nsi",
+      "quote": "National Savings Institute, Ministry of Finance (DEA) Govt. of India"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-ssy-nsi",
+      "quote": "Minimum deposit ₹ 250/- Maximum deposit ₹ 1.5 Lakh in a financial year."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-ssy-nsi",
+      "quote": "The account shall mature on completion of a period of 21 years from the date of opening of account."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-ssy-nsi",
+      "quote": "Deposit qualifies for deduction under Sec.80-C of I.T.Act."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-ssy-nsi",
+      "quote": "Interest earned in the account is free from Income Tax"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "kid-ssy-nsi",
+      "quote": "Account can be opened in the name of a girl child till she attains the age of 10 years."
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "kid-ssy-nsi",
+      "quote": "in the name of a girl child"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-ssy-nsi",
+      "quote": "Only one account can be opened in the name of a girl child."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-ssy-nsi",
+      "quote": "Withdrawal shall be allowed for the purpose of higher education of the Account holder"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-ssy-nsi",
+      "quote": "The account can be prematurely closed in case of marriage of girl child after her attaining the age of 18 years."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-ssy-nsi",
+      "quote": "Account can be opened in Post offices and in authorised banks."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-ssy-nsi",
+      "quote": "Account can be opened in Post offices and in authorised banks."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-ssy-nsi",
+      "quote": "The account can be transferred anywhere in India from one Post office/Bank to another."
+    }
+  ],
+  "gaps": [
+    "The page does not give the current interest rate (it is set by the government and changes).",
+    "The page does not list documents needed to open the account.",
+    "No helpline on the page.",
+    "The India Post scheme page could not be saved (it redirects to the home page)."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The National Savings Institute page has no recent date and gives no interest rate, so check the current rate at the post office.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

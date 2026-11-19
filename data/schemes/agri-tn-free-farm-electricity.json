@@ -1,0 +1,66 @@
+{
+  "id": "agri-tn-free-farm-electricity",
+  "type": "scheme",
+  "name_en": "Free electricity for agricultural service connections",
+  "name_ta": null,
+  "level": "state",
+  "department": "Energy Department, Government of Tamil Nadu (TANGEDCO / TNPDCL)",
+  "audiences": [
+    "farmers"
+  ],
+  "benefit": "Farm pump set connections in Tamil Nadu get electricity free. The Tamil Nadu Government pays the power company for it. Under KAVIADP Scheme-II, SC/ST farmers get new farm connections with free electricity charges.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "farmer"
+    ],
+    "community": null,
+    "district": "all",
+    "other": []
+  },
+  "documents": [],
+  "how_to_apply": null,
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-energy-pn-2024"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-energy-pn-2024",
+      "quote": "subsidy to all agricultural free service connections as fixed by the Hon'ble Tamil Nadu Electricity Regulatory Commission"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-energy-pn-2024",
+      "quote": "individual SC/ST Farmers with free electricity charges"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-energy-pn-2024",
+      "quote": "subsidy to all agricultural free service connections"
+    }
+  ],
+  "gaps": [
+    "The policy note does not say how to apply for a new farm connection or what papers you need.",
+    "No helpline in the source.",
+    "The source is the 2024-25 Energy policy note; the 2025-26 note does not repeat the word 'free'."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Only a 2024-25 policy note confirms free farm power, and it gives no steps to apply.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

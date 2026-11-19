@@ -1,0 +1,92 @@
+{
+  "id": "agri-soil-health-card",
+  "type": "scheme",
+  "name_en": "Soil Health Card",
+  "name_ta": null,
+  "level": "central",
+  "department": "Department of Agriculture and Farmers Welfare, Government of India (run in Tamil Nadu by the Agriculture - Farmers Welfare Department)",
+  "audiences": [
+    "farmers"
+  ],
+  "benefit": "Your farm soil is tested and you get a Soil Health Card. In Tamil Nadu, the soil test for the card costs a subsidised Rs 110.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "farmer"
+    ],
+    "community": null,
+    "district": "all",
+    "other": []
+  },
+  "documents": [],
+  "how_to_apply": "You can ask for a Soil Health Card on the national Soil Health Card portal. It also shows the nearest soil testing lab.",
+  "where_to_apply": "Village level: Assistant Agricultural Officer or Assistant Horticultural Officer. Block level: Deputy Agricultural Officer or Agricultural Officer.",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-cc-agri-2026",
+    "agri-shc-home"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "5) Soil Health Card"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "Support for Soil Testing is"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "of Rs.110/- for Soil Health"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-shc-home",
+      "quote": "Empowering Farmers with Soil Insights for Sustainable Growth"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-shc-home",
+      "quote": "Get Soil Health Card Find Nearest Soil Testing Lab"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "Village Level"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "Assistant Agricultural"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "Block Level"
+    }
+  ],
+  "gaps": [
+    "The sources do not list documents needed.",
+    "The Tamil Nadu charter text is in columns, so the officer list is pieced together from the same table; check before quoting exact titles.",
+    "No helpline beyond the portal's issue-report number."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The Rs 110 rate is from the 2026-27 charter, but the officer list comes from a multi-column table that is hard to read.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

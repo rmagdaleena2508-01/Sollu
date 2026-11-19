@@ -1,0 +1,79 @@
+{
+  "id": "wel-transgender-pension",
+  "type": "scheme",
+  "name_en": "Pension Scheme for Transgenders (Tamil Nadu Transgender Welfare Board)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+  "audiences": [
+    "transgender"
+  ],
+  "benefit": "If you are a destitute transgender person above 40, you get a monthly pension. The page says Rs 1,000 a month. The Transgender Welfare Board also helps with ID cards, ration cards, house pattas, free sewing machines, higher education help, free skill training, free travel in ordinary city buses, and a grant of up to Rs 50,000 to start a small business.",
+  "eligibility": {
+    "age_min": 40,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a transgender person.",
+      "You must be destitute (no one to support you)."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Register your details on the \"Thirunangaial\" mobile app to get your transgender ID card. The page does not explain how to apply for the pension.",
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "wel-tg-pension",
+    "wel-tg-board"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-tg-pension",
+      "quote": "a Pension scheme for destitute Transgenders who are above 40 years has been implemented in Tamil Nadu wherein Rs.1,000 is paid as monthly pension."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-tg-board",
+      "quote": "Identity Cards, Ration Cards, House Pattas, residential Homes, Free Sewing Machines, Higher Education assistance, Self Help Groups, free bus travel in Ordinary fare city buses, free skill trainings, Grant upto Rs.50,000/- for income generating activities."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "wel-tg-pension",
+      "quote": "destitute Transgenders who are above 40 years"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-tg-pension",
+      "quote": "Pension scheme for destitute Transgenders"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-tg-board",
+      "quote": "Exclusive Mobile App, “Thirunangaial” has been developed to enable transgender to register their details and easily avail Identity Card."
+    }
+  ],
+  "gaps": [
+    "The page does not say how or where to apply for the pension.",
+    "No papers, helpline or G.O. number on the page.",
+    "The page says Rs 1,000 a month; this may be old. The Revenue Administration pension table does not list this pension, so the current amount is not confirmed.",
+    "The page says above 40 years; age_min is set to 40 as the nearest value."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The Rs 1,000 amount looks old and could not be confirmed on a second official page; say the amount may have changed.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

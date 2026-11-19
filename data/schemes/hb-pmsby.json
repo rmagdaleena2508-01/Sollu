@@ -1,0 +1,102 @@
+{
+  "id": "hb-pmsby",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Department of Financial Services, Ministry of Finance, Government of India",
+  "audiences": [
+    "everyone"
+  ],
+  "benefit": "Accident insurance. If you die in an accident, your family gets Rs 2,00,000. If you lose both eyes, both hands or feet, or one eye and one hand or foot, you get Rs 2,00,000. If you lose one eye or one hand or foot, you get Rs 1,00,000. You pay Rs 20 a year from your bank or post office account.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 70,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must have a savings account in a bank or post office that takes part.",
+      "You can join through one account only."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "Fill the form at your bank or post office and agree to auto-debit of Rs 20 each year. The cover runs from 1 June to 31 May.",
+  "where_to_apply": "Your bank or post office",
+  "helpline": "1800-180-1111 or 1800-110-001 (national toll free)",
+  "go_number": null,
+  "sources": [
+    "hb-pmsby-rules",
+    "hb-jansuraksha-rules"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-pmsby-rules",
+      "quote": "Premium: Rs. 20/- per annum per member."
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmsby-rules",
+      "quote": "Death Rs. 2 Lakh"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmsby-rules",
+      "quote": "loss of sight of one eye or loss of Rs. 1 Lakh"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "hb-pmsby-rules",
+      "quote": "aged between 18 years (completed) and 70 years (age nearer birthday)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmsby-rules",
+      "quote": "eligible to join the scheme through one bank / Post office account only"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmsby-rules",
+      "quote": "option to join / pay by auto-debit from the designated bank/ Post office account on the prescribed forms"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmsby-rules",
+      "quote": "one-year period stretching from 1st June to 31st May"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "hb-pmsby-rules",
+      "quote": "All individual bank/ Post office account holders in the age group of 18 to 70 years in participating banks/ Post office"
+    },
+    {
+      "field": "helpline",
+      "source": "hb-jansuraksha-rules",
+      "quote": "National Toll-Free - 1800-180-1111 / 1800-110-001"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "hb-pmsby-rules",
+      "quote": "aged between 18 years (completed) and 70 years (age nearer birthday)"
+    }
+  ],
+  "gaps": [
+    "The rules do not list papers; the bank keeps your enrolment form.",
+    "Rules are from 1 June 2022 and say the premium is reviewed each year."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Rules are dated 1 June 2022 and say the premium is reviewed each year, so Rs 20 may have changed.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

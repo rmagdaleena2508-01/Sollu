@@ -22,12 +22,36 @@ const OCCUPATION_AUDIENCE: Partial<Record<Occupation, string>> = {
 const ONLY_IF: Record<string, Occupation> = {
   'sw-maternity-benefit': 'mother',
   'sw-widow-pension': 'widow',
+  'kid-pmmvy': 'mother',
+  'kid-icds-nutrition': 'mother',
 };
+
+/**
+ * Schemes the 5 questions can't decide, because they hinge on something we don't ask: being deserted or
+ * unmarried, having a girl child, being a street vendor, artisan, fisherwoman or someone starting a business,
+ * or being below the poverty line. Without this they would show as "may fit" for every woman or worker.
+ * Sollu still explains them on the Ask page.
+ */
+const ASK_ONLY = new Set([
+  'kid-girl-child-protection',
+  'wel-deserted-wives-pension',
+  'wel-unmarried-women-pension',
+  'wel-sakhi-one-stop-centre',
+  'wel-working-women-hostels',
+  'agri-fisherwomen-savings-relief',
+  'hb-pmuy',
+  'job-stand-up-india',
+  'job-pm-svanidhi',
+  'job-pm-vishwakarma',
+  'job-pm-mudra',
+  'job-pmegp',
+  'job-uyegp',
+]);
 
 /** Groups that come from what the person does. "women" and "seniors" come from gender and age. */
 const SPECIFIC = new Set(['school_students', 'college_students', 'farmers', 'workers']);
 
-const schemes = entries.filter((e): e is Scheme => e.type === 'scheme');
+const schemes = entries.filter((e): e is Scheme => e.type === 'scheme' && !ASK_ONLY.has(e.id));
 
 /** How many of our rules a scheme has (age, income, community, gender, a picked situation). */
 const strength = new Map(
