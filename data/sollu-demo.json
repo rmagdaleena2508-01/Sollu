@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-19T17:44:50+00:00",
+  "built_at": "2026-11-19T17:49:37+00:00",
   "note": "Only entries whose every quote matched an official saved source and that a reviewer did not hold back. Entries marked review.demo_use = 'caution' must be spoken with their note in mind.",
   "held_back": [
     "stu-sc-st-postmatric",
@@ -141,7 +141,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -281,7 +281,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -433,7 +433,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -543,7 +543,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -704,7 +704,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -842,7 +842,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -934,7 +934,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -1041,7 +1041,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -1178,7 +1178,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -1244,7 +1244,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -1373,7 +1373,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -1598,7 +1598,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -1774,7 +1774,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -1941,7 +1941,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -2120,7 +2120,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -2316,7 +2316,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -2505,7 +2505,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -2722,7 +2722,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -2802,7 +2802,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -2921,7 +2921,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3067,7 +3067,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3150,7 +3150,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3228,7 +3228,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3347,7 +3347,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3442,7 +3442,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3555,7 +3555,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3657,7 +3657,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3805,7 +3805,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -3961,7 +3961,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -4037,7 +4037,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -4189,7 +4189,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -4365,7 +4365,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -4504,7 +4504,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -4695,7 +4695,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -4857,7 +4857,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -5031,7 +5031,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -5214,7 +5214,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -5370,7 +5370,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -5551,7 +5551,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -5655,7 +5655,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -5851,7 +5851,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -5958,7 +5958,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -6057,7 +6057,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -6275,7 +6275,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -6395,7 +6395,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -6520,7 +6520,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -6644,7 +6644,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -6731,7 +6731,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -6880,7 +6880,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -6996,7 +6996,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -7143,7 +7143,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -7235,7 +7235,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -7339,7 +7339,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -7492,7 +7492,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -7639,7 +7639,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -7755,7 +7755,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -7897,7 +7897,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8056,7 +8056,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8168,7 +8168,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8293,7 +8293,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8407,7 +8407,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8531,7 +8531,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8636,7 +8636,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8765,7 +8765,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8844,7 +8844,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -8955,7 +8955,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9050,7 +9050,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9169,7 +9169,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9263,7 +9263,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9377,7 +9377,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9506,7 +9506,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9616,7 +9616,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9721,7 +9721,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9857,7 +9857,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -9963,7 +9963,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10088,7 +10088,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10201,7 +10201,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10326,7 +10326,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10421,7 +10421,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10558,7 +10558,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10657,7 +10657,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10766,7 +10766,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10860,7 +10860,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -10967,7 +10967,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -11059,7 +11059,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -11203,7 +11203,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -11328,7 +11328,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -11461,7 +11461,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -11590,7 +11590,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -11696,7 +11696,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -11831,7 +11831,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -11969,7 +11969,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -12099,7 +12099,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -12342,7 +12342,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -12471,7 +12471,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -12582,7 +12582,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -12722,7 +12722,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -12856,7 +12856,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -12984,7 +12984,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -13112,7 +13112,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }
@@ -13238,7 +13238,7 @@
       "verification": {
         "status": "verified",
         "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
-        "checked_at": "2026-11-19T17:44:50+00:00",
+        "checked_at": "2026-11-19T17:49:37+00:00",
         "problems": [],
         "human_review": "pending"
       }

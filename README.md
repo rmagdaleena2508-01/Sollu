@@ -13,7 +13,7 @@
 [![React 19](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)](package.json)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)](vite.config.ts)
 [![Voice first](https://img.shields.io/badge/voice-first-FF4B3A?style=flat-square)](#voice-first-text-always)
-[![Checked data](https://img.shields.io/badge/data-27%20checked%20entries-22B45A?style=flat-square)](data/README.md)
+[![Checked data](https://img.shields.io/badge/data-101%20checked%20entries-22B45A?style=flat-square)](data/README.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22B45A?style=flat-square)](LICENSE)
 
 **[▶ See it live](https://sollu-ai.vercel.app)** · [Why Sollu](#why-sollu) · [What's real today](#whats-real-today) · [Voice first](#voice-first-text-always) · [When things fail](#when-things-fail) · [How I built it](#how-i-built-it) · [How I tested it](#how-i-tested-it) · [Build log](#build-log) · [Run it](#run-it) · [AI use](#ai-use-and-responsibility)
@@ -25,6 +25,30 @@
 **Sollu** (சொல்லு, *"say it"*) reads government schemes, notices and local laws. Then it explains them in plain Tamil or English. You can ask by voice, check what you can get, and learn your rights.
 
 It starts in **Tamil Nadu**. Then it grows to **all of India**, one state at a time.
+
+## What's new in version 2
+
+**Version 2 knows about 3.7 times as much as version 1.** Version 1 answered from 27 checked entries. Version 2 answers from **101**, and every new fact is still quoted word for word from an official government page and passes the same checker.
+
+| | Version 1 | Version 2 |
+|---|:-:|:-:|
+| Schemes | 19 | 67 |
+| Rights | 5 | 15 |
+| Certificates and services (new) | 0 | 16 |
+| Notices | 3 | 3 |
+| **Checked entries** | **27** | **101** |
+
+What people can now ask about, in Tamil or English:
+
+- **Children and families:** a savings account for a daughter (Sukanya Samriddhi), the Chief Minister's Girl Child Protection deposit, school breakfast and noon meals, Anganwadi food, money for new mothers (PMMVY), support for children in need.
+- **Women, seniors and disabled people:** pensions for deserted wives, unmarried women, disabled and transgender people, working women's hostels, help after violence (Sakhi centres, 181).
+- **Jobs and business:** unemployment help, UYEGP, NEEDS, Annal Ambedkar Business Champions, Mudra, PM SVANidhi, PM Vishwakarma, Stand-Up India, PMEGP, Naan Mudhalvan.
+- **Health, money and home:** free accident treatment for 48 hours, Makkalai Thedi Maruthuvam, Ayushman Bharat, Jan Dhan accounts, Rs 436 life cover and Rs 20 accident cover, Atal Pension, free LPG connections, village houses, cheap generic medicines.
+- **Farmers and fishermen:** fishing ban relief, lean season savings, the Fishermen Welfare Board, Kisan Credit Card, soil tests, drip irrigation, solar pumps, free farm power, interest-free crop loans.
+- **Certificates (new):** community, nativity, income, first graduate, legal heir, residence, widow, deserted woman, unemployment, inter-caste marriage, small farmer, birth, death, patta, encumbrance and new ration cards: what you need, where to apply, the fee and how long it takes.
+- **Rights:** consumer complaints, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, sexual harassment at work, free private school seats (RTE) and cyber fraud (1930).
+
+60 of the 101 entries are marked *caution*: the official page has no recent date, or two official pages disagree. Sollu tells you to confirm those at the office. 2 more were held back because they have probably ended.
 
 <p align="center">
   <a href="https://sollu-ai.vercel.app"><img src="docs/hero.png" alt="Sollu landing page hero: 'Know what's yours. In your own words.' with a tilted red 'Hear it' sticker" width="100%"></a>
@@ -275,7 +299,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 22 | Fixed: the "Ask out loud" card vanished after its mic was tapped. | [#25](https://github.com/rmagdaleena2508-01/Sollu/pull/25) |
 | 23 | **Explain a notice from a photo:** a camera button on the Ask page and 3 example photos. Gemini reads the photo and explains it in 3 lines: what it says, what to do, by when. Every number in the answer is checked against the text read from the photo, and a photo of a notice we've already checked links to its official source. The photo is shrunk on the phone first and never stored. | [#26](https://github.com/rmagdaleena2508-01/Sollu/pull/26) |
 | 24 | **Free scrolling:** removed the section snapping and the glide completely. Sections are as tall as their content, so phones don't scroll through empty space. On phones the top bar has no blur, the fade-in has no blur, and a finger on a footer sticker still scrolls the page. | [#27](https://github.com/rmagdaleena2508-01/Sollu/pull/27) |
-| 25 | **4 times the data:** 74 new checked entries, every fact quoted from an official page: 48 schemes (girl child savings, breakfast and noon meals, pensions for deserted wives, unmarried women, disabled and transgender people, job and business loans, farm and fishermen help, bank accounts, insurance, LPG, free accident treatment), 10 rights (consumer, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, workplace harassment, free school seats, cyber fraud) and 16 certificates and services (community, income, nativity, legal heir, birth, death, patta, encumbrance, ration card and more). A new "certificate or service" entry type. | this change |
+| 25 | **Version 2, about 3.7 times the data:** 74 new checked entries, every fact quoted from an official page: 48 schemes (girl child savings, breakfast and noon meals, pensions for deserted wives, unmarried women, disabled and transgender people, job and business loans, farm and fishermen help, bank accounts, insurance, LPG, free accident treatment), 10 rights (consumer, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, workplace harassment, free school seats, cyber fraud) and 16 certificates and services (community, income, nativity, legal heir, birth, death, patta, encumbrance, ration card and more). A new "certificate or service" entry type. | [#29](https://github.com/rmagdaleena2508-01/Sollu/pull/29) |
+| 26 | Fixed: answers from the new version 2 entries showed no source link. The checker now rebuilds the list of source links from every saved source, so all 161 are there. | this change |
 
 ### Problems I hit, and how I fixed them
 
@@ -290,6 +315,7 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | `sollu.vercel.app` already belonged to a different app | Picked `sollu-ai.vercel.app` |
 | 19 Nov: after adding 74 entries, the Check page showed a deserted-wife pension, LPG for poor families and business loans as "may fit" for every woman or worker | Those depend on something the 5 questions don't ask (being deserted, below the poverty line, a street vendor or starting a business). They are now explained on the Ask page only. Pregnancy help (PMMVY, Anganwadi food) shows only when "pregnant or a new mother" is picked |
 | 19 Nov: some official pages couldn't be saved (the 100 free electricity units order is a scanned image; tnpds.gov.in shows a bot check; TAHDCO and Thozhi use non-government web addresses) | Left those facts out and listed them as gaps instead of filling them from memory. 100 free units and TAHDCO loans are not in the data yet |
+| 19 Nov: answers about the new entries (for example Sukanya Samriddhi) came back with no "Source" link | The list of source links (`data/source-links.json`) was written by hand and still had only the 39 old sources. `check.py --build` now writes it from the saved sources, so it can't fall behind again |
 | 19 Nov: even the gentle glide onto sections felt wrong on a laptop and a phone | Took out all snapping. On phones, full-screen sections also left empty space, and the browser bar showing and hiding changed `dvh` while scrolling. Sections now fit their content, and only the desktop hero fills the screen, using `svh`, which stays put |
 | 19 Nov: the rice stock order's photo explained almost nothing (*"no date is given"*) | Its limits and dates are on page 2, and the photo showed page 1 only. The example photo now shows both pages side by side, the way you'd photograph them on a table |
 | 19 Nov: Tamil photo answers said *"15 December 2026"* with the month in English | The prompt now asks for Tamil month names (*டிசம்பர்*) |
@@ -547,12 +573,12 @@ These are the choices that make Sollu feel like Sollu.
 
 ## Roadmap
 
-**Version 1 — Tamil Nadu**
+**Version 1 — Tamil Nadu, first build**
 
 - [x] Landing page in English and Tamil
 - [x] Product flow and copy for every page ([FLOW.md](FLOW.md))
 - [x] Official data sources researched ([DATA-SOURCES.md](DATA-SOURCES.md))
-- [x] Checked data: 67 schemes, 15 rights topics, 16 certificates and services, 3 notices
+- [x] Checked data: 19 schemes, 5 rights topics, 3 notices (27 entries)
 - [x] Ask screen with voice in and voice out, and a text fallback
 - [x] Source card on every answer
 - [x] Ask page live on Vercel
@@ -565,7 +591,14 @@ These are the choices that make Sollu feel like Sollu.
 - [ ] Test on low-cost Android phones with real people
 - [ ] Pilot with real people, then replace the samples with real stories (with consent)
 
-**Version 2 — All of India**
+**Version 2 — Tamil Nadu, 3.7 times the knowledge**
+
+- [x] 101 checked entries: 67 schemes, 15 rights, 16 certificates and services, 3 notices
+- [x] A new "certificate or service" entry type
+- [ ] Owner check of the new amounts
+- [ ] More of the 234 Tamil Nadu schemes on myScheme, picked by what people ask most
+
+**Version 3 — All of India**
 
 - [ ] 22 Indian languages
 - [ ] Every state's schemes, one state at a time

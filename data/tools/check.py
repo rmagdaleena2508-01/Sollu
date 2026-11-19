@@ -208,6 +208,13 @@ def main():
              "counts": {k: len(out[k]) for k in ("schemes", "rights", "notices", "services")},
              "audiences": index},
             ensure_ascii=False, indent=2) + "\n")
+        # Source id -> official URL and the date it was saved, for the "Source" links under each answer.
+        links = {}
+        for e in live:
+            for sid in e.get("sources", []):
+                meta = json.loads((ROOT / "sources" / sid / "meta.json").read_text())
+                links[sid] = {"url": meta["url"], "fetched_at": meta["fetched_at"][:10]}
+        (ROOT / "source-links.json").write_text(json.dumps(dict(sorted(links.items())), ensure_ascii=False, indent=2) + "\n")
         print(f"built data/sollu-demo.json: {len(out['schemes'])} schemes, {len(out['rights'])} rights, "
               f"{len(out['notices'])} notices, {len(out['services'])} services")
 
