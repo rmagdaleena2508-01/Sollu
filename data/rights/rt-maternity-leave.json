@@ -1,0 +1,95 @@
+{
+  "id": "rt-maternity-leave",
+  "type": "right",
+  "topic": "maternity_leave",
+  "title_en": "You can get paid maternity leave",
+  "law": "Code on Social Security, 2020, Chapter VI (Sections 60, 67 and 68), which replaced the Maternity Benefit Act, 1961",
+  "rule_plain": "A woman worker gets paid maternity leave at her average daily wage. She must have worked at least 80 days for that employer in the 12 months before the expected delivery. She can get up to 26 weeks, with not more than 8 weeks before delivery. If she already has two or more children, she gets up to 12 weeks.",
+  "what_you_can_do": [
+    "Tell your employer about your leave. Your employer must pay you for the leave.",
+    "Your employer cannot sack you during or because of your maternity leave.",
+    "If your workplace has 50 or more workers, it must have a creche, and you can visit it four times a day.",
+    "If you are not paid or are sacked, complain to the Inspector-cum-Facilitator (labour inspector)."
+  ],
+  "where_to_get_help": "Inspector-cum-Facilitator (labour inspector) of the Labour Department.",
+  "sources": [
+    "rt-ssc2020-act",
+    "rt-ssc2020-pib"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-ssc2020-act",
+      "quote": "THE CODE ON SOCIAL SECURITY, 2020"
+    },
+    {
+      "field": "law",
+      "source": "rt-ssc2020-pib",
+      "quote": "The code merges nine existing Social Security Acts into one framework"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-ssc2020-act",
+      "quote": "payment of maternity benefit at the rate of the"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-ssc2020-act",
+      "quote": "average daily wage for the period of her actual absence"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-ssc2020-act",
+      "quote": "not less than eighty days in the twelve months immediately preceding the date of her"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-ssc2020-act",
+      "quote": "shall be twenty-six weeks of which not more than eight weeks shall precede the expected"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-ssc2020-act",
+      "quote": "two or more surviving children shall be twelve weeks"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-ssc2020-act",
+      "quote": "it shall be unlawful for her employer to discharge or dismiss her during or"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-ssc2020-act",
+      "quote": "in which fifty employees or"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-ssc2020-act",
+      "quote": "Provided that the employer shall allow four visits a day to the crèche by the woman,"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-ssc2020-act",
+      "quote": "may make a complaint to the Inspector-cum-Facilitator."
+    }
+  ],
+  "gaps": [
+    "The saved Code text does not show the date it came into force. A PIB note of 22 Nov 2025 says the Code merges nine social security laws.",
+    "Rules on which workplaces are covered are not described here.",
+    "Women who adopt a baby or are commissioning mothers get 12 weeks (PIB note); not added to the main rule."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Law moved from the Maternity Benefit Act, 1961 to the Code on Social Security, 2020 in Nov 2025; state rules may still change details.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

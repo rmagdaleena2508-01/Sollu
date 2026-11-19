@@ -1,0 +1,166 @@
+TNeGA
+Email: tnesevaihelpdesk@tn.gov.in |
+Toll Free Number : 18004256000
+Screen Reader Access
+A-
+A
+A+
+Last Updated: 10/04/2023
+Directorate of e-Governance
+Tamil Nadu e-Governance Agency
+Information Technology and Digital Services Department
+Government of Tamil Nadu
+e-Sevai
+இனிய சேவை இணைய சேவை
+Toggle navigation
+Home
+About Us
+e-Sevai
+Services Offered
+Contact US
+Help
+-->
+Services Offered
+Cyber Security
+Cogent Driver
+Mantra Driver
+Video Tutorials
+User Manual
+IVRS & WhatsApp Poster
+Grievences/Complaints
+Policy & Guidelines
+Frequently Asked Questions (FAQs)
+Sitemap
+e-adangal Extract
+Application Tracking
+Dashboard
+e-Sevai Training
+Frequently Asked Questions (FAQs)
+1. What is CAN ?
+CAN is Citizen Access Number required to avail all e-Sevai services
+offered by various departments through TNeGA.
+2. Why I Need CAN ?
+To avail the services of eSevai CAN is required.
+3. If I already have a CAN can I use it?
+Yes, we can use the Same CAN for applying for all the services in
+e-sevai.
+4. What should I do if I lost my CAN?
+Search using Mobile number, date of Birth, Name , Email id
+5. What is the validity of CAN ?
+CAN is valid for lifetime
+6. How do I edit the details of my CAN?
+Online application being a green initiative has the following
+advantages
+Go to https://www.tnesevai.tn.gov.in/ on your web browser.
+In the Sign In section, click on "Citizen Login".
+Enter the login credentials.
+Correctly enter the Captcha Code (Not case sensitive) and click on "Login".
+In the "Services" tab, select "DEPARTMENT WISE" and then click on "Revenue Department".
+Click on "REV-101 Community Certificate". This will open a new browser tab.
+Click on the "Proceed" button.
+In this Search section, look for your CAN using any of the six fields provided.
+Once found, select it by clicking the Radio button. This will auto-fill the "Mobile Number" field at the bottom.
+Click on "Generate OTP" and then enter the OTP that has been sent to your registered phone number. Click on "Confirm OTP" once done.
+Now you will be able to see the "Edit CAN Detail" button. Click it and you will be able to update your CAN details.
+7. What are the documents required for applying Community
+Certificate?
+Photo
+Address Proof
+Community Certificate of Father or Community Certificate of Mother or Community Certificate of Siblings
+Self-Declaration of Applicant
+8. What are the documents required for applying for Nativity
+Certificate?
+Photo
+Address Proof
+Birth Certificate
+School Education Certificate(or) Employment Details(or)other proof to prove continuous residence of last 5 years
+Self-Declaration of Applicant
+9. What are the documents required for applying for Income
+Certificate?
+Applicant Photo
+Address Proof
+TIN Number and the Trade
+Details of Land Holdings
+Details of houses owned ward wise
+Family or Smart Card
+Self-Declaration of Applicant
+Salary Certificate (Latest Copy)
+PAN card
+10. What are the documents required for applying solvency certificate?
+Photo
+Solvency proof of the Applicant
+Encumbrance Certificate
+Latest Guideline Value Statement
+Liability Amount Certificate
+Mortgage Certificate
+Property Tax
+Challan Copy
+Chitta or Patta
+Self-Declaration of Applicant
+Lease Agreement
+Building Value
+11. What are the documents required for applying no male child
+certificate?
+Combined photo of Parents
+Residence Proof
+Sterilization Certificate of Parents
+Birth Certificate of First Children
+Birth Certificate of Second Children
+Family or Smart Card
+Self-Declaration of Applicant
+12. What are the documents required for applying unmarried
+certificate?
+Photo
+Address Proof
+Age Proof
+Self-Declaration of Applicant
+Other Documents
+13. What are the documents required for applying Inter Caste
+Marriage Certificate?
+Combined Photo of Husband and Wife
+Permanent Community Certificate of the Groom
+Permanent Community Certificate of the Bride
+Marriage Registration Certificate
+Self-Declaration of Applicant
+Address Proof
+14. What are the documents required for applying Widow certificate?
+Photo
+Address Proof
+Death Certificate of Husband
+Marriage Registration certificate or any other documents to prove marriage
+Self Declaration of Applicant
+15. What are the documents required for applying OBC certificate?
+Photo
+Proof of Marriage
+Proof of Residence
+Proof of Desertion or FIR Details
+Self Declaration of Applicant
+16. What are the documents required for applying Deserted Women
+certificate?
+Photo
+Address Proof
+Proof of Income (Payslip, Income Certificate, etc)
+Community Certificate
+Self Declaration of Applicant
+Income Tax Return
+Proof of Income (Payslip, Income Certificate, etc)
+17. How can I check the status of my application?
+After logging in, go to the "Check Status" tab and enter your application number
+to check the status or you can go to the link https://tnedistrict.tn.gov.in/tneda/out_status.xhtml
+and check the status by entering application number.
+18. Where can I find my returned applications?
+After logging in, click on the "Service name" and go to “Returned application” tab.
+Contact US
+TamilNadu e - Governance Agency
+807, 7th Floor,
+PT Lee Chengalvarayan Naicker Building,
+Anna Salai (Mount Road),
+Chennai - 600 002
+Helpdesk
+tnesevaihelpdesk@tn.gov.in
+Toll Free Number : 18004256000
+Feedback
+Privacy Policy
+Site best viewed at least 1024 x 768 resolution in I.E 10+, Mozilla 40+, Google Chrome 50+
+Application Version - 4.0.0.0 - Release Notes
+© 2026 All Rights Reserved

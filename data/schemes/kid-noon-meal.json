@@ -1,0 +1,99 @@
+{
+  "id": "kid-noon-meal",
+  "type": "scheme",
+  "name_en": "Puratchi Thalaivar M.G.R. Nutritious Meal Programme (school noon meal)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+  "audiences": [
+    "children",
+    "school_students"
+  ],
+  "benefit": "Your child gets a free hot cooked lunch at school, five days a week, about 210 days a year. Meals include variety rice and eggs.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Your child studies in a government school, government aided school, or a few other listed schools (special training centres, madarasas, maktabs, child labour special schools).",
+      "Class 1 to Class 10 (primary, upper primary and high school)."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "You do not need to apply. The meal is served at the school.",
+  "where_to_apply": "At your child's school noon meal centre.",
+  "helpline": "For complaints, call your district Collectorate toll-free number. In Karur district it is 1800 425 2556.",
+  "go_number": null,
+  "sources": [
+    "kid-noonmeal-about",
+    "kid-noonmeal-karur"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "kid-noonmeal-about",
+      "quote": "free hot cooked nutritious meal is being provided to children in Government Schools, Government aided Schools"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-noonmeal-about",
+      "quote": "hot cooked nutritious variety meals in the school for five days in a week for a total of 210 days in a year."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-noonmeal-karur",
+      "quote": "Rice + Sambar + Boiled Egg"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-noonmeal-about",
+      "quote": "Special Training Centres, Madarasas, Maktabs supported under Sarva Shiksha Abiyan and also in Special Schools functioning under National Child Labour Programme."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-noonmeal-about",
+      "quote": "@ 150 gm for upper primary and high school (6th Std. to 10th Std.)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-noonmeal-about",
+      "quote": "primary school children (1st Std. to 5th Std.)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-noonmeal-about",
+      "quote": "free hot cooked nutritious meal is being provided to children in Government Schools"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-noonmeal-karur",
+      "quote": "Noon Meal Centers"
+    },
+    {
+      "field": "helpline",
+      "source": "kid-noonmeal-karur",
+      "quote": "Karur Collectorate Toll Free Number 1800 425 2556"
+    }
+  ],
+  "gaps": [
+    "The source does not say outright that no application is needed; it says the meal is provided at school.",
+    "No state-wide helpline found; only a Karur district number.",
+    "The saved pages do not give the current number of eggs per week."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Long-running scheme; the official state page and a district page agree, and no amounts are involved.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

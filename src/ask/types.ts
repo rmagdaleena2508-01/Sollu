@@ -26,7 +26,7 @@ export interface SourceLink {
 
 export interface AnswerItem {
   id: string;
-  type: 'scheme' | 'right' | 'notice';
+  type: 'scheme' | 'right' | 'notice' | 'service';
   title: string;
   verdict?: Verdict;
   /** Plain reasons for "no", in English, from our rules. */

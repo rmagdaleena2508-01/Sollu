@@ -1,0 +1,181 @@
+{
+  "id": "kid-child-sponsorship",
+  "type": "scheme",
+  "name_en": "Sponsorship for children in need (Integrated Child Protection Scheme / Mission Vatsalya)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department of Social Defence (District Child Protection Unit), Government of Tamil Nadu",
+  "audiences": [
+    "children",
+    "families"
+  ],
+  "benefit": "Money support for a child in need, so the child can stay with family and keep studying. The district page says Rs 2,000 a month for each child, for up to 2 children in a family, for up to 3 years or until age 18.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": 18,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Child aged 0 to 18 years.",
+      "Family income below Rs 24,000 a year in villages, Rs 30,000 in cities, Rs 36,000 in metro cities.",
+      "The child does not get money help from another government scheme.",
+      "First choice goes to children of a single mother or widow, children of parents with leprosy or HIV, and children whose parent is in jail.",
+      "Also for children in a children's home for over 6 months who can go back to their family."
+    ]
+  },
+  "documents": [
+    "Petition with one passport size photo",
+    "Bonafide certificate from the head master",
+    "Income certificate",
+    "Child's bank passbook copy",
+    "Aadhaar copy of child and parents",
+    "Ration card copy",
+    "Death certificate of parents (if needed)",
+    "Medical records (if needed)"
+  ],
+  "how_to_apply": "Give a petition with the papers to the District Child Protection Unit. A village level child protection committee also finds children who need help.",
+  "where_to_apply": "District Child Protection Unit (Department of Social Defence) in your district.",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "kid-icps-perambalur",
+    "kid-vatsalya-myl",
+    "kid-vatsalya-pib"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "kid-icps-perambalur",
+      "quote": "District Child Protection Unit, (Integrated Child Protection Scheme), Department of Social Defence."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-icps-perambalur",
+      "quote": "Sponsorship is the provision of supplementary support to families to meet medical, nutritional, educational and other needs of their children"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-icps-perambalur",
+      "quote": "Rs.2000 per child per month for maximum 2 children per family."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-icps-perambalur",
+      "quote": "Duration-Maximum three years or up to 18 years, whichever is earlier"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "kid-icps-perambalur",
+      "quote": "Children, of the age of 0 to18 years."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icps-perambalur",
+      "quote": "Children of families are having Annual income below Rs.24,000/- in villages, Rs.30,000/- in Cities Rs.36,000/- in Metro Cities."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icps-perambalur",
+      "quote": "Children who are not availing any Financial Assistance from other Schemes of State / Central Government."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icps-perambalur",
+      "quote": "Children of a single mother / widow"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icps-perambalur",
+      "quote": "Children of Leprosy patients / HIV infected parent"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icps-perambalur",
+      "quote": "Children whose parent / bread earner is in jail."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-icps-perambalur",
+      "quote": "Children staying in child care institutions for more than six months continuously, who can be restored to their families."
+    },
+    {
+      "field": "documents",
+      "source": "kid-icps-perambalur",
+      "quote": "Petition (with Passport size photo-1 No.)"
+    },
+    {
+      "field": "documents",
+      "source": "kid-icps-perambalur",
+      "quote": "Bonafide Certificate from Head master"
+    },
+    {
+      "field": "documents",
+      "source": "kid-icps-perambalur",
+      "quote": "Income Certificate"
+    },
+    {
+      "field": "documents",
+      "source": "kid-icps-perambalur",
+      "quote": "Bank Pass book copy Child"
+    },
+    {
+      "field": "documents",
+      "source": "kid-icps-perambalur",
+      "quote": "Aadhar Card Copy of Children & Parents"
+    },
+    {
+      "field": "documents",
+      "source": "kid-icps-perambalur",
+      "quote": "Ration Card Copy"
+    },
+    {
+      "field": "documents",
+      "source": "kid-icps-perambalur",
+      "quote": "Death Certificates of Parents (if Applicable)"
+    },
+    {
+      "field": "documents",
+      "source": "kid-icps-perambalur",
+      "quote": "Medical Records (if Applicable)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-icps-perambalur",
+      "quote": "List of documents required for availing the schemes:"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-vatsalya-pib",
+      "quote": "Child Welfare and Protection Committee (CW&PC) at village level will identify the children who are eligible for support"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-vatsalya-myl",
+      "quote": "Sponsorship is provided for the children in need of Care and Protection."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-vatsalya-myl",
+      "quote": "Social Defence Department under Integrated Child Protection Scheme has been functioning in 38 district of Tamilnadu from August 2012 at District Child Protection Unit."
+    }
+  ],
+  "gaps": [
+    "The Rs 2,000 amount and income limits come from one district page (Perambalur) written under the older ICPS rules. Mission Vatsalya (2022) rules may give a different amount; no official page with the current Tamil Nadu amount was saved.",
+    "No state helpline or G.O. number on the saved pages."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Amount and income limits are from an older district ICPS page; the newer Mission Vatsalya amount may be different.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

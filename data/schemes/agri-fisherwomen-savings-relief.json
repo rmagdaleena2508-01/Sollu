@@ -1,0 +1,140 @@
+{
+  "id": "agri-fisherwomen-savings-relief",
+  "type": "scheme",
+  "name_en": "Tamil Nadu Marine Fisherwomen Savings-cum-Relief Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department of Fisheries and Fishermen Welfare, Government of Tamil Nadu",
+  "audiences": [
+    "fishermen",
+    "women"
+  ],
+  "benefit": "You save Rs 1,500: Rs 175 a month for 8 months and Rs 100 in the 9th month. The State Government adds Rs 3,000. You get Rs 4,500 in total during the 3 lean months.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 60,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": [
+      "fisherwoman"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must work full time in fishing or fishing-related work.",
+      "You must be a member of a Fisherwomen Co-operative Society.",
+      "You must be Below Poverty Line (BPL).",
+      "If you or your family members have a regular job or other income, you cannot get this."
+    ]
+  },
+  "documents": [
+    "Application form",
+    "Bank passbook first page copy (with photo)",
+    "Fisherwomen Co-operative Society membership certificate",
+    "Aadhaar card copy",
+    "BPL certificate copy",
+    "Smart ration card copy",
+    "Copy of enrolment through the e-Sevai centre"
+  ],
+  "how_to_apply": "Fill the application form. Attach your papers. You need to enrol through an e-Sevai centre.",
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-fish-tnfwsrs"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "The beneficiary has to contribute Rs.1,500/- @ Rs.175/- per month for the first eight months and Rs.100/- on the ninth month."
+    },
+    {
+      "field": "benefit",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "The State Government will contribute Rs.3,000/-per fisherwomen, totalling a sum of Rs.4,500/- will be given as a relief to the fisherwomen during the lean period of 3 months."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "within the age group of 18 to 60 years, member of Fisherwomen Cooperative Society"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "within the age group of 18 to 60 years"
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "Tamil Nadu Marine Fisherwomen Savings - cum - Relief Scheme"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "engaged in full-time fishing and its allied activities"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "The fisherwomen beneficiary should be Below Poverty Line (BPL)."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "The beneficiary should be a member of Fisherwomen Co - operative Society"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "having regular employment or indulging in any other income generating activity shall not qualify under this scheme"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "Certificate for membership in Fisherwomen Cooperative Society"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "Copy of BPL certificate."
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "Copy of Smart Ration card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "Copy of Aadhaar card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "Copy of the photograph affixed in the first page of bank passbook"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-fish-tnfwsrs",
+      "quote": "Copy of enrolment through the e-seva center"
+    }
+  ],
+  "gaps": [
+    "The page does not say which office takes the form.",
+    "No helpline or G.O. number on the page.",
+    "The page has no date."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The official page has no date, so the amounts may have changed.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

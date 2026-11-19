@@ -1,0 +1,125 @@
+{
+  "id": "rt-domestic-violence",
+  "type": "right",
+  "topic": "domestic_violence",
+  "title_en": "You have a right to be safe from violence at home",
+  "law": "Protection of Women from Domestic Violence Act, 2005, Sections 3 and 18 to 22",
+  "rule_plain": "Domestic violence is not only hitting. It also covers sexual, verbal, emotional and money abuse, and harm over dowry demands. A woman has the right to live in her shared home. The court can give her a protection order, a right to stay in the home, money for herself and her children, custody of her children and compensation.",
+  "what_you_can_do": [
+    "Go to the Protection Officer. Protection Officers are appointed by the government to help you file the case and get legal aid.",
+    "You can also file the petition at the Judicial Magistrate Court, with a service provider, or at the nearby police station.",
+    "Service providers can help you write the Domestic Incident Report, give you a short stay home with your children, counselling and medical help.",
+    "In an emergency, call the Women Helpline 181."
+  ],
+  "where_to_get_help": "Protection Officer of your district (Social Welfare Department, Tamil Nadu), a service provider, the Judicial Magistrate Court or the police. Women Helpline 181.",
+  "sources": [
+    "rt-dv-act-wcd",
+    "rt-tn-dv"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-tn-dv",
+      "quote": "PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE ACT, 2005"
+    },
+    {
+      "field": "law",
+      "source": "rt-tn-dv",
+      "quote": "Section 18 -- Protection Order"
+    },
+    {
+      "field": "law",
+      "source": "rt-tn-dv",
+      "quote": "Section 22 -- Compensation order for the damages caused to her"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dv-act-wcd",
+      "quote": "causing physical abuse, sexual abuse, verbal and emotional abuse and economic"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-dv",
+      "quote": "The Act ensures woman’s right to reside in her matrimonial home."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-dv",
+      "quote": "Section 18 -- Protection Order"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-dv",
+      "quote": "Section 19 -- Residence Order for residing at Matrimonial House"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-dv",
+      "quote": "Section 20 -- Monetary Orders which includes maintenance for herself and her Children"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-dv",
+      "quote": "Section 21 -- Temporary Custody of Children"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-dv",
+      "quote": "Section 22 -- Compensation order for the damages caused to her"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-dv",
+      "quote": "Recognises verbal and emotional violence."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dv-act-wcd",
+      "quote": "any dowry      or other property"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-dv",
+      "quote": "Protection Officers have been appointed by the Government to help the aggrieved woman in filing the case"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-dv",
+      "quote": "The Protection Officer facilitates the women to approach the court by providing legal aid"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-dv",
+      "quote": "Options are also available to the aggrieved person to file the petition before the Judicial Magistrate Court or with the service provider or in the nearby police station."
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-dv",
+      "quote": "help the aggrieved women in filing the Domestic Incident Report, provide accommodation in the short stay homes along with their children, counsel them and help the aggrieved to get medical treatment"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-dv",
+      "quote": "WOMEN HELPLINE SCHEME - 181"
+    }
+  ],
+  "gaps": [
+    "The saved copy of the Act is a scanned gazette with many reading errors, so most facts are quoted from the Tamil Nadu Social Welfare Department page.",
+    "Phone numbers of Protection Officers by district are not in the saved pages.",
+    "The Tamil Nadu page says a woman can get civil remedies 'within 60 days'; this is left out because the Act sets it as a target, not a promise."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "TN Social Welfare page was updated in November 2026 and matches the Act.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

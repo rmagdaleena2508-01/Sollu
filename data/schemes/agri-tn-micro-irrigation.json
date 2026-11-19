@@ -1,0 +1,129 @@
+{
+  "id": "agri-tn-micro-irrigation",
+  "type": "scheme",
+  "name_en": "Per Drop More Crop - Micro Irrigation (Drip/Sprinkler)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department of Horticulture and Plantation Crops, Government of Tamil Nadu",
+  "audiences": [
+    "farmers"
+  ],
+  "benefit": "You get help to put drip or sprinkler irrigation on your farm. Small and marginal farmers get 100% subsidy, up to 2 hectares. Other farmers get 75% subsidy, up to 5 hectares. The Tamil Nadu Government pays the GST on the parts.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "farmer"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must own or share a water source with a pump.",
+      "The land can be your own land or leased land."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": null,
+  "where_to_apply": "Village level: Assistant Horticulture Officer. Block level: Assistant Director of Horticulture or Horticulture Officer. District level: Joint or Deputy Director of Horticulture.",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-cc-agri-2026"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "Per Drop More Crop"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "Sprinkler irrigation"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "100% subsidy to small"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "(subject to a ceiling of 2"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "Ha/beneficiary) and 75%"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "5 Ha / beneficiary) is"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "GST applicable"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "borne by the Government"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-cc-agri-2026",
+      "quote": "All farmers owning/"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-cc-agri-2026",
+      "quote": "sharing water source"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-cc-agri-2026",
+      "quote": "facilities in their own"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-cc-agri-2026",
+      "quote": "lands/ lease lands."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "Assistant Horticulture"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "Assistant Director of"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "Joint Director of"
+    }
+  ],
+  "gaps": [
+    "The charter does not list documents or the online steps.",
+    "The charter text is in columns, so quotes are short pieces of one table row.",
+    "Forest Rights Act patta holders have a separate rate (100% / 90%) not covered here."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "From the official 2026-27 Agriculture citizen charter; quotes are short because the PDF is a table.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

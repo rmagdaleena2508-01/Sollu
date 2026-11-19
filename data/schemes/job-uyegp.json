@@ -1,0 +1,156 @@
+{
+  "id": "job-uyegp",
+  "type": "scheme",
+  "name_en": "Unemployed Youth Employment Generation Programme (UYEGP)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Micro, Small and Medium Enterprises Department, Government of Tamil Nadu",
+  "audiences": [
+    "entrepreneurs",
+    "workers"
+  ],
+  "benefit": "You get a bank loan to start a small trading or business unit. The project can cost up to Rs 15 lakh. The government pays 25% of the project cost as a subsidy, up to Rs 3.75 lakh.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 45,
+    "gender": null,
+    "income_max_annual_inr": 800000,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Age 18 to 45. For women, minorities, BC, MBC, SC, ST, ex-servicemen, transgender people and people with disabilities, the upper age is 55.",
+      "You must have passed at least 8th standard.",
+      "Your family income must be below Rs 8 lakh a year.",
+      "Only trading or business projects.",
+      "You put in 10% of the project cost yourself (5% for special categories)."
+    ]
+  },
+  "documents": [
+    "School or college Transfer Certificate or record sheet (2 copies)",
+    "Ration card (2 copies), or nativity certificate, Aadhaar or voter ID if you have no ration card",
+    "Project report",
+    "Price quotations with GST number",
+    "Community certificate (2 copies)",
+    "Ex-servicemen, disability or transgender certificate if it applies to you",
+    "Affidavit on Rs 20 stamp paper signed by a Notary Public"
+  ],
+  "how_to_apply": "Fill the UYEGP application form. Send it with your papers to the District Industries Centre in your district.",
+  "where_to_apply": "District Industries Centre (DIC) in your district",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "job-uyegp-desc",
+    "job-uyegp-docs"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-uyegp-desc",
+      "quote": "Micro, Small and Medium Enterprises Department"
+    },
+    {
+      "field": "benefit",
+      "source": "job-uyegp-desc",
+      "quote": "Only Trading/Business projects with maximum Project costs Rs.15.00 lakh"
+    },
+    {
+      "field": "benefit",
+      "source": "job-uyegp-desc",
+      "quote": "Individual Based Capital Subsidy @ 25% of the Project cost (Maximum Rs.3.75 lakh)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-uyegp-desc",
+      "quote": "Loan assistance from Commercial Banks"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "job-uyegp-desc",
+      "quote": "Applicants must be of age between 18-45 in general"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "job-uyegp-desc",
+      "quote": "Applicants must be of age between 18-45 in general"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-uyegp-desc",
+      "quote": "age relaxation upto 55 years"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-uyegp-desc",
+      "quote": "Minimum 8 th Pass"
+    },
+    {
+      "field": "eligibility.income_max_annual_inr",
+      "source": "job-uyegp-desc",
+      "quote": "Family income should be below Rs.8.00 lakh"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-uyegp-desc",
+      "quote": "Promoter's contribution 10% for General and 5% for Special Category"
+    },
+    {
+      "field": "documents",
+      "source": "job-uyegp-docs",
+      "quote": "Transfer certiﬁcate/ Record Sheet issued by School/College.(Two Copies)"
+    },
+    {
+      "field": "documents",
+      "source": "job-uyegp-docs",
+      "quote": "a Nativity certiﬁcate from the Thasildhar / Aadhar card xerox / Election voters identity card xerox"
+    },
+    {
+      "field": "documents",
+      "source": "job-uyegp-docs",
+      "quote": "Project Report (Original & Duplicate )"
+    },
+    {
+      "field": "documents",
+      "source": "job-uyegp-docs",
+      "quote": "Valid Quotations (Original & Duplicate ) with GST number"
+    },
+    {
+      "field": "documents",
+      "source": "job-uyegp-docs",
+      "quote": "Community Certiﬁcate(Two Copies)"
+    },
+    {
+      "field": "documents",
+      "source": "job-uyegp-docs",
+      "quote": "Rs.20/- Non Judicial Stamp Paper duly Certiﬁed and Signed by the Notary Public"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-uyegp-docs",
+      "quote": "enclosed along with the application form to the District Industries Centre, concerned"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-uyegp-docs",
+      "quote": "to the District Industries Centre, concerned"
+    }
+  ],
+  "gaps": [
+    "Source does not say if the income limit is per year; Rs 8 lakh is taken as the yearly family income.",
+    "Source gives one age range; eligibility.age_max holds 45 for the general category (55 for special categories).",
+    "No helpline or G.O. number in the saved pages. An older UYEGP FAQ PDF on the same site has lower limits (Rs 1.5 lakh income); the newer scheme page is used.",
+    "The MSME site has an 'Apply Online' menu, but the saved pages do not describe the online steps."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The scheme page has no date, and an older FAQ on the same site shows different limits; confirm amounts at the District Industries Centre.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

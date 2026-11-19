@@ -1,0 +1,196 @@
+{
+  "id": "kid-girl-child-protection",
+  "type": "scheme",
+  "name_en": "Chief Minister's Girl Child Protection Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+  "audiences": [
+    "children",
+    "families",
+    "women"
+  ],
+  "benefit": "The government puts money in a fixed deposit for your girl child. If you have one girl, it is Rs 50,000. If you have two girls, it is Rs 25,000 for each girl. From the 6th year, she gets Rs 1,800 a year. At age 18 she gets the money with interest, but only if she writes the 10th standard public exam.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": 72000,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Your family has only one girl (Scheme I) or only two girls (Scheme II), and no boy.",
+      "One parent must have had a family planning operation before age 40.",
+      "Parents or grandparents must be from Tamil Nadu by birth, or must have lived here for at least 10 years.",
+      "Apply before the child turns 3 (for two girls, before the second girl turns 3).",
+      "Girls of Sri Lankan Tamil refugees in Tamil Nadu camps can also get it."
+    ]
+  },
+  "documents": [
+    "Birth certificate of the child",
+    "Parent's age proof",
+    "Sterilisation certificate",
+    "Income certificate",
+    "No Male Child certificate",
+    "Residential certificate",
+    "Community certificate"
+  ],
+  "how_to_apply": "Get copies of your papers. Go to the nearest Common Service Centre (CSC). Give your fingerprint there. Fill the form, upload your papers and ask for a receipt.",
+  "where_to_apply": "Nearest Common Service Centre (CSC). For questions, ask the District Social Welfare Officer.",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "kid-cmgcps1",
+    "kid-cmgcps2"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "kid-cmgcps1",
+      "quote": "launched by the Social Welfare and Women Empowerment Department, Government of Tamil Nadu"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-cmgcps1",
+      "quote": "A fixed deposit (FD) of ₹50,000/- in the name of the girl child"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-cmgcps2",
+      "quote": "A fixed deposit (FD) of ₹25,000/- each in the name of the two girl children"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-cmgcps1",
+      "quote": "An annual incentive of ₹1,800/- from the 6th year of the FD."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-cmgcps1",
+      "quote": "The amount deposited along with accrued interest is given to the girl child when she attains 18 years of age."
+    },
+    {
+      "field": "benefit",
+      "source": "kid-cmgcps1",
+      "quote": "The matured amount will be given to the girl child only if she appears for the 10th standard public exam."
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "kid-cmgcps1",
+      "quote": "The assistance is provided only for one girl child of the family."
+    },
+    {
+      "field": "eligibility.income_max_annual_inr",
+      "source": "kid-cmgcps1",
+      "quote": "The annual income of the parents of the girl child should not exceed ₹72,000/-."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-cmgcps1",
+      "quote": "One of the parents must have undergone sterilization before turning 40 years old."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-cmgcps1",
+      "quote": "The family should have only one female child and no male child."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-cmgcps2",
+      "quote": "scheme is specifically for families with only two female children and no male child."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-cmgcps1",
+      "quote": "native of Tamil Nadu by birth or continuous residence of not less than ten years"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-cmgcps1",
+      "quote": "The application should be submitted before the child completes 3 years of age."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-cmgcps2",
+      "quote": "The application should be submitted before the second child completes 3 years of age."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-cmgcps1",
+      "quote": "The scheme is also applicable to the girl children of Sri Lankan Tamil Refugees in the Refugee Camps in Tamil Nadu."
+    },
+    {
+      "field": "documents",
+      "source": "kid-cmgcps1",
+      "quote": "Birth Certificate (issued by Corporation/Taluk Office/ Municipality Office)."
+    },
+    {
+      "field": "documents",
+      "source": "kid-cmgcps1",
+      "quote": "Parent's age proof (Birth Certificate/School Certificate/Government Doctor's Certificate)."
+    },
+    {
+      "field": "documents",
+      "source": "kid-cmgcps1",
+      "quote": "Sterilisation Certificate (issued by Government/Private Hospital)."
+    },
+    {
+      "field": "documents",
+      "source": "kid-cmgcps1",
+      "quote": "Income Certificate (issued by Taluk Office)."
+    },
+    {
+      "field": "documents",
+      "source": "kid-cmgcps1",
+      "quote": "No Male Child Certificate"
+    },
+    {
+      "field": "documents",
+      "source": "kid-cmgcps1",
+      "quote": "Residential Certificate (issued by Tahsildar)."
+    },
+    {
+      "field": "documents",
+      "source": "kid-cmgcps1",
+      "quote": "Community Certificate (issued by the Revenue Department)."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-cmgcps1",
+      "quote": "visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-cmgcps1",
+      "quote": "Request a receipt or acknowledgment from the CSC."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-cmgcps1",
+      "quote": "Online - via CSCs"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-cmgcps1",
+      "quote": "you can contact the District Social Welfare Officer or Extension Officer (Social Welfare)."
+    }
+  ],
+  "gaps": [
+    "No helpline number or G.O. number on the source pages.",
+    "The Scheme II page has a copied line saying the family should have only one female child; its FAQ says two girls. The FAQ is used.",
+    "The pages do not give the current interest rate on the deposit."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The myScheme pages cite a 2022 citizen's charter, so the Rs 72,000 income limit and amounts may be old, and the Scheme II page has one contradicting line.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "agri-pm-kusum-solar-pumps",
+  "type": "scheme",
+  "name_en": "PM-KUSUM / Solar Powered Pumpsets Scheme (Tamil Nadu)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of New and Renewable Energy (MNRE); in Tamil Nadu run by the Agricultural Engineering Department",
+  "audiences": [
+    "farmers"
+  ],
+  "benefit": "You get a standalone solar pump (3 HP to 15 HP) for irrigation with a big subsidy. Small and marginal SC/ST farmers get 80%. Other SC/ST farmers and small and marginal general farmers get 70%. Other general farmers get 60%. For pumps above 7.5 HP, the subsidy is only for 7.5 HP.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "farmer"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must have a reliable water source but no electricity connection for it.",
+      "New wells must be in 'safe' firkas for ground water. In other areas, only diesel pumps can be replaced with solar.",
+      "Farmers who pay their share first get the pump first.",
+      "Not for Chennai district."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Apply online at pmkusum.tn.gov.in. Do not pay money on fake PM-KUSUM websites.",
+  "where_to_apply": "Agricultural Engineering Department: Assistant Engineer or Junior Engineer at the block, Assistant Executive Engineer at the revenue division, Executive Engineer at the district.",
+  "helpline": "1800-180-3333 (MNRE toll free)",
+  "go_number": null,
+  "sources": [
+    "agri-cc-agri-2026",
+    "agri-kusum-home",
+    "agri-kusum-tn-faq"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "Provision of Off-grid Standalone Solar powered pumpsets (AC and DC type) with capacities ranging from 3 HP to 15 HP for irrigation purposes to farmers."
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "80% subsidy assistance will be provided to Small and"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "and Scheduled Tribe categories, 70% subsidy"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "belonging to the general category and 60% subsidy"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-cc-agri-2026",
+      "quote": "with subsidy limited to that of 7.5 HP."
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-kusum-tn-faq",
+      "quote": "Individual farmers, Water User Associations and community/cluster based irrigation system will be covered under this component."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-cc-agri-2026",
+      "quote": "All farmers who have a reliable water source for irrigation but without an electrical power connection."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-cc-agri-2026",
+      "quote": "New irrigation wells should be located in safe firkas of ground water extraction"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-cc-agri-2026",
+      "quote": "diesel engine pumpsets used in reliable water sources shall be replaced with solar powered pumpsets."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-cc-agri-2026",
+      "quote": "Solar powered pumpsets will be installed on a priority basis for farmers who remit their beneficiary contribution amount first."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-cc-agri-2026",
+      "quote": "All districts (except Chennai)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "To apply:pmkusum.tn.gov.in"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-kusum-home",
+      "quote": "प्रधानमंत्री-कुसुम योजना के नाम पर धोखाधड़ी करने वाली वैबसाइटों से सावधान"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "Assistant Engineer / Junior Engineer , Agricultural Engineering Department"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "agri-cc-agri-2026",
+      "quote": "Assistant Executive Engineer, Agricultural Engineering Department."
+    },
+    {
+      "field": "helpline",
+      "source": "agri-kusum-home",
+      "quote": "टोल फ्री नंबर 1800-180-3333"
+    }
+  ],
+  "gaps": [
+    "The sources do not list documents needed.",
+    "The national FAQ says 30% central + 30% state subsidy (farmer pays 40%); the Tamil Nadu 2026-27 charter gives 60-80% by category. The Tamil Nadu figures are used.",
+    "The helpline is the national MNRE number, shown on the portal in Hindi."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Tamil Nadu subsidy rates come from the official 2026-27 Agriculture citizen charter.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

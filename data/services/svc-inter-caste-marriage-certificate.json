@@ -1,0 +1,130 @@
+{
+  "id": "svc-inter-caste-marriage-certificate",
+  "type": "service",
+  "title_en": "Inter-caste marriage certificate",
+  "name_ta": "கலப்புத் திருமணச் சான்றிதழ்",
+  "department": "Revenue Department, Government of Tamil Nadu",
+  "what_it_is": "The Inter Caste Marriage Certificate is a certificate from the Revenue Department of Tamil Nadu. You can ask for it online through e-Sevai.",
+  "who_can_apply": null,
+  "documents": [
+    "One photo of husband and wife together",
+    "Permanent community certificate of the groom",
+    "Permanent community certificate of the bride",
+    "Marriage registration certificate",
+    "Self-declaration",
+    "Any address proof"
+  ],
+  "how_to_apply": "Make a free login on the e-Sevai citizen site with 'sign up', or go to an e-Sevai centre. You need a CAN (Citizen Access Number). Fill the form, upload your papers and pay. When the officer approves and signs it digitally, you can download the certificate. Check where it is with 'Check Status' and your application number.",
+  "where_to_apply": "Any e-Sevai centre (Common Service Centre), or online at tnesevai.tn.gov.in.",
+  "fee": "Rs 60 service charge at e-Sevai. No department charge (Rs 0).",
+  "time_limit": "The e-Sevai service list gives a time of 15 days.",
+  "validity": null,
+  "helpline": "e-Sevai helpdesk, toll-free 1800 425 6000.",
+  "sources": [
+    "svc-esevai-list",
+    "svc-esevai-services",
+    "svc-esevai-citizen",
+    "svc-esevai-faq",
+    "svc-cra-ecert-ta",
+    "svc-um-intercaste"
+  ],
+  "evidence": [
+    {
+      "field": "what_it_is",
+      "source": "svc-esevai-services",
+      "quote": "Revenue Administration Inter Caste Marriage Certificate Operator"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-cra-ecert-ta",
+      "quote": "பின்வரும் மின்னணு சான்றிதழ்கள் / சேவைகள் இணையவழியில் வழங்கப்படுகின்றன"
+    },
+    {
+      "field": "name_ta",
+      "source": "svc-cra-ecert-ta",
+      "quote": "கலப்புத் திருமணச் சான்றிதழ்"
+    },
+    {
+      "field": "documents",
+      "source": "svc-esevai-services",
+      "quote": "1. Combined Photo of Husband and Wife 2. Permanent Community Certificate of the Groom 3. Permanent Community Certificate of the Bride 4. Marriage Registration Certificate"
+    },
+    {
+      "field": "documents",
+      "source": "svc-esevai-services",
+      "quote": "5. Self-Declaration of Applicant 6. Any Address Proof"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-esevai-citizen",
+      "quote": "the citizen have to register their profile by clicking ‘sign up’"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-esevai-faq",
+      "quote": "CAN is Citizen Access Number required to avail all e-Sevai services"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-intercaste",
+      "quote": "provided he/she is having a unique CAN number"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-um-intercaste",
+      "quote": "Once the application is approved and digitally signed"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-esevai-faq",
+      "quote": "go to the \"Check Status\" tab and enter your application number"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-esevai-list",
+      "quote": "List of Services Offered in eSevai Centres"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-esevai-citizen",
+      "quote": "to public through Common Service Centers (CSC’s)"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "REV-113 Inter-caste Marriage certificate 0 60"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-list",
+      "quote": "Department Charges Service Charge"
+    },
+    {
+      "field": "helpline",
+      "source": "svc-esevai-list",
+      "quote": "Toll Free Number : 18004256000"
+    },
+    {
+      "field": "time_limit",
+      "source": "svc-esevai-services",
+      "quote": "Inter Caste Marriage Certificate Operator 15 Days"
+    }
+  ],
+  "gaps": [
+    "The source does not explain what the certificate is used for.",
+    "The sources do not say who can apply.",
+    "The sources do not say how long the certificate is valid."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Fee and document list come from the e-Sevai site, which says it was last updated on 10/04/2023, and the step guide is from 2016, so the fee or steps may have changed.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "hb-apy",
+  "type": "scheme",
+  "name_en": "Atal Pension Yojana (APY)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Department of Financial Services, Ministry of Finance, Government of India (run by PFRDA)",
+  "audiences": [
+    "workers"
+  ],
+  "benefit": "A pension for your old age. You pay a small amount every month, quarter or half year until age 60. After 60, you get a guaranteed pension of Rs 1,000, Rs 2,000, Rs 3,000, Rs 4,000 or Rs 5,000 a month for life. After you die, your husband or wife gets the same pension. After both die, your nominee gets the saved money.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 40,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a citizen of India with a savings bank account."
+    ]
+  },
+  "documents": [
+    "APY application form"
+  ],
+  "how_to_apply": "Fill the APY form and give it to your bank or post office. Your payment is taken from your savings account by auto-debit until you turn 60.",
+  "where_to_apply": "Any bank (including regional rural and co-operative banks), or the post office",
+  "helpline": "1800-180-1111 or 1800-110-001 (national toll free)",
+  "go_number": null,
+  "sources": [
+    "hb-apy-rules",
+    "hb-jansuraksha-rules"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-apy-rules",
+      "quote": "receive a Central Government guaranteed minimum pension of Rs. 1000 per month or Rs. 2000 per month or Rs. 3000 per month or Rs. 4000 per month or Rs. 5000 per month, after the age of 60 years until death"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-apy-rules",
+      "quote": "the spouse of the subscriber shall be entitled to receive the same pension amount as that of the subscriber until the death of the spouse"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-apy-rules",
+      "quote": "the nominee of the subscriber shall be entitled to receive the pension wealth"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-apy-rules",
+      "quote": "in monthly, quarterly or half-yearly frequency"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "hb-apy-rules",
+      "quote": "The minimum age of joining APY is 18 years and maximum age is 40 years."
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "hb-apy-rules",
+      "quote": "The minimum age of joining APY is 18 years and maximum age is 40 years."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-apy-rules",
+      "quote": "APY is open to all citizens of India who have a savings bank account."
+    },
+    {
+      "field": "documents",
+      "source": "hb-apy-rules",
+      "quote": "by submitting the duly completed application form to any enrolment agency"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-apy-rules",
+      "quote": "by submitting the duly completed application form to any enrolment agency"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-apy-rules",
+      "quote": "through the facility of ‘auto-debit’ of the prescribed contribution amount from the savings bank account"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "hb-apy-rules",
+      "quote": "All banks, including all nationalised banks, private banks, banking companies, regional rural banks,"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "hb-apy-rules",
+      "quote": "such as, Department of Posts under CBS Platform"
+    },
+    {
+      "field": "helpline",
+      "source": "hb-jansuraksha-rules",
+      "quote": "National Toll-Free - 1800-180-1111 / 1800-110-001"
+    }
+  ],
+  "gaps": [
+    "The saved rules are from the October 2015 notification. Later changes to who can join are not in this source.",
+    "The 2015 co-contribution by the government (for those who joined before 31.12.2015, for 5 years) has ended and is left out.",
+    "The contribution table by age is in the source but too long to quote here."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Only the 2015 notification was saved; later official changes to who can join are not checked, so confirm eligibility at the bank.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "rt-legal-aid",
+  "type": "right",
+  "topic": "legal_aid",
+  "title_en": "You may get a free lawyer",
+  "law": "Legal Services Authorities Act, 1987, Sections 12 and 13",
+  "rule_plain": "Some people get free legal help for a court case. This includes women and children, SC and ST people, people with disability, victims of trafficking or disasters, industrial workers, people in custody, and people with low income. In Tamil Nadu, the income limit is Rs 3,00,000 a year for cases in courts other than the Supreme Court. Legal aid is fully free, and the form is free too.",
+  "what_you_can_do": [
+    "Call the NALSA helpline 15100 (toll-free) for urgent legal help.",
+    "Go to the District Legal Services Authority in the District Court, or the Taluk Legal Services Committee in your taluk court.",
+    "You can apply in person, by post, by e-mail or online on the NALSA LSMS portal.",
+    "You can give a sworn statement (affidavit) about your income."
+  ],
+  "where_to_get_help": "NALSA helpline 15100; District Legal Services Authority (District Court) or Taluk Legal Services Committee; Tamil Nadu State Legal Services Authority.",
+  "sources": [
+    "rt-lsa-act",
+    "rt-tnslsa-aid",
+    "rt-nalsa-faqs"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-lsa-act",
+      "quote": "THE LEGAL SERVICES AUTHORITIES ACT, 1987"
+    },
+    {
+      "field": "law",
+      "source": "rt-lsa-act",
+      "quote": "12. Criteria for giving legal services."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-lsa-act",
+      "quote": "a member of a Scheduled Caste or Scheduled Tribe;"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-lsa-act",
+      "quote": "a woman or a child;"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-lsa-act",
+      "quote": "an industrial workman; or"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tnslsa-aid",
+      "quote": "a victim of trafficking in human beings"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tnslsa-aid",
+      "quote": "a person with disability"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tnslsa-aid",
+      "quote": "victim of a mass disaster"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tnslsa-aid",
+      "quote": "in custody"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tnslsa-aid",
+      "quote": "does not exceed Rs. 3,00,000/- (Rupees Three Lakh only) shall be entitled to legal services, if the case is before a court other than the Supreme Court."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-nalsa-faqs",
+      "quote": "Legal services provided by the Legal Services Institutions are completely free of cost to the beneficiary."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-nalsa-faqs",
+      "quote": "there is absolutely no charge for getting or submitting an application form for free legal aid"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nalsa-faqs",
+      "quote": "NALSA Helpline Toll-Free Number 15100"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nalsa-faqs",
+      "quote": "District Legal Services Authority which is in the premises of the District Court"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nalsa-faqs",
+      "quote": "Taluka Legal Services Committee which is in the premises of the Court in that Taluka"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-nalsa-faqs",
+      "quote": "personally; or by post; or through NALSA’s Legal Services Management System (LSMS) portal; or through e-mail"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-lsa-act",
+      "quote": "An affidavit made by a person as to his income may be regarded as sufficient"
+    }
+  ],
+  "gaps": [
+    "The authority must also feel you have a fair case (Section 13 says a prima facie case).",
+    "Addresses and phone numbers of each District Legal Services Authority are not in the saved pages."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Act, TNSLSA page and NALSA FAQ agree; TN income limit is from TNSLSA's own page.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

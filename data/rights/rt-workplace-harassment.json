@@ -1,0 +1,109 @@
+{
+  "id": "rt-workplace-harassment",
+  "type": "right",
+  "topic": "workplace_harassment",
+  "title_en": "You can complain about sexual harassment at work",
+  "law": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, Sections 2, 4, 6 and 9",
+  "rule_plain": "Sexual harassment at work includes unwanted touching, asking for sexual favours, sexual remarks, showing pornography, and other unwanted sexual behaviour. Every office must have an Internal Committee. A woman can complain in writing within three months of the incident.",
+  "what_you_can_do": [
+    "Complain in writing to the Internal Committee at your workplace.",
+    "If your workplace has fewer than ten workers, or the complaint is against the employer, complain to the Local Committee set up by the District Collector.",
+    "If you cannot write, a committee member must help you write the complaint.",
+    "The committee can give you three more months to complain if there was a good reason for the delay."
+  ],
+  "where_to_get_help": "Internal Committee at your workplace, or the Local Committee of your district. In Tamil Nadu, the District Social Welfare Officer is the nodal officer.",
+  "sources": [
+    "rt-posh-act",
+    "rt-tn-posh"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-tn-posh",
+      "quote": "Sexual Harassment of Women at Workplace (prevention, Prohibition and Redressal) Act, 2013 is implemented"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-posh-act",
+      "quote": "physical contact and advances; or"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-posh-act",
+      "quote": "a demand or request for sexual favours; or"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-posh-act",
+      "quote": "making sexually coloured remarks; or"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-posh-act",
+      "quote": "showing pornography; or"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-posh-act",
+      "quote": "any other unwelcome physical, verbal or non-verbal conduct of sexual"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-posh-act",
+      "quote": "Any aggrieved woman may make, in writing, a complaint of sexual harassment at"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-posh-act",
+      "quote": "within a period of three months from the date of incident"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-tn-posh",
+      "quote": "Internal Complaints Committee (ICC) have to be established in all offices"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-posh-act",
+      "quote": "to having less than ten workers or if the complaint is"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-posh-act",
+      "quote": "shall render all reasonable assistance to the woman for"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-posh-act",
+      "quote": "extend the time limit not exceeding three"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-posh",
+      "quote": "The District Collectors are notified as District Officers who will constitute Local Complaints Committee (LCC) in every district."
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-posh",
+      "quote": "District Social Welfare Officers are the Nodal Officers"
+    }
+  ],
+  "gaps": [
+    "The saved Act copy (Ministry of Women and Child Development) is a scanned gazette with some reading errors; only clean lines are quoted.",
+    "Names and phone numbers of each district's Local Committee are on the TN page as files, which were not saved."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Act text and TN Social Welfare page agree.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "rt-child-marriage",
+  "type": "right",
+  "topic": "child_marriage",
+  "title_en": "Child marriage is banned",
+  "law": "Prohibition of Child Marriage Act, 2006, Sections 2, 3, 9, 10, 11 and 13",
+  "rule_plain": "A girl must be at least 18 and a boy at least 21 to marry. A man over 18 who marries a child can get up to two years in strict jail or a fine up to Rs 1 lakh. People who perform, help or allow a child marriage, including parents, can also be punished.",
+  "what_you_can_do": [
+    "Call Child Helpline 1098. It is free and works 24 hours a day.",
+    "Tell the District Social Welfare Officer. In Tamil Nadu this officer is the Child Marriage Prohibition Officer.",
+    "A court can issue an order to stop a child marriage before it happens.",
+    "A person married as a child can ask the district court to cancel the marriage, any time before they turn 20 (two years after becoming an adult)."
+  ],
+  "where_to_get_help": "Child Helpline 1098, District Social Welfare Officer (Child Marriage Prohibition Officer), or the police.",
+  "sources": [
+    "rt-pcma-act",
+    "rt-tn-pcma",
+    "rt-bvmb-pib"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-pcma-act",
+      "quote": "THE PROHIBITION OF CHILD MARRIAGE ACT, 2006"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-pcma-act",
+      "quote": "“child” means a person who, if a male, has not completed twenty-one years of age, and if a"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-pcma-act",
+      "quote": "female, has not completed eighteen years of age;"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-pcma-act",
+      "quote": "being a male adult above eighteen"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-pcma-act",
+      "quote": "contracts a child marriage shall be punishable with rigorous imprisonment which may"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-pcma-act",
+      "quote": "extend to two years or with fine which may extend to one lakh rupees or with both."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-pcma-act",
+      "quote": "Whoever performs, conducts, directs or abets"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-pcma-act",
+      "quote": "any person having charge of the child, whether as parent or guardian"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-bvmb-pib",
+      "quote": "Child Helpline (1098) provides a 24x7 toll-free emergency outreach service for children in distress, including cases relating to child marriage"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-pcma",
+      "quote": "The District Social Welfare Officers of each district are appointed as Child Marriage Prohibition Officer"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-pcma-act",
+      "quote": "Power of court to issue injunction prohibiting child marriages."
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-pcma-act",
+      "quote": "shall be voidable at the"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-pcma-act",
+      "quote": "completes two years of attaining majority."
+    }
+  ],
+  "gaps": [
+    "The saved Act copy is from Mission Vatsalya (Ministry of Women and Child Development); it has no 'as on' date.",
+    "Phone numbers of District Social Welfare Officers are not in the saved pages."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Act text and a March 2026 PIB note for 1098 agree.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

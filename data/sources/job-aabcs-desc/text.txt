@@ -1,0 +1,86 @@
+MSME
+Micro, Small and Medium Enterprises Department
+குறு, சிறு மற்றும் நடுத்தரத் தொழில் நிறுவனங்கள் துறை
+Annal Ambedkar Business Champions Scheme (AABCS)
+Home
+Dashboard
+About
+About AABCS
+G.O & Guidelines
+Flow Chart
+Guidelines
+Check your Eligibility
+FAQ
+Dos & Don'ts
+Filing Procedure
+Online Blank Application
+Online Filled Application
+Documents to be Uploaded
+Apply Online
+New Application
+Pending Application
+Upload Documents
+Download Filed Application
+Track Your Status
+Contact Us
+Department Login
+Feed back
+Dashboard
+About
+About AABCS
+G.O & Guidelines
+Flow Chart
+Guidelines
+Check your Eligibility
+FAQ
+Dos & Don'ts
+Filing Procedure
+Online Blank Application
+Online Filled Application
+Documents to be Uploaded
+Apply Online
+New Application
+Pending Application
+Upload Documents
+Download Filed Application
+Track Your Status
+Contact Us
+Department Login
+--> Feed back
+தமிழ்
+தமிழ்
+About AABCS
+AABCS
+35% capital subsidy ( Not exceeding Rs 1.5 crore) on eligible project cost
+Project cost include land, plant, machinery, testing equipment and computing devices with cost of land not exceeding 20% of project cost. Vehicles shall be considered if it integral to the business process
+6% interest subvention for loans to procure machinery and equipment during the tenure of loan not exceeding 10 years. Interest subvention will be upfront and given to banks
+Working capital sanctioned for the project shall be eligible for interest subvention for a period not exceeding 2 years
+Cover projects without credit linkage also and in such cases capital subsidy will be released back ended
+No bar on beneficiary to claim additional capital subsidy from schemes operated by agencies not controlled by Govt. of Tamil Nadu
+Beneficiaries belonging to SC/ST communities (100% owned by SC/ST persons)
+Covering new and expansion of existing enterprises
+Covering Trading related projects which are above the threshold of assistance under the existing Unemployed Youth Employment Generation programme
+Beneficiaries shall be with age limit of 55 years
+No minimum educational qualification
+Application shall be filed through online only msmeonline.tn.gov.in/aabcs/
+Application shall be filed through online only msmeonline.tn.gov.in
+-->
+Contact Us
+FAQ
+Follow us on
+$('.open-popup-link').magnificPopup({
+type: 'inline',
+midClick: true,
+gallery: {
+enabled: true
+},
+mainClass: 'mfp-fade'
+});
+$('.open-popup-link1').magnificPopup({
+type: 'inline',
+midClick: true,
+gallery: {
+enabled: true
+},
+mainClass: 'mfp-fade'
+});

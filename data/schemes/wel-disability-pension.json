@@ -1,0 +1,125 @@
+{
+  "id": "wel-disability-pension",
+  "type": "scheme",
+  "name_en": "Differently Abled Pension Scheme (with Indira Gandhi National Disability Pension Scheme)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Revenue Administration and Disaster Management Department, Government of Tamil Nadu",
+  "audiences": [
+    "disabled"
+  ],
+  "benefit": "You get Rs 1,500 every month (raised from Rs 1,000 on 1 January 2023). If you are very poor and have 80% disability or more, part of this comes from the central IGNDPS scheme. You also get a free saree or dhoti at Pongal and Deepavali, and free rice.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must have 40% disability or more.",
+      "You must have no job. If you work in a private job or for yourself, your income must not be more than Rs 3 lakh a year.",
+      "For the central IGNDPS part: 80% disability or more, and your family must be below the poverty line."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Apply online on the TN e-Sevai website (tnesevai.tn.gov.in). Revenue officers check your form. If you are eligible, the Special Tahsildar (Social Security Scheme) orders your pension. Forms are settled within 30 days.",
+  "where_to_apply": "TN e-Sevai website (tnesevai.tn.gov.in)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "wel-cra-schemes-ta",
+    "wel-pib-nsap"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "மாற்றுத் திறனாளிகளுக்கான மாதாந்திர ஓய்வூதியம் ரூ.1,000/- ஆக வழங்கப்பட்டு வந்த நிலையில், 01.01.2023 முதல் ரூ.1,500/- ஆகவும்"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "மாற்றுத் திறனுடையோர் ஓய்வூதியத் திட்டம் - 1500/- 1500/-"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "இந்திராகாந்தி தேசிய மாற்றுத் திறனுடையோர் ஓய்வூதியத் திட்டம் 300/- 1200/- 1500/-"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-pib-nsap",
+      "quote": "The beneficiaries are eligible for central assistance of Rs.300 per month."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "wel-cra-schemes-ta",
+      "quote": "மாற்றத் திறனாளிகள் ஓய்வூதியத் திட்டம். வேலையற்றவராக இருத்தல் வேண்டும். தனியார் மற்றும் சுயவேலைவாய்ப்புத் திட்டத்தின் கீழ் இருப்போரின் ஆண்டு வருமானம் ரூ.3 இலட்சத்திற்கு மிகாமல் இருத்தல் வேண்டும். வயது – 18 மற்றும் அதற்கு மேல் உள்ளவராகவும் இருத்தல் வேண்டும்."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-cra-schemes-ta",
+      "quote": "மாற்றுத் திறன் நிலை – 40 சதவிகிதம் மற்றும் அதற்கு மேல் இருத்தல் வேண்டும்."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-cra-schemes-ta",
+      "quote": "தனியார் மற்றும் சுயவேலைவாய்ப்புத் திட்டத்தின் கீழ் இருப்போரின் ஆண்டு வருமானம் ரூ.3 இலட்சத்திற்கு மிகாமல் இருத்தல் வேண்டும்."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-cra-schemes-ta",
+      "quote": "மாற்றுத் திறன் நிலை – 80 சதவிகிதம் அல்லது அதற்கு மேலும், வறுமைக்கோட்டிற்கு கீழ் உள்ளவராகவும்"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "https://www.tnesevai.tn.gov.in என்ற இணைதளம் உருவாக்கப்பட்டுள்ளது"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "தனி வட்டாட்சியர் (சமூக பாதுகாப்புத் திட்டம்) மூலம் ஓய்வூதியம் வழங்க உத்தரவிடப்படுகிறது"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "30 தினங்களுக்குள் தீர்வு செய்யப்படுகின்றன"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "சமூக பாதுகாப்புத் திட்டங்களுக்கு விண்ணப்பிக்கும் செயல்முறையை எளிதாக்குவதற்காக, https://www.tnesevai.tn.gov.in"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "பெண் பயனாளிகளுக்கு ஒரு சேலையும் வழங்கப்பட்டு வருகிறது"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-cra-schemes-ta",
+      "quote": "அங்கன்வாடி மையங்களில் உணவு உட்கொள்ளாதவர்களுக்கு மாதம் 4 கிலோ அரிசி வழங்கப்படுகிறது"
+    }
+  ],
+  "gaps": [
+    "The source does not list the papers you need.",
+    "No helpline or G.O. number for this pension in the source.",
+    "The rule says you must be jobless, but also gives a Rs 3 lakh income limit for private or self-employed people; both are shown as the source says.",
+    "The PIB note says IGNDPS covers ages 18 to 79 at the central level; the Tamil Nadu page gives only 18 and above."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Amount and rules come from the official Revenue Administration page, which shows the 2023 raise to Rs 1,500.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

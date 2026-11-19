@@ -59,16 +59,33 @@ export interface Notice extends Base {
   who_it_affects: string;
 }
 
-export type Entry = Scheme | Right | Notice;
+/** A certificate or everyday government service (community certificate, patta, ration card...). */
+export interface Service extends Base {
+  type: 'service';
+  title_en: string;
+  name_ta: string | null;
+  department: string;
+  what_it_is: string;
+  who_can_apply: string | null;
+  documents: string[] | null;
+  how_to_apply: string;
+  where_to_apply: string | null;
+  fee: string | null;
+  time_limit: string | null;
+  validity: string | null;
+  helpline: string | null;
+}
 
-const d = demo as unknown as { schemes: Scheme[]; rights: Right[]; notices: Notice[] };
+export type Entry = Scheme | Right | Notice | Service;
 
-export const entries: Entry[] = [...d.schemes, ...d.rights, ...d.notices];
+const d = demo as unknown as { schemes: Scheme[]; rights: Right[]; notices: Notice[]; services?: Service[] };
+
+export const entries: Entry[] = [...d.schemes, ...d.rights, ...d.notices, ...(d.services ?? [])];
 export const byId = new Map(entries.map((e) => [e.id, e]));
 
 export function titleOf(e: Entry): string {
   if (e.type === 'scheme') return e.name_en;
-  if (e.type === 'right') return e.title_en;
+  if (e.type === 'right' || e.type === 'service') return e.title_en;
   return e.title;
 }
 
@@ -89,6 +106,7 @@ export function catalogue(): string {
         return `${e.id} | scheme | ${e.name_en}${e.name_ta ? ` (${e.name_ta})` : ''} | for: ${e.audiences.join(', ')} | ${e.benefit.slice(0, 160)}`;
       }
       if (e.type === 'right') return `${e.id} | right | ${e.title_en} | topic: ${e.topic}`;
+      if (e.type === 'service') return `${e.id} | service | ${e.title_en}${e.name_ta ? ` (${e.name_ta})` : ''} | ${e.what_it_is.slice(0, 140)}`;
       return `${e.id} | notice | ${e.title} | ${e.says.slice(0, 140)}`;
     })
     .join('\n');

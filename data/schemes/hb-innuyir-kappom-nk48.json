@@ -1,0 +1,146 @@
+{
+  "id": "hb-innuyir-kappom-nk48",
+  "type": "scheme",
+  "name_en": "Innuyir Kappom Thittam - Nammai Kaakkum 48",
+  "name_ta": null,
+  "level": "state",
+  "department": "Health and Family Welfare Department, Government of Tamil Nadu (Tamil Nadu Health Systems Project)",
+  "audiences": [
+    "everyone"
+  ],
+  "benefit": "If you are hurt in a road accident in Tamil Nadu, you get free (cashless) emergency care in the first 48 hours. You get it even if you do not have a CMCHIS card. It is given only in hospitals that are part of the scheme. The 2022 order set the limit at Rs 1,00,000 per person. A later order (G.O. 419) raised this limit, and the scheme is extended for 2025-2027.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You were hurt in a road accident inside Tamil Nadu.",
+      "People from other states and foreigners are also covered.",
+      "It does not cover assault, injuries at home, falls from height, train accidents, animal bites, self-harm, work-place injuries, burns or cracker blasts."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "You do not need to apply. Go to (or be taken to) a hospital that is part of Nammai Kaakkum 48. Treatment is cashless.",
+  "where_to_apply": "Government and private hospitals listed under Nammai Kaakkum 48 (many are along highways).",
+  "helpline": null,
+  "go_number": "G.O.(Ms) No.46, Health and Family Welfare Department, dated 03.02.2022",
+  "sources": [
+    "hb-ik48-go46-tn",
+    "hb-cmchis-gos",
+    "hb-cmchis-home"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-cmchis-home",
+      "quote": "provide immediate, life-saving medical care for road accident victims within the first 48 hours of the incident"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-ik48-go46-tn",
+      "quote": "measures costing upto Rs. 1.00 lakh per individual will be extended on a cashless"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-ik48-go46-tn",
+      "quote": "irrespective of whether they possess a Chief Minister's"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-ik48-go46-tn",
+      "quote": "Packages applicable only Up io 48 Hours"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-cmchis-gos",
+      "quote": "G.O (MS) No.419 Nammai Kakkum 48 - To increase ceiling limit for cashless Treatment"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-cmchis-gos",
+      "quote": "Innuyir Kappom - Nammai Kakkum 48 Extended under assurance mode for policy Year 2025-2027"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-ik48-go46-tn",
+      "quote": "All accident victims on road within TN border including tourists from other"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-ik48-go46-tn",
+      "quote": "Accident victims brought by Good Samaritans"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-ik48-go46-tn",
+      "quote": "Accident victims who come by themselves"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-ik48-go46-tn",
+      "quote": "Unknown accident victim brought by police, or Good Samaritans"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-ik48-go46-tn",
+      "quote": "IKT - NKK 48 Exclusion criteria"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-ik48-go46-tn",
+      "quote": "Assault injuries"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-ik48-go46-tn",
+      "quote": "Train traffic accident injuries"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-ik48-go46-tn",
+      "quote": "Occupational work place injuries"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-ik48-go46-tn",
+      "quote": "will be extended on a cashless"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "hb-ik48-go46-tn",
+      "quote": "empanelled hospitals along highways including Government Hospitals"
+    },
+    {
+      "field": "go_number",
+      "source": "hb-ik48-go46-tn",
+      "quote": "G.O.(Ms)No.46"
+    },
+    {
+      "field": "go_number",
+      "source": "hb-ik48-go46-tn",
+      "quote": "Dated: 03.02.2022"
+    }
+  ],
+  "gaps": [
+    "The new limit set by G.O. (Ms) No.419 (December 2024) is not in a checked source. The G.O. PDFs on docs.cmchistn.com say Rs 2,00,000, but that host is not on the checker's allowed list, and the copy on cms.tn.gov.in is a scanned image with no text.",
+    "No helpline number for the scheme in the saved sources.",
+    "The list of hospitals is not in the saved sources.",
+    "The list of who is covered and not covered is from the 2022 guidelines (G.O. 46)."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The checked source gives the old Rs 1 lakh limit from 2022; a later order raised it, so do not quote an amount without that newer order.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

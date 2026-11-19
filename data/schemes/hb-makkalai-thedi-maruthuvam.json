@@ -1,0 +1,78 @@
+{
+  "id": "hb-makkalai-thedi-maruthuvam",
+  "type": "scheme",
+  "name_en": "Makkalai Thedi Maruthuvam (MTM)",
+  "name_ta": null,
+  "level": "state",
+  "department": "National Health Mission Tamil Nadu, Department of Health & Family Welfare, Government of Tamil Nadu",
+  "audiences": [
+    "everyone",
+    "seniors",
+    "disabled"
+  ],
+  "benefit": "Health workers come to your home. They check you for high blood pressure and diabetes. If you are 45 or older and eligible, they bring your BP and sugar medicines to your door. A nurse and physiotherapist also give care at home to people who are very sick or bedridden, and help kidney patients on home dialysis (CAPD bags).",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Home delivery of BP and sugar medicines is for eligible people aged 45 years and above."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": null,
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "hb-mtm-nhm"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-mtm-nhm",
+      "quote": "provides preliminary screening services for Hypertension and Diabetes"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-mtm-nhm",
+      "quote": "doorstep delivery of HT & DM medicines to eligible beneficiaries aged 45 years and above"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-mtm-nhm",
+      "quote": "provide Home-based Palliative care and Physiotherapy services"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-mtm-nhm",
+      "quote": "CAPD bag distribution for End Stage Kidney Failure patients"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-mtm-nhm",
+      "quote": "eligible beneficiaries aged 45 years and above"
+    }
+  ],
+  "gaps": [
+    "The page does not say how to sign up or whom to call.",
+    "The page does not list papers needed or a helpline.",
+    "The page does not say exactly who is 'eligible' for home medicine delivery beyond the age of 45."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Official NHM Tamil Nadu page with figures up to 31.03.2026; it says what you get but not how to join.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

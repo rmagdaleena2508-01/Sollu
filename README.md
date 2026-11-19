@@ -65,7 +65,7 @@ I'd rather show you an honest list than a big promise.
 | Landing page (English + Tamil, phone + desktop) | ✅ Live at [sollu-ai.vercel.app](https://sollu-ai.vercel.app) |
 | Product plan, user flows and copy for every page | ✅ Done, in [FLOW.md](FLOW.md) |
 | Official data sources for Tamil Nadu, researched | ✅ Done, in [DATA-SOURCES.md](DATA-SOURCES.md) |
-| **Checked demo data:** 19 schemes, 5 rights topics, 3 real notices | ✅ Done, in [data/](data/README.md). Every fact is quoted from an official page |
+| **Checked data:** 67 schemes, 15 rights topics, 16 certificates and services, 3 real notices (101 entries) | ✅ Done, in [data/](data/README.md). Every fact is quoted from an official page |
 | **Ask page** at `/ask`: speak or type, get a checked answer read aloud | ✅ Built and tested on my machine ([how](#how-i-tested-it)) |
 | Ask page on the live site | ✅ Live and demo-ready: saved demo answers, a health check, and a clear "busy" message ([build log](#build-log)) |
 | A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
@@ -230,7 +230,8 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 | Page | Checked in a browser at phone size (390px) and desktop (1440px), in English and Tamil: sample questions, typing, follow-up, play and stop | No sideways scroll, everything works |
 | Explain a photo | The 3 checked notices as photos (made from the official PDFs), in English and Tamil, plus a blurry photo, through `/api/read`; then on the page at 390px in headless Brave: tapping an example, and choosing a photo file | All 6 example answers match the checked notices and link to their source. A live read takes about 10 to 12 seconds; the examples answer in under 1 second from saved answers. The blurry photo gets *"I couldn't read this photo clearly"*. I also tried a real legal notice that its receiver had published online, on my machine only, but Gemini was busy every time, so that test isn't done. Those files are not in the repo, and the live examples use government notices only |
 | Code | `npm run build` (strict TypeScript + production build) | Passes |
-| Data | `python3 data/tools/check.py` on all 28 entries | 28 pass, 1 held back by review |
+| Data | `python3 data/tools/check.py` on all 103 entries | 103 pass, 2 held back by review (one scheme that has likely ended) |
+| New data on the Ask and Check pages | 5 new questions on the local server: a savings scheme for a baby girl, a community certificate, a broken phone the shop won't replace, a road accident (in Tamil), online fraud. Then 5 sample people through `/api/check` | Each question found the right new entry (Sukanya Samriddhi and the Girl Child Protection Scheme, the e-Sevai community certificate, the consumer helpline 1915, Innuyir Kappom 48, the 1930 cyber helpline). Check results stay on topic: a farmer gets the 6 new farm schemes, a new mother gets PMMVY and Anganwadi food |
 
 **Not tested yet:** other phones, especially low-cost Android phones and iPhones, and noisy places like a bus stand or a ration shop queue. One phone working doesn't prove every phone works.
 
@@ -273,7 +274,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 21 | **Smoother scrolling:** hard CSS snapping replaced by a gentle glide. Sections still fill the screen, but scrolling moves freely, and the page eases onto a section only when you stop near its edge, in the direction you were going. | [#24](https://github.com/rmagdaleena2508-01/Sollu/pull/24) |
 | 22 | Fixed: the "Ask out loud" card vanished after its mic was tapped. | [#25](https://github.com/rmagdaleena2508-01/Sollu/pull/25) |
 | 23 | **Explain a notice from a photo:** a camera button on the Ask page and 3 example photos. Gemini reads the photo and explains it in 3 lines: what it says, what to do, by when. Every number in the answer is checked against the text read from the photo, and a photo of a notice we've already checked links to its official source. The photo is shrunk on the phone first and never stored. | [#26](https://github.com/rmagdaleena2508-01/Sollu/pull/26) |
-| 24 | **Free scrolling:** removed the section snapping and the glide completely. Sections are as tall as their content, so phones don't scroll through empty space. On phones the top bar has no blur, the fade-in has no blur, and a finger on a footer sticker still scrolls the page. | this change |
+| 24 | **Free scrolling:** removed the section snapping and the glide completely. Sections are as tall as their content, so phones don't scroll through empty space. On phones the top bar has no blur, the fade-in has no blur, and a finger on a footer sticker still scrolls the page. | [#27](https://github.com/rmagdaleena2508-01/Sollu/pull/27) |
+| 25 | **4 times the data:** 74 new checked entries, every fact quoted from an official page: 48 schemes (girl child savings, breakfast and noon meals, pensions for deserted wives, unmarried women, disabled and transgender people, job and business loans, farm and fishermen help, bank accounts, insurance, LPG, free accident treatment), 10 rights (consumer, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, workplace harassment, free school seats, cyber fraud) and 16 certificates and services (community, income, nativity, legal heir, birth, death, patta, encumbrance, ration card and more). A new "certificate or service" entry type. | this change |
 
 ### Problems I hit, and how I fixed them
 
@@ -286,6 +288,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | Cards in the fanned stack showed through each other | Made the side cards fully solid |
 | The Tamil button text didn't fit on a 390px phone | Shortened it to *"இலவசமா கேளுங்க"* |
 | `sollu.vercel.app` already belonged to a different app | Picked `sollu-ai.vercel.app` |
+| 19 Nov: after adding 74 entries, the Check page showed a deserted-wife pension, LPG for poor families and business loans as "may fit" for every woman or worker | Those depend on something the 5 questions don't ask (being deserted, below the poverty line, a street vendor or starting a business). They are now explained on the Ask page only. Pregnancy help (PMMVY, Anganwadi food) shows only when "pregnant or a new mother" is picked |
+| 19 Nov: some official pages couldn't be saved (the 100 free electricity units order is a scanned image; tnpds.gov.in shows a bot check; TAHDCO and Thozhi use non-government web addresses) | Left those facts out and listed them as gaps instead of filling them from memory. 100 free units and TAHDCO loans are not in the data yet |
 | 19 Nov: even the gentle glide onto sections felt wrong on a laptop and a phone | Took out all snapping. On phones, full-screen sections also left empty space, and the browser bar showing and hiding changed `dvh` while scrolling. Sections now fit their content, and only the desktop hero fills the screen, using `svh`, which stays put |
 | 19 Nov: the rice stock order's photo explained almost nothing (*"no date is given"*) | Its limits and dates are on page 2, and the photo showed page 1 only. The example photo now shows both pages side by side, the way you'd photograph them on a table |
 | 19 Nov: Tamil photo answers said *"15 December 2026"* with the month in English | The prompt now asks for Tamil month names (*டிசம்பர்*) |
@@ -548,7 +552,7 @@ These are the choices that make Sollu feel like Sollu.
 - [x] Landing page in English and Tamil
 - [x] Product flow and copy for every page ([FLOW.md](FLOW.md))
 - [x] Official data sources researched ([DATA-SOURCES.md](DATA-SOURCES.md))
-- [x] Checked demo data: 19 schemes, 5 rights topics, 3 notices
+- [x] Checked data: 67 schemes, 15 rights topics, 16 certificates and services, 3 notices
 - [x] Ask screen with voice in and voice out, and a text fallback
 - [x] Source card on every answer
 - [x] Ask page live on Vercel

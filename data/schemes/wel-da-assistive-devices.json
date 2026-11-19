@@ -1,0 +1,159 @@
+{
+  "id": "wel-da-assistive-devices",
+  "type": "scheme",
+  "name_en": "Assistive Devices for Differently Abled Persons (Retrofitted Petrol Scooters and more)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department for the Welfare of Differently Abled Persons, Government of Tamil Nadu",
+  "audiences": [
+    "disabled"
+  ],
+  "benefit": "The government gives aids to help you move, hear and see. These include retrofitted petrol scooters (for people whose both legs are affected), tricycles, wheelchairs, battery wheelchairs, calipers, crutches, artificial limbs, hearing aids, smart canes, goggles, magnifiers and Braille watches.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Retrofitted petrol scooter: you must be over 18, both legs affected, and be a student, work in a private job, or be self-employed.",
+      "Tricycle or wheelchair: you must be over 12 with both legs affected.",
+      "Battery wheelchair: for people with muscular dystrophy or tetraplegia.",
+      "Hearing aid: for students in class 6 and above, and working or self-employed people.",
+      "You must live in the district where you apply."
+    ]
+  },
+  "documents": [
+    "National identity card for differently abled persons",
+    "For hearing aids: hearing impairment certificate and a bonafide certificate from your school or college"
+  ],
+  "how_to_apply": "Get the form from the District Differently Abled Welfare Officer. Fill it and give it back with your national ID card for differently abled persons.",
+  "where_to_apply": "District Differently Abled Welfare Office in your district",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "wel-scd-spcl-devices",
+    "wel-scd-devices"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-scd-spcl-devices",
+      "quote": "Retrofitted petrol scooters are provided for orthopaedically affected persons, whose both legs are affected."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-devices",
+      "quote": "Tricycles are given to the deserving orthopaedically differently abled persons for their easy mobility."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-devices",
+      "quote": "Wheel Chairs are given to the needy identified and deserving orthopaedically differently abled and paraplegic persons"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-spcl-devices",
+      "quote": "Battery Operated Wheel chair are given to Muscular Dystrophy affected persons and for Tetra plegia persons."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-devices",
+      "quote": "Artificial limbs are provided for the amputees."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-spcl-devices",
+      "quote": "Behind the ear hearing aids are provided."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-spcl-devices",
+      "quote": "Modular reflective folding sticks are being distributed to needy visually impaired persons."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-devices",
+      "quote": "Magnifiers are distributed to needy students with low vision"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-devices",
+      "quote": "Braille watches are distributed to the working visually impaired persons"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-devices",
+      "quote": "Crutches are given to the needy and deserving orthopaedically differently abled persons"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-scd-devices",
+      "quote": "Goggles are being distributed to needy visually impaired persons"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-spcl-devices",
+      "quote": "The age of the beneficiary should be more than 18 years. The candidate should be orthopaedically differently abled student / working in private organisations / self employed person"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-devices",
+      "quote": "The candidate should be affected with both lower limbs and their upper limbs are normal, resident of the district/area and their age should be more than 12 years."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-spcl-devices",
+      "quote": "Persons affected by Muscular Dystrophy or Tetra plegia persons."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-spcl-devices",
+      "quote": "Students studying 6th standard and above and for self employed and employed persons."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-scd-devices",
+      "quote": "The orthopaedically differently abled person should be a resident of the area / District"
+    },
+    {
+      "field": "documents",
+      "source": "wel-scd-spcl-devices",
+      "quote": "National identity card for differently abled."
+    },
+    {
+      "field": "documents",
+      "source": "wel-scd-spcl-devices",
+      "quote": "National identity card with Hearing Impairment Certificate, Bonafide Certificate obtained from concerned School Head Master / College Principal."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-scd-spcl-devices",
+      "quote": "Yes. Applications are available with concerned District Differently Abled Welfare Officer."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-scd-spcl-devices",
+      "quote": "Officer to whom the application is to be submitted\nDistrict Differently Abled Welfare Officer"
+    }
+  ],
+  "gaps": [
+    "The page does not say the aids are free or give any cost.",
+    "No income limit, helpline or G.O. number on the page.",
+    "The page has no date; the list of aids may have changed."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Current official department pages list the aids and the office to apply at; the page does not say whether they are free, so do not claim that.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

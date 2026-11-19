@@ -1,0 +1,119 @@
+{
+  "id": "hb-pmay-gramin",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Awaas Yojana - Gramin (PMAY-G)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Rural Development, Government of India",
+  "audiences": [
+    "families"
+  ],
+  "benefit": "If you live in a village and have no house or a kutcha house, you get money to build a pucca house of at least 25 square metres. In plain areas like Tamil Nadu you get Rs 1,20,000, paid into your bank account in parts. You also get up to 95 days of MGNREGS work wages and Rs 12,000 for a toilet. You can take an optional bank loan of up to Rs 70,000.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "For rural families with no house, or living in a kutcha house.",
+      "Families are chosen from the SECC 2011 and AwaasPlus survey lists, checked at the Gram Sabha.",
+      "Priority for houseless families, SC/ST families, primitive tribal groups and women-headed families."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": "You cannot apply on your own. Families are picked from survey lists and checked at the Gram Sabha. You can check your status on the PMAY-G website. If your name is left out wrongly, you can appeal to the Block Development Officer (BDO) or file a complaint on CPGRAMS.",
+  "where_to_apply": "Gram Sabha and Block Development Officer (BDO); status check on pmayg.dord.gov.in",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "hb-pmayg-about"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-pmayg-about",
+      "quote": "PMAY-G provides financial grants directly to rural homeless families and those living in kutcha dwellings"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmayg-about",
+      "quote": "Minimum House Size: 25 square metres, including a dedicated kitchen area."
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmayg-about",
+      "quote": "Financial Grant (Plain Areas): ₹ 1,20,000 per house, delivered directly via bank transfer."
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmayg-about",
+      "quote": "Up to 95 person-days of daily wage employment under MGNREGS"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmayg-about",
+      "quote": "Sanitation Assistance: ₹ 12,000 for toilet construction"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmayg-about",
+      "quote": "optional low-interest bank loans up to ₹ 70,000 for house enlargement"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmayg-about",
+      "quote": "eligible families are identified based on housing deprivation and kutcha home criteria from the official SECC 2011 and updated AwaasPlus surveys"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmayg-about",
+      "quote": "Every draft list is read aloud and publicly validated at the local Gram Sabha village assembly."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmayg-about",
+      "quote": "houseless households, SC/ST families, primitive tribal groups, and female-headed households"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmayg-about",
+      "quote": "Rather than arbitrary selection, eligible families are identified"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmayg-about",
+      "quote": "can submit an appeal to the Block Development Officer (BDO) or District Appellate Committee, or file a grievance online via the national CPGRAMS Public Grievance Portal"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmayg-about",
+      "quote": "citizens can directly verify eligibility, track registered application status"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "hb-pmayg-about",
+      "quote": "publicly validated at the local Gram Sabha village assembly"
+    }
+  ],
+  "gaps": [
+    "The page does not list the full exclusion rules (who is not eligible).",
+    "No helpline number on the saved page.",
+    "Tamil Nadu may add its own money on top; that is not in this source.",
+    "PMAY-Urban was not added; this entry is for villages only."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Official PMAY-G About page, current site with the AwaasPlus 2024 survey; amounts unchanged since 2016.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

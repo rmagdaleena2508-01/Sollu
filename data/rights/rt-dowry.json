@@ -1,0 +1,113 @@
+{
+  "id": "rt-dowry",
+  "type": "right",
+  "topic": "dowry",
+  "title_en": "Giving, taking or asking for dowry is a crime",
+  "law": "Dowry Prohibition Act, 1961, Sections 2, 3 and 4",
+  "rule_plain": "Dowry is any property or valuable thing given or promised for a marriage, before, at or after the wedding. Giving or taking dowry can mean at least five years in jail and a fine of at least Rs 15,000 or the value of the dowry, whichever is more. Just asking for dowry can mean six months to two years in jail and a fine up to Rs 10,000.",
+  "what_you_can_do": [
+    "Gifts given at the wedding without any demand are not dowry.",
+    "Complain to the District Social Welfare Officer. In Tamil Nadu this officer is the Dowry Prohibition Officer.",
+    "You can also complain to the police. The police can send the complaint to the Dowry Prohibition Officer."
+  ],
+  "where_to_get_help": "District Social Welfare Officer (Dowry Prohibition Officer) of your district, or the police.",
+  "sources": [
+    "rt-dowry-act",
+    "rt-tn-dowry"
+  ],
+  "evidence": [
+    {
+      "field": "law",
+      "source": "rt-dowry-act",
+      "quote": "THE DOWRY PROHIBITION ACT, 1961"
+    },
+    {
+      "field": "law",
+      "source": "rt-dowry-act",
+      "quote": "3. Penalty for giving or taking dowry."
+    },
+    {
+      "field": "law",
+      "source": "rt-dowry-act",
+      "quote": "4. Penalty for demanding dowry."
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "“dowry” means any property or valuable security given or"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "in connection with the marriage of the said parties"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "or any time after the marriage"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "gives or takes or abets the giving or taking of dowry"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "five years, and with fine which shall not be less than fifteen thousand"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "rupees or the amount of the value of such dowry, whichever is more"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "If any person demands, directly or indirectly, from the parents"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "which shall not be less than six months, but which may extend"
+    },
+    {
+      "field": "rule_plain",
+      "source": "rt-dowry-act",
+      "quote": "to two years and with fine which may extend to ten thousand rupees"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-dowry-act",
+      "quote": "presents which are given at the time of a marriage to the bride (without any demand having"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-dowry",
+      "quote": "the District Social Welfare Officers have been designated as the Dowry Prohibition Officers"
+    },
+    {
+      "field": "what_you_can_do",
+      "source": "rt-tn-dowry",
+      "quote": "complaints referred by the Police are enquired into by the Dowry Prohibition Officers"
+    }
+  ],
+  "gaps": [
+    "The saved Act copy (Ministry of Women and Child Development) still says it does not extend to Jammu and Kashmir, so it may be an older print. The penalty wording matches the amended Act.",
+    "Gifts that are not dowry must be listed in writing under the rules; that detail is not in this entry."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Act copy looks like an older print (Jammu and Kashmir line), though the penalties are the amended ones.",
+    "reviewed_by": "Claude (AI reviewer, read entries and quotes against saved sources)",
+    "reviewed_on": "2026-11-19",
+    "human_review": "pending: the project owner should confirm amounts and current status before public use"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

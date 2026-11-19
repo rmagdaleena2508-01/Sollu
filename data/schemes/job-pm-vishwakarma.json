@@ -1,0 +1,191 @@
+{
+  "id": "job-pm-vishwakarma",
+  "type": "scheme",
+  "name_en": "PM Vishwakarma",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Micro, Small and Medium Enterprises, Government of India",
+  "audiences": [
+    "workers",
+    "entrepreneurs"
+  ],
+  "benefit": "Help for artisans in 18 traditional trades (like carpenter, blacksmith, goldsmith, potter, tailor, barber, mason). You get a certificate and ID card, skill training with Rs 500 a day stipend, a Rs 15,000 toolkit grant, and loans with no security: Rs 1 lakh first, then Rs 2 lakh, at 5% interest. You also get Re 1 per digital payment (up to 100 a month).",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must work with your hands and tools in one of the 18 family-based traditional trades, on your own (self-employed).",
+      "You must not have taken a similar government business loan (like PMEGP, PM SVANidhi or Mudra) in the past 5 years.",
+      "Only one person per family (husband, wife and unmarried children).",
+      "Government employees and their families cannot apply."
+    ]
+  },
+  "documents": [
+    "Aadhaar",
+    "Mobile number",
+    "Bank details",
+    "Ration card (or Aadhaar of all family members if you have no ration card)"
+  ],
+  "how_to_apply": "Register on the PM Vishwakarma portal through your nearest Common Service Centre (CSC). The CSC also helps you open a bank account if you have none.",
+  "where_to_apply": "Nearest Common Service Centre (CSC); help also at MSME-DFO offices and District Industries Centres",
+  "helpline": "Email pm-vishwakarma@dcmsme.gov.in",
+  "go_number": null,
+  "sources": [
+    "job-vishwakarma-home",
+    "job-vishwakarma-faq"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-vishwakarma-home",
+      "quote": "MINISTRY OF MICRO, SMALL & MEDIUM ENTERPRISES"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Recognition as Vishwakarma through Certificate and ID Card"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Training Stipend: Rs 500 per day"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Toolkit Incentive: Rs 15,000 grant"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Rs 1 lakh (First Tranche for 18 months repayment) & Rs 2 lakh (Second Tranche for 30 months repayment)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Concessional Rate of Interest: 5% to be charged from the beneficiary"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Re 1 per transaction for maximum upto100 transactions (monthly)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Carpenter (Suthar)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Potter (Kumhaar)"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "job-vishwakarma-home",
+      "quote": "The minimum age of the beneficiary should be 18 years on the date of registration."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-vishwakarma-home",
+      "quote": "engaged in one of the 18 family-based traditional trades mentioned in the scheme, in unorganized sector on self-employment basis"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-vishwakarma-home",
+      "quote": "PMEGP, PM SVANidhi, Mudra, in the past 5 years"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-vishwakarma-home",
+      "quote": "a 'family' is defined as consisting of the husband, wife and unmarried children"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-vishwakarma-home",
+      "quote": "A person in government service and their family members shall not be eligible under the Scheme."
+    },
+    {
+      "field": "documents",
+      "source": "job-vishwakarma-faq",
+      "quote": "produce documents like Aadhaar, mobile number, bank details, ration card mandatorily for the registration"
+    },
+    {
+      "field": "documents",
+      "source": "job-vishwakarma-faq",
+      "quote": "required to produce Aadhaar cards of all family members"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-vishwakarma-faq",
+      "quote": "they will be first required to open a bank account for which handholding shall be done by the CSC"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-vishwakarma-faq",
+      "quote": "may register on the portal www.pmvishwakarma.gov.in"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-vishwakarma-faq",
+      "quote": "You can visit your nearest Common Service Centres, MSME-Development and Facilitation Offices (MSME-DFO) or District Industry Centres (DIC)"
+    },
+    {
+      "field": "helpline",
+      "source": "job-vishwakarma-faq",
+      "quote": "pm-vishwakarma@dcmsme.gov.in"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Tailor (Darzi)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Barber (Naai)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Mason (Raajmistri)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Blacksmith (Lohar)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Goldsmith (Sunar)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-vishwakarma-home",
+      "quote": "Skill Verification followed by 5-7 days (40 hours) Basic Training"
+    }
+  ],
+  "gaps": [
+    "The home page says the target of 30 lakh registrations was already achieved in September 2025, so new registration may be closed or limited.",
+    "A person who already took a PMEGP loan cannot apply; one with an unpaid SVANidhi or Mudra loan also cannot (FAQ).",
+    "No phone helpline in the saved pages."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The official site says the registration target was reached in September 2025, so new sign-ups may not be open.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

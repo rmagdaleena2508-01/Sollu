@@ -1,0 +1,152 @@
+{
+  "id": "agri-fishing-ban-relief",
+  "type": "scheme",
+  "name_en": "Relief Assistance to Marine Fishermen families during Fishing Ban period",
+  "name_ta": null,
+  "level": "state",
+  "department": "Department of Fisheries and Fishermen Welfare, Government of Tamil Nadu",
+  "audiences": [
+    "fishermen",
+    "families"
+  ],
+  "benefit": "Your marine fishing family gets Rs 8,000 as relief during the fishing ban. The ban is 61 days every year, when fish breed. On the East Coast it is April 15 to June 14. On the West Coast it is June 1 to July 31.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "marine fisherman"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must have a valid family ration card or smart card.",
+      "You must fish full time.",
+      "If you or your family members have a regular job or other income, you cannot get this.",
+      "You must be a member of a Fishermen Co-operative Society.",
+      "If you work on a mechanised boat, you need a work certificate from the boat owner."
+    ]
+  },
+  "documents": [
+    "Application form",
+    "Family ration card copy",
+    "Fishermen biometric ID card copy",
+    "Bank passbook first page copy (with photo)",
+    "Work certificate from the boat owner",
+    "Fishermen Co-operative Society membership certificate",
+    "Aadhaar card copy",
+    "Copy of enrolment through the e-Sevai centre"
+  ],
+  "how_to_apply": "Fill the application form. Attach your papers. You need to enrol through an e-Sevai centre.",
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "agri-fish-banperiod"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-fish-banperiod",
+      "quote": "An amount of Rs.8,000/- is being given to marine fishermen family as relief assistance during the fishing ban period."
+    },
+    {
+      "field": "benefit",
+      "source": "agri-fish-banperiod",
+      "quote": "uniform fishing ban period for 61 days has been imposed every year"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-fish-banperiod",
+      "quote": "East Coast - April 15th to June 14th"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-fish-banperiod",
+      "quote": "West Coast - June 01st to July 31st"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-fish-banperiod",
+      "quote": "Relief Assistance to Marine Fishermen families during Fishing Ban period"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-banperiod",
+      "quote": "The beneficiary should possess a valid family ration card / Smart card."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-banperiod",
+      "quote": "Should be involved in full time fishing profession."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-banperiod",
+      "quote": "having regular employment or indulging in any other income - generating activity shall not qualify"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-banperiod",
+      "quote": "The beneficiary should be a member of Fishermen Co-operative Society"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-fish-banperiod",
+      "quote": "The labour of the mechanized fishing boat should produce employee certificate from the boat owner."
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-banperiod",
+      "quote": "Copy of fishermen Bio metric identity card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-banperiod",
+      "quote": "Copy of the photograph affixed first page of the bank passbook"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-banperiod",
+      "quote": "Certificate for membership in Fishermen Cooperative Society"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-banperiod",
+      "quote": "Copy of Aadhaar card"
+    },
+    {
+      "field": "documents",
+      "source": "agri-fish-banperiod",
+      "quote": "Copy of enrolment through the e-seva center"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-fish-banperiod",
+      "quote": "Documents to be enclosed by the applicant"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "agri-fish-banperiod",
+      "quote": "Copy of enrolment through the e-seva center"
+    }
+  ],
+  "gaps": [
+    "The page does not say which office takes the form or when to apply.",
+    "No helpline or G.O. number on the page.",
+    "The page has no date, so the amount should be checked each year."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The official page has no date, so the Rs 8,000 amount may change; say to check with the local Fisheries office.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

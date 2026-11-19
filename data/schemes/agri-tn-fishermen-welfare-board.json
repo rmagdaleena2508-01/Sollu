@@ -1,0 +1,137 @@
+{
+  "id": "agri-tn-fishermen-welfare-board",
+  "type": "scheme",
+  "name_en": "Tamil Nadu Fishermen Welfare Board (TNFWB) membership",
+  "name_ta": null,
+  "level": "state",
+  "department": "Tamil Nadu Fishermen Welfare Board",
+  "audiences": [
+    "fishermen",
+    "families"
+  ],
+  "benefit": "As a member you pay Rs 20 a year. The Board gives help for accident death or injury, a missing fisherman, death while fishing, natural death, funeral costs, your children's education, marriage, and delivery or miscarriage. For example: marriage help is Rs 3,000 for a man and Rs 5,000 for a woman. Natural death relief is Rs 15,000. Education help starts at Rs 1,250 for a boy and Rs 1,500 for a girl who passes 10th.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 65,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": [
+      "fisherman",
+      "fishing allied worker"
+    ],
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a fisherman or a worker in fishing or related work.",
+      "Related work means beach worker, peeling worker, processing worker, boat yard worker, net mending worker or small fish seller.",
+      "In inland fishing: members of inland fishermen co-operative societies, coracle owners, fish farm workers, and owners of a fish farm up to 2.5 acres can join."
+    ]
+  },
+  "documents": [
+    "Ration card",
+    "Age proof (a State or Central government document)",
+    "Residence proof",
+    "Passport size photo"
+  ],
+  "how_to_apply": null,
+  "where_to_apply": null,
+  "helpline": "044 24342344 (Tamil Nadu Fishermen Welfare Board, Nandanam, Chennai)",
+  "go_number": null,
+  "sources": [
+    "agri-tnfwb",
+    "agri-tnfwb-faq",
+    "agri-tnfwb-marriage",
+    "agri-tnfwb-education",
+    "agri-tnfwb-natural_death"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "agri-tnfwb",
+      "quote": "member contribution of Rs.20/- per member for every year"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-tnfwb-faq",
+      "quote": "Accident relief for death and injury, Missing fisherman while fishing, Death while fishing or immediately thereafter not due to accident, Natural death, Funeral expenses, Education of children, Marriage assistance and Delivery or miscarriage or termination of pregnancy assistance."
+    },
+    {
+      "field": "benefit",
+      "source": "agri-tnfwb-marriage",
+      "quote": "Marriage of Member 3000 5000"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-tnfwb-marriage",
+      "quote": "Male Female"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-tnfwb-natural_death",
+      "quote": "The relief assistance of Rs.10,000/- enhanced to Rs.15,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-tnfwb-education",
+      "quote": "10th Std. Pass 1250 1500"
+    },
+    {
+      "field": "benefit",
+      "source": "agri-tnfwb-education",
+      "quote": "Boys Girls"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "agri-tnfwb-faq",
+      "quote": "Fishermen and labourers engaged in fishing or other allied activities in the age group of 18-65 years are eligible for member enrollment in TNFWB."
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "agri-tnfwb-faq",
+      "quote": "in the age group of 18-65 years"
+    },
+    {
+      "field": "eligibility.occupation",
+      "source": "agri-tnfwb-faq",
+      "quote": "Fishermen and labourers engaged in fishing or other allied activities"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-tnfwb-faq",
+      "quote": "Allied activity means a person who is working as beach worker, peeling worker, processing labourer, boat building yard worker, net mending worker or small scale fish distributor for his livelihood."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "agri-tnfwb-faq",
+      "quote": "Fishermen/Fisherwomen from Inland Fishermen/Fisherwomen Cooperative Societies, Fishermen who owns one coracle, labourers engaged in fish farming and other allied activities, person who owns fish farm not exceeding 2.5 acres of land."
+    },
+    {
+      "field": "documents",
+      "source": "agri-tnfwb-faq",
+      "quote": "Ration card, State/Central government authorized documents for age proof, residence proof, and a passport size photo."
+    },
+    {
+      "field": "helpline",
+      "source": "agri-tnfwb-faq",
+      "quote": "Nandanam, Chennai - 600 035. Ph.No. 044 24342344"
+    }
+  ],
+  "gaps": [
+    "The site does not say clearly how or where to enrol (it lists Assistant Director offices but no steps).",
+    "The FAQ says a fish farmer needs at least 2.5 acres, but another answer says up to 2.5 acres; the two answers disagree.",
+    "Natural death amount comes from a 2013 gazette and may have been raised since.",
+    "Amounts for accident death, missing fisherman and pregnancy were not checked."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The board site says copyright 2018 and the death amount is from 2013, so amounts may be old.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

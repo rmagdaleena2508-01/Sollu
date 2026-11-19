@@ -1,0 +1,80 @@
+{
+  "id": "hb-ab-pmjay",
+  "type": "scheme",
+  "name_en": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Health and Family Welfare, Government of India (National Health Authority)",
+  "audiences": [
+    "families",
+    "seniors"
+  ],
+  "benefit": "Your family gets free hospital care worth up to Rs 5,00,000 each year for bigger illnesses and operations. Treatment is cashless at listed government and private hospitals.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "For poor families, about the bottom 40% of India.",
+      "Families of ASHA workers, Anganwadi workers and Anganwadi helpers are also covered.",
+      "All people aged 70 and above are covered, whatever their income."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": null,
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "hb-pib-pmjay-a"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-pib-pmjay-a",
+      "quote": "provides health coverage of Rs. 5 lakh per family per year for secondary and tertiary care hospitalization"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pib-pmjay-a",
+      "quote": "through a network of 37,413 public and private hospitals"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pib-pmjay-a",
+      "quote": "12 crore economically vulnerable families, constituting the bottom 40% of India's population"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pib-pmjay-a",
+      "quote": "approximately 37 lakh families of Accredited Social Health Activists, Anganwadi Workers, and Anganwadi Helpers"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pib-pmjay-a",
+      "quote": "senior citizens of age 70 years and above belonging to 4.5 crore families irrespective of their socio-economic status"
+    }
+  ],
+  "gaps": [
+    "The saved press release does not say how to check if your family is listed, how to get an Ayushman card, or which papers you need.",
+    "No helpline number in the saved source.",
+    "In Tamil Nadu, PM-JAY works together with CMCHIS; the exact joint rules are not in this source (see the CMCHIS entry).",
+    "The 70+ part has its own entry (PMJAY Vay Vandana)."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "PIB release dated 04 August 2026 gives the current Rs 5 lakh cover and who is covered.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

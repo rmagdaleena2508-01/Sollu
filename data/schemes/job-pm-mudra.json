@@ -1,0 +1,176 @@
+{
+  "id": "job-pm-mudra",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri MUDRA Yojana (PMMY)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Finance, Government of India",
+  "audiences": [
+    "entrepreneurs",
+    "workers"
+  ],
+  "benefit": "You can get a bank loan of up to Rs 20 lakh for a small business that earns money (not farming). Shishu: up to Rs 50,000. Kishore: Rs 50,000 to Rs 5 lakh. Tarun: Rs 5 lakh to Rs 10 lakh. Tarun Plus: up to Rs 20 lakh if you repaid a Tarun loan well. There are no agents; apply yourself.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Individuals, shops, partnership firms and companies can apply.",
+      "You must not have failed to repay a bank loan before.",
+      "You may need the skills or experience for the business."
+    ]
+  },
+  "documents": [
+    "ID proof (voter ID, driving licence, PAN, Aadhaar or passport)",
+    "Address proof",
+    "2 recent colour photos",
+    "Quotation for machinery or items you will buy",
+    "Proof of identity or address of your business",
+    "For loans above Shishu: bank statement for the last 6 months, and a project report"
+  ],
+  "how_to_apply": "Go to a bank branch, or apply online on the Udyamimitra portal. Pick New entrepreneur, Existing entrepreneur or Self-employed. Choose Shishu, Kishore or Tarun. Fill your business details and upload your papers. Keep the application number.",
+  "where_to_apply": "Any bank, small finance bank, NBFC or MFI; or online on the Udyamimitra portal",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "job-mudra-ms"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-mudra-ms",
+      "quote": "Ministry Of Finance"
+    },
+    {
+      "field": "benefit",
+      "source": "job-mudra-ms",
+      "quote": "micro credit/Loan up to Rs. 20 lakhs to income generating micro enterprises engaged in the non farm sector"
+    },
+    {
+      "field": "benefit",
+      "source": "job-mudra-ms",
+      "quote": "Shishu: Covering loans upto Rs.50,000/-."
+    },
+    {
+      "field": "benefit",
+      "source": "job-mudra-ms",
+      "quote": "Kishore: Covering loans above Rs.50,000/- and upto Rs. 5 lakhs."
+    },
+    {
+      "field": "benefit",
+      "source": "job-mudra-ms",
+      "quote": "Tarun: Covering loans above Rs. 5 lakhs and upto Rs. 10 lakhs."
+    },
+    {
+      "field": "benefit",
+      "source": "job-mudra-ms",
+      "quote": "Loans up to Rs. 20 lakh for enterpreneurs who have successfully repaid previous loans under the 'Tarun' category."
+    },
+    {
+      "field": "benefit",
+      "source": "job-mudra-ms",
+      "quote": "There are no agents or middleman engaged by MUDRA"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-mudra-ms",
+      "quote": "Proprietary concern."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-mudra-ms",
+      "quote": "The applicant should not be a defaulter to any bank or financial institution"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-mudra-ms",
+      "quote": "may be required to possess the necessary skills/experience/ knowledge"
+    },
+    {
+      "field": "documents",
+      "source": "job-mudra-ms",
+      "quote": "Proof of Identity – Self- attested copy of Voter's ID Card / Driving Licence / PAN Card / Aadhaar Card / Passport"
+    },
+    {
+      "field": "documents",
+      "source": "job-mudra-ms",
+      "quote": "Applicant's recent coloured Photograph (2 copies) not older than 6 months."
+    },
+    {
+      "field": "documents",
+      "source": "job-mudra-ms",
+      "quote": "Quotation of Machinery / other items to be purchased."
+    },
+    {
+      "field": "documents",
+      "source": "job-mudra-ms",
+      "quote": "Proof of Identity / Address of the Business Enterprise"
+    },
+    {
+      "field": "documents",
+      "source": "job-mudra-ms",
+      "quote": "Statement of accounts (for the last six months), from the existing banker, if any."
+    },
+    {
+      "field": "documents",
+      "source": "job-mudra-ms",
+      "quote": "Project report (for the proposed project)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-mudra-ms",
+      "quote": "Select one of the following : New entrepreneur/ Existing Entrepreneur/Self-employed professional"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-mudra-ms",
+      "quote": "Select the category of loan required - Mudra Shishu / Mudra Kishore/ Mudra Tarun."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-mudra-ms",
+      "quote": "an Application Number gets generated which needs to be kept for future reference"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-mudra-ms",
+      "quote": "The applicant can approach the branch and apply for the loan"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-mudra-ms",
+      "quote": "Micro Finance Institution (MFI)"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-mudra-ms",
+      "quote": "Non-Banking Finance Company (NBFC)"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-mudra-ms",
+      "quote": "after that select the Udyamimitra portal"
+    }
+  ],
+  "gaps": [
+    "Interest rate is set by each bank; the source gives no fixed rate.",
+    "No age or income limit in the source.",
+    "No helpline number in the source."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "myScheme page includes the newer Tarun Plus (Rs 20 lakh) level, so it looks current.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

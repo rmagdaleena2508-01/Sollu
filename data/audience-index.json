@@ -1,7 +1,183 @@
 {
   "note": "Built by tools/check.py --build from sollu-demo.json. Do not edit by hand.",
+  "counts": {
+    "schemes": 67,
+    "rights": 15,
+    "notices": 3,
+    "services": 16
+  },
   "audiences": {
+    "fishermen": [
+      {
+        "id": "agri-fishermen-savings-relief",
+        "name": "Fishermen Savings-cum-Relief Scheme"
+      },
+      {
+        "id": "agri-fisherwomen-savings-relief",
+        "name": "Tamil Nadu Marine Fisherwomen Savings-cum-Relief Scheme"
+      },
+      {
+        "id": "agri-fishing-ban-relief",
+        "name": "Relief Assistance to Marine Fishermen families during Fishing Ban period"
+      },
+      {
+        "id": "agri-fishing-lean-special-relief",
+        "name": "Special Relief Assistance to Marine Fishermen Families during Fishing Lean Period"
+      },
+      {
+        "id": "agri-kisan-credit-card",
+        "name": "Kisan Credit Card"
+      },
+      {
+        "id": "agri-tn-fishermen-welfare-board",
+        "name": "Tamil Nadu Fishermen Welfare Board (TNFWB) membership"
+      }
+    ],
+    "women": [
+      {
+        "id": "agri-fisherwomen-savings-relief",
+        "name": "Tamil Nadu Marine Fisherwomen Savings-cum-Relief Scheme"
+      },
+      {
+        "id": "hb-pmuy",
+        "name": "Pradhan Mantri Ujjwala Yojana (PMUY)"
+      },
+      {
+        "id": "job-stand-up-india",
+        "name": "Stand-Up India"
+      },
+      {
+        "id": "kid-girl-child-protection",
+        "name": "Chief Minister's Girl Child Protection Scheme"
+      },
+      {
+        "id": "kid-icds-nutrition",
+        "name": "Integrated Child Development Services (ICDS) – Supplementary Nutrition at Anganwadi"
+      },
+      {
+        "id": "kid-pmmvy",
+        "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)"
+      },
+      {
+        "id": "stu-pudhumai-penn",
+        "name": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)"
+      },
+      {
+        "id": "sw-cmchis",
+        "name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)"
+      },
+      {
+        "id": "sw-free-bus-women",
+        "name": "Vidiyal Payanam (free bus travel for women)"
+      },
+      {
+        "id": "sw-magalir-urimai",
+        "name": "Kalaignar Magalir Urimai Thogai (Kalaignar Mahalir Urimai Thittam)"
+      },
+      {
+        "id": "sw-maternity-benefit",
+        "name": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme"
+      },
+      {
+        "id": "sw-widow-pension",
+        "name": "Destitute Widow Pension Scheme"
+      },
+      {
+        "id": "wel-deserted-wives-pension",
+        "name": "Destitute / Deserted Wives Pension Scheme"
+      },
+      {
+        "id": "wel-sakhi-one-stop-centre",
+        "name": "Sakhi One Stop Centre"
+      },
+      {
+        "id": "wel-unmarried-women-pension",
+        "name": "Pension Scheme for Destitute Unmarried Poor Women aged 50 and above"
+      },
+      {
+        "id": "wel-working-women-hostels",
+        "name": "Government Working Women Hostels (Thozhi hostels)"
+      }
+    ],
+    "families": [
+      {
+        "id": "agri-fishing-ban-relief",
+        "name": "Relief Assistance to Marine Fishermen families during Fishing Ban period"
+      },
+      {
+        "id": "agri-fishing-lean-special-relief",
+        "name": "Special Relief Assistance to Marine Fishermen Families during Fishing Lean Period"
+      },
+      {
+        "id": "agri-tn-fishermen-welfare-board",
+        "name": "Tamil Nadu Fishermen Welfare Board (TNFWB) membership"
+      },
+      {
+        "id": "hb-ab-pmjay",
+        "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)"
+      },
+      {
+        "id": "hb-pmay-gramin",
+        "name": "Pradhan Mantri Awaas Yojana - Gramin (PMAY-G)"
+      },
+      {
+        "id": "hb-pmuy",
+        "name": "Pradhan Mantri Ujjwala Yojana (PMUY)"
+      },
+      {
+        "id": "kid-child-sponsorship",
+        "name": "Sponsorship for children in need (Integrated Child Protection Scheme / Mission Vatsalya)"
+      },
+      {
+        "id": "kid-girl-child-protection",
+        "name": "Chief Minister's Girl Child Protection Scheme"
+      },
+      {
+        "id": "kid-icds-nutrition",
+        "name": "Integrated Child Development Services (ICDS) – Supplementary Nutrition at Anganwadi"
+      },
+      {
+        "id": "kid-pmmvy",
+        "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)"
+      },
+      {
+        "id": "kid-sukanya-samriddhi",
+        "name": "Sukanya Samriddhi Account"
+      },
+      {
+        "id": "wel-kalaignar-kanavu-illam",
+        "name": "Kalaignarin Kanavu Illam"
+      },
+      {
+        "id": "wel-nfbs",
+        "name": "National Family Benefit Scheme"
+      }
+    ],
     "farmers": [
+      {
+        "id": "agri-kisan-credit-card",
+        "name": "Kisan Credit Card"
+      },
+      {
+        "id": "agri-pm-kusum-solar-pumps",
+        "name": "PM-KUSUM / Solar Powered Pumpsets Scheme (Tamil Nadu)"
+      },
+      {
+        "id": "agri-soil-health-card",
+        "name": "Soil Health Card"
+      },
+      {
+        "id": "agri-tn-coop-interest-free-crop-loan",
+        "name": "Interest-free crop loans through Co-operative Societies (Kisan Credit Card - Crop Loan)"
+      },
+      {
+        "id": "agri-tn-free-farm-electricity",
+        "name": "Free electricity for agricultural service connections"
+      },
+      {
+        "id": "agri-tn-micro-irrigation",
+        "name": "Per Drop More Crop - Micro Irrigation (Drip/Sprinkler)"
+      },
       {
         "id": "fw-cm-uzhavar-pathukappu",
         "name": "Chief Minister's Uzhavar Pathukappu Thittam 2011 (Farmers Security Scheme)"
@@ -23,6 +199,14 @@
       {
         "id": "fw-cm-uzhavar-pathukappu",
         "name": "Chief Minister's Uzhavar Pathukappu Thittam 2011 (Farmers Security Scheme)"
+      },
+      {
+        "id": "hb-ab-pmjay",
+        "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)"
+      },
+      {
+        "id": "hb-makkalai-thedi-maruthuvam",
+        "name": "Makkalai Thedi Maruthuvam (MTM)"
       },
       {
         "id": "sw-cmchis",
@@ -53,19 +237,127 @@
       {
         "id": "fw-tn-manual-workers-board",
         "name": "Tamil Nadu Manual Workers Social Security and Welfare Board - member benefits"
-      }
-    ],
-    "school_students": [
-      {
-        "id": "stu-adtw-exam-fee",
-        "name": "Adi Dravidar and Tribal Welfare Department: Scholarship - Public Examination Fee for 10th and 12th Std."
       },
       {
-        "id": "stu-free-bicycle",
-        "name": "Distribution of Free Bicycles to Class 11 Students"
+        "id": "hb-apy",
+        "name": "Atal Pension Yojana (APY)"
+      },
+      {
+        "id": "job-pm-mudra",
+        "name": "Pradhan Mantri MUDRA Yojana (PMMY)"
+      },
+      {
+        "id": "job-pm-svanidhi",
+        "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)"
+      },
+      {
+        "id": "job-pm-vishwakarma",
+        "name": "PM Vishwakarma"
+      },
+      {
+        "id": "job-pmegp",
+        "name": "Prime Minister's Employment Generation Programme (PMEGP)"
+      },
+      {
+        "id": "job-unemployment-assistance",
+        "name": "Unemployment Assistance Scheme"
+      },
+      {
+        "id": "job-uyegp",
+        "name": "Unemployed Youth Employment Generation Programme (UYEGP)"
+      },
+      {
+        "id": "wel-working-women-hostels",
+        "name": "Government Working Women Hostels (Thozhi hostels)"
+      }
+    ],
+    "everyone": [
+      {
+        "id": "hb-innuyir-kappom-nk48",
+        "name": "Innuyir Kappom Thittam - Nammai Kaakkum 48"
+      },
+      {
+        "id": "hb-jan-aushadhi",
+        "name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP)"
+      },
+      {
+        "id": "hb-makkalai-thedi-maruthuvam",
+        "name": "Makkalai Thedi Maruthuvam (MTM)"
+      },
+      {
+        "id": "hb-pmjdy",
+        "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)"
+      },
+      {
+        "id": "hb-pmjjby",
+        "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+      },
+      {
+        "id": "hb-pmsby",
+        "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+      }
+    ],
+    "disabled": [
+      {
+        "id": "hb-makkalai-thedi-maruthuvam",
+        "name": "Makkalai Thedi Maruthuvam (MTM)"
+      },
+      {
+        "id": "job-unemployment-assistance",
+        "name": "Unemployment Assistance Scheme"
+      },
+      {
+        "id": "wel-da-assistive-devices",
+        "name": "Assistive Devices for Differently Abled Persons (Retrofitted Petrol Scooters and more)"
+      },
+      {
+        "id": "wel-disability-pension",
+        "name": "Differently Abled Pension Scheme (with Indira Gandhi National Disability Pension Scheme)"
+      },
+      {
+        "id": "wel-maintenance-allowance-da",
+        "name": "Maintenance Allowance for Differently Abled Persons"
+      }
+    ],
+    "entrepreneurs": [
+      {
+        "id": "job-aabcs",
+        "name": "Annal Ambedkar Business Champions Scheme (AABCS)"
+      },
+      {
+        "id": "job-needs",
+        "name": "New Entrepreneur-cum-Enterprise Development Scheme (NEEDS)"
+      },
+      {
+        "id": "job-pm-mudra",
+        "name": "Pradhan Mantri MUDRA Yojana (PMMY)"
+      },
+      {
+        "id": "job-pm-svanidhi",
+        "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)"
+      },
+      {
+        "id": "job-pm-vishwakarma",
+        "name": "PM Vishwakarma"
+      },
+      {
+        "id": "job-pmegp",
+        "name": "Prime Minister's Employment Generation Programme (PMEGP)"
+      },
+      {
+        "id": "job-stand-up-india",
+        "name": "Stand-Up India"
+      },
+      {
+        "id": "job-uyegp",
+        "name": "Unemployed Youth Employment Generation Programme (UYEGP)"
       }
     ],
     "college_students": [
+      {
+        "id": "job-naan-mudhalvan",
+        "name": "Naan Mudhalvan"
+      },
       {
         "id": "stu-bc-mbc-postmatric",
         "name": "Post-Matric Scholarship for BC, MBC and DNC College Students"
@@ -79,30 +371,58 @@
         "name": "Tamizh Pudhalvan Scheme"
       }
     ],
-    "women": [
+    "children": [
       {
-        "id": "stu-pudhumai-penn",
-        "name": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)"
+        "id": "kid-child-sponsorship",
+        "name": "Sponsorship for children in need (Integrated Child Protection Scheme / Mission Vatsalya)"
       },
       {
-        "id": "sw-cmchis",
-        "name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)"
+        "id": "kid-cm-breakfast",
+        "name": "Chief Minister's Breakfast Scheme"
       },
       {
-        "id": "sw-free-bus-women",
-        "name": "Vidiyal Payanam (free bus travel for women)"
+        "id": "kid-girl-child-protection",
+        "name": "Chief Minister's Girl Child Protection Scheme"
       },
       {
-        "id": "sw-magalir-urimai",
-        "name": "Kalaignar Magalir Urimai Thogai (Kalaignar Mahalir Urimai Thittam)"
+        "id": "kid-icds-nutrition",
+        "name": "Integrated Child Development Services (ICDS) – Supplementary Nutrition at Anganwadi"
       },
       {
-        "id": "sw-maternity-benefit",
-        "name": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme"
+        "id": "kid-noon-meal",
+        "name": "Puratchi Thalaivar M.G.R. Nutritious Meal Programme (school noon meal)"
       },
       {
-        "id": "sw-widow-pension",
-        "name": "Destitute Widow Pension Scheme"
+        "id": "kid-sukanya-samriddhi",
+        "name": "Sukanya Samriddhi Account"
+      },
+      {
+        "id": "wel-sakhi-one-stop-centre",
+        "name": "Sakhi One Stop Centre"
+      }
+    ],
+    "school_students": [
+      {
+        "id": "kid-cm-breakfast",
+        "name": "Chief Minister's Breakfast Scheme"
+      },
+      {
+        "id": "kid-noon-meal",
+        "name": "Puratchi Thalaivar M.G.R. Nutritious Meal Programme (school noon meal)"
+      },
+      {
+        "id": "stu-adtw-exam-fee",
+        "name": "Adi Dravidar and Tribal Welfare Department: Scholarship - Public Examination Fee for 10th and 12th Std."
+      },
+      {
+        "id": "stu-free-bicycle",
+        "name": "Distribution of Free Bicycles to Class 11 Students"
+      }
+    ],
+    "transgender": [
+      {
+        "id": "wel-transgender-pension",
+        "name": "Pension Scheme for Transgenders (Tamil Nadu Transgender Welfare Board)"
       }
     ]
   }

@@ -1,0 +1,152 @@
+{
+  "id": "job-needs",
+  "type": "scheme",
+  "name_en": "New Entrepreneur-cum-Enterprise Development Scheme (NEEDS)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Micro, Small and Medium Enterprises Department, Government of Tamil Nadu",
+  "audiences": [
+    "entrepreneurs"
+  ],
+  "benefit": "Help for first-generation business owners to start a manufacturing or service unit. The project can cost Rs 10 lakh to Rs 5 crore. The government pays 25% of the project cost as a subsidy, up to Rs 75 lakh. You also get 3% interest help for the whole loan period.",
+  "eligibility": {
+    "age_min": 21,
+    "age_max": 45,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a first-generation entrepreneur.",
+      "Age 21 to 45. For women, BC, MBC, SC, ST, ex-servicemen, transgender people and people with disabilities, the upper age is 55.",
+      "You must have passed +2, or have a degree, diploma, ITI or vocational training.",
+      "Only manufacturing or service projects.",
+      "You put in 10% of the project cost yourself (5% for special categories)."
+    ]
+  },
+  "documents": [
+    "School or college Transfer Certificate or record sheet",
+    "Ration card, or nativity certificate, Aadhaar or voter ID",
+    "Project report",
+    "Price quotations with GST number",
+    "Community certificate"
+  ],
+  "how_to_apply": "Apply online only, on the MSME Department website msmeonline.tn.gov.in.",
+  "where_to_apply": "Online at msmeonline.tn.gov.in/needs",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "job-needs-desc",
+    "job-needs-docs"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-needs-desc",
+      "quote": "Micro, Small and Medium Enterprises Department"
+    },
+    {
+      "field": "benefit",
+      "source": "job-needs-desc",
+      "quote": "promoting first entrepreneurial projects of first generation entrepreneurs"
+    },
+    {
+      "field": "benefit",
+      "source": "job-needs-desc",
+      "quote": "Manufacturing or Service projects with Project cost from Rs.10.00 lakhs upto Rs.5.00 crore"
+    },
+    {
+      "field": "benefit",
+      "source": "job-needs-desc",
+      "quote": "Individual Based Capital Subsidy @ 25% of the Project cost (Maximum Rs.75.00 lakhs)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-needs-desc",
+      "quote": "3% Interest subvention through-out the entire repayment period"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "job-needs-desc",
+      "quote": "Aspirants must be of age between 21-45 in general"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "job-needs-desc",
+      "quote": "Aspirants must be of age between 21-45 in general"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-needs-desc",
+      "quote": "age relaxation upto 55 years"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-needs-desc",
+      "quote": "Higher Secondary (+2 Passed)/Degree / Diploma / ITI / Vocational Training"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-needs-desc",
+      "quote": "first generation entrepreneurs"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-needs-desc",
+      "quote": "Promoter's contribution 10% for General and 5% for Special Category"
+    },
+    {
+      "field": "documents",
+      "source": "job-needs-docs",
+      "quote": "Transfer certiﬁcate/ Record Sheet issued by School/College"
+    },
+    {
+      "field": "documents",
+      "source": "job-needs-docs",
+      "quote": "a Nativity certiﬁcate from the Thasildhar / Aadhar card xerox / Election voters identity card xerox"
+    },
+    {
+      "field": "documents",
+      "source": "job-needs-docs",
+      "quote": "Project Report (Original & Duplicate )"
+    },
+    {
+      "field": "documents",
+      "source": "job-needs-docs",
+      "quote": "Valid Quotations (Original & Duplicate ) with GST number"
+    },
+    {
+      "field": "documents",
+      "source": "job-needs-docs",
+      "quote": "Community Certiﬁcate(Two Copies)"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-needs-desc",
+      "quote": "Application shall be filed through online only msmeonline.tn.gov.in"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-needs-desc",
+      "quote": "Application shall be filed through online only msmeonline.tn.gov.in"
+    }
+  ],
+  "gaps": [
+    "No income limit in the source.",
+    "No helpline or G.O. number in the saved pages.",
+    "The documents list is the common 'Documents to be Uploaded' PDF served on the NEEDS, UYEGP and AABCS pages; it is not NEEDS-specific."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Official MSME Department scheme page; the site dashboard shows the scheme running in 2026-2027.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

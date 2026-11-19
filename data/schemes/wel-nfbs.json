@@ -1,0 +1,105 @@
+{
+  "id": "wel-nfbs",
+  "type": "scheme",
+  "name_en": "National Family Benefit Scheme",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Rural Development, Government of India (run in Tamil Nadu by the Revenue Administration Department)",
+  "audiences": [
+    "families"
+  ],
+  "benefit": "If the main earner of a poor family dies, the family gets Rs 20,000 one time. This helps the family in the hard days after the loss.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "Your family must be below the poverty line.",
+      "The person who died must have been the main earner of the family.",
+      "The person who died must have been 18 to 59 years old."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Apply online on the TN e-Sevai website (tnesevai.tn.gov.in). Revenue officers check your form. If you are eligible, the Special Tahsildar (Social Security Scheme) orders your help. Forms are settled within 30 days.",
+  "where_to_apply": "TN e-Sevai website (tnesevai.tn.gov.in)",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "wel-pib-nsap",
+    "wel-cra-schemes-ta"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-pib-nsap",
+      "quote": "The family receives Rs.20,000 as support to help them cope with"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-pib-nsap",
+      "quote": "lump sum financial assistance in the unfortunate event of the death of its primary breadwinner"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-pib-nsap",
+      "quote": "a household living below the poverty line becomes eligible"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-pib-nsap",
+      "quote": "provided the deceased was between 18 and 59 years of age"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-cra-schemes-ta",
+      "quote": "வறுமைக்கோட்டிற்கு கீழ் வாழும் குடும்பங்களின் பொருளீட்டும் நபரின் வயது – 18 முதல் 59 வயதிற்குள்ளாக இருத்தல் வேண்டும்."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "4. தேசிய குடும்பநலத் திட்டம்."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "https://www.tnesevai.tn.gov.in என்ற இணைதளம் உருவாக்கப்பட்டுள்ளது"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "தனி வட்டாட்சியர் (சமூக பாதுகாப்புத் திட்டம்) மூலம் ஓய்வூதியம் வழங்க உத்தரவிடப்படுகிறது"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "30 தினங்களுக்குள் தீர்வு செய்யப்படுகின்றன"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-cra-schemes-ta",
+      "quote": "சமூக பாதுகாப்புத் திட்டங்களுக்கு விண்ணப்பிக்கும் செயல்முறையை எளிதாக்குவதற்காக, https://www.tnesevai.tn.gov.in"
+    }
+  ],
+  "gaps": [
+    "The Tamil Nadu page lists the scheme and its age rule but not the amount; the Rs 20,000 comes from a central PIB note (Nov 2025).",
+    "The Tamil Nadu page says social security schemes are applied for on tnesevai.tn.gov.in; it does not name this scheme there by itself.",
+    "No list of papers (such as the death certificate), time limit to apply, helpline or G.O. number in the sources.",
+    "Age limits apply to the person who died, not the person applying, so age fields are left empty."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The Rs 20,000 amount comes from a central note; the Tamil Nadu page lists the scheme but not the amount or papers.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "hb-jan-aushadhi",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers, Government of India",
+  "audiences": [
+    "everyone"
+  ],
+  "benefit": "You can buy good generic medicines at Janaushadhi Kendras (shops). They cost 50% to 80% less than branded medicines. Sanitary pads (Suvidha) cost Rs 1 each. You can find the nearest shop with the Jan Aushadhi Sugam app.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": null
+  },
+  "documents": null,
+  "how_to_apply": "No need to apply. Go to a Janaushadhi Kendra and buy medicines. Use the JanAushadhi Sugam app to find the nearest shop and compare prices.",
+  "where_to_apply": "Any Janaushadhi Kendra (more than 19,000 across India)",
+  "helpline": "1800-180-8080 (toll free)",
+  "go_number": null,
+  "sources": [
+    "hb-janaushadhi-about"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-janaushadhi-about",
+      "quote": "Prices of the Jan Aushadhi medicines are 50%-80% less than that of branded medicine’s prices available in the open market."
+    },
+    {
+      "field": "benefit",
+      "source": "hb-janaushadhi-about",
+      "quote": "to be made available at Rs.1/- per pad only"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-janaushadhi-about",
+      "quote": "to locate nearby Jan Aushadhi Kendra through Google map"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-janaushadhi-about",
+      "quote": "dedicated outlets known as Janaushadhi Kendras are opened to provide generic medicines at affordable prices"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-janaushadhi-about",
+      "quote": "compare prices of Generic v/s Branded medicines in terms of MRP"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "hb-janaushadhi-about",
+      "quote": "As on March 2026 more than 19000 Janaushadhi Kendras are functional across the country."
+    },
+    {
+      "field": "helpline",
+      "source": "hb-janaushadhi-about",
+      "quote": "Tollfree-1800-180-8080"
+    }
+  ],
+  "gaps": [
+    "The page does not say if a doctor's prescription is needed.",
+    "The page does not list Kendra addresses in Tamil Nadu."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "Official Janaushadhi page with figures as of March 2026.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

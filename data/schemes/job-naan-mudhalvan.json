@@ -1,0 +1,76 @@
+{
+  "id": "job-naan-mudhalvan",
+  "type": "scheme",
+  "name_en": "Naan Mudhalvan",
+  "name_ta": null,
+  "level": "state",
+  "department": "Tamil Nadu Skill Development Corporation (Special Programme Implementation Department), Government of Tamil Nadu",
+  "audiences": [
+    "college_students"
+  ],
+  "benefit": "A big skill training programme for young people in Tamil Nadu. Your college gives you job skills that companies want, plus career guidance, so you can get a good job.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "For students and youth of Tamil Nadu. Training is given through colleges and educational institutions."
+    ]
+  },
+  "documents": null,
+  "how_to_apply": null,
+  "where_to_apply": null,
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "job-naanm-tnsdc"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-naanm-tnsdc",
+      "quote": "under the department of Special Programme Implementation"
+    },
+    {
+      "field": "benefit",
+      "source": "job-naanm-tnsdc",
+      "quote": "a massive skilling initiative by the Government of Tamil Nadu"
+    },
+    {
+      "field": "benefit",
+      "source": "job-naanm-tnsdc",
+      "quote": "to empower the youth of the state to gain industry-relevant employable skills"
+    },
+    {
+      "field": "benefit",
+      "source": "job-naanm-tnsdc",
+      "quote": "help the students improve their career prospects"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-naanm-tnsdc",
+      "quote": "enable colleges and educational institutions to deliver courses"
+    }
+  ],
+  "gaps": [
+    "The saved page gives no age, income or education rules.",
+    "The page does not say how to join, what papers you need, or if it is free.",
+    "The Naan Mudhalvan portal (naanmudhalvan.tn.gov.in) only showed a login page, so it could not be used."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Only a short overview page could be saved; it has no rules, steps or fees, so answers must stay general.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

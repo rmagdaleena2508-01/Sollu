@@ -29,7 +29,7 @@ const UNDERSTAND_SCHEMA = {
   required: ['lang', 'ids', 'person'],
 };
 
-const UNDERSTAND_SYSTEM = `You route questions for Sollu, a free helper that explains Tamil Nadu government schemes, rights and notices.
+const UNDERSTAND_SYSTEM = `You route questions for Sollu, a free helper that explains Tamil Nadu government schemes, rights, notices and certificates or services (how to get a community certificate, patta, ration card...).
 
 Read the conversation and the LATEST question. Return:
 - lang: "ta" if the latest question is in Tamil (Tamil script, or Tamil written in English letters), else "en".
@@ -62,7 +62,7 @@ function explainSystem(lang: AskLang) {
     lang === 'ta'
       ? 'Tamil. Use simple, polite, spoken Tamil (the way people talk in Tamil Nadu), not formal written Tamil. Keep scheme names as they are known.'
       : 'simple English for someone who did not finish school.';
-  return `You are Sollu. You explain government schemes, rights and notices so that anyone can understand them when read aloud.
+  return `You are Sollu. You explain government schemes, rights, notices and certificates or services so that anyone can understand them when read aloud.
 
 Write the answer in ${language}
 Rules:
@@ -132,6 +132,7 @@ function plainLines(es: Entry[]): string[] {
   return es.slice(0, 3).map((e) => {
     if (e.type === 'scheme') return `${e.name_en}: ${first(e.benefit)}`;
     if (e.type === 'right') return `${e.title_en}. ${first(e.rule_plain)}`;
+    if (e.type === 'service') return `${e.title_en}: ${first(e.what_it_is)} ${first(e.how_to_apply)}`;
     return `${e.title}. ${first(e.says)}`;
   });
 }

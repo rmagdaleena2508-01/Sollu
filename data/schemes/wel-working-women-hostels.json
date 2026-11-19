@@ -1,0 +1,95 @@
+{
+  "id": "wel-working-women-hostels",
+  "type": "scheme",
+  "name_en": "Government Working Women Hostels (Thozhi hostels)",
+  "name_ta": null,
+  "level": "state",
+  "department": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+  "audiences": [
+    "women",
+    "workers"
+  ],
+  "benefit": "Safe, low-cost hostels for working women. Rent is Rs 300 a month in Chennai and Rs 200 a month in other places. You share the cost of food, electricity and other charges. The government runs 21 such hostels.",
+  "eligibility": {
+    "age_min": null,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a working woman.",
+      "Your pay must be up to Rs 25,000 a month in Chennai, or up to Rs 15,000 a month in other places."
+    ]
+  },
+  "documents": [],
+  "how_to_apply": "Go to a government working women hostel near your work and ask for a place. The list of hostel addresses is on the Social Welfare Department website. For Thozhi hostels, see tnwwhcl.in.",
+  "where_to_apply": "Government Working Women Hostel in your town",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "wel-wwh",
+    "wel-wwh-list"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-wwh",
+      "quote": "the Government runs 21 Working Women Hostels"
+    },
+    {
+      "field": "benefit",
+      "source": "wel-wwh",
+      "quote": "They have to pay a monthly rent of Rs.300 in Chennai and Rs.200 in other places."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-wwh",
+      "quote": "Sharing system is followed for food expenses, electricity and other charges."
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "wel-wwh",
+      "quote": "Women who earn upto Rs.25,000 per month at Chennai"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-wwh",
+      "quote": "Women who earn upto Rs.25,000 per month at Chennai and Rs.15,000 per month in other places are eligible to get admission"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-wwh-list",
+      "quote": "Details of Government Working Women’s Hostel"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-wwh",
+      "quote": "For more details on Thozhi hostels https://www.tnwwhcl.in/"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-wwh-list",
+      "quote": "Details of Government Working Women’s Hostel"
+    }
+  ],
+  "gaps": [
+    "The source does not say how to apply or list papers.",
+    "Thozhi hostels are run by the Tamil Nadu Working Women Hostel Corporation (tnwwhcl.in); that site is not a .gov.in site, so Thozhi rent and rules are not covered here.",
+    "Income limits are monthly and differ by place, so the yearly income field is left empty.",
+    "No helpline or G.O. number."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Rent and income limits are on an official page but may be old, and Thozhi hostel details could not be checked on a .gov.in site.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

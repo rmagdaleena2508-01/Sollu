@@ -1,0 +1,325 @@
+Tamil Nadu
+e-District Application
+
+Training Manual for
+
+
+ Application for New Ration Card
+             PDS-501
+
+
+
+
+Civil Supplies and Consumer
+Protection Department
+                    Tamil Nadu e-District Application User Manual
+
+
+
+                                                               Table of Content
+
+Table of Contents
+1.     Project Overview ....................................................................................................... 3
+2.     General Information .................................................................................................... 3
+     2.1.   Tools Required .................................................................................................................................................... 3
+     2.2.   Starting your Computer ..................................................................................................................................... 3
+3.     Purpose ................................................................................................................... 4
+4.     Scope ..................................................................................................................... 4
+5.     Getting Started .......................................................................................................... 4
+6.     Services Offered under Civil Supplies and Consumer Protection Department ................................. 4
+7.     PDS-501 Application of New Ration Card ............................................................................ 5
+     7.1    Application of New Ration Card....................................................................................................................... 8
+8      Disclaimer ............................................................................................................... 13
+
+
+
+
+                                             © 2019. Government of Tamil Nadu. All rights reserved.
+            Tamil Nadu e-District Application User Manual
+
+
+                       E-DISTRICT TAMIL NADU USER MANUAL
+                                 (Government of Tamil Nadu)
+
+1. Project Overview
+Districts are the de facto front-end of government where most Government-to-Consumer or G2C
+interaction takes place.
+
+The e-District project was conceptualized to improve this experience by creating an automated
+workflow system for the district administration and help in providing the citizen efficient
+department services through Common Service Centers (CSCs), the primary front end channels
+envisaged under the National e-Governance Plan by Department of Information Technology (DIT),
+Ministry of Communication and Information Technology (MCIT), Government of India.
+
+2. General Information
+
+Let’s Start!!
+    2.1.     Tools Required
+
+You will be provided with the following basic infrastructure:
+ Computer                 (CPU, Monitor, Keyboard & Mouse)
+ Network Connection (as per requirement)
+ Peripherals              (as per requirement)
+ Browser                  (Google chrome, Version 37)
+ Uninterrupted Power Supply (UPS)
+
+
+    2.2.     Starting your Computer
+
+Steps
+1. Ensure all cables are connected between the computer, network connection, peripherals & UPS
+2. Plug the UPS to the electrical socket
+3. Switch ‘ON’ the electrical socket
+4. Switch ‘ON’ the UPS
+5. Press the     (power button) on the computer
+6. Allow the system to boot up.
+
+           1. Switch ‘ON’ the UPS only after you have switched ‘ON’ the power socket
+           2. Switch ‘ON’ the computer only after you have switched ‘’ON’ the UPS
+           3. Switch ‘OFF’ the power socket in there is an electrical spark in the socket
+           4. Do not start the computer in case the UPS is not fully charged
+           5. Do not start the computer in case any of the wires are in contact with water
+                           © 2019. Government of Tamil Nadu. All rights reserved.
+             Tamil Nadu e-District Application User Manual
+               sources / moisture
+
+            6. In case you are not sure whether the computer is connected in the right way
+               – please contact the system engineer
+
+
+
+3. Purpose
+This document is an integral part of e-District application user manuals. The objective of this
+document is to provide step-by-step assistance to the user on how to apply for ‘Application of New
+Ration card’ through the e-District Portal.
+
+4. Scope
+The scope of this document covers the ‘Application of New Ration card’ service offered under the
+Civil Supplies and Consumer Protection Department
+
+5. Getting Started
+Following points and guidelines may be referred while accessing the e-Sevai/e-District
+application:
+     User must have valid username and password
+      Make relevant and correct entries only
+      Recheck the entries before clicking on Submit button
+      Mandatory fields cannot be left blank
+      Mandatory/Optional documents should be attached as per requirement
+      Do not make false entries
+
+6. Services Offered under Civil Supplies and Consumer Protection Department
+   Following services are offered under the Revenue Department:
+       1. PDS-501 Application of New Ration Card
+       2. PDS-502 Addition of New Family Member in Ration card
+       3. PDS-503 Family Head Member Change
+       4. PDS-504 Removal of Family Member in Ration Card
+       5. PDS-505 Change of Address in Ration Card
+       6. PDS-506 Re-Print of Smart card Application
+
+
+
+
+                           © 2019. Government of Tamil Nadu. All rights reserved.
+             Tamil Nadu e-District Application User Manual
+7. PDS-501 Application of New Ration Card
+
+   Following steps describe how to apply for New Ration card through the e-District Portal:
+
+   STEP1: Go to the e-Sevai (Government of Tamil Nadu) Web Portal.
+
+   STEP 2: Enter the login credentials.
+
+   STEP 3: Enter Captcha code.
+
+   STEP 4: Click on Login.
+
+                                                                                                  Enter Login ID and
+                                                                                                      Password
+
+
+
+
+                                                          Enter Captcha
+
+
+                                                                                 Click on Login
+
+
+
+
+e-Sevai Dashboard will appear.
+
+
+
+
+                             © 2019. Government of Tamil Nadu. All rights reserved.
+             Tamil Nadu e-District Application User Manual
+   STEP 5: Click on Services on the left panel.
+
+
+
+
+                    Click on Services
+
+
+
+
+Department Wise service listing will appear.
+
+
+
+   STEP 6: Click on Civil Supplies and Consumer Protection Department
+
+    You can also switch to the Service Wise listing, or switch to Search and search a particular service
+using keywords.
+
+
+
+
+                                                                        Department Name
+
+
+
+
+                               © 2019. Government of Tamil Nadu. All rights reserved.
+          Tamil Nadu e-District Application User Manual
+
+STEP 7: Click on Application of New Ration Card
+
+
+
+
+                                                           Click on the Service
+                                                                  Name
+
+
+
+
+You will be redirected to the service page on the Public distribution services Web Portal.
+
+
+
+
+                         © 2019. Government of Tamil Nadu. All rights reserved.
+          Tamil Nadu e-District Application User Manual
+7.1     Application of New Ration Card
+
+
+SECTION1: Applicant Details and Address
+
+Applicant are used to fill this form in both Tamil and English language.
+
+
+
+
+SECTION 2: Contact Details and District Name
+
+Applicants are used to select district, taluk and village name and contact details.
+
+
+
+
+                         © 2019. Government of Tamil Nadu. All rights reserved.
+          Tamil Nadu e-District Application User Manual
+
+SECTION 3: Addition of Family Members
+
+Applicant are used to fill the family member details and finally click save button.
+
+
+
+
+Applicant’s Family member are added into the list and by clicking of add member applicant are more
+family member into the list.
+
+
+
+
+                         © 2019. Government of Tamil Nadu. All rights reserved.
+             Tamil Nadu e-District Application User Manual
+
+SECTION 4: Details of Gas Connection
+
+   Applicant are added if they have gas connection and finally submit the application.
+
+
+
+
+                                           Click Submit
+                                           application
+
+
+
+   SECTION 5: Make payment
+
+                                                                                     Application For
+   After uploading the documents, click on ‘Make Payment’.
+                                                                                     New Ration Card
+
+
+
+
+                                                                                           Click Make
+                                                                                           Payment
+
+
+
+
+                            © 2019. Government of Tamil Nadu. All rights reserved.
+          Tamil Nadu e-District Application User Manual
+
+SECTION 6: Acknowledgement receipt
+
+Acknowledgement receipt will be shown.
+
+Click on Print Receipt to download/print the receipt.
+
+Screenshot 1: Print Receipt
+
+
+
+
+                                                                          Application of New
+                                                                             Ration card
+
+
+
+
+                                                                                       Click to print receipt
+
+
+
+
+                         © 2019. Government of Tamil Nadu. All rights reserved.
+            Tamil Nadu e-District Application User Manual
+Screenshot 2: Receipt
+
+Applicant has to download the receipt by using Transaction number.
+
+
+
+
+          Receipt download
+
+
+
+
+                                                    Transaction Number
+
+
+
+
+                             © 2019. Government of Tamil Nadu. All rights reserved.
+             Tamil Nadu e-District Application User Manual
+
+
+
+8 Disclaimer
+This User manual is prepared as per the existing application; however actual screen shots may vary for few
+cases.
+
+
+
+
+                            © 2019. Government of Tamil Nadu. All rights reserved.
+

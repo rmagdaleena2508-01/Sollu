@@ -1,0 +1,218 @@
+{
+  "id": "kid-pmmvy",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Women and Child Development, Government of India",
+  "audiences": [
+    "women",
+    "families"
+  ],
+  "benefit": "For your first child you get Rs 5,000 in two parts: Rs 3,000 after you register the pregnancy and have one check-up, and Rs 2,000 after the birth is registered and the baby gets the vaccines due up to 14 weeks. If your second child is a girl, you get Rs 6,000 in one part.",
+  "eligibility": {
+    "age_min": 19,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": 800000,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You are pregnant or a new mother.",
+      "You belong to a listed group, such as SC or ST women, women with a BPL or NFSA ration card, e-Shram card, MGNREGA job card, PM-JAY card, PM-Kisan women farmers, disabled women, or family income below Rs 8 lakh a year.",
+      "Women in regular government or PSU jobs, or who get paid maternity leave, cannot get it.",
+      "Apply within 270 days of the child's birth."
+    ]
+  },
+  "documents": [
+    "Aadhaar card",
+    "Bank or post office account linked to Aadhaar",
+    "Proof that you are eligible (for example ration card or e-Shram card)",
+    "MCP card",
+    "Child's birth certificate",
+    "Child's vaccination details"
+  ],
+  "how_to_apply": "Register on the PMMVY website or mobile app. Choose first child or second child, fill your details and submit. In Tamil Nadu the scheme is run through the Public Health department.",
+  "where_to_apply": "Online on the PMMVY website or app, or at the Anganwadi centre or approved health facility.",
+  "helpline": "011-23380329",
+  "go_number": null,
+  "sources": [
+    "kid-pmmvy-ms",
+    "kid-icds-tn"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "kid-pmmvy-ms",
+      "quote": "Centrally Sponsored flagship scheme by the Ministry of Women and Child Development, Government of India"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-pmmvy-ms",
+      "quote": "For the first child the maternity benefit of ₹5,000/- is provided in two instalments under PMMVY"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-pmmvy-ms",
+      "quote": "On registration of pregnancy and at least one Antenatal checkup within six months from last menstrual period date"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-pmmvy-ms",
+      "quote": "identified by the respective administering State/UT.\n3,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-pmmvy-ms",
+      "quote": "The child has received all due vaccines till the age of 14 weeks"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-pmmvy-ms",
+      "quote": "Universal Immunization Programme of Ministry of Health and Family Welfare.\n2,000/-"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-pmmvy-ms",
+      "quote": "Scheme Condition for Second Child (if it is a girl child)"
+    },
+    {
+      "field": "benefit",
+      "source": "kid-pmmvy-ms",
+      "quote": "attains age of fourteen weeks from the date of birth as admissible under the Universal Immunization Programme of Ministry of Health and Family Welfare.\n6,000/-"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "kid-pmmvy-ms",
+      "quote": "The applicant should be of at least 19 years old and a pregnant women."
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "kid-pmmvy-ms",
+      "quote": "The applicant should be of at least 19 years old and a pregnant women."
+    },
+    {
+      "field": "eligibility.income_max_annual_inr",
+      "source": "kid-pmmvy-ms",
+      "quote": "Women whose net family income is less than Rs. 8 Lakh per annum"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "Women belonging to scheduled castes and scheduled tribes"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "Women holder of BPL Ration Card"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "Women holding e-Shram card"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "Women holding MGNREGA Job Card"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "Women farmers who are beneficiaries under Kisan Samman Nidhi"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "Women who are partially (40%) or fully disabled (Divyang Jan)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "in regular employment with the Central Government or State Government or Public Sector Undertaking"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "if you are already availing any paid maternity scheme or a paid maternity leave from your employer"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "kid-pmmvy-ms",
+      "quote": "can apply for the benefit under PMMVY scheme within 270 days from the child birth."
+    },
+    {
+      "field": "documents",
+      "source": "kid-pmmvy-ms",
+      "quote": "Aadhaar card,"
+    },
+    {
+      "field": "documents",
+      "source": "kid-pmmvy-ms",
+      "quote": "Aadhaar mapped bank/post office,"
+    },
+    {
+      "field": "documents",
+      "source": "kid-pmmvy-ms",
+      "quote": "Eligibility proof,"
+    },
+    {
+      "field": "documents",
+      "source": "kid-pmmvy-ms",
+      "quote": "MCP/RCHI card,"
+    },
+    {
+      "field": "documents",
+      "source": "kid-pmmvy-ms",
+      "quote": "Child birth certificate,"
+    },
+    {
+      "field": "documents",
+      "source": "kid-pmmvy-ms",
+      "quote": "Child immunization details etc."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-pmmvy-ms",
+      "quote": "Choose suitable option under the Scheme applying for First Child OR Second Child."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-pmmvy-ms",
+      "quote": "Mobile App has been introduced for registration under Pradhan Mantri Matru Vandana Yojana (PMMVY)."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "kid-icds-tn",
+      "quote": "this scheme is being implemented through Director of Public Health and Preventive Medicine since 2018-2019."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "kid-pmmvy-ms",
+      "quote": "at the Anganwadi Centre or approved Health facilities"
+    },
+    {
+      "field": "helpline",
+      "source": "kid-pmmvy-ms",
+      "quote": "Helpline Number: 011 – 23380329"
+    }
+  ],
+  "gaps": [
+    "The myScheme page gives two different time limits (270 days from birth in eligibility, and 2 years from LMP in the FAQ). The shorter one is used.",
+    "The helpline number is a Delhi government office listed on myScheme, not a Tamil Nadu number.",
+    "The pages do not say how PMMVY combines with Tamil Nadu's own Dr Muthulakshmi Reddy maternity scheme."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The page has internal conflicts on deadlines, and in Tamil Nadu it may be paid together with the state maternity scheme, which the pages do not explain.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

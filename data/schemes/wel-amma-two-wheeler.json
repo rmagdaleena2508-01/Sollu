@@ -1,0 +1,122 @@
+{
+  "id": "wel-amma-two-wheeler",
+  "type": "scheme",
+  "name_en": "Amma Two Wheeler Scheme",
+  "name_ta": null,
+  "level": "state",
+  "department": "Rural Development and Panchayat Raj Department (Tamil Nadu State Rural Livelihood Mission), Government of Tamil Nadu",
+  "audiences": [
+    "women",
+    "workers"
+  ],
+  "benefit": "Working women got help to buy a gearless two-wheeler: half the price or Rs 25,000, whichever is less. Differently abled women got Rs 31,200 for a retrofitted three-wheeler scooter.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": 40,
+    "gender": "female",
+    "income_max_annual_inr": 250000,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "You must be a working woman, and your income must be the main income of your family.",
+      "You must live in Tamil Nadu and have a two-wheeler licence or learner's licence.",
+      "You must have written the class 8 exam (pass or fail).",
+      "Only one woman per family."
+    ]
+  },
+  "documents": [
+    "Two-wheeler driving licence or learner's licence"
+  ],
+  "how_to_apply": "Forms were given free at Block offices, Urban Local Body offices and Collectorates.",
+  "where_to_apply": "Block office, Urban Local Body office or Collectorate",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "wel-amma2w-ariyalur"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "A maximum subsidy of 50% at the cost of two wheeler or Rs.25,000/- whichever is less will be provided."
+    },
+    {
+      "field": "benefit",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "For differently abled the subsidy amount Rs.31,200/- for retro-filled three wheelers."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "should be in the age group of 18 to 40 years"
+    },
+    {
+      "field": "eligibility.age_max",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "should be in the age group of 18 to 40 years"
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "The Scheme to empower working women"
+    },
+    {
+      "field": "eligibility.income_max_annual_inr",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "The annual income of the beneficiary should not exceed Rs.2,50,000/-"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "their earnings being the primary source of income for the family are the intended beneficiaries"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "should know driving and possess a valid Two Wheeler / Learner License Registration (LLR) at the time of applying."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "Should have appeared for the class 8th examination (Passed/Failed)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "only one woman beneficiary is eligible to avail the 3 benefit in a family"
+    },
+    {
+      "field": "documents",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "attach a copy of the two Wheeler Driving License to the subsidy claim form"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "Applications will be made available at all Block Offices, Urban Local Body offices, and the Collectorates free of cost to the applicant."
+    },
+    {
+      "field": "where_to_apply",
+      "source": "wel-amma2w-ariyalur",
+      "quote": "Applications will be made available at all Block Offices, Urban Local Body offices, and the Collectorates"
+    }
+  ],
+  "gaps": [
+    "The only official page found is an undated district page.",
+    "The scheme is not mentioned in the 2024-25 Rural Development policy note; it may have ended.",
+    "No helpline or G.O. number on the page."
+  ],
+  "review": {
+    "demo_use": "hold",
+    "note": "The scheme is missing from the 2024-25 Rural Development policy note and only an undated district page describes it, so it has likely ended.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

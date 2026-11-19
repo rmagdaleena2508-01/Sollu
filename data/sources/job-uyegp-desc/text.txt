@@ -1,0 +1,85 @@
+MSME
+Micro, Small and Medium Enterprises Department
+குறு, சிறு மற்றும் நடுத்தரத் தொழில் நிறுவனங்கள் துறை
+Unemployed Youth Employment Generation
+Programme (UYEGP)
+Home
+Dashboard
+About
+About UYEGP
+G.O & Guidelines
+Flow Chart
+Guidelines
+Check your Eligibility
+FAQ
+Dos & Don'ts
+Filing Procedure
+Online Blank Application
+Online Filled Application
+Documents to be Uploaded
+Apply Online
+New Application
+Upload Documents
+Download Filed Application
+Track Your Status
+Contact Us
+Department Login
+Feed back
+Dashboard
+About
+About UYEGP
+G.O & Guidelines
+Flow Chart
+Guidelines
+Check your Eligibility
+FAQ
+Dos & Don'ts
+Filing Procedure
+Online Blank Application
+Online Filled Application
+Documents to be Uploaded
+Apply Online
+New Application
+Upload Documents
+Download Filed Application
+Track Your Status
+Contact Us
+Department Login
+--> Feed back
+தமிழ்
+தமிழ்
+Check your eligibility_cs
+UYEGP
+Scheme for mitigating the unemployment problems of
+socially and economically weaker sections of the society
+Applicants must be of age between 18-45 in general
+and for special (Women/Minorities/ BC/MBC/SC/ST/Ex-servicemen/Transgenders/Differently
+abled), age relaxation upto 55 years
+Minimum 8 th Pass
+Family income should be below Rs.8.00 lakh
+Only Trading/Business projects with
+maximum Project costs Rs.15.00 lakh respectively
+Promoter’s contribution 10% for General and 5% for
+Special Category
+Loan assistance from Commercial Banks
+Individual Based Capital Subsidy @ 25% of the
+Project cost (Maximum Rs.3.75 lakh)
+Contact Us
+FAQ
+Follow us on
+$('.open-popup-link').magnificPopup({
+type: 'inline',
+midClick: true,
+gallery: {
+enabled: true
+},
+mainClass: 'mfp-fade'
+});
+$('.open-popup-link1').magnificPopup({
+type: 'inline',
+midClick: true,
+gallery: {
+enabled: true
+},
+mainClass: 'mfp-fade'
+});

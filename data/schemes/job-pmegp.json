@@ -1,0 +1,162 @@
+{
+  "id": "job-pmegp",
+  "type": "scheme",
+  "name_en": "Prime Minister's Employment Generation Programme (PMEGP)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Micro, Small and Medium Enterprises, Government of India (through KVIC, KVIB and District Industries Centres)",
+  "audiences": [
+    "entrepreneurs",
+    "workers"
+  ],
+  "benefit": "Help to start a new small business (not farming). The bank gives a loan and the government pays part of the project cost as a subsidy. General category: 15% in towns, 25% in villages. Special category (SC, ST, OBC, minorities, women, ex-servicemen, transgender, people with disabilities): 25% in towns, 35% in villages. Project cost up to Rs 50 lakh for manufacturing and Rs 20 lakh for business or service.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": null,
+    "gender": null,
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "There is no income limit.",
+      "For projects above Rs 10 lakh (manufacturing) or Rs 5 lakh (business/service), you must have passed 8th standard.",
+      "Only new projects.",
+      "Only one person per family (you and your spouse).",
+      "You put in 10% of the cost yourself (5% for special category)."
+    ]
+  },
+  "documents": [
+    "Caste certificate",
+    "Special category certificate if needed",
+    "Rural area certificate",
+    "Project report",
+    "Education / EDP / skill training certificate"
+  ],
+  "how_to_apply": "Apply online on the KVIC PMEGP e-portal. Click 'Apply' under 'Application For New Unit'. Fill your details, save, upload your papers and submit.",
+  "where_to_apply": "Online at www.kviconline.gov.in/pmegpeportal",
+  "helpline": null,
+  "go_number": null,
+  "sources": [
+    "job-pmegp-ms"
+  ],
+  "evidence": [
+    {
+      "field": "department",
+      "source": "job-pmegp-ms",
+      "quote": "administered by the Ministry of Micro, Small and Medium Enterprises (MSME)"
+    },
+    {
+      "field": "benefit",
+      "source": "job-pmegp-ms",
+      "quote": "Beneficiary's contribution (of project cost): 10% Rate of Subsidy (of project cost): 15% for Urban Areas, 25% for Rural Areas."
+    },
+    {
+      "field": "benefit",
+      "source": "job-pmegp-ms",
+      "quote": "Special Category (including SC, ST, OBC, Minorities, Women, Ex-Servicemen, Transgenders, Differently abled"
+    },
+    {
+      "field": "benefit",
+      "source": "job-pmegp-ms",
+      "quote": "Rate of Subsidy (of project cost): 25% for Urban Areas, 35% for Rural Areas."
+    },
+    {
+      "field": "benefit",
+      "source": "job-pmegp-ms",
+      "quote": "The maximum cost of the project/unit admissible for Margin Money subsidy under the Manufacturing sector is ₹50,00,000."
+    },
+    {
+      "field": "benefit",
+      "source": "job-pmegp-ms",
+      "quote": "The maximum cost of the project/unit admissible for the Margin Money subsidy under the Business/Service sector is ₹20,00,000."
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "job-pmegp-ms",
+      "quote": "Any individual, above 18 years of age."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-pmegp-ms",
+      "quote": "There will be no income ceiling for assistance in setting up projects under PMEGP."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-pmegp-ms",
+      "quote": "the beneficiaries should possess at least VIII standard pass educational qualification"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-pmegp-ms",
+      "quote": "Assistance under the scheme is available only for new projects sanctioned specifically under the PMEGP."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-pmegp-ms",
+      "quote": "Only one person from one family is eligible"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "job-pmegp-ms",
+      "quote": "Beneficiary's contribution (of project cost): 05%"
+    },
+    {
+      "field": "documents",
+      "source": "job-pmegp-ms",
+      "quote": "Caste Certificate"
+    },
+    {
+      "field": "documents",
+      "source": "job-pmegp-ms",
+      "quote": "Special Category Certificate, wherever required"
+    },
+    {
+      "field": "documents",
+      "source": "job-pmegp-ms",
+      "quote": "Rural Area Certificate"
+    },
+    {
+      "field": "documents",
+      "source": "job-pmegp-ms",
+      "quote": "Education / EDP / Skill Development Training Certificate"
+    },
+    {
+      "field": "documents",
+      "source": "job-pmegp-ms",
+      "quote": "Project Report"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-pmegp-ms",
+      "quote": "Click on the “Apply” button under the “Application For New Unit” tab ."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "job-pmegp-ms",
+      "quote": "upload the required documents and proceed for final submission"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "job-pmegp-ms",
+      "quote": "Visit the official website https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp"
+    }
+  ],
+  "gaps": [
+    "Crop farming, animal husbandry, meat, liquor and tobacco businesses are not allowed (negative list on the source).",
+    "A second loan for upgrading an existing PMEGP/MUDRA unit is also on the source but not summarised here.",
+    "No helpline in the source. The KVIC portal did not load during research, so only the myScheme page was saved."
+  ],
+  "review": {
+    "demo_use": "ready",
+    "note": "myScheme page gives the current subsidy rates and project limits; scheme is a long-running central programme.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

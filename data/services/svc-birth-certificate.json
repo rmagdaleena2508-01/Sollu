@@ -1,0 +1,142 @@
+{
+  "id": "svc-birth-certificate",
+  "type": "service",
+  "title_en": "Birth certificate",
+  "name_ta": null,
+  "department": "Directorate of Public Health and Preventive Medicine, and local bodies, Government of Tamil Nadu",
+  "what_it_is": "A birth must be registered where it happened. Then you get a birth certificate. Registration is done under the Registration of Births and Deaths Act, 1969.",
+  "who_can_apply": "If the baby is born in a hospital, the hospital's medical officer reports the birth. If the baby is born at home, the head of the house or the nearest relative must report it.",
+  "documents": null,
+  "how_to_apply": "Report the birth within 21 days. In big government hospitals and PHCs, the birth certificate is given before the mother goes home. If you report it late, you need written permission and a late fee. After one year, you need an order from the Revenue Divisional Officer. Copies can be printed at e-Sevai centres. The child's name can be added free within one year.",
+  "where_to_apply": "The Registrar of Births and Deaths of the place where the birth happened (Municipality, Panchayat or other local body).",
+  "fee": "Free if reported within 21 days, and one free copy is given. Late fee: Rs 100 (21 to 30 days), Rs 200 (30 days to 1 year), Rs 500 (after 1 year). Extra copy (extract): Rs 200. Printing at e-Sevai: Rs 100 (Public Health) or Rs 40 (Greater Chennai Corporation).",
+  "time_limit": "Report the birth within 21 days. Add the child's name within one year to avoid a late fee.",
+  "validity": null,
+  "helpline": null,
+  "sources": [
+    "svc-tnhealth-bd",
+    "svc-esevai-services",
+    "svc-esevai-list",
+    "svc-um-birth"
+  ],
+  "evidence": [
+    {
+      "field": "what_it_is",
+      "source": "svc-tnhealth-bd",
+      "quote": "The registration of births and deaths is carried out under the provisions of the Registration of Birth and Death (RBD) Act, 1969"
+    },
+    {
+      "field": "what_it_is",
+      "source": "svc-tnhealth-bd",
+      "quote": "The events of birth and death are registered at the place of occurrence of the event"
+    },
+    {
+      "field": "who_can_apply",
+      "source": "svc-tnhealth-bd",
+      "quote": "it is the duty of the Head of the house/household or nearest relative"
+    },
+    {
+      "field": "who_can_apply",
+      "source": "svc-tnhealth-bd",
+      "quote": "the Medical officer In-charge or any person authorized by him on his behalf is responsible for reporting"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-tnhealth-bd",
+      "quote": "The normal period of 21 days (from the date of occurrence) has been prescribed"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-tnhealth-bd",
+      "quote": "the Birth Certificates are issued prior to the discharge of the mother from the hospitals"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-tnhealth-bd",
+      "quote": "Written permission of the Officer prescribed"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-tnhealth-bd",
+      "quote": "order of the Executive Magistrate not below the rank of a Revenue Divisional Officer"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-esevai-services",
+      "quote": "Directorate of Public Health Printing of Birth Certificate Operator - 0 100"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "svc-tnhealth-bd",
+      "quote": "Name of the child shall be registered by the Parents within one year from the date of registration of the birth without any late fee"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "svc-tnhealth-bd",
+      "quote": "Registrars of Births and Deaths are appointed for each local area comprising the area within the jurisdiction of the Municipality,Panchayat or other local authority"
+    },
+    {
+      "field": "fee",
+      "source": "svc-tnhealth-bd",
+      "quote": "within the normal period of 21days, no fee would be charged"
+    },
+    {
+      "field": "fee",
+      "source": "svc-tnhealth-bd",
+      "quote": "One free copy of birth / death certificate is issued to the informant"
+    },
+    {
+      "field": "fee",
+      "source": "svc-tnhealth-bd",
+      "quote": "21 Days to 30 Days Rs. 100/-"
+    },
+    {
+      "field": "fee",
+      "source": "svc-tnhealth-bd",
+      "quote": "After 30 Days to 1 year Written permission of the Officer prescribed and on payment of late fee of Rs. 200/-"
+    },
+    {
+      "field": "fee",
+      "source": "svc-tnhealth-bd",
+      "quote": "on payment of late fee of Rs. 500/-"
+    },
+    {
+      "field": "fee",
+      "source": "svc-tnhealth-bd",
+      "quote": "For granting extract relating to each Birth or Death - Rs.200/-"
+    },
+    {
+      "field": "fee",
+      "source": "svc-esevai-services",
+      "quote": "Greater Chennai Corporation Printing of Birth Certificate Operator - 0 40"
+    },
+    {
+      "field": "time_limit",
+      "source": "svc-tnhealth-bd",
+      "quote": "The normal period of 21 days (from the date of occurrence)"
+    },
+    {
+      "field": "time_limit",
+      "source": "svc-tnhealth-bd",
+      "quote": "within one year from the date of registration of the birth without any late fee"
+    }
+  ],
+  "gaps": [
+    "The sources do not list the documents needed for a late registration.",
+    "The Tamil name was not found in a saved source.",
+    "No helpline number is given.",
+    "The e-Sevai fee list page shows Rs 30 for Chennai Corporation printing but the service page shows Rs 40; Rs 40 is used here."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "The health department page has no date, and the two e-Sevai pages give different printing charges for Chennai (Rs 30 and Rs 40).",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}

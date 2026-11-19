@@ -1,0 +1,1170 @@
+STANDARD OPERATING PROCEDURES (SOP)
+                FOR
+  IMPLEMENTATION OF SECTION 12
+     (1) (C) OF THE RTE ACT, 2009
+    Model Procedures for Effective Implementation
+
+
+
+
+National Commission for Protection of Child Rights, New Delhi
+                         2020-2021
+                         Table of Contents
+ACRONYMS………………………………………………………………………………...…ii
+DEFINITION OF TERMS…………………………………………………………………...iii
+
+A.        INTRODUCTION
+       I. Background……………………………………………………………….…………1
+      II. Rationale & Need…………………………………………………………..………1
+    III. Objective of the Standard Operating Procedures……….……………...……..2
+     IV. For Whom the Standard Operating Procedures are Intended……….……..3
+      V. Essential Considerations/Key Determinants…………………………….….…3
+          1. Fundamental Right of the Children
+          2. Inclusion and Non-Discrimination
+          3. Best Interest of the Children
+          4. Multi-sectoral Approach
+          5. Awareness at all Levels
+          6. Capacity Building & Training
+          7. Monitoring & Grievance Redressal Mechanism
+B.        STANDARD OPERATING PROCEDURES (SOP)
+       I. Preparatory Phase ………………………………………………………………..5
+      II. Processing Applications, Selection & Admission ……………………………10
+    III. After Completion of Admission Process………………………….……………13
+C.        ROLES & RESPONSIBILITIES OF STAKEHOLDERS
+       I. Appropriate Government………………………………………………………..17
+      II. Local Authority……………………………………………………………………18
+    III. Competent Authority…………….………………………………………………18
+     IV. Schools ……………………………………………………………………………..19
+      V. Parent-Teacher Association……………………………………………………..19
+     VI. Parents……………………………………………………………………………..20
+    VII. Non-Government Organizations……………………………………………….20
+   VIII. National & State Commissions for Protection of Child Rights (N/SCPCR) 20
+
+
+ANNEXURE I ………………………………………………………………………………...22
+
+
+
+
+                                                     SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                     (C) Page- i
+                           ACRONYMS &
+                          ABBRIVIATIONS
+
+AAY         Antodaya Anna Yojana
+BEO         Block Education Officer
+BPL         Below Poverty Line
+CBSE        Central Board of Secondary Education
+CCI         Child Care Institutions
+CPO         Child Protection Officer
+CRC         Cluster Resource Centre
+CSC         Common Service Centres
+CWSN        Children with Special Needs
+DEO         District Education Officer
+DIET        District Institute for Education and Training
+DG          Disadvantage Groups
+DRC         Declaration of the Rights of the Child
+GRM         Grievance Redressal Mechanism
+EWS         Economically Weaker Section
+ICPS        The Integrated Child Protection Scheme
+ICT         Information and Communication Technology
+IPC         Indian Penal Code
+J.J. Act    Juvenile Justice (Care and Protection of Children) Act, 2015
+MDM         Midday Meal
+MeiTy       Ministry of Electronics and Information Technology
+MHRD        Ministry of Human Resource Development
+MoE         Ministry of Education
+NCERT       National Council of Educational Research and Training
+NCPCR       National Commission for Protection of Child Rights
+POCSO Act   Protection of Children from Sexual Offences Act, 2012
+PTA         Parent Teachers Association
+PTM         Parent Teachers Meeting
+PwD         Persons with Disabilities
+RTE Act     The Right of Children to Free and Compulsory Education Act, 2009
+SCERT       State Council of Educational Research and Training
+SMC         School Management Committee
+UNCRC       United Nations Convention on the Rights of the Child
+UT          Union Territory
+
+
+                                                         SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                         (C) Page- ii
+                             DEFINITIONS
+Appropriate Government means (i) in relation to a school established, owned or
+controlled by the Central Government, or the administrator of the Union Territory
+having no legislature, the Central Government; (ii) in relation to a school, other than
+the school referred to in sub-clause (i), established within the territory of – (A) a State,
+the State Government; (B) a Union Territory having legislature, the Government of
+that Union Territory.
+
+Child means a male or female child of the age of three to fourteen years.
+
+Child belonging to disadvantaged group means a child with disability or a child
+belonging to the Scheduled Caste, the Scheduled Tribe, the socially and educationally
+backward class or such other group having disadvantage owing to social, cultural,
+economical, geographical, linguistic, gender or such other factor, as may be specified
+by the appropriate Government, by notification.
+
+Child belonging to weaker section means a child belonging to such parents or
+guardian whose annual income is lower than the minimum limit specified by the
+appropriate Government, by notification.
+
+Child with disability (Children with special needs) includes –
+(A) a child with "disability" as defined in clause (i) of section 2 of the Persons with
+     Disabilities (Equal Opportunities, Protection of Rights and Full Participation)
+     Act, 1995 (1 of 1996);
+(B) a child, being a person with disability as defined in clause (j) of section 2 of the
+     National Trust for Welfare of Persons with Autism, Cerebral Palsy, Mental
+     Retardation and Multiple Disabilities Act, 1999 (44 of 1999);
+(C) a child with "severe disability" as defined in clause (o) of section 2 of the National
+     Trust for Welfare of Persons with Autism, Cerebral Palsy, Mental Retardation
+     and Multiple Disabilities Act, 1999 (44 of 1999).
+
+Competent Authority means the District level Education Officer responsible for
+implementation, administration of all education related schemes, policies,
+laws/legislations etc. in the district as applicable in respective States/UTs.
+
+Elementary education means the education from first class to eighth class.
+
+
+                                                             SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                             (C) Page- iii
+Guardian, in relation to a child, means a person having the care and custody of that
+child and includes a natural guardian or guardian appointed or declared by a court
+or a statute;
+Local authority means a Municipal Corporation or Municipal Council or Zila
+Parishad or Nagar Panchayat or Panchayat, by whatever name called, and includes
+such other authority or body having administrative control over the school or
+empowered by or under any law for the time being in force to function as a local
+authority in any city, town or village.
+
+National Commission for Protection of Child Rights means the National Commission
+for Protection of Child Rights constituted under section 3 of the Commissions for
+Protection of Child Rights Act, 2005 (4 of 2006).
+
+Neighbourhood School means school as defined in rule 6 of the RTE Rules, 2010 or as
+specified by the States/UTs in respective State Rules.
+
+Notification means a notification published in the Official Gazette.
+
+Parent means either the natural or step or adoptive father or mother of a child.
+
+Parent Teacher Association (PTA) means an association constituted in schools,
+specified in sub-clause (iv) of clause (n) of section 2 of the RTE Act, 2009, consisting
+of the representatives from the parents or guardians of children admitted in such
+school, teachers parents.
+
+Prescribed means prescribed by Rules made under the RTE Act.
+
+School, as defined in section 2(n) of the RTE Act, 2009 means any recognised school
+imparting elementary education and includes -
+   i. a school established, owned or controlled by the appropriate Government or a
+      local authority;
+  ii. an aided school receiving aid or grants to meet whole or part of its expenses from
+      the appropriate Government or the local authority;
+ iii. a school belonging to specified category; and
+ iv. an unaided school not receiving any kind of aid or grants to meet its expenses
+      from the appropriate Government or the local authority;
+
+Section 12 (1) (c) states that school specified in sub-clauses (iii) and (iv) of clause (n)
+of section 2 shall admit in class I, to the extent of at least twenty-five per cent of the
+
+                                                            SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                            (C) Page- iv
+total strength of that class, children belonging to weaker section and disadvantaged
+group in the neighbourhood and provide free and compulsory elementary education
+till its completion:
+
+Provided further that where a school specified in clause (n) of section 2 imparts pre-
+school education, the provision of clause (a) to (c) shall apply to such pre-school
+education.”
+
+Specified Category, in relation to a school, means a school known as Kendriya
+Vidyalaya, Navodaya Vidyalaya, Sainik School or any other school having a distinct
+character which may be specified, by notification, by the appropriate Government;
+
+State Commission for Protection of Child Rights means the State Commission for
+Protection of Child Rights constituted under section 3 of the Commissions for
+Protection of Child Rights Act, 2005 (4 of 2006).
+
+
+
+
+                                                         SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                         (C) Page- v
+                      A. INTRODUCTION
+
+   I.     BACKGROUND
+
+Defining the ‘extent of school's responsibility for free and compulsory education’ and
+for the role of schools in extending opportunity to children for inclusive elementary
+education, the RTE Act, 2009 outlined responsibility of private schools for including
+children from socially and economically disadvantaged sections of society. To achieve
+this, the schools specified in sub-clauses (iii) and (iv) of clause (n) of section 2 shall
+have to reserve twenty five percent of the seats in primary or pre-primary level
+(whichever is the entry level for the children) for which the State government
+reimburses the educational expenses as per the per child expenses mandated by the
+State or actual school fee per child (whichever is less).
+
+Through the redressal of grievances and feedback during different formal and
+informal meetings/consultations, it came to NCPCR’s notice that different
+mechanism and modalities are being followed by the States/UTs based on their
+interpretation of the said provision. To examine the compliance of the above-
+mentioned clause in true spirit and to understand ground reality NCPCR undertook
+a study on implementation of the provision in private unaided schools of Delhi. The
+findings of the study revealed challenges faced by all stakeholders involved specially
+the children and parents. Most importantly, it helped to discover the issues right from
+the process of admission to the inclusion of children admitted under this section in
+the school. Consequently, the Standard Operating Procedure (SOP) for
+Implementation of Section 12 (1) (c) of the RTE Act, 2009 has been developed to
+present a systematic mechanism/procedure to be followed by the State Governments
+in making the entire process streamlined and transparent.
+
+   II.    RATIONALE & NEED
+
+
+The RTE Act, 2009 has mandated NCPCR with the responsibility of monitoring the
+implementation of the Act. Specifically, section 31 of the Act states that NCPCR shall
+examine and review the safeguards for rights provided by or under this Act and
+recommend measures for their effective implementation. Section 13 of the CPCR Act,
+2005, also mandates NCPCR with the responsibility to examine and review the
+safeguards provided by or under any law; look into the matters relating to children
+
+
+
+                                                            SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                            (C) Page- 1
+in need of special care and protection including children in distress, marginalized and
+disadvantaged children.
+
+A review of the reports, data and other relevant documents reveals a not so glaring
+picture of the status of implementation of this particular provision by the States/UTs.
+Some significant facts highlighting the gaps are as follows:
+   i. The information provided by MHRD (now MoE) in response to Lok Sabha
+      Unstarred Question No. 2122 dated 24.12.2018; 32 States/ UT had till then
+      notified disadvantaged groups and weaker sections which are eligible for
+      admission in Private unaided Schools under Section 12 (1)(c).
+  ii. Only 16 States have started providing admissions in private unaided schools
+      under Section 12(1)(c).
+iii. Further, as per Annual Work Plan and Budget (AWP&B), 2018-19 of States
+      and UTs, 33.84 lakh children were admitted in private unaided schools under
+      the provision.
+ iv. Also, as per the Annual Work Plan & Budget 2018-19 of the States/UTs, only
+      15 States/UTs had so far notified per child Cost for Reimbursement to Private
+      School against admission of children belonging to disadvantaged groups and
+      weaker sections under Section 12(1)(C) of RTE Act 2009.
+  v. The criteria for calculating per-child expenditure is also not explicitly clear
+      for the State/UTs. The annual per-child expenditure, as per 2020-21 PAB
+      minutes, ranges from approximately Rs. 4000/- (Madhya Pradesh) to
+      approximately Rs. 7900/- (Tamil Nadu) and approximately Rs. 10,000/-
+      (Gujarat).
+ vi. As per the PAB Minutes for 2019-20, only 12 States sought budget for
+      reimbursement of fees against 25 percent admission under section 12 (1) (c).
+vii. The notifications by Appropriate Government defining the DG categories also
+      varies to a great deal. For instance, the definition of DG category for some
+      States is comprehensive as per their local context and there are States that do
+      not include CWSN children in this category eligible to be beneficiaries of the
+      provision.
+
+Given the above facts and findings, it is important that a standard procedure be
+followed in all States without affecting the impact of local factors for effective
+implementation of the provision.
+
+   III.   OBJECTIVE OF THE SOP
+
+
+
+
+                                                          SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                          (C) Page- 2
+The SOP has been developed to provide a model framework to all the States/UTs for
+effective implementation of section 12 (1) (c) of the RTE Act,2009. It provides step-
+by-step guide to facilitate the State Government in streamlining the system of
+admission and to ensure that children enjoy their right throughout the learning
+process after getting admission in the school. Since, extending the fundamental rights
+to the children is responsibility of the State, the procedures defined in this document
+are keeping in view the existing mechanisms that could be utilized in the process.
+
+   IV.    FOR WHOM THE SOP IS INTENDED
+
+
+The SOP is primarily intended for all the authorities involved in the process of
+implementation of the Act including Appropriate Government, Local Authorities,
+Officials in Department of Education, schools defined under sub-clause (iii) and (iv)
+of section 2 (n) of the RTE Act, 2009 for carrying out the process in timely and
+transparent manner, whereby children and their parents/guardians face minimal
+problems during the admission process. It would also be useful for parents/guardian
+to get the understanding of the entire procedure and for making informed choice. This
+will in turn be helpful in preventing discrimination and harassment of children later
+in the school due to issues with financial basis.
+
+   V.     ESSENTIAL CONSIDERATIONS/KEY DETERMINENTS
+
+
+The Right to Education Act, 2009 has been enacted to implement the Fundamental
+Right to elementary education as enshrined in Article 21A of the Constitution of
+India. This right is to be extended to children based on the key guiding principles of
+the United Nations Convention on the Rights of the Child (UNCRC) of 1989. The
+authorities extending right to education of children should be aware of and their
+actions should be guided by the guiding principles of UNCRC and Constitution of
+India.
+
+1. Fundamental Right of the Children
+
+Since the 86th Amendment of the Constitution, elementary education is the
+fundamental right of all children in the age of 6-14 years and the responsibility of
+extending this right to all children is with the concerned authorities. Section 12
+defines the extent of school’s responsibilities and the duty of enforcing this provision
+is a collective obligation of the concerned authorities, Departments, Ministries.
+
+
+
+                                                          SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                          (C) Page- 3
+2. Inclusion and Non-Discrimination
+
+One of the duties of Appropriate Authorities enlisted in section 8 of the RTE Act, 2009
+is to ensure that the child belonging to weaker section and the child belonging to
+disadvantaged group are not discriminated against; and ensure compulsory
+admission, attendance and completion of elementary education by every child. Also,
+section 17 of the Act, prohibits any kind of physical punishment or mental
+harassment to the child.
+
+3. Best Interest of the Children
+
+The SOP is based on the principle of best interest of the child and every rules,
+mechanism, action and decision followed by the authorities should keep child at the
+center of all decisions.
+
+4. Multi-sectoral Approach
+In addition to the Authorities and their specific duties specified in the RTE Act, 2009;
+the meaningful and effective implementation of the Act requires support and
+coordination with other Departments/Institutions as well. Hence, it is collective
+responsibility of the State and all concerned stakeholders to help in implementation
+of the Act.
+
+5. Awareness at all Levels
+
+One of the important take-aways from the desk review of State policies for
+implementation of section 12 (1) (c) and findings of NCPCR’s study in schools was
+lack of awareness and sensitizations of schools, teachers, parents and even
+Authorities. An essential pre-requisite for safeguarding child’s right is a well-
+informed and sensitive Authorities and aware parents and children about their legal
+rights.
+
+6. Capacity Building & Training
+
+For inclusion and non-discrimination of children in the school environment, teachers
+should be trained about their duties and accountability; and should be oriented
+towards the legal rights of children.
+
+7. Monitoring & Grievance Redressal Mechanism
+
+
+
+                                                          SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                          (C) Page- 4
+A robust and transparent monitoring mechanism and clearly defined grievance
+redressal mechanism would help in identifying the gaps and fix accountability of the
+stakeholders.
+
+
+
+
+                                                        SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                        (C) Page- 5
+              B. STANDARD OPERATING
+                  PROCEDURES (SOP)
+
+The Standard Operating Procedures are an effective tool in explaining, elaborating
+outlining the “what” of Laws and policies into the “how” in a systemized and
+structured design. The present SOPs also intend to provide a clear and defined set of
+guidelines that will make the implementation more transparent and unambiguous.
+The process has been broadly structured into three phases- preparatory phase;
+processing applications, selection and admission; and after completion of the
+admission process.
+
+  I.  PREPARATORY PHASE
+The pre-admission phase is for streamlining the essential pre-requisites on part of
+the Appropriate Government, Local Authorities, and schools to ensure a smooth and
+transparent admission process where all eligible children have equal opportunity to
+seek admission under section 12 (1) (c).
+
+1. Advertisement
+   The Appropriate Government and the Local Authority(ies) shall advertise the
+   schedule of admission under section 12 (1) (c) through print media; electronic
+   media as well as locally used medium of broadcasting/publicizing the important
+   announcements especially in rural and urban remote areas such as proclamation
+   (munaadi). The advertisement shall contain essential information regarding the
+   admission process such as important dates, online link, tollfree helpline number
+   and basic information on helpdesks.
+
+2. Schedule of Admission
+   The calendar for admissions under section 12 (1) (c) shall be same for the entire
+   State/UT and shall be scheduled in such a manner that the admission process is
+   completed before the beginning of admission of children under the non-DG/EWS
+   category and at least two months before the commencement of the next academic
+   session. This will ensure that all children, if so they desire, have equal opportunity
+   to apply for admission for a paid seat as well.
+
+
+
+
+                                                           SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                           (C) Page- 6
+3. Centralized Online System
+   a. To fulfil its responsibility for ensuring that the children belonging to weaker
+      section and the children belonging to disadvantaged group are not prevented
+      from pursuing and completing elementary education on any grounds, the
+      Appropriate Government (section 8, RTE Act, 2009) shall develop a centralized
+      online portal for admissions under section 12 (1) (c). All the District Education
+      Departments shall be connected to the centralized portal.
+   b. The online portal shall be universally accessible especially to people in remote
+      areas and to CWSN/PwDs as per guidelines for Indian Government website
+      issued by NIC and Department of Administrative Reforms and Public
+      Grievances (D/o        AR&PG),       Government of          India,    available at
+      https://darpg.gov.in/sites/default/files/Guidelines_for_Government_websites_0
+      _0.pdf
+   c. The online portal shall have all the necessary information regarding the
+      admissions under section 12 (1) (c). This must include the following
+      information (but not limited to)
+          i. the notified State Rules and guidelines;
+         ii. notify the definition of children belonging to disadvantaged groups and
+             children belonging to weaker section.
+       iii. admission of children with special needs (CWSN) should be prioritized.
+        iv. defining the neighbourhood criteria; however, as per MoE’s Guidelines
+             under section 35(1) of the RTE Act, 2009, there is no compulsion on child
+             to seek admission only in the school in his/her neighbourhood;
+         v.  per child expenditure to be reimbursed by the State/UT.
+        vi. entitlements of children admitted under the DG/EWS category;
+       vii. medium of instruction in school;
+      viii. instruction manual for filling up the form;
+        ix. list of documents required;
+         x.  details of helpdesks for facilitating the application process;
+        xi. toll-free helpline number for redressing the issues during and after the
+             admission process;
+       xii. details of timeline for call of applications from eligible children;
+      xiii. deadline for submission of application forms;
+      xiv. date of list of eligible children after verification of documents;
+       xv.   date of draw of lots and display of list of children getting admission along
+             with a waiting-list;
+      xvi. date of admission in schools and beginning of the academic session;
+     xvii. the Block and District Education departments shall have separate login
+             links for the portal.
+
+                                                           SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                           (C) Page- 7
+   d. The online portal should provide real-time information on
+        i.  Location and details of schools Geographic Information System (GIS)
+            mapping of all schools in the neighbourhood;
+       ii.  class-wise total number of seats;
+      iii.  class-wise number of seats for admissions under DG/EWS category;
+      iv.   class-wise number of seats for admissions of CWSN under DG/EWS
+            category;
+       v.   school-wise; class-wise and category-wise number of seats vacant under
+            DG/EWS category.
+      vi.   School-wise detail of the entry-level class i.e. whether the school has pre-
+            primary classes or the entry level class in a particular school is class I.
+
+   e. Based on the State’s/UT’s ‘fee regulatory mechanism/guidelines/Act’, the
+      school-wise fee structure of the school in the current session; estimate fee
+      structure for next five years; co-curricular activities offered by the school
+      should also be included in the portal.
+
+4. Defining children belonging to disadvantaged group and the children belonging to
+   weaker section
+
+   a. The children belonging to disadvantaged group shall include the children from
+          i. the Scheduled Caste
+         ii. the Scheduled Tribe
+       iii. Other Backward Class (non-creamy layer)
+        iv. the Denotified Tribes (DNTs) and Nomadic Tribes(NTs)
+         v. Children with disabilities/special needs (CWSN) as per the section 2 (zc) and
+             The Schedule of the Rights of Persons with Disabilities (RPwD) Act, 2016
+        vi. Children suffering from HIV/AIDS
+       vii. Children eligible for sponsorship under section 45 of the Juvenile Justice
+             Act, 2015
+      viii. Children of martyred soldiers/ Central Armed Police Forces (CAPFs) or
+             those killed in line of duty.
+        ix. Children of deprived communities such as traditional sex workers
+
+   b. The children belonging to weaker section shall include (in order of preference)
+        i. Children belonging to such families/households that are registered under
+            Antodaya Anna Yojna;
+
+
+                                                           SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                           (C) Page- 8
+        ii.   Other families/households included in the Below Poverty Line (BPL) list
+              prepared by the Department of Rural Development and Urban Development
+              of the State/UT
+       iii.   Children belonging to such parents/guardian whose annual income is lower
+              than the minimum limit prescribed by the Appropriate Government, by
+              notification.
+       iv.    If a child is studying in private school under non-DG/EWS category and due
+              to death of father/mother/guardian, who is the earning member of the
+              family, the child comes under the EWS category, that child shall, upon
+              submission of requisite eligibility certificate, be automatically be eligible for
+              free education under section 12 (1) (c). Section 12 (1) (c) does not limit the
+              number of admissions under this section and only mentions the minimum
+              percentage share w.r.t total seats.
+
+5. The list of valid documents required for the application process as proof of residence
+   shall include any one of the following-
+
+      a. UID- Aadhaar Card (As per Unique Identification Authority of India’s circular
+         dated 05.09.2018 and Cabinet Secretariat's OM dated 19.12.2017 no child can
+         be denied admission or any other benefits for non-availability of Aadhaar Card)
+      b. Voter Identity card
+      c. Electricity Bill
+      d. Telephone Bill
+      e. Water Bill
+      f. House Tax Receipt
+      g. Driving License
+      h. Copy of Rent Agreement
+      i. Ration Card
+      j. Certificate by Employer
+      k. Certificate from Tehsildar/Local Authority
+      l. Certificate from Child Welfare Committee (CWC), in case of children declared
+         CNCP or CICL are residing in a Child Care Institution (CCI) and children
+         defined in sub-point 4 (a) (7) of point I above.
+      m. If the children defined in sub-point 4 (a) (7) of point I above, are not staying with
+         their extended family but are residing in a Child Care Institution (CCI); the
+         Aadhar number can be sought as per provisions under the Aadhaar (Targeted
+         Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016 and
+         subsequent Aadhaar (Enrolment and Update) Regulations, 2016.
+
+
+                                                               SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                               (C) Page- 9
+6. Other essential documents for ascertaining the eligibility criterion
+
+   a. For children with disability, certificate issued by the persons having requisite
+      qualifications and experience as certifying authorities, designated by the State
+      Governments or as the case may be, Union Territory Administrators, as per the
+      Guidelines for Evaluation and Procedure for Certification of Various Specified
+      Disabilities notified under the Rights of Persons with Disabilities (RPwD) Act,
+      2016.
+   b. Children infected or affected with HIV/AIDs, will also have to submit their own or
+      the medical certificates of their parents.
+   c. Transgender children shall submit a medical certificate issued by Civil surgeon/
+      Superintendent of Government notified hospitals as a proof of their eligibility under
+      the provision.
+   d. For children applying under the EWS category, the AAY Card or the BPL card will
+      suffice as proof of income. An affidavit/undertaking has to be submitted every year
+      that the parents still hold a valid AAY Card or the BPL card. In case the family
+      income increases, the child will be allowed to continue free education under the
+      provision if the annual income does not exceed the prescribed limit of that defines
+      “other poor socio-economic groups” specified by the State annually.
+   e. The certificates that shall be valid as a birth certificate includes all proof valid
+      under the Aadhaar (Enrolment and Update) Regulations, 2016; Hospital/Auxiliary
+      Nurse and Midwife (ANM) register record; Anganwadi record; Declaration through
+      an affidavit of the age of the child by the parent or guardian.
+
+7. School Readiness
+
+Before the announcement of the new admissions in a given academic year, the Competent
+Authority shall organize an orientation and training of schools authorities on the
+admission procedure, documentation required, lottery system, information to be dispensed
+etc in each district. The schools shall be responsible to nominate at least two teachers as
+well as one administrative staff responsible for the admission process (one of these
+trainees must either be the Principal or the Vice-Principal of the school) to undergo this
+training. The objective of these training will be to orient, sensitize and provide knowledge
+of the procedure to the school staff for developing understanding of the provisions of
+Section 12 (1) (c) and associated legal provisions. In addition, the staff members shall
+develop awareness towards the spirit of social justice and equality that the provision
+ensures and must develop an understanding of the values of inclusion and equality.
+
+
+
+                                                             SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                             (C) Page- 10
+8. Public awareness
+
+   a. The Local Authority (ies); unaided schools and Non-Government organizations
+      (NGOs) in the local area shall hold admission rallies, public announcements,
+      distribute pamphlets to raise awareness in the local area during the quarter when
+      the admissions take place.
+   b. The school shall display on their notice board all information with regards to
+      admissions at an accessible place.
+
+9. Dispute Settlement Committee (DSC)
+
+   a. In case of absence of a grievance redressal mechanism (GRM) u/s 32 of the RTE
+      Act, 2009 in the State/UT; the Local Authority shall constitute a Dispute
+      Settlement Committee (DSC) for taking up issue that arise during the selection
+      process such as submission of forged documents; allotment of duplicate seats etc.
+   b. The DSC shall be a three-member Committee headed by the Principal/Head of the
+      District Institute of Education and Training (DIET) and include the District
+      Education Officer as well.
+   c. The tenure of the DSC shall be only for the period of admission process i.e. from the
+      announcement of the admission process till all the seats are filled-up or all eligible
+      children secure their admission, as the case may be.
+   d. In case the aggrieved party is not satisfied by the decision of DSC, District
+      Collector/Magistrate shall be the final appellate authority.
+   e. If it is established that the documents submitted by the parents/guardians are
+      forged, appropriate legal action may be initiated.
+   f. Similarly, in case the allegation made by the school against any person are not
+      found to be true, appropriate legal action may be initiated.
+   g. The decision on any dispute shall be taken within three days.
+
+II.   PROCESSING APPLICATIONS, SELECTION & ADMISSION
+
+1. Help-desks
+
+   a. Help-desks shall be set-up during the admission cycle by the Local
+      Authority(ies) in every ward; and by unaided schools and Non-Government
+      organizations (NGOs) to facilitate parents/guardians and taking them through
+      the entire admission process such as helping the parents/guardians for filling
+      up the online form. The youth volunteers from Youth Clubs, NSS, local colleges
+
+
+                                                             SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                             (C) Page- 11
+      etc. can also be engaged for providing their services at the helpdesk on
+      voluntary basis.
+   b. The Local Authority shall ensure that no charges are incurred from
+      parents/guardians for the services offered at the help-desk. These services
+      shall be a part of the role and responsibilities of the Local Authorities and
+      schools and a voluntary service by the interested NGOs.
+   c. The helpdesk shall stay functional till the completion of admission process for
+      the particular academic session.
+   d. The admission under DG/EWS category shall be included as one of the services
+      under the Common Service Centres (CSC) Scheme to help people in rural areas
+      who do not have access to technology in filling up the application form. The
+      applicant shall receive a receipt of submission of form. The form shall be
+      automatically transferred to the State centralized Portal under the specific
+      District.
+
+2. Selection Criteria
+
+   a. The lottery shall not be executed only for the schools that are the first
+      preference in less number of applications than the school’s intake as per the
+      number of seats available.
+   b. First those applications shall be considered where the residence is within 1 km
+      of the radius from the school (or as per the neighbourhood criterion defined
+      under the respective State RTE Rules). Thereafter the applicants residing
+      within the range of 3 km radius from the schools shall be taken into
+      consideration.
+   c. Within the neighbourhood criterion of 1 km and 3 km distance, preference will
+      be given to children who have siblings studying in the same school.
+   d. If the applications of sibling category, in neighbourhood range of 0-1 km are in
+      excess of the seats of General Category, the draw of lots of all sibling
+      applications (which have residence within 1 km), shall be conducted to admit
+      the students against the number of available seats.
+   e. If the applications of sibling category within 0-1 km are less than the seats of
+      non-DG/EWS category and if seats still remain vacant after exhausting sibling
+      applications, the school shall admit the students on the basis of draw of lots
+      from the remaining applications received under the neighbourhood range of 0-
+      1 km.
+   f. In case the total applications of 0-1 km is less than the number of seats of non-
+      DG/EWS category, and vacancies still remain unfilled after exhausting the
+      applications from the distance range of 0-1 km, the applications from the
+
+                                                         SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                         (C) Page- 12
+      second neighbourhood distance range of more than 1 km and up to 3 km shall
+      be considered in the above manner i.e. out of the total applications from the
+      neighbourhood range of more than 1 km and up to 3 km, admission is to be
+      given to all siblings.
+   g. If the applications of sibling category, in neighbourhood range of more than 1
+      km up to 3 km are in excess of the vacant seats of non-DG/EWS category, the
+      draw of all sibling applications (which have residence within 3 km), shall be
+      conducted to admit the students against the number of vacant seats.
+   h. If the applications of sibling category within 3 km are less than the remaining
+      vacant seats of General Category and if seats still remain vacant after
+      exhausting sibling applications, the school shall admit the students on the
+      basis of draw of lots from the remaining applications received under the
+      neighbourhood range of more than 1 km and up to 3 km.
+   i. If vacancies still remain unfilled after exhausting the applications from the
+      distance range of more than 1 km and up to 3 km, the applications from beyond
+      the range of neighbourhood of more than 3 km shall be considered in the above
+      manner.
+   j. The limit of 1-3 km may vary from State to State depending on their State
+      Rules. However, admission should be provided to children beyond the
+      neighbourhood limits as well.
+   k. In the selection process, the States may devise a mechanism to prioritize the
+      admission of children with special needs (CWSN).
+
+3. The Local Authority shall ensure that all parents/guardians are informed about
+   the date of the lottery through public announcements (in local daily newspapers,
+   radio, television etc), through notice board of the schools, through SMS etc.
+4. The results of the selection shall be informed to all parents/guardians through
+   official letter issued by the school and school notice boards and through
+   email/SMS. Also, school shall as per the contact details shared by the
+   parents/guardian at the time of the admission forms, make telephonic call to the
+   parents of the selected students.
+5. The parents/guardians shall be allowed to change the school preferences before
+   the last date of the submission of application. After the last date, the changes
+   made shall automatically be saved and no further change can be done by the
+   applicants.
+
+6. Dispute Settlement
+   Any dispute arising during the selection procedure such as allotment of duplicate
+   seats; submission of forged documents etc. shall be redressed through the
+
+                                                        SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                        (C) Page- 13
+   Grievance Redressal Mechanism (GRM) of the State/UT u/s 32 of the RTE Act,
+   2009 or the State/UT may constitute an exclusive Dispute Settlement Committee
+   (DSC).
+
+III.   AFTER COMPLETION OF THE ADMISSION PROCESS
+
+1. Admission Process
+   a. The portal shall contain school-wise list of children who got selected through
+      the lottery process. The school will then update the status of admission of each
+      child by selecting whether the child has taken admission or not.
+   b. The school shall individually approach to parents/guardian of each child for
+      completing the admission process.
+   c. If the parents of the child to whom seat has been allotted is not traceable by
+      the school for seven days, this may be treated as a dispute and referred to
+      Grievance Redressal Mechanism (GRM) of the State/UT u/s 32 of the RTE Act,
+      2009 or Dispute Settlement Committee (DSC). After decision of authority
+      under GRM/DSC, the seat may be released for admission of child in the waiting
+      list.
+   d. In case such trend is noted for a specific school, the authority under GRM/DSC
+      and SCPCRs may take suo-motu cognizance and initiate inquiry. Inquiry can
+      also be initiated if more than 5 percent seats are left vacant in a school.
+   e. Any issues with regard to documents shall be also be directed to GRM/Dispute
+      Settlement Committee (DSC).
+
+2. Basic Essential for effective Inclusion
+
+   a. The children shall receive their entitlements such as textbooks, uniform under
+      the RTE Act, 2009 at least 15 days before classes/academic year begins.
+   b. In case of such entitlements for which facilities are not available in the school
+      such as Mid-day Meal, the amount equivalent to the expenditure shall be
+      reimbursed to the child in their bank account.
+   c. The children admitted under DG/EWS category shall be provided education in
+      an inclusive environment. No separate classroom sections shall be allotted to
+      these children nor separate place be designated for their lunch/play time.
+   d. The school shall apply for reimbursement of funds online within the time frame
+      with complete set of requisite documents to avoid any delay in reimbursement.
+
+
+
+
+                                                          SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                          (C) Page- 14
+   e. The school shall ensure that the Manual for Safety and Security of Children in
+      Schools (https://ncpcr.gov.in/showfile.php?lid=1926) is followed by the school
+      and the school is not neglecting the safety of children.
+   f. All schools for which School management Committee (SMC) is not mandatory
+      under RTE Act, 2009, shall constitute a Parents-Teachers Association (PTA).
+      The composition and process of formation of PTA is placed as Annexure I.
+   g. An Anti- Bullying Committee may be constituted in school, comprising of Vice
+      Principal, a Senior teacher, School Doctor, Counsellor, PTA representative,
+      School Management representative, Legal representative, Peer Educators etc.
+
+3. Reimbursement of per child expenditure
+
+      a. As given under section 12 (2) the school specified in sub-clause (iv) of clause
+         (n) of section 2 providing free and compulsory education as specified in
+         clause (c) of sub-section (1) shall be reimbursed expenditure so incurred by
+         it to the extent of per-child-expenditure incurred by the State, or the actual
+         amount charged from the child, whichever is less, in such manner as may
+         be prescribed;
+      b. Provided that such reimbursement shall not exceed per-child-expenditure
+         incurred by a school specified in sub-clause (i) of clause (n) of section 2.
+      c. Provided further that where such school is already under obligation to
+         provide free education to a specified number of children on account of it
+         having received any land, building, equipment or other facilities, either free
+         of cost or at a concessional rate, such school shall not be entitled to any
+         reimbursement to the extent of such obligation.
+      d. Further, as per rule 12 of the RTE Rules, 2010, the total annual recurring
+         expenditure incurred by the State Government, whether from its own
+         funds, or funds provided by the Central Government or by any other
+         authority, on elementary education in respect of all schools referred to in
+         sub-clause (ii) of clause (n) of section 2, divided by the total number of
+         children enrolled in all such schools, shall be the per-child expenditure
+         incurred by the State Government.
+      e. For the purpose of determining the per-child expenditure, the expenditure
+         incurred by the State Government or local authority on schools referred to
+         in sub-clause (ii) of clause (n) of section 2 and the children enrolled in such
+         schools shall not be included.
+      f. However, within the recurring expenditure, the per-child expenditure shall
+         be calculated take into consideration the constant expenditure and variable
+         expenditure.
+
+                                                          SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                          (C) Page- 15
+      -   Constant Expenditure- the expenditure that remains same for all children
+          without taking to consideration any specific requirement. This includes
+          expenditure on mid-day meal, uniform, teacher and other staff salary,
+          teacher training, SMC training, laboratories, library and other
+          maintenance charges, water charges etc. The constant expenditure may
+          vary within the school levels. For instance, the cooking of MDM varies for
+          primary and upper-primary classes; the salary of teachers for primary and
+          upper primary may also vary.
+
+      -   Variable Expenditure- is the one where the expenditure varies for each
+          child depending upon their special requirement. This includes Braille
+          books, escort allowance, salary of resource person/special educator, Aids
+          and appliances and other facilities extended in case of CWSN,
+          stipend/scholarship received by CWSN and children from disadvantaged
+          groups etc.
+
+      -   Level-wise fixed expenditure per child for primary and upper-primary
+          (elementary) level shall be fixed. Thereafter, the cost of variable
+          expenditures shall be calculated based on the special schemes by
+          Central/State Governments for different groups such as CWSN, socially
+          disadvantaged, EWS, transgenders etc.
+
+      g. It may be noted that while reimbursing the per-child expenditure, the child
+         shall be considered in only one category under which they have secured
+         admission.
+
+4. Monitoring and Grievance Redressal
+
+   a. NCPCR and SCPCRs, as the case may be, shall be responsible for monitoring
+      the implementation of the SOP. For this, following shall be powers of
+      NCPCR/SCPCR as defined in section 31 and 32 of the RTE Act, 2009
+
+      The NCPCR constituted under section 3, or, as the case may be, the SCPCR
+      constituted under section 17, of the CPCR Act, 2005 (4 of 2006) shall, in
+      addition to the functions assigned to the that Act, also perform the following
+      functions, namely:
+
+
+
+
+                                                        SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                        (C) Page- 16
+  i.   Examine and review the safeguards for the rights provided by or under any
+       Law related to children and recommend measures for their effective
+       implementation;
+ ii.   Inquire into complaints relating to child’s right to free and compulsory
+       education; and
+iii.   Take necessary steps as provided under section 15 and 24 of the said CPCR
+       Act, 2005.
+
+The said Commissions shall, while inquiring into any matters relating to child’s
+right under clause c (1) , have the same powers as assigned to them under sections
+14 and 24 of the said CPCR Act, 2005.
+
+Where the SCPCR has not been constituted the appropriate Government may, for
+the purpose of performing the functions specified in clause 1 (a) to 1 (c), constitute
+such authority, in such manner and subject to such terms and conditions, as may
+be prescribed.
+
+b. As per Section 32 of RTE Act, 2009
+
+1. Notwithstanding anything contained in section 31, any person having any
+   grievance relating to the right of a child under this Act may make a written
+   complaint to local authority having jurisdiction.
+2. After receiving the complaint under sub-section (1), the local authority shall
+   decide the matter within a period of three months after affording a
+   reasonable opportunity of being heard to the parties concerned.
+3. Any person aggrieved by the decision of the local authority may prefer an
+   appeal to the SCPCR or the authority prescribed under sub-section 3 of
+   section 31, as case may be.
+4. The appeal preferred under sub-section 3 shall be decided by SCPCR or the
+   authority prescribed under sub-section 3 of section 31, as case may be, as
+   provided under clause (c) of sub-section (1) of section 31.
+
+c. Competent Authority shall conduct random checks/inspections in the schools.
+d. The fees charged from other students and amount sought for reimbursement
+   shall also be cross-checked during these checks/inspections.
+
+
+
+
+                                                        SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                        (C) Page- 17
+          C. ROLES & RESPONSIBILITIES
+               OF STAKEHOLDERS
+The aim of this section is to provide an overview of stakeholders involved in the
+implementation of RTE Act, 2009 with reference to section 12 (1) (c). It specifically
+describes the responsibilities of the key stakeholders such as Appropriate
+Government, Local Authority, Schools, non-governmental organizations (NGOs) etc.
+This section endeavours to outline the specific functions of different stakeholders in
+extending the rights of the child in their best interests.
+
+1. Appropriate Government
+
+   a. To establish an universally accessible, centralized online admission portal for
+      admissions under section 12 (1) (c) of the RTE Act, 2009.
+   b. Conduct a GIS based mapping of all schools responsible for admissions under
+      section 12 (1) (c) as defined in the Act.
+   c. Establish a system of annual mapping of children in the neighbourhood
+      including those eligible for admissions under DG/EWS category.
+   d. Define and notify the Local Authority under the RTE Act, 2009; groups
+      included in children belonging to disadvantaged groups and children belonging
+      to weaker section
+   e. Define and notify entitlements of children admitted under the DG/EWS
+      category
+   f. To notify the area and limits of neighbourhood schools.
+   g. Define and notify per-child expenditure that shall be reimbursed to the schools
+   h. Establish a toll-free centralized helpline for facilitating the parents/guardians
+      and schools for the admission process.
+   i. Prepare a detailed admission schedule and ensure that the same reaches out
+      to all children and parents in the area
+   j. Develop a detailed manual guiding the schools, parents/guardians and
+      children for taking them though the admission process.
+   k. Ensure through Local Authorities that all schools fill up their reimbursement
+      claims and timely release of funds.
+   l. Ensure that a robust Grievance Redressal Mechanism is in place as per section
+      32 of the RTE Act, 2009 so as to ensure that the children belonging to weaker
+      section and the children belonging to disadvantaged group are not
+
+
+
+                                                          SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                          (C) Page- 18
+      discriminated against; and ensure compulsory admission, attendance and
+      completion of elementary education by every child.
+   m. To ensure that CWSN enrolled in private schools under section 12 (1) (c)
+      received the prescribed stipend, aids and appliances and other support as
+      CWSN received in Government schools. For this coordination with Department
+      of Social Justice & Empowerment in respective States can be sought for
+      benefits under the Scheme of Assistance to Disabled Persons for
+      Purchase/Fitting of Aids/Appliances (ADIP Scheme) and Scheme for
+      Implementation of Persons with Disabilities Act, 2016 (SIPDA).
+   n. Take action against the school, on recommendation of Local Authority, in case
+      the school fails to report the children who drop-out from the school.
+
+
+2. Local Authority
+
+   a. Ensure and monitor admission, attendance and completion of elementary
+      education by every child within its jurisdiction.
+   b. Ensure that child belonging to disadvantaged sections and weaker section are
+      not discriminated against and prevented from pursuing and completing
+      elementary education on any grounds.
+   c. Maintain records of children up to the age of 14 years within its jurisdiction,
+      in such manner as may be prescribed.
+   d. Hold awareness drives for disseminating information regarding the benefits of
+      the provision and the admission procedure among general public.
+   e. Conduct orientation and sensitization workshops for Schools.
+   f. Define the grievance redressal mechanism u/s 32 of the RTE Act, 2009 or may
+      also constitute a Dispute Settlement Committee (DSC) for taking up issue that
+      arise during the selection process such as submission of forged documents;
+      allotment of duplicate seats etc.
+   g. Recommend action against the school to the Appropriate Government, in case
+      the school fails to report the children who dropped-out from the school.
+   h. Local Authority shall ensure redressal of grievances as per State grievance
+      redressal mechanism under section 32 of the RTE Act, 2009.
+   i. Local Authority shall ensure that all schools under these procedures shall
+      establish Parents-Teachers Association (PTA).
+
+
+
+
+                                                        SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                        (C) Page- 19
+3. District -level Education Officers
+
+   a. The Competent Authority shall organize an orientation and training of schools
+      authorities on the admission procedure, documentation required, lottery
+      system, information to be dispensed etc in each district.
+   b. Wherever District -level Education Officers are notified as Local Authority,
+      shall ensure timely redressal of grievances pertaining to the admissions,
+      discrimination, harassment and otherwise, as prescribed under section 32 of
+      the RTE Act, 2009.
+   c. Conducting random checks/inspections in the schools.
+   d. Formation of Parents-Teachers Association (PTA)
+
+
+4. Schools
+
+a. The schools shall ensure availability of entitlements such as textbooks, uniform
+   under the RTE Act, 2009 at least 15 days before classes/academic year begins.
+b. The school shall prescribe and follow NCERT/SCERT textbooks only and shall
+   place the order with NCERT/SCERT as per the number of available seats for
+   admission under the DG/EWS category.
+c. In case school provides meals to all children, the same shall also be provided to
+   children admitted under section 12 (1) (c). In case meals are not provided by
+   school, the amount shall be transferred to child’s account as per the per child
+   expenditure reimbursed by the Appropriate Government.
+d. Similarly, in case the school is not providing uniform to the child, the amount shall
+   be transferred to child’s account as per the per child expenditure reimbursed by
+   the Appropriate Government.
+e. The school shall only decide the colour of the uniform. However, any specific
+   brand, design and seller cannot be imposed/suggested by the school authorities.
+f. In case, the school is found neglecting child’s safety; harassing the child; is
+   adopting/encouraging practices that discriminate against the children; action
+   shall be taken against the school as per section 75 of the J.J. Act, 2015.
+g. The school shall inform the Local Authority whenever a child drop outs or remains
+   absent continuously for 30 days. In case, school fails to provide the information
+   within one month, appropriate action shall be taken against the school by the
+   Competent Authority under the Child Labour (Prohibition and Regulation) Act
+   (CLPRA), 2016 and Child Labour (Prohibition and Regulation) Amendment Rules,
+   2017.
+
+                                                          SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                          (C) Page- 20
+5. Parent-Teacher Association (PTA)
+
+
+   a. To ensure that the schools follow the prescribed procedure for admissions and
+      the ensure schools fulfil their responsibilities given under these procedures.
+   b. To contribute in creating awareness among parents for applying for admission
+      under the category.
+   c. The PTA may also volunteer at the Help-Desks established for the purpose by
+      the Local Authorities, NGOs etc.
+   d. PTA shall conduct periodic meetings and minutes/decisions of the meetings
+      shall be properly recorded and made available to the School Principal to be put
+      on school’s website and notice board to be made available to every parent. The
+      periodicity of PTA meetings should be at least once a month as for SMC under
+      rule 3 (5) of the RTE Rules, 2010.
+   e. The decisions taken in Anti-Bullying Committee and Grievance Committee for
+      Child Sexual Abuse (CSA) meeting should be discussed in the meeting of/PTA.
+   f. PTA should ensure implementation of such guidelines related to safety and
+      security of children based on which this Manual has been prepared.
+   g. The member of PTA who is part of Anti-Bullying Committee to develop
+      bullying prevention programme and creating awareness.
+
+6. Parents
+
+   a. It shall be the duty of the parent or guardian to admit or cause to be admitted
+      his or her child or ward, as the case may be, to an elementary education school
+      in the neighbourhood.
+   b. Ensure preparation of all necessary documentation required for the admission
+      such as registration of birth certificate, caste certificate, income certificate etc.
+   c. In case of any grievances take up the matter to the concerned authorities GRM.
+
+7. Non-Government Organizations (NGOs)
+
+The NGOs shall contribute in organizing awareness drive and facilitating
+parents/guardians for filling up the online forms. However, this should strictly be
+done on voluntary basis and in no circumstances the NGO or any other group shall
+charge money for the service provided.
+
+
+
+
+                                                            SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                            (C) Page- 21
+8. National & State Commissions for Protection of Child Rights (N/SCPCR)
+
+The National and State Commissions shall fulfil their functions and responsibilities
+as given in section 13, 14 and 15 of the CPCR Act, 2005 and section 31 of RTE Act,
+2009. In addition, wherever required the Commission shall act as per its mandate
+under the J.J. Act, 2016 and POCSO Act, 2012.
+
+
+
+
+                                                        SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                        (C) Page- 22
+                                                                              ANNEXURE I
+
+                               Parents-Teachers Association (PTA)
+
+1. In such schools, PTA should be made mandatory as SMCs and PTAs are an
+   important link in monitoring the safety and security measures in schools. The
+   private schools defined under section 2 (n) (iv) of RTE Act, 2009 should have a
+   Parent Teachers Association (PTA) as per the following;
+
+      a) Composition of Parents-Teachers Association (PTA)
+
+      (i)     PTA shall consist of one parent representative from each class (from each
+              section of each class, if any) such that three-fourth of members of such
+              Committee shall be parents or guardians
+
+      (ii)    Out of the 3/4th member parents, 25 percent of the total strength of parent
+              members shall be reserved for parents or guardians of children admitted
+              under section 12 (1) (c) of the RTE Act, 2009 the School specified in sub-
+              clauses (iii) and (iv) of Clause (n) of Section 2 shall admit in class I, to the
+              extent of at least twenty-five per cent. of the strength of that class,
+              children belonging to weaker section and disadvantaged group in the
+              neighbourhood and provide free and compulsory elementary education till
+              its completion.
+
+      (iii)   One teacher from each level of schooling i.e. pre-primary, primary-1,
+              primary- 2; upper primary, secondary/senior secondary;
+
+      (iv) Provided further that 50 percent of the teachers shall be nominated by
+           the School Management and 50 percent shall be nominated by the three
+           fourth representative parents of PTA;
+
+      (v)     One member of local authority;
+
+      (vi)    One representative member of the School Management;
+
+      b) Formation of Parents-Teachers Association (PTA)
+
+ i.   There shall be only one PTA in every school
+
+
+
+                                                               SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                               (C) Page- 23
+     ii.   The PTA shall be formed within one month of the beginning of the academic
+           session and should be sensitised/oriented on NCPCR’s Manual on Safety and
+           Security of Children in Schools. It is the responsibility of Management of the
+           private school to sensitise/orient the PTA. In this regard, the school should
+           follow guidelines/modules/directions and prescribed mechanism issued by
+           NCPCR/Authorities from time to time.
+
+
+           -   For training/orientation/sensitization of the SMC/PTA members the schools
+               may follow either/both of the following options:
+           -   Through collaboration with DIETs for arranging such training1.
+           -   Through the NCPCR’s empanelled agencies/organisations
+
+    iii.   The term of the PTA shall be one academic year.
+
+    iv.    The schedule of formation of PTA including last date of filing self-nomination
+           by the parents and date of draw shall be decided by the competent authority
+           and informed to the schools.
+
+     v.    For the purpose of ensuring participation of the parents of children admitted
+           under section 12 (1) (c) of the RTE Act, 2009, school shall:
+
+    vi.    conduct draw for defining the classes/sections that shall be reserved for self-
+           nomination only by parents of children admitted under section 12 (1) (c) of the
+           RTE Act, 2009
+
+vii.       draw shall be organised under the supervision of Principal/Head Master of a
+           nearby Government school nominated by the competent authority.
+
+               a. For the reserved classes as per sub-section (e) above, only parents of
+                  children admitted under section 12 (1) (c) of the RTE Act, 2009 shall
+                  submit their self-nomination; however, for all other classes/section the
+                  self-nomination is open for all parents including parents of children
+                  admitted under section 12 (1) (c) of the RTE Act, 2009 in that particular
+                  class/section.
+
+
+
+
+1
+    DIETs may also take services of the NCPCR’s empanelled agencies/organisations
+
+                                                                            SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                                                            (C) Page- 24
+b. The reservation of classes/sections to ensure participation of parents of
+   children admitted under section 12 (1) (c) of the RTE Act, 2009 shall be
+   made on rotation basis, that means, the succeeding class of the class
+   which have been reserved in a given year shall not be considered for
+   draw in the next year.
+
+c. The draw procedure for selection of the parent members i.e. 3/4th of the
+   total strength of PTA shall be undertaken by the School after the
+   Principal receives the self-nominations from all interested parents [i.e.
+   including the parents of children admitted u/s 12 (1) (c)] until the date
+   specified by competent authority.
+
+d. After receiving self-nomination from the parents the school shall
+   conduct the draw under the supervision of Principal/Head Master of a
+   nearby Government school nominated by the competent authority.
+
+e. Fifty per cent of members of such Committee shall be women.
+
+f. In case, the ward of parent member leaves the school in between the
+   academic session, another parent/guardian member from that class
+   shall be inducted into the PTA within one-month;
+
+g. The School Management shall display/upload the names of PTA Member
+   on their website and on the notice board.
+
+                            ***************
+
+
+
+
+                                               SOP FOR IMPLEMENTATION OF SECTION 12 (1)
+                                               (C) Page- 25
+

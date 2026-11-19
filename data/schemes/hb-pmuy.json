@@ -1,0 +1,148 @@
+{
+  "id": "hb-pmuy",
+  "type": "scheme",
+  "name_en": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+  "name_ta": null,
+  "level": "central",
+  "department": "Ministry of Petroleum and Natural Gas, Government of India",
+  "audiences": [
+    "women",
+    "families"
+  ],
+  "benefit": "Poor households get a free LPG gas connection. The government pays Rs 1,600 for a 14.2 kg cylinder connection (Rs 1,150 for a 5 kg cylinder). This covers the cylinder deposit, regulator, hose, gas card and fitting charges. You also get the first refill and a stove free.",
+  "eligibility": {
+    "age_min": 18,
+    "age_max": null,
+    "gender": "female",
+    "income_max_annual_inr": null,
+    "occupation": null,
+    "community": null,
+    "district": "all",
+    "other": [
+      "The connection is given to an adult woman of the household.",
+      "Your household must be in one of these groups: SC, ST, PMAY (Gramin), Most Backward Classes, Antyodaya Anna Yojana (AAY), tea garden tribes, forest dwellers, people on islands, SECC households, or a poor household by a 14-point declaration.",
+      "No one else in your household should have an LPG connection."
+    ]
+  },
+  "documents": [
+    "KYC form",
+    "Ration card (or other state document showing family members; migrants can give a self-declaration)",
+    "Aadhaar of the woman and the adults in the family",
+    "Bank account number and IFSC"
+  ],
+  "how_to_apply": "Apply online on the PMUY site, or fill the KYC form and give it with your papers to your nearest LPG distributor.",
+  "where_to_apply": "Nearest LPG distributor (Indane, Bharat Gas or HP Gas), or online at pmuy.gov.in",
+  "helpline": "14438 (Ujjwala helpline); 1906 (LPG emergency)",
+  "go_number": null,
+  "sources": [
+    "hb-pmuy"
+  ],
+  "evidence": [
+    {
+      "field": "benefit",
+      "source": "hb-pmuy",
+      "quote": "Rs. 1600 (for a connection 14.2kg cylinder/ Rs. 1150 for a 5 kg cylinder)"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmuy",
+      "quote": "Security Deposit of Cylinder – Rs. 1250 for 14.2 kg cylinder"
+    },
+    {
+      "field": "benefit",
+      "source": "hb-pmuy",
+      "quote": "first LPG refill and Stove (hotplate) both free of cost"
+    },
+    {
+      "field": "eligibility.age_min",
+      "source": "hb-pmuy",
+      "quote": "Applicant must have attained 18 years of age."
+    },
+    {
+      "field": "eligibility.gender",
+      "source": "hb-pmuy",
+      "quote": "Adult woman belonging to any of the following categories."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmuy",
+      "quote": "Adult woman belonging to any of the following categories."
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmuy",
+      "quote": "Antyodaya Anna Yojana (AAY)"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmuy",
+      "quote": "Poor Household as per 14-point declaration"
+    },
+    {
+      "field": "eligibility.other",
+      "source": "hb-pmuy",
+      "quote": "There should not be any other LPG connections in the same household."
+    },
+    {
+      "field": "documents",
+      "source": "hb-pmuy",
+      "quote": "Know Your Customer(KYC)"
+    },
+    {
+      "field": "documents",
+      "source": "hb-pmuy",
+      "quote": "Self-Declaration as per Annexure I (for migrant applicants)"
+    },
+    {
+      "field": "documents",
+      "source": "hb-pmuy",
+      "quote": "Aadhaar of beneficiary and adult family members"
+    },
+    {
+      "field": "documents",
+      "source": "hb-pmuy",
+      "quote": "Bank Account Number and IFSC"
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmuy",
+      "quote": "Documents to be used for offline application and submission to your nearest LPG distributor."
+    },
+    {
+      "field": "how_to_apply",
+      "source": "hb-pmuy",
+      "quote": "Apply for New PMUY Connection"
+    },
+    {
+      "field": "where_to_apply",
+      "source": "hb-pmuy",
+      "quote": "submission to your nearest LPG distributor"
+    },
+    {
+      "field": "helpline",
+      "source": "hb-pmuy",
+      "quote": "14438 (Ujjwala Helpline)"
+    },
+    {
+      "field": "helpline",
+      "source": "hb-pmuy",
+      "quote": "1906 (LPG Emergency Helpline)"
+    }
+  ],
+  "gaps": [
+    "The page says the scheme has a fixed target (10.6 crore connections) and the last 25 lakh 'are currently being released'; it does not say if new applications will close.",
+    "The source does not give a refill subsidy amount."
+  ],
+  "review": {
+    "demo_use": "caution",
+    "note": "Page has no date and says only a fixed number of new connections is left, so new connections may stop.",
+    "reviewed_on": "2026-11-19"
+  },
+  "verification": {
+    "status": "verified",
+    "method": "Automatic: every quote matched in the saved official source (tools/check.py).",
+    "checked_at": "2026-11-19T17:44:50+00:00",
+    "problems": [],
+    "human_review": "pending"
+  }
+}
