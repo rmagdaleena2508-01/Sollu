@@ -1,4 +1,4 @@
-import { useRevealAll, useLang, useSoftSnap } from './hooks';
+import { useRevealAll, useLang } from './hooks';
 import { IconSprite } from './components/Icon';
 import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
@@ -11,13 +11,12 @@ import { FinalCta, Footer } from './components/Footer';
 export function App() {
   const [lang, setLang] = useLang();
   useRevealAll();
-  useSoftSnap('.snap-page > section, footer');
 
   return (
     <>
       <IconSprite />
       <Nav lang={lang} onLang={setLang} />
-      <main id="top" className="snap-page">
+      <main id="top" className="landing">
         <Hero lang={lang} />
         <WhatItDoes />
         <Features />
