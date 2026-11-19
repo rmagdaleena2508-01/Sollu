@@ -1,10 +1,78 @@
 {
-  "fw-cmupt-tn": {
-    "url": "https://landreforms.tn.gov.in/UPT.html",
-    "fetched_at": "2026-11-17"
+  "agri-cc-agri-2026": {
+    "url": "https://tnhorticulture.tn.gov.in/tnhorticulture/site_assets/site-pdfs/citizen_charter/5--CC-Agriculture-2026-27-ENG-WEB.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-coop-pn-2025": {
+    "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/coop_e_pn_2025_26.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-energy-pn-2024": {
+    "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/energy_e_pn_2024_25.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-fish-banperiod": {
+    "url": "https://www.fisheries.tn.gov.in/pages/view/Ban_Period",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-fish-nfsrs": {
+    "url": "https://www.fisheries.tn.gov.in/pages/view/NFSRS",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-fish-special": {
+    "url": "https://www.fisheries.tn.gov.in/pages/view/Special_allowance",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-fish-tnfwsrs": {
+    "url": "https://www.fisheries.tn.gov.in/pages/view/TNFWSRS",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-kusum-home": {
+    "url": "https://pmkusum.mnre.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-kusum-tn-faq": {
+    "url": "https://pmkusum.tn.gov.in/TN/faq.html",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-ms-kcc": {
+    "url": "https://www.myscheme.gov.in/schemes/kcc",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-rcs-about": {
+    "url": "https://www.rcs.tn.gov.in/aboutus.php",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-shc-home": {
+    "url": "https://soilhealth.dac.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-tnfwb": {
+    "url": "https://www.tnfwb.tn.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-tnfwb-education": {
+    "url": "https://tnfwb.tn.gov.in/index.php/User/education",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-tnfwb-faq": {
+    "url": "https://tnfwb.tn.gov.in/index.php/User/faq",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-tnfwb-marriage": {
+    "url": "https://tnfwb.tn.gov.in/index.php/User/marriage",
+    "fetched_at": "2026-11-19"
+  },
+  "agri-tnfwb-natural_death": {
+    "url": "https://tnfwb.tn.gov.in/index.php/User/natural_death",
+    "fetched_at": "2026-11-19"
   },
   "fw-cmupt": {
     "url": "https://www.myscheme.gov.in/schemes/oapsucmupt",
+    "fetched_at": "2026-11-17"
+  },
+  "fw-cmupt-tn": {
+    "url": "https://landreforms.tn.gov.in/UPT.html",
     "fetched_at": "2026-11-17"
   },
   "fw-eshram-faq": {
@@ -43,13 +111,185 @@
     "url": "https://labour.tn.gov.in/tnmanwork_Registration.php",
     "fetched_at": "2026-11-17"
   },
+  "fw-tnuwwb": {
+    "url": "https://tnuwwb.tn.gov.in/",
+    "fetched_at": "2026-11-17"
+  },
   "fw-tnuwwb-claims": {
     "url": "https://tnuwwb.tn.gov.in/docs/welfare-claim.pdf",
     "fetched_at": "2026-11-17"
   },
-  "fw-tnuwwb": {
-    "url": "https://tnuwwb.tn.gov.in/",
-    "fetched_at": "2026-11-17"
+  "hb-apy-rules": {
+    "url": "https://jansuraksha.gov.in/Files/APY/English/Rules.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-cmchis-gos": {
+    "url": "https://www.cmchistn.com/administrators/government-orders",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-cmchis-home": {
+    "url": "https://www.cmchistn.com/",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-ik48-go46-tn": {
+    "url": "https://cms.tn.gov.in/cms_migrated/document/GO/hfw_e_46_2022.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-janaushadhi-about": {
+    "url": "https://janaushadhi.gov.in/about-pmbjb",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-jansuraksha-rules": {
+    "url": "https://jansuraksha.gov.in/Rules.aspx",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-mtm-nhm": {
+    "url": "https://nhm.tn.gov.in/makkal-thedi-maruthuvam/",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-pib-pmjay-a": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294278",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-pmayg-about": {
+    "url": "https://pmayg.dord.gov.in/netiayHome/about.aspx",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-pmjdy": {
+    "url": "https://pmjdy.gov.in/scheme",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-pmjjby-rules": {
+    "url": "https://jansuraksha.gov.in/Files/PMJJBY/ENGLISH/Rules.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-pmsby-rules": {
+    "url": "https://jansuraksha.gov.in/Files/PMSBY/ENGLISH/Rules.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "hb-pmuy": {
+    "url": "https://pmuy.gov.in/about.html",
+    "fetched_at": "2026-11-19"
+  },
+  "job-aabcs-desc": {
+    "url": "https://www.msmeonline.tn.gov.in/aabcs/aabcs_desc.php",
+    "fetched_at": "2026-11-19"
+  },
+  "job-aabcs-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/aabcs",
+    "fetched_at": "2026-11-19"
+  },
+  "job-mudra-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/pmmy",
+    "fetched_at": "2026-11-19"
+  },
+  "job-naanm-tnsdc": {
+    "url": "https://www.tnskill.tn.gov.in/naan-mudhalvan/",
+    "fetched_at": "2026-11-19"
+  },
+  "job-needs-desc": {
+    "url": "https://www.msmeonline.tn.gov.in/needs/needs_desc.php",
+    "fetched_at": "2026-11-19"
+  },
+  "job-needs-docs": {
+    "url": "https://www.msmeonline.tn.gov.in/needs/pdf/enclos.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "job-pmegp-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/pmegp",
+    "fetched_at": "2026-11-19"
+  },
+  "job-standup-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/sui",
+    "fetched_at": "2026-11-19"
+  },
+  "job-svanidhi-home": {
+    "url": "https://pmsvanidhi.mohua.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "job-svanidhi-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/pm-svanidhi",
+    "fetched_at": "2026-11-19"
+  },
+  "job-uyegp-desc": {
+    "url": "https://www.msmeonline.tn.gov.in/uyegp/uyegp_desc.php",
+    "fetched_at": "2026-11-19"
+  },
+  "job-uyegp-docs": {
+    "url": "https://www.msmeonline.tn.gov.in/uyegp/pdf/enclos.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "job-velai-charter": {
+    "url": "https://www.tnvelaivaaippu.gov.in/pdf/citizen_charter_eng.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "job-velai-faq": {
+    "url": "https://www.tnvelaivaaippu.gov.in/pdf/FAQ.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "job-vishwakarma-faq": {
+    "url": "https://www.pmvishwakarma.gov.in/Home/FAQ",
+    "fetched_at": "2026-11-19"
+  },
+  "job-vishwakarma-home": {
+    "url": "https://www.pmvishwakarma.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-breakfast-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/tncmbs",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-breakfast-spc": {
+    "url": "https://spc.tn.gov.in/chief-ministers-breakfast-scheme",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-cmgcps1": {
+    "url": "https://www.myscheme.gov.in/schemes/cmgcpsi",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-cmgcps2": {
+    "url": "https://www.myscheme.gov.in/schemes/cmgcpsii",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-icds-salem": {
+    "url": "https://salem.nic.in/departments/social-welfare-and-women-empowerment-department/icds/",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-icds-tn": {
+    "url": "https://icds.tn.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-icds-tn-food": {
+    "url": "https://icds.tn.gov.in/icdstn/complementary_food.html",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-icps-perambalur": {
+    "url": "https://perambalur.nic.in/icps/",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-noonmeal-about": {
+    "url": "https://middaymeal.tn.gov.in/Pages/about",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-noonmeal-karur": {
+    "url": "https://karur.nic.in/departments/social-welfare-and-women-empowerment-department/noon-meal-programme/",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-pmmvy-ms": {
+    "url": "https://www.myscheme.gov.in/schemes/pmmvy",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-ssy-nsi": {
+    "url": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-vatsalya-myl": {
+    "url": "https://mayiladuthurai.nic.in/?p=41565",
+    "fetched_at": "2026-11-19"
+  },
+  "kid-vatsalya-pib": {
+    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1939140",
+    "fetched_at": "2026-11-19"
   },
   "rn-bnss": {
     "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf",
@@ -87,6 +327,102 @@
     "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2017/261_Ex_IV_2.pdf",
     "fetched_at": "2026-11-17"
   },
+  "rt-bvmb-pib": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239603&reg=1&lang=1",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-cpa-act": {
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-cyber-home": {
+    "url": "https://cybercrime.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-cyber-pib2": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2085609&reg=3&lang=2",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-dowry-act": {
+    "url": "https://wcd.gov.in/documents/uploaded/1716183891.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-dv-act-wcd": {
+    "url": "https://wcd.gov.in/documents/uploaded/1710219616.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-i4c-home": {
+    "url": "https://i4c.mha.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-lsa-act": {
+    "url": "https://cdnbbsr.s3waas.gov.in/s32e45f93088c7db59767efef516b306aa/uploads/2025/04/202504081796627129.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-nalsa-faqs": {
+    "url": "https://nalsa.gov.in/faqs/",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-nch-contact": {
+    "url": "https://consumerhelpline.gov.in/public/contact",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-nch-home": {
+    "url": "https://consumerhelpline.gov.in/public/",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-pcma-act": {
+    "url": "https://missionvatsalya.wcd.gov.in/public/pdf/children-related-law/THE%20PROHIBITION%20OF%20CHILD%20MARRIAGE%20ACT,%202006.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-posh-act": {
+    "url": "https://wcd.gov.in/documents/uploaded/1710219823.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-rte-sop": {
+    "url": "https://ncpcr.gov.in/public/viewPdf/167663015963ef588f17bd5_165599572062b47d48d80d2_standard-operating-proceduressop-for-implementation-of-section-121c-of-the-rte-act-2009--model-procedures-for-effective-implementation.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-ssc2020-act": {
+    "url": "https://www.labour.gov.in/static/uploads/2025/07/b0620548445580767b5c0d18c95c26f7.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-ssc2020-pib": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2192795&reg=48&lang=2",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-tn-dowry": {
+    "url": "https://www.tnsocialwelfare.tn.gov.in/en/social-legislations/dowry-prohibition-act",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-tn-dv": {
+    "url": "https://www.tnsocialwelfare.tn.gov.in/en/social-legislations/protection-of-womens-from-domestic-violence-act",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-tn-mwpsc": {
+    "url": "https://www.tnsocialwelfare.tn.gov.in/en/social-legislations/the-maintenance-and-welfare-of-parents-and-senior-citizens-act",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-tn-pcma": {
+    "url": "https://www.tnsocialwelfare.tn.gov.in/en/social-legislations/prohibition-of-child-marriage-act",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-tn-posh": {
+    "url": "https://www.tnsocialwelfare.tn.gov.in/en/social-legislations/sexual-harassments-of-women-at-work-place-act",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-tn-rte-form": {
+    "url": "https://rteadmission.tnschools.gov.in/assets/data/RTE%20APPLICATION%20FORM_2024_25.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-tn-rte-portal": {
+    "url": "https://rteadmission.tnschools.gov.in/",
+    "fetched_at": "2026-11-19"
+  },
+  "rt-tnslsa-aid": {
+    "url": "https://tamilnadu.nalsa.gov.in/legal-aid/",
+    "fetched_at": "2026-11-19"
+  },
   "ss-cra-schemes-ta": {
     "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
     "fetched_at": "2026-11-17"
@@ -103,20 +439,120 @@
     "url": "https://www.myscheme.gov.in/schemes/pudhumai-penn-scheme",
     "fetched_at": "2026-11-17"
   },
-  "stu-sc-pms-tiruppur": {
-    "url": "https://tiruppur.nic.in/?p=24023",
-    "fetched_at": "2026-11-17"
-  },
   "stu-tamil-pudhalvan-go": {
     "url": "https://stationeryprinting.tn.gov.in/extraordinary/2024/230_Ex_II_1_2024.pdf",
     "fetched_at": "2026-11-17"
   },
-  "sw-cmchis-site": {
-    "url": "https://www.cmchistn.com/",
-    "fetched_at": "2026-11-17"
+  "svc-cra-ecert-ta": {
+    "url": "https://cra.tn.gov.in/ecert_t.php",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-eservices-land": {
+    "url": "https://eservices.tn.gov.in/eservicesnew/index.html",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-esevai-citizen": {
+    "url": "https://www.tnesevai.tn.gov.in/Citizen/",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-esevai-faq": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/FAQ.aspx",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-esevai-list": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/EsevaiServiceList.aspx",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-esevai-services": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-go-legalheir-478": {
+    "url": "https://cms.tn.gov.in/cms_migrated/document/GO/rev_e_478_2022.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-tamilnilam": {
+    "url": "https://tamilnilam.tn.gov.in/citizen/",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-tnhealth-bd": {
+    "url": "https://tnhealth.tn.gov.in/dph/dphbd.php",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-tnreginet-home": {
+    "url": "https://tnreginet.gov.in/portal/",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-birth": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/PrintingofBirthCertificate_UM.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-community": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-101_CommunityCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-death": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/PrintingofDeathCertificate_UM.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-death-reg": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/DPH101DeathRegistationUsermanual.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-deserted": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-105DesertedWomanCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-ec": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/IGR%20401%20Issue%20of%20Encumbrance%20Certificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-farmer": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-117_SmallMarginalFarmerCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-firstgrad": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-104_FirstGraduateCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-income": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-103_IncomeCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-intercaste": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-113_IntercasteMarriageCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-legalheir": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-114_LegalHeirCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-nativity": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-102_NativityCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-newration": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/PDS-501_Application_for_New_Ration_card.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-residence": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-116_ResidenceCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-unemployment": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-108_UnemploymentCertificate.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "svc-um-widow": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/CSCOperator_REV-109_WidowCertificate.pdf",
+    "fetched_at": "2026-11-19"
   },
   "sw-cmchis": {
     "url": "https://www.myscheme.gov.in/schemes/cmchis",
+    "fetched_at": "2026-11-17"
+  },
+  "sw-cmchis-site": {
+    "url": "https://www.cmchistn.com/",
     "fetched_at": "2026-11-17"
   },
   "sw-freebus-arasu": {
@@ -154,5 +590,57 @@
   "sw-widow-pension": {
     "url": "https://www.myscheme.gov.in/schemes/dwps",
     "fetched_at": "2026-11-17"
+  },
+  "wel-181": {
+    "url": "https://tnsocialwelfare.tn.gov.in/en/state-resource-centre-for-women/women-helpline-scheme-181",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-cra-schemes-ta": {
+    "url": "https://www.cra.tn.gov.in/about_schemes_t.php",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-kki-tnrd": {
+    "url": "https://www.tnrd.tn.gov.in/dyn_json_schemes_name_details.php?scheme_type=Mw%3D%3D&y=MjAyNA%3D%3D&sch_id=ODMx&go_type=MQ%3D%3D",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-osc": {
+    "url": "https://tnsocialwelfare.tn.gov.in/en/state-resource-centre-for-women/one-stop-crisis-centre",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-pib-nsap": {
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025117686801.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-rdpn-2024": {
+    "url": "https://www.tnrd.tn.gov.in/policynotes/rd1_e_pn_2024_25.pdf",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-scd-devices": {
+    "url": "https://scd.tn.gov.in/assistive_device.php",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-scd-maint": {
+    "url": "https://scd.tn.gov.in/Mintantance_allowance.php",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-scd-spcl-devices": {
+    "url": "https://scd.tn.gov.in/spcl_assistive_devices.php",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-tg-board": {
+    "url": "https://tnsocialwelfare.tn.gov.in/en/specilisationstransgenders-welfare/tamil-nadu-transgender-welfare-board",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-tg-pension": {
+    "url": "https://tnsocialwelfare.tn.gov.in/en/specilisationstransgenders-welfare/third-genders-pension-scheme",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-wwh": {
+    "url": "https://tnsocialwelfare.tn.gov.in/en/state-resource-centre-for-women/working-women-hostels",
+    "fetched_at": "2026-11-19"
+  },
+  "wel-wwh-list": {
+    "url": "https://tnsocialwelfare.tn.gov.in/en/list-of-home/govt-ww-hostels",
+    "fetched_at": "2026-11-19"
   }
 }
