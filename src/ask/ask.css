@@ -127,3 +127,24 @@
   .mic.rec .mic-ring{transition:none}
   .ask-autosend-bar{animation-duration:0s}
 }
+
+/* Explain a photo */
+.ask-photo{width:100%;margin-top:36px;text-align:left}
+.ask-photo-btn{display:inline-flex;align-items:center;gap:8px;margin-top:14px}
+.ask-photo-cover{margin-top:10px;font-size:13px;line-height:1.45;color:var(--ink-50);text-wrap:pretty}
+.ask-photo .ask-samples-label{margin-top:22px}
+.ask-photo-examples{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:12px}
+.photo-example{width:100%;display:grid;gap:8px;text-align:left;font-size:13.5px;line-height:1.35;font-weight:500;color:var(--ink);transition:transform 160ms var(--ease-out)}
+.photo-example img{width:100%;height:auto;aspect-ratio:240/340;object-fit:cover;object-position:top;border-radius:12px;background:#fff;box-shadow:var(--shadow-pill);outline:1px solid oklch(0 0 0 / .1);outline-offset:-1px}
+.photo-example:active{transform:scale(.96)}
+.photo-example:disabled{opacity:.5}
+@media (hover:hover) and (pointer:fine){.photo-example:not(:disabled):hover img{box-shadow:var(--shadow-card)}}
+.bubble-photo{padding:6px;margin:0}
+.bubble-photo img{display:block;max-width:min(220px,60vw);max-height:300px;width:auto;height:auto;border-radius:14px 14px 2px 14px;background:#fff}
+.ask-attach{flex:none;align-self:center;display:grid;place-items:center;width:40px;height:40px;margin:0 4px 0 -10px;border-radius:999px;color:var(--ink-64);transition:transform 160ms var(--ease-out),color 160ms ease}
+.ask-attach:active{transform:scale(.96)}
+.ask-attach:disabled{opacity:.35}
+@media (hover:hover) and (pointer:fine){.ask-attach:not(:disabled):hover{color:var(--ink)}}
+.answer-photo{margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid var(--line, rgba(0,0,0,.08))}
+.answer-photo-title{font-size:15px;font-weight:600;line-height:1.35;text-wrap:balance}
+.answer-photo-meta{margin-top:3px;font-size:13px;line-height:1.4;color:var(--ink-50)}

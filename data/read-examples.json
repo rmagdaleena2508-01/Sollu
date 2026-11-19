@@ -1,0 +1,222 @@
+{
+  "note": "Saved answers for the example photos on the Ask page. Made by data/tools/read_examples.mjs from the live pipeline. Do not edit by hand; run the script again.",
+  "made_at": "2026-11-19T16:41:26.397Z",
+  "examples": [
+    {
+      "photo": "census",
+      "sha256": "9e8a697c1570d00c5fc22cece390d76b55c7154d6b2dded19d842cfab8a31d20",
+      "lang": "en",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "This is a government announcement about the schedule for the 2027 population census.",
+          "The census will take place from 25 January 2027 to 28 February 2027, with a self-enumeration option available from 10 January 2027.",
+          "The dates for the census are 10 January 2027 to 5 March 2027."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-census-2027",
+            "type": "notice",
+            "title": "Census of India 2027: counting dates and self-enumeration window",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/479_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "photo": {
+          "kind": "government",
+          "title": "Census of India 2027: counting dates and self-enumeration window",
+          "from": "Public Department (Law Officers), Government of Tamil Nadu",
+          "date": "6 November 2026",
+          "checked": true
+        },
+        "audioUrl": "/demo-audio/photo-census-en-9e8a697c.mp3"
+      }
+    },
+    {
+      "photo": "census",
+      "sha256": "9e8a697c1570d00c5fc22cece390d76b55c7154d6b2dded19d842cfab8a31d20",
+      "lang": "ta",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "2027-ஆம் ஆண்டுக்கான மக்கள் தொகை கணக்கெடுப்பு நடத்தும் தேதிகள் மற்றும் நீங்களே கணக்கெடுக்கும் வசதி குறித்து இந்த அரசு அறிவிப்பு கூறுகிறது.",
+          "நீங்கள் நீங்களே கணக்கெடுக்கும் வசதியை பயன்படுத்த விரும்பினால், கொடுக்கப்பட்டுள்ள கால அவகாசத்திற்குள் செய்து முடிக்க வேண்டும்.",
+          "நீங்களே கணக்கெடுக்கும் காலம் 10 ஜனவரி 2027 முதல் 24 ஜனவரி 2027 வரை உள்ளது."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-census-2027",
+            "type": "notice",
+            "title": "Census of India 2027: counting dates and self-enumeration window",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/479_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "photo": {
+          "kind": "government",
+          "title": "Census of India 2027: counting dates and self-enumeration window",
+          "from": "Government of Tamil Nadu",
+          "date": "6 November 2026",
+          "checked": true
+        },
+        "audioUrl": "/demo-audio/photo-census-ta-9e8a697c.mp3"
+      }
+    },
+    {
+      "photo": "rice",
+      "sha256": "c71d1e4967dcc3d45192f780c99d50971f7f7b4f85495f0d76e6734bde88cb13",
+      "lang": "en",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "This order sets stock limits for paddy and rice in Tamil Nadu for businesses like wholesalers and retailers.",
+          "Businesses must declare their stock on the government portal and reduce any excess stock to meet the limits.",
+          "Excess stock must be reduced by 16 November 2026, and the order applies until 31 January 2027."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-rice-stock-limit",
+            "type": "notice",
+            "title": "Tamil Nadu Paddy / Rice (Stock Limit) Control Order, 2026",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/487_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "photo": {
+          "kind": "government",
+          "title": "Tamil Nadu Paddy / Rice (Stock Limit) Control Order, 2026",
+          "from": "Co-operation, Food and Consumer Protection Department, Government of Tamil Nadu",
+          "date": "13 November 2026",
+          "checked": true
+        },
+        "audioUrl": "/demo-audio/photo-rice-en-c71d1e49.mp3"
+      }
+    },
+    {
+      "photo": "rice",
+      "sha256": "c71d1e4967dcc3d45192f780c99d50971f7f7b4f85495f0d76e6734bde88cb13",
+      "lang": "ta",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "தமிழ்நாட்டில் நெல் மற்றும் அரிசி இருப்பு வைக்க அரசு கட்டுப்பாடு விதித்துள்ளது.",
+          "வணிகர்கள் தங்கள் இருப்பு விவரங்களை நுகர்வோர் விவகாரத்துறை இணையதளத்தில் பதிவு செய்ய வேண்டும்.",
+          "அதிகமாக இருப்பு இருந்தால் 16 நவம்பர் 2026-க்குள் குறைத்துவிட வேண்டும்."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-rice-stock-limit",
+            "type": "notice",
+            "title": "Tamil Nadu Paddy / Rice (Stock Limit) Control Order, 2026",
+            "sources": [
+              {
+                "url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2026/487_Ex_II_1_2026.pdf",
+                "host": "stationeryprinting.tn.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "photo": {
+          "kind": "government",
+          "title": "Tamil Nadu Paddy / Rice (Stock Limit) Control Order, 2026",
+          "from": "Co-operation, Food and Consumer Protection Department, Government of Tamil Nadu",
+          "date": "13 November 2026",
+          "checked": true
+        },
+        "audioUrl": "/demo-audio/photo-rice-ta-c71d1e49.mp3"
+      }
+    },
+    {
+      "photo": "salem",
+      "sha256": "a67f969da554244f396a93faf6e1420fd0ef7916f5daa26d9f8e045d6b23f272",
+      "lang": "en",
+      "response": {
+        "kind": "answer",
+        "lang": "en",
+        "lines": [
+          "Private candidates who took 10th or 12th exams in Salem between 2019 and 2023 must collect their mark sheets.",
+          "Collect them in person with ID and admit card, or send a self-addressed envelope with Rs 42 stamp to the Assistant Director of Government Examinations office.",
+          "The deadline to collect the mark sheets is 15 December 2026."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-salem-marksheet",
+            "type": "notice",
+            "title": "Salem: private candidates must collect old 10th / 12th mark sheets by 15 December 2026",
+            "sources": [
+              {
+                "url": "https://cdn.s3waas.gov.in/s3c81e728d9d4c2f636f067f89cc14862c/uploads/2026/10/17920460981574.pdf",
+                "host": "cdn.s3waas.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "photo": {
+          "kind": "government",
+          "title": "Salem: private candidates must collect old 10th / 12th mark sheets",
+          "from": "District Collector, Salem",
+          "date": "14 October 2026",
+          "checked": true
+        },
+        "audioUrl": "/demo-audio/photo-salem-en-a67f969d.mp3"
+      }
+    },
+    {
+      "photo": "salem",
+      "sha256": "a67f969da554244f396a93faf6e1420fd0ef7916f5daa26d9f8e045d6b23f272",
+      "lang": "ta",
+      "response": {
+        "kind": "answer",
+        "lang": "ta",
+        "lines": [
+          "2019 முதல் 2023 வரை தேர்வு எழுதிய தனித்தேர்வர்கள் இன்னும் வாங்காத மதிப்பெண் சான்றிதழ்களை வந்து வாங்கிக்கொள்ள சொல்லியிருக்காங்க.",
+          "அடையாள அட்டை மற்றும் ஹால் டிக்கெட்டுடன் நேரில் செல்லணும், இல்லனா ரூ.42 ஸ்டாம்ப் ஒட்டிய கவரை அனுப்பி அஞ்சல் மூலமும் வாங்கலாம்.",
+          "இந்த மதிப்பெண் சான்றிதழ்களை 15 டிசம்பர் 2026-க்குள் பெற்றுக்கொள்ள வேண்டும்."
+        ],
+        "items": [
+          {
+            "id": "rn-notice-salem-marksheet",
+            "type": "notice",
+            "title": "Salem: private candidates must collect old 10th / 12th mark sheets by 15 December 2026",
+            "sources": [
+              {
+                "url": "https://cdn.s3waas.gov.in/s3c81e728d9d4c2f636f067f89cc14862c/uploads/2026/10/17920460981574.pdf",
+                "host": "cdn.s3waas.gov.in",
+                "checked": "2026-11-17"
+              }
+            ]
+          }
+        ],
+        "photo": {
+          "kind": "government",
+          "title": "Salem: private candidates must collect old 10th / 12th mark sheets by 15 December 2026",
+          "from": "மாவட்ட ஆட்சித்தலைவர், சேலம்",
+          "date": "14.10.2026",
+          "checked": true
+        },
+        "audioUrl": "/demo-audio/photo-salem-ta-a67f969d.mp3"
+      }
+    }
+  ]
+}

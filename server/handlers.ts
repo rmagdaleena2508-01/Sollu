@@ -2,6 +2,7 @@ import type { AskLang, AskRequest } from '../src/ask/types';
 import { answer } from './ask.js';
 import { check, cleanCheck } from './check.js';
 import { geminiJson, GeminiBusyError } from './gemini.js';
+import { readPhoto } from './read.js';
 import { speak, speakStream, transcribe } from './sarvam.js';
 
 const json = (body: unknown, status = 200) =>
@@ -182,4 +183,43 @@ export async function handleCheck(req: Request): Promise<Response> {
   const clean = cleanCheck(body);
   if (!clean) return json({ error: 'Bad request' }, 400);
   return json(check(clean));
+}
+
+/** Phones send photos of 2 to 5 MB; the page shrinks them first, so this only stops mistakes and abuse. */
+const MAX_PHOTO_BYTES = 4 * 1024 * 1024;
+const PHOTO_TYPES = new Set(['image/jpeg', 'image/png', 'image/webp']);
+
+/**
+ * POST /api/read?lang=ta with the photo as the body (image/jpeg, image/png or image/webp).
+ * Gemini reads the photo and explains it in 3 lines. The photo is not stored.
+ */
+export async function handleRead(req: Request): Promise<Response> {
+  if (req.method !== 'POST') return json({ error: 'Use POST' }, 405);
+  // Reading a photo costs more than a question, so the limit is lower.
+  if (limited(req, 12, 'read')) return json({ error: 'Too many photos. Please wait a minute.', code: 'busy' }, 429);
+
+  const type = (req.headers.get('content-type') ?? '').split(';')[0].trim();
+  if (!PHOTO_TYPES.has(type)) return json({ error: 'Send a JPEG, PNG or WebP photo' }, 415);
+  const buf = new Uint8Array(await req.arrayBuffer());
+  if (!buf.byteLength) return json({ error: 'No photo' }, 400);
+  if (buf.byteLength > MAX_PHOTO_BYTES) return json({ error: 'Photo too big' }, 413);
+
+  const url = new URL(req.url);
+  const lang = url.searchParams.get('lang');
+  // Skipping the saved answers is only for making them on a developer's machine, never on Vercel.
+  const fresh = url.searchParams.get('fresh') === '1' && !process.env.VERCEL;
+
+  try {
+    return json(await readPhoto(buf, type, isLang(lang) ? lang : 'en', { fresh }));
+  } catch (err) {
+    if (err instanceof GeminiBusyError) {
+      console.warn('read busy', err.message);
+      return new Response(JSON.stringify({ error: 'busy', code: 'busy' }), {
+        status: 503,
+        headers: { 'Content-Type': 'application/json; charset=utf-8', 'Retry-After': '30' },
+      });
+    }
+    console.error('read failed', err);
+    return json({ error: 'Sollu could not read this photo right now. Please try again.' }, 502);
+  }
 }

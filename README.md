@@ -48,7 +48,7 @@ Each action has one plain verb. We never swap it for a fancier word.
 |:-:|---|---|---|
 | 🎙️ | **Ask** | Speak in Tamil or English | An answer in your words, read aloud |
 | ✅ | **Check** | Answer 5 quick questions | Every scheme you may fit, and why |
-| 📄 | **Explain** | Snap a photo of a notice | What it says, what to do, and by when, in 3 lines |
+| 📄 | **Explain** | Snap a photo of a notice, or tap one of ours | What it says, what to do, and by when, in 3 lines |
 | ⚖️ | **Know** | Ask about rent, wages, ration or police | The plain rule and what you can do today |
 | 📋 | **Find** | Ask where to go | The papers you need and the nearest office |
 
@@ -71,7 +71,8 @@ I'd rather show you an honest list than a big promise.
 | A person (me) confirming the amounts Sollu says out loud | ✅ Pensions, Magalir Urimai and free bus checked ([what changed](#what-you-should-know)). 🟠 Other amounts still pending |
 | **Explain a notice:** 3 real, checked notices on the Ask page (census, rice stock limits, Salem mark sheets). Tap one, get it in 3 lines, read aloud | ✅ Built |
 | **Check what you can get** at `/check`: 5 quick questions, then every checked scheme that may fit, why, and the official source | ✅ Built |
-| Explain a notice from a photo, Find an office | 🟠 Not built yet |
+| **Explain a notice from a photo:** take or pick a photo on the Ask page; Sollu reads it and explains it in 3 lines, read aloud. 3 example photos of the checked notices work instantly | ✅ Built. Photos are read by AI, so the answer says "not checked by Sollu" unless the photo is one of our checked notices |
+| Explain a notice from a PDF, Find an office | 🟠 Not built yet |
 
 Demo cards that are still illustrations say **Sample**. The "Check" card counts real checked schemes. There are no fake users, ratings or testimonials, and no buttons for features that don't exist. Real stories come after the pilot.
 
@@ -227,6 +228,7 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/handlers' imp
 | First visit speed | Fresh browser (empty cache), slow 4G (150 ms delay, 1.6 Mbps) and a 4× slower CPU, on the live site | Home page: first paint **0.54–0.56 s** (was 1.16–1.20), main content shown **1.31–1.34 s** (was 1.64–1.71). Ask page: main content shown **0.61–0.70 s** (was 1.0). On fast 4G the home page's main content shows in 0.68 s. Layout shift 0.029–0.043 on slow 4G (the serif font swapping in after the text is already drawn), within Google's "good" limit of 0.1 |
 | Voice backups | A broken stream, then the Stop button | Falls back to the whole audio file and plays; Stop also cancels the download |
 | Page | Checked in a browser at phone size (390px) and desktop (1440px), in English and Tamil: sample questions, typing, follow-up, play and stop | No sideways scroll, everything works |
+| Explain a photo | The 3 checked notices as photos (made from the official PDFs), in English and Tamil, plus a blurry photo, through `/api/read`; then on the page at 390px in headless Brave: tapping an example, and choosing a photo file | All 6 example answers match the checked notices and link to their source. A live read takes about 10 to 12 seconds; the examples answer in under 1 second from saved answers. The blurry photo gets *"I couldn't read this photo clearly"*. I also tried a real legal notice that its receiver had published online, on my machine only, but Gemini was busy every time, so that test isn't done. Those files are not in the repo, and the live examples use government notices only |
 | Code | `npm run build` (strict TypeScript + production build) | Passes |
 | Data | `python3 data/tools/check.py` on all 28 entries | 28 pass, 1 held back by review |
 
@@ -269,7 +271,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 19 | **One section per screen:** the landing page snaps to each section (CSS Scroll Snap). Each fills the screen below the top bar; longer sections can still be scrolled through, so nothing is cut off. | [#19](https://github.com/rmagdaleena2508-01/Sollu/pull/19) |
 | 20 | **Check what you can get:** 5 questions (age, woman or man, what fits them, family income, community certificate), then every checked scheme that may fit, grouped into "may fit", "need one more answer" and "doesn't fit", with the reason and the official source. Our own rules decide, no AI. | [#21](https://github.com/rmagdaleena2508-01/Sollu/pull/21) |
 | 21 | **Smoother scrolling:** hard CSS snapping replaced by a gentle glide. Sections still fill the screen, but scrolling moves freely, and the page eases onto a section only when you stop near its edge, in the direction you were going. | [#24](https://github.com/rmagdaleena2508-01/Sollu/pull/24) |
-| 22 | Fixed: the "Ask out loud" card vanished after its mic was tapped. | this change |
+| 22 | Fixed: the "Ask out loud" card vanished after its mic was tapped. | [#25](https://github.com/rmagdaleena2508-01/Sollu/pull/25) |
+| 23 | **Explain a notice from a photo:** a camera button on the Ask page and 3 example photos. Gemini reads the photo and explains it in 3 lines: what it says, what to do, by when. Every number in the answer is checked against the text read from the photo, and a photo of a notice we've already checked links to its official source. The photo is shrunk on the phone first and never stored. | this change |
 
 ### Problems I hit, and how I fixed them
 
@@ -282,6 +285,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | Cards in the fanned stack showed through each other | Made the side cards fully solid |
 | The Tamil button text didn't fit on a 390px phone | Shortened it to *"இலவசமா கேளுங்க"* |
 | `sollu.vercel.app` already belonged to a different app | Picked `sollu-ai.vercel.app` |
+| 19 Nov: the rice stock order's photo explained almost nothing (*"no date is given"*) | Its limits and dates are on page 2, and the photo showed page 1 only. The example photo now shows both pages side by side, the way you'd photograph them on a table |
+| 19 Nov: Tamil photo answers said *"15 December 2026"* with the month in English | The prompt now asks for Tamil month names (*டிசம்பர்*) |
 | 18 Nov: tapping the mic on the "Ask out loud" card made the whole card disappear | Cards fade in on scroll by getting an `in` class added from outside React. This card adds `playing` to its own `className` when tapped, and React rewrote the whole class list, dropping `in`, so the card went back to invisible. Revealed cards are now marked with a `data-revealed` attribute, which React leaves alone. Tested with a real click: the live site went to opacity 0, the fix stays at 1 |
 | Once the real Ask page existed, the landing page still had mockup leftovers: made-up scheme counts, a "Get alerts" phone number form with no alerts behind it, an FAQ promising "saved answers" and a "Report a wrong answer" button that didn't exist, footer links to pages that don't exist, and a sample question Sollu can't answer | The "Check" card now counts the real checked schemes for each group (built from the data by `check.py`). The alerts form is now "Ask Sollu" and "See how we check". The FAQ only says what's true. Footer links go to real pages. The land notice question is now the census question |
 
@@ -549,7 +554,8 @@ These are the choices that make Sollu feel like Sollu.
 - [ ] Owner check of every other amount
 - [x] Scheme check: 5 questions → schemes you may fit
 - [x] Explain a notice: 3 checked notices as tap-to-explain cards
-- [ ] Explain a notice from a photo or PDF
+- [x] Explain a notice from a photo
+- [ ] Explain a notice from a PDF
 - [ ] Test on low-cost Android phones with real people
 - [ ] Pilot with real people, then replace the samples with real stories (with consent)
 

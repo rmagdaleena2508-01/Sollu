@@ -52,6 +52,23 @@ export interface AskResponse {
   audioUrl?: string;
   /** Where the answer came from when it wasn't made just now. */
   cached?: 'saved' | 'recent';
+  /** Set when the answer explains a photo the person sent, not our checked data. */
+  photo?: PhotoInfo;
+}
+
+/** government: from a public office. legal: a lawyer's or company's letter. other: any other paper. */
+export type PhotoKind = 'government' | 'legal' | 'other';
+
+export interface PhotoInfo {
+  kind: PhotoKind;
+  /** As read from the photo. */
+  title?: string;
+  from?: string;
+  date?: string;
+  /** True when the photo is a notice Sollu has already checked (its entry is in items). */
+  checked?: boolean;
+  /** True when a number in the lines was not found in the text read from the photo. */
+  numbersOff?: boolean;
 }
 
 export interface SttResponse {
