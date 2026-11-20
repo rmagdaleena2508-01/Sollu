@@ -188,16 +188,17 @@ html:has(.landing){scroll-padding-top:var(--nav-h)}
 .tag{flex:none;height:20px;padding:0 8px;border-radius:999px;font-size:11px;font-weight:600;display:inline-flex;align-items:center}
 .tag.g{background:#E2F6E9;color:#138A42}.tag.o{background:#FFF1D6;color:#A86A00}.tag.r{background:#FFE4E1;color:#C42A1B}
 .voice{display:flex;align-items:center;gap:14px;margin-top:22px}
-.mic{flex:none;width:52px;height:52px;border-radius:999px;background:var(--green);color:#fff;display:grid;place-items:center;box-shadow:0 10px 24px -10px rgba(34,180,90,.8);transition:transform 160ms var(--ease-out)}
-.mic:active{transform:scale(.96)}
-.mic svg{width:22px;height:22px}
+/* Scoped to the voice card: the Ask page's .mic and .bubble styles also load here and used to win. */
+.voice .mic{--mic:52px;flex:none;width:52px;height:52px;border-radius:999px;background:var(--green);color:#fff;display:grid;place-items:center;box-shadow:0 10px 24px -10px rgba(34,180,90,.8);transition:transform 160ms var(--ease-out)}
+.voice .mic:active{transform:scale(.96)}
+.voice .mic svg{width:22px;height:22px}
 .wave{display:flex;align-items:center;gap:3px;height:36px}
 .wave i{width:3px;border-radius:2px;background:var(--ink);opacity:.75;height:30%;transform-origin:center}
 .playing .wave i{animation:wv 900ms ease-in-out infinite alternate}
 @keyframes wv{from{transform:scaleY(.4)}to{transform:scaleY(1.6)}}
 @media (prefers-reduced-motion:reduce){.playing .wave i{animation:none}}
-.bubble{margin-top:14px;background:#fff;border-radius:14px 14px 14px 4px;padding:12px 14px;box-shadow:var(--shadow-pill);font-size:14px;line-height:1.55;max-width:420px}
-.bubble[lang="ta"]{font-family:"Noto Sans Tamil",sans-serif}
+.card .bubble{margin-top:14px;background:#fff;color:var(--ink);border-radius:14px 14px 14px 4px;padding:12px 14px;box-shadow:var(--shadow-pill);font-size:14px;line-height:1.55;max-width:420px}
+.card .bubble[lang="ta"]{font-family:"Noto Sans Tamil",sans-serif}
 .sample{position:absolute;top:16px;right:16px;font-size:11px;font-weight:500;color:var(--ink-50);background:#fff;padding:3px 8px;border-radius:999px;box-shadow:var(--shadow-pill)}
 
 /* ---------- feature grid ---------- */
