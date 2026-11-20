@@ -250,7 +250,8 @@ html:has(.landing){scroll-padding-top:var(--nav-h)}
 .see h2 .inline-chip{font-size:.6em;height:1.2em;padding:0 .3em;vertical-align:.18em}
 .see-sub{text-align:center;margin-top:16px;font-size:13px;color:var(--ink-50);font-weight:500}
 .fan{position:relative;height:300px;margin-top:56px}
-.fan article{position:absolute;left:50%;top:0;width:min(260px,64vw);height:270px;margin-left:calc(min(260px,64vw)/-2);border-radius:18px;background:#fff;box-shadow:var(--shadow-card);padding:20px;display:flex;flex-direction:column;transition:transform 520ms var(--ease-out),background-color 400ms ease,color 400ms ease,opacity 400ms ease}
+.fan article{position:absolute;left:50%;top:0;width:min(260px,64vw);height:270px;margin-left:calc(min(260px,64vw)/-2);border-radius:18px;background:#fff;box-shadow:var(--shadow-card);padding:20px;display:flex;flex-direction:column;transition:transform 520ms var(--ease-out),z-index 520ms var(--ease-out),background-color 520ms var(--ease-out),color 520ms var(--ease-out),opacity 400ms ease}
+/* z-index moves with the cards, so the next card only goes on top when the two cards cross, and the black color changes in step with the move. */
 .fan article .stars{display:flex;gap:4px;color:var(--yellow)}
 .fan article .stars span{font-size:11px;font-weight:600;color:inherit;background:currentColor;height:20px;padding:0 8px;border-radius:999px;display:inline-flex;align-items:center}
 .fan article .stars span b{color:#5a4100;font-weight:600}
