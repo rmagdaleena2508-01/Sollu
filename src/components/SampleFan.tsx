@@ -34,14 +34,19 @@ export function SampleFan() {
     return () => clearInterval(id);
   }, [auto, reduce]);
 
-  const go = (d: number) => setFront((f) => (f + d + n) % n);
+  // Any arrow tap stops auto-play for good. The arrows sit outside .fan, so hovering
+  // the cards was not enough, and the timer kept adding its own step on top of the taps.
+  const go = (d: number) => {
+    setAuto(false);
+    setFront((f) => (f + d + n) % n);
+  };
 
   return (
     <section className="see" aria-labelledby="see-h" style={{ overflow: 'hidden' }}>
       <div className="wrap">
         <h2 id="see-h" className="reveal">See what <span className="inline-chip">Tamil Nadu</span> asks.</h2>
         <p className="see-sub reveal">Sample questions. Real ones come after the pilot.</p>
-        <div className="fan" onPointerEnter={() => setAuto(false)}>
+        <div className="fan" onPointerEnter={() => setAuto(false)} onFocus={() => setAuto(false)}>
           {sampleQuestions.map((q, i) => {
             let o = i - front;
             if (o > n / 2) o -= n;
