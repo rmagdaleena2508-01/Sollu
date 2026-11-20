@@ -90,7 +90,7 @@ section[id]{scroll-margin-top:76px}
 .micro{font-size:13px;color:var(--ink-50);font-weight:500;margin-top:14px}
 
 /* sticker */
-.sticker{position:absolute;right:max(var(--gutter),calc((100vw - 1180px)/2 + 32px));top:72px;width:clamp(150px,22vw,300px);aspect-ratio:1;display:grid;place-items:center}
+.sticker{position:absolute;right:max(calc(var(--gutter) + 1px),calc((100vw - 1180px)/2 + 33px));top:73px;width:clamp(150px,22vw,300px);aspect-ratio:1;display:grid;place-items:center}
 .sticker .rings{--dur:4.8s;position:absolute;inset:0;pointer-events:none}
 /* Faint fixed rings underneath, so the sticker never sits on a blank spot. */
 .sticker .rings::before{content:"";position:absolute;inset:0;border-radius:999px;opacity:.55;background:repeating-radial-gradient(circle,rgba(255,75,58,0) 0 10px,rgba(255,75,58,.16) 10px 12px);mask:radial-gradient(circle,#000 40%,transparent 72%);-webkit-mask:radial-gradient(circle,#000 40%,transparent 72%)}
@@ -127,7 +127,9 @@ html:has(.landing){scroll-padding-top:var(--nav-h)}
   .landing > section.hero{
     min-height:calc(100vh - var(--nav-h));
     min-height:calc(100svh - var(--nav-h));
-    display:flex;flex-direction:column;justify-content:center;
+    /* Content starts at the top, so the "Hear it" sticker (placed from the top) sits beside the numbers,
+       not on top of the headline. */
+    display:flex;flex-direction:column;justify-content:flex-start;
     padding:88px 0 64px;
   }
   .landing > section.hero > .wrap{width:100%}
