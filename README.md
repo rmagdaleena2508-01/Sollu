@@ -392,7 +392,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 26 | **Version 2, about 3.7 times the data:** 74 new checked entries, every fact quoted from an official page: 48 schemes (girl child savings, breakfast and noon meals, pensions for deserted wives, unmarried women, disabled and transgender people, job and business loans, farm and fishermen help, bank accounts, insurance, LPG, free accident treatment), 10 rights (consumer, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, workplace harassment, free school seats, cyber fraud) and 16 certificates and services (community, income, nativity, legal heir, birth, death, patta, encumbrance, ration card and more). A new "certificate or service" entry type. | [#29](https://github.com/rmagdaleena2508-01/Sollu/pull/29) |
 | 27 | Fixed: answers from the new version 2 entries showed no source link. The checker now rebuilds the list of source links from every saved source, so all 161 are there. | [#30](https://github.com/rmagdaleena2508-01/Sollu/pull/30) |
 | 28 | **The story first:** this README now opens with the problem, who faces it and why I'm building Sollu, then a 30-second way to try it, before the engineering. Adds a 50-second launch video recorded on the live site (Tamil voice question, a notice photo, the 5-question check, the official source), with a short GIF at the top. | [#31](https://github.com/rmagdaleena2508-01/Sollu/pull/31) |
-| 29 | Fixed: on wide screens the "Hear it" sticker covered the end of the headline. The hero's content starts at the top again, so the sticker sits beside the numbers, nudged 1 px left and 1 px down. | this change |
+| 29 | Fixed: on wide screens the "Hear it" sticker covered the end of the headline. The hero's content starts at the top again, so the sticker sits beside the numbers, nudged 1 px left and 1 px down. | [#32](https://github.com/rmagdaleena2508-01/Sollu/pull/32) |
+| 30 | **A polished icon:** the same winking face, redrawn in the style of an Apple app icon, with a soft blue gradient, a light shine on the top edge and smooth rounded corners. Made with Higgsfield (GPT Image 2.5) from the old icon, then cut out and sized for the logo, browser tab and phone home screen. | this change |
 
 </details>
 
@@ -668,7 +669,7 @@ These are the choices that make Sollu feel like Sollu.
 
 - **Layout ideas:** a lead-generation landing page shot on Dribbble. From it came the big numbers, the icons inside the headline letters, the tilted stickers, the bento cards and the fanned card stack.
 - **Footer idea:** [stickitupx.com](https://stickitupx.com). From it came the giant white wordmark on a blue fade with stickers you can drag, and the idea of a row of face stickers next to the pill at the top. The three faces are drawn for Sollu (one winks, like the Sollu icon).
-- **Icon:** the winking blue face is Sollu's own icon.
+- **Icon:** the winking blue face is Sollu's own icon. The polished version was made with Higgsfield (GPT Image 2.5) from the original icon, keeping the same face.
 - No art or code was copied from either reference. The stickers and icons are drawn as SVG in this repo.
 
 </details>
@@ -744,7 +745,7 @@ In creating this project, I collaborated with **Claude Code (Anthropic's Claude 
 - Finding and fixing the live site crash from the Vercel logs, and making the demo safe in a busy room (saved answers, backup models, busy message, health check)
 - Finding the official page for the new pension amounts and updating the data with word-for-word quotes
 - Writing and running the 22-question test set, type checks, builds and browser checks at phone and desktop size
-- Cutting out the Sollu icon for the logo and browser tab
+- Cutting out the Sollu icon for the logo and browser tab, and later writing the prompt for the polished Apple-style version, making it with Higgsfield (I picked it from 4 options) and sizing it
 - Setting up GitHub and Vercel, and drafting this README, the pull requests and the commit messages, which I then reviewed and approved
 
 **How I reviewed it:** I looked at screenshots and test results at each step and gave direction. The data and the Ask feature each went through a pull request that I approved before merging. Every data entry carries its official source and a review note, and entries that might be out of date are marked "caution" and say so on screen. Anything not built or not confirmed yet is marked 🟠 in [What's real today](#whats-real-today).
