@@ -24,13 +24,17 @@
 
 
 <p align="center">
-  <a href="docs/sollu-launch.mp4"><img src="docs/sollu-launch.gif" alt="Sollu in 50 seconds: a Tamil voice question about a mother's pension answered in 3 lines and read aloud, a notice photo explained, 5 quick taps to see schemes that may fit, and the official source behind every fact" width="100%"></a>
-  <br><sub>▶ <a href="docs/sollu-launch.mp4">Watch the 50-second launch video (with sound)</a></sub>
+  <a href="docs/sollu-launch.mp4"><img src="docs/sollu-launch.gif" alt="The start of the launch video: Sollu's home page on its soft sky background, then the sample question cards turning" width="100%"></a>
+  <br><sub>▶ <a href="docs/sollu-launch.mp4">Watch the 1-minute launch video (with sound)</a>: the home page, a Tamil voice question about a mother's pension answered and read aloud, a notice photo explained, 5 quick taps to see schemes that may fit, and the official source behind every fact</sub>
 </p>
 
 **Sollu** (சொல்லு, *"say it"*) reads government schemes, notices and local laws. Then it explains them in plain Tamil or English. You can ask by voice, check what you can get, and learn your rights.
 
 It starts in **Tamil Nadu**. Then we will scale it to **all of India**, one state at a time.
+
+<p align="center">
+  <img src="docs/hero.jpg" alt="Sollu's home page on desktop and on a phone: 'Know what's yours. In your own words.' on a soft painted sky, with the Hear it sticker and the Ask Sollu and Check a scheme buttons" width="100%">
+</p>
 
 ## The problem
 
@@ -106,7 +110,7 @@ The phone never talks to an AI directly. Every request goes to a small server fu
 ### Voice first, text always
 
 <p align="center">
-  <img src="docs/ask.png" alt="The Ask page on a phone. Left: a big mic button with 'Tap to speak' and sample questions. Right: a Tamil question about a mother's pension and Sollu's 3-line Tamil answer, with a 'confirm at the office' note and the official source." width="100%">
+  <img src="docs/ask.png" alt="The Ask page on a phone. Left: a big mic button with 'Tap to speak' and sample questions. Right: a Tamil question about a mother's pension and Sollu's short Tamil answer (Rs 1,200 a month under the old age pension, apply at a Common Service Centre), with the matching scheme marked 'May fit you'." width="100%">
 </p>
 
 Many people can easily listen to something that is read out loud or read something that is given simply, briefly, and in short. But they find it hard to go through pages of scanned documents which show the schemes or the rights that they can claim.  So the **mic is the biggest thing on the page**, and every answer is **read out loud by itself**. The text box is always there, right next to the mic, for anyone who would rather type or can't use voice.
@@ -398,7 +402,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 32 | A little more air between the two headline lines (2 px below the first, 2 px above the second), so "Know what's yours." and "In your own words." read as two clear lines. | [#35](https://github.com/rmagdaleena2508-01/Sollu/pull/35) |
 | 33 | The AI use statement now says Sollu is a hackathon project for Track 1 (Civic Pulse), problem idea 1, and gives the current count of 101 checked entries. | [#36](https://github.com/rmagdaleena2508-01/Sollu/pull/36) |
 | 34 | Fixed: the sample cards skipped 2 or 3 at a time (auto-play kept running after an arrow tap), and the black card flickered at the start of each move. | [#37](https://github.com/rmagdaleena2508-01/Sollu/pull/37) |
-| 35 | **Sky background:** the hero now sits on a soft painted sky (clouds and a faint rainbow) inside a big rounded card, made with Higgsfield (GPT Image 2.5). A smaller copy loads on phones. | this change |
+| 35 | **Sky background:** the hero now sits on a soft painted sky (clouds and a faint rainbow) inside a big rounded card, made with Higgsfield (GPT Image 2.5). A smaller copy loads on phones. | [#38](https://github.com/rmagdaleena2508-01/Sollu/pull/38) |
+| 36 | **New launch video and screenshots:** the video is re-recorded on the live site and now opens on the new home page (sky background, sample cards turning) before the Ask, photo, Check and source scenes. New GIF, a new home page picture (desktop and phone), and fresh Ask and card screenshots with the new icon and the current Rs 1,200 pension amount. Also fixed: on the home page, the "Ask out loud" card showed dark text in a dark bubble, because the Ask page's mic and bubble styles also load there. | this change |
 
 </details>
 
