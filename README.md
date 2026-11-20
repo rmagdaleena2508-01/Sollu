@@ -393,7 +393,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 27 | Fixed: answers from the new version 2 entries showed no source link. The checker now rebuilds the list of source links from every saved source, so all 161 are there. | [#30](https://github.com/rmagdaleena2508-01/Sollu/pull/30) |
 | 28 | **The story first:** this README now opens with the problem, who faces it and why I'm building Sollu, then a 30-second way to try it, before the engineering. Adds a 50-second launch video recorded on the live site (Tamil voice question, a notice photo, the 5-question check, the official source), with a short GIF at the top. | [#31](https://github.com/rmagdaleena2508-01/Sollu/pull/31) |
 | 29 | Fixed: on wide screens the "Hear it" sticker covered the end of the headline. The hero's content starts at the top again, so the sticker sits beside the numbers, nudged 1 px left and 1 px down. | [#32](https://github.com/rmagdaleena2508-01/Sollu/pull/32) |
-| 30 | **A polished icon:** the same winking face, redrawn in the style of an Apple app icon, with a soft blue gradient, a light shine on the top edge and smooth rounded corners. Made with Higgsfield (GPT Image 2.5) from the old icon, then cut out and sized for the logo, browser tab and phone home screen. | this change |
+| 30 | **A polished icon:** the same winking face, redrawn in the style of an Apple app icon, with a soft blue gradient, a light shine on the top edge and smooth rounded corners. Made with Higgsfield (GPT Image 2.5) from the old icon, then cut out and sized for the logo, browser tab and phone home screen. | [#33](https://github.com/rmagdaleena2508-01/Sollu/pull/33) |
+| 31 | The link preview image (shown when Sollu is shared on WhatsApp, X or LinkedIn) is a fresh screenshot of the live home page, so it shows the new icon. | this change |
 
 </details>
 
