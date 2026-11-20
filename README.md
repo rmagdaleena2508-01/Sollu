@@ -358,7 +358,7 @@ What people can now ask about, in Tamil or English:
 ## Build log
 
 <details>
-<summary><b>Everything that changed, one pull request at a time (28 steps)</b></summary>
+<summary><b>Everything that changed, one pull request at a time (29 steps)</b></summary>
 
 Everything that has changed so far, newest last, and every problem I hit on the way.
 
@@ -391,7 +391,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 25 | **Search highlight:** the home page title, description and search keywords now lead with "multilingual policy, rights and scheme explainer": AI that reads government notices, welfare schemes and local laws and explains them in simple language, so people in Tamil Nadu can check their scheme eligibility and understand their rights. Adds WebApplication structured data. | [#28](https://github.com/rmagdaleena2508-01/Sollu/pull/28) |
 | 26 | **Version 2, about 3.7 times the data:** 74 new checked entries, every fact quoted from an official page: 48 schemes (girl child savings, breakfast and noon meals, pensions for deserted wives, unmarried women, disabled and transgender people, job and business loans, farm and fishermen help, bank accounts, insurance, LPG, free accident treatment), 10 rights (consumer, domestic violence, dowry, maternity leave, child marriage, free legal aid, parents' maintenance, workplace harassment, free school seats, cyber fraud) and 16 certificates and services (community, income, nativity, legal heir, birth, death, patta, encumbrance, ration card and more). A new "certificate or service" entry type. | [#29](https://github.com/rmagdaleena2508-01/Sollu/pull/29) |
 | 27 | Fixed: answers from the new version 2 entries showed no source link. The checker now rebuilds the list of source links from every saved source, so all 161 are there. | [#30](https://github.com/rmagdaleena2508-01/Sollu/pull/30) |
-| 28 | **The story first:** this README now opens with the problem, who faces it and why I'm building Sollu, then a 30-second way to try it, before the engineering. Adds a 50-second launch video recorded on the live site (Tamil voice question, a notice photo, the 5-question check, the official source), with a short GIF at the top. | this change |
+| 28 | **The story first:** this README now opens with the problem, who faces it and why I'm building Sollu, then a 30-second way to try it, before the engineering. Adds a 50-second launch video recorded on the live site (Tamil voice question, a notice photo, the 5-question check, the official source), with a short GIF at the top. | [#31](https://github.com/rmagdaleena2508-01/Sollu/pull/31) |
+| 29 | Fixed: on wide screens the "Hear it" sticker covered the end of the headline. The hero's content starts at the top again, so the sticker sits beside the numbers, nudged 1 px left and 1 px down. | this change |
 
 </details>
 
