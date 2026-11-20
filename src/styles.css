@@ -67,6 +67,13 @@ section[id]{scroll-margin-top:76px}
 
 /* ---------- hero ---------- */
 .hero{position:relative;padding:56px 0 40px}
+/* Sky background, placed like cap.so: a big rounded card just inside the page edges, starting under the top bar.
+   It sits behind everything in the hero, so nothing else moves. */
+.hero{isolation:isolate}
+.hero::before{content:"";position:absolute;z-index:-1;inset:12px 12px 0;border-radius:20px;background:#cfe0f2 url(/hero-sky-sm.jpg) center/cover no-repeat}
+@media (min-width:768px){.hero::before{inset:16px 20px 0;border-radius:28px;background-image:url(/hero-sky.jpg)}}
+/* Phones: keep the words a little further in from the card's edge. */
+@media (max-width:767px){.hero > .wrap{padding:0 28px}}
 @media (min-width:768px){.hero{padding:88px 0 64px}}
 .stats{display:flex;gap:32px;margin-bottom:28px}
 .stat b{display:block;font-size:clamp(34px,4.6vw,52px);font-weight:400;letter-spacing:-.04em;line-height:1}

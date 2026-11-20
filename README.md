@@ -396,7 +396,9 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 30 | **A polished icon:** the same winking face, redrawn in the style of an Apple app icon, with a soft blue gradient, a light shine on the top edge and smooth rounded corners. Made with Higgsfield (GPT Image 2.5) from the old icon, then cut out and sized for the logo, browser tab and phone home screen. | [#33](https://github.com/rmagdaleena2508-01/Sollu/pull/33) |
 | 31 | The link preview image (shown when Sollu is shared on WhatsApp, X or LinkedIn) is a fresh screenshot of the live home page, so it shows the new icon. | [#34](https://github.com/rmagdaleena2508-01/Sollu/pull/34) |
 | 32 | A little more air between the two headline lines (2 px below the first, 2 px above the second), so "Know what's yours." and "In your own words." read as two clear lines. | [#35](https://github.com/rmagdaleena2508-01/Sollu/pull/35) |
-| 33 | The AI use statement now says Sollu is a hackathon project for Track 1 (Civic Pulse), problem idea 1, and gives the current count of 101 checked entries. | this change |
+| 33 | The AI use statement now says Sollu is a hackathon project for Track 1 (Civic Pulse), problem idea 1, and gives the current count of 101 checked entries. | [#36](https://github.com/rmagdaleena2508-01/Sollu/pull/36) |
+| 34 | Fixed: the sample cards skipped 2 or 3 at a time (auto-play kept running after an arrow tap), and the black card flickered at the start of each move. | [#37](https://github.com/rmagdaleena2508-01/Sollu/pull/37) |
+| 35 | **Sky background:** the hero now sits on a soft painted sky (clouds and a faint rainbow) inside a big rounded card, made with Higgsfield (GPT Image 2.5). A smaller copy loads on phones. | this change |
 
 </details>
 
