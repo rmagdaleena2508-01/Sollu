@@ -81,7 +81,8 @@ section[id]{scroll-margin-top:76px}
 .blob + .blob{margin-left:-.12em}
 .chip-ico{display:inline-grid;place-items:center;width:.42em;height:.42em;border-radius:.1em;background:var(--coral);color:#fff;vertical-align:.08em;margin:0 .08em;transform:rotate(-8deg)}
 .chip-ico svg{width:.26em;height:.26em}
-.hero h1 em{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.02em;letter-spacing:-.035em;color:var(--ink-72)}
+/* The second line sits on its own row, with a little air from the first (2 px below it + 2 px above this). */
+.hero h1 em{display:block;margin-top:4px;font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.02em;letter-spacing:-.035em;color:var(--ink-72)}
 .joined{display:inline-flex;align-items:center;gap:8px;margin-bottom:20px;padding:4px 12px 4px 4px;border-radius:999px;background:var(--surface);font-size:13px;font-weight:500;color:var(--ink-72)}
 .joined .faces{flex:none;height:30px;width:auto;filter:drop-shadow(0 1px 1.5px rgba(17,17,17,.18))}
 .hero-sub{margin-top:28px;max-width:720px;padding:18px 20px;border-radius:16px;background:var(--surface);font-family:var(--serif);font-size:19px;line-height:1.5;letter-spacing:-.015em;color:var(--ink-72)}
