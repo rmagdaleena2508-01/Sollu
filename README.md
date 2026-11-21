@@ -223,6 +223,10 @@ Voice is the front door, so it can't be the only door. Every step has a backup, 
 
 I asked Sollu "What is 2 + 2?" It didn't answer. The AI can only pick schemes from my checked list. If nothing matches, my TypeScript code sends a fixed "I'm not sure" reply, and the AI writes nothing.
 
+<p align="center">
+  <img src="docs/ask-offtopic.png" alt="Sollu on a phone. The question 'What is 2 + 2?' gets the fixed reply: 'I'm not sure about this one. I only answer from government pages we have checked. For help, visit your nearest e-Sevai centre, or the free legal aid office at your district court.'" width="420">
+</p>
+
 ## How I built it
 
 These are the choices I made as a full-stack engineer, and why.
@@ -409,7 +413,8 @@ Everything that has changed so far, newest last, and every problem I hit on the 
 | 35 | **Sky background:** the hero now sits on a soft painted sky (clouds and a faint rainbow) inside a big rounded card, made with Higgsfield (GPT Image 2.5). A smaller copy loads on phones. | [#38](https://github.com/rmagdaleena2508-01/Sollu/pull/38) |
 | 36 | **New launch video and screenshots:** the video is re-recorded on the live site and now opens on the new home page (sky background, sample cards turning) before the Ask, photo, Check and source scenes. New GIF, a new home page picture (desktop and phone), and fresh Ask and card screenshots with the new icon and the current Rs 1,200 pension amount. Also fixed: on the home page, the "Ask out loud" card showed dark text in a dark bubble, because the Ask page's mic and bubble styles also load there. | [#39](https://github.com/rmagdaleena2508-01/Sollu/pull/39) |
 | 37 | The banner at the top of this README now shows the whole "Sollu" word. It used to be cut off at the bottom, because it was a screenshot of the site footer, where the word runs off the page on purpose. Retaken from the live site with the footer made taller, and without the "Drag the stickers" hint. | [#40](https://github.com/rmagdaleena2508-01/Sollu/pull/40) |
-| 38 | New "Hard to trick" note under When things fail: an off-topic question like "What is 2 + 2?" matches no checked entry, so the code sends a fixed "I'm not sure" reply and the AI writes nothing. | this change |
+| 38 | New "Hard to trick" note under When things fail: an off-topic question like "What is 2 + 2?" matches no checked entry, so the code sends a fixed "I'm not sure" reply and the AI writes nothing. | [#41](https://github.com/rmagdaleena2508-01/Sollu/pull/41) |
+| 39 | A screenshot of that "I'm not sure" reply, under Hard to trick. Also fixed: that fixed reply said "Written by AI from checked government pages" underneath, which wasn't true, because our code writes it, not the AI. The note is now left off that reply. | this change |
 
 </details>
 
