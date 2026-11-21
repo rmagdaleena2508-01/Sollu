@@ -79,7 +79,10 @@ export function AnswerCard({ res, uiLang, playing, loadingAudio, onPlay }: Props
           </span>
           {loadingAudio ? '…' : playing ? t.stop : t.hear}
         </button>
-        <p className="answer-ai">{res.photo ? (res.photo.checked ? t.photoChecked : t.photoNote) : t.aiNote}</p>
+        {/* The "I'm not sure" reply is fixed text from our code, not written by AI, so it gets no AI note. */}
+        {(res.photo || res.kind !== 'not_sure') && (
+          <p className="answer-ai">{res.photo ? (res.photo.checked ? t.photoChecked : t.photoNote) : t.aiNote}</p>
+        )}
       </div>
     </article>
   );
